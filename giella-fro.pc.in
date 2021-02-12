@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+datadir=@datarootdir@
+gtlang=fro
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-fro
+Description: Finite-state language processing tools for Old French
+URL: https://giellalt.uit.no/index.html
+Version: @VERSION@
