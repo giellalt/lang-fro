@@ -1,15 +1,51 @@
 !! Noun inflection
 !  ---------------
 !! The Old French language nouns inflect in cases.
+Multichar_Symbols
++N +Nom, +Obl, +Masc, +Fem, +Neut, +Sg, +Pl, +C1, +C2, +C3
+@U.genclass.F1@
+@U.genclass.F2@
+@U.genclass.F3@
+@U.genclass.M1a@
+@U.genclass.M1b@
+@U.genclass.M2@
+@U.genclass.M3@
 
 LEXICON Cases
- +N+Sg+nom:0   #     ;
- +N+Pl+nom:i   #     ;
- +N+Sg+loc:as  #     ;
- +N+Pl+loc:ias #     ;
- +N+Sg+acc:at  #     ;
- +N+Pl+acc:iat #     ;
-         #:0   Nouns ;
+LEXICON NSuff
+@U.genclass.F1@+N+Fem+C1+Nom+Sg:@U.genclass.F1@e # ;
+@U.genclass.F1@+N+Fem+C1+Obl+Sg:@U.genclass.F1@e # ;
+@U.genclass.F1@+N+Fem+C1+Nom+Pl:@U.genclass.F1@es # ;
+@U.genclass.F1@+N+Fem+C1+Obl+Pl:@U.genclass.F1@es # ;
 
+@U.genclass.F2@+N+Fem+C2+Nom+Sg:@U.genclass.F2@ # ;
+@U.genclass.F2@+N+Fem+C2+Obl+Sg:@U.genclass.F2@ # ;
+@U.genclass.F2@+N+Fem+C2+Nom+Pl:@U.genclass.F2@s # ;
+@U.genclass.F2@+N+Fem+C2+Obl+Pl:@U.genclass.F2@s # ;
+
+@U.genclass.F3@+N+Fem+C3+Nom+Sg:@U.genclass.F3@ # ;
+@U.genclass.F3@+N+Fem+C3+Obl+Sg:@U.genclass.F3@ # ;
+@U.genclass.F3@+N+Fem+C3+Nom+Pl:@U.genclass.F3@s # ;
+@U.genclass.F3@+N+Fem+C3+Obl+Pl:@U.genclass.F3@s # ;
+
+@U.genclass.M1a@+N+Masc+C1a+Nom+Sg:@U.genclass.M1a@s # ;
+@U.genclass.M1a@+N+Masc+C1a+Obl+Sg:@U.genclass.M1a@ # ;
+@U.genclass.M1a@+N+Masc+C1a+Nom+Pl:@U.genclass.M1a@ # ;
+@U.genclass.M1a@+N+Masc+C1a+Obl+Pl:@U.genclass.M1a@s # ;
+
+@U.genclass.M1b@+N+Masc+C1b+Nom+Sg:@U.genclass.M1b@es # ;
+@U.genclass.M1b@+N+Masc+C1b+Obl+Sg:@U.genclass.M1b@e # ;
+@U.genclass.M1b@+N+Masc+C1b+Nom+Pl:@U.genclass.M1b@e # ;
+@U.genclass.M1b@+N+Masc+C1b+Obl+Pl:@U.genclass.M1b@es # ;
+
+@U.genclass.M2@+N+Masc+C2+Nom+Sg:@U.genclass.M2@e # ;
+@U.genclass.M2@+N+Masc+C2+Obl+Sg:@U.genclass.M2@e # ;
+@U.genclass.M2@+N+Masc+C2+Nom+Pl:@U.genclass.M2@e # ;
+@U.genclass.M2@+N+Masc+C2+Obl+Pl:@U.genclass.M2@es # ;
+
+@U.genclass.M3@+N+Masc+C3+Nom+Sg:@U.genclass.M3@ # ;
+@U.genclass.M3@+N+Masc+C3+Obl+Sg:@U.genclass.M3@ # ;
+@U.genclass.M3@+N+Masc+C3+Nom+Pl:@U.genclass.M3@ # ;
+@U.genclass.M3@+N+Masc+C3+Obl+Pl:@U.genclass.M3@s # ;
 ! vim: set ft=xfst-lexc:
 
