@@ -2,6 +2,7 @@
 !  -----
 !! Nouns in the Old French language are things.
 Multichar_Symbols
++N +Nom, +Obl, +Masc, +Fem, +Neut, +Sg, +Pl, +C1, +C2, +C3
 @U.genclass.F1@
 @U.genclass.F2@
 @U.genclass.F3@

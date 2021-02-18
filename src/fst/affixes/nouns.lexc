@@ -1,17 +1,8 @@
 !! Noun inflection
 !  ---------------
 !! The Old French language nouns inflect in cases.
-Multichar_Symbols
-+N +Nom, +Obl, +Masc, +Fem, +Neut, +Sg, +Pl, +C1, +C2, +C3
-@U.genclass.F1@
-@U.genclass.F2@
-@U.genclass.F3@
-@U.genclass.M1a@
-@U.genclass.M1b@
-@U.genclass.M2@
-@U.genclass.M3@
 
-LEXICON Cases
+
 LEXICON NSuff
 @U.genclass.F1@+N+Fem+C1+Nom+Sg:@U.genclass.F1@e # ;
 @U.genclass.F1@+N+Fem+C1+Obl+Sg:@U.genclass.F1@e # ;
