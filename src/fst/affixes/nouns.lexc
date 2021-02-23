@@ -40,3 +40,8 @@ LEXICON NSuff
 @U.genclass.M3@+N+Masc+C3+Obl+Pl:@U.genclass.M3@s # ;
 ! vim: set ft=xfst-lexc:
 
+!!€gt-norm: nouns
+!!€ fille:    fill+N+Fem+C1+Nom+Sg
+!!€ filles:    fill+N+Fem+C1+Obl+Sg
+!!€ filles:    fill+N+Fem+C1+Nom+Pl
+!!€ filles:    fill+N+Fem+C1+Obl+Pl
