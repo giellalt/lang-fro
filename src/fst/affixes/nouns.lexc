@@ -3,41 +3,62 @@
 !! The Old French language nouns inflect in cases.
 
 
-LEXICON NSuff
-@U.genclass.F1@+N+Fem+C1+Nom+Sg:@U.genclass.F1@e # ;
-@U.genclass.F1@+N+Fem+C1+Obl+Sg:@U.genclass.F1@e # ;
-@U.genclass.F1@+N+Fem+C1+Nom+Pl:@U.genclass.F1@es # ;
-@U.genclass.F1@+N+Fem+C1+Obl+Pl:@U.genclass.F1@es # ;
+LEXICON FC1
+@U.class.F1@+N+F+C1:@U.class.F1@ Suff ;
 
-@U.genclass.F2@+N+Fem+C2+Nom+Sg:@U.genclass.F2@ # ;
-@U.genclass.F2@+N+Fem+C2+Obl+Sg:@U.genclass.F2@ # ;
-@U.genclass.F2@+N+Fem+C2+Nom+Pl:@U.genclass.F2@s # ;
-@U.genclass.F2@+N+Fem+C2+Obl+Pl:@U.genclass.F2@s # ;
+LEXICON FC2
+@U.class.F2@+N+F+C2:@U.class.F2@ Suff ;
 
-@U.genclass.F3@+N+Fem+C3+Nom+Sg:@U.genclass.F3@ # ;
-@U.genclass.F3@+N+Fem+C3+Obl+Sg:@U.genclass.F3@ # ;
-@U.genclass.F3@+N+Fem+C3+Nom+Pl:@U.genclass.F3@s # ;
-@U.genclass.F3@+N+Fem+C3+Obl+Pl:@U.genclass.F3@s # ;
+LEXICON FC3
+@U.class.F3@+N+F+C3:@U.class.F3@ Suff ;
 
-@U.genclass.M1a@+N+Masc+C1a+Nom+Sg:@U.genclass.M1a@s # ;
-@U.genclass.M1a@+N+Masc+C1a+Obl+Sg:@U.genclass.M1a@ # ;
-@U.genclass.M1a@+N+Masc+C1a+Nom+Pl:@U.genclass.M1a@ # ;
-@U.genclass.M1a@+N+Masc+C1a+Obl+Pl:@U.genclass.M1a@s # ;
+LEXICON MC1a
+@U.class.M1a@+N+M+C1a:@U.class.M1a@ Suff ;
 
-@U.genclass.M1b@+N+Masc+C1b+Nom+Sg:@U.genclass.M1b@es # ;
-@U.genclass.M1b@+N+Masc+C1b+Obl+Sg:@U.genclass.M1b@e # ;
-@U.genclass.M1b@+N+Masc+C1b+Nom+Pl:@U.genclass.M1b@e # ;
-@U.genclass.M1b@+N+Masc+C1b+Obl+Pl:@U.genclass.M1b@es # ;
+LEXICON MC1b
+@U.class.M1b@+N+M+C1b:@U.class.M1b@ Suff ;
 
-@U.genclass.M2@+N+Masc+C2+Nom+Sg:@U.genclass.M2@e # ;
-@U.genclass.M2@+N+Masc+C2+Obl+Sg:@U.genclass.M2@e # ;
-@U.genclass.M2@+N+Masc+C2+Nom+Pl:@U.genclass.M2@e # ;
-@U.genclass.M2@+N+Masc+C2+Obl+Pl:@U.genclass.M2@es # ;
+LEXICON MC2
+@U.class.M2@+N+M+C2:@U.class.M2@ Suff ;
 
-@U.genclass.M3@+N+Masc+C3+Nom+Sg:@U.genclass.M3@ # ;
-@U.genclass.M3@+N+Masc+C3+Obl+Sg:@U.genclass.M3@ # ;
-@U.genclass.M3@+N+Masc+C3+Nom+Pl:@U.genclass.M3@ # ;
-@U.genclass.M3@+N+Masc+C3+Obl+Pl:@U.genclass.M3@s # ;
+LEXICON MC3
+@U.class.M3@+N+M+C3:@U.class.M3@ Suff ;
+
+LEXICON Suff
+@U.class.F1@+Nom+Sg:@U.class.F1@e # ;
+@U.class.F1@+Obl+Sg:@U.class.F1@e # ;
+@U.class.F1@+Nom+Pl:@U.class.F1@es # ;
+@U.class.F1@+Obl+Pl:@U.class.F1@es # ;
+
+@U.class.F2@+Nom+Sg:@U.class.F2@ # ;
+@U.class.F2@+Obl+Sg:@U.class.F2@ # ;
+@U.class.F2@+Nom+Pl:@U.class.F2@s # ;
+@U.class.F2@+Obl+Pl:@U.class.F2@s # ;
+
+@U.class.F3@+Nom+Sg:@U.class.F3@ # ;
+@U.class.F3@+Obl+Sg:@U.class.F3@ # ;
+@U.class.F3@+Nom+Pl:@U.class.F3@s # ;
+@U.class.F3@+Obl+Pl:@U.class.F3@s # ;
+
+@U.class.M1a@+Nom+Sg:@U.class.M1a@s # ;
+@U.class.M1a@+Obl+Sg:@U.class.M1a@ # ;
+@U.class.M1a@+Nom+Pl:@U.class.M1a@ # ;
+@U.class.M1a@+Obl+Pl:@U.class.M1a@s # ;
+
+@U.class.M1b@+Nom+Sg:@U.class.M1b@es # ;
+@U.class.M1b@+Obl+Sg:@U.class.M1b@e # ;
+@U.class.M1b@+Nom+Pl:@U.class.M1b@e # ;
+@U.class.M1b@+Obl+Pl:@U.class.M1b@es # ;
+
+@U.class.M2@+Nom+Sg:@U.class.M2@e # ;
+@U.class.M2@+Obl+Sg:@U.class.M2@e # ;
+@U.class.M2@+Nom+Pl:@U.class.M2@e # ;
+@U.class.M2@+Obl+Pl:@U.class.M2@es # ;
+
+@U.class.M3@+Nom+Sg:@U.class.M3@ # ;
+@U.class.M3@+Obl+Sg:@U.class.M3@ # ;
+@U.class.M3@+Nom+Pl:@U.class.M3@ # ;
+@U.class.M3@+Obl+Pl:@U.class.M3@s # ;
 ! vim: set ft=xfst-lexc:
 
 !!€gt-norm: nouns

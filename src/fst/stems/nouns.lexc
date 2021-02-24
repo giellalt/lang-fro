@@ -3,13 +3,12 @@
 !! Nouns in the Old French language are things.
 
 LEXICON Nouns
-fill@U.genclass.F1@:@U.genclass.F1@fill NSuff ;
-vertut@U.genclass.F2@:@U.genclass.F2@vertut NSuff ;
-serour@U.genclass.F3@:@U.genclass.F3@serour NSuff ;
-mur@U.genclass.M1a@:@U.genclass.M1a@mur NSuff ;
-asn@U.genclass.M1b@:@U.genclass.M1b@asn NSuff ;
-pedr@U.genclass.M2@:@U.genclass.M2@pedr NSuff ;
-ome@U.genclass.M3@:@U.genclass.M3@ome NSuff ;
-mur@U.genclass.M1a@:@U.genclass.M1a@mur NSuff ;
+fill FC1 ;
+vertut FC2 ;
+serour FC3 ;
+mur MC1a ;
+asn MC1b ;
+pedr MC2 ;
+ome MC3 ;
 
 ! vim: set ft=xfst-lexc:

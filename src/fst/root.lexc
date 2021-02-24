@@ -1,9 +1,9 @@
 Multichar_Symbols
 +N +Nom, +Obl, +Masc, +Fem, +Neut, +Sg, +Pl, +C1, +C2, +C3
-@U.genclass.F1@
-@U.genclass.F2@
-@U.genclass.F3@
-@U.genclass.M1a@
-@U.genclass.M1b@
-@U.genclass.M2@
-@U.genclass.M3@
+@U.class.F1@
+@U.class.F2@
+@U.class.F3@
+@U.class.M1a@
+@U.class.M1b@
+@U.class.M2@
+@U.class.M3@
