@@ -7,6 +7,7 @@ Multichar_Symbols
 @U.class.M1b@
 @U.class.M2@
 @U.class.M3@
+CLB, Err/Orth, LEFT, PUNCT, RIGHT ! Punctuation tags
 
 LEXICON Root
 Nouns ;
