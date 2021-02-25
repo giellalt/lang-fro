@@ -21,8 +21,8 @@ Tests:
     vertut+N+Fem+C2+Obl+Pl: vertuts #
 
   Noun - serour - ok : #
-    serour+N+Fem+C2+Nom+Sg: serour #
-    serour+N+Fem+C2+Obl+Sg: serour #
-    serour+N+Fem+C2+Nom+Pl: serours #
-    serour+N+Fem+C2+Obl+Pl: serours #
+    serour+N+Fem+C3+Nom+Sg: serour #
+    serour+N+Fem+C3+Obl+Sg: serour #
+    serour+N+Fem+C3+Nom+Pl: serours #
+    serour+N+Fem+C3+Obl+Pl: serours #
 
