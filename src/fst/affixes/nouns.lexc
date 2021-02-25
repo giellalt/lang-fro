@@ -4,61 +4,46 @@
 
 
 LEXICON FC1
-@U.class.F1@+N+F+C1:@U.class.F1@ Suff ;
++N+F+C1+Nom+Sg:e # ;
++N+F+C1+Obl+Sg:e # ;
++N+F+C1+Nom+Pl:es # ;
+N+F+C1+Obl+Pl:es # ;
 
 LEXICON FC2
-@U.class.F2@+N+F+C2:@U.class.F2@ Suff ;
++N+F+C2+Nom+Sg:0 # ;
++N+F+C2+Obl+Sg:0 # ;
++N+F+C2+Nom+Pl:s # ;
++N+F+C2+Obl+Pl:s # ;
 
 LEXICON FC3
-@U.class.F3@+N+F+C3:@U.class.F3@ Suff ;
++N+F+C3+Nom+Sg:0 # ;
++N+F+C3+Obl+Sg:0 # ;
++N+F+C3+Nom+Pl:s # ;
++N+F+C3+Obl+Pl:s # ;
 
 LEXICON MC1a
-@U.class.M1a@+N+M+C1a:@U.class.M1a@ Suff ;
++N+M+C1a+Nom+Sg:s # ;
++N+M+C1a+Obl+Sg:0 # ;
++N+M+C1a+Nom+Pl:0 # ;
++N+M+C1a+Obl+Pl:s # ;
 
 LEXICON MC1b
-@U.class.M1b@+N+M+C1b:@U.class.M1b@ Suff ;
++N+M+C1b+Nom+Sg:es # ;
++N+M+C1b+Obl+Sg:e # ;
++N+M+C1b+Nom+Pl:e # ;
++N+M+C1b+Obl+Pl:es # ;
 
 LEXICON MC2
-@U.class.M2@+N+M+C2:@U.class.M2@ Suff ;
++N+M+C2+Nom+Sg:e # ;
++N+M+C2+Obl+Sg:e # ;
++N+M+C2+Nom+Pl:e # ;
++N+M+C2+Obl+Pl:es # ;
 
 LEXICON MC3
-@U.class.M3@+N+M+C3:@U.class.M3@ Suff ;
-
-LEXICON Suff
-@U.class.F1@+Nom+Sg:@U.class.F1@e # ;
-@U.class.F1@+Obl+Sg:@U.class.F1@e # ;
-@U.class.F1@+Nom+Pl:@U.class.F1@es # ;
-@U.class.F1@+Obl+Pl:@U.class.F1@es # ;
-
-@U.class.F2@+Nom+Sg:@U.class.F2@ # ;
-@U.class.F2@+Obl+Sg:@U.class.F2@ # ;
-@U.class.F2@+Nom+Pl:@U.class.F2@s # ;
-@U.class.F2@+Obl+Pl:@U.class.F2@s # ;
-
-@U.class.F3@+Nom+Sg:@U.class.F3@ # ;
-@U.class.F3@+Obl+Sg:@U.class.F3@ # ;
-@U.class.F3@+Nom+Pl:@U.class.F3@s # ;
-@U.class.F3@+Obl+Pl:@U.class.F3@s # ;
-
-@U.class.M1a@+Nom+Sg:@U.class.M1a@s # ;
-@U.class.M1a@+Obl+Sg:@U.class.M1a@ # ;
-@U.class.M1a@+Nom+Pl:@U.class.M1a@ # ;
-@U.class.M1a@+Obl+Pl:@U.class.M1a@s # ;
-
-@U.class.M1b@+Nom+Sg:@U.class.M1b@es # ;
-@U.class.M1b@+Obl+Sg:@U.class.M1b@e # ;
-@U.class.M1b@+Nom+Pl:@U.class.M1b@e # ;
-@U.class.M1b@+Obl+Pl:@U.class.M1b@es # ;
-
-@U.class.M2@+Nom+Sg:@U.class.M2@e # ;
-@U.class.M2@+Obl+Sg:@U.class.M2@e # ;
-@U.class.M2@+Nom+Pl:@U.class.M2@e # ;
-@U.class.M2@+Obl+Pl:@U.class.M2@es # ;
-
-@U.class.M3@+Nom+Sg:@U.class.M3@ # ;
-@U.class.M3@+Obl+Sg:@U.class.M3@ # ;
-@U.class.M3@+Nom+Pl:@U.class.M3@ # ;
-@U.class.M3@+Obl+Pl:@U.class.M3@s # ;
++N+M+C3+Nom+Sg:0 # ;
++N+M+C3+Obl+Sg:0 # ;
++N+M+C3+Nom+Pl:0 # ;
++N+M+C3+Obl+Pl:s # ;
 ! vim: set ft=xfst-lexc:
 
 !!€gt-norm: nouns
