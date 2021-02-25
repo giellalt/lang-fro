@@ -7,7 +7,7 @@ LEXICON FC1
 +N+F+C1+Nom+Sg:e # ;
 +N+F+C1+Obl+Sg:e # ;
 +N+F+C1+Nom+Pl:es # ;
-N+F+C1+Obl+Pl:es # ;
++N+F+C1+Obl+Pl:es # ;
 
 LEXICON FC2
 +N+F+C2+Nom+Sg:0 # ;
