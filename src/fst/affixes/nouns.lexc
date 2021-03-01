@@ -47,7 +47,7 @@ LEXICON MC3
 ! vim: set ft=xfst-lexc:
 
 !!€gt-norm: nouns
-!!€ fille:    fill+N+Fem+C1+Nom+Sg
-!!€ fille:    fill+N+Fem+C1+Obl+Sg
-!!€ filles:    fill+N+Fem+C1+Nom+Pl
-!!€ filles:    fill+N+Fem+C1+Obl+Pl
+!!€ fille:    fill+N+F+C1+Nom+Sg
+!!€ fille:    fill+N+F+C1+Obl+Sg
+!!€ filles:    fill+N+F+C1+Nom+Pl
+!!€ filles:    fill+N+F+C1+Obl+Pl

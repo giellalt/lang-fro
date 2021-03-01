@@ -9,20 +9,20 @@ Config:
 
 Tests:
   Noun - fill - ok : # -m animate noun
-    fill+N+Fem+C1+Nom+Sg: fille # this is a comment
-    fill+N+Fem+C1+Obl+Sg: fille #
-    fill+N+Fem+C1+Nom+Pl: filles #
-    fill+N+Fem+C1+Obl+Pl: filles #
+    fill+N+F+C1+Nom+Sg: fille # this is a comment
+    fill+N+F+C1+Obl+Sg: fille #
+    fill+N+F+C1+Nom+Pl: filles #
+    fill+N+F+C1+Obl+Pl: filles #
 
   Noun - vertut - ok : #
-    vertut+N+Fem+C2+Nom+Sg: vertut #
-    vertut+N+Fem+C2+Obl+Sg: vertut #
-    vertut+N+Fem+C2+Nom+Pl: vertuts #
-    vertut+N+Fem+C2+Obl+Pl: vertuts #
+    vertut+N+F+C2+Nom+Sg: vertut #
+    vertut+N+F+C2+Obl+Sg: vertut #
+    vertut+N+F+C2+Nom+Pl: vertuts #
+    vertut+N+F+C2+Obl+Pl: vertuts #
 
   Noun - serour - ok : #
-    serour+N+Fem+C3+Nom+Sg: serour #
-    serour+N+Fem+C3+Obl+Sg: serour #
-    serour+N+Fem+C3+Nom+Pl: serours #
-    serour+N+Fem+C3+Obl+Pl: serours #
+    serour+N+F+C3+Nom+Sg: serour #
+    serour+N+F+C3+Obl+Sg: serour #
+    serour+N+F+C3+Nom+Pl: serours #
+    serour+N+F+C3+Obl+Pl: serours #
 
