@@ -1,0 +1,61 @@
+!! Verb Inflection
+
+
+LEXICON RegEr
++V+Inf:er # ;
++V+Pres+Ptc:ant
++V+Past+Ptc:e
+
++V+1s+Pres+Ind:0 # ;
++V+2s+Pres+Ind:es # ;
++V+3s+Pres+Ind:e # ;
++V+1p+Pres+Ind:ons # ;
++V+2p+Pres+Ind:ez # ;
++V+3p+Pres+Ind:ent # ;
+
++V+1s+SPast+Ind:ai # ;
++V+2s+SPast+Ind:as # ;
++V+3s+SPast+Ind:a # ;
++V+1p+SPast+Ind:ames # ;
++V+2p+SPast+Ind:astes # ;
++V+3p+SPast+Ind:erent # ;
+
++V+1s+Ipfv+Ind:oie # ;
++V+2s+Ipfv+Ind:ois # ;
++V+3s+Ipfv+Ind:oit # ;
++V+1p+Ipfv+Ind:iiens # ;
++V+2p+Ipfv+Ind:iiez # ;
++V+3p+Ipfv+Ind:oient # ;
+
++V+1s+Fut+Ind:erai # ;
++V+2s+Fut+Ind:eras # ;
++V+3s+Fut+Ind:era # ;
++V+1p+Fut+Ind:erons # ;
++V+2p+Fut+Ind:erez # ;
++V+3p+Fut+Ind:eront # ;
+
++V+1s+Pres+Sbjv:0 # ;
++V+2s+Pres+Sbjv:s # ;
++V+3s+Pres+Sbjv:t # ;
++V+1p+Pres+Sbjv:ons # ;
++V+2p+Pres+Sbjv:ez # ;
++V+3p+Pres+Sbjv:ent # ;
+
++V+1s+Ipfv+Sbjv:asse # ;
++V+2s+Ipfv+Sbjv:asses # ;
++V+3s+Ipfv+Sbjv:ast # ;
++V+1p+Ipfv+Sbjv:issons # ;
++V+2p+Ipfv+Sbjv:issez # ;
++V+3p+Ipfv+Sbjv:assent # ;
+
++V+1s+Pres+Cond:oie # ;
++V+2s+Pres+Cond:ois # ;
++V+3s+Pres+Cond:oit # ;
++V+1p+Pres+Cond:iions # ;
++V+2p+Pres+Cond:iiez # ;
++V+3p+Pres+Cond:oient # ;
+
++V+2s+Pres+Imp:e # ;
++V+1p+Pres+Imp:ons # ;
++V+2p+Pres+Imp:ez # ;
+

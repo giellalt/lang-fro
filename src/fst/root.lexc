@@ -1,5 +1,7 @@
 Multichar_Symbols
 +N +Nom, +Obl, +Masc, +Fem, +Sg, +Pl, +C1, +C1a, +C1b, +C2, +C3
++V, +1s, +1p, +2s, +2p, +3s, +3p, +Pres, +SPast, +Past, +Fut, +Ptc
++Ind, +Sbjv, +Cond, +Imp
 @U.class.F1@
 @U.class.F2@
 @U.class.F3@
@@ -11,3 +13,4 @@ Multichar_Symbols
 
 LEXICON Root
 Nouns ;
+Verbs ;
