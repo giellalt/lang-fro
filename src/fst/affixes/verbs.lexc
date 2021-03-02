@@ -3,8 +3,8 @@
 
 LEXICON RegEr
 +V+Inf:er # ;
-+V+Pres+Ptc:ant
-+V+Past+Ptc:e
++V+Pres+Ptc:ant # ;
++V+Past+Ptc:e # ;
 
 +V+1s+Pres+Ind:0 # ;
 +V+2s+Pres+Ind:es # ;
