@@ -59,3 +59,13 @@ LEXICON RegEr
 +V+1p+Pres+Imp:ons # ;
 +V+2p+Pres+Imp:ez # ;
 
+!!€gt-norm: -er_verbs
+!!€ durer:    dur+V+Inf
+!!€ dur:    dur+V+1s+Pres+Ind
+!!€ durois:    dur+V+2s+Impv+Ind
+!!€ dura:    dur+V+3s+SPast+Ind
+!!€ durerons:    dur+V+1p+Fut+Ind
+!!€ durez:    dur+V+2p+Pres+Sbjv
+!!€ durassent:    dur+V+3p+Ipfv+Sbjv
+!!€ duroie:    dur+V+1s+Pres+Cond
+!!€ dure:    dur+V+2s+Pres+Imp
