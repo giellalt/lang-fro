@@ -4,11 +4,55 @@
 
 LEXICON Nouns
 fill FC1 ;
-vertut FC2 ;
 serour FC3 ;
 mur MC1a ;
 asn MC1b ;
-pedr MC2 ;
 ome MC3 ;
+
+amor FC2 "love" ;
+cité FC2 "city" ;
+clamour FC2 "clamor" ;
+color FC2 "color" ;
+cort FC2 "court" ;
+dolor FC2 "sorrow" ;
+fei FC2 "faith" ;
+foi FC2 "faith" ;
+fin FC2 "end" ;
+gent FC2 "people" ;
+honor FC2 "honor" ;
+onor FC2 "honor" ;
+lei FC2 "law" ;
+loi FC2 "law" ;
+main FC2 "hand" ;
+maison FC2 "house" ;
+mer FC2 "sea" ;
+merci FC2 "mercy" ;
+mort FC2 "death" ;
+nef FC2 "ship" ;
+nuit FC2 "night" ;
+paor FC2 "fear" ;
+pechié FC2 "sin" ;
+pitié FC2 "pity, piety" ;
+raison FC2 "speech" ;
+rien FC2 "thing, person" ;
+saison FC2 "season" ;
+tor FC2 "tower" ;
+traïson FC2 "treason" ;
+valor FC2 "worth" ;
+vertut FC2 "force, virtue" ;
+volenté FC2 "will" ;
+
+pedr MC2 ;
+comper MC2 "friend, crony" ;
+eschipr MC2 "sailor" ;
+frer MC2 "brother" ;
+genr MC2 "son-in-law" ;
+maistr MC2 "master" ;
+parastr MC2 "stepfather" ;
+per MC2 "father" ;
+Alixandr MC2 "Alexander" ;
+livr MC2 "book" ;
+vespr MC2 "evening" ;
+
 
 ! vim: set ft=xfst-lexc:
