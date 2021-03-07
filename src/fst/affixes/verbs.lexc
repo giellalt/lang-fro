@@ -176,62 +176,62 @@ LEXICON RegRe
 +V+2p+Pres+Imp:ez # ;
 
 LEXICON Avoir
-+V+Inf:avoir # ;
-+V+Pres+Ptc:aiant # ;
-+V+Past+Ptc:eü # ;
+avoir+V+Inf:avoir # ;
+avoir+V+Pres+Ptc:aiant # ;
+avoir+V+Past+Ptc:eü # ;
 
-+V+1s+Pres+Ind:ai # ;
-+V+2s+Pres+Ind:ais # ;
-+V+3s+Pres+Ind:ai # ;
-+V+1p+Pres+Ind:avons # ;
-+V+2p+Pres+Ind:avez # ;
-+V+3p+Pres+Ind:ont # ;
+avoir+V+1s+Pres+Ind:ai # ;
+avoir+V+2s+Pres+Ind:ais # ;
+avoir+V+3s+Pres+Ind:ai # ;
+avoir+V+1p+Pres+Ind:avons # ;
+avoir+V+2p+Pres+Ind:avez # ;
+avoir+V+3p+Pres+Ind:ont # ;
 
-+V+1s+SPast+Ind:eüi # ;
-+V+2s+SPast+Ind:eüs # ;
-+V+3s+SPast+Ind:eü # ;
-+V+1p+SPast+Ind:eümes # ;
-+V+2p+SPast+Ind:eütes # ;
-+V+3p+SPast+Ind:eürent # ;
+avoir+V+1s+SPast+Ind:eüi # ;
+avoir+V+2s+SPast+Ind:eüs # ;
+avoir+V+3s+SPast+Ind:eü # ;
+avoir+V+1p+SPast+Ind:eümes # ;
+avoir+V+2p+SPast+Ind:eütes # ;
+avoir+V+3p+SPast+Ind:eürent # ;
 
-+V+1s+Ipfv+Ind:oie # ;
-+V+2s+Ipfv+Ind:oies # ;
-+V+3s+Ipfv+Ind:oit # ;
-+V+1p+Ipfv+Ind:iiens # ;
-+V+2p+Ipfv+Ind:iiez # ;
-+V+3p+Ipfv+Ind:oient # ;
+avoir+V+1s+Ipfv+Ind:oie # ;
+avoir+V+2s+Ipfv+Ind:oies # ;
+avoir+V+3s+Ipfv+Ind:oit # ;
+avoir+V+1p+Ipfv+Ind:iiens # ;
+avoir+V+2p+Ipfv+Ind:iiez # ;
+avoir+V+3p+Ipfv+Ind:oient # ;
 
-+V+1s+Fut+Ind:rai # ;
-+V+2s+Fut+Ind:ras # ;
-+V+3s+Fut+Ind:ra # ;
-+V+1p+Fut+Ind:rons # ;
-+V+2p+Fut+Ind:rez # ;
-+V+3p+Fut+Ind:ront # ;
+avoir+V+1s+Fut+Ind:rai # ;
+avoir+V+2s+Fut+Ind:ras # ;
+avoir+V+3s+Fut+Ind:ra # ;
+avoir+V+1p+Fut+Ind:rons # ;
+avoir+V+2p+Fut+Ind:rez # ;
+avoir+V+3p+Fut+Ind:ront # ;
 
-+V+1s+Pres+Sbjv:e # ;
-+V+2s+Pres+Sbjv:es # ;
-+V+3s+Pres+Sbjv:e # ;
-+V+1p+Pres+Sbjv:ons # ;
-+V+2p+Pres+Sbjv:ez # ;
-+V+3p+Pres+Sbjv:ent # ;
+avoir+V+1s+Pres+Sbjv:e # ;
+avoir+V+2s+Pres+Sbjv:es # ;
+avoir+V+3s+Pres+Sbjv:e # ;
+avoir+V+1p+Pres+Sbjv:ons # ;
+avoir+V+2p+Pres+Sbjv:ez # ;
+avoir+V+3p+Pres+Sbjv:ent # ;
 
-+V+1s+Ipfv+Sbjv:usse # ;
-+V+2s+Ipfv+Sbjv:usses # ;
-+V+3s+Ipfv+Sbjv:ust # ;
-+V+1p+Ipfv+Sbjv:ussons # ;
-+V+2p+Ipfv+Sbjv:ussez # ;
-+V+3p+Ipfv+Sbjv:ussent # ;
+avoir+V+1s+Ipfv+Sbjv:usse # ;
+avoir+V+2s+Ipfv+Sbjv:usses # ;
+avoir+V+3s+Ipfv+Sbjv:ust # ;
+avoir+V+1p+Ipfv+Sbjv:ussons # ;
+avoir+V+2p+Ipfv+Sbjv:ussez # ;
+avoir+V+3p+Ipfv+Sbjv:ussent # ;
 
-+V+1s+Pres+Cond:roie # ;
-+V+2s+Pres+Cond:roies # ;
-+V+3s+Pres+Cond:roit # ;
-+V+1p+Pres+Cond:riiens # ;
-+V+2p+Pres+Cond:riiez # ;
-+V+3p+Pres+Cond:roient # ;
+avoir+V+1s+Pres+Cond:roie # ;
+avoir+V+2s+Pres+Cond:roies # ;
+avoir+V+3s+Pres+Cond:roit # ;
+avoir+V+1p+Pres+Cond:riiens # ;
+avoir+V+2p+Pres+Cond:riiez # ;
+avoir+V+3p+Pres+Cond:roient # ;
 
-+V+2s+Pres+Imp:e # ;
-+V+1p+Pres+Imp:ons # ;
-+V+2p+Pres+Imp:ez # ;
+avoir+V+2s+Pres+Imp:e # ;
+avoir+V+1p+Pres+Imp:ons # ;
+avoir+V+2p+Pres+Imp:ez # ;
 
 !!€gt-norm: -er_verbs
 !!€ durer:    dur+V+Inf
