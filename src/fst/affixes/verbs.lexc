@@ -233,6 +233,64 @@ avoir+V+2s+Pres+Imp:ave # ;
 avoir+V+1p+Pres+Imp:avons # ;
 avoir+V+2p+Pres+Imp:avez # ;
 
+LEXICON Estre
+estre+V+Inf:estre # ;
+estre+V+Pres+Ptc:estant # ;
+estre+V+Past+Ptc:esté # ;
+
+estre+V+1s+Pres+Ind:suis # ;
+estre+V+2s+Pres+Ind:es # ;
+estre+V+3s+Pres+Ind:est # ;
+estre+V+1p+Pres+Ind:somes # ;
+estre+V+2p+Pres+Ind:estes # ;
+estre+V+3p+Pres+Ind:sont # ;
+
+estre+V+1s+SPast+Ind:fui # ;
+estre+V+2s+SPast+Ind:fus # ;
+estre+V+3s+SPast+Ind:fu # ;
+estre+V+1p+SPast+Ind:fumes # ;
+estre+V+2p+SPast+Ind:fustes # ;
+estre+V+3p+SPast+Ind:furent # ;
+
+estre+V+1s+Ipfv+Ind:ere # ;
+estre+V+2s+Ipfv+Ind:eres # ;
+estre+V+3s+Ipfv+Ind:ere # ;
+estre+V+1p+Ipfv+Ind:eriiens # ;
+estre+V+2p+Ipfv+Ind:eriiez # ;
+estre+V+3p+Ipfv+Ind:erent # ;
+
+estre+V+1s+Fut+Ind:er # ;
+estre+V+2s+Fut+Ind:ers # ;
+estre+V+3s+Fut+Ind:ert # ;
+estre+V+1p+Fut+Ind:ermes # ;
+estre+V+2p+Fut+Ind:serez # ;
+estre+V+3p+Fut+Ind:erent # ;
+
+estre+V+1s+Pres+Sbjv:seie # ;
+estre+V+2s+Pres+Sbjv:seies # ;
+estre+V+3s+Pres+Sbjv:seit # ;
+estre+V+1p+Pres+Sbjv:seiiens # ;
+estre+V+2p+Pres+Sbjv:seiiez # ;
+estre+V+3p+Pres+Sbjv:seient # ;
+
+estre+V+1s+Ipfv+Sbjv:fusse # ;
+estre+V+2s+Ipfv+Sbjv:fusses # ;
+estre+V+3s+Ipfv+Sbjv:fust # ;
+estre+V+1p+Ipfv+Sbjv:fussons # ;
+estre+V+2p+Ipfv+Sbjv:fusseiz # ;
+estre+V+3p+Ipfv+Sbjv:fussent # ;
+
+estre+V+1s+Pres+Cond:sereie # ;
+estre+V+2s+Pres+Cond:sereies # ;
+estre+V+3s+Pres+Cond:sereit # ;
+estre+V+1p+Pres+Cond:seriiens # ;
+estre+V+2p+Pres+Cond:seriiez # ;
+estre+V+3p+Pres+Cond:sereient # ;
+
+estre+V+2s+Pres+Imp:seies # ;
+estre+V+1p+Pres+Imp:seiiens # ;
+estre+V+2p+Pres+Imp:seiiez # ;
+
 !!€gt-norm: -er_verbs
 !!€ durer:    dur+V+Inf
 !!€ dur:    dur+V+1s+Pres+Ind
