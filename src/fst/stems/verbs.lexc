@@ -1,7 +1,9 @@
 !! Verbs
 
 LEXICON Verbs
-dur RegEr "to last" ;
-fen RegIr "to end" ;
-cor RegRe "to run" ;
-0 Avoir   "to have" ;
+dur RegEr   "to last" ;
+fen RegIr   "to end" ;
+cor RegRe   "to run" ;
+0 Avoir     "to have" ;
+0 Estre     "to be" ;
+son RegEr ;
