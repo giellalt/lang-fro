@@ -1,0 +1,19 @@
+LEXICON Definite
++Art+Def+Masc+Nom+Sg:i # ;
++Art+Def+Masc+Obl+Sg:e # ;
++Art+Def+Masc+Nom+Pl:i # ;
++Art+Def+Masc+Obl+Pl:es # ;
++Art+Def+Fem+Nom+Sg:a # ;
++Art+Def+Fem+Obl+Sg:a # ;
++Art+Def+Fem+Nom+Pl:es # ;
++Art+Def+Fem+Obl+Pl:es # ;
+
+LEXICON Indefinite
++Art+Indef+Masc+Nom+Sg:s # ;
++Art+Indef+Masc+Obl+Sg:0 # ;
++Art+Indef+Masc+Nom+Pl:0 # ;
++Art+Indef+Masc+Obl+Pl:s # ;
++Art+Indef+Fem+Nom+Sg:e # ;
++Art+Indef+Fem+Obl+Sg:e # ;
++Art+Indef+Fem+Nom+Pl:es # ;
++Art+Indef+Fem+Obl+Pl:es # ;
