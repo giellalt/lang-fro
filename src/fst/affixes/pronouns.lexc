@@ -49,14 +49,14 @@ LEXICON 2Sg
 +Pro+Poss+2s+Fem+Nom+Pl+Unstress:es # ;
 +Pro+Poss+2s+Fem+Obl+Pl+Unstress:es # ;
 
-+Pro+Poss+2s+Masc+Nom+Sg+Stress:uens # ;
-+Pro+Poss+2s+Masc+Obl+Sg+Stress:uen # ;
-+Pro+Poss+2s+Masc+Nom+Pl+Stress:uen # ;
-+Pro+Poss+2s+Masc+Obl+Pl+Stress:uens # ;
-+Pro+Poss+2s+Fem+Nom+Sg+Stress:oe # ;
-+Pro+Poss+2s+Fem+Obl+Sg+Stress:oe # ;
-+Pro+Poss+2s+Fem+Nom+Pl+Stress:oes # ;
-+Pro+Poss+2s+Fem+Obl+Pl+Stress:oes # ;
++Pro+Poss+2s+Masc+Nom+Sg+Stress:tuens # ;
++Pro+Poss+2s+Masc+Obl+Sg+Stress:tuen # ;
++Pro+Poss+2s+Masc+Nom+Pl+Stress:tuen # ;
++Pro+Poss+2s+Masc+Obl+Pl+Stress:tuens # ;
++Pro+Poss+2s+Fem+Nom+Sg+Stress:toe # ;
++Pro+Poss+2s+Fem+Obl+Sg+Stress:toe # ;
++Pro+Poss+2s+Fem+Nom+Pl+Stress:toes # ;
++Pro+Poss+2s+Fem+Obl+Pl+Stress:toes # ;
 
 LEXICON 3SgMasc
 +Pro+Prs+3s+Masc+Nom+Stress:il # ;
@@ -97,14 +97,14 @@ LEXICON 3SgPoss
 +Pro+Poss+3s+Fem+Nom+Pl+Unstress:es # ;
 +Pro+Poss+3s+Fem+Obl+Pl+Unstress:es # ;
 
-+Pro+Poss+3s+Masc+Nom+Sg+Stress:uens # ;
-+Pro+Poss+3s+Masc+Obl+Sg+Stress:uen # ;
-+Pro+Poss+3s+Masc+Nom+Pl+Stress:uen # ;
-+Pro+Poss+3s+Masc+Obl+Pl+Stress:uens # ;
-+Pro+Poss+3s+Fem+Nom+Sg+Stress:oe # ;
-+Pro+Poss+3s+Fem+Obl+Sg+Stress:oe # ;
-+Pro+Poss+3s+Fem+Nom+Pl+Stress:oes # ;
-+Pro+Poss+3s+Fem+Obl+Pl+Stress:oes # ;
++Pro+Poss+1s+Masc+Nom+Sg+Stress:suens # ;
++Pro+Poss+1s+Masc+Obl+Sg+Stress:suen # ;
++Pro+Poss+1s+Masc+Nom+Pl+Stress:suen # ;
++Pro+Poss+1s+Masc+Obl+Pl+Stress:suens # ;
++Pro+Poss+1s+Fem+Nom+Sg+Stress:soe # ;
++Pro+Poss+1s+Fem+Obl+Sg+Stress:soe # ;
++Pro+Poss+1s+Fem+Nom+Pl+Stress:soes # ;
++Pro+Poss+1s+Fem+Obl+Pl+Stress:soes # ;
 
 LEXICON 1Pl
 +Pro+Prs+1p+Nom+Stress:s # ;
@@ -240,21 +240,17 @@ LEXICON DemNeuter
 +Pro+Dem+Far+Neut+Obl+Sg+Early:cest # ;
 
 !!€gt-norm: Pro+Prsnouns
-!!€ je:        +Pro+Prs+1s+Nom+Stress
-!!€ jo:         +Pro+Prs+1s+Nom+Stress
+!!€ je, jo:         +Pro+Prs+1s+Nom+Stress
 !!€ moi:        +Pro+Prs+1s+Obl+Stress
 !!€ te:         t+Pro+Prs+2s+Obl+Unstress
-!!€ t:         t+Pro+Prs+2s+Obl+Unstress
-!!€ la:         +Pro+Prs+3s+Fem+Obl+Dir+Unstress
-!!€ l:         +Pro+Prs+3s+Fem+Obl+Dir+Unstress
+!!€ la, l:         +Pro+Prs+3s+Fem+Obl+Dir+Unstress
 !!€ nos:        no+Pro+Prs+1p+Nom+Stress
 !!€ eus:        +Pro+Prs+3p+Masc+Obl+Dir+Stress
 !!€ soi:        s+Pro+Prs+3p+Refl+Obl+Stress
 !!€ en:         en+Pro+Prs+Adv
 !!€ i:          i+Pro+Prs+Adv
-!!€ on:        t+Pro+Poss+2s+Masc+Obl+Sg+Unstress
-!!€ suens:      s+Pro+Poss+3s+Masc+Obl+Pl+Stress
-!!€ suens:      s+Pro+Poss+3s+Masc+Nom+Sg+Stress
+!!€ ton:        +Pro+Poss+2s+Masc+Obl+Sg+Unstress
+!!€ suens:      +Pro+Poss+3s+Masc+Obl+Pl+Stress
+!!€ suens:      +Pro+Poss+3s+Masc+Nom+Sg+Stress
 !!€ icestui:    i+Pro+Dem+Near+Masc+Obl+Sg+Stress
-!!€ cels:       +Pro+Dem+Far+Masc+Obl+Pl
-!!€ ceus:       +Pro+Dem+Far+Masc+Obl+Pl
+!!€ cels, ceus:       +Pro+Dem+Far+Masc+Obl+Pl
