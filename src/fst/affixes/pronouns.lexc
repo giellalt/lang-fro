@@ -49,14 +49,14 @@ LEXICON 2Sg
 +Pro+Poss+2s+Fem+Nom+Pl+Unstress:es # ;
 +Pro+Poss+2s+Fem+Obl+Pl+Unstress:es # ;
 
-+Pro+Poss+2s+Masc+Nom+Sg+Stress:tuens # ;
-+Pro+Poss+2s+Masc+Obl+Sg+Stress:tuen # ;
-+Pro+Poss+2s+Masc+Nom+Pl+Stress:tuen # ;
-+Pro+Poss+2s+Masc+Obl+Pl+Stress:tuens # ;
-+Pro+Poss+2s+Fem+Nom+Sg+Stress:toe # ;
-+Pro+Poss+2s+Fem+Obl+Sg+Stress:toe # ;
-+Pro+Poss+2s+Fem+Nom+Pl+Stress:toes # ;
-+Pro+Poss+2s+Fem+Obl+Pl+Stress:toes # ;
++Pro+Poss+2s+Masc+Nom+Sg+Stress:uens # ;
++Pro+Poss+2s+Masc+Obl+Sg+Stress:uen # ;
++Pro+Poss+2s+Masc+Nom+Pl+Stress:uen # ;
++Pro+Poss+2s+Masc+Obl+Pl+Stress:uens # ;
++Pro+Poss+2s+Fem+Nom+Sg+Stress:oe # ;
++Pro+Poss+2s+Fem+Obl+Sg+Stress:oe # ;
++Pro+Poss+2s+Fem+Nom+Pl+Stress:oes # ;
++Pro+Poss+2s+Fem+Obl+Pl+Stress:oes # ;
 
 LEXICON 3SgMasc
 +Pro+Prs+3s+Masc+Nom+Stress:il # ;
@@ -97,14 +97,14 @@ LEXICON 3SgPoss
 +Pro+Poss+3s+Fem+Nom+Pl+Unstress:es # ;
 +Pro+Poss+3s+Fem+Obl+Pl+Unstress:es # ;
 
-+Pro+Poss+1s+Masc+Nom+Sg+Stress:suens # ;
-+Pro+Poss+1s+Masc+Obl+Sg+Stress:suen # ;
-+Pro+Poss+1s+Masc+Nom+Pl+Stress:suen # ;
-+Pro+Poss+1s+Masc+Obl+Pl+Stress:suens # ;
-+Pro+Poss+1s+Fem+Nom+Sg+Stress:soe # ;
-+Pro+Poss+1s+Fem+Obl+Sg+Stress:soe # ;
-+Pro+Poss+1s+Fem+Nom+Pl+Stress:soes # ;
-+Pro+Poss+1s+Fem+Obl+Pl+Stress:soes # ;
++Pro+Poss+3s+Masc+Nom+Sg+Stress:uens # ;
++Pro+Poss+3s+Masc+Obl+Sg+Stress:uen # ;
++Pro+Poss+3s+Masc+Nom+Pl+Stress:uen # ;
++Pro+Poss+3s+Masc+Obl+Pl+Stress:uens # ;
++Pro+Poss+3s+Fem+Nom+Sg+Stress:oe # ;
++Pro+Poss+3s+Fem+Obl+Sg+Stress:oe # ;
++Pro+Poss+3s+Fem+Nom+Pl+Stress:oes # ;
++Pro+Poss+3s+Fem+Obl+Pl+Stress:oes # ;
 
 LEXICON 1Pl
 +Pro+Prs+1p+Nom+Stress:s # ;
@@ -237,7 +237,7 @@ LEXICON DemNeuter
 +Pro+Dem+Far+Neut+Nom+Sg+Early:cel # ;
 +Pro+Dem+Far+Neut+Obl+Sg+Early:cel # ;
 +Pro+Dem+Near+Neut+Nom+Sg+Early:cest # ;
-+Pro+Dem+Far+Neut+Obl+Sg+Early:cest # ;
++Pro+Dem+Near+Neut+Obl+Sg+Early:cest # ;
 
 !!€gt-norm: Pro+Prsnouns
 !!€ je, jo:         +Pro+Prs+1s+Nom+Stress
