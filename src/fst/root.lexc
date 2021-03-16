@@ -7,6 +7,7 @@ avoir, estre
 +Pro, +Stress, +Unstress, +Dir, +Indir, +Prs, +Poss, +Dem, +Near, +Far, +Early
 +Adv, +Adj, +Neg
 +le, +les, +me, +se, +en, +te, +est
++Conj, +Coord, +Subord, +MultiWordConj
 @U.class.F1@
 @U.class.F2@
 @U.class.F3@
@@ -22,3 +23,5 @@ Verbs ;
 Articles ;
 Pronouns ;
 Enclitics ;
+Adverbs ;
+Conjunctions ;

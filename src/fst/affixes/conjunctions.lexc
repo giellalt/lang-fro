@@ -1,0 +1,48 @@
+LEXICON Et
++Conj+Coord:0 # ;
++Conj+Coord:t # ;
+
+LEXICON Ou
++Conj+Coord:0 # ;
++Conj+Coord:u # ;
+
+LEXICON Que
++Conj+Coord:0 # ;
++Conj+Coord:e # ;
++Conj+Subord:0 # ;
++Conj+Subord:e # ;
+
+LEXICON Ne
++Conj+Coord:0 # ;
++Conj+Coord:e # ;
+
+LEXICON Se
++Conj+Subord:0 # ;
++Conj+Subord:e # ;
+
+LEXICON Si
++Conj+Coord:0 # ;
++Conj+Coord:i # ;
+
+LEXICON Coord
++Conj+Coord:0 # ;
+
+LEXICON Subord
++Conj+Subord:0 # ;
+
+LEXICON SubPart
++Conj+MultiWordConj+Subord:0 # ;
+
+LEXICON Comme
++Conj+Subord:n # ;
++Conj+Subord:me # ;
++Conj+Subord:nme # ;
++Conj+Subord:mme # ;
+
+! vim: set ft=xfst-lexc:
+
+!!€gt-norm: Conjunctions
+!!€ si:    s+Conj+Coord
+!!€ si:    si+Conj+MultiWordConj+Subord
+!!€ et:    e+Conj+Coord
+!!€ e:     e+Conj+Coord

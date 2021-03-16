@@ -25,6 +25,7 @@ trop BaseAdv "too much" ;
 amont BaseAdv "to the hill, up" ;
 aval BaseAdv "to the valley, down" ;
 oïl BaseAdv "yes" ;
+oil BaseAdv "yes" ;
 nenil BaseAdv "no" ;
 oan BaseAdv "this year" ;
 assez BaseAdv "enough" ;
