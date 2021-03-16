@@ -1,9 +1,12 @@
 Multichar_Symbols
-+N +Nom, +Obl, +Masc, +Fem, +Sg, +Pl, +C1, +C1a, +C1b, +C2, +C3
++N +Nom, +Obl, +Masc, +Fem, +Neut, +Sg, +Pl, +C1, +C1a, +C1b, +C2, +C3
 +V, +1s, +1p, +2s, +2p, +3s, +3p, +Pres, +SPast, +Past, +Fut, +Ptc
 +Ind, +Sbjv, +Cond, +Imp, +Ipfv, +Inf
 avoir, estre
 +Art, +Def, +Indef
++Pro, +Stress, +Unstress, +Dir, +Indir, +Prs, +Poss, +Dem, +Near, +Far, +Early
++Adv, +Adj
++le, +les, +me, +se, +en, +te, +est
 @U.class.F1@
 @U.class.F2@
 @U.class.F3@
@@ -17,3 +20,5 @@ LEXICON Root
 Nouns ;
 Verbs ;
 Articles ;
+Pronouns ;
+Enclitics ;

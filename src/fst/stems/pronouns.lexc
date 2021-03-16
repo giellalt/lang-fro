@@ -1,0 +1,20 @@
+LEXICON Pronouns
+0 1Sg "I" ;
+no 1Pl "we" ;
+t 2Sg "you(sing)" ;
+vo 2Pl "you(pl)" ;
+0 3SgMasc "he" ;
+0 3SgFem "she" ;
+0 3SgNeut "it" ;
+s 3SgRefl "itself" ;
+0 3PlMasc "they(masc)" ;
+0 3PlFem "they(fem)" ;
+s 3PlRefl "themselves" ;
+i PronAdv "a+Pron" ;
+en PronAdv "de+Pron" ;
+s 3SgPoss "his/her/its" ;
+lor 3PlPoss "their" ;
+i Demonstrative ;
+0 Demonstrative ;
+i DemNeuter ;
+0 DemNeuter ;

@@ -30,7 +30,11 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/verbs.lexc		  \
 			 stems/verbs.lexc		  \
 			 affixes/articles.lexc    \
-			 stems/articles.lexc
+			 stems/articles.lexc	  \
+			 affixes/pronouns.lexc	  \
+			 stems/pronouns.lexc      \
+			 affixes/enclitics.lexc   \
+			 stems/enclitics.lexc
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
 # that differ between the regular L1 and the L2 analysers below, in L1 and
