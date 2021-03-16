@@ -193,8 +193,8 @@ LEXICON 3PlPoss
 +Pro+Poss+3p+Obl+Pl+Stress:0 # ;
 
 LEXICON ProAdv
-+Pro+Prs+Adv:0 # ;
-+Pro+Prs+Adv:0 # ;
++Pro+Adv:0 # ;
++Pro+Adv:0 # ;
 
 LEXICON Demonstrative
 +Pro+Dem+Far+Masc+Nom+Sg:cil # ;
@@ -240,15 +240,14 @@ LEXICON DemNeuter
 +Pro+Dem+Near+Neut+Obl+Sg+Early:cest # ;
 
 !!€gt-norm: Pro+Prsnouns
-!!€ je, jo:         +Pro+Prs+1s+Nom+Stress
+!!€ mi:         +Pro+Poss+1s+Masc+Nom+Pl+Unstress
 !!€ moi:        +Pro+Prs+1s+Obl+Stress
 !!€ te:         t+Pro+Prs+2s+Obl+Unstress
-!!€ la, l:         +Pro+Prs+3s+Fem+Obl+Dir+Unstress
 !!€ nos:        no+Pro+Prs+1p+Nom+Stress
 !!€ eus:        +Pro+Prs+3p+Masc+Obl+Dir+Stress
 !!€ soi:        s+Pro+Prs+3p+Refl+Obl+Stress
-!!€ en:         en+Pro+Prs+Adv
-!!€ i:          i+Pro+Prs+Adv
+!!€ en:         en+Pro+Adv
+!!€ i:          i+Pro+Adv
 !!€ ton:        +Pro+Poss+2s+Masc+Obl+Sg+Unstress
 !!€ suens:      +Pro+Poss+3s+Masc+Obl+Pl+Stress
 !!€ suens:      +Pro+Poss+3s+Masc+Nom+Sg+Stress
