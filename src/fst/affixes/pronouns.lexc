@@ -242,14 +242,12 @@ LEXICON DemNeuter
 !!€gt-norm: Pro+Prsnouns
 !!€ mi:         +Pro+Poss+1s+Masc+Nom+Pl+Unstress
 !!€ moi:        +Pro+Prs+1s+Obl+Stress
-!!€ te:         t+Pro+Prs+2s+Obl+Unstress
 !!€ nos:        no+Pro+Prs+1p+Nom+Stress
 !!€ eus:        +Pro+Prs+3p+Masc+Obl+Dir+Stress
 !!€ soi:        s+Pro+Prs+3p+Refl+Obl+Stress
 !!€ en:         en+Pro+Adv
 !!€ i:          i+Pro+Adv
-!!€ ton:        +Pro+Poss+2s+Masc+Obl+Sg+Unstress
-!!€ suens:      +Pro+Poss+3s+Masc+Obl+Pl+Stress
-!!€ suens:      +Pro+Poss+3s+Masc+Nom+Sg+Stress
+!!€ ton:        t+Pro+Poss+2s+Masc+Obl+Sg+Unstress
+!!€ suens:      s+Pro+Poss+3s+Masc+Obl+Pl+Stress
+!!€ suens:      s+Pro+Poss+3s+Masc+Nom+Sg+Stress
 !!€ icestui:    i+Pro+Dem+Near+Masc+Obl+Sg+Stress
-!!€ cels, ceus:       +Pro+Dem+Far+Masc+Obl+Pl
