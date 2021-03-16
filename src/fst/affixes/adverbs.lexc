@@ -1,0 +1,16 @@
+LEXICON Negation
++Adv+Neg+Stress:on # ;
++Adv+Neg+Unstress:e # ;
++Adv+Neg+Unstress:en # ;
+
+
+LEXICON BaseAdv
++Adv:0 # ;
+
+LEXICON OptionalS
++Adv:0 # ;
++Adv:s # ;
+
+LEXICON Ment
++Adv:ment # ;
+

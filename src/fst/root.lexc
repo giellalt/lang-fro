@@ -5,7 +5,7 @@ Multichar_Symbols
 avoir, estre
 +Art, +Def, +Indef
 +Pro, +Stress, +Unstress, +Dir, +Indir, +Prs, +Poss, +Dem, +Near, +Far, +Early
-+Adv, +Adj
++Adv, +Adj, +Neg
 +le, +les, +me, +se, +en, +te, +est
 @U.class.F1@
 @U.class.F2@
