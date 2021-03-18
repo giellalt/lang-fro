@@ -1,13 +1,47 @@
 Multichar_Symbols
-+N +Nom, +Obl, +Masc, +Fem, +Neut, +Sg, +Pl, +C1, +C1a, +C1b, +C2, +C3
-+V, +1s, +1p, +2s, +2p, +3s, +3p, +Pres, +SPast, +Past, +Fut, +Ptc
-+Ind, +Sbjv, +Cond, +Imp, +Ipfv, +Inf
-avoir, estre
-+Art, +Def, +Indef
-+Pro, +Stress, +Unstress, +Dir, +Indir, +Prs, +Poss, +Dem, +Near, +Far, +Early, +Late
-+Adv, +Adj, +Neg, +Part
+
+!! General features
++Early, +Late ! Early=early 12th century. Late=late 12th century
+
+!! Noun Features
++N ! Noun
++Nom, +Obl ! Cases: nominative and oblique
++Masc, +Fem, +Neut ! Genders: masculine, feminine, neuter
++Sg, +Pl ! Numbers: singular, plural
++C1, +C1a, +C1b, +C2, +C3 ! Noun classes
+
+!! Verb Features
++V ! Verb
++1s, +1p, +2s, +2p, +3s, +3p ! Person. s=singular, p=plural
++Pres, +SPast, +Past, +Fut ! Tense: present, simple past, past, future
++Ipfv, +Part, +Inf ! Aspect: Imperfective, participle, infinitive
++Ind, +Sbjv, +Cond, +Imp ! Moods: Indicative, subjunctive, conditional, imperative
+avoir, estre ! Irregular verbs
+
+!! Article Features
++Art ! Article
++Def, +Indef ! Definitiveness: definite, indefinite
+
+!! Pronoun Features
++Pro ! Pronoun
++Stress, +Unstress ! Stress
++Dir, +Indir ! Object: Direct, indirect
++Prs, +Poss, +Dem ! Pronoun type: personal, possessive, demonstrative
++Near, +Far ! Demonstrative pronoun: near vs. far, as in "this" vs "that"
+
+!! Adverb Features
++Adv ! Adverb
+
+!! Adjective Features
++Adj ! Adjective
++Neg ! Negation
+
+!! Conjunction Features
++Conj ! Conjunction
++Coord, +Subord ! Coordinating, subordinate
++MultiWordConj ! Part of a multi-word conjugation
+
 +le, +les, +me, +se, +en, +te, +est
-+Conj, +Coord, +Subord, +MultiWordConj
 @U.class.F1@
 @U.class.F2@
 @U.class.F3@
