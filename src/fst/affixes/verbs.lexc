@@ -2,62 +2,127 @@
 
 
 LEXICON RegEr
-+V+Inf:er # ;
-+V+Pres+Ptc:ant # ;
-+V+Past+Ptc:e # ;
++V+Inf+Early:er # ;
++V+Pres+Ptc+Early:ant # ;
++V+Past+Ptc+Early:ét # ;
 
-+V+1s+Pres+Ind:0 # ;
-+V+2s+Pres+Ind:es # ;
-+V+3s+Pres+Ind:e # ;
-+V+1p+Pres+Ind:ons # ;
-+V+2p+Pres+Ind:ez # ;
-+V+3p+Pres+Ind:ent # ;
++V+1s+Pres+Ind+Early:0 # ;
++V+2s+Pres+Ind+Early:es # ;
++V+3s+Pres+Ind+Early:et # ;
++V+1p+Pres+Ind+Early:ons # ;
++V+2p+Pres+Ind+Early:ez # ;
++V+3p+Pres+Ind+Early:ent # ;
 
-+V+1s+SPast+Ind:ai # ;
-+V+2s+SPast+Ind:as # ;
-+V+3s+SPast+Ind:a # ;
-+V+1p+SPast+Ind:ames # ;
-+V+2p+SPast+Ind:astes # ;
-+V+3p+SPast+Ind:erent # ;
++V+1s+SPast+Ind+Early:ai # ;
++V+2s+SPast+Ind+Early:as # ;
++V+3s+SPast+Ind+Early:at # ;
++V+1p+SPast+Ind+Early:ames # ;
++V+2p+SPast+Ind+Early:astes # ;
++V+3p+SPast+Ind+Early:erent # ;
 
-+V+1s+Ipfv+Ind:oie # ;
-+V+2s+Ipfv+Ind:ois # ;
-+V+3s+Ipfv+Ind:oit # ;
-+V+1p+Ipfv+Ind:iiens # ;
-+V+2p+Ipfv+Ind:iiez # ;
-+V+3p+Ipfv+Ind:oient # ;
++V+1s+Ipfv+Ind+Early:eie # ;
++V+2s+Ipfv+Ind+Early:eies # ;
++V+3s+Ipfv+Ind+Early:eit # ;
++V+1p+Ipfv+Ind+Early:iiens # ;
++V+2p+Ipfv+Ind+Early:iiez # ;
++V+3p+Ipfv+Ind+Early:eient # ;
 
-+V+1s+Fut+Ind:erai # ;
-+V+2s+Fut+Ind:eras # ;
-+V+3s+Fut+Ind:era # ;
-+V+1p+Fut+Ind:erons # ;
-+V+2p+Fut+Ind:erez # ;
-+V+3p+Fut+Ind:eront # ;
++V+1s+Fut+Ind+Early:erai # ;
++V+2s+Fut+Ind+Early:eras # ;
++V+3s+Fut+Ind+Early:erat # ;
++V+1p+Fut+Ind+Early:erons # ;
++V+2p+Fut+Ind+Early:erez # ;
++V+2p+Fut+Ind+Early:ereiz # ;
++V+3p+Fut+Ind+Early:eront # ;
 
-+V+1s+Pres+Sbjv:0 # ;
-+V+2s+Pres+Sbjv:s # ;
-+V+3s+Pres+Sbjv:t # ;
-+V+1p+Pres+Sbjv:ons # ;
-+V+2p+Pres+Sbjv:ez # ;
-+V+3p+Pres+Sbjv:ent # ;
++V+1s+Pres+Sbjv+Early:0 # ;
++V+2s+Pres+Sbjv+Early:s # ;
++V+3s+Pres+Sbjv+Early:t # ;
++V+1p+Pres+Sbjv+Early:ons # ;
++V+2p+Pres+Sbjv+Early:ez # ;
++V+3p+Pres+Sbjv+Early:ent # ;
 
-+V+1s+Ipfv+Sbjv:asse # ;
-+V+2s+Ipfv+Sbjv:asses # ;
-+V+3s+Ipfv+Sbjv:ast # ;
-+V+1p+Ipfv+Sbjv:issons # ;
-+V+2p+Ipfv+Sbjv:issez # ;
-+V+3p+Ipfv+Sbjv:assent # ;
++V+1s+Ipfv+Sbjv+Early:asse # ;
++V+2s+Ipfv+Sbjv+Early:asses # ;
++V+3s+Ipfv+Sbjv+Early:ast # ;
++V+1p+Ipfv+Sbjv+Early:issons # ;
++V+1p+Ipfv+Sbjv+Early:issiens # ;
++V+2p+Ipfv+Sbjv+Early:issez # ;
++V+2p+Ipfv+Sbjv+Early:issiez # ;
++V+2p+Ipfv+Sbjv+Early:isseiz # ;
++V+3p+Ipfv+Sbjv+Early:assent # ;
 
-+V+1s+Pres+Cond:oie # ;
-+V+2s+Pres+Cond:ois # ;
-+V+3s+Pres+Cond:oit # ;
-+V+1p+Pres+Cond:iions # ;
-+V+2p+Pres+Cond:iiez # ;
-+V+3p+Pres+Cond:oient # ;
++V+1s+Pres+Cond+Early:eroie # ;
++V+2s+Pres+Cond+Early:ereis # ;
++V+3s+Pres+Cond+Early:ereit # ;
++V+1p+Pres+Cond+Early:eriiens # ;
++V+2p+Pres+Cond+Early:eriiez # ;
++V+3p+Pres+Cond+Early:ereient # ;
 
-+V+2s+Pres+Imp:e # ;
-+V+1p+Pres+Imp:ons # ;
-+V+2p+Pres+Imp:ez # ;
++V+2s+Pres+Imp+Early:e # ;
++V+1p+Pres+Imp+Early:ons # ;
++V+2p+Pres+Imp+Early:ez # ;
+
++V+Inf+Late:er # ;
++V+Pres+Ptc+Late:ant # ;
++V+Past+Ptc+Late:é # ;
+
++V+1s+Pres+Ind+Late:0 # ;
++V+2s+Pres+Ind+Late:es # ;
++V+3s+Pres+Ind+Late:e # ;
++V+1p+Pres+Ind+Late:ons # ;
++V+2p+Pres+Ind+Late:ez # ;
++V+3p+Pres+Ind+Late:ent # ;
+
++V+1s+SPast+Ind+Late:ai # ;
++V+2s+SPast+Ind+Late:as # ;
++V+3s+SPast+Ind+Late:a # ;
++V+1p+SPast+Ind+Late:ames # ;
++V+2p+SPast+Ind+Late:astes # ;
++V+3p+SPast+Ind+Late:erent # ;
+
++V+1s+Ipfv+Ind+Late:oie # ;
++V+2s+Ipfv+Ind+Late:oies # ;
++V+3s+Ipfv+Ind+Late:oit # ;
++V+1p+Ipfv+Ind+Late:iiens # ;
++V+2p+Ipfv+Ind+Late:iiez # ;
++V+3p+Ipfv+Ind+Late:oient # ;
+
++V+1s+Fut+Ind+Late:erai # ;
++V+2s+Fut+Ind+Late:eras # ;
++V+3s+Fut+Ind+Late:era # ;
++V+1p+Fut+Ind+Late:erons # ;
++V+2p+Fut+Ind+Late:erez # ;
++V+3p+Fut+Ind+Late:eront # ;
+
++V+1s+Pres+Sbjv+Late:0 # ;
++V+2s+Pres+Sbjv+Late:s # ;
++V+3s+Pres+Sbjv+Late:t # ;
++V+1p+Pres+Sbjv+Late:ons # ;
++V+2p+Pres+Sbjv+Late:ez # ;
++V+3p+Pres+Sbjv+Late:ent # ;
+
++V+1s+Ipfv+Sbjv+Late:asse # ;
++V+2s+Ipfv+Sbjv+Late:asses # ;
++V+3s+Ipfv+Sbjv+Late:ast # ;
++V+1p+Ipfv+Sbjv+Late:issons # ;
++V+1p+Ipfv+Sbjv+Late:issiens # ;
++V+2p+Ipfv+Sbjv+Late:issez # ;
++V+2p+Ipfv+Sbjv+Late:issoiz # ;
++V+2p+Ipfv+Sbjv+Late:issiez # ;
++V+3p+Ipfv+Sbjv+Late:assent # ;
+
++V+1s+Pres+Cond+Late:oie # ;
++V+2s+Pres+Cond+Late:oies # ;
++V+3s+Pres+Cond+Late:oit # ;
++V+1p+Pres+Cond+Late:iions # ;
++V+2p+Pres+Cond+Late:iiez # ;
++V+3p+Pres+Cond+Late:oient # ;
+
++V+2s+Pres+Imp+Late:e # ;
++V+1p+Pres+Imp+Late:ons # ;
++V+2p+Pres+Imp+Late:ez # ;
+
 
 LEXICON RegIer
 +V+Inf:ier # ;
