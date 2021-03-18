@@ -1,0 +1,59 @@
+LEXICON Adjectives
+bon Adj1 "good" ;
+m Mieux ;
+t Tot "early" ;
+
+aigre Adj2 "acid" ;
+aspre Adj2 "rough" ;
+autre Adj2 "other, another" ;
+destre Adj2 "right" ;
+povre Adj2 "poor" ;
+senestre Adj2 "left" ;
+tendre Adj2 "tendre" ;
+
+brief Adj3 "short" ;
+fol Adj3 "foolish" ;
+fort Adj3 "strong" ;
+grant Adj3 "great" ;
+grief Adj3 "grievous" ;
+quel Adj3 "which" ;
+soëf Adj3 "sweet" ;
+tel Adj3 "such" ;
+vil Adj3 "vile" ;
+celestial Adj3 "celestial" ;
+coral Adj3 "cordial" ;
+egal Adj3 "equal" ;
+infernal Adj3 "infernal" ;
+leial Adj3 "loyal" ;
+loial Adj3 "loyal" ;
+reial Adj3 "royal" ;
+roial Adj3 "royal" ;
+charnel Adj3 "carnal" ;
+cruël Adj3 "cruel" ;
+morel Adj3 "mortal" ;
+naturel Adj3 "natural" ;
+gentil Adj3 "noble" ;
+sotil Adj3 "ingenious" ;
+avenant Adj3 "attrative" ;
+corant Adj3 "swift" ;
+luisant Adj3 "bright" ;
+puissant Adj3 "powerful" ;
+trenchant Adj3 "sharp" ;
+vaillant Adj3 "valliant" ;
+diligent Adj3 "diligent" ;
+pacient Adj3 "patient" ;
+prudent Adj3 "prudent" ;
+
+corteis MascIndec "corteous" ;
+cortois MascIndec "corteous" ;
+douz MascIndec "sweet" ;
+faus MascIndec "false" ;
+franceis MascIndec "French" ;
+françois MascIndec "French" ;
+gros MascIndec "large" ;
+ploros MascIndec "tearful" ;
+precios MascIndec "precious" ;
+tierz MascIndec "third" ;
+
+LEXICON Participles
+chant Part ;

@@ -38,7 +38,9 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/adverbs.lexc 	  \
 			 stems/adverbs.lexc		  \
 			 affixes/conjunctions.lexc \
-			 stems/conjunctions.lexc  
+			 stems/conjunctions.lexc   \
+			 affixes/adjectives.lexc \
+			 stems/adjectives.lexc
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
 # that differ between the regular L1 and the L2 analysers below, in L1 and

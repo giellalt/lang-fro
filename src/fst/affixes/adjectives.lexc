@@ -1,0 +1,143 @@
+LEXICON Adj1
++Adj+Masc+Nom+Sg:s # ;
++Adj+Masc+Obl+Sg:0 # ;
++Adj+Masc+Nom+Pl:0 # ;
++Adj+Masc+Obl+Pl:s # ;
+
++Adj+Fem+Nom+Sg:e # ;
++Adj+Fem+Obl+Sg:e # ;
++Adj+Fem+Nom+Pl:es # ;
++Adj+Fem+Obl+Pl:es # ;
+
+LEXICON Adj2
++Adj+Masc+Nom+Sg:0 # ;
++Adj+Masc+Nom+Sg:s # ;
++Adj+Masc+Obl+Sg:0 # ;
++Adj+Masc+Nom+Pl:0 # ;
++Adj+Masc+Obl+Pl:s # ;
+
++Adj+Fem+Nom+Sg:0 # ;
++Adj+Fem+Obl+Sg:0 # ;
++Adj+Fem+Nom+Pl:s # ;
++Adj+Fem+Obl+Pl:s # ;
+
++Adj+Neut+Nom+Sg:0 # ;
++Adj+Neut+Obl+Sg:0 # ;
+
+LEXICON Adj3
++Adj+Masc+Nom+Sg:s # ;
++Adj+Masc+Obl+Sg:0 # ;
++Adj+Masc+Nom+Pl:0 # ;
++Adj+Masc+Obl+Pl:s # ;
+
++Adj+Fem+Nom+Sg:0 # ;
++Adj+Fem+Nom+Sg:s # ;
++Adj+Fem+Obl+Sg:0 # ;
++Adj+Fem+Nom+Pl:s # ;
++Adj+Fem+Obl+Pl:s # ;
+
++Adj+Neut+Nom+Sg:0 # ;
++Adj+Neut+Obl+Sg:0 # ;
+
+LEXICON Adj4
++Adj+Masc+Nom+Sg:re # ;
++Adj+Masc+Obl+Sg:or # ;
++Adj+Masc+Nom+Pl:or # ;
++Adj+Masc+Obl+Pl:ors # ;
+
++Adj+Fem+Nom+Sg:re # ;
++Adj+Fem+Obl+Sg:or # ;
++Adj+Fem+Nom+Pl:ors # ;
++Adj+Fem+Obl+Pl:ors # ;
+
++Adj+Neut+Nom+Sg:z # ;
++Adj+Neut+Obl+Sg:z # ;
+
+LEXICON Part
++Part+Past+Masc+Nom+Sg+Early:ez # ;
++Part+Past+Masc+Obl+Sg+Early:ét # ;
++Part+Past+Masc+Nom+Pl+Early:ét # ;
++Part+Past+Masc+Obl+Pl+Early:ez # ;
+
++Part+Past+Fem+Nom+Sg+Early:ede # ;
++Part+Past+Fem+Obl+Sg+Early:ede # ;
++Part+Past+Fem+Nom+Pl+Early:edes # ;
++Part+Past+Fem+Obl+Pl+Early:edes # ;
+
++Part+Past+Neut+Nom+Sg+Early:ét # ;
++Part+Past+Neut+Obl+Sg+Early:ét # ;
+
++Part+Past+Masc+Nom+Sg+Late:ez # ;
++Part+Past+Masc+Obl+Sg+Late:é # ;
++Part+Past+Masc+Nom+Pl+Late:é # ;
++Part+Past+Masc+Obl+Pl+Late:ez # ;
+
++Part+Past+Fem+Nom+Sg+Late:ee # ;
++Part+Past+Fem+Obl+Sg+Late:ee # ;
++Part+Past+Fem+Nom+Pl+Late:ees # ;
++Part+Past+Fem+Obl+Pl+Late:ees # ;
+
++Part+Pres+Masc+Nom+Sg+Early:anz # ;
++Part+Pres+Masc+Obl+Sg+Early:ant # ;
++Part+Pres+Masc+Nom+Pl+Early:ant # ;
++Part+Pres+Masc+Obl+Pl+Early:anz # ;
+
++Part+Pres+Fem+Nom+Sg+Early:ant # ;
++Part+Pres+Fem+Nom+Sg+Early:ants # ;
++Part+Pres+Fem+Obl+Sg+Early:ant # ;
++Part+Pres+Fem+Nom+Pl+Early:anz # ;
++Part+Pres+Fem+Obl+Pl+Early:anz # ;
+
++Part+Pres+Neut+Nom+Sg+Early:ant # ;
++Part+Pres+Neut+Obl+Sg+Early:ant # ;
+
+LEXICON Tot
++Adj+Masc+Nom+Sg:oz # ;
++Adj+Masc+Obl+Sg:ot # ;
++Adj+Masc+Nom+Pl:uit # ;
++Adj+Masc+Obl+Pl:oz # ;
+
++Adj+Fem+Nom+Sg:ote # ;
++Adj+Fem+Obl+Sg:ote # ;
++Adj+Fem+Nom+Pl:otes # ;
++Adj+Fem+Obl+Pl:otes # ;
+
++Adj+Neut+Nom+Sg:ot # ;
++Adj+Neut+Obl+Sg:ot # ;
+
+LEXICON Mieux
++Adj+Masc+Nom+Sg:ieudre # ;
++Adj+Masc+Obl+Sg:eillor # ;
++Adj+Masc+Nom+Pl:eillor # ;
++Adj+Masc+Obl+Pl:eillors # ;
+
++Adj+Fem+Nom+Sg:ieudre # ;
++Adj+Fem+Obl+Sg:eillor # ;
++Adj+Fem+Nom+Pl:eillors # ;
++Adj+Fem+Obl+Pl:eillors # ;
+
++Adj+Neut+Nom+Sg:ieuz # ;
++Adj+Neut+Obl+Sg:ieuz # ;
+
+LEXICON MascIndec
++Adj+Masc+Nom+Sg:0 # ;
++Adj+Masc+Obl+Sg:0 # ;
++Adj+Masc+Nom+Pl:0 # ;
++Adj+Masc+Obl+Pl:0 # ;
+
++Adj+Fem+Nom+Sg:e # ;
++Adj+Fem+Obl+Sg:e # ;
++Adj+Fem+Nom+Pl:es # ;
++Adj+Fem+Obl+Pl:es # ;
+
+
+!!€gt-norm: adjectives
+!!€ chantants:      chant+Part+Pres+Fem+Nom+Sg+Early
+!!€ bones:          +Adj+Fem+Nom+Pl
+!!€ bones:          +Adj+Fem+Obl+Pl
+!!€ mieudre:        m+Adj+Masc+Nom+Sg
+!!€ mieudre:        m+Adj+Fem+Nom+Sg
+!!€ forts:          fort+Adj+Masc+Nom+Sg
+!!€ forts:          fort+Adj+Masc+Obl+Pl
+!!€ forts:          fort+Adj+Fem+Nom+Pl
+!!€ forts:          fort+Adj+Fem+Obl+Pl

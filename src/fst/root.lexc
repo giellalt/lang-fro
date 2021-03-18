@@ -4,8 +4,8 @@ Multichar_Symbols
 +Ind, +Sbjv, +Cond, +Imp, +Ipfv, +Inf
 avoir, estre
 +Art, +Def, +Indef
-+Pro, +Stress, +Unstress, +Dir, +Indir, +Prs, +Poss, +Dem, +Near, +Far, +Early
-+Adv, +Adj, +Neg
++Pro, +Stress, +Unstress, +Dir, +Indir, +Prs, +Poss, +Dem, +Near, +Far, +Early, +Late
++Adv, +Adj, +Neg, +Part
 +le, +les, +me, +se, +en, +te, +est
 +Conj, +Coord, +Subord, +MultiWordConj
 @U.class.F1@
@@ -25,3 +25,4 @@ Pronouns ;
 Enclitics ;
 Adverbs ;
 Conjunctions ;
+Adjectives ;
