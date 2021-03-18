@@ -133,6 +133,7 @@ LEXICON MascIndec
 
 !!€gt-norm: adjectives
 !!€ chantants:      chant+Part+Pres+Fem+Nom+Sg+Early
+!!€ chantant:      chant+Part+Pres+Fem+Nom+Sg+Early
 !!€ bones:          bon+Adj+Fem+Nom+Pl
 !!€ bones:          bon+Adj+Fem+Obl+Pl
 !!€ mieudre:        m+Adj+Masc+Nom+Sg
