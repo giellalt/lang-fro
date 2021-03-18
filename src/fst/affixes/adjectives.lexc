@@ -133,8 +133,8 @@ LEXICON MascIndec
 
 !!€gt-norm: adjectives
 !!€ chantants:      chant+Part+Pres+Fem+Nom+Sg+Early
-!!€ bones:          +Adj+Fem+Nom+Pl
-!!€ bones:          +Adj+Fem+Obl+Pl
+!!€ bones:          bon+Adj+Fem+Nom+Pl
+!!€ bones:          bon+Adj+Fem+Obl+Pl
 !!€ mieudre:        m+Adj+Masc+Nom+Sg
 !!€ mieudre:        m+Adj+Fem+Nom+Sg
 !!€ forts:          fort+Adj+Masc+Nom+Sg
