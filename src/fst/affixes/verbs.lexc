@@ -59,6 +59,65 @@ LEXICON RegEr
 +V+1p+Pres+Imp:ons # ;
 +V+2p+Pres+Imp:ez # ;
 
+LEXICON RegIer
++V+Inf:ier # ;
++V+Pres+Ptc:ant # ;
++V+Past+Ptc:e # ;
+
++V+1s+Pres+Ind:0 # ;
++V+2s+Pres+Ind:es # ;
++V+3s+Pres+Ind:e # ;
++V+1p+Pres+Ind:ons # ;
++V+2p+Pres+Ind:iez # ;
++V+3p+Pres+Ind:ent # ;
+
++V+1s+SPast+Ind:ai # ;
++V+2s+SPast+Ind:as # ;
++V+3s+SPast+Ind:at # ;
++V+1p+SPast+Ind:ames # ;
++V+2p+SPast+Ind:astes # ;
++V+3p+SPast+Ind:ierent # ;
+
++V+1s+Ipfv+Ind:eie # ;
++V+2s+Ipfv+Ind:eies # ;
++V+3s+Ipfv+Ind:eit # ;
++V+1p+Ipfv+Ind:iiens # ;
++V+2p+Ipfv+Ind:iiez # ;
++V+3p+Ipfv+Ind:eient # ;
+
++V+1s+Fut+Ind:ierai # ;
++V+2s+Fut+Ind:ieras # ;
++V+3s+Fut+Ind:iera # ;
++V+1p+Fut+Ind:ierons # ;
++V+2p+Fut+Ind:ierez # ;
++V+2p+Fut+Ind:iereiz # ;
++V+3p+Fut+Ind:ieront # ;
+
++V+1s+Pres+Sbjv:0 # ;
++V+2s+Pres+Sbjv:s # ;
++V+3s+Pres+Sbjv:t # ;
++V+1p+Pres+Sbjv:ons # ;
++V+2p+Pres+Sbjv:iez # ;
++V+3p+Pres+Sbjv:ent # ;
+
++V+1s+Ipfv+Sbjv:asse # ;
++V+2s+Ipfv+Sbjv:asses # ;
++V+3s+Ipfv+Sbjv:ast # ;
++V+1p+Ipfv+Sbjv:issons # ;
++V+2p+Ipfv+Sbjv:issez # ;
++V+3p+Ipfv+Sbjv:assent # ;
+
++V+1s+Pres+Cond:iereie # ;
++V+2s+Pres+Cond:iereies # ;
++V+3s+Pres+Cond:iereit # ;
++V+1p+Pres+Cond:ieriiens # ;
++V+2p+Pres+Cond:ieriiez # ;
++V+3p+Pres+Cond:iereient # ;
+
++V+2s+Pres+Imp:e # ;
++V+1p+Pres+Imp:ons # ;
++V+2p+Pres+Imp:iez # ;
+
 LEXICON RegIr
 +V+Inf:ir # ;
 +V+Pres+Ptc:issant # ;
