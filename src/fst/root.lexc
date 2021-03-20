@@ -2,6 +2,7 @@ Multichar_Symbols
 
 !! General features
 +Early, +Late ! Early=early 12th century. Late=late 12th century
++Gram/Early, +Gram/Late ! Same as above. Testing Gram/ tags
 
 !! Noun Features
 +N ! Noun

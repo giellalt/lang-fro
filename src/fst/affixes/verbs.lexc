@@ -3,8 +3,8 @@
 
 LEXICON RegEr
 +V+Inf+Early:er # ;
-+V+Pres+Ptc+Early:ant # ;
-+V+Past+Ptc+Early:ét # ;
++V+Pres+Part+Gram/Early:ant # ;
++V+Past+Part+Early:ét # ;
 
 +V+1s+Pres+Ind+Early:0 # ;
 +V+2s+Pres+Ind+Early:es # ;
@@ -64,8 +64,8 @@ LEXICON RegEr
 +V+2p+Pres+Imp+Early:ez # ;
 
 +V+Inf+Late:er # ;
-+V+Pres+Ptc+Late:ant # ;
-+V+Past+Ptc+Late:é # ;
++V+Pres+Part+Gram/Late:ant # ;
++V+Past+Part+Late:é # ;
 
 +V+1s+Pres+Ind+Late:0 # ;
 +V+2s+Pres+Ind+Late:es # ;
@@ -112,12 +112,12 @@ LEXICON RegEr
 +V+2p+Ipfv+Sbjv+Late:issiez # ;
 +V+3p+Ipfv+Sbjv+Late:assent # ;
 
-+V+1s+Pres+Cond+Late:oie # ;
-+V+2s+Pres+Cond+Late:oies # ;
-+V+3s+Pres+Cond+Late:oit # ;
-+V+1p+Pres+Cond+Late:iions # ;
-+V+2p+Pres+Cond+Late:iiez # ;
-+V+3p+Pres+Cond+Late:oient # ;
++V+1s+Pres+Cond+Late:eroie # ;
++V+2s+Pres+Cond+Late:eroies # ;
++V+3s+Pres+Cond+Late:eroit # ;
++V+1p+Pres+Cond+Late:eriions # ;
++V+2p+Pres+Cond+Late:eriiez # ;
++V+3p+Pres+Cond+Late:eroient # ;
 
 +V+2s+Pres+Imp+Late:e # ;
 +V+1p+Pres+Imp+Late:ons # ;
@@ -125,68 +125,68 @@ LEXICON RegEr
 
 
 LEXICON RegIer
-+V+Inf:ier # ;
-+V+Pres+Ptc:ant # ;
-+V+Past+Ptc:e # ;
++V+Inf+Early:ier # ;
++V+Pres+Part+Early:ant # ;
++V+Past+Part+Early:e # ;
 
-+V+1s+Pres+Ind:0 # ;
-+V+2s+Pres+Ind:es # ;
-+V+3s+Pres+Ind:e # ;
-+V+1p+Pres+Ind:ons # ;
-+V+2p+Pres+Ind:iez # ;
-+V+3p+Pres+Ind:ent # ;
++V+1s+Pres+Ind+Early:0 # ;
++V+2s+Pres+Ind+Early:es # ;
++V+3s+Pres+Ind+Early:e # ;
++V+1p+Pres+Ind+Early:ons # ;
++V+2p+Pres+Ind+Early:iez # ;
++V+3p+Pres+Ind+Early:ent # ;
 
-+V+1s+SPast+Ind:ai # ;
-+V+2s+SPast+Ind:as # ;
-+V+3s+SPast+Ind:at # ;
-+V+1p+SPast+Ind:ames # ;
-+V+2p+SPast+Ind:astes # ;
-+V+3p+SPast+Ind:ierent # ;
++V+1s+SPast+Ind+Early:ai # ;
++V+2s+SPast+Ind+Early:as # ;
++V+3s+SPast+Ind+Early:at # ;
++V+1p+SPast+Ind+Early:ames # ;
++V+2p+SPast+Ind+Early:astes # ;
++V+3p+SPast+Ind+Early:ierent # ;
 
-+V+1s+Ipfv+Ind:eie # ;
-+V+2s+Ipfv+Ind:eies # ;
-+V+3s+Ipfv+Ind:eit # ;
-+V+1p+Ipfv+Ind:iiens # ;
-+V+2p+Ipfv+Ind:iiez # ;
-+V+3p+Ipfv+Ind:eient # ;
++V+1s+Ipfv+Ind+Early:eie # ;
++V+2s+Ipfv+Ind+Early:eies # ;
++V+3s+Ipfv+Ind+Early:eit # ;
++V+1p+Ipfv+Ind+Early:iiens # ;
++V+2p+Ipfv+Ind+Early:iiez # ;
++V+3p+Ipfv+Ind+Early:eient # ;
 
-+V+1s+Fut+Ind:ierai # ;
-+V+2s+Fut+Ind:ieras # ;
-+V+3s+Fut+Ind:iera # ;
-+V+1p+Fut+Ind:ierons # ;
-+V+2p+Fut+Ind:ierez # ;
-+V+2p+Fut+Ind:iereiz # ;
-+V+3p+Fut+Ind:ieront # ;
++V+1s+Fut+Ind+Early:ierai # ;
++V+2s+Fut+Ind+Early:ieras # ;
++V+3s+Fut+Ind+Early:iera # ;
++V+1p+Fut+Ind+Early:ierons # ;
++V+2p+Fut+Ind+Early:ierez # ;
++V+2p+Fut+Ind+Early:iereiz # ;
++V+3p+Fut+Ind+Early:ieront # ;
 
-+V+1s+Pres+Sbjv:0 # ;
-+V+2s+Pres+Sbjv:s # ;
-+V+3s+Pres+Sbjv:t # ;
-+V+1p+Pres+Sbjv:ons # ;
-+V+2p+Pres+Sbjv:iez # ;
-+V+3p+Pres+Sbjv:ent # ;
++V+1s+Pres+Sbjv+Early:0 # ;
++V+2s+Pres+Sbjv+Early:s # ;
++V+3s+Pres+Sbjv+Early:t # ;
++V+1p+Pres+Sbjv+Early:ons # ;
++V+2p+Pres+Sbjv+Early:iez # ;
++V+3p+Pres+Sbjv+Early:ent # ;
 
-+V+1s+Ipfv+Sbjv:asse # ;
-+V+2s+Ipfv+Sbjv:asses # ;
-+V+3s+Ipfv+Sbjv:ast # ;
-+V+1p+Ipfv+Sbjv:issons # ;
-+V+2p+Ipfv+Sbjv:issez # ;
-+V+3p+Ipfv+Sbjv:assent # ;
++V+1s+Ipfv+Sbjv+Early:asse # ;
++V+2s+Ipfv+Sbjv+Early:asses # ;
++V+3s+Ipfv+Sbjv+Early:ast # ;
++V+1p+Ipfv+Sbjv+Early:issons # ;
++V+2p+Ipfv+Sbjv+Early:issez # ;
++V+3p+Ipfv+Sbjv+Early:assent # ;
 
-+V+1s+Pres+Cond:iereie # ;
-+V+2s+Pres+Cond:iereies # ;
-+V+3s+Pres+Cond:iereit # ;
-+V+1p+Pres+Cond:ieriiens # ;
-+V+2p+Pres+Cond:ieriiez # ;
-+V+3p+Pres+Cond:iereient # ;
++V+1s+Pres+Cond+Early:iereie # ;
++V+2s+Pres+Cond+Early:iereies # ;
++V+3s+Pres+Cond+Early:iereit # ;
++V+1p+Pres+Cond+Early:ieriiens # ;
++V+2p+Pres+Cond+Early:ieriiez # ;
++V+3p+Pres+Cond+Early:iereient # ;
 
-+V+2s+Pres+Imp:e # ;
-+V+1p+Pres+Imp:ons # ;
-+V+2p+Pres+Imp:iez # ;
++V+2s+Pres+Imp+Early:e # ;
++V+1p+Pres+Imp+Early:ons # ;
++V+2p+Pres+Imp+Early:iez # ;
 
 LEXICON RegIr
 +V+Inf:ir # ;
-+V+Pres+Ptc:issant # ;
-+V+Past+Ptc:i # ;
++V+Pres+Part:issant # ;
++V+Past+Part:i # ;
 
 +V+1s+Pres+Ind:is # ;
 +V+2s+Pres+Ind:is # ;
@@ -242,67 +242,128 @@ LEXICON RegIr
 +V+2p+Pres+Imp:issez # ;
 
 LEXICON RegRe
-+V+Inf:re # ;
-+V+Pres+Ptc:ant # ;
-+V+Past+Ptc:u # ;
++V+Inf+Early:re # ;
++V+Pres+Part+Early:ant # ;
++V+Past+Part+Early:u # ;
 
-+V+1s+Pres+Ind:0 # ;
-+V+2s+Pres+Ind:es # ;
-+V+3s+Pres+Ind:e # ;
-+V+1p+Pres+Ind:ons # ;
-+V+2p+Pres+Ind:ez # ;
-+V+3p+Pres+Ind:ent # ;
++V+1s+Pres+Ind+Early:0 # ;
++V+2s+Pres+Ind+Early:s # ;
++V+3s+Pres+Ind+Early:t # ;
++V+1p+Pres+Ind+Early:ons # ;
++V+2p+Pres+Ind+Early:ez # ;
++V+3p+Pres+Ind+Early:ent # ;
 
-+V+1s+SPast+Ind:ui # ;
-+V+2s+SPast+Ind:us # ;
-+V+3s+SPast+Ind:u # ;
-+V+1p+SPast+Ind:umes # ;
-+V+2p+SPast+Ind:ustes # ;
-+V+3p+SPast+Ind:urent # ;
++V+1s+SPast+Ind+Early:ui # ;
++V+2s+SPast+Ind+Early:us # ;
++V+3s+SPast+Ind+Early:ut # ;
++V+1p+SPast+Ind+Early:umes # ;
++V+2p+SPast+Ind+Early:ustes # ;
++V+3p+SPast+Ind+Early:urent # ;
 
-+V+1s+Ipfv+Ind:oie # ;
-+V+2s+Ipfv+Ind:oies # ;
-+V+3s+Ipfv+Ind:oit # ;
-+V+1p+Ipfv+Ind:iiens # ;
-+V+2p+Ipfv+Ind:iiez # ;
-+V+3p+Ipfv+Ind:oient # ;
++V+1s+Ipfv+Ind+Early:eie # ;
++V+2s+Ipfv+Ind+Early:eies # ;
++V+3s+Ipfv+Ind+Early:eit # ;
++V+1p+Ipfv+Ind+Early:iiens # ;
++V+2p+Ipfv+Ind+Early:iiez # ;
++V+3p+Ipfv+Ind+Early:eient # ;
 
-+V+1s+Fut+Ind:rai # ;
-+V+2s+Fut+Ind:ras # ;
-+V+3s+Fut+Ind:ra # ;
-+V+1p+Fut+Ind:rons # ;
-+V+2p+Fut+Ind:rez # ;
-+V+3p+Fut+Ind:ront # ;
++V+1s+Fut+Ind+Early:rai # ;
++V+2s+Fut+Ind+Early:ras # ;
++V+3s+Fut+Ind+Early:ra # ;
++V+1p+Fut+Ind+Early:rons # ;
++V+2p+Fut+Ind+Early:rez # ;
++V+3p+Fut+Ind+Early:ront # ;
 
-+V+1s+Pres+Sbjv:e # ;
-+V+2s+Pres+Sbjv:es # ;
-+V+3s+Pres+Sbjv:e # ;
-+V+1p+Pres+Sbjv:ons # ;
-+V+2p+Pres+Sbjv:ez # ;
-+V+3p+Pres+Sbjv:ent # ;
++V+1s+Pres+Sbjv+Early:e # ;
++V+2s+Pres+Sbjv+Early:es # ;
++V+3s+Pres+Sbjv+Early:et # ;
++V+1p+Pres+Sbjv+Early:ons # ;
++V+2p+Pres+Sbjv+Early:ez # ;
++V+3p+Pres+Sbjv+Early:ent # ;
 
-+V+1s+Ipfv+Sbjv:usse # ;
-+V+2s+Ipfv+Sbjv:usses # ;
-+V+3s+Ipfv+Sbjv:ust # ;
-+V+1p+Ipfv+Sbjv:ussons # ;
-+V+2p+Ipfv+Sbjv:ussez # ;
-+V+3p+Ipfv+Sbjv:ussent # ;
++V+1s+Ipfv+Sbjv+Early:usse # ;
++V+2s+Ipfv+Sbjv+Early:usses # ;
++V+3s+Ipfv+Sbjv+Early:ust # ;
++V+1p+Ipfv+Sbjv+Early:ussons # ;
++V+2p+Ipfv+Sbjv+Early:ussez # ;
++V+3p+Ipfv+Sbjv+Early:ussent # ;
 
-+V+1s+Pres+Cond:roie # ;
-+V+2s+Pres+Cond:roies # ;
-+V+3s+Pres+Cond:roit # ;
-+V+1p+Pres+Cond:riiens # ;
-+V+2p+Pres+Cond:riiez # ;
-+V+3p+Pres+Cond:roient # ;
++V+1s+Pres+Cond+Early:reie # ;
++V+2s+Pres+Cond+Early:reies # ;
++V+3s+Pres+Cond+Early:reit # ;
++V+1p+Pres+Cond+Early:riiens # ;
++V+2p+Pres+Cond+Early:riiez # ;
++V+3p+Pres+Cond+Early:reient # ;
 
-+V+2s+Pres+Imp:e # ;
-+V+1p+Pres+Imp:ons # ;
-+V+2p+Pres+Imp:ez # ;
++V+2s+Pres+Imp+Early:0 # ;
++V+1p+Pres+Imp+Early:ons # ;
++V+2p+Pres+Imp+Early:ez # ;
+
++V+Inf+Late:re # ;
++V+Pres+Part+Late:ant # ;
++V+Past+Part+Late:u # ;
+
++V+1s+Pres+Ind+Late:0 # ;
++V+2s+Pres+Ind+Late:s # ;
++V+3s+Pres+Ind+Late:t # ;
++V+1p+Pres+Ind+Late:ons # ;
++V+2p+Pres+Ind+Late:ez # ;
++V+3p+Pres+Ind+Late:ent # ;
+
++V+1s+SPast+Ind+Late:ui # ;
++V+2s+SPast+Ind+Late:us # ;
++V+3s+SPast+Ind+Late:u # ;
++V+1p+SPast+Ind+Late:umes # ;
++V+2p+SPast+Ind+Late:ustes # ;
++V+3p+SPast+Ind+Late:urent # ;
+
++V+1s+Ipfv+Ind+Late:oie # ;
++V+2s+Ipfv+Ind+Late:oies # ;
++V+3s+Ipfv+Ind+Late:oit # ;
++V+1p+Ipfv+Ind+Late:iiens # ;
++V+2p+Ipfv+Ind+Late:iiez # ;
++V+3p+Ipfv+Ind+Late:oient # ;
+
++V+1s+Fut+Ind+Late:rai # ;
++V+2s+Fut+Ind+Late:ras # ;
++V+3s+Fut+Ind+Late:ra # ;
++V+1p+Fut+Ind+Late:rons # ;
++V+2p+Fut+Ind+Late:roiz # ;
++V+2p+Fut+Ind+Late:rez # ;
++V+3p+Fut+Ind+Late:ront # ;
+
++V+1s+Pres+Sbjv+Late:e # ;
++V+2s+Pres+Sbjv+Late:es # ;
++V+3s+Pres+Sbjv+Late:e # ;
++V+1p+Pres+Sbjv+Late:ons # ;
++V+2p+Pres+Sbjv+Late:ez # ;
++V+3p+Pres+Sbjv+Late:ent # ;
+
++V+1s+Ipfv+Sbjv+Late:usse # ;
++V+2s+Ipfv+Sbjv+Late:usses # ;
++V+3s+Ipfv+Sbjv+Late:ust # ;
++V+1p+Ipfv+Sbjv+Late:ussons # ;
++V+1p+Ipfv+Sbjv+Late:ussiens # 
++V+2p+Ipfv+Sbjv+Late:ussez # ;
++V+2p+Ipfv+Sbjv+Late:ussoiz # ;
++V+2p+Ipfv+Sbjv+Late:ussiez # ;
++V+3p+Ipfv+Sbjv+Late:ussent # ;
+
++V+1s+Pres+Cond+Late:roie # ;
++V+2s+Pres+Cond+Late:roies # ;
++V+3s+Pres+Cond+Late:roit # ;
++V+1p+Pres+Cond+Late:riiens # ;
++V+2p+Pres+Cond+Late:riiez # ;
++V+3p+Pres+Cond+Late:roient # ;
+
++V+2s+Pres+Imp+Late:0 # ;
++V+1p+Pres+Imp+Late:ons # ;
++V+2p+Pres+Imp+Late:ez # ;
 
 LEXICON Avoir
 avoir+V+Inf:avoir # ;
-avoir+V+Pres+Ptc:aiant # ;
-avoir+V+Past+Ptc:eü # ;
+avoir+V+Pres+Part:aiant # ;
+avoir+V+Past+Part:eü # ;
 
 avoir+V+1s+Pres+Ind:ai # ;
 avoir+V+2s+Pres+Ind:ais # ;
@@ -359,8 +420,8 @@ avoir+V+2p+Pres+Imp:avez # ;
 
 LEXICON Estre
 estre+V+Inf:estre # ;
-estre+V+Pres+Ptc:estant # ;
-estre+V+Past+Ptc:esté # ;
+estre+V+Pres+Part:estant # ;
+estre+V+Past+Part:esté # ;
 
 estre+V+1s+Pres+Ind:suis # ;
 estre+V+2s+Pres+Ind:es # ;
