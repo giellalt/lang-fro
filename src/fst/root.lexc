@@ -42,6 +42,8 @@ avoir, estre ! Irregular verbs
 +Coord, +Subord ! Coordinating, subordinate
 +MultiWordConj ! Part of a multi-word conjugation
 
++Prep ! Preposition
+
 +le, +les, +me, +se, +en, +te, +est
 @U.class.F1@
 @U.class.F2@
@@ -62,3 +64,4 @@ Adverbs ;
 Conjunctions ;
 Adjectives ;
 Participles ;
+Prepositions ;
