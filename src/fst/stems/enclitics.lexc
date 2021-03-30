@@ -293,8 +293,8 @@ si+Conj+MultiWordConj+Subord#l+Art+Def+Masc+Obl+Pl:ses # ;
 !! si+me=sim
 s+Conj+Coord#+Pro+Prs+1s+Obl+Unstress:sim # ;
 s+Pro+Poss+3s+Masc+Nom+Pl+Unstress#+Pro+Prs+1s+Obl+Unstress:sim # ;
-si+Adv#+Pro+Prs+1s+Obl+Unstress:sim:sim # ;
-si+Conj+MultiWordConj+Subord#+Pro+Prs+1s+Obl+Unstress:sim:sim # ;
+si+Adv#+Pro+Prs+1s+Obl+Unstress:sim # ;
+si+Conj+MultiWordConj+Subord#+Pro+Prs+1s+Obl+Unstress:sim # ;
 
 !! si+se=sis
 s+Conj+Coord#s+Conj+Subord:sis # ;
