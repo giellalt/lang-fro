@@ -82,12 +82,12 @@ en+Prep#l+Art+Def+Fem+Obl+Pl:es # ;
 !!---------------------------------------------------------------------------------
 
 !! tu+le = tul
-+Pro+Prs+2s+Nom+Stress#l+Art+Def+Masc+Obl+Sg:tul ; #
-+Pro+Prs+2s+Nom+Unstress#l+Art+Def+Masc+Obl+Sg:tul ; #
++Pro+Prs+2s+Nom+Stress#l+Art+Def+Masc+Obl+Sg:tul # ;
++Pro+Prs+2s+Nom+Unstress#l+Art+Def+Masc+Obl+Sg:tul # ;
 
 !! tu+me = tum
-+Pro+Prs+2s+Nom+Stress#+Pro+Prs+1s+Obl+Unstress:tum ; #
-+Pro+Prs+2s+Nom+Unstress#+Pro+Prs+1s+Obl+Unstress:tum ; #
++Pro+Prs+2s+Nom+Stress#+Pro+Prs+1s+Obl+Unstress:tum # ;
++Pro+Prs+2s+Nom+Unstress#+Pro+Prs+1s+Obl+Unstress:tum # ;
 
 !!---------------------------------------------------------------------------------
 !! lui
