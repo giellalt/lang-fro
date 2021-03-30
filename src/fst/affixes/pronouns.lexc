@@ -1,8 +1,10 @@
 LEXICON 1Sg
-+Pro+Prs+1s+Nom+Stress:jo # ;
-+Pro+Prs+1s+Nom+Stress:je # ;
-+Pro+Prs+1s+Nom+Unstress:jo # ;
-+Pro+Prs+1s+Nom+Unstress:je # ;
++Pro+Prs+1s+Nom+Stress+Gram/Early:jo # ;
++Pro+Prs+1s+Nom+Stress+Gram/Late:je # ;
++Pro+Prs+1s+Nom+Stress+Err/Obsc:ja # ;
++Pro+Prs+1s+Nom+Unstress+Gram/Early:jo # ;
++Pro+Prs+1s+Nom+Unstress+Gram/Late:je # ;
++Pro+Prs+1s+Nom+Unstress+Err/Obsc:ja # ;
 +Pro+Prs+1s+Obl+Stress:moi # ;
 +Pro+Prs+1s+Obl+Unstress:me # ;
 +Pro+Prs+1s+Obl+Unstress:m # ;
@@ -238,6 +240,33 @@ LEXICON DemNeuter
 +Pro+Dem+Far+Neut+Obl+Sg+Early:cel # ;
 +Pro+Dem+Near+Neut+Nom+Sg+Early:cest # ;
 +Pro+Dem+Near+Neut+Obl+Sg+Early:cest # ;
+
+LEXICON Relative
++Pro+Relative+Gram/Person+Nom:qui # ;
++Pro+Relative+Gram/Person+Obl+Dir+Unstress:que # ;
++Pro+Relative+Gram/Person+Obl+Dir+Stress:quoi # ;
++Pro+Relative+Gram/Person+Obl+Dir+Stress:cui # ;
++Pro+Relative+Gram/Person+Obl+Indir:cui # ;
++Pro+Relative+Gram/Thing+Nom:qui # ;
++Pro+Relative+Gram/Thing+Obl+Dir+Unstress:que # ;
++Pro+Relative+Gram/Thing+Obl+Dir+Stress:quoi # ;
++Pro+Relative+Gram/Thing+Obl+Dir+Stress:cui # ;
++Pro+Relative+Neut+Nom:que # ;
++Pro+Relative+Neut+Obl+Dir+Unstress:que # ;
++Pro+Relative+Neut+Obl+Dir+Stress:quoi # ;
+
+LEXICON Interrogative
++Pro+Interr+Gram/Person+Nom:qui # ;
++Pro+Interr+Gram/Person+Obl+Dir+Stress:quoi # ;
++Pro+Interr+Gram/Person+Obl+Dir+Stress:cui # ;
++Pro+Interr+Gram/Person+Obl+Indir:cui # ;
++Pro+Interr+Gram/Thing+Nom:qui # ;
++Pro+Interr+Gram/Thing+Obl+Dir+Unstress:que # ;
++Pro+Interr+Gram/Thing+Obl+Dir+Stress:quoi # ;
++Pro+Interr+Neut+Nom:que # ;
++Pro+Interr+Neut+Nom:quoi # ;
++Pro+Interr+Neut+Obl+Dir+Unstress:que # ;
++Pro+Interr+Neut+Obl+Dir+Stress:quoi # ;
 
 !!€gt-norm: Pro+Prsnouns
 !!€ mi:         +Pro+Poss+1s+Masc+Nom+Pl+Unstress

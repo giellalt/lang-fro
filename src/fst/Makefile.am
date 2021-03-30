@@ -33,7 +33,6 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/articles.lexc	  \
 			 affixes/pronouns.lexc	  \
 			 stems/pronouns.lexc      \
-			 affixes/enclitics.lexc   \
 			 stems/enclitics.lexc	  \
 			 affixes/adverbs.lexc 	  \
 			 stems/adverbs.lexc		  \
