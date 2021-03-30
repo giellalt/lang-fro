@@ -43,6 +43,7 @@ LEXICON Comme
 
 !!€gt-norm: Conjunctions
 !!€ si:    s+Conj+Coord
+!!€ s:    s+Conj+Coord
 !!€ s:    s+Conj+Coord+Gram/Liason
 !!€ si:    si+Conj+MultiWordConj+Subord
 !!€ et:    e+Conj+Coord
