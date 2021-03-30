@@ -4,7 +4,7 @@ Multichar_Symbols
 +Early, +Late ! Early=early 12th century. Late=late 12th century
 +Gram/Early, +Gram/Late ! Same as above. Testing Gram/ tags
 +Err/Obsc ! Obscure forms
-+Liason ! Form only used for liason
++Gram/Liason ! Form only used for liason
 
 !! Noun Features
 +N ! Noun

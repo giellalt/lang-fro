@@ -7,21 +7,21 @@ LEXICON Ou
 +Conj+Coord:u # ;
 
 LEXICON Que
-+Conj+Coord+Liason:0 # ;
++Conj+Coord+Gram/Liason:0 # ;
 +Conj+Coord:e # ;
-+Conj+Subord+Liason:0 # ;
++Conj+Subord+Gram/Liason:0 # ;
 +Conj+Subord:e # ;
 
 LEXICON Ne
-+Conj+Coord+Liason:0 # ;
++Conj+Coord+Gram/Liason:0 # ;
 +Conj+Coord:e # ;
 
 LEXICON Se
-+Conj+Subord+Liason:0 # ;
++Conj+Subord+Gram/Liason:0 # ;
 +Conj+Subord:e # ;
 
 LEXICON Si
-+Conj+Coord+Liason:0 # ;
++Conj+Coord+Gram/Liason:0 # ;
 +Conj+Coord:i # ;
 
 LEXICON Coord
@@ -43,7 +43,7 @@ LEXICON Comme
 
 !!€gt-norm: Conjunctions
 !!€ si:    s+Conj+Coord
-!!€ s:    s+Conj+Coord
+!!€ s:    s+Conj+Coord+Gram/Liason
 !!€ si:    si+Conj+MultiWordConj+Subord
 !!€ et:    e+Conj+Coord
 !!€ e:     e+Conj+Coord
