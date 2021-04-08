@@ -14,7 +14,7 @@ tendre Adj2 "tendre" ;
 
 brief Adj3 "short" ;
 fol Adj3 "foolish" ;
-fort Adj3 "strong" ;
+fort%> Adj3 "strong" ;
 grant%> Adj3 "great" ;
 grief Adj3 "grievous" ;
 quel Adj3 "which" ;
@@ -37,13 +37,13 @@ gentil Adj3 "noble" ;
 sotil Adj3 "ingenious" ;
 avenant Adj3 "attrative" ;
 corant Adj3 "swift" ;
-luisant Adj3 "bright" ;
-puissant Adj3 "powerful" ;
-trenchant Adj3 "sharp" ;
-vaillant Adj3 "valliant" ;
-diligent Adj3 "diligent" ;
-pacient Adj3 "patient" ;
-prudent Adj3 "prudent" ;
+luisant%> Adj3 "bright" ;
+puissant%> Adj3 "powerful" ;
+trenchant%> Adj3 "sharp" ;
+vaillant%> Adj3 "valliant" ;
+diligent%> Adj3 "diligent" ;
+pacient%> Adj3 "patient" ;
+prudent%> Adj3 "prudent" ;
 
 corteis MascIndec "corteous" ;
 cortois MascIndec "corteous" ;
@@ -57,4 +57,4 @@ precios MascIndec "precious" ;
 tierz MascIndec "third" ;
 
 LEXICON Participles
-chant Part ;
+chant%> Part ;
