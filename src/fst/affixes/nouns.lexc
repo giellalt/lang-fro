@@ -44,6 +44,7 @@ LEXICON MC3
 +N+Masc+C3+Obl+Sg:0 # ;
 +N+Masc+C3+Nom+Pl:0 # ;
 +N+Masc+C3+Obl+Pl:s # ;
+
 ! vim: set ft=xfst-lexc:
 
 !!€gt-norm: nouns

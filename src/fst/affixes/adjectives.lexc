@@ -130,6 +130,11 @@ LEXICON MascIndec
 +Adj+Fem+Nom+Pl:es # ;
 +Adj+Fem+Obl+Pl:es # ;
 
+LEXICON Mout
++Adj:out # ;
++Adj:olt # ;
++Adj:ult # ;
+
 
 !!€gt-norm: adjectives
 !!€ chantants:      chant+Part+Pres+Fem+Nom+Sg+Early
