@@ -57,4 +57,4 @@ precios MascIndec "precious" ;
 tierz MascIndec "third" ;
 
 LEXICON Participles
-chant%> Part ;
+chant Part ;
