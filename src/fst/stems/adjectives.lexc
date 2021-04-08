@@ -15,7 +15,7 @@ tendre Adj2 "tendre" ;
 brief Adj3 "short" ;
 fol Adj3 "foolish" ;
 fort Adj3 "strong" ;
-grant> Adj3 "great" ;
+grant%> Adj3 "great" ;
 grief Adj3 "grievous" ;
 quel Adj3 "which" ;
 soëf Adj3 "sweet" ;
