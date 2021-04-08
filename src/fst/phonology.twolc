@@ -19,10 +19,20 @@ Sets
  
 Rules
 
+!! t+s and st+s become z
 "s becomes z"
 s:z <=> t: %> _ ;
 
 "t disappears before an s becoming a z"
 t:0 <=> _ %> s:z ;
 
+"s disappears before a ts that becomes a z"
+s:0 <=> _ t:0 %> s:z ;
+
+!! d+s becomes z
+"s becomes z"
+s:z <=> d: %> _ ;
+
+"d disappears before an s becoming a z"
+d:0 <=> _ %> s:z ;
 
