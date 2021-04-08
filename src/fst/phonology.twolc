@@ -20,7 +20,7 @@ Sets
 Rules
 
 "s becomes z"
-s:z <=> t %> _ ;
+s:z <=> t: %> _ ;
 
 "t disappears before an s becoming a z"
 t:0 <=> _ %> s:z ;
