@@ -412,6 +412,7 @@ estre+V+3p+Pres+Ind:sont # ;
 estre+V+1s+SPast+Ind:fui # ;
 estre+V+2s+SPast+Ind:fus # ;
 estre+V+3s+SPast+Ind:fut # ;
+estre+V+3s+SPast+Ind:fu # ;
 estre+V+1p+SPast+Ind:fumes # ;
 estre+V+2p+SPast+Ind:fustes # ;
 estre+V+3p+SPast+Ind:furent # ;

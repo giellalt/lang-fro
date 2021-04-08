@@ -109,10 +109,15 @@ LEXICON 3SgPoss
 +Pro+Poss+3s+Fem+Obl+Pl+Stress:oes # ;
 
 LEXICON 1Pl
-+Pro+Prs+1p+Nom+Stress:s # ;
-+Pro+Prs+1p+Nom+Unstress:s # ;
-+Pro+Prs+1p+Obl+Stress:s # ;
-+Pro+Prs+1p+Obl+Unstress:s # ;
++Pro+Prs+1p+Nom+Stress+Gram/Early:s # ;
++Pro+Prs+1p+Nom+Unstress+Gram/Early:s # ;
++Pro+Prs+1p+Obl+Stress+Gram/Early:s # ;
++Pro+Prs+1p+Obl+Unstress+Gram/Early:s # ;
+
++Pro+Prs+1p+Nom+Stress+Gram/Early:us # ;
++Pro+Prs+1p+Nom+Unstress+Gram/Early:us # ;
++Pro+Prs+1p+Obl+Stress+Gram/Early:us # ;
++Pro+Prs+1p+Obl+Unstress+Gram/Early:us # ;
 
 +Pro+Poss+1p+Masc+Nom+Sg+Unstress:stre # ;
 +Pro+Poss+1p+Masc+Obl+Sg+Unstress:stre # ;
@@ -136,10 +141,15 @@ LEXICON 1Pl
 +Pro+Poss+1p+Fem+Obl+Pl+Stress:z # ;
 
 LEXICON 2Pl
-+Pro+Prs+2p+Nom+Stress:s # ;
-+Pro+Prs+2p+Nom+Unstress:s # ;
-+Pro+Prs+2p+Obl+Stress:s # ;
-+Pro+Prs+2p+Obl+Unstress:s # ;
++Pro+Prs+2p+Nom+Stress+Gram/Early:s # ;
++Pro+Prs+2p+Nom+Unstress+Gram/Early:s # ;
++Pro+Prs+2p+Obl+Stress+Gram/Early:s # ;
++Pro+Prs+2p+Obl+Unstress+Gram/Early:s # ;
+
++Pro+Prs+2p+Nom+Stress+Gram/Early:us # ;
++Pro+Prs+2p+Nom+Unstress+Gram/Early:us # ;
++Pro+Prs+2p+Obl+Stress+Gram/Early:us # ;
++Pro+Prs+2p+Obl+Unstress+Gram/Early:us # ;
 
 +Pro+Poss+2p+Masc+Nom+Sg+Unstress:stre # ;
 +Pro+Poss+2p+Masc+Obl+Sg+Unstress:stre # ;
