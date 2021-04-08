@@ -3,6 +3,8 @@ LEXICON Negation
 +Adv+Neg+Unstress:e # ;
 +Adv+Neg+Unstress:en # ;
 
+LEXICON Pas
++Neg: # ;
 
 LEXICON BaseAdv
 +Adv:0 # ;
