@@ -107,13 +107,13 @@ LEXICON MascIndec
 
 
 !!€gt-norm: adjectives
-!!€ chantants:      chant+Part+Pres+Fem+Nom+Sg+Early
+!!€ chantanz:      chant+Part+Pres+Fem+Nom+Sg+Early
 !!€ chantant:      chant+Part+Pres+Fem+Nom+Sg+Early
 !!€ bones:          bon+Adj+Fem+Nom+Pl
 !!€ bones:          bon+Adj+Fem+Obl+Pl
-!!€ mieudre:        m+Adj+Masc+Nom+Sg
-!!€ mieudre:        m+Adj+Fem+Nom+Sg
-!!€ forts:          fort+Adj+Masc+Nom+Sg
-!!€ forts:          fort+Adj+Masc+Obl+Pl
-!!€ forts:          fort+Adj+Fem+Nom+Pl
-!!€ forts:          fort+Adj+Fem+Obl+Pl
+!!€ mieudre:        mieux+Adj+Masc+Nom+Sg
+!!€ mieudre:        mieux+Adj+Fem+Nom+Sg
+!!€ forz:          fort%>+Adj+Masc+Nom+Sg
+!!€ forz:          fort%>+Adj+Masc+Obl+Pl
+!!€ forz:          fort%>+Adj+Fem+Nom+Pl
+!!€ forz:          fort%>+Adj+Fem+Obl+Pl
