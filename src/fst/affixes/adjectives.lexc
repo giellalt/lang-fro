@@ -113,7 +113,7 @@ LEXICON MascIndec
 !!€ bones:          bon+Adj+Fem+Obl+Pl
 !!€ mieudre:        mieux+Adj+Masc+Nom+Sg
 !!€ mieudre:        mieux+Adj+Fem+Nom+Sg
-!!€ forz:          fort%>+Adj+Masc+Nom+Sg
-!!€ forz:          fort%>+Adj+Masc+Obl+Pl
-!!€ forz:          fort%>+Adj+Fem+Nom+Pl
-!!€ forz:          fort%>+Adj+Fem+Obl+Pl
+!!€ forz:          fort>+Adj+Masc+Nom+Sg
+!!€ forz:          fort>+Adj+Masc+Obl+Pl
+!!€ forz:          fort>+Adj+Fem+Nom+Pl
+!!€ forz:          fort>+Adj+Fem+Obl+Pl
