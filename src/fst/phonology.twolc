@@ -21,7 +21,7 @@ Rules
 
 !! t+s and st+s become z
 "s becomes z"
-s:z <=> t: %> _ ;
+s:z <=> t:0 %> _ ;
 
 "t disappears before an s becoming a z"
 t:0 <=> _ %> s:z ;
