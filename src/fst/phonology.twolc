@@ -20,7 +20,7 @@ Sets
 Rules
 
 !! t+s and st+s become z
-"s becomes z"
+"s becomes z after a t"
 s:z <=> t: %>: _ ;
 
 "t disappears before an s becoming a z"
@@ -31,8 +31,50 @@ s:0 <=> _ t:0 %>: s:z ;
 
 !! d+s becomes z
 "s becomes z"
-s:z <=> d: %> _ ;
+s:z <=> d: %>: _ ;
 
 "d disappears before an s becoming a z"
-d:0 <=> _ %> s:z ;
+d:0 <=> _ %>: s:z ;
 
+!! p, f, c, b, and v disappear before inflectional -s
+!! FIXME: change to labials + c
+"p disappears before inflectional -s"
+p:0 <=> _ %>: s: ;
+
+"f disappears before inflectional -s"
+f:0 <=> _ %>: s: ;
+
+"c disappears before inflectional -s"
+c:0 <=> _ %>: s: ;
+
+"b disappears before inflectional -s"
+b:0 <=> _ %>: s: ;
+
+"v disappears before inflectional -s"
+v:0 <=> _ %>: s: ;
+
+!! nasal alterations
+
+"after a vowel, m+s becomes ns"
+m:n <=> Vow _ s:s ;
+
+"rm+s becomes rs"
+m:0 <=> r:r _ s:s ;
+
+"rn+s becomes rz"
+s:z <=> r:r n:0 _ ;
+
+"rn+s becomes rz"
+n:0 <=> r:r _ s:z ;
+
+"n'+s (gn+s) becomes nz"
+s:z <=> g:0 n:n _ ;
+
+"n'+s (gn+s) becomes nz"
+g:0 <=> _ n:n s:z ;
+
+"n'+s (ng+s) becomes nz"
+s:z <=> n:n g:0 _ ;
+
+"n'+s (ng+s) becomes nz"
+g:0 <=> n:n _ s:z ;
