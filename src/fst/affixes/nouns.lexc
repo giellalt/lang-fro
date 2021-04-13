@@ -4,10 +4,10 @@
 
 
 LEXICON FC1
-+N+Fem+C1+Nom+Sg:e # ;
-+N+Fem+C1+Obl+Sg:e # ;
-+N+Fem+C1+Nom+Pl:es # ;
-+N+Fem+C1+Obl+Pl:es # ;
++N+Fem+C1+Nom+Sg:0 # ;
++N+Fem+C1+Obl+Sg:0 # ;
++N+Fem+C1+Nom+Pl:s # ;
++N+Fem+C1+Obl+Pl:s # ;
 
 LEXICON FC2
 +N+Fem+C2+Nom+Sg:0 # ;
