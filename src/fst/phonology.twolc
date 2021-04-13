@@ -21,13 +21,13 @@ Rules
 
 !! t+s and st+s become z
 "s becomes z"
-s:z <=> t: %> _ ;
+s:z <=> t: %>: _ ;
 
 "t disappears before an s becoming a z"
-t:0 <=> _ %> s: ;
+t:0 <=> _ %>: s: ;
 
 "s disappears before a ts that becomes a z"
-s:0 <=> _ t:0 %> s:z ;
+s:0 <=> _ t:0 %>: s:z ;
 
 !! d+s becomes z
 "s becomes z"
