@@ -1,9 +1,33 @@
 !! Verbs
 
 LEXICON Verbs
-dur RegEr   "to last" ;
-fen RegIr   "to end" ;
-cor RegRe   "to run" ;
 0 Avoir     "to have" ;
 0 Estre     "to be" ;
-son RegEr ;
+son RegEr   "to ring" ;
+am RegEr    "to love" ;
+chant RegEr "to sing" ;
+don RegEr   "to give" ;
+dur RegEr   "to last" ;
+plor RegEr  "to weep" ;
+
+aid RegIer  "to help" ;
+laiss RegIer "to leave, to let" ;
+nonc RegIer  "to announce" ;
+otroi RegIer "to grant" ;
+
+fen RegIr   "to end" ;
+chois RegIr "to choose" ;
+flor RegIr "to bloom" ;
+gar RegIr "to save, to heal" ;
+covr RegIr "to cover" ;
+fer RegIr "to strike" ; ! Irregular PP- FIXME
+od RegIr "to hear" ; ! Irregular
+o RegIr "to hear" ; ! Irregular
+serv RegIr "to serve" ;
+
+cor RegRe   "to run" ;
+perd RegRe "to lose" ;
+respond RegRe "to reply" ;
+
+!! Add: doloir, faire, tenir, venir, veoir, dire, metre, rire, 
+!! conduire, criembre, tordre, traire, boivre, devoir, savoir
