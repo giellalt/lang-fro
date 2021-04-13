@@ -91,33 +91,6 @@ LEXICON Part
 +Part+Pres+Neut+Nom+Sg+Early:ant # ;
 +Part+Pres+Neut+Obl+Sg+Early:ant # ;
 
-LEXICON Tot
-+Adj+Masc+Nom+Sg:oz # ;
-+Adj+Masc+Obl+Sg:ot # ;
-+Adj+Masc+Nom+Pl:uit # ;
-+Adj+Masc+Obl+Pl:oz # ;
-
-+Adj+Fem+Nom+Sg:ote # ;
-+Adj+Fem+Obl+Sg:ote # ;
-+Adj+Fem+Nom+Pl:otes # ;
-+Adj+Fem+Obl+Pl:otes # ;
-
-+Adj+Neut+Nom+Sg:ot # ;
-+Adj+Neut+Obl+Sg:ot # ;
-
-LEXICON Mieux
-+Adj+Masc+Nom+Sg:ieudre # ;
-+Adj+Masc+Obl+Sg:eillor # ;
-+Adj+Masc+Nom+Pl:eillor # ;
-+Adj+Masc+Obl+Pl:eillors # ;
-
-+Adj+Fem+Nom+Sg:ieudre # ;
-+Adj+Fem+Obl+Sg:eillor # ;
-+Adj+Fem+Nom+Pl:eillors # ;
-+Adj+Fem+Obl+Pl:eillors # ;
-
-+Adj+Neut+Nom+Sg:ieuz # ;
-+Adj+Neut+Obl+Sg:ieuz # ;
 
 LEXICON MascIndec
 +Adj+Masc+Nom+Sg:0 # ;
@@ -130,10 +103,7 @@ LEXICON MascIndec
 +Adj+Fem+Nom+Pl:es # ;
 +Adj+Fem+Obl+Pl:es # ;
 
-LEXICON Mout
-+Adj:out # ;
-+Adj:olt # ;
-+Adj:ult # ;
+
 
 
 !!€gt-norm: adjectives
