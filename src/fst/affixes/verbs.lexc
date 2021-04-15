@@ -519,6 +519,99 @@ estre+V+1p+Pres+Imp:seiiens # ;
 estre+V+1p+Pres+Imp:seions # ;
 estre+V+2p+Pres+Imp:seiiez # ;
 
+
+LEXICON Faire
+faire+V+Inf:faire # ;
+faire+V+Inf:feire # ;
+faire+V+Inf:fere # ;
+faire+V+Pres+Part:faisent # ;
+faire+V+Pres+Part:feisent # ;
+faire+V+Pres+Part:fesent # ;
+faire+V+Past+Part:fait # ;
+faire+V+Past+Part:feit # ;
+faire+V+Past+Part:fet # ;
+
+faire+V+1s+Pres+Ind:faz # ;
+faire+V+1s+Pres+Ind:fai # ;
+faire+V+1s+Pres+Ind:fei # ;
+faire+V+2s+Pres+Ind:fais # ;
+faire+V+2s+Pres+Ind:feis # ;
+faire+V+3s+Pres+Ind:fait # ;
+faire+V+3s+Pres+Ind:feit # ;
+faire+V+1p+Pres+Ind:faimes # ;
+faire+V+1p+Pres+Ind:faisons # ;
+faire+V+2p+Pres+Ind:faites # ;
+faire+V+3p+Pres+Ind:font # ;
+faire+V+3p+Pres+Ind:funt # ;
+
+faire+V+1s+SPast+Ind:fi # ;
+faire+V+1s+SPast+Ind:fe # ;
+faire+V+1s+SPast+Ind:fis # ;
+faire+V+1s+SPast+Ind:fes # ;
+faire+V+1s+SPast+Ind:fesis # ;
+faire+V+2s+SPast+Ind:fisis # ;
+faire+V+3s+SPast+Ind:fist # ;
+faire+V+3s+SPast+Ind:fest # ;
+faire+V+3s+SPast+Ind:fesist # ;
+faire+V+1p+SPast+Ind:fisimes # ;
+faire+V+1p+SPast+Ind:fesimes # ;
+faire+V+2p+SPast+Ind:fisistes # ;
+faire+V+2p+SPast+Ind:fesistes # ;
+faire+V+3p+SPast+Ind:fisent # ;
+faire+V+3p+SPast+Ind:fesent # ;
+
+faire+V+1s+Ipfv+Ind+Gram/Early:faiseie # ;
+faire+V+1s+Ipfv+Ind+Gram/Late:faisoie # ;
+faire+V+2s+Ipfv+Ind+Gram/Early:faiseies # ;
+faire+V+2s+Ipfv+Ind+Gram/Late:faisoies # ;
+faire+V+3s+Ipfv+Ind+Gram/Early:faiseit # ;
+faire+V+3s+Ipfv+Ind+Gram/Late:faisoit # ;
+faire+V+1p+Ipfv+Ind+Gram/Early:faisiiens # ;
+faire+V+1p+Ipfv+Ind+Gram/Late:faisons # ;
+faire+V+2p+Ipfv+Ind+Gram/Early:faisiiez # ;
+faire+V+2p+Ipfv+Ind+Gram/Late:faissez # ;
+faire+V+3p+Ipfv+Ind+Gram/Early:faisent # ;
+faire+V+3p+Ipfv+Ind+Gram/Late:faiseient # ;
+faire+V+3p+Ipfv+Ind+Gram/Late:faisoient # ;
+
+faire+V+1s+Fut+Ind:ferai # ;
+faire+V+2s+Fut+Ind:feras # ;
+faire+V+3s+Fut+Ind:fera # ;
+faire+V+3s+Fut+Ind:ferat # ;
+faire+V+1p+Fut+Ind:ferons # ;
+faire+V+2p+Fut+Ind:ferez # ;
+faire+V+3p+Fut+Ind:ferent # ;
+faire+V+3p+Fut+Ind:feront # ;
+
+faire+V+1s+Pres+Sbjv:face # ;
+faire+V+2s+Pres+Sbjv:faces # ;
+faire+V+3s+Pres+Sbjv:face # ;
+faire+V+3s+Pres+Sbjv:facet # ;
+faire+V+3s+Pres+Sbjv:faciest # ;
+faire+V+1p+Pres+Sbjv:faciens # ;
+faire+V+1p+Pres+Sbjv:façons # ;
+faire+V+2p+Pres+Sbjv:faciez # ;
+faire+V+3p+Pres+Sbjv:facent
+
+faire+V+1s+Ipfv+Sbjv:fesisse # ;
+faire+V+2s+Ipfv+Sbjv:fesisses # ;
+faire+V+3s+Ipfv+Sbjv:fesisst # ;
+faire+V+1p+Ipfv+Sbjv:fesissons # ;
+faire+V+2p+Ipfv+Sbjv:fesissez # ;
+faire+V+3p+Ipfv+Sbjv:fesissent # ;
+
+faire+V+1s+Pres+Cond:ferais # ;
+faire+V+2s+Pres+Cond:ferais # ;
+faire+V+3s+Pres+Cond:ferait # ;
+faire+V+3s+Pres+Cond:feroit # ;
+faire+V+1p+Pres+Cond:ferions # ;
+faire+V+2p+Pres+Cond:feriez # ;
+faire+V+3p+Pres+Cond:feraient # ;
+
+faire+V+2s+Pres+Imp:fai # ;
+faire+V+1p+Pres+Imp:faisons # ;
+faire+V+2p+Pres+Imp:faisez # ;
+
 !!€gt-norm: -er_verbs
 !!€ durer:      dur+V+Inf
 !!€ dur:        dur+V+1s+Pres+Ind
