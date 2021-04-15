@@ -408,6 +408,7 @@ estre+V+1p+Pres+Ind:somes # ;
 estre+V+1p+Pres+Ind:esmes # ;
 estre+V+2p+Pres+Ind:estes # ;
 estre+V+3p+Pres+Ind:sont # ;
+estre+V+3p+Pres+Ind:sunt # ;
 
 estre+V+1s+SPast+Ind:fui # ;
 estre+V+2s+SPast+Ind:fus # ;
@@ -611,6 +612,79 @@ faire+V+3p+Pres+Cond:feraient # ;
 faire+V+2s+Pres+Imp:fai # ;
 faire+V+1p+Pres+Imp:faisons # ;
 faire+V+2p+Pres+Imp:faisez # ;
+
+LEXICON Dire
+dire+V+Inf:dire # ;
+dire+V+Pres+Part:disant # ;
+dire+V+Past+Part:dit # ;
+
+dire+V+1s+Pres+Ind:di # ;
+dire+V+2s+Pres+Ind:dis # ;
+dire+V+3s+Pres+Ind:dit # ;
+dire+V+1p+Pres+Ind:dimes # ;
+dire+V+1p+Pres+Ind:dions # ;
+dire+V+1p+Pres+Ind:disons # ;
+dire+V+2p+Pres+Ind:dites # ;
+dire+V+3p+Pres+Ind:dient # ;
+
+dire+V+1s+SPast+Ind:di # ;
+dire+V+2s+SPast+Ind:disis # ;
+dire+V+3s+SPast+Ind:dist # ;
+dire+V+1p+SPast+Ind:disimes # ;
+dire+V+2p+SPast+Ind:distes # ;
+dire+V+3p+SPast+Ind:disent # ;
+
+dire+V+1s+Ipfv+Ind+Gram/Early:diseie # ;
+dire+V+1s+Ipfv+Ind+Gram/Late:disoie # ;
+dire+V+2s+Ipfv+Ind+Gram/Early:diseies # ;
+dire+V+2s+Ipfv+Ind+Gram/Late:disoies # ;
+dire+V+3s+Ipfv+Ind+Gram/Early:diseit # ;
+dire+V+3s+Ipfv+Ind+Gram/Late:disoit # ;
+dire+V+1p+Ipfv+Ind+Gram/Early:disiiens # ;
+dire+V+1p+Ipfv+Ind+Gram/Late:disons # ;
+dire+V+2p+Ipfv+Ind+Gram/Early:disiiez # ;
+dire+V+2p+Ipfv+Ind+Gram/Late:dissez # ;
+dire+V+3p+Ipfv+Ind+Gram/Early:disent # ;
+dire+V+3p+Ipfv+Ind+Gram/Late:diseient # ;
+dire+V+3p+Ipfv+Ind+Gram/Late:disoient # ;
+
+dire+V+1s+Fut+Ind:dirai # ;
+dire+V+2s+Fut+Ind:diras # ;
+dire+V+3s+Fut+Ind:dira # ;
+dire+V+3s+Fut+Ind:dirat # ;
+dire+V+1p+Fut+Ind:dirons # ;
+dire+V+2p+Fut+Ind:direz # ;
+dire+V+3p+Fut+Ind:dirent # ;
+dire+V+3p+Fut+Ind:diront # ;
+
+dire+V+1s+Pres+Sbjv:die # ;
+dire+V+2s+Pres+Sbjv:dies # ;
+dire+V+3s+Pres+Sbjv:diet # ;
+dire+V+3s+Pres+Sbjv:diest # ; ! plural?
+dire+V+1p+Pres+Sbjv:diiens # ;
+dire+V+1p+Pres+Sbjv:dions # ;
+dire+V+2p+Pres+Sbjv:diiez # ;
+dire+V+2p+Pres+Sbjv:disiez # ;
+dire+V+3p+Pres+Sbjv:dient # ;
+
+dire+V+1s+Ipfv+Sbjv:desisse # ;
+dire+V+2s+Ipfv+Sbjv:desisses # ;
+dire+V+3s+Ipfv+Sbjv:desisst # ;
+dire+V+1p+Ipfv+Sbjv:desissons # ;
+dire+V+2p+Ipfv+Sbjv:desissez # ;
+dire+V+3p+Ipfv+Sbjv:desissent # ;
+
+dire+V+1s+Pres+Cond:dirais # ;
+dire+V+2s+Pres+Cond:dirais # ;
+dire+V+3s+Pres+Cond:dirait # ;
+dire+V+3s+Pres+Cond:diroit # ;
+dire+V+1p+Pres+Cond:dirions # ;
+dire+V+2p+Pres+Cond:diriez # ;
+dire+V+3p+Pres+Cond:diraient # ;
+
+dire+V+2s+Pres+Imp:di # ;
+dire+V+1p+Pres+Imp:disons # ;
+dire+V+2p+Pres+Imp:disez # ;
 
 !!€gt-norm: -er_verbs
 !!€ durer:      dur+V+Inf
