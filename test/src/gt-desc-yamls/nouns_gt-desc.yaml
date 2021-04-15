@@ -9,20 +9,20 @@ Config:
 
 Tests:
   Noun - fill - ok : # -m animate noun
-    fille+N+Fem+C1+Nom+Sg: fille # this is a comment
-    fille+N+Fem+C1+Obl+Sg: fille #
-    fille+N+Fem+C1+Nom+Pl: filles #
-    fille+N+Fem+C1+Obl+Pl: filles #
+    fille+N+Fem+Nom+Sg: fille # this is a comment
+    fille+N+Fem+Obl+Sg: fille #
+    fille+N+Fem+Nom+Pl: filles #
+    fille+N+Fem+Obl+Pl: filles #
 
   Noun - vertut - ok : #
-    vertut+N+Fem+C2+Nom+Sg: vertut #
-    vertut+N+Fem+C2+Obl+Sg: vertut #
-    vertut+N+Fem+C2+Nom+Pl: vertuts #
-    vertut+N+Fem+C2+Obl+Pl: vertuts #
+    vertut+N+Fem+Nom+Sg: vertut #
+    vertut+N+Fem+Obl+Sg: vertut #
+    vertut+N+Fem+Nom+Pl: vertuts #
+    vertut+N+Fem+Obl+Pl: vertuts #
 
   Noun - serour - ok : #
-    serour+N+Fem+C3+Nom+Sg: serour #
-    serour+N+Fem+C3+Obl+Sg: serour #
-    serour+N+Fem+C3+Nom+Pl: serours #
-    serour+N+Fem+C3+Obl+Pl: serours #
+    serour+N+Fem+Nom+Sg: serour #
+    serour+N+Fem+Obl+Sg: serour #
+    serour+N+Fem+Nom+Pl: serours #
+    serour+N+Fem+Obl+Pl: serours #
 

@@ -4,51 +4,51 @@
 
 
 LEXICON FC1
-+N+Fem+C1+Nom+Sg:0 # ;
-+N+Fem+C1+Obl+Sg:0 # ;
-+N+Fem+C1+Nom+Pl:s # ;
-+N+Fem+C1+Obl+Pl:s # ;
++N+Fem+Nom+Sg:0 # ;
++N+Fem+Obl+Sg:0 # ;
++N+Fem+Nom+Pl:s # ;
++N+Fem+Obl+Pl:s # ;
 
 LEXICON FC2
-+N+Fem+C2+Nom+Sg:0 # ;
-+N+Fem+C2+Obl+Sg:0 # ;
-+N+Fem+C2+Nom+Pl:s # ;
-+N+Fem+C2+Obl+Pl:s # ;
++N+Fem+Nom+Sg:0 # ;
++N+Fem+Obl+Sg:0 # ;
++N+Fem+Nom+Pl:s # ;
++N+Fem+Obl+Pl:s # ;
 
 LEXICON FC3
-+N+Fem+C3+Nom+Sg:0 # ;
-+N+Fem+C3+Obl+Sg:0 # ;
-+N+Fem+C3+Nom+Pl:s # ;
-+N+Fem+C3+Obl+Pl:s # ;
++N+Fem+Nom+Sg:0 # ;
++N+Fem+Obl+Sg:0 # ;
++N+Fem+Nom+Pl:s # ;
++N+Fem+Obl+Pl:s # ;
 
 LEXICON MC1a
-+N+Masc+C1a+Nom+Sg:s # ;
-+N+Masc+C1a+Obl+Sg:0 # ;
-+N+Masc+C1a+Nom+Pl:0 # ;
-+N+Masc+C1a+Obl+Pl:s # ;
++N+Masc+Nom+Sg:s # ;
++N+Masc+Obl+Sg:0 # ;
++N+Masc+Nom+Pl:0 # ;
++N+Masc+Obl+Pl:s # ;
 
 LEXICON MC1b
-+N+Masc+C1b+Nom+Sg:es # ;
-+N+Masc+C1b+Obl+Sg:e # ;
-+N+Masc+C1b+Nom+Pl:e # ;
-+N+Masc+C1b+Obl+Pl:es # ;
++N+Masc+Nom+Sg:es # ;
++N+Masc+Obl+Sg:e # ;
++N+Masc+Nom+Pl:e # ;
++N+Masc+Obl+Pl:es # ;
 
 LEXICON MC2
-+N+Masc+C2+Nom+Sg:e # ;
-+N+Masc+C2+Obl+Sg:e # ;
-+N+Masc+C2+Nom+Pl:e # ;
-+N+Masc+C2+Obl+Pl:es # ;
++N+Masc+Nom+Sg:e # ;
++N+Masc+Obl+Sg:e # ;
++N+Masc+Nom+Pl:e # ;
++N+Masc+Obl+Pl:es # ;
 
 LEXICON MC3
-+N+Masc+C3+Nom+Sg:0 # ;
-+N+Masc+C3+Obl+Sg:0 # ;
-+N+Masc+C3+Nom+Pl:0 # ;
-+N+Masc+C3+Obl+Pl:s # ;
++N+Masc+Nom+Sg:0 # ;
++N+Masc+Obl+Sg:0 # ;
++N+Masc+Nom+Pl:0 # ;
++N+Masc+Obl+Pl:s # ;
 
 ! vim: set ft=xfst-lexc:
 
 !!€gt-norm: nouns
-!!€ fille:    fille+N+Fem+C1+Nom+Sg
-!!€ fille:    fille+N+Fem+C1+Obl+Sg
-!!€ filles:    fille+N+Fem+C1+Nom+Pl
-!!€ filles:    fille+N+Fem+C1+Obl+Pl
+!!€ fille:    fille+N+Fem+Nom+Sg
+!!€ fille:    fille+N+Fem+Obl+Sg
+!!€ filles:    fille+N+Fem+Nom+Pl
+!!€ filles:    fille+N+Fem+Obl+Pl

@@ -11,7 +11,6 @@ Multichar_Symbols
 +Nom, +Obl ! Cases: nominative and oblique
 +Masc, +Fem, +Neut ! Genders: masculine, feminine, neuter
 +Sg, +Pl ! Numbers: singular, plural
-+C1, +C1a, +C1b, +C2, +C3 ! Noun classes
 
 !! Verb Features
 +V ! Verb

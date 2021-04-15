@@ -78,4 +78,13 @@ païs+N+Masc:païs # "country" ;
 palais+N+Masc:palais # "palace" ;
 voiz+N+Fem:voiz # "voice" ;
 
+hom+N+Masc+Nom+Sg:hom # "man" ;
+hom+N+Masc+Nom+Sg:home # "man" ;
+hom+N+Masc+Nom+Sg:om # "man" ;
+hom+N+Masc+Nom+Sg:on # "man" ;
+hom+N+Masc+Obl+Sg:home # "man" ;
+hom+N+Masc+Obl+Sg:ome # "man" ;
+hom+N+Masc+Nom+Pl:hume # "man" ;
+hom+N+Masc+Obl+Pl:humes # "man" ;
+
 ! vim: set ft=xfst-lexc:
