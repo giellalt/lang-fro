@@ -32,4 +32,6 @@ des SubPart ;
 lues SubPart ;
 tantost SubPart ;
 puis SubPart ;
+or Subord "now" ;
+ore Subord "now" ;
 co Comme ;

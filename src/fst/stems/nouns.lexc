@@ -59,6 +59,7 @@ chevalier MC1a "knight" ;
 lion MC1a "lion" ;
 paien MC1a "infidel" ;
 pelerin MC1a "pilgrim" ;
+or MC1a "gold" ; ! Check class
 
 pedr MC2 ;
 comper MC2 "friend, crony" ;
