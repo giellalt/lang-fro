@@ -1,4 +1,5 @@
-T (->) 0 || _ .#. ;
+T (->) 0 || _ .#. ,
+e (->) o || _ i ;
 
 # Explanation:
 # lexical side (->) input 
