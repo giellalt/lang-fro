@@ -73,14 +73,22 @@ mout+Adj:mult # ;
 !! Tot
 tot+Adj+Masc+Nom+Sg:toz # ;
 tot+Adj+Masc+Obl+Sg:tot # ;
+tot+Adj+Masc+Obl+Sg:tut # ;
+tot+Adj+Masc+Obl+Sg:tout # ;
 tot+Adj+Masc+Nom+Pl:tuit # ;
 tot+Adj+Masc+Obl+Pl:toz # ;
+tot+Adj+Masc+Obl+Pl:tuz # ;
+tot+Adj+Masc+Obl+Pl:tous # ;
 tot+Adj+Fem+Nom+Sg:tote # ;
 tot+Adj+Fem+Obl+Sg:tote # ;
 tot+Adj+Fem+Nom+Pl:totes # ;
+tot+Adj+Fem+Nom+Pl:tutes # ;
 tot+Adj+Fem+Obl+Pl:totes # ;
 tot+Adj+Neut+Nom+Sg:tot # ;
 tot+Adj+Neut+Obl+Sg:tot # ;
+tot+Adj+Masc+Obl+Sg+Emph:trestout # ;
+tot+Adj+Masc+Obl+Sg+Emph:trestut # ;
+tot+Adj+Fem+Nom+Sg+Emph:trestute # ;
 
 LEXICON Participles
 chant Part ;
