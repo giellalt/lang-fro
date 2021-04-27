@@ -12,6 +12,7 @@ s 3SgRefl "itself" ;
 s 3PlRefl "themselves" ;
 i ProAdv "a+Pron" ;
 en ProAdv "de+Pron" ;
+em ProAdv "de+Pron" ;
 s 3SgPoss "his/her/its" ;
 lor 3PlPoss "their" ;
 lur 3PlPoss "their" ;

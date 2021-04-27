@@ -6,6 +6,7 @@ por Prep "for" ;
 pur Prep "for" ;
 an Prep "in, into" ;
 en Prep "in, into" ;
+en+Prep+Err/Obsc:em "in, into" ;
 ansembl'ot Prep "together with" ;
 ensembl'od Prep "together with" ;
 ensemble#od Prep "together with" ;
