@@ -15,10 +15,10 @@ Tests:
     fille+N+Fem+Obl+Pl: filles #
 
   Noun - vertut - ok : #
-    vertut+N+Fem+Nom+Sg: vertut #
-    vertut+N+Fem+Obl+Sg: vertut #
-    vertut+N+Fem+Nom+Pl: vertuts #
-    vertut+N+Fem+Obl+Pl: vertuts #
+    vertuT+N+Fem+Nom+Sg: vertut #
+    vertuT+N+Fem+Obl+Sg: vertut #
+    vertuT+N+Fem+Nom+Pl: vertuts #
+    vertuT+N+Fem+Obl+Pl: vertuts #
 
   Noun - serour - ok : #
     serour+N+Fem+Nom+Sg: serour #
