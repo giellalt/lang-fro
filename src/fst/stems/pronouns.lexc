@@ -18,7 +18,7 @@ s 3SgPoss "his/her/its" ;
 lor 3PlPoss "their" ;
 lur 3PlPoss "their" ;
 leur 3PlPoss "their" ;
-icel: Demonstrative ;
+icel:i Demonstrative ;
 cel: Demonstrative ;
 ice: DemNeuter ;
 ce: DemNeuter ;
