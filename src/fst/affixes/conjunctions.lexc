@@ -34,10 +34,16 @@ LEXICON SubPart
 +Conj+MultiWordConj+Subord:0 # ;
 
 LEXICON Comme
-+Conj+Subord:n # ;
-+Conj+Subord:me # ;
-+Conj+Subord:nme # ;
-+Conj+Subord:mme # ;
++Conj+Subord:com # ;
++Conj+Subord:cum # ;
++Conj+Subord:con # ;
++Conj+Subord:come # ;
++Conj+Subord:conme # ;
++Conj+Subord:comme # ;
+
+LEXICON Cum
++Conj+Subord:com # ;
++Conj+Subord:cum # ;
 
 ! vim: set ft=xfst-lexc:
 

@@ -34,4 +34,5 @@ tantost SubPart ;
 puis SubPart ;
 or Subord "now" ;
 ore Subord "now" ;
-co Comme ;
+com: Comme "as" ;
+cum: Cum "in order that" ;
