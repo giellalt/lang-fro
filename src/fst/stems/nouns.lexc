@@ -76,6 +76,7 @@ vespr MC2 "evening" ;
 ome MC3 ;
 
 dieu: Dieu "god" ;
+seignor: Seignor "lord" ;
 
 païs+N+Masc:païs # "country" ;
 palais+N+Masc:palais # "palace" ;

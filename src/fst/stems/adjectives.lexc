@@ -79,6 +79,7 @@ tot+Adj+Masc+Nom+Pl:tuit # ;
 tot+Adj+Masc+Obl+Pl:toz # ;
 tot+Adj+Masc+Obl+Pl:tuz # ;
 tot+Adj+Masc+Obl+Pl:tous # ;
+tot+Adj+Masc+Obl+Pl:touz # ; ! Double check
 tot+Adj+Fem+Nom+Sg:tote # ;
 tot+Adj+Fem+Obl+Sg:tote # ;
 tot+Adj+Fem+Nom+Pl:totes # ;
