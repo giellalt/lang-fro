@@ -178,6 +178,7 @@ LEXICON 3PlMasc
 +Pro+Prs+3p+Masc+Obl+Dir+Stress:eus # ;
 +Pro+Prs+3p+Masc+Obl+Dir+Unstress:les # ;
 +Pro+Prs+3p+Masc+Obl+Indir+Stress:lor # ;
++Pro+Prs+3p+Masc+Obl+Indir+Stress:lur # ;
 +Pro+Prs+3p+Masc+Obl+Indir+Unstress:lor # ;
 
 LEXICON 3PlFem

@@ -14,6 +14,7 @@ i ProAdv "a+Pron" ;
 en ProAdv "de+Pron" ;
 s 3SgPoss "his/her/its" ;
 lor 3PlPoss "their" ;
+lur 3PlPoss "their" ;
 leur 3PlPoss "their" ;
 i Demonstrative ;
 0 Demonstrative ;

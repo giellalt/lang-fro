@@ -1,6 +1,7 @@
 LEXICON Definite
 +Art+Def+Masc+Nom+Sg:i # ;
 +Art+Def+Masc+Obl+Sg:e # ;
++Art+Def+Masc+Obl+Sg:o # ;
 +Art+Def+Masc+Nom+Pl:i # ;
 +Art+Def+Masc+Obl+Pl:es # ;
 +Art+Def+Fem+Nom+Sg:a # ;
