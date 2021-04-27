@@ -24,16 +24,12 @@ LEXICON RegEr
 +V+2p+SPast+Ind:astes # ;
 +V+3p+SPast+Ind:erent # ;
 
-+V+1s+Ipfv+Ind+Gram/Early:eie # ;
-+V+1s+Ipfv+Ind+Gram/Late:oie # ;
-+V+2s+Ipfv+Ind+Gram/Early:eies # ;
-+V+2s+Ipfv+Ind+Gram/Late:oies # ;
-+V+3s+Ipfv+Ind+Gram/Early:eit # ;
-+V+3s+Ipfv+Ind+Gram/Late:oit # ;
++V+1s+Ipfv+Ind:eie # ;
++V+2s+Ipfv+Ind:eies # ;
++V+3s+Ipfv+Ind:eit # ;
 +V+1p+Ipfv+Ind:iiens # ;
 +V+2p+Ipfv+Ind:iiez # ;
-+V+3p+Ipfv+Ind+Gram/Early:eient # ;
-+V+3p+Ipfv+Ind+Gram/Late:oient # ;
++V+3p+Ipfv+Ind:eient # ;
 
 +V+1s+Fut+Ind:erai # ;
 +V+2s+Fut+Ind:eras # ;
@@ -58,22 +54,17 @@ LEXICON RegEr
 +V+1p+Ipfv+Sbjv:issiens # ;
 +V+2p+Ipfv+Sbjv:issez # ;
 +V+2p+Ipfv+Sbjv:issiez # ;
-+V+2p+Ipfv+Sbjv+Gram/Early:isseiz # ;
-+V+2p+Ipfv+Sbjv+Gram/Late:issoiz # ;
++V+2p+Ipfv+Sbjv:isseiz # ;
 +V+3p+Ipfv+Sbjv:assent # ;
 
-+V+1s+Pres+Cond+Gram/Early:ereie # ;
-+V+1s+Pres+Cond+Gram/Late:eroie # ;
-+V+2s+Pres+Cond+Gram/Early:ereis # ;
-+V+2s+Pres+Cond+Gram/Late:eroies # ;
-+V+3s+Pres+Cond+Gram/Early:ereit # ;
-+V+3s+Pres+Cond+Gram/Late:eroit # ;
++V+1s+Pres+Cond:ereie # ;
++V+2s+Pres+Cond:ereis # ;
++V+3s+Pres+Cond:ereit # ;
 +V+1p+Pres+Cond+Gram/Early:eriiens # ;
 +V+1p+Pres+Cond+Gram/Late:eriions # ;
 +V+2p+Pres+Cond+Gram/Early:eriiez # ;
 +V+2p+Pres+Cond+Gram/Late:eriiez # ;
-+V+3p+Pres+Cond+Gram/Early:ereient # ;
-+V+3p+Pres+Cond+Gram/Late:eroient # ;
++V+3p+Pres+Cond:ereient # ;
 
 +V+2s+Pres+Imp:e # ;
 +V+1p+Pres+Imp:ons # ;
@@ -98,16 +89,12 @@ LEXICON RegIer
 +V+2p+SPast+Ind:astes # ;
 +V+3p+SPast+Ind:ierent # ;
 
-+V+1s+Ipfv+Ind+Gram/Early:eie # ;
-+V+1s+Ipfv+Ind+Gram/Late:oie # ;
-+V+2s+Ipfv+Ind+Gram/Early:eies # ;
-+V+2s+Ipfv+Ind+Gram/Late:oies # ;
-+V+3s+Ipfv+Ind+Gram/Early:eit # ;
-+V+3s+Ipfv+Ind+Gram/Late:oit # ;
++V+1s+Ipfv+Ind:eie # ;
++V+2s+Ipfv+Ind:eies # ;
++V+3s+Ipfv+Ind:eit # ;
 +V+1p+Ipfv+Ind:iiens # ;
 +V+2p+Ipfv+Ind:iiez # ;
-+V+3p+Ipfv+Ind+Gram/Early:eient # ;
-+V+3p+Ipfv+Ind+Gram/Late:oient # ;
++V+3p+Ipfv+Ind:eient # ;
 
 +V+1s+Fut+Ind:ierai # ;
 +V+2s+Fut+Ind:ieras # ;
@@ -131,16 +118,12 @@ LEXICON RegIer
 +V+2p+Ipfv+Sbjv:issez # ;
 +V+3p+Ipfv+Sbjv:assent # ;
 
-+V+1s+Pres+Cond+Gram/Early:iereie # ;
-+V+1s+Pres+Cond+Gram/Late:ieroie # ;
-+V+2s+Pres+Cond+Gram/Early:iereies # ;
-+V+2s+Pres+Cond+Gram/Late:ieroies # ;
-+V+3s+Pres+Cond+Gram/Early:iereit # ;
-+V+3s+Pres+Cond+Gram/Late:ieroit # ;
++V+1s+Pres+Cond:iereie # ;
++V+2s+Pres+Cond:iereies # ;
++V+3s+Pres+Cond:iereit # ;
 +V+1p+Pres+Cond:ieriiens # ;
 +V+2p+Pres+Cond:ieriiez # ;
-+V+3p+Pres+Cond+Gram/Early:iereient # ;
-+V+3p+Pres+Cond+Gram/Late:ieroient # ;
++V+3p+Pres+Cond:iereient # ;
 
 +V+2s+Pres+Imp:e # ;
 +V+1p+Pres+Imp:ons # ;
@@ -165,16 +148,12 @@ LEXICON RegIr
 +V+2p+SPast+Ind:istes # ;
 +V+3p+SPast+Ind:irent # ;
 
-+V+1s+Ipfv+Ind+Gram/Early:isseie # ;
-+V+1s+Ipfv+Ind+Gram/Late:issoie # ;
-+V+2s+Ipfv+Ind+Gram/Early:isseies # ;
-+V+2s+Ipfv+Ind+Gram/Late:issoies # ;
-+V+3s+Ipfv+Ind+Gram/Early:isseit # ;
-+V+3s+Ipfv+Ind+Gram/Late:issoit # ;
++V+1s+Ipfv+Ind:isseie # ;
++V+2s+Ipfv+Ind:isseies # ;
++V+3s+Ipfv+Ind:isseit # ;
 +V+1p+Ipfv+Ind:issiiens # ;
 +V+2p+Ipfv+Ind:issiiez # ;
-+V+3p+Ipfv+Ind+Gram/Early:isseient # ;
-+V+3p+Ipfv+Ind+Gram/Late:issoient # ;
++V+3p+Ipfv+Ind:isseient # ;
 
 +V+1s+Fut+Ind:irai # ;
 +V+2s+Fut+Ind:iras # ;
@@ -197,16 +176,12 @@ LEXICON RegIr
 +V+2p+Ipfv+Sbjv:issez # ;
 +V+3p+Ipfv+Sbjv:issent # ;
 
-+V+1s+Pres+Cond+Gram/Early:ireie # ;
-+V+1s+Pres+Cond+Gram/Late:iroie # ;
-+V+2s+Pres+Cond+Gram/Early:ireis # ;
-+V+2s+Pres+Cond+Gram/Late:irois # ;
-+V+3s+Pres+Cond+Gram/Early:ireit # ;
-+V+3s+Pres+Cond+Gram/Late:iroit # ;
++V+1s+Pres+Cond:ireie # ;
++V+2s+Pres+Cond:ireis # ;
++V+3s+Pres+Cond:ireit # ;
 +V+1p+Pres+Cond:iriiens # ;
 +V+2p+Pres+Cond:iriiez # ;
-+V+3p+Pres+Cond+Gram/Early:ireient # ;
-+V+3p+Pres+Cond+Gram/Late:iroient # ;
++V+3p+Pres+Cond:ireient # ;
 
 +V+2s+Pres+Imp:isse # ;
 +V+1p+Pres+Imp:issons # ;
@@ -231,16 +206,12 @@ LEXICON RegRe
 +V+2p+SPast+Ind:ustes # ;
 +V+3p+SPast+Ind:urent # ;
 
-+V+1s+Ipfv+Ind+Gram/Early:eie # ;
-+V+1s+Ipfv+Ind+Gram/Late:oie # ;
-+V+2s+Ipfv+Ind+Gram/Early:eies # ;
-+V+2s+Ipfv+Ind+Gram/Late:oies # ;
-+V+3s+Ipfv+Ind+Gram/Early:eit # ;
-+V+3s+Ipfv+Ind+Gram/Late:oit # ;
++V+1s+Ipfv+Ind:eie # ;
++V+2s+Ipfv+Ind:eies # ;
++V+3s+Ipfv+Ind:eit # ;
 +V+1p+Ipfv+Ind:iiens # ;
 +V+2p+Ipfv+Ind:iiez # ;
-+V+3p+Ipfv+Ind+Gram/Early:eient # ;
-+V+3p+Ipfv+Ind+Gram/Late:oient # ;
++V+3p+Ipfv+Ind:eient # ;
 
 +V+1s+Fut+Ind:rai # ;
 +V+2s+Fut+Ind:ras # ;
@@ -267,16 +238,12 @@ LEXICON RegRe
 +V+2p+Ipfv+Sbjv+Gram/Late:ussiez # ;
 +V+3p+Ipfv+Sbjv:ussent # ;
 
-+V+1s+Pres+Cond+Gram/Early:reie # ;
-+V+1s+Pres+Cond+Gram/Late:roie # ;
-+V+2s+Pres+Cond+Gram/Early:reies # ;
-+V+2s+Pres+Cond+Gram/Late:roies # ;
-+V+3s+Pres+Cond+Gram/Early:reit # ;
-+V+3s+Pres+Cond+Gram/Late:roit # ;
++V+1s+Pres+Cond+Gram:reie # ;
++V+2s+Pres+Cond:reies # ;
++V+3s+Pres+Cond:reit # ;
 +V+1p+Pres+Cond:riiens # ;
 +V+2p+Pres+Cond:riiez # ;
-+V+3p+Pres+Cond+Gram/Early:reient # ;
-+V+3p+Pres+Cond+Gram/Late:roient # ;
++V+3p+Pres+Cond+Gram:reient # ;
 
 +V+2s+Pres+Imp:0 # ;
 +V+1p+Pres+Imp:ons # ;
@@ -284,8 +251,7 @@ LEXICON RegRe
 
 
 LEXICON Avoir
-avoir+V+Inf+Gram/Early:aveir # ;
-avoir+V+Inf+Gram/Late:avoir # ;
+avoir+V+Inf:aveir # ;
 avoir+V+Pres+Part:aiant # ;
 avoir+V+Past+Part+Gram/Early:eüt # ;
 avoir+V+Past+Part+Gram/Early:oüt # ;
@@ -312,17 +278,13 @@ avoir+V+2p+SPast+Ind+Gram/Late:oütes # ;
 avoir+V+3p+SPast+Ind+Gram/Early:eürent # ;
 avoir+V+3p+SPast+Ind:orent # ;
 
-avoir+V+1s+Ipfv+Ind+Gram/Early:aveie # ;
-avoir+V+1s+Ipfv+Ind+Gram/Late:avoie # ;
-avoir+V+2s+Ipfv+Ind+Gram/Early:aveis # ;
-avoir+V+2s+Ipfv+Ind+Gram/Late:avois # ;
-avoir+V+3s+Ipfv+Ind+Gram/Early:aveit # ;
-avoir+V+3s+Ipfv+Ind+Gram/Late:avoit # ;
+avoir+V+1s+Ipfv+Ind:aveie # ;
+avoir+V+2s+Ipfv+Ind:aveis # ;
+avoir+V+3s+Ipfv+Ind:aveit # ;
 avoir+V+1p+Ipfv+Ind:aviiens # ;
 avoir+V+1p+Ipfv+Ind:aviions # ;
 avoir+V+2p+Ipfv+Ind+Gram:aviiez # ;
-avoir+V+3p+Ipfv+Ind+Gram/Early:aveient # ;
-avoir+V+3p+Ipfv+Ind+Gram/Late:avoient # ;
+avoir+V+3p+Ipfv+Ind:aveient # ;
 
 avoir+V+1s+Fut+Ind+Gram/Early:avrai # ;
 avoir+V+1s+Fut+Ind+Gram/Late:arai # ;
@@ -368,15 +330,10 @@ avoir+V+3p+Ipfv+Sbjv+Gram/Early:eüssent # ;
 avoir+V+3p+Ipfv+Sbjv+Gram/Early:oüssent # ;
 
 avoir+V+1s+Pres+Cond+Gram/Early:avreie # ;
-avoir+V+1s+Pres+Cond+Gram/Early:avroie # ;
 avoir+V+1s+Pres+Cond+Gram/Late:areie # ;
-avoir+V+1s+Pres+Cond+Gram/Late:aroie # ;
 avoir+V+2s+Pres+Cond+Gram/Early:avreies # ;
-avoir+V+2s+Pres+Cond+Gram/Early:avroies # ;
 avoir+V+2s+Pres+Cond+Gram/Late:areies # ;
-avoir+V+2s+Pres+Cond+Gram/Late:aroies # ;
 avoir+V+3s+Pres+Cond+Gram/Early:avreit # ;
-avoir+V+3s+Pres+Cond+Gram/Early:avroit # ;
 avoir+V+3s+Pres+Cond+Gram/Late:areit # ;
 avoir+V+3s+Pres+Cond+Gram/Late:areit # ;
 avoir+V+1p+Pres+Cond+Gram/Early:avriiens # ;
@@ -386,9 +343,7 @@ avoir+V+1p+Pres+Cond+Gram/Late:arions # ;
 avoir+V+2p+Pres+Cond+Gram/Early:avriiez # ;
 avoir+V+2p+Pres+Cond+Gram/Late:ariiez # ;
 avoir+V+3p+Pres+Cond+Gram/Early:avreient # ;
-avoir+V+3p+Pres+Cond+Gram/Early:avroient # ;
 avoir+V+3p+Pres+Cond+Gram/Late:areient # ;
-avoir+V+3p+Pres+Cond+Gram/Late:aroient # ;
 
 avoir+V+2s+Pres+Imp:aies # ;
 avoir+V+1p+Pres+Imp:aiiens # ;
@@ -421,17 +376,14 @@ estre+V+3p+SPast+Ind:furent # ;
 estre+V+1s+Ipfv+Ind+Gram/Early:ere # ;
 estre+V+1s+Ipfv+Ind+Gram/Early:iere # ;
 estre+V+1s+Ipfv+Ind+Gram/Late:esteie # ;
-estre+V+1s+Ipfv+Ind+Gram/Late:estoie # ;
 estre+V+2s+Ipfv+Ind+Gram/Early:eres # ;
 estre+V+2s+Ipfv+Ind+Gram/Early:ieres # ;
 estre+V+2s+Ipfv+Ind+Gram/Late:esteies # ;
-estre+V+2s+Ipfv+Ind+Gram/Late:estoies # ;
 estre+V+3s+Ipfv+Ind+Gram/Early:eret # ;
 estre+V+3s+Ipfv+Ind+Gram/Early:ieret # ;
 estre+V+3s+Ipfv+Ind+Gram/Early:ert # ;
 estre+V+3s+Ipfv+Ind+Gram/Early:iert # ;
 estre+V+3s+Ipfv+Ind+Gram/Late:esteit # ;
-estre+V+3s+Ipfv+Ind+Gram/Late:estoit # ;
 estre+V+1p+Ipfv+Ind+Gram/Early:eriiens # ;
 estre+V+1p+Ipfv+Ind+Gram/Early:erions # ;
 estre+V+1p+Ipfv+Ind+Gram/Late:estiiens # ;
@@ -441,7 +393,6 @@ estre+V+2p+Ipfv+Ind+Gram/Late:estiiez # ;
 estre+V+3p+Ipfv+Ind+Gram/Early:erent # ;
 estre+V+3p+Ipfv+Ind+Gram/Early:ierent # ;
 estre+V+3p+Ipfv+Ind+Gram/Late:esteient # ;
-estre+V+3p+Ipfv+Ind+Gram/Late:estoient # ;
 
 estre+V+1s+Fut+Ind+Gram/Early:er # ;
 estre+V+1s+Fut+Ind+Gram/Early:ier # ;
@@ -469,19 +420,13 @@ estre+V+3p+Fut+Ind+Gram/Late:seront # ;
 estre+V+3p+Fut+Ind+Gram/Late:estront # ;
 
 estre+V+1s+Pres+Sbjv:seie # ;
-estre+V+1s+Pres+Sbjv:soie # ;
 estre+V+2s+Pres+Sbjv:seies # ;
-estre+V+2s+Pres+Sbjv:soies # ;
 estre+V+3s+Pres+Sbjv:seit # ;
-estre+V+3s+Pres+Sbjv:soit # ;
 estre+V+1p+Pres+Sbjv:seiiens # ;
-estre+V+1p+Pres+Sbjv:soiiens # ;
 estre+V+1p+Pres+Sbjv:seions # ;
-estre+V+1p+Pres+Sbjv:soions # ;
 estre+V+2p+Pres+Sbjv:seiiez # ;
 estre+V+2p+Pres+Sbjv:soiiez # ;
 estre+V+3p+Pres+Sbjv:seient # ;
-estre+V+3p+Pres+Sbjv:soient # ;
 
 estre+V+1s+Ipfv+Sbjv:fusse # ;
 estre+V+2s+Ipfv+Sbjv:fusses # ;
@@ -494,17 +439,11 @@ estre+V+2p+Ipfv+Sbjv:fussiez # ;
 estre+V+3p+Ipfv+Sbjv:fussent # ;
 
 estre+V+1s+Pres+Cond+Gram/Early:sereie # ;
-estre+V+1s+Pres+Cond+Gram/Early:seroie # ;
 estre+V+1s+Pres+Cond+Gram/Late:estreie # ;
-estre+V+1s+Pres+Cond+Gram/Late:estroie # ;
 estre+V+2s+Pres+Cond+Gram/Early:sereies # ;
-estre+V+2s+Pres+Cond+Gram/Early:seroies # ;
 estre+V+2s+Pres+Cond+Gram/Late:estreies # ;
-estre+V+2s+Pres+Cond+Gram/Late:estroies # ;
 estre+V+3s+Pres+Cond+Gram/Early:sereit # ;
-estre+V+3s+Pres+Cond+Gram/Early:seroit # ;
 estre+V+3s+Pres+Cond+Gram/Late:estreit # ;
-estre+V+3s+Pres+Cond+Gram/Late:estroit # ;
 estre+V+1p+Pres+Cond+Gram/Early:seriiens # ;
 estre+V+1p+Pres+Cond+Gram/Early:serions # ;
 estre+V+1p+Pres+Cond+Gram/Late:estriiens # ;
@@ -515,7 +454,6 @@ estre+V+3p+Pres+Cond+Gram/Early:sereient # ;
 estre+V+3p+Pres+Cond+Gram/Late:estreient # ;
 
 estre+V+2s+Pres+Imp:seies # ;
-estre+V+2s+Pres+Imp:soies # ;
 estre+V+1p+Pres+Imp:seiiens # ;
 estre+V+1p+Pres+Imp:seions # ;
 estre+V+2p+Pres+Imp:seiiez # ;
@@ -561,19 +499,15 @@ faire+V+2p+SPast+Ind:fesistes # ;
 faire+V+3p+SPast+Ind:fisent # ;
 faire+V+3p+SPast+Ind:fesent # ;
 
-faire+V+1s+Ipfv+Ind+Gram/Early:faiseie # ;
-faire+V+1s+Ipfv+Ind+Gram/Late:faisoie # ;
-faire+V+2s+Ipfv+Ind+Gram/Early:faiseies # ;
-faire+V+2s+Ipfv+Ind+Gram/Late:faisoies # ;
-faire+V+3s+Ipfv+Ind+Gram/Early:faiseit # ;
-faire+V+3s+Ipfv+Ind+Gram/Late:faisoit # ;
+faire+V+1s+Ipfv+Ind:faiseie # ;
+faire+V+2s+Ipfv+Ind:faiseies # ;
+faire+V+3s+Ipfv+Ind:faiseit # ;
 faire+V+1p+Ipfv+Ind+Gram/Early:faisiiens # ;
 faire+V+1p+Ipfv+Ind+Gram/Late:faisons # ;
 faire+V+2p+Ipfv+Ind+Gram/Early:faisiiez # ;
 faire+V+2p+Ipfv+Ind+Gram/Late:faissez # ;
 faire+V+3p+Ipfv+Ind+Gram/Early:faisent # ;
-faire+V+3p+Ipfv+Ind+Gram/Late:faiseient # ;
-faire+V+3p+Ipfv+Ind+Gram/Late:faisoient # ;
+faire+V+3p+Ipfv+Ind:faiseient # ;
 
 faire+V+1s+Fut+Ind:ferai # ;
 faire+V+2s+Fut+Ind:feras # ;
@@ -634,19 +568,15 @@ dire+V+1p+SPast+Ind:disimes # ;
 dire+V+2p+SPast+Ind:distes # ;
 dire+V+3p+SPast+Ind:disent # ;
 
-dire+V+1s+Ipfv+Ind+Gram/Early:diseie # ;
-dire+V+1s+Ipfv+Ind+Gram/Late:disoie # ;
-dire+V+2s+Ipfv+Ind+Gram/Early:diseies # ;
-dire+V+2s+Ipfv+Ind+Gram/Late:disoies # ;
-dire+V+3s+Ipfv+Ind+Gram/Early:diseit # ;
-dire+V+3s+Ipfv+Ind+Gram/Late:disoit # ;
+dire+V+1s+Ipfv+Ind:diseie # ;
+dire+V+2s+Ipfv+Ind:diseies # ;
+dire+V+3s+Ipfv+Ind:diseit # ;
 dire+V+1p+Ipfv+Ind+Gram/Early:disiiens # ;
 dire+V+1p+Ipfv+Ind+Gram/Late:disons # ;
 dire+V+2p+Ipfv+Ind+Gram/Early:disiiez # ;
 dire+V+2p+Ipfv+Ind+Gram/Late:dissez # ;
 dire+V+3p+Ipfv+Ind+Gram/Early:disent # ;
-dire+V+3p+Ipfv+Ind+Gram/Late:diseient # ;
-dire+V+3p+Ipfv+Ind+Gram/Late:disoient # ;
+dire+V+3p+Ipfv+Ind:diseient # ;
 
 dire+V+1s+Fut+Ind:dirai # ;
 dire+V+2s+Fut+Ind:diras # ;
@@ -689,13 +619,13 @@ dire+V+2p+Pres+Imp:disez # ;
 !!€gt-norm: -er_verbs
 !!€ durer:      dur+V+Inf
 !!€ dur:        dur+V+1s+Pres+Ind
-!!€ duroies:    dur+V+2s+Ipfv+Ind+Gram/Late
+!!€ duroies:    dur+V+2s+Ipfv+Ind
 !!€ dura:       dur+V+3s+SPast+Ind+Gram/Late
 !!€ durerons:   dur+V+1p+Fut+Ind
 !!€ durez:    dur+V+2p+Pres+Sbjv
 !!€ durassent:    dur+V+3p+Ipfv+Sbjv
-!!€ dureroie:    dur+V+1s+Pres+Cond+Gram/Late
-!!€ duroie:    dur+V+1s+Ipfv+Ind+Gram/Late
-!!€ durereie:    dur+V+1s+Pres+Cond+Gram/Early
-!!€ dureie:    dur+V+1s+Ipfv+Ind+Gram/Early
+!!€ dureroie:    dur+V+1s+Pres+Cond
+!!€ duroie:    dur+V+1s+Ipfv+Ind
+!!€ durereie:    dur+V+1s+Pres+Cond
+!!€ dureie:    dur+V+1s+Ipfv+Ind
 !!€ dure:    dur+V+2s+Pres+Imp
