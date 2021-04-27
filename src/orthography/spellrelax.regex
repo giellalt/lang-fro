@@ -1,4 +1,4 @@
-t (->) 0 || _ .#. ;
+t (->) 0 || _ %> .#. ;
 
 # Explanation:
 # lexical side (->) input 
