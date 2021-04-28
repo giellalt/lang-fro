@@ -5,31 +5,32 @@ avoir: Avoir     "to have" ;
 estre: Estre     "to be" ;
 faire: Faire     "to make, to do, to say" ;
 dire: Dire      "so say" ;
-son RegEr   "to ring" ;
-am RegEr    "to love" ;
-chant RegEr "to sing" ;
-don RegEr   "to give" ;
-dur RegEr   "to last" ;
-plor RegEr  "to weep" ;
 
-aid RegIer  "to help" ;
-laiss RegIer "to leave, to let" ;
-nonc RegIer  "to announce" ;
-otroi RegIer "to grant" ;
+sonner:son RegEr   "to ring" ;
+amer:am RegEr    "to love" ;
+chanter:chant RegEr "to sing" ;
+doner:don RegEr   "to give" ;
+durer:dur RegEr   "to last" ;
+plorer:plot RegEr  "to weep" ;
 
-fen RegIr   "to end" ;
-chois RegIr "to choose" ;
-flor RegIr "to bloom" ;
-gar RegIr "to save, to heal" ;
-covr RegIr "to cover" ;
-fer RegIr "to strike" ; ! Irregular PP- FIXME
-od RegIr "to hear" ; ! Irregular
-o RegIr "to hear" ; ! Irregular
-serv RegIr "to serve" ;
+aidier:aid RegIer  "to help" ;
+laissier:laiss RegIer "to leave, to let" ;
+noncier:nonc RegIer  "to announce" ;
+otroier:otro RegIer "to grant" ;
 
-cor RegRe   "to run" ;
-perd RegRe "to lose" ;
-respond RegRe "to reply" ;
+fenir:fen RegIr   "to end" ;
+choisir:chois RegIr "to choose" ;
+florir:flor RegIr "to bloom" ;
+garir:gar RegIr "to save, to heal" ;
+covrir:covr RegIr "to cover" ;
+ferir:fer RegIr "to strike" ; ! Irregular PP- FIXME
+odir:od RegIr "to hear" ; ! Irregular
+oir:o RegIr "to hear" ; ! Irregular
+servir:serv RegIr "to serve" ;
 
-!! Add: doloir, faire, tenir, venir, veoir, dire, metre, rire, 
+corre:cor RegRe   "to run" ;
+perdre:perd RegRe "to lose" ;
+respondre:respond RegRe "to reply" ;
+
+!! Add: doloir, faire, tenir, venir, veoir, metre, rire, 
 !! conduire, criembre, tordre, traire, boivre, devoir, savoir
