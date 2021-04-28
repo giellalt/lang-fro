@@ -53,43 +53,10 @@ ploros MascIndec "tearful" ;
 precios MascIndec "precious" ;
 tierz MascIndec "third" ;
 
-!! Mieux
-mieux+Adj+Masc+Nom+Sg:mieudre # ;
-mieux+Adj+Masc+Obl+Sg:meillor # ;
-mieux+Adj+Masc+Nom+Pl:meillor # ;
-mieux+Adj+Masc+Obl+Pl:meillors # ;
-mieux+Adj+Fem+Nom+Sg:mieudre # ;
-mieux+Adj+Fem+Obl+Sg:meillor # ;
-mieux+Adj+Fem+Nom+Pl:meillors # ;
-mieux+Adj+Fem+Obl+Pl:meillors # ;
-mieux+Adj+Neut+Nom+Sg:mieuz # ;
-mieux+Adj+Neut+Obl+Sg:mieuz # ;
-
-!! Mout
-mout+Adj:mout # ;
-mout+Adj:molt # ;
-mout+Adj:mult # ;
-
-!! Tot
-tot+Adj+Masc+Nom+Sg:toz # ;
-tot+Adj+Masc+Obl+Sg:tot # ;
-tot+Adj+Masc+Obl+Sg:tut # ;
-tot+Adj+Masc+Obl+Sg:tout # ;
-tot+Adj+Masc+Nom+Pl:tuit # ;
-tot+Adj+Masc+Obl+Pl:toz # ;
-tot+Adj+Masc+Obl+Pl:tuz # ;
-tot+Adj+Masc+Obl+Pl:tous # ;
-tot+Adj+Masc+Obl+Pl:touz # ; ! Double check
-tot+Adj+Fem+Nom+Sg:tote # ;
-tot+Adj+Fem+Obl+Sg:tote # ;
-tot+Adj+Fem+Nom+Pl:totes # ;
-tot+Adj+Fem+Nom+Pl:tutes # ;
-tot+Adj+Fem+Obl+Pl:totes # ;
-tot+Adj+Neut+Nom+Sg:tot # ;
-tot+Adj+Neut+Obl+Sg:tot # ;
-tot+Adj+Masc+Obl+Sg+Emph:trestout # ;
-tot+Adj+Masc+Obl+Sg+Emph:trestut # ;
-tot+Adj+Fem+Nom+Sg+Emph:trestute # ;
+mieux: Mieux "better" ;
+mout: Mout "many, much, very" ;
+nul: Nul "no, not any" ;
+tot: Tot "all, every, completely" ;
 
 LEXICON Participles
 chant Part ;

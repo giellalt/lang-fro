@@ -104,6 +104,51 @@ LEXICON MascIndec
 +Adj+Fem+Obl+Pl:es # ;
 
 
+LEXICON Mieux
++Adj+Masc+Nom+Sg:mieudre # ;
++Adj+Masc+Obl+Sg:meillor # ;
++Adj+Masc+Nom+Pl:meillor # ;
++Adj+Masc+Obl+Pl:meillors # ;
++Adj+Fem+Nom+Sg:mieudre # ;
++Adj+Fem+Obl+Sg:meillor # ;
++Adj+Fem+Nom+Pl:meillors # ;
++Adj+Fem+Obl+Pl:meillors # ;
++Adj+Neut+Nom+Sg:mieuz # ;
++Adj+Neut+Obl+Sg:mieuz # ;
+
+LEXICON Mout
++Adj:mout # ;
++Adj:molt # ;
++Adj:mult # ;
+
+LEXICON Nul
++Adj+Masc+Nom+Sg:nus # ;
++Adj+Fem+Nom+Sg:niule # ;
++Adj+Fem+Obl+Sg:nule # ;
++Adj:nul # ; ! other forms unattested
+
+LEXICON Tot
++Adj+Masc+Nom+Sg:toz # ;
++Adj+Masc+Obl+Sg:tot # ;
++Adj+Masc+Obl+Sg:tut # ;
++Adj+Masc+Obl+Sg:tout # ;
++Adj+Masc+Nom+Pl:tuit # ;
++Adj+Masc+Obl+Pl:toz # ;
++Adj+Masc+Obl+Pl:tuz # ;
++Adj+Masc+Obl+Pl:tous # ;
++Adj+Masc+Obl+Pl:touz # ; ! Double check
++Adj+Fem+Nom+Sg:tote # ;
++Adj+Fem+Obl+Sg:tote # ;
++Adj+Fem+Nom+Pl:totes # ;
++Adj+Fem+Nom+Pl:tutes # ;
++Adj+Fem+Obl+Pl:totes # ;
++Adj+Neut+Nom+Sg:tot # ;
++Adj+Neut+Obl+Sg:tot # ;
++Adj+Masc+Obl+Sg+Emph:trestout # ;
++Adj+Masc+Obl+Sg+Emph:trestut # ;
++Adj+Fem+Nom+Sg+Emph:trestute # ;
+
+
 
 
 !!€gt-norm: adjectives
