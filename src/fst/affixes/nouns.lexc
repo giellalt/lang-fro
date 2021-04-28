@@ -58,11 +58,10 @@ LEXICON Seignor
 +N+Masc+Nom+Sg:sires # ;
 
 LEXICON Fil
-+N+Masc+Nom+Sg:Filz # ;
++N+Masc+Nom+Sg:filz # ;
 +N+Masc+Nom+Sg:fils # ;
 +N+Masc+Obl+Sg:filz # ;
 +N+Masc+Obl+Sg:fil # ;
-
 
 ! vim: set ft=xfst-lexc:
 

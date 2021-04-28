@@ -57,6 +57,8 @@ rei MC1a "king" ;
 ost%> MC1a "army" ;
 chevalier MC1a "knight" ;
 lion MC1a "lion" ;
+mal: MC1a "evil, harm, misfortune, illness" ;
+    mal+N+Masc+Nom+Sg:max # ; ! alternate form
 paien MC1a "infidel" ;
 pelerin MC1a "pilgrim" ;
 or MC1a "gold" ; ! Check class

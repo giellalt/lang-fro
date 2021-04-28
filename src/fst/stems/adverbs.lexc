@@ -23,6 +23,7 @@ molt BaseAdv "much" ;
 tant BaseAdv "so much" ;
 plus BaseAdv "more" ;
 trop BaseAdv "too much" ;
+tost BaseAdv "soon, imeediately, quickly" ;
 amont BaseAdv "to the hill, up" ;
 aval BaseAdv "to the valley, down" ;
 oïl BaseAdv "yes" ;

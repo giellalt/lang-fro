@@ -1,5 +1,6 @@
 LEXICON Adjectives
 bon Adj1 "good" ;
+mal Adj1 "evil, disaster, illness" ;
 
 aigre Adj2 "acid" ;
 aspre Adj2 "rough" ;
@@ -45,6 +46,7 @@ prudent:prudent%> Adj3 "prudent" ;
 corteis MascIndec "corteous" ;
 ! cortois MascIndec "corteous" ;
 douz MascIndec "sweet" ;
+droit MascIndec "direct, right, proper" ;
 faus MascIndec "false" ;
 ! franceis MascIndec "French" ;
 françois MascIndec "French" ;
