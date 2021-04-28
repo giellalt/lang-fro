@@ -3,23 +3,19 @@
 
 LEXICON RegEr
 +V+Inf:er # ;
-+V+Pres+Part+Gram/Early:ant # ;
-+V+Pres+Part+Gram/Late:ant # ;
-+V+Past+Part+Gram/Early:ét # ;
-+V+Past+Part+Gram/Late:é # ;
++V+Pres+Part:ant # ;
++V+Past+Part:ét # ;
 
 +V+1s+Pres+Ind:0 # ;
 +V+2s+Pres+Ind:es # ;
-+V+3s+Pres+Ind+Gram/Early:et # ;
-+V+3s+Pres+Ind+Gram/Late:e # ;
++V+3s+Pres+Ind:et # ;
 +V+1p+Pres+Ind:ons # ;
 +V+2p+Pres+Ind:ez # ;
 +V+3p+Pres+Ind:ent # ;
 
 +V+1s+SPast+Ind:ai # ;
 +V+2s+SPast+Ind:as # ;
-+V+3s+SPast+Ind+Gram/Early:at # ;
-+V+3s+SPast+Ind+Gram/Late:a # ;
++V+3s+SPast+Ind:at # ;
 +V+1p+SPast+Ind:ames # ;
 +V+2p+SPast+Ind:astes # ;
 +V+3p+SPast+Ind:erent # ;
@@ -33,8 +29,7 @@ LEXICON RegEr
 
 +V+1s+Fut+Ind:erai # ;
 +V+2s+Fut+Ind:eras # ;
-+V+3s+Fut+Ind+Gram/Early:erat # ;
-+V+3s+Fut+Ind+Gram/Late:era # ;
++V+3s+Fut+Ind:erat # ;
 +V+1p+Fut+Ind:erons # ;
 +V+2p+Fut+Ind:erez # ;
 +V+2p+Fut+Ind:ereiz # ;
@@ -615,6 +610,114 @@ LEXICON Dire
 +V+2s+Pres+Imp:di # ;
 +V+1p+Pres+Imp:disons # ;
 +V+2p+Pres+Imp:disez # ;
+
+LEXICON Xenir
++V+Inf:enir # ;
++V+Pres+Part:enant # ; ! Confirm
++V+Past+Part:enu # ;
++V+Past+Part:enuz # ;
+
++V+1s+Pres+Ind:ien # ;
++V+1s+Pres+Ind:ieng # ;
++V+1s+Pres+Ind:iegn # ;
++V+1s+Pres+Ind:iengn # ;
++V+1s+Pres+Ind:ieign # ;
++V+2s+Pres+Ind:iens # ;
++V+2s+Pres+Ind:iengs # ;
++V+2s+Pres+Ind:iegns # ;
++V+2s+Pres+Ind:iengns # ;
++V+2s+Pres+Ind:ieigns # ;
++V+3s+Pres+Ind:ient # ;
++V+3s+Pres+Ind:iengt # ;
++V+3s+Pres+Ind:iegnt # ;
++V+3s+Pres+Ind:iengnt # ;
++V+3s+Pres+Ind:ieignt # ;
++V+1p+Pres+Ind:enons # ;
++V+2p+Pres+Ind:enez # ;
++V+3p+Pres+Ind:ienent # ;
++V+3p+Pres+Ind:iengent # ;
++V+3p+Pres+Ind:iegnent # ;
++V+3p+Pres+Ind:iengnent # ;
++V+3p+Pres+Ind:ieignent # ;
+
++V+1s+SPast+Ind:in # ;
++V+2s+SPast+Ind:enis # ;
++V+3s+SPast+Ind:int # ;
++V+1p+SPast+Ind:enimes # ;
++V+2p+SPast+Ind:enistes # ;
++V+3p+SPast+Ind:indrent # ;
++V+3p+SPast+Ind:inrent # ;
+
++V+1s+Ipfv+Ind:eneie # ;
++V+2s+Ipfv+Ind:eneies # ;
++V+3s+Ipfv+Ind:eneit # ;
++V+1p+Ipfv+Ind:eniiens # ; ! Guess
++V+2p+Ipfv+Ind:eniiez # ; ! Guess
++V+3p+Ipfv+Ind:enent # ; ! Guess
+
++V+1s+Fut+Ind:endrai # ; 
++V+2s+Fut+Ind:endras # ;
++V+3s+Fut+Ind:endrat # ;
++V+1p+Fut+Ind:endrons # ;
++V+2p+Fut+Ind:endrez # ;
++V+2p+Fut+Ind:endreiz # ;
++V+3p+Fut+Ind:endront # ;
+
++V+1s+Pres+Sbjv:iegne # ;
++V+1s+Pres+Sbjv:ieigne # ;
++V+1s+Pres+Sbjv:ienge # ;
++V+1s+Pres+Sbjv:iengne # ;
++V+1s+Pres+Sbjv:egne # ;
++V+2s+Pres+Sbjv:iegnes # ;
++V+2s+Pres+Sbjv:ieignes # ;
++V+2s+Pres+Sbjv:ienges # ;
++V+2s+Pres+Sbjv:iengnes # ;
++V+2s+Pres+Sbjv:egnes # ;
++V+3s+Pres+Sbjv:iegnet # ;
++V+3s+Pres+Sbjv:ieignet # ;
++V+3s+Pres+Sbjv:ienget # ;
++V+3s+Pres+Sbjv:iengnet # ;
++V+3s+Pres+Sbjv:egnet # ;
++V+1p+Pres+Sbjv:iegniens # ;
++V+1p+Pres+Sbjv:iengiens # ;
++V+1p+Pres+Sbjv:ieigniens # ;
++V+1p+Pres+Sbjv:iengniens # ;
++V+1p+Pres+Sbjv:engiens # ;
++V+1p+Pres+Sbjv:iegnions # ;
++V+1p+Pres+Sbjv:iengions # ;
++V+1p+Pres+Sbjv:ieignions # ;
++V+1p+Pres+Sbjv:iengnions # ;
++V+1p+Pres+Sbjv:engions # ;
++V+2p+Pres+Sbjv:iegniez # ;
++V+2p+Pres+Sbjv:iengiez # ;
++V+2p+Pres+Sbjv:ieigniez # ;
++V+2p+Pres+Sbjv:iengniez # ;
++V+2p+Pres+Sbjv:engiez # ;
++V+3p+Pres+Sbjv:ent # ;
++V+3p+Pres+Sbjv:iegnent # ;
++V+3p+Pres+Sbjv:ieignent # ;
++V+3p+Pres+Sbjv:iengent # ;
++V+3p+Pres+Sbjv:iengnent # ;
++V+3p+Pres+Sbjv:egnent # ;
+
++V+1s+Ipfv+Sbjv:enisse # ;
++V+2s+Ipfv+Sbjv:enisses # ;
++V+3s+Ipfv+Sbjv:enisst # ;
++V+1p+Ipfv+Sbjv:enissons # ;
++V+1p+Ipfv+Sbjv:enissiens # ;
++V+2p+Ipfv+Sbjv:enistes
++V+3p+Ipfv+Sbjv:enissent # ;
+
++V+1s+Pres+Cond:endroie # ;
++V+2s+Pres+Cond:endroies # ;
++V+3s+Pres+Cond:endroit # ;
++V+1p+Pres+Cond:endrions # ;
++V+2p+Pres+Cond:endriez # ;
++V+3p+Pres+Cond:endrient # ;
+
++V+2s+Pres+Imp:ien # ;
++V+1p+Pres+Imp:enons # ;
++V+2p+Pres+Imp:enez # ;
 
 !!€gt-norm: -er_verbs
 !!€ durer:      dur+V+Inf

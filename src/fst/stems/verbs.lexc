@@ -4,7 +4,10 @@ LEXICON Verbs
 avoir: Avoir     "to have" ;
 estre: Estre     "to be" ;
 faire: Faire     "to make, to do, to say" ;
-dire: Dire      "so say" ;
+dire: Dire      "to say" ;
+
+venir:v Xenir    "to come, to go"
+tenir:v Xenir   "to keep, to hold"
 
 sonner:son RegEr   "to ring" ;
 amer:am RegEr    "to love" ;
