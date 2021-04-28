@@ -5,7 +5,7 @@ LEXICON 1Sg
 +Pro+Prs+1s+Nom+Unstress+Gram/Early:jo # ;
 +Pro+Prs+1s+Nom+Unstress+Gram/Late:je # ;
 +Pro+Prs+1s+Nom+Unstress+Err/Obsc:ja # ;
-+Pro+Prs+1s+Obl+Stress:moi # ;
++Pro+Prs+1s+Obl+Stress:mei # ;
 +Pro+Prs+1s+Obl+Unstress:me # ;
 +Pro+Prs+1s+Obl+Unstress:m # ;
 
@@ -283,7 +283,7 @@ LEXICON Interrogative
 
 !!€gt-norm: Pro+Prsnouns
 !!€ mi:         +Pro+Poss+1s+Masc+Nom+Pl+Unstress
-!!€ moi:        +Pro+Prs+1s+Obl+Stress
+!!€ mei:        +Pro+Prs+1s+Obl+Stress
 !!€ nos:        no+Pro+Prs+1p+Nom+Stress+Gram/Early
 !!€ nous:        no+Pro+Prs+1p+Nom+Stress+Gram/Early
 !!€ eus:        +Pro+Prs+3p+Masc+Obl+Dir+Stress
