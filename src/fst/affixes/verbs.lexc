@@ -719,6 +719,71 @@ LEXICON Xenir
 +V+1p+Pres+Imp:enons # ;
 +V+2p+Pres+Imp:enez # ;
 
+LEXICON Aler
++V+Inf:aler # ;
++V+Pres+Part:alant # ; ! Verify
++V+Past+Part:alé # ;
++V+Past+Part:alet # ;
+
++V+1s+Pres+Ind:vois # ;
++V+1s+Pres+Ind:vai # ;
++V+2s+Pres+Ind:vais # ;
++V+2s+Pres+Ind:vas # ;
++V+3s+Pres+Ind:vait # ;
++V+3s+Pres+Ind:va # ;
++V+1p+Pres+Ind:alons # ;
++V+2p+Pres+Ind:alez # ;
++V+3p+Pres+Ind:vont # ;
+
++V+1s+SPast+Ind:alai # ;
++V+2s+SPast+Ind:alas # ;
++V+3s+SPast+Ind:alat # ;
++V+1p+SPast+Ind:alames # ;
++V+2p+SPast+Ind:alastes # ;
++V+3p+SPast+Ind:alerent # ;
+
+! Imperfective indicative: no data
+
++V+1s+Fut+Ind:irai # ;
++V+2s+Fut+Ind:iras # ;
++V+3s+Fut+Ind:irat # ;
++V+1p+Fut+Ind:irons # ;
++V+2p+Fut+Ind:irez # ;
++V+2p+Fut+Ind:ireiz # ;
++V+3p+Fut+Ind:iront # ;
+
++V+1s+Pres+Sbjv:voise # ;
++V+1s+Pres+Sbjv:aille # ;
++V+2s+Pres+Sbjv:voises # ;
++V+2s+Pres+Sbjv:ailles # ;
++V+3s+Pres+Sbjv:voiset # ;
++V+3s+Pres+Sbjv:voist # ;
++V+3s+Pres+Sbjv:aillet # ;
++V+1p+Pres+Sbjv:voisons # ;
++V+1p+Pres+Sbjv:aillons # ;
++V+2p+Pres+Sbjv:voisez # ;
++V+2p+Pres+Sbjv:ailliez # ;
++V+3p+Pres+Sbjv:voisent # ;
++V+3p+Pres+Sbjv:aillent # ;
+
++V+1s+Ipfv+Sbjv:alasse # ;
++V+2s+Ipfv+Sbjv:alasses # ;
++V+3s+Ipfv+Sbjv:alast # ;
++V+1p+Ipfv+Sbjv:alissons # ;
++V+1p+Ipfv+Sbjv:alissiens # ;
++V+2p+Ipfv+Sbjv:alissez # ;
++V+2p+Ipfv+Sbjv:alissiez # ;
++V+2p+Ipfv+Sbjv:alisseiz # ;
++V+3p+Ipfv+Sbjv:alassent # ;
+
++V+1s+Pres+Cond:aleie # ;
+! rest are unattested
+
++V+2s+Pres+Imp:va # ;
++V+2s+Pres+Imp:vas # ;
++V+1p+Pres+Imp:alons # ;
++V+2p+Pres+Imp:alez # ;
+
 !!€gt-norm: -er_verbs
 !!€ durer:      dur+V+Inf
 !!€ dur:        dur+V+1s+Pres+Ind
