@@ -69,7 +69,7 @@ genr MC2 "son-in-law" ;
 maistr MC2 "master" ;
 parastr MC2 "stepfather" ;
 per MC2 "father" ;
-Alixandr MC2 "Alexander" ;
+alixandr+Prop:Alixandr MC2 "Alexander" ;
 livr MC2 "book" ;
 vespr MC2 "evening" ;
 
@@ -81,6 +81,7 @@ fil: Fil "son" ;
 
 païs+N+Masc:païs # "country" ;
 palais+N+Masc:palais # "palace" ;
+thideüs+Prop+N:Thideüs # "Thideus" ;
 voiz+N+Fem:voiz # "voice" ;
 
 hom+N+Masc+Nom+Sg:hom # "man" ;
