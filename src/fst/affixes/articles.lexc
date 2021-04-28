@@ -15,6 +15,8 @@ LEXICON Indefinite
 +Art+Indef+Masc+Nom+Pl:0 # ;
 +Art+Indef+Masc+Obl+Pl:s # ;
 +Art+Indef+Fem+Nom+Sg:e # ;
++Art+Indef+Fem+Nom+Sg:ne # ;
 +Art+Indef+Fem+Obl+Sg:e # ;
++Art+Indef+Fem+Obl+Sg:ne # ;
 +Art+Indef+Fem+Nom+Pl:es # ;
 +Art+Indef+Fem+Obl+Pl:es # ;
