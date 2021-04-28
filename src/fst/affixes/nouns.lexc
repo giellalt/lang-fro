@@ -63,6 +63,12 @@ LEXICON Fil
 +N+Masc+Obl+Sg:filz # ;
 +N+Masc+Obl+Sg:fil # ;
 
+LEXICON Dol ! All of these are valid forms, but check tags and plurals
++N+Masc+Nom+Sg:diau # ;
++N+Masc+Obl+Sg:duel # ;
++N+Masc+Obl+Sg:deul # ;
++N+Masc+Obl+Sg:dol # ;
+
 ! vim: set ft=xfst-lexc:
 
 !!€gt-norm: nouns
