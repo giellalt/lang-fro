@@ -31,7 +31,7 @@ covrir:covr RegIr "to cover" ;
 ferir:fer RegIr "to strike" ; ! Irregular PP- FIXME
 odir:od RegIr "to hear" ; ! Irregular
 oir:o RegIr "to hear" ; ! Irregular
-partir:part
+partir:part RegIr "to leave, to divide" ; ! CHECK
 servir:serv RegIr "to serve" ;
 
 corre:cor RegRe   "to run" ;
