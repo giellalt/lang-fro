@@ -76,6 +76,13 @@ LEXICON Cheval ! All of these are valid forms, but check tags and plurals
 +N+Masc+Nom+Pl:chevals # ;
 +N+Masc+Obl+Pl:chevals # ; ! uncertain
 
+LEXICON Ciel ! Verify
++N+Masc+Nom+Sg:ciels # ;
++N+Masc+Obl+Sg:ciel # ; ! definitely correct
++N+Masc+Nom+Pl:ciel # ;
++N+Masc+Obl+Pl:cels # ; ! definitely correct
++N+Masc+Obl+Pl:ciels # ;
+
 ! vim: set ft=xfst-lexc:
 
 !!€gt-norm: nouns

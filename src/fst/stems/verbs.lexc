@@ -16,6 +16,7 @@ chanter:chant RegEr "to sing" ;
 doner:don RegEr   "to give" ;
 durer:dur RegEr   "to last" ;
 plorer:plot RegEr  "to weep" ;
+tuer:tu RegEr       "to kill" ;
 
 aidier:aid RegIer  "to help" ;
 laissier:laiss RegIer "to leave, to let" ;
