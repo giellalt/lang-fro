@@ -786,6 +786,88 @@ LEXICON Aler
 +V+1p+Pres+Imp:alons # ;
 +V+2p+Pres+Imp:alez # ;
 
+LEXICON Veoir
++V+Inf:veoir # ;
++V+Inf:vedeir # ;
++V+Pres+Part:venant # ;
++V+Pres+Part:veant # ;
++V+Pres+Part:veiant # ;
++V+Past+Part:veü # ;
++V+Past+Part:vis # ;
+
++V+1s+Pres+Ind:vei # ;
++V+2s+Pres+Ind:veiz # ;
++V+3s+Pres+Ind:veit # ;
++V+1p+Pres+Ind:veons # ;
++V+2p+Pres+Ind:veez # ;
++V+3p+Pres+Ind:veient # ;
+
++V+1s+SPast+Ind:vi # ;
++V+2s+SPast+Ind:veïs # ;
++V+3s+SPast+Ind:vit # ;
++V+1p+SPast+Ind:veïmes # ;
++V+2p+SPast+Ind:veïstes # ;
++V+3p+SPast+Ind:virent # ;
+
++V+1s+Ipfv+Ind:veie # ;
++V+2s+Ipfv+Ind:veies # ;
++V+3s+Ipfv+Ind:veit # ;
++V+1p+Ipfv+Ind:veiiens # ; ! Verify
++V+2p+Ipfv+Ind:veeiz # ; ! Verify
++V+3p+Ipfv+Ind:veeient # ; ! Verify
+
++V+1s+Fut+Ind:verrai # ;
++V+2s+Fut+Ind:verras # ;
++V+3s+Fut+Ind:verrat # ;
++V+1p+Fut+Ind:verrons # ;
++V+2p+Fut+Ind:verrez # ;
++V+2p+Fut+Ind:verreiz # ;
++V+3p+Fut+Ind:verrront # ;
+
++V+1s+Pres+Sbjv:veie # ;
++V+2s+Pres+Sbjv:veies # ;
++V+3s+Pres+Sbjv:veiet # ;
++V+1p+Pres+Sbjv:veons # ;
++V+1p+Pres+Sbjv:veiiens # ;
++V+1p+Pres+Sbjv:veiions # ;
++V+2p+Pres+Sbjv:veez # ;
++V+2p+Pres+Sbjv:veiiez # ;
++V+3p+Pres+Sbjv:voient # ;
+
++V+1s+Ipfv+Sbjv:veïsse # ;
++V+1s+Ipfv+Sbjv:veisse # ;
++V+2s+Ipfv+Sbjv:veïsses # ;
++V+2s+Ipfv+Sbjv:veisses # ;
++V+3s+Ipfv+Sbjv:veïst # ;
++V+3s+Ipfv+Sbjv:veist # ;
++V+1p+Ipfv+Sbjv:veïssons # ;
++V+1p+Ipfv+Sbjv:veissons # ;
++V+1p+Ipfv+Sbjv:veïssiens # ;
++V+1p+Ipfv+Sbjv:veissiens # ;
++V+2p+Ipfv+Sbjv:veïssez # ;
++V+2p+Ipfv+Sbjv:veissez # ;
++V+2p+Ipfv+Sbjv:veïssiez # ;
++V+2p+Ipfv+Sbjv:veissiez # ;
++V+2p+Ipfv+Sbjv:veïsseiz # ;
++V+2p+Ipfv+Sbjv:veisseiz # ;
++V+3p+Ipfv+Sbjv:veïssent # ;
++V+3p+Ipfv+Sbjv:veissent # ;
+
+! Verify
++V+1s+Pres+Cond:verreie # ;
++V+2s+Pres+Cond:verreis # ;
++V+3s+Pres+Cond:verreit # ;
++V+1p+Pres+Cond+Gram/Early:verriiens # ;
++V+1p+Pres+Cond+Gram/Late:verriions # ;
++V+2p+Pres+Cond+Gram/Early:verriiez # ;
++V+2p+Pres+Cond+Gram/Late:verriiez # ;
++V+3p+Pres+Cond:verreient # ;
+
++V+2s+Pres+Imp:voi # ;
++V+1p+Pres+Imp:veons # ;
++V+2p+Pres+Imp:veez # ;
++V+2p+Pres+Imp:vez # ;
+
 !!€gt-norm: -er_verbs
 !!€ durer:      dur+V+Inf
 !!€ dur:        dur+V+1s+Pres+Ind

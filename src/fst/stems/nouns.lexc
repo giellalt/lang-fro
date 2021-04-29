@@ -53,6 +53,10 @@ valor FC2 "worth" ;
 vertuT FC2 "force, virtue" ;
 volenté FC2 "will" ;
 
+cuer MC1a "heart" ;
+    cuer:+N+Masc+Obl+Sg:quer # ;
+    cuer:coer MC1a "heart" ;
+    cuer:cor MC1a "heart" ;
 mur MC1a "wall" ;
 roi MC1a "king" ;
 rei MC1a "king" ;
@@ -90,6 +94,8 @@ cheval: Cheval "horse" ;
 ciel: Ciel "heaven" ;
 nom: Nom "name" ;
 
+psalme+N+Neut:psalme # ;
+psalme+N+Neut:psalmus # ;
 païs+N+Masc:païs # "country" ;
 palais+N+Masc:palais # "palace" ;
 thideüs+Prop+N:Thideüs # "Thideus" ;
