@@ -989,8 +989,8 @@ LEXICON Voloir
 +V+2p+Pres+Imp:veillez # ;
 
 !!€gt-norm: -er_verbs
-!!€ durer:      dur+V+Inf
-!!€ dur:        dur+V+1s+Pres+Ind
-!!€ dura:       dur+V+3s+SPast+Ind+Gram/Late
-!!€ durerons:   dur+V+1p+Fut+Ind
-!!€ dure:    dur+V+2s+Pres+Imp
+!!€ durer:      durer+V+Inf
+!!€ dur:        durer+V+1s+Pres+Ind
+!!€ dura:       durer+V+3s+SPast+Ind+Gram/Late
+!!€ durerons:   durer+V+1p+Fut+Ind
+!!€ dure:    durer+V+2s+Pres+Imp
