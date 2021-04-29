@@ -69,6 +69,13 @@ LEXICON Dol ! All of these are valid forms, but check tags and plurals
 +N+Masc+Obl+Sg:deul # ;
 +N+Masc+Obl+Sg:dol # ;
 
+LEXICON Cheval ! All of these are valid forms, but check tags and plurals
++N+Masc+Nom+Sg:chevaus # ;
++N+Masc+Obl+Sg:cheval # ;
++N+Masc+Obl+Sg:ceval # ;
++N+Masc+Nom+Pl:chevals # ;
++N+Masc+Obl+Pl:chevals # ; ! uncertain
+
 ! vim: set ft=xfst-lexc:
 
 !!€gt-norm: nouns
