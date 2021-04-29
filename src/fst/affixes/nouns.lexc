@@ -52,6 +52,7 @@ LEXICON Dieu
 +N+Masc+Obl+Sg:Dieu # ;
 +N+Masc+Nom+Sg:Dex # ;
 +N+Masc+Nom+Sg:Deus # ;
++N+Masc+Nom+Sg:deus # ;
 
 LEXICON Seignor
 +N+Masc+Nom+Sg:sire # ;
@@ -59,6 +60,7 @@ LEXICON Seignor
 +N+Masc+Obl+Sg:seignor # ;
 +N+Masc+Obl+Sg:segnor # ;
 +N+Masc+Obl+Sg:segnur # ;
++N+Masc+Obl+Sg:seignur # ;
 
 LEXICON Fil
 +N+Masc+Nom+Sg:filz # ;
