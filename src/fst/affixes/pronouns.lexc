@@ -294,11 +294,12 @@ LEXICON Interrogative
 !!€ nos:        nous+Pro+Prs+1p+Nom+Stress+Gram/Early
 !!€ nous:       nous+Pro+Prs+1p+Nom+Stress+Gram/Early
 !!€ eus:        ils+Pro+Prs+3p+Masc+Obl+Dir+Stress
+!!€ els:        ils+Pro+Prs+3p+Masc+Obl+Dir+Stress
 !!€ soi:        se+Pro+Prs+3p+Refl+Obl+Stress
 !!€ en:         en+Pro+Adv
 !!€ i:          i+Pro+Adv
 !!€ ton:        tu+Pro+Poss+2s+Masc+Obl+Sg+Unstress
 !!€ tun:        tu+Pro+Poss+2s+Masc+Obl+Sg+Unstress
 !!€ suens:      son+Pro+Poss+3s+Masc+Obl+Pl+Stress
-!!€ suens:      sonp+Pro+Poss+3s+Masc+Nom+Sg+Stress
+!!€ suens:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
 !!€ icestui:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress
