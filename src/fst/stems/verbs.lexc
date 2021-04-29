@@ -31,11 +31,12 @@ covrir:covr RegIr "to cover" ;
 ferir:fer RegIr "to strike" ; ! Irregular PP- FIXME
 odir:od RegIr "to hear" ; ! Irregular
 oir:o RegIr "to hear" ; ! Irregular
+partir:part
 servir:serv RegIr "to serve" ;
 
 corre:cor RegRe   "to run" ;
 perdre:perd RegRe "to lose" ;
 respondre:respond RegRe "to reply" ;
 
-!! Add: doloir, faire, tenir, venir, veoir, metre, rire, 
+!! Add: doloir, tenir, venir, veoir, metre, rire, partir
 !! conduire, criembre, tordre, traire, boivre, devoir, savoir

@@ -39,6 +39,7 @@ mort FC2 "death" ;
 nef FC2 "ship" ;
 nuit FC2 "night" ;
 paor FC2 "fear" ;
+part FC2 "part, portion" ;
 pechieT FC2 "sin" ;
 pitiéT FC2 "pity, piety" ;
 raison FC2 "speech" ;
