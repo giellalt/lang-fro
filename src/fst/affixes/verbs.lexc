@@ -258,6 +258,7 @@ LEXICON Avoir
 +V+1p+Pres+Ind:avons # ;
 +V+2p+Pres+Ind:avez # ;
 +V+3p+Pres+Ind:ont # ;
++V+3p+Pres+Ind:unt # ;
 
 +V+1s+SPast+Ind+Gram/Early:eüi # ;
 +V+1s+SPast+Ind:oi # ;

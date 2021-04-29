@@ -56,6 +56,9 @@ LEXICON Dieu
 LEXICON Seignor
 +N+Masc+Nom+Sg:sire # ;
 +N+Masc+Nom+Sg:sires # ;
++N+Masc+Obl+Sg:seignor # ;
++N+Masc+Obl+Sg:segnor # ;
++N+Masc+Obl+Sg:segnur # ;
 
 LEXICON Fil
 +N+Masc+Nom+Sg:filz # ;
@@ -82,6 +85,11 @@ LEXICON Ciel ! Verify
 +N+Masc+Nom+Pl:ciel # ;
 +N+Masc+Obl+Pl:cels # ; ! definitely correct
 +N+Masc+Obl+Pl:ciels # ;
+
+LEXICON Nom ! other forms unknown
++N+Masc+Obl+Sg:nom # ;
++N+Masc+Obl+Sg:non # ;
++N+Masc+Obl+Sg:num # ;
 
 ! vim: set ft=xfst-lexc:
 

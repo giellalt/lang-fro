@@ -14,6 +14,7 @@ novele FC1 "news" ;
 parole FC1 "word" ;
 reïne FC1 "queen" ;
 rose FC1 "rose" ;
+vie FC1 "life" ;
 
 amor FC2 "love" ;
 citét:citéT FC2 "city" ;
@@ -57,8 +58,11 @@ rei MC1a "king" ;
 ost%> MC1a "army" ;
 chevalier MC1a "knight" ;
 lion MC1a "lion" ;
-mal: MC1a "evil, harm, misfortune, illness" ;
+mal MC1a "evil, harm, misfortune, illness" ;
     mal+N+Masc+Nom+Sg:max # ; ! alternate form
+    mal+N+Masc+Nom+Sg:maus # ; ! alternate form
+    mal+N+Masc+Obl+Pl:maus # ; ! alternate form
+mont MC1a
 paien MC1a "infidel" ;
 pelerin MC1a "pilgrim" ;
 or MC1a "gold" ; ! Check class
@@ -83,6 +87,7 @@ fil: Fil "son" ;
 dol: Dol "suffering, pain, lamentation" ;
 cheval: Cheval "horse" ;
 ciel: Ciel "heaven" ;
+nom: Nom "name" ;
 
 païs+N+Masc:païs # "country" ;
 palais+N+Masc:palais # "palace" ;
