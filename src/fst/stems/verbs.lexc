@@ -10,6 +10,7 @@ veoir: Veoir    "to see" ;
 vedeir: Veoir   "to see" ;
 venir:v Xenir    "to come, to go" ;
 tenir:t Xenir   "to keep, to hold" ;
+voloir: Voloir  "to want, to desire" ;
 
 sonner:son RegEr   "to ring" ;
 amer:am RegEr    "to love" ;

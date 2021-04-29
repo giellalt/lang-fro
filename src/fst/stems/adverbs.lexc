@@ -40,4 +40,10 @@ gaire OptionalS ;
 meïsme OptionalS ;
 loing BaseAdv ;
 loinz BaseAdv ;
+sicomme BaseAdv "just as" ;
+    sicomme:sicume BaseAdv "just as" ;
+    sicomme:sicum BaseAdv "just as" ;
+    sicomme:sicom BaseAdv "just as" ;
+    sicomme:si#comme BaseAdv "just as" ;
+    sicomme:si#con BaseAdv "just as"
 

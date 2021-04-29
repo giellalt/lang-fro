@@ -868,6 +868,126 @@ LEXICON Veoir
 +V+2p+Pres+Imp:veez # ;
 +V+2p+Pres+Imp:vez # ;
 
+LEXICON Voloir
++V+Inf:voloir # ;
++V+Pres+Part:volant # ;
++V+Pres+Part:veillant # ;
++V+Pres+Part:vueillant # ;
++V+Past+Part:volu # ;
+
++V+1s+Pres+Ind:veil # ;
++V+1s+Pres+Ind:voel # ;
++V+1s+Pres+Ind:vueil # ;
++V+1s+Pres+Ind:vuel # ;
++V+2s+Pres+Ind:vuels # ;
++V+2s+Pres+Ind:vueus # ;
++V+2s+Pres+Ind:vues # ;
++V+2s+Pres+Ind:vuex # ;
++V+3s+Pres+Ind:vuelt # ;
++V+3s+Pres+Ind:vueut # ;
++V+3s+Pres+Ind:vuet # ;
++V+3s+Pres+Ind:veut # ;
++V+3s+Pres+Ind:volt # ;
++V+3s+Pres+Ind:viut # ;
++V+3s+Pres+Ind:voelt # ;
++V+3s+Pres+Ind:vialt # ;
++V+1p+Pres+Ind:volons # ;
++V+2p+Pres+Ind:volez # ;
++V+3p+Pres+Ind:vuelent # ;
++V+3p+Pres+Ind:volent # ;
+
+! Confusing notation. Check for missing forms: voli, volsi, vousi
++V+1s+SPast+Ind:veil # ;
++V+1s+SPast+Ind:vol # ;
++V+1s+SPast+Ind:vos # ; ! Verify
++V+2s+SPast+Ind:volis # ;
++V+2s+SPast+Ind:vols # ; ! Verify
++V+2s+SPast+Ind:vous # ; ! Verify
++V+3s+SPast+Ind:volt # ;
++V+3s+SPast+Ind:vout # ;
++V+1p+SPast+Ind:volimes # ;
++V+2p+SPast+Ind:volistes # ;
++V+3p+SPast+Ind:voldrent # ;
++V+3p+SPast+Ind:voudrent # ;
+
+! Verify all
++V+1s+Ipfv+Ind:voleie # ;
++V+2s+Ipfv+Ind:voleies # ;
++V+3s+Ipfv+Ind:voleit # ;
++V+1p+Ipfv+Ind:voliiens # ;
++V+2p+Ipfv+Ind:voliiez # ;
++V+3p+Ipfv+Ind:voleient # ;
+
++V+1s+Fut+Ind:voldrai # ;
++V+1s+Fut+Ind:voudrai # ;
++V+2s+Fut+Ind:voldras # ;
++V+2s+Fut+Ind:voudras # ;
++V+3s+Fut+Ind:voldrat # ;
++V+3s+Fut+Ind:voudrat # ;
++V+1p+Fut+Ind:voldrons # ;
++V+1p+Fut+Ind:voudrons # ;
++V+2p+Fut+Ind:voldrez # ;
++V+2p+Fut+Ind:voudrez # ;
++V+2p+Fut+Ind:voldreiz # ;
++V+2p+Fut+Ind:voudreiz # ;
++V+3p+Fut+Ind:voldront # ;
++V+3p+Fut+Ind:voudront # ;
+
+! Alternate forms for 1p and 2p?
++V+1s+Pres+Sbjv:vueille # ;
++V+1s+Pres+Sbjv:veille # ;
++V+1s+Pres+Sbjv:vuelle # ;
++V+2s+Pres+Sbjv:vueilles # ;
++V+2s+Pres+Sbjv:veilles # ;
++V+2s+Pres+Sbjv:vuelles # ;
++V+3s+Pres+Sbjv:vueillet # ;
++V+3s+Pres+Sbjv:veillet # ;
++V+3s+Pres+Sbjv:vuellet # ;
++V+1p+Pres+Sbjv:veilliens # ;
++V+1p+Pres+Sbjv:veillions # ;
++V+2p+Pres+Sbjv:veilliez # ;
++V+2p+Pres+Sbjv:vueilliez # ;
++V+3p+Pres+Sbjv:vueillent # ;
++V+3p+Pres+Sbjv:veillent # ;
++V+3p+Pres+Sbjv:vuellent # ;
+
++V+1s+Ipfv+Sbjv:volisse # ;
++V+1s+Ipfv+Sbjv:volsisse # ;
++V+1s+Ipfv+Sbjv:vousisse # ;
++V+2s+Ipfv+Sbjv:volisses # ;
++V+2s+Ipfv+Sbjv:volsisses # ;
++V+2s+Ipfv+Sbjv:vousisses # ;
++V+3s+Ipfv+Sbjv:volisst # ; ! Check
++V+3s+Ipfv+Sbjv:volsisst # ;
++V+3s+Ipfv+Sbjv:vousisst # ;
++V+1p+Ipfv+Sbjv:volissons # ;
++V+1p+Ipfv+Sbjv:vouissons # ;
++V+1p+Ipfv+Sbjv:volissiens # ;
++V+1p+Ipfv+Sbjv:vouissiens # ;
++V+2p+Ipfv+Sbjv:volissez # ;
++V+2p+Ipfv+Sbjv:vouissez # ;
++V+2p+Ipfv+Sbjv:volissiez # ;
++V+2p+Ipfv+Sbjv:vouissiez # ;
++V+2p+Ipfv+Sbjv:volisseiz # ;
++V+2p+Ipfv+Sbjv:vouisseiz # ;
++V+3p+Ipfv+Sbjv:volassent # ;
++V+3p+Ipfv+Sbjv:vouassent # ;
+
+! Conditional unknown
+
++V+2s+Pres+Imp:vueilles # ;
++V+2s+Pres+Imp:veilles # ;
++V+2s+Pres+Imp:vuelles # ;
++V+1p+Pres+Imp:vueilliens # ;
++V+1p+Pres+Imp:vueillions # ;
++V+1p+Pres+Imp:vuelliens # ;
++V+1p+Pres+Imp:vuellions # ;
++V+1p+Pres+Imp:veilliens # ;
++V+1p+Pres+Imp:veillions # ;
++V+2p+Pres+Imp:vueillez # ;
++V+2p+Pres+Imp:vuellez # ;
++V+2p+Pres+Imp:veillez # ;
+
 !!€gt-norm: -er_verbs
 !!€ durer:      dur+V+Inf
 !!€ dur:        dur+V+1s+Pres+Ind
