@@ -9,7 +9,7 @@ aler: Aler      "to go" ;
 veoir: Veoir    "to see" ;
 vedeir: Veoir   "to see" ;
 venir:v Xenir    "to come, to go" ;
-tenir:v Xenir   "to keep, to hold" ;
+tenir:t Xenir   "to keep, to hold" ;
 
 sonner:son RegEr   "to ring" ;
 amer:am RegEr    "to love" ;

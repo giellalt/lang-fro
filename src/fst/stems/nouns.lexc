@@ -54,7 +54,7 @@ vertuT FC2 "force, virtue" ;
 volenté FC2 "will" ;
 
 cuer MC1a "heart" ;
-    cuer:+N+Masc+Obl+Sg:quer # ;
+    cuer:quer MC1a # ;
     cuer:coer MC1a "heart" ;
     cuer:cor MC1a "heart" ;
 mur MC1a "wall" ;
