@@ -62,7 +62,7 @@ mal MC1a "evil, harm, misfortune, illness" ;
     mal+N+Masc+Nom+Sg:max # ; ! alternate form
     mal+N+Masc+Nom+Sg:maus # ; ! alternate form
     mal+N+Masc+Obl+Pl:maus # ; ! alternate form
-mont MC1a
+mont MC1a "mountain" ;
 paien MC1a "infidel" ;
 pelerin MC1a "pilgrim" ;
 or MC1a "gold" ; ! Check class
