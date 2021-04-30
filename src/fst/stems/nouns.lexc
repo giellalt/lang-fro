@@ -7,6 +7,11 @@ serour FC3 ;
 
 asn MC1b ;
 
+ame FC1 "soul, somebody" ;
+    ame:anme FC1 "soul, somebody" ;
+    ame:alme FC1 "soul, somebody" ;
+    ame:arme FC1 "soul, somebody" ;
+    ame:aneme FC1 "soul, somebody" ; ! Best guess for aneme. If not, it's enemy.
 fille FC1 "girl, daughter" ;
 letre FC1 "letter" ;
 mere FC1 "mother" ;

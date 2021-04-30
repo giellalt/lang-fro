@@ -83,7 +83,7 @@ LEXICON 3SgNeut
 +Pro+Prs+3s+Neut+Obl+Unstress:l # ;
 
 LEXICON 3SgRefl
-+Pro+Prs+3s+Refl+Obl+Stress:oi # ;
++Pro+Prs+3s+Refl+Obl+Stress:ei # ;
 +Pro+Prs+3s+Refl+Obl+Unstress:e # ;
 +Pro+Prs+3s+Refl+Obl+Unstress:0 # ;
 
