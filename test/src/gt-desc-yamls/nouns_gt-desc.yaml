@@ -14,12 +14,6 @@ Tests:
     fille+N+Fem+Nom+Pl: filles #
     fille+N+Fem+Obl+Pl: filles #
 
-  Noun - vertut - ok : #
-    vertuT+N+Fem+Nom+Sg: vertuT #
-    vertuT+N+Fem+Obl+Sg: vertuT #
-    vertuT+N+Fem+Nom+Pl: vertuTs #
-    vertuT+N+Fem+Obl+Pl: vertuTs #
-
   Noun - serour - ok : #
     serour+N+Fem+Nom+Sg: serour #
     serour+N+Fem+Obl+Sg: serour #

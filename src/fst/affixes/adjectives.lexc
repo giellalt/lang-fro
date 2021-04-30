@@ -148,6 +148,11 @@ LEXICON Tot
 +Adj+Masc+Obl+Sg+Emph:trestut # ;
 +Adj+Fem+Nom+Sg+Emph:trestute # ;
 
+LEXICON Saint
++Adj+Masc+Nom+Sg:sains # ;
++Adj+Masc+Obl+Sg:saint # ;
++Adj+Fem+Nom+Sg:sainte # ;
++Adj+Fem+Obl+Sg:sainte # ;
 
 
 
