@@ -988,6 +988,88 @@ LEXICON Voloir
 +V+2p+Pres+Imp:vuellez # ;
 +V+2p+Pres+Imp:veillez # ;
 
+LEXICON Prendre
++V+Inf:prendre # ;
++V+Pres+Part:prenant # ;
++V+Past+Part:pris # ;
++V+Past+Part:prise # ; ! FIXME give all past participles Masc/Fem continuations
+
++V+1s+Pres+Ind:preign # ;
++V+1s+Pres+Ind:pren # ;
++V+2s+Pres+Ind:prenz # ;
++V+3s+Pres+Ind:prent # ;
++V+1p+Pres+Ind:prenons # ;
++V+2p+Pres+Ind:prenez # ;
++V+3p+Pres+Ind:prenent # ;
+
++V+1s+SPast+Ind:pris # ;
++V+2s+SPast+Ind:presis # ;
++V+3s+SPast+Ind:prist # ;
++V+3s+SPast+Ind:prest # ;
++V+1p+SPast+Ind:presimes # ;
++V+2p+SPast+Ind:presistes # ;
++V+3p+SPast+Ind:pristrent # ;
+
++V+1s+Ipfv+Ind:preneie # ;
++V+2s+Ipfv+Ind:preneies # ;
++V+3s+Ipfv+Ind:preneit # ;
++V+1p+Ipfv+Ind:preniiens # ;
++V+2p+Ipfv+Ind:preniiez # ;
++V+3p+Ipfv+Ind:preneient # ;
+
++V+1s+Fut+Ind:prendrai # ;
++V+2s+Fut+Ind:prendras # ;
++V+3s+Fut+Ind:prendrat # ;
++V+1p+Fut+Ind:prendrons # ;
++V+2p+Fut+Ind:prendrez # ;
++V+2p+Fut+Ind:prendreiz # ;
++V+3p+Fut+Ind:prendront # ;
+
++V+1s+Pres+Sbjv:preigne # ;
++V+1s+Pres+Sbjv:prenge # ;
++V+1s+Pres+Sbjv:prenne # ;
++V+1s+Pres+Sbjv:praigne # ;
++V+2s+Pres+Sbjv:preignes # ;
++V+3s+Pres+Sbjv:preignet # ;
++V+3s+Pres+Sbjv:preingne # ;
++V+3s+Pres+Sbjv:prengne # ;
++V+3s+Pres+Sbjv:prende # ;
++V+3s+Pres+Sbjv:prangne # ;
++V+1p+Pres+Sbjv:prenons # ;
++V+1p+Pres+Sbjv:preigniens # ;
++V+1p+Pres+Sbjv:preignions # ;
++V+2p+Pres+Sbjv:prenez # ;
++V+2p+Pres+Sbjv:preigniez # ;
++V+3p+Pres+Sbjv:pregnent # ;
++V+3p+Pres+Sbjv:preignent # ;
+
+! Verify
++V+1s+Ipfv+Sbjv:presisse # ;
++V+2s+Ipfv+Sbjv:presisses # ;
++V+3s+Ipfv+Sbjv:presist # ;
++V+1p+Ipfv+Sbjv:presissons # ;
++V+1p+Ipfv+Sbjv:presissiens # ;
++V+2p+Ipfv+Sbjv:presissez # ;
++V+2p+Ipfv+Sbjv:presissiez # ;
++V+2p+Ipfv+Sbjv:presisseiz # ;
++V+3p+Ipfv+Sbjv:presissent # ;
+
++V+1s+Pres+Cond:prendreie # ;
++V+2s+Pres+Cond:prendreis # ;
++V+3s+Pres+Cond:prendreit # ;
++V+3s+Pres+Cond:prandreit # ;
++V+3s+Pres+Cond:prendereit # ;
++V+1p+Pres+Cond+Gram/Early:prendriiens # ;
++V+1p+Pres+Cond+Gram/Late:prendriions # ;
++V+2p+Pres+Cond+Gram/Early:prendriiez # ;
++V+2p+Pres+Cond+Gram/Late:prendriiez # ;
++V+3p+Pres+Cond:prendreient # ;
+
++V+2s+Pres+Imp:pren # ;
++V+1p+Pres+Imp:prenons # ;
++V+1p+Pres+Imp:prendons # ;
++V+2p+Pres+Imp:prenez # ; ! Verify
+
 !!€gt-norm: -er_verbs
 !!€ durer:      durer+V+Inf
 !!€ dur:        durer+V+1s+Pres+Ind
