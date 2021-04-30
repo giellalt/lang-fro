@@ -34,8 +34,18 @@ t:0 <=> _ %>: s: ;
 "s disappears before a ts that becomes a z"
 s:0 <=> _ t:0 %>: s:z ;
 
-!! d+s becomes z
-"s becomes z"
+!! {T}+s and s{T}+s become z
+"{T} becomes 0 before an s"
+%{T%}:0 <=> _ s:z ;
+
+"s becomes z when it occurs after {T}"
+s:z <=> %{T%}: _ ;
+
+"s disappears before a {T}s that becomes a z"
+s:0 <=> _ %{T%}:0 s:z ;
+
+!! ds becomes z
+"s becomes z after a d"
 s:z <=> d: %>: _ ;
 
 "d disappears before an s becoming a z"

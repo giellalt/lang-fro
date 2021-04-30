@@ -70,7 +70,7 @@ jor MC1a "day" ;
 mur MC1a "wall" ;
 roi MC1a "king" ;
 rei MC1a "king" ;
-ost%> MC1a "army" ;
+ost:ost%> MC1a "army" ;
 chevalier MC1a "knight" ;
 lion MC1a "lion" ;
 mal MC1a "evil, harm, misfortune, illness" ;
