@@ -1,5 +1,6 @@
-[ e (->) o || _ i  ]
-.o. [ T (->) 0 || _ .#. ] ;
+e (->) o || _ i ,,
+é (->) e ,,
+ï (->) i ;
 
 # Explanation:
 # lexical side (->) input 

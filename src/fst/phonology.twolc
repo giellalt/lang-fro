@@ -9,7 +9,11 @@ Alphabet
  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
  Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
 
+%{T%}
+
  %>:0 ;
+
+ 
 
 Sets
 
@@ -78,3 +82,10 @@ s:z <=> n:n g:0 _ ;
 
 "n'+s (ng+s) becomes nz"
 g:0 <=> n:n _ s:z ;
+
+!! Silent t
+"voiceless t can be kept word-finally"
+%{T%}:t => _ # ;
+
+"voiceless t can be dropped word-finally"
+%{T%}:0 => _ # ;
