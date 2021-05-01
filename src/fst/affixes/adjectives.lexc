@@ -138,11 +138,15 @@ LEXICON Tot
 +Adj+Masc+Obl+Pl:tous # ;
 +Adj+Masc+Obl+Pl:touz # ; ! Double check
 +Adj+Fem+Nom+Sg:tote # ;
++Adj+Fem+Nom+Sg:toute # ;
 +Adj+Fem+Nom+Sg:tute # ;
 +Adj+Fem+Obl+Sg:tote # ;
++Adj+Fem+Obl+Sg:toute # ;
 +Adj+Fem+Nom+Pl:totes # ;
++Adj+Fem+Nom+Pl:toutes # ;
 +Adj+Fem+Nom+Pl:tutes # ;
 +Adj+Fem+Obl+Pl:totes # ;
++Adj+Fem+Obl+Pl:toutes # ;
 +Adj+Neut+Nom+Sg:tot # ;
 +Adj+Neut+Obl+Sg:tot # ;
 +Adj+Masc+Obl+Sg+Emph:trestout # ;

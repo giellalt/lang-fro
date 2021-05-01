@@ -12,6 +12,7 @@ LEXICON 1Sg
 +Pro+Poss+1s+Masc+Nom+Sg+Unstress:mes # ;
 +Pro+Poss+1s+Masc+Nom+Sg+Unstress:mis # ;
 +Pro+Poss+1s+Masc+Obl+Sg+Unstress:mon # ;
++Pro+Poss+1s+Masc+Obl+Sg+Unstress:mun # ;
 +Pro+Poss+1s+Masc+Nom+Pl+Unstress:mi # ;
 +Pro+Poss+1s+Masc+Obl+Pl+Unstress:mes # ;
 +Pro+Poss+1s+Fem+Nom+Sg+Unstress:ma # ;

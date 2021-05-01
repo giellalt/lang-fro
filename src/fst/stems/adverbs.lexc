@@ -1,14 +1,18 @@
 LEXICON Adverbs
-n Negation "not/no" ;
+ne:n Negation "not/no" ;
 pas Pas "not/no" ;
+mie Pas "not" ;
 onques BaseAdv "ever" ;
 mais BaseAdv "more, anymore, ever, again" ;
 ja BaseAdv "formerly, already, now, soon, ever" ;
 si BaseAdv "thus, so, as" ;
 car BaseAdv "wish, may" ;
+ci BaseAdv "here" ;
 espoir BaseAdv "perhaps, hopefully" ;
+forment BaseAdv "greatly, very, very much" ;
 ainz BaseAdv "before" ;
 ainc BaseAdv "ever" ;
+avant BaseAdv "forward" ;
 hui BaseAdv "today" ;
 ore BaseAdv "now" ;
 enz BaseAdv "inside" ;
@@ -16,6 +20,7 @@ fors BaseAdv "outside" ;
 soz BaseAdv "below" ;
 iluec BaseAdv "there" ;
 com BaseAdv "as" ;
+    com:cume BaseAdv "as" ; ! Verify
 si BaseAdv "so" ;
 bien BaseAdv "well" ;
 tres BaseAdv "very" ;

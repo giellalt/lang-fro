@@ -93,6 +93,14 @@ LEXICON Nom ! other forms unknown
 +N+Masc+Obl+Sg:non # ;
 +N+Masc+Obl+Sg:num # ;
 
+LEXICON Gent ! verify
++N+Fem+Nom+Sg:t # ;
++N+Fem+Obl+Sg:t # ;
++N+Masc+Nom+Pl:t%>s # ;
++N+Masc+Nom+Pl:s # ;
++N+Masc+Obl+Pl:t%>s # ;
++N+Masc+Obl+Pl:s # ;
+
 ! vim: set ft=xfst-lexc:
 
 !!€gt-norm: nouns

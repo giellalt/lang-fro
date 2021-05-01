@@ -5,6 +5,7 @@ mal Adj1 "evil, disaster, illness" ;
 aigre Adj2 "acid" ;
 aspre Adj2 "rough" ;
 autre Adj2 "other, another" ;
+    autre:altre Adj2 "other, another" ;
 destre Adj2 "right" ;
 povre Adj2 "poor" ;
 senestre Adj2 "left" ;
