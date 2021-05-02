@@ -9,6 +9,7 @@ si BaseAdv "thus, so, as" ;
 car BaseAdv "wish, may" ;
 ci BaseAdv "here" ;
 espoir BaseAdv "perhaps, hopefully" ;
+ensemble BaseAdv "together" ;
 forment BaseAdv "greatly, very, very much" ;
 ainz BaseAdv "before" ;
 ainc BaseAdv "ever" ;
@@ -23,6 +24,7 @@ com BaseAdv "as" ;
     com:cume BaseAdv "as" ; ! Verify
 si BaseAdv "so" ;
 bien BaseAdv "well" ;
+    bien:ben BaseAdv "well" ;
 tres BaseAdv "very" ;
 molt BaseAdv "much" ;
 tant BaseAdv "so much" ;

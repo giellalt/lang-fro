@@ -1,8 +1,10 @@
 LEXICON Adjectives
+bel Adj1 "dear, beloved, handsome" ;
 bon Adj1 "good" ;
 mal Adj1 "evil, disaster, illness" ;
 petit Adj1 "small, little" ;
     petit+Adj+Masc+Obl+Pl:petis # ;
+
 aigre Adj2 "acid" ;
 aspre Adj2 "rough" ;
 autre Adj2 "other, another" ;

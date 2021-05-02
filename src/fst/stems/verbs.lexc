@@ -19,8 +19,10 @@ amer:am RegEr       "to love" ;
 chanter:chant RegEr "to sing" ;
 doner:don RegEr     "to give" ;
 durer:dur RegEr     "to last" ;
+parler:parl RegEr   "to talk, to speak" ; ! Verify
+    parler+V+3s+Pres+Ind:parole # ; 
 plorer:plot RegEr   "to weep" ;
-porter:port RegEr   "carry, bring, wear" ;
+porter:port RegEr   "carry, bring, wear" ; ! Verify
 tuer:tu RegEr       "to kill" ;
 
 aidier:aid RegIer   "to help" ;
