@@ -93,6 +93,9 @@ mal MC1a "evil, harm, misfortune, illness" ;
 mont MC1a "mountain" ;
 paien MC1a "infidel" ;
 pelerin MC1a "pilgrim" ;
+pueple MC1a "people" ;
+    pueple:pople MC1a "people" ;
+    pueple:peuple MC1a "people" ;
 or MC1a "gold" ; ! Check class
 
 pedr MC2 ;
@@ -104,6 +107,7 @@ maistr MC2 "master" ;
 parastr MC2 "stepfather" ;
 per MC2 "father" ;
 alixandr+Prop:Alixandr MC2 "Alexander" ;
+pollinices+Prop:Pollinicés MC2 "Pollinicés" ;
 livr MC2 "book" ;
 vespr MC2 "evening" ;
 
@@ -117,6 +121,7 @@ cheval: Cheval "horse" ;
 ciel: Ciel "heaven" ;
 nom: Nom "name" ;
 gent:gen Gent "race, people" ;
+pied: Pied "foot" ;
 
 psalme+N+Neut:psalme # ;
 psalme+N+Neut:psalmus # ;

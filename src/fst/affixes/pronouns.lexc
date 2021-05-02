@@ -144,36 +144,40 @@ LEXICON 1Pl
 +Pro+Poss+1p+Fem+Obl+Pl+Stress:z # ;
 
 LEXICON 2Pl
-+Pro+Prs+2p+Nom+Stress+Gram/Early:s # ;
-+Pro+Prs+2p+Nom+Unstress+Gram/Early:s # ;
-+Pro+Prs+2p+Obl+Stress+Gram/Early:s # ;
-+Pro+Prs+2p+Obl+Unstress+Gram/Early:s # ;
++Pro+Prs+2p+Nom+Stress:vos # ;
++Pro+Prs+2p+Nom+Stress:vus # ;
++Pro+Prs+2p+Nom+Unstress:vos # ;
++Pro+Prs+2p+Nom+Unstress:vus # ;
++Pro+Prs+2p+Obl+Stress:vos # ;
++Pro+Prs+2p+Obl+Stress:vus # ;
++Pro+Prs+2p+Obl+Unstress:vos # ;
++Pro+Prs+2p+Obl+Unstress:vus # ;
 
-+Pro+Prs+2p+Nom+Stress+Gram/Early:us # ;
-+Pro+Prs+2p+Nom+Unstress+Gram/Early:us # ;
-+Pro+Prs+2p+Obl+Stress+Gram/Early:us # ;
-+Pro+Prs+2p+Obl+Unstress+Gram/Early:us # ;
++Pro+Prs+2p+Nom+Stress:vous # ;
++Pro+Prs+2p+Nom+Unstress:vous # ;
++Pro+Prs+2p+Obl+Stress:vous # ;
++Pro+Prs+2p+Obl+Unstress:vous # ;
 
-+Pro+Poss+2p+Masc+Nom+Sg+Unstress:stre # ;
-+Pro+Poss+2p+Masc+Obl+Sg+Unstress:stre # ;
-+Pro+Poss+2p+Masc+Nom+Pl+Unstress:stre # ;
-+Pro+Poss+2p+Masc+Obl+Pl+Unstress:z # ;
-+Pro+Poss+2p+Fem+Nom+Sg+Unstress:stre # ;
-+Pro+Poss+2p+Fem+Obl+Sg+Unstress:stre # ;
-+Pro+Poss+2p+Fem+Nom+Pl+Unstress:z # ;
-+Pro+Poss+2p+Fem+Obl+Pl+Unstress:z # ;
++Pro+Poss+2p+Masc+Nom+Sg+Unstress:vostre # ;
++Pro+Poss+2p+Masc+Obl+Sg+Unstress:vostre # ;
++Pro+Poss+2p+Masc+Nom+Pl+Unstress:vostre # ;
++Pro+Poss+2p+Masc+Obl+Pl+Unstress:voz # ;
++Pro+Poss+2p+Fem+Nom+Sg+Unstress:vostre # ;
++Pro+Poss+2p+Fem+Obl+Sg+Unstress:vostre # ;
++Pro+Poss+2p+Fem+Nom+Pl+Unstress:voz # ;
++Pro+Poss+2p+Fem+Obl+Pl+Unstress:voz # ;
 
-+Pro+Poss+2p+Masc+Nom+Sg+Stress:stre # ;
-+Pro+Poss+2p+Masc+Obl+Sg+Stress:stre # ;
-+Pro+Poss+2p+Masc+Nom+Pl+Stress:stre # ;
-+Pro+Poss+2p+Masc+Obl+Pl+Stress:stres # ;
-+Pro+Poss+2p+Masc+Obl+Pl+Stress:z # ;
-+Pro+Poss+2p+Fem+Nom+Sg+Stress:stre # ;
-+Pro+Poss+2p+Fem+Obl+Sg+Stress:stre # ;
-+Pro+Poss+2p+Fem+Nom+Pl+Stress:stres # ;
-+Pro+Poss+2p+Fem+Obl+Pl+Stress:stres # ;
-+Pro+Poss+2p+Fem+Nom+Pl+Stress:z # ;
-+Pro+Poss+2p+Fem+Obl+Pl+Stress:z # ;
++Pro+Poss+2p+Masc+Nom+Sg+Stress:vostre # ;
++Pro+Poss+2p+Masc+Obl+Sg+Stress:vostre # ;
++Pro+Poss+2p+Masc+Nom+Pl+Stress:vostre # ;
++Pro+Poss+2p+Masc+Obl+Pl+Stress:vostres # ;
++Pro+Poss+2p+Masc+Obl+Pl+Stress:voz # ;
++Pro+Poss+2p+Fem+Nom+Sg+Stress:vostre # ;
++Pro+Poss+2p+Fem+Obl+Sg+Stress:vostre # ;
++Pro+Poss+2p+Fem+Nom+Pl+Stress:vostres # ;
++Pro+Poss+2p+Fem+Obl+Pl+Stress:vostres # ;
++Pro+Poss+2p+Fem+Nom+Pl+Stress:voz # ;
++Pro+Poss+2p+Fem+Obl+Pl+Stress:voz # ;
 
 LEXICON 3PlMasc
 +Pro+Prs+3p+Masc+Nom+Stress:il # ;

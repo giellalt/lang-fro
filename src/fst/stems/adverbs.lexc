@@ -51,4 +51,6 @@ sicomme BaseAdv "just as" ;
     sicomme:sicom BaseAdv "just as" ;
     sicomme:si#comme BaseAdv "just as" ;
     sicomme:si#con BaseAdv "just as" ;
+sus BaseAdv "over" ;
+    sus:suz BaseAdv "over" ;
 

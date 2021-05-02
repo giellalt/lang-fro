@@ -101,6 +101,14 @@ LEXICON Gent ! verify
 +N+Masc+Obl+Pl:t%>s # ;
 +N+Masc+Obl+Pl:s # ;
 
+LEXICON Pied
++N+Masc+Obl+Sg:pied # ;
++N+Masc+Obl+Sg:piet # ; ! verify
++N+Masc+Obl+Sg:pié # ;
++N+Masc+Obl+Pl:piez # ;
++N+Masc+Obl+Pl:pies # ;
+
+
 ! vim: set ft=xfst-lexc:
 
 !!€gt-norm: nouns

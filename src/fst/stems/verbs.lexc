@@ -12,6 +12,7 @@ venir:v Xenir    "to come, to go" ;
 tenir:t Xenir   "to keep, to hold" ;
 voloir: Voloir  "to want, to desire" ;
 prendre: Prendre "to take, to take hold of, to seize" ;
+savoir: Savoir "to know" ;
 
 sonner:son RegEr   "to ring" ;
 amer:am RegEr    "to love" ;

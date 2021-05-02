@@ -2,7 +2,7 @@ LEXICON Pronouns
 je: 1Sg "I" ;
 nous:no 1Pl "we" ;
 tu:t 2Sg "you(sing)" ;
-vous:vo 2Pl "you(pl)" ;
+vous: 2Pl "you(pl)" ;
 il: 3SgMasc "he" ;
 ellle: 3SgFem "she" ;
 il: 3SgNeut "it" ;

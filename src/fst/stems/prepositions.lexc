@@ -66,6 +66,8 @@ sur:sur Prep "on, over, to, above" ;
 sos Prep "under" ;
     sos:soz Prep "under" ;
     sos:suz Prep "under" ;
+sus Prep "over" ;
+    sus:suz Prep "over" ;
 tresqu':tresqu' Prep "up to, until" ;
     tresqu':trusqu' Prep "up to, until" ;
 vers Prep "towards" ;

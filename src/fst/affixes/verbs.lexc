@@ -1056,6 +1056,83 @@ LEXICON Prendre
 +V+1p+Pres+Imp:prendons # ;
 +V+2p+Pres+Imp:prenez # ; ! Verify
 
+LEXICON Savoir
++V+Inf:saveir # ;
++V+Pres+Part:savant # ;
++V+Pres+Part:sachant # ;
++V+Past+Part:seü # ;
+
++V+1s+Pres+Ind:sai # ;
++V+2s+Pres+Ind:ses # ;
++V+3s+Pres+Ind:se%{T%} # ;
++V+1p+Pres+Ind:savons # ;
++V+2p+Pres+Ind:savez # ;
++V+3p+Pres+Ind:sevent # ;
+
++V+1s+SPast+Ind:soi # ;
++V+1s+SPast+Ind:sui # ;
++V+2s+SPast+Ind:seüs # ;
++V+3s+SPast+Ind:sot # ;
++V+3s+SPast+Ind:sut # ;
++V+1p+SPast+Ind:seümes # ;
++V+2p+SPast+Ind:seüstes # ;
++V+3p+SPast+Ind:sorent # ;
++V+3p+SPast+Ind:surent # ;
+
++V+1s+Ipfv+Ind:saveie # ;
++V+2s+Ipfv+Ind:saveies # ;
++V+3s+Ipfv+Ind:saveit # ;
++V+1p+Ipfv+Ind:saviiens # ;
++V+2p+Ipfv+Ind:saviiez # ;
++V+3p+Ipfv+Ind:saveient # ;
+
++V+1s+Fut+Ind:savrai # ;
++V+1s+Fut+Ind:sarai # ;
++V+2s+Fut+Ind:savras # ;
++V+2s+Fut+Ind:saras # ;
++V+3s+Fut+Ind:savra%{T%} # ;
++V+3s+Fut+Ind:sara%{T%} # ;
++V+1p+Fut+Ind:savrons # ;
++V+1p+Fut+Ind:sarons # ;
++V+2p+Fut+Ind:savrez # ;
++V+2p+Fut+Ind:sarez # ;
++V+2p+Fut+Ind:savreiz # ;
++V+2p+Fut+Ind:sareiz # ;
++V+3p+Fut+Ind:savront # ;
++V+3p+Fut+Ind:saront # ;
+
++V+1s+Pres+Sbjv:sache # ;
++V+2s+Pres+Sbjv:saches # ;
++V+3s+Pres+Sbjv:sacet # ;
++V+1p+Pres+Sbjv:sachiens # ;
++V+1p+Pres+Sbjv:sachions # ;
++V+2p+Pres+Sbjv:sachiez # ;
++V+3p+Pres+Sbjv:sachent # ;
+
++V+1s+Ipfv+Sbjv:seüsse # ;
++V+2s+Ipfv+Sbjv:seüsses # ;
++V+3s+Ipfv+Sbjv:seüsst # ;
++V+1p+Ipfv+Sbjv:seüssions # ;
++V+1p+Ipfv+Sbjv:seüssiens # ;
++V+2p+Ipfv+Sbjv:seüssez # ;
++V+2p+Ipfv+Sbjv:seüssiez # ;
++V+2p+Ipfv+Sbjv:seüsseiz # ;
++V+3p+Ipfv+Sbjv:seüssent # ;
+
++V+1s+Pres+Cond:ereie # ;
++V+2s+Pres+Cond:ereis # ;
++V+3s+Pres+Cond:saureit # ;
++V+3s+Pres+Cond:savereit # ;
++V+3s+Pres+Cond:sareit # ;
++V+1p+Pres+Cond+Gram/Early:sauriens # ;
++V+1p+Pres+Cond+Gram/Late:saurions # ;
++V+2p+Pres+Cond:sauriez # ;
++V+3p+Pres+Cond:ereient # ;
+
++V+2s+Pres+Imp:saches # ;
++V+1p+Pres+Imp:sachiens # ;
++V+2p+Pres+Imp:sachiez # ;
+
 !!€gt-norm: -er_verbs
 !!€ durer:      durer+V+Inf
 !!€ dur:        durer+V+1s+Pres+Ind
