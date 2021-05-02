@@ -7,10 +7,12 @@ LEXICON Ou
 +Conj+Coord:u # ;
 
 LEXICON Que
-+Conj+Coord+Gram/Liason:0 # ;
-+Conj+Coord:e # ;
-+Conj+Subord+Gram/Liason:0 # ;
-+Conj+Subord:e # ;
++Conj+Coord+Gram/Liason:qu # ;
++Conj+Coord:que # ;
++Conj+Coord:ke # ;
++Conj+Subord+Gram/Liason:qu # ;
++Conj+Subord:que # ;
++Conj+Subord:ke # ;
 
 LEXICON Ne
 +Conj+Coord+Gram/Liason:0 # ;

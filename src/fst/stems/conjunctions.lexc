@@ -9,7 +9,7 @@ mais Coord "but" ;
 donc Coord "therefore" ;
 car Coord "for" ;
 kar Coord "for" ; ! verify
-qu Que ;
+que: Que ;
 quant Subord "when, if, since" ;
 por SubPart ;
 ce SubPart ;
