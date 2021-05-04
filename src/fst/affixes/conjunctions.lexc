@@ -1,6 +1,5 @@
 LEXICON Et
-+Conj+Coord:et # ;
-+Conj+Coord:é # ;
++Conj+Coord:é%{T%} # ;
 
 LEXICON Ou
 +Conj+Coord:0 # ;
@@ -52,5 +51,3 @@ LEXICON Cum
 !!€gt-norm: Conjunctions
 !!€ s:    s+Conj+Coord+Gram/Liason
 !!€ si:    si+Conj+MultiWordConj+Subord
-!!€ et:    e+Conj+Coord
-!!€ e:     e+Conj+Coord
