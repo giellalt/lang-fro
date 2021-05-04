@@ -18,10 +18,12 @@ bouche FC1 "mouth" ;
 chose FC1 "thing, affair, creature" ;
     chose:cose FC1 "thing, affair, creature" ;
     chose:kose FC1 "thing, affair, creature" ;
+dame FC1 "lady" ;
 fille FC1 "girl, daughter" ;
 guerre FC1 "war, trouble" ;
     guerre:guere FC1 "war, trouble" ;
 ire FC1 "wrath, grief, distress" ;
+joie FC1 "joy" ;
 letre FC1 "letter" ;
 mere FC1 "mother" ;
 miséricorde FC1 "pity, mercy, compassion" ;
@@ -76,7 +78,7 @@ cuer MC1a "heart" ;
     cuer:quer MC1a "heart" ;
     cuer:coer MC1a "heart" ;
     cuer:cor MC1a "heart" ;
-escu:escut%{T%} MC1a "shield" ;
+escu:escu%{T%} MC1a "shield" ;
 jor MC1a "day" ;
     jor+N+Masc+Obl+Pl:jorz # ;
     jor+N+Masc+Obl+Pl:jurz # ;
@@ -103,7 +105,10 @@ or MC1a "gold" ; ! Check class
 siecle MC1a "earthly life, world" ;
     siecle:secle MC1a "earthly life, world" ;
     siecle:seule MC1a "earthly life, world" ;
-
+willame:Willame MC1a "William" ;
+    willame:Williame MC1a "William" ;
+    willame:Guillame MC1a "William" ;
+    willame:Willaume MC1a "William" ;
 pedr MC2 ;
 comper MC2 "friend, crony" ;
 eschipr MC2 "sailor" ;
@@ -134,12 +139,18 @@ psalme+N+Neut:psalmus # ;
 psalme+N+Neut:PSALMUS # ;
 païs+N+Masc:païs # "country" ;
 palais+N+Masc:palais # "palace" ;
-thideüs+Prop+N:Thideüs # "Thideus" ;
 voiz+N+Fem:voiz # "voice" ;
 tens+N+Masc:tens # ;
     tens+N+Masc:tans # ;
+
+!! Indeclinable Proper Nouns
+david+Prop+N+Masc:David # "David" ;
 thebes+Prop+N+Masc:Thebes # "Thebes" ;
-pollinices+Prop:Pollinicés  "Pollinicés" ;
+thideüs+Prop+N+Masc:Thideüs # "Thideus" ;
+pollinices+Prop+N+Masc:Pollinicés #  "Pollinicés" ;
+israel+Prop+N+Masc:Israél # "Israel" ;
+tristran+Prop+N+Masc:Tristran # "Tristran" ;
+    tristran+Prop+N+Masc:Tristan # "Tristran" ;
 
 hom+N+Masc+Nom+Sg:hom # "man" ;
 hom+N+Masc+Nom+Sg:home # "man" ;

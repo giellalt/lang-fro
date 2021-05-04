@@ -63,10 +63,19 @@ LEXICON Seignor
 +N+Masc+Obl+Sg:seignur # ;
 
 LEXICON Fil
-+N+Masc+Nom+Sg:filz # ;
 +N+Masc+Nom+Sg:fils # ;
-+N+Masc+Obl+Sg:filz # ;
++N+Masc+Nom+Sg:filz # ;
++N+Masc+Nom+Sg:fiz # ;
++N+Masc+Nom+Sg:fix # ;
 +N+Masc+Obl+Sg:fil # ;
++N+Masc+Obl+Sg:filz # ;
++N+Masc+Obl+Sg:fiz # ;
++N+Masc+Obl+Sg:fil # ;
++N+Masc+Nom+Pl:fil # ;
++N+Masc+Obl+Pl:fils # ;
++N+Masc+Obl+Pl:filz # ;
++N+Masc+Obl+Pl:fiz # ;
+
 
 LEXICON Dol ! All of these are valid forms, but check tags and plurals
 +N+Masc+Nom+Sg:diau # ;
@@ -107,7 +116,6 @@ LEXICON Pied
 +N+Masc+Obl+Sg:pié # ;
 +N+Masc+Obl+Pl:piez # ;
 +N+Masc+Obl+Pl:pies # ;
-
 
 ! vim: set ft=xfst-lexc:
 

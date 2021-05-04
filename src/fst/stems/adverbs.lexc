@@ -2,6 +2,7 @@ LEXICON Adverbs
 ne:n Negation "not/no" ;
 pas Pas "not/no" ;
 mie Pas "not" ;
+    mie:mies Pas "not" ; ! Verify
 onques BaseAdv "ever" ;
 mais BaseAdv "more, anymore, ever, again" ;
 ja BaseAdv "formerly, already, now, soon, ever" ;
@@ -13,6 +14,11 @@ ensemble BaseAdv "together" ;
 forment BaseAdv "greatly, very, very much" ;
 ainz BaseAdv "before" ;
 ainc BaseAdv "ever" ;
+ainsi BaseAdv "thus" ;
+    ainsi:einsi BaseAdv "thus" ;
+    ainsi:einsint BaseAdv "thus" ;
+    ainsi:issi BaseAdv "thus" ;
+    ainsi:ensi BaseAdv "thus" ;
 avant BaseAdv "forward" ;
 hui BaseAdv "today" ;
 ore BaseAdv "now" ;

@@ -1,5 +1,5 @@
 LEXICON Conjunctions
-e Et "and" ;
+et: Et "and" ;
 o Ou "or" ;
 n Ne "nor" ;
 s Se "if not" ;
