@@ -157,6 +157,7 @@ pollinices+Prop+N+Masc:Pollinicés #  "Pollinicés" ;
 israel+Prop+N+Masc:Israél # "Israel" ;
 tristran+Prop+N+Masc:Tristran # "Tristran" ;
     tristran+Prop+N+Masc:Tristan # "Tristran" ;
+paris+Prop+N+Masc:Paris # "Paris" ; ! Verify gender
 
 hom+N+Masc+Nom+Sg:hom # "man" ;
 hom+N+Masc+Nom+Sg:homs # "man" ;

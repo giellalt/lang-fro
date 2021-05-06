@@ -2,6 +2,8 @@ LEXICON Enclitics
 :al A_Le ;
 :au A_Le ;
 :as A_Les ;
+:aus A_Les ;
+:aux A_Les ;
 :del De_Le ;
 :deu De_Le ;
 :dou De_Le ;

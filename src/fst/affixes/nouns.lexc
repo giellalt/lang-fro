@@ -54,13 +54,14 @@ LEXICON Dieu
 +N+Masc+Nom+Sg:Deus # ;
 +N+Masc+Nom+Sg:deus # ;
 
-LEXICON Seignor
+LEXICON Seignor ! Add Plurals
 +N+Masc+Nom+Sg:sire # ;
 +N+Masc+Nom+Sg:sires # ;
 +N+Masc+Obl+Sg:seignor # ;
 +N+Masc+Obl+Sg:segnor # ;
 +N+Masc+Obl+Sg:segnur # ;
 +N+Masc+Obl+Sg:seignur # ;
++N+Masc+Obl+Sg:seigneur # ;
 
 LEXICON Fil
 +N+Masc+Nom+Sg:fils # ;

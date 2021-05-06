@@ -13,6 +13,7 @@ ensembl'od Prep "together with" ;
     ensembl'od:ensemble#od Prep "together with" ;
 apres Prep "after" ;
     apres:aprés Prep "after" ;
+    apres:après Prep "after" ;
     apres:apries Prep "after" ;
 atot Prep "with" ;
     atot:atout Prep "with" ;

@@ -400,8 +400,8 @@ LEXICON Estre
 +V+2s+Fut+Ind+Gram/Late:estras # ;
 +V+3s+Fut+Ind+Gram/Early:ert # ;
 +V+3s+Fut+Ind+Gram/Early:iert # ;
-+V+3s+Fut+Ind+Gram/Late:serat # ;
-+V+3s+Fut+Ind+Gram/Late:estrat # ;
++V+3s+Fut+Ind+Gram/Late:sera%{T%} # ;
++V+3s+Fut+Ind+Gram/Late:estra%{T%} # ;
 +V+1p+Fut+Ind+Gram/Early:ermes # ;
 +V+1p+Fut+Ind+Gram/Early:iermes # ;
 +V+1p+Fut+Ind+Gram/Late:serons # ;
@@ -417,7 +417,7 @@ LEXICON Estre
 
 +V+1s+Pres+Sbjv:seie # ;
 +V+2s+Pres+Sbjv:seies # ;
-+V+3s+Pres+Sbjv:seit # ;
++V+3s+Pres+Sbjv:sei%{T%} # ;
 +V+1p+Pres+Sbjv:seiiens # ;
 +V+1p+Pres+Sbjv:seions # ;
 +V+2p+Pres+Sbjv:seiiez # ;
