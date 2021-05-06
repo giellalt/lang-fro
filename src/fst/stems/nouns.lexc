@@ -12,6 +12,7 @@ ame FC1 "soul, somebody" ;
     ame:alme FC1 "soul, somebody" ;
     ame:arme FC1 "soul, somebody" ;
     ame:aneme FC1 "soul, somebody" ; ! Best guess for aneme. If not, it's enemy.
+amie FC1 "friend (female)" ;
 bataille FC1 "battle" ;
 bouche FC1 "mouth" ;
     bouche:buche FC1 "mouth" ;
@@ -38,6 +39,7 @@ rose FC1 "rose" ;
 vie FC1 "life" ;
 
 amor FC2 "love" ;
+    amor:amour FC2 "love" ;
 cité:cité%{T%} FC2 "city" ;
 clamor FC2 "clamour" ;
 color FC2 "color" ;
@@ -73,6 +75,9 @@ valor FC2 "worth" ;
 vertu:vertu%{T%} FC2 "force, virtue" ;
 volenté FC2 "will" ;
 
+ami MC1a "friend (male)" ;
+chastel MC1a "castle" ;
+    chastel:castel MC1a "castle" ;
 chief MC1a "head, chief" ;
     chief:chef MC1a "head, chief" ;
 cuer MC1a "heart" ;
@@ -82,6 +87,7 @@ cuer MC1a "heart" ;
 duc MC1a "duke" ;
     duc+N+Masc+Nom+Sg:dux # ;
 escu:escu%{T%} MC1a "shield" ;
+hostel MC1a "hotel" ; ! Verify
 jehan+Prop:Jehan MC1a "Jehan" ;
     jehan+Prop+N+Masc+Nom+Sg:Jehanz # ; ! Verify form
 jor MC1a "day" ;
@@ -140,17 +146,25 @@ nom: Nom "name" ;
 gent:gen Gent "race, people" ;
 pied: Pied "foot" ;
 
-psalme+N+Neut:psalme # ;
-psalme+N+Neut:psalmus # ;
-psalme+N+Neut:PSALMUS # ;
-païs+N+Masc:païs # "country" ;
-palais+N+Masc:palais # "palace" ;
-voiz+N+Fem:voiz # "voice" ;
-tens+N+Masc:tens # ;
-    tens+N+Masc:tans # ;
+
+!! Indeclinable Nouns
+argent NIndecM "money, riches, silver" ; ! Verify gender
+    argent:argenz NIndecM "money, riches, silver" ;
+cors NIndecM "body" ;
+    cors:corps NIndecM "body" ;
+psalme NIndecN  ;
+    psalme:psalmus NIndecN ;
+    psalme:PSALMUS NIndecN ;
+pais NIndecM "country" ;
+    pais:païs NIndecM "country" ;
+palais NIndecM "palace" ;
+voiz NIndecFem "voice" ;
+tens NIndecM ;
+    tens:tans NIndecM ; ! Get definition
 
 !! Indeclinable Proper Nouns
 david+Prop+N+Masc:David # "David" ;
+france+Prop+N+Fem:France # "France" ;
 thebes+Prop+N+Masc:Thebes # "Thebes" ;
 thideüs+Prop+N+Masc:Thideüs # "Thideus" ;
 pollinices+Prop+N+Masc:Pollinicés #  "Pollinicés" ;

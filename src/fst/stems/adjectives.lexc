@@ -1,4 +1,5 @@
 LEXICON Adjectives
+aucun Adj1 "some, none?" ; ! Verify definition
 bel Adj1 "dear, beloved, handsome" ;
 bon Adj1 "good" ;
     bon+Adj+Fem+Nom+Sg:bonne # ;

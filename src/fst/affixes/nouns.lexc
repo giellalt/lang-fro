@@ -45,6 +45,15 @@ LEXICON MC3
 +N+Masc+Nom+Pl:0 # ;
 +N+Masc+Obl+Pl:s # ;
 
+LEXICON NIndecM
++N+Masc:0 # ;
+
+LEXICON NIndecF
++N+Fem:0 # ;
+
+LEXICON NIndecN
++N+Neut:0 # ;
+
 LEXICON Dieu
 +N+Masc+Obl+Sg:Deo # ;
 +N+Masc+Obl+Sg:Deu # ;
@@ -54,7 +63,8 @@ LEXICON Dieu
 +N+Masc+Nom+Sg:Deus # ;
 +N+Masc+Nom+Sg:deus # ;
 
-LEXICON Seignor ! Add Plurals
+
+LEXICON Seignor ! Verify Plurals, add Nom Pl
 +N+Masc+Nom+Sg:sire # ;
 +N+Masc+Nom+Sg:sires # ;
 +N+Masc+Obl+Sg:seignor # ;
@@ -62,6 +72,10 @@ LEXICON Seignor ! Add Plurals
 +N+Masc+Obl+Sg:segnur # ;
 +N+Masc+Obl+Sg:seignur # ;
 +N+Masc+Obl+Sg:seigneur # ;
++N+Masc+Obl+Pl:segnors # ;
++N+Masc+Obl+Pl:segnurs # ;
++N+Masc+Obl+Pl:seignurs # ;
++N+Masc+Obl+Pl:seigneurs # ;
 
 LEXICON Fil
 +N+Masc+Nom+Sg:fils # ;
