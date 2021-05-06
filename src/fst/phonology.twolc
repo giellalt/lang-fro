@@ -100,3 +100,10 @@ g:0 <=> n:n _ s:z ;
 
 "voiceless t can be dropped"
 %{T%}:0 => _ ;
+
+!! Palatalized vowels
+"i can be expressed as y after vowels"
+i:y => Vow _ ;
+
+"e can be expressed as o before i/y"
+e:o => _ i: ;

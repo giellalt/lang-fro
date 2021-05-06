@@ -349,7 +349,7 @@ LEXICON Avoir
 LEXICON Estre
 +V+Inf:estre # ;
 +V+Pres+Part:estant # ;
-+V+Past+Part:estét # ;
++V+Past+Part:esté%{T%} # ;
 
 +V+1s+Pres+Ind:sui # ;
 +V+2s+Pres+Ind:es # ;

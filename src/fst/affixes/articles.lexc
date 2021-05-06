@@ -11,9 +11,13 @@ LEXICON Definite
 
 LEXICON Indefinite
 +Art+Indef+Masc+Nom+Sg:s # ;
++Art+Indef+Masc+Nom+Sg:gs # ;
 +Art+Indef+Masc+Obl+Sg:0 # ;
++Art+Indef+Masc+Obl+Sg:g # ;
 +Art+Indef+Masc+Nom+Pl:0 # ;
++Art+Indef+Masc+Nom+Pl:g # ;
 +Art+Indef+Masc+Obl+Pl:s # ;
++Art+Indef+Masc+Obl+Pl:gs # ;
 +Art+Indef+Fem+Nom+Sg:e # ;
 +Art+Indef+Fem+Nom+Sg:ne # ;
 +Art+Indef+Fem+Obl+Sg:e # ;

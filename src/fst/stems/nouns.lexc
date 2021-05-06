@@ -25,6 +25,7 @@ guerre FC1 "war, trouble" ;
 ire FC1 "wrath, grief, distress" ;
 joie FC1 "joy" ;
 letre FC1 "letter" ;
+manière FC1 "manner, way, intention" ;
 mere FC1 "mother" ;
 miséricorde FC1 "pity, mercy, compassion" ;
 novele FC1 "news" ;
@@ -78,7 +79,11 @@ cuer MC1a "heart" ;
     cuer:quer MC1a "heart" ;
     cuer:coer MC1a "heart" ;
     cuer:cor MC1a "heart" ;
+duc MC1a "duke" ;
+    duc+N+Masc+Nom+Sg:dux # ;
 escu:escu%{T%} MC1a "shield" ;
+jehan+Prop:Jehan MC1a "Jehan" ;
+    jehan+Prop+N+Masc+Nom+Sg:Jehanz # ; ! Verify form
 jor MC1a "day" ;
     jor+N+Masc+Obl+Pl:jorz # ;
     jor+N+Masc+Obl+Pl:jurz # ;
@@ -109,6 +114,7 @@ willame:Willame MC1a "William" ;
     willame:Williame MC1a "William" ;
     willame:Guillame MC1a "William" ;
     willame:Willaume MC1a "William" ;
+
 pedr MC2 ;
 comper MC2 "friend, crony" ;
 eschipr MC2 "sailor" ;
@@ -153,12 +159,21 @@ tristran+Prop+N+Masc:Tristran # "Tristran" ;
     tristran+Prop+N+Masc:Tristan # "Tristran" ;
 
 hom+N+Masc+Nom+Sg:hom # "man" ;
+hom+N+Masc+Nom+Sg:homs # "man" ;
 hom+N+Masc+Nom+Sg:home # "man" ;
+hom+N+Masc+Nom+Sg:homes # "man" ;
+hom+N+Masc+Nom+Sg:homme # "man" ;
+hom+N+Masc+Nom+Sg:hommes # "man" ;
 hom+N+Masc+Nom+Sg:om # "man" ;
 hom+N+Masc+Nom+Sg:on # "man" ;
 hom+N+Masc+Obl+Sg:home # "man" ;
+hom+N+Masc+Obl+Sg:homme # "man" ;
 hom+N+Masc+Obl+Sg:ome # "man" ;
 hom+N+Masc+Nom+Pl:hume # "man" ;
+hom+N+Masc+Nom+Pl:home # "man" ;
+hom+N+Masc+Nom+Pl:homme # "man" ;
 hom+N+Masc+Obl+Pl:humes # "man" ;
+hom+N+Masc+Obl+Pl:homes # "man" ;
+hom+N+Masc+Obl+Pl:hommes # "man" ;
 
 ! vim: set ft=xfst-lexc:

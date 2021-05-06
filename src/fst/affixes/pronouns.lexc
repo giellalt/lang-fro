@@ -1,4 +1,5 @@
 LEXICON 1Sg
++Pro+Prs+1s+Nom+Stress+Gram/Liason:j # ;
 +Pro+Prs+1s+Nom+Stress+Gram/Early:jo # ;
 +Pro+Prs+1s+Nom+Stress+Gram/Late:je # ;
 +Pro+Prs+1s+Nom+Stress+Err/Obsc:ja # ;
@@ -74,7 +75,9 @@ LEXICON 3SgMasc
 
 LEXICON 3SgFem
 +Pro+Prs+3s+Fem+Nom+Stress:ele # ;
++Pro+Prs+3s+Fem+Nom+Stress:elle # ;
 +Pro+Prs+3s+Fem+Nom+Unstress:ele # ;
++Pro+Prs+3s+Fem+Nom+Unstress:elle # ;
 +Pro+Prs+3s+Fem+Obl+Dir+Unstress:la # ;
 +Pro+Prs+3s+Fem+Obl+Dir+Unstress:l # ;
 +Pro+Prs+3s+Fem+Obl+Indir+Unstress:li # ;
@@ -184,6 +187,8 @@ LEXICON 2Pl
 
 LEXICON 3PlMasc
 +Pro+Prs+3p+Masc+Nom+Stress:il # ;
++Pro+Prs+3p+Masc+Nom+Stress:ils # ;
++Pro+Prs+3p+Masc+Nom+Stress:ilz # ;
 +Pro+Prs+3p+Masc+Nom+Stress+Err/Obsc:i # ;
 +Pro+Prs+3p+Masc+Nom+Stress+Err/Obsc:ilh # ;
 +Pro+Prs+3p+Masc+Nom+Unstress:il # ;
@@ -198,8 +203,11 @@ LEXICON 3PlMasc
 
 LEXICON 3PlFem
 +Pro+Prs+3p+Fem+Nom+Stress:eles # ;
++Pro+Prs+3p+Fem+Nom+Stress:elles # ;
 +Pro+Prs+3p+Fem+Nom+Unstress:eles # ;
++Pro+Prs+3p+Fem+Nom+Unstress:elles # ;
 +Pro+Prs+3p+Fem+Obl+Dir+Stress:eles # ;
++Pro+Prs+3p+Fem+Obl+Dir+Stress:elles # ;
 +Pro+Prs+3p+Fem+Obl+Dir+Unstress:les # ;
 +Pro+Prs+3p+Fem+Obl+Indir+Stress:lor # ;
 +Pro+Prs+3p+Fem+Obl+Indir+Unstress:lor # ;
@@ -308,11 +316,15 @@ LEXICON Interrogative
 !!€gt-norm: Pro+Prs
 !!€ mi:         je+Pro+Poss+1s+Masc+Nom+Pl+Unstress
 !!€ mei:        je+Pro+Prs+1s+Obl+Stress
+!!€ mey:        je+Pro+Prs+1s+Obl+Stress
+!!€ moi:        je+Pro+Prs+1s+Obl+Stress
+!!€ moy:        je+Pro+Prs+1s+Obl+Stress
 !!€ nos:        nous+Pro+Prs+1p+Nom+Stress+Gram/Early
 !!€ nous:       nous+Pro+Prs+1p+Nom+Stress+Gram/Early
 !!€ eus:        ils+Pro+Prs+3p+Masc+Obl+Dir+Stress
 !!€ els:        ils+Pro+Prs+3p+Masc+Obl+Dir+Stress
 !!€ soi:        se+Pro+Prs+3p+Refl+Obl+Stress
+!!€ soy:        se+Pro+Prs+3p+Refl+Obl+Stress
 !!€ en:         en+Pro+Adv
 !!€ i:          i+Pro+Adv
 !!€ ton:        tu+Pro+Poss+2s+Masc+Obl+Sg+Unstress
@@ -320,3 +332,4 @@ LEXICON Interrogative
 !!€ suens:      son+Pro+Poss+3s+Masc+Obl+Pl+Stress
 !!€ suens:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
 !!€ icestui:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress
+!!€ icestuy:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress

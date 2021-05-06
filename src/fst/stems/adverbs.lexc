@@ -19,6 +19,7 @@ ainsi BaseAdv "thus" ;
     ainsi:einsint BaseAdv "thus" ;
     ainsi:issi BaseAdv "thus" ;
     ainsi:ensi BaseAdv "thus" ;
+aussi BaseAdv "also, likewise" ;
 avant BaseAdv "forward" ;
 hui BaseAdv "today" ;
 ore BaseAdv "now" ;

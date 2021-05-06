@@ -120,6 +120,7 @@ LEXICON Mout
 +Adj:mout # ;
 +Adj:molt # ;
 +Adj:mult # ;
++Adj:moult # ;
 
 LEXICON Nul
 +Adj+Masc+Nom+Sg:nus # ;
