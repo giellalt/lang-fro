@@ -26,5 +26,5 @@ quoi: Interrogative ;
 que: Relative ;
 chascun Indefinite "each one, everyone" ;
 plusor Indefinite "several, many" ;
-    plusor:pluisor Indefinite ;
-    plusor:plusier Indefinite ;
+    plusor:pluisor IndefPro ;
+    plusor:plusier IndefPro ;

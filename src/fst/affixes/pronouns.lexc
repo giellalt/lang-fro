@@ -323,7 +323,7 @@ LEXICON Interrogative
 +Pro+Interr+Neut+Obl+Dir+Unstress:que # ;
 +Pro+Interr+Neut+Obl+Dir+Stress:quoi # ;
 
-LEXICON Indefinite
+LEXICON IndefPro
 +Pro+Adj+Indef+Nom+Sg:s # ;
 +Pro+Adj+Indef+Obl+Sg:0 # ;
 +Pro+Adj+Indef+Nom+Pl:0 # ;
