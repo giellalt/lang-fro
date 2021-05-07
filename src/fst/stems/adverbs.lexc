@@ -3,6 +3,7 @@ ne:n Negation "not/no" ;
 pas Pas "not/no" ;
 mie Pas "not" ;
     mie:mies Pas "not" ; ! Verify
+point Pas "(reinforcer of negation)" ; ! Separate lexicon for particles?
 onques BaseAdv "ever" ;
 mais BaseAdv "more, anymore, ever, again" ;
 ja BaseAdv "formerly, already, now, soon, ever" ;

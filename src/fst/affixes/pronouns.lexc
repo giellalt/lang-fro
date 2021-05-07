@@ -242,10 +242,14 @@ LEXICON Demonstrative
 +Pro+Dem+Far+Masc+Obl+Pl:ces # ;
 
 +Pro+Dem+Far+Fem+Nom+Sg:cele # ;
++Pro+Dem+Far+Fem+Nom+Sg:celle # ;
 +Pro+Dem+Far+Fem+Obl+Sg:cele # ;
++Pro+Dem+Far+Fem+Obl+Sg:celle # ;
 +Pro+Dem+Far+Fem+Obl+Sg+Stress:celi # ;
 +Pro+Dem+Far+Fem+Nom+Pl:celes # ;
++Pro+Dem+Far+Fem+Nom+Pl:celles # ;
 +Pro+Dem+Far+Fem+Obl+Pl:celes # ;
++Pro+Dem+Far+Fem+Obl+Pl:celles # ;
 
 +Pro+Dem+Near+Masc+Nom+Sg:cist # ;
 +Pro+Dem+Near+Masc+Obl+Sg:cest # ;

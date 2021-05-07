@@ -33,10 +33,11 @@ delez Prep "next to, beside" ;
     delez:deles Prep "next to, beside" ;
     delez:delé Prep "next to, beside" ;
     delez:deleiz Prep "next to, beside" ;
-desous Prep "under" ;
-    desous:desuz Prep "under" ;
-    desous:desos Prep "under" ;
-    desous:desus Prep "under" ;
+desous Prep "under, in, on, above" ; ! Might be two stems. Verify.
+    desous:desuz Prep "under, in, on, above" ;
+    desous:desos Prep "under, in, on, above" ;
+    desous:desus Prep "under, in, on, above" ;
+    desous:desur Prep "in, on" ;
 devers Prep "in/from the direction of" ;
     devers:de#vers Prep "in/from the direction of" ;
 empur Prep "for the sake of" ;

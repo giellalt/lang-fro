@@ -7,7 +7,7 @@ bon Adj1 "good" ;
     bon+Adj+Fem+Nom+Pl:bonnes # ;
     bon+Adj+Fem+Obl+Pl:bonnes # ;
 mal Adj1 "evil, disaster, illness" ;
-petit Adj1 "small, little" ;
+petit:petit%> Adj1 "small, little" ;
     petit+Adj+Masc+Obl+Pl:petis # ;
 
 aigre Adj2 "acid" ;
