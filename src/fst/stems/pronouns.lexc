@@ -24,3 +24,7 @@ ice:i DemNeuter ;
 ce: DemNeuter ;
 quoi: Interrogative ;
 que: Relative ;
+chascun Indefinite "each one, everyone" ;
+plusor Indefinite "several, many" ;
+    plusor:pluisor Indefinite ;
+    plusor:plusier Indefinite ;

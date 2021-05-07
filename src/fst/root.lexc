@@ -31,7 +31,7 @@ avoir, estre ! Irregular verbs
 +Dir, +Indir ! Object: Direct, indirect
 +Prs, +Poss, +Dem ! Pronoun type: personal, possessive, demonstrative
 +Near, +Far ! Demonstrative pronoun: near vs. far, as in "this" vs "that"
-+Interr, +Relative ! Pronoun type: interrogative, relative
++Interr, +Relative, +Indef ! Pronoun type: interrogative, relative, indefinite
 +Gram/Person, +Gram/Thing ! Asking about a person, asking about a thing
 
 !! Adverb Features

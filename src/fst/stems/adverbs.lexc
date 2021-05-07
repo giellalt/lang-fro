@@ -16,6 +16,7 @@ car BaseAdv "wish, may" ;
 ci BaseAdv "here" ;
 espoir BaseAdv "perhaps, hopefully" ;
 ensemble BaseAdv "together" ;
+environ BaseAdv "about, around" ; ! + "de" = adverbial preposition
 forment BaseAdv "greatly, very, very much" ;
 ainz BaseAdv "before" ;
 ainc BaseAdv "ever" ;
@@ -32,6 +33,7 @@ enz BaseAdv "inside" ;
 fors BaseAdv "outside" ;
 soz BaseAdv "below" ;
 iluec BaseAdv "there" ;
+lors BaseAdv "at this moment, thus" ;
 com BaseAdv "as" ;
     com:cume BaseAdv "as" ; ! Verify
 si BaseAdv "so" ;

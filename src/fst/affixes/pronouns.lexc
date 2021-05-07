@@ -196,6 +196,7 @@ LEXICON 3PlMasc
 +Pro+Prs+3p+Masc+Nom+Unstress+Err/Obsc:ilh # ;
 +Pro+Prs+3p+Masc+Obl+Dir+Stress:eus # ;
 +Pro+Prs+3p+Masc+Obl+Dir+Stress:els # ;
++Pro+Prs+3p+Masc+Obl+Dir+Stress:eulx # ; ! Verify
 +Pro+Prs+3p+Masc+Obl+Dir+Unstress:les # ;
 +Pro+Prs+3p+Masc+Obl+Indir+Stress:lor # ;
 +Pro+Prs+3p+Masc+Obl+Indir+Stress:lur # ;
@@ -221,12 +222,16 @@ LEXICON 3PlPoss
 +Pro+Poss+3p+Nom+Sg+Unstress:0 # ;
 +Pro+Poss+3p+Obl+Sg+Unstress:0 # ;
 +Pro+Poss+3p+Nom+Pl+Unstress:0 # ;
++Pro+Poss+3p+Nom+Pl+Unstress:s # ;
 +Pro+Poss+3p+Obl+Pl+Unstress:0 # ;
++Pro+Poss+3p+Obl+Pl+Unstress:s # ;
 
 +Pro+Poss+3p+Nom+Sg+Stress:0 # ;
 +Pro+Poss+3p+Obl+Sg+Stress:0 # ;
 +Pro+Poss+3p+Nom+Pl+Stress:0 # ;
++Pro+Poss+3p+Nom+Pl+Stress:s # ;
 +Pro+Poss+3p+Obl+Pl+Stress:0 # ;
++Pro+Poss+3p+Obl+Pl+Stress:s # ;
 
 LEXICON ProAdv
 +Pro+Adv:0 # ;
@@ -239,6 +244,7 @@ LEXICON Demonstrative
 +Pro+Dem+Far+Masc+Nom+Pl:cil # ;
 +Pro+Dem+Far+Masc+Obl+Pl:cels # ;
 +Pro+Dem+Far+Masc+Obl+Pl:ceus # ;
++Pro+Dem+Far+Masc+Obl+Pl:ceulx # ;
 +Pro+Dem+Far+Masc+Obl+Pl:ces # ;
 
 +Pro+Dem+Far+Fem+Nom+Sg:cele # ;
@@ -316,6 +322,12 @@ LEXICON Interrogative
 +Pro+Interr+Neut+Nom:quoi # ;
 +Pro+Interr+Neut+Obl+Dir+Unstress:que # ;
 +Pro+Interr+Neut+Obl+Dir+Stress:quoi # ;
+
+LEXICON Indefinite
++Pro+Adj+Indef+Nom+Sg:s # ;
++Pro+Adj+Indef+Obl+Sg:0 # ;
++Pro+Adj+Indef+Nom+Pl:0 # ;
++Pro+Adj+Indef+Obl+Pl:s # ;
 
 !!€gt-norm: Pro+Prs
 !!€ mi:         je+Pro+Poss+1s+Masc+Nom+Pl+Unstress
