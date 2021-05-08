@@ -37,8 +37,8 @@ lors BaseAdv "at this moment, thus" ;
 com BaseAdv "as" ;
     com:cume BaseAdv "as" ; ! Verify
 si BaseAdv "so" ;
-bien BaseAdv "well" ;
-    bien:ben BaseAdv "well" ;
+bien BaseAdv "well, many, much, really" ;
+    bien:ben BaseAdv "well, many, much, really" ;
 tres BaseAdv "very" ;
 molt BaseAdv "much" ;
 tant BaseAdv "so much" ;

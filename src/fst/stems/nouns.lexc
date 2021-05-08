@@ -25,6 +25,7 @@ fame FC1 "wife, woman" ;
     fame:femme FC1 ;
     fame:feme FC1 ;
 fille FC1 "girl, daughter" ;
+force FC1 "strength, force" ;
 guerre FC1 "war, trouble" ;
     guerre:guere FC1 ;
 ire FC1 "wrath, grief, distress" ;
@@ -83,6 +84,7 @@ vertu:vertu%{T%} FC2 "force, virtue" ;
 volenté FC2 "will" ;
 
 ami MC1a "friend (male)" ;
+bien MC1a "good, goodness" ;
 chastel MC1a "castle" ;
     chastel:castel MC1a "castle" ;
 chief MC1a "head, chief" ;

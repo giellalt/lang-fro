@@ -303,6 +303,9 @@ LEXICON Relative
 +Pro+Relative+Neut+Nom:que # ;
 +Pro+Relative+Neut+Obl+Dir+Unstress:que # ;
 +Pro+Relative+Neut+Obl+Dir+Stress:quoi # ;
++Pro+Relative+Gram/Place:ou # ;
++Pro+Relative+Gram/Place:où # ;
++Pro+Relative+Gram/Place:u # ;
 
 LEXICON Interrogative
 +Pro+Interr+Gram/Person+Nom:qui # ;
@@ -322,6 +325,9 @@ LEXICON Interrogative
 +Pro+Interr+Neut+Nom:quoi # ;
 +Pro+Interr+Neut+Obl+Dir+Unstress:que # ;
 +Pro+Interr+Neut+Obl+Dir+Stress:quoi # ;
++Pro+Interr+Gram/Place:ou # ;
++Pro+Interr+Gram/Place:où # ;
++Pro+Interr+Gram/Place:u # ;
 
 LEXICON IndefPro
 +Pro+Adj+Indef+Nom+Sg:s # ;
