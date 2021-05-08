@@ -609,9 +609,83 @@ LEXICON Dire
 +V+1p+Pres+Imp:disons # ;
 +V+2p+Pres+Imp:disez # ;
 
+LEXICON Devoir
++V+Inf:deveir # ;
++V+Pres+Part:devant # ;
++V+Past+Part:deü # ;
++V+Past+Part:deubz # ;
+
++V+1s+Pres+Ind:dei # ;
++V+2s+Pres+Ind:deis # ;
++V+3s+Pres+Ind:deit # ;
++V+1p+Pres+Ind:devons # ;
++V+2p+Pres+Ind:devez # ;
++V+3p+Pres+Ind:devent # ;
+
++V+1s+SPast+Ind:dui # ;
++V+2s+SPast+Ind:deüs # ;
++V+3s+SPast+Ind:deü%{T%} # ;
++V+3s+SPast+Ind:dü%{T%} # ;
++V+1p+SPast+Ind:deümes # ;
++V+2p+SPast+Ind:deüstes # ;
++V+3p+SPast+Ind:durent # ;
+
+! Mostly guesses
++V+1s+Ipfv+Ind:deveie # ;
++V+2s+Ipfv+Ind:deveies # ;
++V+3s+Ipfv+Ind:deveit # ;
++V+1p+Ipfv+Ind:deviiens # ;
++V+1p+Ipfv+Ind:deviions # ;
++V+2p+Ipfv+Ind:deviiez # ;
++V+3p+Ipfv+Ind:deveient # ;
+
++V+1s+Fut+Ind:devrai # ;
++V+2s+Fut+Ind:devras # ;
++V+3s+Fut+Ind:devra%{T%} # ;
++V+1p+Fut+Ind:devrames # ;
++V+2p+Fut+Ind:devrez # ;
++V+2p+Fut+Ind:devreiz # ;
++V+3p+Fut+Ind:devront # ;
+
++V+1s+Pres+Sbjv:deie # ;
++V+1s+Pres+Sbjv:deive # ;
++V+2s+Pres+Sbjv:deies # ;
++V+2s+Pres+Sbjv:deives # ;
++V+3s+Pres+Sbjv:deiet # ;
++V+3s+Pres+Sbjv:deivet # ;
++V+1p+Pres+Sbjv:deiiens # ;
++V+1p+Pres+Sbjv:devons # ;
++V+2p+Pres+Sbjv:deiiez # ;
++V+2p+Pres+Sbjv:devez # ;
++V+3p+Pres+Sbjv:deient # ;
++V+3p+Pres+Sbjv:deivent # ;
+
+! Verify
++V+1s+Ipfv+Sbjv:deüsse # ;
++V+2s+Ipfv+Sbjv:deüsse # ;
++V+3s+Ipfv+Sbjv:deüsst # ;
++V+3s+Ipfv+Sbjv:deüst # ;
++V+1p+Ipfv+Sbjv:deüssiiens # ;
++V+2p+Ipfv+Sbjv:deüssez # ;
++V+2p+Ipfv+Sbjv:deüssiez # ;
++V+2p+Ipfv+Sbjv:deüsseiz # ;
++V+3p+Ipfv+Sbjv:deüssent # ;
+
+! Verify
++V+1s+Pres+Cond:devreie # ;
++V+2s+Pres+Cond:devreis # ;
++V+3s+Pres+Cond:devreit # ;
++V+1p+Pres+Cond:devriiens # ;
++V+2p+Pres+Cond:devriiez # ;
++V+3p+Pres+Cond:devreient # ;
+
+! +V+2s+Pres+Imp:? # ; ! Unknown
++V+1p+Pres+Imp:devons # ; ! Verify
++V+2p+Pres+Imp:devez # ;
+
 LEXICON Xenir
 +V+Inf:enir # ;
-+V+Pres+Part:enant # ; ! Confirm
++V+Pres+Part:enant # ; ! Verify
 +V+Past+Part:enu # ;
 +V+Past+Part:enuz # ;
 

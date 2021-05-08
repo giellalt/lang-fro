@@ -107,3 +107,6 @@ i:y => Vow _ ;
 
 "e can be expressed as o before i/y"
 e:o => _ i: ;
+
+"ii can be shortened to i" 
+i:0 => i: _ ;

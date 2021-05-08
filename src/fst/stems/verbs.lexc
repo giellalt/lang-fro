@@ -13,6 +13,7 @@ tenir:t Xenir       "to keep, to hold" ;
 voloir: Voloir      "to want, to desire" ;
 prendre: Prendre    "to take, to take hold of, to seize" ;
 savoir: Savoir      "to know" ;
+devoir: Devoir      "should, ought to, need to, must" ;
 
 sonner:son RegEr    "to ring" ;
 amer:am RegEr       "to love" ;
@@ -46,4 +47,4 @@ perdre:perd RegRe   "to lose" ;
 respondre:respond RegRe "to reply" ;
 
 !! Add: doloir, tenir, venir, veoir, metre, rire, partir
-!! conduire, criembre, tordre, traire, boivre, devoir, savoir
+!! conduire, criembre, tordre, traire, boivre, savoir
