@@ -12,6 +12,9 @@ Alphabet
 %{T%}:t
 %{T%}:0
 
+%{D%}:d
+%{D%}:0
+
  %>:0 ;
 
  
@@ -94,12 +97,18 @@ s:z <=> n:n g:0 _ ;
 "n'+s (ng+s) becomes nz"
 g:0 <=> n:n _ s:z ;
 
-!! Silent t
-"voiceless t can be kept"
+!! Silent t and d
+"unaspirated t can be kept"
 %{T%}:t => _ ;
 
-"voiceless t can be dropped"
+"unaspirated t can be dropped"
 %{T%}:0 => _ ;
+
+"unaspirated d can be kept"
+%{D%}:d => _ ;
+
+"unaspirated t can be dropped"
+%{D%}:0 => _ ;
 
 !! Palatalized vowels
 "i can be expressed as y after vowels"

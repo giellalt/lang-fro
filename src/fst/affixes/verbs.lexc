@@ -1208,6 +1208,96 @@ LEXICON Savoir
 +V+1p+Pres+Imp:sachiens # ;
 +V+2p+Pres+Imp:sachiez # ;
 
+LEXICON Pooir
++V+Inf:pooir # ;
++V+Inf:po%{D%}eir # ;
++V+Inf:po%{D%}ier # ;
++V+Pres+Part:poänt # ;
++V+Pres+Part:puissant # ;
++V+Past+Part:peü%{T%} # ;
+
++V+1s+Pres+Ind:puis # ;
++V+2s+Pres+Ind:puez # ;
++V+3s+Pres+Ind:puet # ;
++V+1p+Pres+Ind:poons # ;
++V+2p+Pres+Ind:poez # ;
++V+2p+Pres+Ind:pöez # ;
++V+3p+Pres+Ind:pueent # ;
+
++V+1s+SPast+Ind:poi # ;
++V+2s+SPast+Ind:peüs # ;
++V+3s+SPast+Ind:peü%{T%} # ;
++V+3s+SPast+Ind:pue%{T%} # ;
++V+3s+SPast+Ind:pot # ; ! "po" is an adverb meaning "a little"
++V+1p+SPast+Ind:peümes # ;
++V+2p+SPast+Ind:peüstes # ;
++V+3p+SPast+Ind:purent # ;
++V+3p+SPast+Ind:porent # ;
+
+! Verify
++V+1s+Ipfv+Ind:poeie # ;
++V+2s+Ipfv+Ind:poeies # ;
++V+3s+Ipfv+Ind:poeit # ;
++V+3s+Ipfv+Ind:pöeit # ;
++V+1p+Ipfv+Ind:poiiens # ;
++V+2p+Ipfv+Ind:poiiez # ;
++V+3p+Ipfv+Ind:poeient # ;
+
++V+1s+Fut+Ind:porrai # ;
++V+1s+Fut+Ind:pourrai # ;
++V+2s+Fut+Ind:porras # ;
++V+2s+Fut+Ind:pourras # ;
++V+3s+Fut+Ind:porra%{T%} # ;
++V+3s+Fut+Ind:pourra%{T%} # ;
++V+1p+Fut+Ind:porrons # ;
++V+1p+Fut+Ind:pourrons # ;
++V+2p+Fut+Ind:porrez # ;
++V+2p+Fut+Ind:pourrez # ;
++V+2p+Fut+Ind:porreiz # ;
++V+2p+Fut+Ind:pourreiz # ;
++V+3p+Fut+Ind:porront # ;
++V+3p+Fut+Ind:pourront # ;
+
++V+1s+Pres+Sbjv:puisse # ;
++V+2s+Pres+Sbjv:puisses # ;
++V+3s+Pres+Sbjv:puisse # ;
++V+3s+Pres+Sbjv:puisst # ;
++V+1p+Pres+Sbjv:puissiens # ;
++V+2p+Pres+Sbjv:puissiez # ;
++V+3p+Pres+Sbjv:puissent # ;
+
++V+1s+Ipfv+Sbjv:peüsse # ;
++V+1s+Ipfv+Sbjv:peüsce # ;
++V+2s+Ipfv+Sbjv:peüsses # ;
++V+3s+Ipfv+Sbjv:peüsst # ;
++V+3s+Ipfv+Sbjv:peüst # ;
++V+3s+Ipfv+Sbjv:poïst # ;
++V+1p+Ipfv+Sbjv:peüssons # ;
++V+1p+Ipfv+Sbjv:peüssiens # ;
++V+2p+Ipfv+Sbjv:peüssez # ;
++V+2p+Ipfv+Sbjv:peüssiez # ;
++V+2p+Ipfv+Sbjv:peüsseiz # ;
++V+3p+Ipfv+Sbjv:peüssent # ;
+
++V+1s+Pres+Cond:porreie # ;
++V+1s+Pres+Cond:pourreie # ;
++V+2s+Pres+Cond:porreis # ;
++V+2s+Pres+Cond:pourreis # ;
++V+3s+Pres+Cond:porreit # ;
++V+3s+Pres+Cond:poreit # ;
++V+3s+Pres+Cond:pourreit # ;
++V+1p+Pres+Cond:porriiens # ;
++V+1p+Pres+Cond:pourriiens # ;
++V+2p+Pres+Cond:porriiez # ;
++V+2p+Pres+Cond:pourriiez # ;
++V+2p+Pres+Cond:pourriés # ;
++V+3p+Pres+Cond:porreient # ;
++V+3p+Pres+Cond:pourreient # ;
+
+! +V+2s+Pres+Imp:e # ; Unknown
+! +V+1p+Pres+Imp:ons # ; Unknown
++V+2p+Pres+Imp:puissiez # ; ! Verify
+
 !!€gt-norm: -er_verbs
 !!€ durer:      durer+V+Inf
 !!€ dur:        durer+V+1s+Pres+Ind

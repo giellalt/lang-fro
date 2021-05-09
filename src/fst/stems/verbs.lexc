@@ -7,13 +7,13 @@ faire: Faire        "to make, to do, to say" ;
 dire: Dire          "to say" ;
 aler: Aler          "to go" ;
 veoir: Veoir        "to see" ;
-vedeir: Veoir       "to see" ;
 venir:v Xenir       "to come, to go" ;
 tenir:t Xenir       "to keep, to hold" ;
 voloir: Voloir      "to want, to desire" ;
 prendre: Prendre    "to take, to take hold of, to seize" ;
 savoir: Savoir      "to know" ;
 devoir: Devoir      "should, ought to, need to, must" ;
+pooir: Pooir        "to be able, can" ;
 
 sonner:son RegEr    "to ring" ;
 amer:am RegEr       "to love" ;
@@ -46,5 +46,5 @@ corre:cor RegRe     "to run" ;
 perdre:perd RegRe   "to lose" ;
 respondre:respond RegRe "to reply" ;
 
-!! Add: doloir, tenir, venir, veoir, metre, rire, partir
-!! conduire, criembre, tordre, traire, boivre, savoir
+!! Add: doloir, metre, rire, partir
+!! conduire, criembre, tordre, traire, boivre
