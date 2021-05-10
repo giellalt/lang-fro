@@ -66,8 +66,8 @@ nul: Nul "no, not any" ;
 tot: Tot "all, every, completely" ;
 saint: Saint "holy" ;
 
-ledit+Adj:ledit "the aforementioned (le+dit)" ; ! Verify
-dudit+Adj:dudit "of the aformenetioned (du+dit)" ; ! Verify
+ledit+Adj:ledit # "the aforementioned (le+dit)" ; ! Verify
+dudit+Adj:dudit # "of the aformenetioned (du+dit)" ; ! Verify
 
 LEXICON Participles
 chant Part ;

@@ -49,9 +49,16 @@ avoir, estre ! Irregular verbs
 
 +Prep ! Preposition
 
+!! Numeral Features
++Num ! Numeral
++Ord, +Card ! Ordinal, Cardinal
++Roman ! Roman numeral
+
+
 !! Archiphonemes
 %{T%} ! Silent t
 %{D%} ! Silent d
+%{S%} ! Optional s
 
 +le, +les, +me, +se, +en, +te, +est
 @U.class.F1@
@@ -74,3 +81,4 @@ Conjunctions ;
 Adjectives ;
 Participles ;
 Prepositions ;
+Numerals ;

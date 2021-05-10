@@ -15,6 +15,9 @@ Alphabet
 %{D%}:d
 %{D%}:0
 
+%{S%}:s
+%{S%}:0
+
  %>:0 ;
 
  
@@ -119,3 +122,16 @@ e:o => _ i: ;
 
 "ii can be shortened to i" 
 i:0 => i: _ ;
+
+!! Ordinals
+"s can become è in the ordinal suffix"
+s:è => i _ m e ;
+
+"e can be inserted before s in the ordinal suffix"
+0:e => i _ s:s m e ;
+
+"optional s can be deleted"
+%{S%}:0 => _ ;
+
+"optional s can be kept"
+%{S%}:s => _ ;

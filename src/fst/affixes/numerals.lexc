@@ -1,0 +1,47 @@
+LEXICON Cardinal
++Num+Card: # ;
+
+LEXICON Ordinal
++Num+Ord:%{S%} # ;
+
+LEXICON Un
++Num+Card+Masc+Nom+Sg:uns # ;
++Num+Card+Masc+Nom+Sg:ungs # ;
++Num+Card+Masc+Obl+Sg:un # ;
++Num+Card+Masc+Obl+Sg:ung # ;
++Num+Card+Masc+Nom+Pl:un # ;
++Num+Card+Masc+Nom+Pl:ung # ;
++Num+Card+Masc+Obl+Pl:uns # ;
++Num+Card+Masc+Obl+Pl:ungs # ;
++Num+Card+Fem+Nom+Sg:une # ;
++Num+Card+Fem+Nom+Sg:unne # ;
++Num+Card+Fem+Obl+Sg:une # ;
++Num+Card+Fem+Obl+Sg:unne # ;
++Num+Card+Fem+Nom+Pl:unes # ;
++Num+Card+Fem+Obl+Pl:unes # ;
+
+LEXICON Dous
++Num+Card+Masc+Nom+Pl:dui # ;
++Num+Card+Mac+Obl+Pl:dous # ;
++Num+Card+Mac+Obl+Pl:deus # ;
++Num+Card+Fem+Nom+Pl:dous # ;
++Num+Card+Mac+Obl+Pl:deus # ;
++Num+Card+Mac+Obl+Pl:does # ;
+
+LEXICON Trois
++Num+Card+Masc+Nom+Pl:trei # ;
++Num+Card+Masc+Obl+Pl:treis # ;
++Num+Card+Fem+Nom+Pl:treis # ;
++Num+Card+Fem+Obl+Pl:treis # ;
+
+LEXICON Vint
++Num+Card+Masc+Nom+Pl:vint # ;
++Num+Card+Masc+Obl+Pl:vinz # ;
++Num+Card+Fem+Nom+Pl:vinz # ;
++Num+Card+Fem+Obl+Pl:vinz # ;
+
+LEXICON Cent
++Num+Card+Masc+Nom+Pl:cent # ;
++Num+Card+Masc+Obl+Pl:cenz # ;
++Num+Card+Fem+Nom+Pl:cenz # ;
++Num+Card+Fem+Obl+Pl:cenz # ;
