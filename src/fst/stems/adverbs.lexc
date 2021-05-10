@@ -4,6 +4,8 @@ pas Pas "not/no" ;
 mie Pas "not" ;
     mie:mies Pas "not" ; ! Verify
 point Pas "(reinforcer of negation)" ; ! Separate lexicon for particles?
+jamais Pas "never" ;
+    jamais:ja#mais "never" ;
 onques BaseAdv "ever" ;
 mais BaseAdv "more, anymore, ever, again" ;
 ja BaseAdv "formerly, already, now, soon, ever" ;
@@ -27,6 +29,7 @@ ainsi BaseAdv "thus" ;
     ainsi:ensi BaseAdv "thus" ;
 aussi BaseAdv "also, likewise" ;
 avant BaseAdv "forward" ;
+court BaseAdv "quickly" ;
 hui BaseAdv "today" ;
 item BaseAdv "also, the same" ;
 ore BaseAdv "now" ;
@@ -35,6 +38,7 @@ fors BaseAdv "outside" ;
 soz BaseAdv "below" ;
 iluec BaseAdv "there" ;
 lors BaseAdv "at this moment, thus" ;
+matin BaseAdv "early" ;
 com BaseAdv "as" ;
     com:cume BaseAdv "as" ; ! Verify
 si BaseAdv "so" ;

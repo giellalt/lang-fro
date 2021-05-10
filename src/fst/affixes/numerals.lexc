@@ -24,8 +24,10 @@ LEXICON Dous
 +Num+Card+Masc+Nom+Pl:dui # ;
 +Num+Card+Mac+Obl+Pl:dous # ;
 +Num+Card+Mac+Obl+Pl:deus # ;
++Num+Card+Mac+Obl+Pl:deux # ;
 +Num+Card+Fem+Nom+Pl:dous # ;
 +Num+Card+Mac+Obl+Pl:deus # ;
++Num+Card+Mac+Obl+Pl:deux # ;
 +Num+Card+Mac+Obl+Pl:does # ;
 
 LEXICON Trois

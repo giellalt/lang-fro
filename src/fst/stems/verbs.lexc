@@ -20,6 +20,7 @@ amer:am RegEr       "to love" ;
 chanter:chant RegEr "to sing" ;
 doner:don RegEr     "to give" ;
 durer:dur RegEr     "to last" ;
+garder:gard RegEr   "to guard" ;
 parler:parl RegEr   "to talk, to speak" ; ! Verify
     parler+V+3s+Pres+Ind:parole # ; 
 plorer:plot RegEr   "to weep" ;
@@ -46,5 +47,5 @@ corre:cor RegRe     "to run" ;
 perdre:perd RegRe   "to lose" ;
 respondre:respond RegRe "to reply" ;
 
-!! Add: doloir, metre, rire, partir
+!! Add: doloir, metre, rire
 !! conduire, criembre, tordre, traire, boivre

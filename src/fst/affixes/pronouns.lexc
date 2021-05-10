@@ -128,7 +128,7 @@ LEXICON 1Pl
 +Pro+Prs+1p+Obl+Stress+Gram/Early:us # ;
 +Pro+Prs+1p+Obl+Unstress+Gram/Early:us # ;
 
-+Pro+Poss+1p+Masc+Nom+Sg+Unstress:stre # ;
++Pro+Poss+1p+Masc+Nom+Sg+Unstress:stre # ; ! Alternate form of nostre = no?
 +Pro+Poss+1p+Masc+Obl+Sg+Unstress:stre # ;
 +Pro+Poss+1p+Masc+Nom+Pl+Unstress:stre # ;
 +Pro+Poss+1p+Masc+Obl+Pl+Unstress:z # ;

@@ -127,7 +127,8 @@ LEXICON RegIer
 LEXICON RegIr
 +V+Inf:ir # ;
 +V+Pres+Part:issant # ;
-+V+Past+Part:i # ;
++V+Past+Part:i%{T%} # ;
++V+Past+Part:ie # ;
 
 +V+1s+Pres+Ind:is # ;
 +V+2s+Pres+Ind:is # ;
@@ -494,6 +495,7 @@ LEXICON Faire
 +V+2p+SPast+Ind:fesistes # ;
 +V+3p+SPast+Ind:fisent # ;
 +V+3p+SPast+Ind:fesent # ;
++V+3p+SPast+Ind:firent # ;
 
 +V+1s+Ipfv+Ind:faiseie # ;
 +V+2s+Ipfv+Ind:faiseies # ;
