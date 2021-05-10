@@ -37,6 +37,7 @@ miséricorde FC1 "pity, mercy, compassion" ;
 novele FC1 "news" ;
 parole FC1 "word, speech" ;
     parole:parolle FC1 ;
+partie FC1 "part, section, sharing" ; ! Verify definition
 pierre FC1 "stone, prison" ;
     pierre:piere FC1 ;
 reïne FC1 "queen" ;
@@ -85,6 +86,7 @@ volenté FC2 "will" ;
 
 ami MC1a "friend (male)" ;
 bien MC1a "good, goodness" ;
+cas MC1a "case, occurrance, military action, fall, cause" ; ! Verify
 chastel MC1a "castle" ;
     chastel:castel MC1a "castle" ;
 chief MC1a "head, chief" ;
@@ -97,6 +99,7 @@ duc MC1a "duke" ;
     duc+N+Masc+Nom+Sg:dux # ;
 escu:escu%{T%} MC1a "shield" ;
 hostel MC1a "hotel" ; ! Verify
+item MC1a "individual, article of an account" ;
 jehan+Prop:Jehan MC1a "Jehan" ;
     jehan+Prop+N+Masc+Nom+Sg:Jehanz # ; ! Verify form
 jor MC1a "day" ;
@@ -106,6 +109,10 @@ jor MC1a "day" ;
     jor:jorn MC1a "day" ;
     jor:jour MC1a "day" ;
     jor:jur MC1a "day" ;
+monde MC1a "world" ;
+    monde:monte MC1a "world" ;
+    monde+Err/Obsc:mont MC1a "world" ; ! mont is usually a form of "mountain"
+    monde:mond MC1a "world" ;
 mur MC1a "wall" ;
 rei MC1a "king" ;
 ost:ost%> MC1a "army" ;

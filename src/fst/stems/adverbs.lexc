@@ -28,6 +28,7 @@ ainsi BaseAdv "thus" ;
 aussi BaseAdv "also, likewise" ;
 avant BaseAdv "forward" ;
 hui BaseAdv "today" ;
+item BaseAdv "also, the same" ;
 ore BaseAdv "now" ;
 enz BaseAdv "inside" ;
 fors BaseAdv "outside" ;

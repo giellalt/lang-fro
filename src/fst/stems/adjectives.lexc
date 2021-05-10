@@ -23,6 +23,7 @@ brief Adj3 "short" ;
 fol Adj3 "foolish" ;
 fort:fort%> Adj3 "strong" ;
 grant:grant%> Adj3 "great" ;
+    grant+Adj+Masc+Nom+Sg:grans Adj3 "great" ;
 grief Adj3 "grievous" ;
 quel Adj3 "which" ;
 soëf Adj3 "sweet" ;
@@ -66,8 +67,9 @@ nul: Nul "no, not any" ;
 tot: Tot "all, every, completely" ;
 saint: Saint "holy" ;
 
-ledit+Adj:ledit # "the aforementioned (le+dit)" ; ! Verify
-dudit+Adj:dudit # "of the aformenetioned (du+dit)" ; ! Verify
+ledit+Adj+Masc:ledit # "the aforementioned (le+dit)" ; ! Verify
+ledit+Adj+Fem:ladicte # "the aforementioned (la+dite)" ; ! Verify
+dudit+Adj+Masc:dudit # "of the aformenetioned (du+dit)" ; ! Verify
 
 LEXICON Participles
 chant Part ;
