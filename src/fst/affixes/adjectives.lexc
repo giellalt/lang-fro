@@ -103,6 +103,9 @@ LEXICON MascIndec
 +Adj+Fem+Nom+Pl:es # ;
 +Adj+Fem+Obl+Pl:es # ;
 
+LEXICON IndefAdj
++Adj+Indef:s # ; ! FIXME: research Indefinite Adjectives
+
 
 LEXICON Mieux
 +Adj+Masc+Nom+Sg:mieudre # ;

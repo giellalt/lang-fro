@@ -1,9 +1,9 @@
 LEXICON Conjunctions
 et: Et "and" ;
-o Ou "or" ;
-n Ne "nor" ;
-s Se "if not" ;
-s Si "and, so, since, yet, but" ;
+ou:o Ou "or" ;
+ne:n Ne "nor" ;
+se:s Se "if not" ;
+si:s Si "and, so, since, yet, but" ;
 ainz Coord ;
 mais Coord "but" ;
 donc Coord "therefore" ;

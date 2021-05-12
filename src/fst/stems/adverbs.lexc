@@ -20,6 +20,9 @@ espoir BaseAdv "perhaps, hopefully" ;
 ensemble BaseAdv "together" ;
 environ BaseAdv "about, around" ; ! + "de" = adverbial preposition
 forment BaseAdv "greatly, very, very much" ;
+hier:%{H%}ier BaseAdv "yesterday" ;
+là BaseAdv "there" ;
+voir BaseAdv "truly, really" ;
 ainz BaseAdv "before" ;
 ainc BaseAdv "ever" ;
 ainsi BaseAdv "thus" ;
@@ -28,6 +31,7 @@ ainsi BaseAdv "thus" ;
     ainsi:issi BaseAdv "thus" ;
     ainsi:ensi BaseAdv "thus" ;
 aussi BaseAdv "also, likewise" ;
+    aussi:ausi BaseAdv "also, likewise" ;
 avant BaseAdv "forward" ;
 court BaseAdv "quickly" ;
 hui BaseAdv "today" ;
@@ -74,4 +78,16 @@ sicomme BaseAdv "just as" ;
     sicomme:si#con BaseAdv "just as" ;
 sus BaseAdv "over" ;
     sus:suz BaseAdv "over" ;
+
+comment InterrAdv "how" ;
+ou InterrAdv "where" ;
+    ou:où InterrAdv "where" ;
+    ou:u InterrAdv "where" ;
+porquoi InterrAdv "why" ;
+    porquoi:por#quoi InterrAdv "why" ;
+    porquoi:pourquoi InterrAdv "why" ;
+    porquoi:por#coi InterrAdv "why" ;
+    porquoi:pour#coi InterrAdv "why" ;
+    porquoi:porcoi InterrAdv "why" ;
+    porquoi:por#koi InterrAdv "why" ;
 

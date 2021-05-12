@@ -10,6 +10,7 @@ cour%{T%} Adj1 "short (not long), of little importance" ;
 mal Adj1 "evil, disaster, illness" ;
 petit:petit%> Adj1 "small, little" ;
     petit+Adj+Masc+Obl+Pl:petis # ;
+voir Adj1 "true" ;
 
 aigre Adj2 "acid" ;
 aspre Adj2 "rough" ;
@@ -25,7 +26,8 @@ brief Adj3 "short" ;
 fol Adj3 "foolish" ;
 fort:fort%> Adj3 "strong" ;
 grant:grant%> Adj3 "great" ;
-    grant+Adj+Masc+Nom+Sg:grans Adj3 "great" ;
+    grant+Adj+Masc+Nom+Sg:grans # "great" ;
+    grant:grand Adj3 "great" ;
 grief Adj3 "grievous" ;
 quel Adj3 "which" ;
 soëf Adj3 "sweet" ;
@@ -63,15 +65,25 @@ ploros MascIndec "tearful" ;
 precios MascIndec "precious" ;
 tierz MascIndec "third" ;
 
+plusor IndefAdj "several, many" ;
+    plusor:pluisor IndefAdj ;
+    plusor:plusier IndefAdj ;
+    plusor:pluseur IndefAdj ;
+    plusor:pluiseur IndefAdj ;
+    plusor:plusieur IndefAdj ;
+    plusor:pluisieur IndefAdj ;
+
 mieux: Mieux "better" ;
 mout: Mout "many, much, very" ;
 nul: Nul "no, not any" ;
 tot: Tot "all, every, completely" ;
 saint: Saint "holy" ;
 
-ledit+Adj+Masc:ledit # "the aforementioned (le+dit)" ; ! Verify
-ledit+Adj+Fem:ladicte # "the aforementioned (la+dite)" ; ! Verify
-dudit+Adj+Masc:dudit # "of the aformenetioned (du+dit)" ; ! Verify
+ledit+Adj+Masc+Sg:ledit # "the aforementioned (le+dit)" ; ! Verify
+ledit+Adj+Fem+Sg:ladite # "the aforementioned (la+dite)" ; ! Verify
+ledit+Adj+Fem+Sg:ladicte # "the aforementioned (la+dite)" ; ! Verify
+dudit+Adj+Masc+Sg:dudit # "of the aformenetioned (du+dit)" ; ! Verify
+ledit+Adj+Masc+Pl:lesdiz # "the aforementioned (le+dit)" ; ! Verify
 
 LEXICON Participles
 chant Part ;

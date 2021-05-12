@@ -61,6 +61,7 @@ cité:cité%{T%} FC2 "city" ;
 clamor FC2 "clamour" ;
 color FC2 "color" ;
 cort FC2 "court" ;
+    cort:court FC2 "court" ;
 dolor FC2 "sorrow" ;
 fei FC2 "faith" ;
 fin FC2 "end" ;
@@ -91,8 +92,11 @@ terre FC2 "earth" ;
 tor FC2 "tower" ;
 traïson FC2 "treason" ;
 valor FC2 "worth" ;
+verité:verité%{T%} FC2 "truth" ;
+    verité+N+Fem+Nom+Sg:veritez # ;
 vertu:vertu%{T%} FC2 "force, virtue" ;
-volenté FC2 "will" ;
+volenté:volenté%{T%} FC2 "will" ;
+    volenté:voulenté%{T%} FC2 "will" ;
 
 ami MC1a "friend (male)" ;
 bien MC1a "good, goodness" ;
@@ -120,11 +124,13 @@ jor MC1a "day" ;
     jor:jorn MC1a "day" ;
     jor:jour MC1a "day" ;
     jor:jur MC1a "day" ;
+jugement MC1a "judgement" ;
 matin MC1a "morning" ;
 monde MC1a "world" ;
     monde:monte MC1a "world" ;
     monde+Err/Obsc:mont MC1a "world" ; ! mont is usually a form of "mountain"
     monde:mond MC1a "world" ;
+    monde+N+Masc+Nom+Sg:mons # "world" ;
 mot MC1a "word" ;
 mur MC1a "wall" ;
 noble MC1a "person belonging of nobility, palm of the hand" ; ! separate the entries?
@@ -138,7 +144,8 @@ mal MC1a "evil, harm, misfortune, illness" ;
     mal+N+Masc+Nom+Sg:max # ; ! alternate form
     mal+N+Masc+Nom+Sg:maus # ; ! alternate form
     mal+N+Masc+Obl+Pl:maus # ; ! alternate form
-mont MC1a "mountain" ;
+mont:mon%{T%} MC1a "mountain" ;
+    mont+N+Masc+Nom+Sg:mons # ;
 paien MC1a "infidel" ;
 pelerin MC1a "pilgrim" ;
 prince MC1a "prince" ;
@@ -149,6 +156,7 @@ or MC1a "gold" ; ! Check class
 siecle MC1a "earthly life, world" ;
     siecle:secle MC1a "earthly life, world" ;
     siecle:seule MC1a "earthly life, world" ;
+voir MC1a "truth" ;
 willame:Willame MC1a "William" ;
     willame:Williame MC1a "William" ;
     willame:Guillame MC1a "William" ;
@@ -232,6 +240,7 @@ ciel: Ciel "heaven" ;
 nom: Nom "name" ;
 gent:gen Gent "race, people" ;
 pied: Pied "foot" ;
+monseigneur: Monseigneur "my lord (honorific)" ;
 
 
 !! Indeclinable Nouns
@@ -269,6 +278,7 @@ jhesu+Prop+N+Masc:Jhesu # "Jesus" ;
     jhesu+Prop+N+Masc:Jesus # "Jesus" ;
 crist+Prop+N+Masc:Crist # "Christ" ;
     crist+Prop+N+Masc:Christ # "Christ" ;
+mons+Prop:mons NIndecM "region of Mons" ;
 
 
 hom+N+Masc+Nom+Sg:hom # "man" ;

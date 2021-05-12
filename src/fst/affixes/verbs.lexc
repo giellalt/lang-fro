@@ -861,6 +861,7 @@ LEXICON Aler
 LEXICON Veoir
 +V+Inf:veoir # ;
 +V+Inf:vedeir # ;
++V+Inf:voir # ;
 +V+Pres+Part:venant # ;
 +V+Pres+Part:veant # ;
 +V+Pres+Part:veiant # ;

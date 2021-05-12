@@ -16,3 +16,6 @@ LEXICON OptionalS
 LEXICON Ment
 +Adv:ment # ;
 
+LEXICON InterrAdv
++Adv+Interr:0 # ;
+

@@ -49,5 +49,5 @@ LEXICON Cum
 ! vim: set ft=xfst-lexc:
 
 !!€gt-norm: Conjunctions
-!!€ s:    s+Conj+Coord+Gram/Liason
+!!€ s:    se+Conj+Subord+Gram/Liason
 !!€ si:    si+Conj+MultiWordConj+Subord

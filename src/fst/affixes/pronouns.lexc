@@ -4,6 +4,7 @@ LEXICON 1Sg
 +Pro+Prs+1s+Nom+Stress+Gram/Late:je # ;
 +Pro+Prs+1s+Nom+Stress+Err/Obsc:ja # ;
 +Pro+Prs+1s+Nom+Stress+Err/Obsc:ge # ;
++Pro+Prs+1s+Nom+Stress+Err/Obsc:jeo # ;
 +Pro+Prs+1s+Nom+Unstress+Gram/Early:jo # ;
 +Pro+Prs+1s+Nom+Unstress+Gram/Late:je # ;
 +Pro+Prs+1s+Nom+Unstress+Err/Obsc:ja # ;
@@ -28,8 +29,6 @@ LEXICON 1Sg
 +Pro+Poss+1s+Masc+Obl+Sg+Stress:mien # ;
 +Pro+Poss+1s+Masc+Nom+Pl+Stress:mien # ;
 +Pro+Poss+1s+Masc+Obl+Pl+Stress:miens # ;
-+Pro+Poss+1s+Fem+Nom+Sg+Stress:moie # ;
-+Pro+Poss+1s+Fem+Obl+Sg+Stress:moie # ;
 +Pro+Poss+1s+Fem+Nom+Sg+Stress:meie # ;
 +Pro+Poss+1s+Fem+Obl+Sg+Stress:meie # ;
 +Pro+Poss+1s+Fem+Nom+Pl+Stress:moies # ;
@@ -332,9 +331,6 @@ LEXICON Interrogative
 +Pro+Interr+Neut+Obl+Dir+Unstress:que # ;
 +Pro+Interr+Neut+Obl+Dir+Unstress:qe # ;
 +Pro+Interr+Neut+Obl+Dir+Stress:quoi # ;
-+Pro+Interr+Gram/Place:ou # ;
-+Pro+Interr+Gram/Place:où # ;
-+Pro+Interr+Gram/Place:u # ;
 
 LEXICON IndefPro
 +Pro+Adj+Indef+Nom+Sg:s # ;

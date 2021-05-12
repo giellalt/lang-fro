@@ -31,7 +31,7 @@ avoir, estre ! Irregular verbs
 +Dir, +Indir ! Object: Direct, indirect
 +Prs, +Poss, +Dem ! Pronoun type: personal, possessive, demonstrative
 +Near, +Far ! Demonstrative pronoun: near vs. far, as in "this" vs "that"
-+Interr, +Relative, +Indef ! Pronoun type: interrogative, relative, indefinite
++Interr, +Relative ! Pronoun type: interrogative, relative (also indefinite)
 +Gram/Person, +Gram/Thing, +Gram/Place ! Asking about a person, thing, place
 
 !! Adverb Features
@@ -59,8 +59,8 @@ avoir, estre ! Irregular verbs
 %{T%} ! Silent t
 %{D%} ! Silent d
 %{S%} ! Optional s
+%{H%} ! Optional h
 
-+le, +les, +me, +se, +en, +te, +est
 @U.class.F1@
 @U.class.F2@
 @U.class.F3@
@@ -79,6 +79,6 @@ Enclitics ;
 Adverbs ;
 Conjunctions ;
 Adjectives ;
-Participles ;
 Prepositions ;
 Numerals ;
+Participles ;
