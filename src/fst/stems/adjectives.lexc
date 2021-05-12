@@ -79,6 +79,8 @@ nul: Nul "no, not any" ;
 tot: Tot "all, every, completely" ;
 saint: Saint "holy" ;
 
+lequel+Adj: RelInterr ;
+
 ledit+Adj+Masc+Sg:ledit # "the aforementioned (le+dit)" ; ! Verify
 ledit+Adj+Fem+Sg:ladite # "the aforementioned (la+dite)" ; ! Verify
 ledit+Adj+Fem+Sg:ladicte # "the aforementioned (la+dite)" ; ! Verify

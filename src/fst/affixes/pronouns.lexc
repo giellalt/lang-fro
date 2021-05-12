@@ -332,6 +332,15 @@ LEXICON Interrogative
 +Pro+Interr+Neut+Obl+Dir+Unstress:qe # ;
 +Pro+Interr+Neut+Obl+Dir+Stress:quoi # ;
 
+LEXICON RelInterr
++Relative+Interr+Masc+Sg:lequel # ;
++Relative+Interr+Masc+Pl:lesquels # ;
++Relative+Interr+Masc+Pl:lesquelz # ;
++Relative+Interr+Masc+Pl:lesqueulx # ;
++Relative+Interr+Fem+Sg:laquelle # ;
++Relative+Interr+Fem+Pl:lesquelles # ;
++Relative+Interr+Fem+Pl:lesquellez # ;
+
 LEXICON IndefPro
 +Pro+Adj+Indef+Nom+Sg:s # ;
 +Pro+Adj+Indef+Obl+Sg:0 # ;

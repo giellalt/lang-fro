@@ -12,6 +12,7 @@ Multichar_Symbols
 +Masc, +Fem, +Neut ! Genders: masculine, feminine, neuter
 +Sg, +Pl ! Numbers: singular, plural
 +Prop ! Proper noun
++Agent ! Agent, "person of"
 
 !! Verb Features
 +V ! Verb

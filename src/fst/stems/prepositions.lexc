@@ -51,6 +51,7 @@ fors Prep "except" ;
 hors Prep "out, out of, except" ;
 in Prep "in, into" ;
 jusqu'a Prep "as far as, up to" ;
+jusque:jusque%{S%} Prep "until, to, up to, down to, as far as" ;
 od Prep "with" ;
     od:ot Prep "with" ;
     od:of Prep "with" ;

@@ -27,7 +27,7 @@ moins SubPart ;
 ainz SubPart ;
 ainçois SubPart ;
 devant SubPart ;
-jusque Subord ;
+jusque:jusque%{S%} Subord "until, to, up to, down to, as far as" ;
 tres SubPart ;
 des SubPart ;
 lues SubPart ;

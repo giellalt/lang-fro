@@ -15,6 +15,16 @@ LEXICON FC2
 +N+Fem+Nom+Pl:s # ;
 +N+Fem+Obl+Pl:s # ;
 
++Agent+Masc+Nom+Sg:%>iers # ;
++Agent+Masc+Obl+Sg:%>ier # ;
++Agent+Masc+Nom+Pl:%>ier # ;
++Agent+Masc+Obl+Pl:%>iers # ;
++Agent+Fem+Nom+Sg:%>ière # ;
++Agent+Fem+Obl+Sg:%>ière # ;
++Agent+Fem+Nom+Pl:%>ières # ;
++Agent+Fem+Obl+Pl:%>ières # ;
+
+
 LEXICON FC3
 +N+Fem+Nom+Sg:0 # ;
 +N+Fem+Obl+Sg:0 # ;
@@ -52,6 +62,10 @@ LEXICON NIndecF
 
 LEXICON NIndecN
 +N+Neut:0 # ;
+
+LEXICON Deriv
++N: FC2 ;
+
 
 LEXICON Dieu
 +N+Masc+Obl+Sg:Deo # ;
