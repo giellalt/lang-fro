@@ -14,38 +14,64 @@ prendre: Prendre    "to take, to take hold of, to seize" ;
 savoir: Savoir      "to know" ;
 devoir: Devoir      "should, ought to, need to, must" ;
 pooir: Pooir        "to be able, can" ;
+doner: Doner        "to give" ;
 
-sonner:son RegEr    "to ring" ;
 amer:am RegEr       "to love" ;
+apeler:apel RegEr   "to call" ;
 chanter:chant RegEr "to sing" ;
+disner:disn RegEr   "to dine" ;
 doner:don RegEr     "to give" ;
 durer:dur RegEr     "to last" ;
+entrer:entr RegEr   "to enter" ;
+gaver:gab   RegEr   "to joke" ;
 garder:gard RegEr   "to guard" ;
+laver:lav   RegEr   "to wash" ;
 parler:parl RegEr   "to talk, to speak" ; ! Verify
     parler+V+3s+Pres+Ind:parole # ; 
 plorer:plot RegEr   "to weep" ;
 porter:port RegEr   "carry, bring, wear" ; ! Verify
+sonner:son RegEr    "to ring" ;
+torner:torn RegEr   "to turn" ;
 tuer:tu RegEr       "to kill" ;
 
 aidier:aid RegIer   "to help" ;
+appoiier:appoi RegIer "to lean" ; ! Verify stem
+araisnier:araisn RegIer "to address" ;
+comencier:comenc RegIer "to begin" ;
+conseillier:conseill RegIer "to advise" ;
+deignier:deign RegIer "to deign" ;
+deraisnier:deraisn RegIer "to argue" ;
+jugier:jug RegIer "to judge" ;
 laissier:laiss RegIer "to leave, to let" ;
+mangier:mang RegIer "to eat" ;
 noncier:nonc RegIer "to announce" ;
 otroier:otro RegIer "to grant" ;
+preisier:preis RegIer "to value" ;
+sachier:sach RegIer "to pull" ;
 
-fenir:fen RegIr     "to end" ;
 choisir:chois RegIr "to choose" ;
+coillir:coill RegIr "to gather" ;
+covrir:covr RegIr   "to cover" ;
+fenir:fen RegIr     "to end" ;
+dormir:dorm RegIr   "to sleep" ;
+emplir:empl RegIr   "to fill" ;
+faillir:faill RegIr "to fail" ;
+ferir:fer RegIr     "to strike" ; ! Irregular PP- FIXME
 florir:flor RegIr   "to bloom" ;
 garir:gar RegIr     "to save, to heal" ;
-covrir:covr RegIr   "to cover" ;
-ferir:fer RegIr     "to strike" ; ! Irregular PP- FIXME
 odir:od RegIr       "to hear" ; ! Irregular
+ofrir:ofr RegIr     "to offer" ;
 oir:o RegIr         "to hear" ; ! Irregular
 partir:part RegIr   "to leave, to divide" ; ! CHECK
 servir:serv RegIr   "to serve" ;
 
 corre:cor RegRe     "to run" ;
+cosdre:cosd RegRe   "to sew" ;
+naistre:naist RegRe "to be born" ;
 perdre:perd RegRe   "to lose" ;
 respondre:respond RegRe "to reply" ;
+rompre:romp RegRe   "to break" ;
+veintre:veint RegRe "to conquer" ;
 
 !! Add: doloir, metre, rire
 !! conduire, criembre, tordre, traire, boivre

@@ -1301,6 +1301,98 @@ LEXICON Pooir
 ! +V+1p+Pres+Imp:ons # ; Unknown
 +V+2p+Pres+Imp:puissiez # ; ! Verify
 
+LEXICON Doner
++V+Inf:don%>er # ;
++V+Pres+Part:don%>ant # ;
++V+Past+Part:don%>é%{T%} # ;
+
++V+1s+Pres+Ind:doing # ;
++V+1s+Pres+Ind:doins # ;
++V+2s+Pres+Ind:don%>es # ;
++V+3s+Pres+Ind:don%>e # ;
++V+1p+Pres+Ind:don%>ons # ;
++V+2p+Pres+Ind:don%>ez # ;
++V+3p+Pres+Ind:don%>ent # ;
+
++V+1s+SPast+Ind:don%>ai # ;
++V+2s+SPast+Ind:don%>as # ;
++V+3s+SPast+Ind:don%>a%{T%} # ;
++V+1p+SPast+Ind:don%>ames # ;
++V+2p+SPast+Ind:don%>astes # ;
++V+3p+SPast+Ind:don%>erent # ;
+
+! Verify
++V+1s+Ipfv+Ind:don%>eie # ;
++V+2s+Ipfv+Ind:don%>eies # ;
++V+3s+Ipfv+Ind:don%>eit # ;
++V+1p+Ipfv+Ind:don%>iiens # ;
++V+2p+Ipfv+Ind:don%>iiez # ;
++V+3p+Ipfv+Ind:don%>eient # ;
+
++V+1s+Fut+Ind:don%>rai # ;
++V+1s+Fut+Ind:dorrai # ;
++V+1s+Fut+Ind:darai # ;
++V+2s+Fut+Ind:don%>ras # ;
++V+2s+Fut+Ind:dorras # ;
++V+2s+Fut+Ind:daras # ;
++V+3s+Fut+Ind:don%>ra%{T%} # ;
++V+3s+Fut+Ind:dorra%{T%} # ;
++V+3s+Fut+Ind:dara%{T%} # ;
++V+1p+Fut+Ind:donrons # ;
++V+1p+Fut+Ind:dorrons # ;
++V+1p+Fut+Ind:darons # ;
++V+2p+Fut+Ind:donrez # ;
++V+2p+Fut+Ind:dorrez # ;
++V+2p+Fut+Ind:darez # ;
++V+2p+Fut+Ind:donreiz # ;
++V+2p+Fut+Ind:dorreiz # ;
++V+2p+Fut+Ind:dareiz # ;
++V+3p+Fut+Ind:donront # ;
++V+3p+Fut+Ind:dorront # ;
++V+3p+Fut+Ind:daront # ;
+
++V+1s+Pres+Sbjv:doigne # ;
++V+1s+Pres+Sbjv:doinse # ;
++V+1s+Pres+Sbjv:donge # ;
++V+2s+Pres+Sbjv:doignes # ;
++V+2s+Pres+Sbjv:doinses # ;
++V+3s+Pres+Sbjv:doigne # ;
++V+3s+Pres+Sbjv:doint # ;
++V+3s+Pres+Sbjv:dont # ;
++V+3s+Pres+Sbjv:doinse # ;
++V+3s+Pres+Sbjv:doinst # ;
++V+3s+Pres+Sbjv:donge # ;
++V+1p+Pres+Sbjv:donons # ;
++V+1p+Pres+Sbjv:doigniens # ;
++V+1p+Pres+Sbjv:doinsiens # ;
++V+2p+Pres+Sbjv:donez # ;
++V+2p+Pres+Sbjv:doigniez # ;
++V+2p+Pres+Sbjv:doinsiez # ;
++V+3p+Pres+Sbjv:doignent # ;
++V+3p+Pres+Sbjv:doinsent # ;
++V+3p+Pres+Sbjv:dongent # ; ! Verify
+
++V+1s+Ipfv+Sbjv:don%>asse # ;
++V+2s+Ipfv+Sbjv:don%>asses # ;
++V+3s+Ipfv+Sbjv:don%>ast # ;
++V+1p+Ipfv+Sbjv:don%>issons # ;
++V+1p+Ipfv+Sbjv:don%>issiens # ;
++V+2p+Ipfv+Sbjv:don%>issez # ;
++V+2p+Ipfv+Sbjv:don%>issiez # ;
++V+2p+Ipfv+Sbjv:don%>isseiz # ;
++V+3p+Ipfv+Sbjv:don%>assent # ;
+
++V+1s+Pres+Cond:don%>ereie # ;
++V+2s+Pres+Cond:don%>ereis # ;
++V+3s+Pres+Cond:don%>ereit # ;
++V+1p+Pres+Cond:don%>eriiens # ;
++V+2p+Pres+Cond:don%>eriiez # ;
++V+3p+Pres+Cond:don%>ereient # ;
+
++V+2s+Pres+Imp:don%>e # ;
++V+1p+Pres+Imp:don%>ons # ;
++V+2p+Pres+Imp:don%>ez # ;
+
 !!€gt-norm: -er_verbs
 !!€ durer:      durer+V+Inf
 !!€ dur:        durer+V+1s+Pres+Ind
