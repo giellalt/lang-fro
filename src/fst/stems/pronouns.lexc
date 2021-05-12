@@ -26,6 +26,7 @@ quoi: Interrogative ;
 que: Relative ;
 lequel+Pro: RelInterr ;
 chascun IndefPro "each one, everyone" ;
+    chascun:chacun IndefPro "each one, everyone" ;
 plusor IndefPro "several, many" ;
     plusor:pluisor IndefPro ;
     plusor:plusier IndefPro ;

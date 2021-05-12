@@ -105,6 +105,7 @@ LEXICON MascIndec
 
 LEXICON IndefAdj
 +Adj+Indef:s # ; ! FIXME: research Indefinite Adjectives
++Adj+Indef:0 # ; ! FIXME: research Indefinite Adjectives
 
 
 LEXICON Mieux

@@ -23,6 +23,8 @@ chambre FC1 "room" ;
 chose FC1 "thing, affair, creature" ;
     chose:cose FC1 ;
     chose:kose FC1 ;
+compaignie FC1 "company, group" ;
+    compaignie:compagnie FC1 "company, group" ;
 dame FC1 "lady" ;
 eglise FC1 "church" ;
     eglise:iglise FC1 "church" ;
@@ -105,6 +107,7 @@ chastel MC1a "castle" ;
     chastel:castel MC1a "castle" ;
 chief MC1a "head, chief" ;
     chief:chef MC1a "head, chief" ;
+conseil MC1a "opinion, advice, decision" ;
 cuer MC1a "heart" ;
     cuer:quer MC1a "heart" ;
     cuer:coer MC1a "heart" ;
@@ -113,7 +116,7 @@ duc MC1a "duke" ;
     duc+N+Masc+Nom+Sg:dux # ;
 escu:escu%{T%} MC1a "shield" ;
 estat:esta%{T%} MC1a "state of being, permanence, social standing, estate" ; ! Verify definition
-hostel MC1a "hotel" ; ! Verify
+hostel:%{H%}ostel MC1a "hotel" ; ! Verify
 item MC1a "individual, article of an account" ;
 jehan+Prop:Jehan MC1a "Jehan" ;
     jehan+Prop+N+Masc+Nom+Sg:Jehanz # ; ! Verify form
@@ -126,6 +129,8 @@ jor MC1a "day" ;
     jor:jur MC1a "day" ;
 jugement MC1a "judgement" ;
 matin MC1a "morning" ;
+mestier MC1a "job, occupation" ;
+    mestier:métier MC1a "job, occupation" ;
 monde MC1a "world" ;
     monde:monte MC1a "world" ;
     monde+Err/Obsc:mont MC1a "world" ; ! mont is usually a form of "mountain"
@@ -148,11 +153,13 @@ mont:mon%{T%} MC1a "mountain" ;
     mont+N+Masc+Nom+Sg:mons # ;
 paien MC1a "infidel" ;
 pelerin MC1a "pilgrim" ;
+prevost MC1a "state officer, tax collector, administrator (official title)" ;
 prince MC1a "prince" ;
 pueple MC1a "people" ;
     pueple:pople MC1a "people" ;
     pueple:peuple MC1a "people" ;
 or MC1a "gold" ; ! Check class
+sens MC1a "senses" ; ! Also a form of sentir
 siecle MC1a "earthly life, world" ;
     siecle:secle MC1a "earthly life, world" ;
     siecle:seule MC1a "earthly life, world" ;

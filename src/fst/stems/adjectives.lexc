@@ -72,6 +72,8 @@ plusor IndefAdj "several, many" ;
     plusor:pluiseur IndefAdj ;
     plusor:plusieur IndefAdj ;
     plusor:pluisieur IndefAdj ;
+chascun IndefAdj "each one, everyone" ;
+    chascun:chacun IndefAdj "each one, everyone" ;
 
 mieux: Mieux "better" ;
 mout: Mout "many, much, very" ;

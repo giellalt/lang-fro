@@ -240,6 +240,7 @@ LEXICON Demonstrative
 +Pro+Dem+Far+Masc+Nom+Sg:cil # ;
 +Pro+Dem+Far+Masc+Obl+Sg:cel # ;
 +Pro+Dem+Far+Masc+Obl+Sg+Stress:celui # ;
++Pro+Dem+Far+Masc+Obl+Sg+Stress:cellui # ;
 +Pro+Dem+Far+Masc+Nom+Pl:cil # ;
 +Pro+Dem+Far+Masc+Obl+Pl:cels # ;
 +Pro+Dem+Far+Masc+Obl+Pl:ceus # ;
@@ -273,12 +274,16 @@ LEXICON Demonstrative
 LEXICON DemNeuter
 +Pro+Dem+Neut+Nom+Sg+Stress:ço # ;
 +Pro+Dem+Neut+Nom+Sg+Stress:ce # ;
++Pro+Dem+Neut+Nom+Sg+Stress:che # ;
 +Pro+Dem+Neut+Obl+Sg+Stress:ço # ;
 +Pro+Dem+Neut+Obl+Sg+Stress:ce # ;
++Pro+Dem+Neut+Obl+Sg+Stress:che # ;
 +Pro+Dem+Neut+Obl+Sg+Stress:ceo # ; ! also unstressed?
 +Pro+Dem+Neut+Obl+Sg+Stress:ceu # ; ! also unstressed?
 +Pro+Dem+Neut+Nom+Sg+Unstress:ce # ;
++Pro+Dem+Neut+Nom+Sg+Unstress:che # ;
 +Pro+Dem+Neut+Obl+Sg+Unstress:ce # ;
++Pro+Dem+Neut+Obl+Sg+Unstress:che # ;
 +Pro+Dem+Neut+Nom+Sg+Unstress:c # ;
 +Pro+Dem+Neut+Obl+Sg+Unstress:c # ;
 
