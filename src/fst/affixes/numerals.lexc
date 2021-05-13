@@ -47,3 +47,15 @@ LEXICON Cent
 +Num+Card+Masc+Obl+Pl:cenz # ;
 +Num+Card+Fem+Nom+Pl:cenz # ;
 +Num+Card+Fem+Obl+Pl:cenz # ;
+
+LEXICON Premier
++Num+Ord+Masc+Sg:premier # ;
++Num+Ord+Masc+Sg:premerain # ;
++Num+Ord+Masc+Sg:prim # ;
++Num+Ord+Masc+Pl:prims # ;
++Num+Ord+Fem+Sg:première # ;
++Num+Ord+Fem+Sg:premeraine # ;
++Num+Ord+Fem+Sg:prime # ;
++Num+Ord+Fem+Pl:primes # ;
+
+

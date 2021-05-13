@@ -461,9 +461,11 @@ LEXICON Faire
 +V+Pres+Part:faisent # ;
 +V+Pres+Part:feisent # ;
 +V+Pres+Part:fesent # ;
-+V+Past+Part:fait # ;
-+V+Past+Part:feit # ;
-+V+Past+Part:fet # ;
++V+Past+Part+Masc+Sg:fait # ;
++V+Past+Part+Masc+Sg:feit # ;
++V+Past+Part+Masc+Sg:fet # ;
++V+Past+Part+Fem+Sg:faite # ;
++V+Past+Part+Fem+Pl:faites # ;
 
 +V+1s+Pres+Ind:faz # ;
 +V+1s+Pres+Ind:fai # ;
@@ -1053,8 +1055,10 @@ LEXICON Voloir
 LEXICON Prendre
 +V+Inf:prendre # ;
 +V+Pres+Part:prenant # ;
-+V+Past+Part:pris # ;
-+V+Past+Part:prise # ; ! FIXME give all past participles Masc/Fem continuations
++V+Past+Part+Masc:pris # ;
++V+Past+Part+Masc:prins # ;
++V+Past+Part+Fem:prise # ; ! FIXME give all past participles Masc/Fem continuations
++V+Past+Part+Fem:prinse # ;
 
 +V+1s+Pres+Ind:preign # ;
 +V+1s+Pres+Ind:pren # ;

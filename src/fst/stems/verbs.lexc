@@ -17,6 +17,7 @@ pooir: Pooir        "to be able, can" ;
 doner: Doner        "to give" ;
 metre: Metre        "to place" ;
 
+amender:amend RegEr "to improve, to make amends" ;
 amer:am RegEr       "to love" ;
 apeler:apel RegEr   "to call" ;
 chanter:chant RegEr "to sing" ;
@@ -31,6 +32,7 @@ parler:parl RegEr   "to talk, to speak" ; ! Verify
     parler+V+3s+Pres+Ind:parole # ; 
 plorer:plot RegEr   "to weep" ;
 porter:port RegEr   "carry, bring, wear" ; ! Verify
+presenter:présent RegEr "to present" ; ! Verify
 sonner:son RegEr    "to ring" ;
 torner:torn RegEr   "to turn" ;
 tuer:tu RegEr       "to kill" ;
@@ -74,5 +76,5 @@ respondre:respond RegRe "to reply" ;
 rompre:romp RegRe   "to break" ;
 veintre:veint RegRe "to conquer" ;
 
-!! Add: doloir, metre, rire, sentir
+!! Add: doloir, rire, sentir
 !! conduire, criembre, tordre, traire, boivre

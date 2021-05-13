@@ -89,9 +89,7 @@ mil Cardinal "one thousand" ;
     mil:mille Cardinal "one thousand" ;
     mil+Num+Roman:m # ;
 
-premier Ordinal "first" ;
-    premier:prim Ordinal "first" ;
-    premier:premerain Ordinal "first" ;
+premier: Premier "first" ;
     premier:unisme Ordinal "first" ;
 secont Ordinal "second" ;
     secont:autre Ordinal "second" ;

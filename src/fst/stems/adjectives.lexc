@@ -10,6 +10,7 @@ cour%{T%} Adj1 "short (not long), of little importance" ;
 mal Adj1 "evil, disaster, illness" ;
 petit:petit%> Adj1 "small, little" ;
     petit+Adj+Masc+Obl+Pl:petis # ;
+present:présen%{T%} Adj1 ;
 voir Adj1 "true" ;
 
 aigre Adj2 "acid" ;
@@ -87,7 +88,8 @@ ledit+Adj+Masc+Sg:ledit # "the aforementioned (le+dit)" ; ! Verify
 ledit+Adj+Masc+Sg:ledict # "the aforementioned (le+dit)" ; ! Verify
 ledit+Adj+Fem+Sg:ladite # "the aforementioned (la+dite)" ; ! Verify
 ledit+Adj+Fem+Sg:ladicte # "the aforementioned (la+dite)" ; ! Verify
-dudit+Adj+Masc+Sg:dudit # "of the aformenetioned (du+dit)" ; ! Verify
+ledit+Prep+Adj+Masc+Sg:dudit # "of the aformenetioned (du+dit)" ; ! Verify
+ledit+Prep+Adj+Masc+Sg:audit # "to the aforementioned (au+dit)" ; ! Verify
 ledit+Adj+Masc+Pl:lesdiz # "the aforementioned (le+dit)" ; ! Verify
 
 LEXICON Participles
