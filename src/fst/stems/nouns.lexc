@@ -116,6 +116,8 @@ duc MC1a "duke" ;
     duc+N+Masc+Nom+Sg:dux # ;
 escu:escu%{T%} MC1a "shield" ;
 estat:esta%{T%} MC1a "state of being, permanence, social standing, estate" ; ! Verify definition
+feu MC1a "fire" ;
+    feu+N+Masc+Obl+Pl:feux # ; ! Also nom sg?
 hostel:%{H%}ostel MC1a "hotel" ; ! Verify
 item MC1a "individual, article of an account" ;
 jehan+Prop:Jehan MC1a "Jehan" ;

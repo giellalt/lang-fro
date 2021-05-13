@@ -55,10 +55,8 @@ LEXICON RegEr
 +V+1s+Pres+Cond:ereie # ;
 +V+2s+Pres+Cond:ereis # ;
 +V+3s+Pres+Cond:ereit # ;
-+V+1p+Pres+Cond+Gram/Early:eriiens # ;
-+V+1p+Pres+Cond+Gram/Late:eriions # ;
-+V+2p+Pres+Cond+Gram/Early:eriiez # ;
-+V+2p+Pres+Cond+Gram/Late:eriiez # ;
++V+1p+Pres+Cond:eriiens # ;
++V+2p+Pres+Cond:eriiez # ;
 +V+3p+Pres+Cond:ereient # ;
 
 +V+2s+Pres+Imp:e # ;
@@ -1392,6 +1390,127 @@ LEXICON Doner
 +V+2s+Pres+Imp:don%>e # ;
 +V+1p+Pres+Imp:don%>ons # ;
 +V+2p+Pres+Imp:don%>ez # ;
+
+LEXICON Metre
++V+Inf:metre # ;
++V+Inf:mettre # ;
++V+Inf:mectre # ;
++V+Pres+Part:metant # ;
++V+Pres+Part:mettant # ;
++V+Pres+Part:mectant # ;
++V+Past+Part+Masc:mis # ;
++V+Past+Part+Masc:mise # ;
+
++V+1s+Pres+Ind:met # ;
++V+1s+Pres+Ind:mect # ;
++V+2s+Pres+Ind:mets # ;
++V+2s+Pres+Ind:mects # ;
++V+3s+Pres+Ind:met # ;
++V+3s+Pres+Ind:mect # ;
++V+1p+Pres+Ind:metons # ;
++V+1p+Pres+Ind:mectons # ;
++V+2p+Pres+Ind:metez # ;
++V+2p+Pres+Ind:mectez # ;
++V+3p+Pres+Ind:metent # ;
++V+3p+Pres+Ind:mectent # ;
+
++V+1s+SPast+Ind:mis # ;
++V+2s+SPast+Ind:mesis # ;
++V+3s+SPast+Ind:mis%{T%} # ;
++V+1p+SPast+Ind:mesimes # ;
++V+2p+SPast+Ind:mesistes # ;
++V+3p+SPast+Ind:mistrent # ;
+
++V+1s+Ipfv+Ind:meteie # ;
++V+1s+Ipfv+Ind:mecteie # ;
++V+2s+Ipfv+Ind:meteies # ;
++V+2s+Ipfv+Ind:mecteies # ;
++V+3s+Ipfv+Ind:meteit # ;
++V+3s+Ipfv+Ind:mecteit # ;
++V+1p+Ipfv+Ind:metiiens # ;
++V+1p+Ipfv+Ind:mectiiens # ;
++V+2p+Ipfv+Ind:metiiez # ;
++V+2p+Ipfv+Ind:mectiiez # ;
++V+3p+Ipfv+Ind:meteient # ;
++V+3p+Ipfv+Ind:mecteient # ;
+
++V+1s+Fut+Ind:meterai # ;
++V+1s+Fut+Ind:metrai # ;
++V+1s+Fut+Ind:mettrai # ;
++V+2s+Fut+Ind:metras # ;
++V+2s+Fut+Ind:mettras # ;
++V+3s+Fut+Ind:metra%{T%} # ;
++V+3s+Fut+Ind:mettra%{T%} # ;
++V+1p+Fut+Ind:metrons # ;
++V+1p+Fut+Ind:mettrons # ;
++V+1p+Fut+Ind:mectrons # ;
++V+2p+Fut+Ind:metrez # ;
++V+2p+Fut+Ind:mettrez # ;
++V+2p+Fut+Ind:mectrez # ;
++V+2p+Fut+Ind:metreiz # ;
++V+2p+Fut+Ind:mettreiz # ;
++V+3p+Fut+Ind:metront # ;
++V+3p+Fut+Ind:mettront # ;
++V+3p+Fut+Ind:mectront # ;
+
++V+1s+Pres+Sbjv:mete # ;
++V+1s+Pres+Sbjv:mecte # ;
++V+2s+Pres+Sbjv:metes # ;
++V+2s+Pres+Sbjv:mectes # ;
++V+3s+Pres+Sbjv:mete%{T%} # ;
++V+3s+Pres+Sbjv:mecte%{T%} # ;
++V+1p+Pres+Sbjv:metons # ; ! Verify
++V+1p+Pres+Sbjv:mectons # ; ! Verify
++V+2p+Pres+Sbjv:metez # ; ! Verify
++V+2p+Pres+Sbjv:mectez # ; ! Verify
++V+3p+Pres+Sbjv:metent # ;
++V+3p+Pres+Sbjv:mectent # ;
+
+! Verify 1p and 2p
++V+1s+Ipfv+Sbjv:meisse # ;
++V+2s+Ipfv+Sbjv:meisses # ;
++V+3s+Ipfv+Sbjv:meisst # ;
++V+1p+Ipfv+Sbjv:meissons # ;
++V+1p+Ipfv+Sbjv:meissiens # ;
++V+2p+Ipfv+Sbjv:meissez # ;
++V+2p+Ipfv+Sbjv:meissiez # ;
++V+2p+Ipfv+Sbjv:meisseiz # ;
++V+3p+Ipfv+Sbjv:meissent # ;
++V+3p+Ipfv+Sbjv:mesissent # ;
+
++V+1s+Pres+Cond:metereie # ;
++V+1s+Pres+Cond:metreie # ;
++V+1s+Pres+Cond:mettreie # ;
++V+1s+Pres+Cond:mectreie # ;
++V+2s+Pres+Cond:metereis # ;
++V+2s+Pres+Cond:metreis # ;
++V+2s+Pres+Cond:mettreis # ;
++V+2s+Pres+Cond:mectreis # ;
++V+3s+Pres+Cond:metereit # ;
++V+3s+Pres+Cond:metreit # ;
++V+3s+Pres+Cond:mettreit # ;
++V+3s+Pres+Cond:mectreit # ;
++V+1p+Pres+Cond:meteriiens # ;
++V+1p+Pres+Cond:metriiens # ;
++V+1p+Pres+Cond:mettriiens # ;
++V+1p+Pres+Cond:mectriiens # ;
++V+2p+Pres+Cond:meteriiez # ;
++V+2p+Pres+Cond:metriiez # ;
++V+2p+Pres+Cond:mettriiez # ;
++V+2p+Pres+Cond:mectriiez # ;
++V+3p+Pres+Cond:metereient # ;
++V+3p+Pres+Cond:metreient # ;
++V+3p+Pres+Cond:mettreient # ;
++V+3p+Pres+Cond:mectreient # ;
+
++V+2s+Pres+Imp:met # ;
++V+2s+Pres+Imp:mect # ;
++V+1p+Pres+Imp:metons # ;
++V+1p+Pres+Imp:mettons # ;
++V+1p+Pres+Imp:mectons # ;
++V+2p+Pres+Imp:metez # ;
++V+2p+Pres+Imp:mettez # ;
++V+2p+Pres+Imp:mectez # ;
 
 !!€gt-norm: -er_verbs
 !!€ durer:      durer+V+Inf

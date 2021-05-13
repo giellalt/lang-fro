@@ -15,6 +15,7 @@ savoir: Savoir      "to know" ;
 devoir: Devoir      "should, ought to, need to, must" ;
 pooir: Pooir        "to be able, can" ;
 doner: Doner        "to give" ;
+metre: Metre        "to place" ;
 
 amer:am RegEr       "to love" ;
 apeler:apel RegEr   "to call" ;
