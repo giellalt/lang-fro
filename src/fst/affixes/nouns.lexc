@@ -66,6 +66,11 @@ LEXICON NIndecN
 LEXICON Deriv
 +N: FC2 ;
 
+LEXICON PropMasc
++Prop+N+Masc:0 # ;
+
+LEXICON PropFem
++Prop+N+Fem:0 # ;
 
 LEXICON Dieu
 +N+Masc+Obl+Sg:Deo # ;
@@ -74,6 +79,7 @@ LEXICON Dieu
 +N+Masc+Obl+Sg:Dieu # ;
 +N+Masc+Nom+Sg:Dex # ;
 +N+Masc+Nom+Sg:Diex # ; ! Verify form
++N+Masc+Nom+Sg:Deux # ; ! Verify form
 +N+Masc+Nom+Sg:Deus # ;
 +N+Masc+Nom+Sg:deus # ;
 

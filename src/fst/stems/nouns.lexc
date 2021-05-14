@@ -170,17 +170,17 @@ evangile:évangile MC1a "gospel, the Gospels, good news" ;
 evesque MC1a "bishop" ;
 feu MC1a "fire" ;
     feu+N+Masc+Obl+Pl:feux # "fire" ; ! Also nom sg?
+Henri+Prop:Henri MC1a "Henry" ;
 hostel:%{H%}ostel MC1a "hotel" ; ! Verify
 item MC1a "individual, article of an account" ;
 Jehan+Prop:Jehan MC1a "Jehan" ;
-    Jehan+Prop+N+Masc+Nom+Sg:Jehanz # "Jehan" ; ! Verify form
+Johan+Prop:Johan MC1a "John" ;
 jor MC1a "day" ;
-    !jor+N+Masc+Obl+Pl:jorz "day" # ;
-    !jor+N+Masc+Obl+Pl:jurz # "day" ;
     jor+N+Masc+Obl+Pl:iours # "day" ;
     jor:jorn MC1a "day" ;
     jor:jour MC1a "day" ;
     jor:jur MC1a "day" ;
+jouvencel MC1a "young man" ;
 jugement MC1a "judgement" ;
 leu MC1a "place (literal or figurative)" ; ! Other possible meanings of word form?
     leu:lieu MC1a "place (literal or figurative)" ;
@@ -336,34 +336,56 @@ tens NIndecM "time, times, weather" ;
     tens:temps NIndecM "time, times, weather" ;
 
 !! Indeclinable Proper Nouns
-Alemaigne+Prop+N+Fem:Alemaigne # "Germany" ;
-Angleterre+Prop:Angleterre NIndecFem "England" ; ! Verify gender
-Beneeit+Prop:Beneeit NIndecM "Saint Benedict" ;
-Bougars+Prop:Bougars NIndecM "Bougars de Valence" ;
-Bretaingne+Prop:Bretaingne NIndecFem "Brittany" ;
-    Bretaingne+Prop:Bretaigne NIndecFem "Brittany" ;
-David+Prop+N+Masc:David # "David" ;
-France+Prop+N+Fem:France # "France" ;
-Marie+Prop:Marie NIndecFem "Mary" ;
-Thebes+Prop+N+Masc:Thebes # "Thebes" ;
-Thideüs+Prop+N+Masc:Thideüs # "Thideus" ;
-Trinité+Prop:trinité%{T%} NIndecFem "the Trinity" ;
-    Trinité+Prop:triniteit NIndecFem "the Trinity" ;
-Pollinices+Prop+N+Masc:Pollinicés #  "Pollinicés" ;
-Israel+Prop+N+Masc:Israél # "Israel" ;
-Tristran+Prop+N+Masc:Tristran # "Tristran" ;
-    Tristran+Prop+N+Masc:Tristan # "Tristran" ;
-Paris+Prop+N+Masc:Paris # "Paris" ; ! Verify gender
-Robert+Prop+N+Masc:Robert # ;
-Jhesu+Prop+N+Masc:Jhesu # "Jesus" ;
-    Jhesu+Prop+N+Masc:Jhesus # "Jesus" ;
-    Jhesu+Prop+N+Masc:Jesu # "Jesus" ;
-    Jhesu+Prop+N+Masc:Jesus # "Jesus" ;
-Crist+Prop+N+Masc:Crist # "Christ" ;
-    Crist+Prop+N+Masc:Christ # "Christ" ;
-Mons+Prop:Mons NIndecM "region of Mons" ;
-Gieffroy+Prop:Gieffroy NIndecM "Jeffrey" ;
-Valence+Prop:Valence NIndecFem "region of Valence (Valencia?)" ; ! Verify gender
+Alemaigne PropFem "Germany" ;
+Angleterre PropFem "England" ; ! Verify gender
+    Angleterre:Engleterre PropFem "England" ;
+Beneeit PropMasc "Saint Benedict" ;
+Berinus PropMasc "Berinus" ;
+Bourgongne PropMasc "Bourgogne" ;
+    Bourgongne:Bourgogne PropMasc "Bourgogne" ;
+Bougars PropMasc "Bougars de Valence" ;
+Bretaingne PropFem "Brittany" ;
+    Bretaingne:Bretaigne PropFem "Brittany" ;
+Chartres PropMasc "Chartres" ; ! Verify gender
+Crathor PropMasc "Crathor" ; ! Verify gender
+Crist PropMasc "Christ" ;
+    Crist:Christ PropMasc "Christ" ;
+David PropMasc "David" ;
+Erec PropMasc "Eric" ;
+Espaigne PropFem "Spain" ;
+Flandres PropFem "Flanders" ; ! Verify gender
+France PropFem "France" ;
+Gieffroy PropMasc  "Jeffrey" ;
+Israél PropMasc "Israel" ;
+Jehannin PropMasc "Jehannin" ;
+Jhesu PropMasc "Jesus" ;
+    Jhesu:Jhesus PropMasc "Jesus" ;
+    Jhesu:Jesu PropMasc "Jesus" ;
+    Jhesu:Jesus PropMasc "Jesus" ;
+Jouvencel PropMasc "Jouvencel (title? name?)" ;
+Marie PropFem "Mary" ;
+Martin PropMasc "Martin" ;
+Michiel PropMasc "Michael" ;
+    Michiel:Michel PropMasc "Michael" ;
+Mons PropMasc "region of Mons" ;
+Nicolas PropMasc "Nicholas" ;
+Noël PropFem "Christmas" ;
+    Noël PropMasc "Christmas" ;
+Orléans PropFem "Orleans region" ; ! Verify gender
+Paris PropMasc "Paris" ; ! Verify gender
+Pollinicés PropMasc "Pollinicés" ;
+Robert PropMasc "Robert" ;
+Rome PropFem "Rome" ;
+    Rome:Romme PropFem "Rome" ;
+Saül PropMasc "Saul" ;
+Thebes PropMasc "Thebes" ;
+Thideüs PropMasc "Thideus" ;
+Thomas PropMasc "Thomas" ;
+Trinité:trinité%{T%} PropFem "the Trinity" ;
+    Trinité:triniteit PropFem "the Trinity" ;
+Tristran PropMasc "Tristran" ;
+    Tristran:Tristan PropMasc "Tristran" ;
+Valence PropFem "region of Valence (Valencia?)" ; ! Verify gender
 
 
 hom+N+Masc+Nom+Sg:hom # "man" ;

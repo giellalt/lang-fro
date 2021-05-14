@@ -89,8 +89,11 @@ ledit+Adj+Masc+Sg:ledict # "the aforementioned (le+dit)" ; ! Verify
 ledit+Adj+Fem+Sg:ladite # "the aforementioned (la+dite)" ; ! Verify
 ledit+Adj+Fem+Sg:ladicte # "the aforementioned (la+dite)" ; ! Verify
 ledit+Prep+Adj+Masc+Sg:dudit # "of the aformenetioned (du+dit)" ; ! Verify
+ledit+Prep+Adj+Masc+Sg:dudict # "of the aformenetioned (du+dit)" ; ! Verify
 ledit+Prep+Adj+Masc+Sg:audit # "to the aforementioned (au+dit)" ; ! Verify
 ledit+Adj+Masc+Pl:lesdiz # "the aforementioned (le+dit)" ; ! Verify
+
+jouvencel+Adj+Masc:jouvencel # "young" ; ! Verify
 
 LEXICON Participles
 chant Part ;
