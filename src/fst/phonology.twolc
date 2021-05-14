@@ -50,9 +50,6 @@ s:0 <=> _ t:0 %>: s:z ;
 "s can become z when it occurs after {T}"
 s:z => %{T%}: _ ;
 
-!!"s can become s when it occurs after {T}"
-!!s:s => %{T%}: _ ; BREAKS EVERYTHING
-
 "s disappears before a {T}s that becomes a z"
 s:0 <=> _ %{T%}:0 s:z ;
 

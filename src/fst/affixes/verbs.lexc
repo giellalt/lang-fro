@@ -944,7 +944,7 @@ LEXICON Voloir
 +V+1s+Pres+Ind:vueil # ;
 +V+1s+Pres+Ind:vuel # ;
 +V+2s+Pres+Ind:vuels # ;
-+V+2s+Pres+Ind:vueus # ;
+! +V+2s+Pres+Ind:vueus # ; <EUS RULE
 +V+2s+Pres+Ind:vues # ;
 +V+2s+Pres+Ind:vuex # ;
 +V+3s+Pres+Ind:vuelt # ;
@@ -1072,6 +1072,7 @@ LEXICON Prendre
 +V+2s+SPast+Ind:presis # ;
 +V+3s+SPast+Ind:prist # ;
 +V+3s+SPast+Ind:prest # ;
++V+3s+SPast+Ind:print # ;
 +V+1p+SPast+Ind:presimes # ;
 +V+2p+SPast+Ind:presistes # ;
 +V+3p+SPast+Ind:pristrent # ;
@@ -1138,6 +1139,8 @@ LEXICON Prendre
 
 LEXICON Savoir
 +V+Inf:saveir # ;
++V+Inf:assaveir # ; ! à savoir, enclitic form
++V+Inf:asaveir # ; ! à savoir, enclitic form
 +V+Pres+Part:savant # ;
 +V+Pres+Part:sachant # ;
 +V+Past+Part:seü # ;

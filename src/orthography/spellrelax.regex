@@ -1,8 +1,15 @@
+à (->) a ,,
+á (->) a ,,
 é (->) e ,,
 è (->) e ,,
 É (->) E ,,
+È (->) E ,,
 ï (->) i ,,
 ü (->) u ,,
+u (->) 0 || q _ ,, # u is not always written after q
+s (->) z || _ .#. ,, # word-final s can be written as z
+l (->) u || a _ s .#. ,, # i.e. mals -> maus
+l (->) u || e _ s .#. ,, # i.e. els -> eus
 ç (->) c ;
 
 # Explanation:
