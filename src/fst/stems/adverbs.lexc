@@ -23,6 +23,7 @@ environ BaseAdv "about, around" ; ! + "de" = adverbial preposition
 forment BaseAdv "greatly, very, very much" ;
 hier:%{H%}ier BaseAdv "yesterday" ;
 là BaseAdv "there" ;
+près BaseAdv "near" ;
 voir BaseAdv "truly, really" ;
 ainz BaseAdv "before" ;
 ainc BaseAdv "ever" ;

@@ -470,6 +470,7 @@ LEXICON Faire
 
 +V+1s+Pres+Ind:faz # ;
 +V+1s+Pres+Ind:fai # ;
++V+1s+Pres+Ind:faiz # ;
 +V+1s+Pres+Ind:fei # ;
 +V+2s+Pres+Ind:fais # ;
 +V+2s+Pres+Ind:feis # ;
@@ -1149,6 +1150,7 @@ LEXICON Prendre
 
 LEXICON Savoir
 +V+Inf:saveir # ;
++V+Inf:sçavoir # ;
 +V+Inf:assaveir # ; ! à savoir, enclitic form
 +V+Inf:asaveir # ; ! à savoir, enclitic form
 +V+Pres+Part:savant # ;
@@ -1156,15 +1158,23 @@ LEXICON Savoir
 +V+Past+Part:seü # ;
 
 +V+1s+Pres+Ind:sai # ;
++V+1s+Pres+Ind:sçai # ;
 +V+2s+Pres+Ind:ses # ;
++V+2s+Pres+Ind:sçes # ;
 +V+3s+Pres+Ind:se%{T%} # ;
++V+3s+Pres+Ind:sçe%{T%} # ;
 +V+1p+Pres+Ind:savons # ;
++V+1p+Pres+Ind:sçavons # ;
 +V+2p+Pres+Ind:savez # ;
++V+2p+Pres+Ind:sçavez # ;
 +V+3p+Pres+Ind:sevent # ;
++V+3p+Pres+Ind:sçevent # ;
++V+3p+Pres+Ind:sçavent # ;
 
 +V+1s+SPast+Ind:soi # ;
 +V+1s+SPast+Ind:sui # ;
 +V+2s+SPast+Ind:seüs # ;
++V+2s+SPast+Ind:sçeüs # ;
 +V+3s+SPast+Ind:sot # ;
 +V+3s+SPast+Ind:sut # ;
 +V+1p+SPast+Ind:seümes # ;
@@ -1203,24 +1213,33 @@ LEXICON Savoir
 +V+3p+Pres+Sbjv:sachent # ;
 
 +V+1s+Ipfv+Sbjv:seüsse # ;
++V+1s+Ipfv+Sbjv:sçeüsse # ;
 +V+2s+Ipfv+Sbjv:seüsses # ;
++V+2s+Ipfv+Sbjv:sçeüsses # ;
 +V+3s+Ipfv+Sbjv:seüsst # ;
++V+3s+Ipfv+Sbjv:sçeüsst # ;
 +V+1p+Ipfv+Sbjv:seüssions # ;
++V+1p+Ipfv+Sbjv:sçeüssions # ;
 +V+1p+Ipfv+Sbjv:seüssiens # ;
++V+1p+Ipfv+Sbjv:sçeüssiens # ;
 +V+2p+Ipfv+Sbjv:seüssez # ;
++V+2p+Ipfv+Sbjv:sçeüssez # ;
 +V+2p+Ipfv+Sbjv:seüssiez # ;
++V+2p+Ipfv+Sbjv:sçeüssiez # ;
 +V+2p+Ipfv+Sbjv:seüsseiz # ;
++V+2p+Ipfv+Sbjv:sçeüsseiz # ;
 +V+3p+Ipfv+Sbjv:seüssent # ;
++V+3p+Ipfv+Sbjv:sçeüssent # ;
 
-+V+1s+Pres+Cond:ereie # ;
-+V+2s+Pres+Cond:ereis # ;
++V+1s+Pres+Cond:saureie # ;
++V+2s+Pres+Cond:saureis # ;
 +V+3s+Pres+Cond:saureit # ;
 +V+3s+Pres+Cond:savereit # ;
 +V+3s+Pres+Cond:sareit # ;
 +V+1p+Pres+Cond+Gram/Early:sauriens # ;
 +V+1p+Pres+Cond+Gram/Late:saurions # ;
 +V+2p+Pres+Cond:sauriez # ;
-+V+3p+Pres+Cond:ereient # ;
++V+3p+Pres+Cond:saurreient # ;
 
 +V+2s+Pres+Imp:saches # ;
 +V+1p+Pres+Imp:sachiens # ;

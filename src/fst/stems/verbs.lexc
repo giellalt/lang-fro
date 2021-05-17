@@ -26,6 +26,7 @@ amer:am RegEr       "to love" ;
 apeler:apel RegEr   "to call" ;
 chanter:chant RegEr "to sing" ;
 curer:cur RegEr     "to be concerned about, to treat" ;
+demander:demand RegEr "to ask, to demand" ; ! Verify
 disner:disn RegEr   "to dine" ;
 doner:don RegEr     "to give" ;
 durer:dur RegEr     "to last" ;

@@ -9,6 +9,8 @@ LEXICON Adj1
 +Adj+Fem+Nom+Pl:%>es # ;
 +Adj+Fem+Obl+Pl:%>es # ;
 
+:%>e DerAdv ;
+
 LEXICON Adj2
 +Adj+Masc+Nom+Sg:0 # ;
 +Adj+Masc+Nom+Sg:s # ;
@@ -24,6 +26,8 @@ LEXICON Adj2
 +Adj+Neut+Nom+Sg:0 # ;
 +Adj+Neut+Obl+Sg:0 # ;
 
+DerAdv ;
+
 LEXICON Adj3
 +Adj+Masc+Nom+Sg:s # ;
 +Adj+Masc+Obl+Sg:0 # ;
@@ -38,6 +42,8 @@ LEXICON Adj3
 
 +Adj+Neut+Nom+Sg:0 # ;
 +Adj+Neut+Obl+Sg:0 # ;
+
+DerAdv ;
 
 LEXICON Adj4
 +Adj+Masc+Nom+Sg:re # ;
@@ -64,13 +70,10 @@ LEXICON Part
 +Part+Past+Fem+Nom+Pl+Early:edes # ;
 +Part+Past+Fem+Obl+Pl+Early:edes # ;
 
-+Part+Past+Neut+Nom+Sg+Early:ét # ;
-+Part+Past+Neut+Obl+Sg+Early:ét # ;
-
-+Part+Past+Masc+Nom+Sg+Late:ez # ;
-+Part+Past+Masc+Obl+Sg+Late:é # ;
-+Part+Past+Masc+Nom+Pl+Late:é # ;
-+Part+Past+Masc+Obl+Pl+Late:ez # ;
++Part+Past+Masc+Nom+Sg:ez # ;
++Part+Past+Masc+Obl+Sg:é%{T%} # ;
++Part+Past+Masc+Nom+Pl:é%{T%} # ;
++Part+Past+Masc+Obl+Pl:ez # ;
 
 +Part+Past+Fem+Nom+Sg+Late:ee # ;
 +Part+Past+Fem+Obl+Sg+Late:ee # ;
@@ -126,11 +129,31 @@ LEXICON Mout
 +Adj:mult # ;
 +Adj:moult # ;
 
+LEXICON Nouveau
++Adj+Masc+Nom+Sg:nouveaux # ;
++Adj+Masc+Obl+Sg:nouveau # ;
++Adj+Masc+Obl+Sg+Gram/Liason:nouvel # ;
++Adj+Masc+Nom+Pl:nouveau # ;
++Adj+Masc+Nom+Pl+Gram/Liason:nouvel # ;
++Adj+Masc+Obl+Pl:nouveaux # ;
+
++Adj+Fem+Nom+Sg:nouvel%>e # ;
++Adj+Fem+Obl+Sg:nouvel%>e # ;
++Adj+Fem+Nom+Pl:nouvel%>es # ;
++Adj+Fem+Obl+Pl:nouvel%>es # ;
+
 LEXICON Nul
 +Adj+Masc+Nom+Sg:nus # ;
-+Adj+Fem+Nom+Sg:niule # ;
-+Adj+Fem+Obl+Sg:nule # ;
-+Adj:nul # ; ! other forms unattested
++Adj+Masc+Nom+Sg:nuls # ;
++Adj+Masc+Obl+Sg:nul # ;
++Adj+Masc+Nom+Pl:nul # ;
++Adj+Masc+Obl+Pl:nus # ;
++Adj+Masc+Obl+Pl:nuls # ;
+
++Adj+Fem+Nom+Sg:nul%>e # ;
++Adj+Fem+Obl+Sg:nul%>e # ;
++Adj+Fem+Nom+Pl:nul%>es # ;
++Adj+Fem+Obl+Pl:nul%>es # ;
 
 LEXICON Tot
 +Adj+Masc+Nom+Sg:toz # ;
@@ -141,7 +164,6 @@ LEXICON Tot
 +Adj+Masc+Obl+Pl:toz # ;
 +Adj+Masc+Obl+Pl:tuz # ;
 +Adj+Masc+Obl+Pl:tous # ;
-+Adj+Masc+Obl+Pl:touz # ; ! Double check
 +Adj+Fem+Nom+Sg:tote # ;
 +Adj+Fem+Nom+Sg:toute # ;
 +Adj+Fem+Nom+Sg:tute # ;
@@ -157,13 +179,6 @@ LEXICON Tot
 +Adj+Masc+Obl+Sg+Emph:trestout # ;
 +Adj+Masc+Obl+Sg+Emph:trestut # ;
 +Adj+Fem+Nom+Sg+Emph:trestute # ;
-
-LEXICON Saint
-+Adj+Masc+Nom+Sg:sains # ;
-+Adj+Masc+Obl+Sg:saint # ;
-+Adj+Fem+Nom+Sg:sainte # ;
-+Adj+Fem+Obl+Sg:sainte # ;
-
 
 
 !!€gt-norm: adjectives

@@ -2,22 +2,31 @@ LEXICON Adjectives
 aucun Adj1 "some, none?" ; ! Verify definition
 bel Adj1 "dear, beloved, handsome" ;
 bon Adj1 "good" ;
-    bon+Adj+Fem+Nom+Sg:bonne # ;
-    bon+Adj+Fem+Obl+Sg:bonne # ;
-    bon+Adj+Fem+Nom+Pl:bonnes # ;
-    bon+Adj+Fem+Obl+Pl:bonnes # ;
+chier Adj1 "dear, expensive, clean" ;
+    chier:cher Adj1 "dear, expensive, clean" ;
 cour%{T%} Adj1 "short (not long), of little importance" ;
+franc Adj1 "noble, free" ;
+    franc+Adj+Masc+Nom+Sg:frans # ; ! Verify
+    franc+Adj+Masc+Obl+Pl:frans # ; ! Verify
+    franc:franch Adj1 "noble, free" ; ! Only for feminine forms?
+haut Adj1 "exalted, high, clean" ; ! Check for other definitions
+maint Adj1 "many" ; ! Indefinite?
 mal Adj1 "evil, disaster, illness" ;
 mort:mor%{T%} Adj1 "dead" ;
 petit:petit%> Adj1 "small, little" ;
     petit+Adj+Masc+Obl+Pl:petis # ;
 present:présen%{T%} Adj1 ;
+sain Adj1 "healthy, uninjured" ;
+saint:sain%{T%} Adj1 "holy" ;
+tort:tor%{T%} Adj1 "wrong, twisted, crooked" ;
+vert:ver%{T%} Adj1 "green" ;
 voir Adj1 "true" ;
 
 aigre Adj2 "acid" ;
 aspre Adj2 "rough" ;
 autre Adj2 "other, another" ;
     autre:altre Adj2 "other, another" ;
+    autre:aultre Adj2 "other, another" ;
 destre Adj2 "right" ;
 noble Adj2 "noble, belonging to nobility" ;
 povre Adj2 "poor" ;
@@ -76,12 +85,13 @@ plusor IndefAdj "several, many" ;
     plusor:pluisieur IndefAdj ;
 chascun IndefAdj "each one, everyone" ;
     chascun:chacun IndefAdj "each one, everyone" ;
+quelque IndefAdj "some (thing), approximately, around" ;
 
 mieux: Mieux "better" ;
 mout: Mout "many, much, very" ;
+nouveau: Nouveau "new" ;
 nul: Nul "no, not any" ;
 tot: Tot "all, every, completely" ;
-saint: Saint "holy" ;
 
 lequel+Adj: RelInterr ;
 
@@ -96,6 +106,7 @@ ledit+Prep+Adj+Masc+Sg:oudit # "with the aforementioned (ou+dit)" ; ! Verify
 ledit+Adj+Masc+Pl:lesdiz # "the aforementioned (le+dit)" ; ! Verify
 
 jouvencel+Adj+Masc:jouvencel # "young" ; ! Verify
+pucele+Adj+Fem:pucel%>e # "virgin" ;
 
 LEXICON Participles
 chant Part ;

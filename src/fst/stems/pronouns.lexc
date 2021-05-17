@@ -34,4 +34,6 @@ plusor IndefPro "several, many" ;
     plusor:pluiseur IndefPro ;
     plusor:plusieur IndefPro ;
     plusor:pluisieur IndefPro ;
+maint IndefPro "many" ;
+    maint:mainte IndefPro "many" ;
 

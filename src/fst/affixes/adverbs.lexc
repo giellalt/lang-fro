@@ -13,7 +13,7 @@ LEXICON OptionalS
 +Adv:0 # ;
 +Adv:s # ;
 
-LEXICON Ment
+LEXICON DerAdv
 +Adv:ment # ;
 
 LEXICON InterrAdv
