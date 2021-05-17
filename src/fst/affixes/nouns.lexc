@@ -156,6 +156,7 @@ LEXICON Monseigneur ! Verify forms
 +N+Fem+Nom+Sg:messire # ;
 +N+Fem+Obl+Sg:monseigneur # ;
 +N+Fem+Obl+Sg:monsegnor # ;
++N+Fem+Obl+Sg:monseignor # ;
 +N+Fem+Obl+Sg:monsieur # ;
 +N+Fem+Nom+Pl:monseigneur # ;
 +N+Fem+Obl+Pl:messeigneurs # ;

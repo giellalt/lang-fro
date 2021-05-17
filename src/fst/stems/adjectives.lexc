@@ -8,6 +8,7 @@ bon Adj1 "good" ;
     bon+Adj+Fem+Obl+Pl:bonnes # ;
 cour%{T%} Adj1 "short (not long), of little importance" ;
 mal Adj1 "evil, disaster, illness" ;
+mort:mor%{T%} Adj1 "dead" ;
 petit:petit%> Adj1 "small, little" ;
     petit+Adj+Masc+Obl+Pl:petis # ;
 present:présen%{T%} Adj1 ;
@@ -91,6 +92,7 @@ ledit+Adj+Fem+Sg:ladicte # "the aforementioned (la+dite)" ; ! Verify
 ledit+Prep+Adj+Masc+Sg:dudit # "of the aformenetioned (du+dit)" ; ! Verify
 ledit+Prep+Adj+Masc+Sg:dudict # "of the aformenetioned (du+dit)" ; ! Verify
 ledit+Prep+Adj+Masc+Sg:audit # "to the aforementioned (au+dit)" ; ! Verify
+ledit+Prep+Adj+Masc+Sg:oudit # "with the aforementioned (ou+dit)" ; ! Verify
 ledit+Adj+Masc+Pl:lesdiz # "the aforementioned (le+dit)" ; ! Verify
 
 jouvencel+Adj+Masc:jouvencel # "young" ; ! Verify

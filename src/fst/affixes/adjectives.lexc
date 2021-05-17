@@ -4,10 +4,10 @@ LEXICON Adj1
 +Adj+Masc+Nom+Pl:0 # ;
 +Adj+Masc+Obl+Pl:s # ;
 
-+Adj+Fem+Nom+Sg:e # ;
-+Adj+Fem+Obl+Sg:e # ;
-+Adj+Fem+Nom+Pl:es # ;
-+Adj+Fem+Obl+Pl:es # ;
++Adj+Fem+Nom+Sg:%>e # ;
++Adj+Fem+Obl+Sg:%>e # ;
++Adj+Fem+Nom+Pl:%>es # ;
++Adj+Fem+Obl+Pl:%>es # ;
 
 LEXICON Adj2
 +Adj+Masc+Nom+Sg:0 # ;

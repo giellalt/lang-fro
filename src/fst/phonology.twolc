@@ -147,3 +147,6 @@ s:è => i _ m e ;
 
 "optional h can be kept"
 %{H%}:h => _ ;
+
+"l can be doubled"
+0:l => l: _ %> ;

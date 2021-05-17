@@ -1,5 +1,6 @@
 LEXICON Et
 +Conj+Coord:é%{T%} # ;
++Conj+Coord:ET # ;
 
 LEXICON Ou
 +Conj+Coord:0 # ;

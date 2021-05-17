@@ -18,6 +18,8 @@ devoir: Devoir      "should, ought to, need to, must" ;
 pooir: Pooir        "to be able, can" ;
 doner: Doner        "to give" ;
 metre: Metre        "to place" ;
+oïr: Oïr            "to hear" ;
+lire: Lire          "to read" ;
 
 amender:amend RegEr "to improve, to make amends" ;
 amer:am RegEr       "to love" ;
@@ -73,6 +75,9 @@ servir:serv RegIr   "to serve" ;
 
 corre:cor RegRe     "to run" ;
 cosdre:cosd RegRe   "to sew" ;
+defendre:defend RegRe "to defend" ;
+    defendre:deffend RegRe "to defend" ;
+entendre:enten%{D%} RegRe "to listen" ;
 naistre:naist RegRe "to be born" ;
 perdre:perd RegRe   "to lose" ;
 respondre:respond RegRe "to reply" ;

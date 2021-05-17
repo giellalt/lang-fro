@@ -28,6 +28,7 @@ dales Prep "next to, along" ;
     dales:dallas Prep "next to, along" ;
 de Prep "of" ;
     de:d Prep "of" ;
+    de:DE Prep "of" ;
 dedenz Prep "within" ;
     dedenz:dedens Prep "within" ;
     dedenz:dedanz Prep "within" ;
@@ -37,6 +38,7 @@ delez Prep "next to, beside" ;
     delez:deles Prep "next to, beside" ;
     delez:delé Prep "next to, beside" ;
     delez:deleiz Prep "next to, beside" ;
+depuis Prep "since, from" ;
 desous Prep "under, in, on, above" ; ! Might be two stems. Verify.
     desous:desuz Prep "under, in, on, above" ;
     desous:desos Prep "under, in, on, above" ;

@@ -16,6 +16,7 @@ apres BaseAdv "after" ;
     apres:apries BaseAdv "after" ;
 car BaseAdv "wish, may" ;
 ci BaseAdv "here" ;
+    ci:cy BaseAdv "here" ;
 espoir BaseAdv "perhaps, hopefully" ;
 ensemble BaseAdv "together" ;
 environ BaseAdv "about, around" ; ! + "de" = adverbial preposition
@@ -78,6 +79,9 @@ sicomme BaseAdv "just as" ;
     sicomme:si#con BaseAdv "just as" ;
 sus BaseAdv "over" ;
     sus:suz BaseAdv "over" ;
+tousjours BaseAdv "always, everyday" ;
+    tousjours:toujours BaseAdv "always, everyday" ;
+    tousjours:tozjorz BaseAdv "always, everyday" ;
 
 comment InterrAdv "how" ;
 ou InterrAdv "where" ;
