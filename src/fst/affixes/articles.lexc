@@ -1,8 +1,8 @@
 LEXICON Definite
-+Art+Def+Masc+Nom+Sg:i # ;
-+Art+Def+Masc+Obl+Sg:e # ;
++Art+Def+Masc+Nom+Sg:%{I%} # ;
++Art+Def+Masc+Obl+Sg:e # ; ! Also ly?
 +Art+Def+Masc+Obl+Sg:o # ;
-+Art+Def+Masc+Nom+Pl:i # ;
++Art+Def+Masc+Nom+Pl:%{I%} # ;
 +Art+Def+Masc+Obl+Pl:es # ;
 +Art+Def+Fem+Nom+Sg:a # ;
 +Art+Def+Fem+Obl+Sg:a # ;

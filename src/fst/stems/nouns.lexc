@@ -73,6 +73,7 @@ nature FC1 "nature, divine essense, characteristics" ;
 novele:nouvel%>e FC1 "news" ;
 parole:parol%>e FC1 "word, speech" ;
 partie FC1 "part, section, sharing" ; ! Verify definition
+personne FC1 "person, character" ;
 pierre FC1 "stone, prison" ;
     pierre:piere FC1 "stone, prison" ;
 place FC1 "place, city, land, location, urban center" ;
@@ -225,6 +226,8 @@ monde MC1a "world" ;
     monde+N+Masc+Nom+Sg:mons # "world" ;
 mot MC1a "word" ;
 mur MC1a "wall" ;
+nïant:nïan%{T%} MC1a "nothing" ;
+    nïant:néan%{T%} MC1a "nothing" ;
 noble MC1a "person belonging of nobility, palm of the hand" ; ! separate the entries?
 pain MC1a "bread, food" ;
 procureur MC1a "representative, one who procures something" ;
@@ -240,6 +243,7 @@ mal MC1a "evil, harm, misfortune, illness" ;
 mont:mon%{T%} MC1a "mountain" ;
     mont+N+Masc+Nom+Sg:mons # ;
 paien MC1a "infidel" ;
+pasnage MC1a "payment to a lord for using land, right to graze" ;
 pelerin MC1a "pilgrim" ;
 present MC1a "current moment" ;
 prevost MC1a "state officer, tax collector, administrator (official title)" ;

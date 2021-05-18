@@ -40,6 +40,7 @@ garder:gard RegEr   "to guard" ;
 jurer:jur RegEr     "to swear" ;
 laver:lav   RegEr   "to wash" ;
 livrer:livr RegEr   "to deliver, to hand over" ;
+nier:nï RegEr       "to deny" ; ! RegIer?
 nomer:nom   RegEr   "to name" ;
     nomer:nomm RegEr "to name" ;
 ordonner:ordonn RegEr "to order, to ordain" ;

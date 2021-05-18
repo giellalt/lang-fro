@@ -68,8 +68,8 @@ LEXICON 3SgMasc
 +Pro+Prs+3s+Masc+Nom+Stress+Err/Obsc:ilh # ;
 +Pro+Prs+3s+Masc+Nom+Unstress:il # ;
 +Pro+Prs+3s+Masc+Nom+Untress+Err/Obsc:ilh # ;
-+Pro+Prs+3s+Masc+Obl+Dir+Unstress:le # ;
-+Pro+Prs+3s+Masc+Obl+Indir+Unstress:li # ;
++Pro+Prs+3s+Masc+Obl+Dir+Unstress:le # ; ! Also ly?
++Pro+Prs+3s+Masc+Obl+Indir+Unstress:l%{I%} # ;
 +Pro+Prs+3s+Masc+Obl+Stress:lui # ;
 
 LEXICON 3SgFem
@@ -79,13 +79,13 @@ LEXICON 3SgFem
 +Pro+Prs+3s+Fem+Nom+Unstress:elle # ;
 +Pro+Prs+3s+Fem+Obl+Dir+Unstress:la # ;
 +Pro+Prs+3s+Fem+Obl+Dir+Unstress:l # ;
-+Pro+Prs+3s+Fem+Obl+Indir+Unstress:li # ;
-+Pro+Prs+3s+Fem+Obl+Stress:li # ;
++Pro+Prs+3s+Fem+Obl+Indir+Unstress:l%{I%} # ;
++Pro+Prs+3s+Fem+Obl+Stress:l%{I%} # ;
 
 LEXICON 3SgNeut
 +Pro+Prs+3s+Neut+Nom+Stress:il # ;
 +Pro+Prs+3s+Neut+Nom+Unstress:il # ;
-+Pro+Prs+3s+Neut+Obl+Unstress:le # ;
++Pro+Prs+3s+Neut+Obl+Unstress:le # ; ! Also ly?
 +Pro+Prs+3s+Neut+Obl+Unstress:l # ;
 
 LEXICON 3SgRefl
@@ -237,13 +237,11 @@ LEXICON ProAdv
 
 LEXICON Demonstrative
 +Pro+Dem+Far+Masc+Nom+Sg:cil # ;
-+Pro+Dem+Far+Masc+Nom+Sg:ci # ;
-+Pro+Dem+Far+Masc+Nom+Sg:cy # ;
++Pro+Dem+Far+Masc+Nom+Sg:c%{I%} # ;
 +Pro+Dem+Far+Masc+Obl+Sg:cel # ;
 +Pro+Dem+Far+Masc+Obl+Sg+Stress:cel%>ui # ;
 +Pro+Dem+Far+Masc+Nom+Pl:cil # ;
-+Pro+Dem+Far+Masc+Nom+Pl:ci # ;
-+Pro+Dem+Far+Masc+Nom+Pl:cy # ;
++Pro+Dem+Far+Masc+Nom+Pl:c%{I%} # ;
 +Pro+Dem+Far+Masc+Obl+Pl:cels # ;
 +Pro+Dem+Far+Masc+Obl+Pl:ceulx # ;
 +Pro+Dem+Far+Masc+Obl+Pl:ces # ;
@@ -337,11 +335,9 @@ LEXICON Interrogative
 LEXICON RelInterr
 +Relative+Interr+Masc+Sg:lequel # ;
 +Relative+Interr+Masc+Pl:lesquels # ;
-+Relative+Interr+Masc+Pl:lesquelz # ;
 +Relative+Interr+Masc+Pl:lesqueulx # ;
-+Relative+Interr+Fem+Sg:laquelle # ;
++Relative+Interr+Fem+Sg:laquel%>e # ;
 +Relative+Interr+Fem+Pl:lesquelles # ;
-+Relative+Interr+Fem+Pl:lesquellez # ;
 
 LEXICON IndefPro
 +Pro+Adj+Indef+Nom+Sg:s # ;

@@ -21,6 +21,9 @@ Alphabet
 %{H%}:h
 %{H%}:0
 
+%{I%}:i
+%{I%}:y
+
  %>:0 ;
 
  
@@ -128,6 +131,12 @@ e:o => _ i: ;
 
 "ii can be shortened to i before an e or e:o" 
 i:0 => i: _ e: ;
+
+"archiphoneme I can be expressed as i"
+%{I%}:i => _ ;
+
+"archiphoneme I can be expressed as y"
+%{I%}:y => _ ;
 
 !! Ordinals
 "s can become è in the ordinal suffix"

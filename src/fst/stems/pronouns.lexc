@@ -27,6 +27,7 @@ que: Relative ;
 lequel+Pro: RelInterr ;
 chascun IndefPro "each one, everyone" ;
     chascun:chacun IndefPro "each one, everyone" ;
+personne IndefPro "someone, no one" ;
 plusor IndefPro "several, many" ;
     plusor:pluisor IndefPro ;
     plusor:plusier IndefPro ;
@@ -36,4 +37,5 @@ plusor IndefPro "several, many" ;
     plusor:pluisieur IndefPro ;
 maint IndefPro "many" ;
     maint:mainte IndefPro "many" ;
+nïent:nïen%{T%} IndefPro "nothing" ;
 
