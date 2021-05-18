@@ -3,8 +3,10 @@
 
 LEXICON RegEr
 +V+Inf:er # ;
-+V+Pres+Part:ant # ;
-+V+Past+Part:é%{T%} # ;
++V: PresPart ;
++V: PastPart ;
+!+V+Part+Pres:ant # ;
+!+V+Part+Past:é%{T%} # ;
 
 +V+1s+Pres+Ind:0 # ;
 +V+2s+Pres+Ind:es # ;
@@ -65,8 +67,10 @@ LEXICON RegEr
 
 LEXICON RegIer
 +V+Inf:ier # ;
-+V+Pres+Part:ant # ;
-+V+Past+Part:é%{T%} # ;
++V: PresPart ;
++V: PastPart ;
+!+V+Part+Pres:ant # ;
+!+V+Part+Past:é%{T%} # ;
 
 +V+1s+Pres+Ind:0 # ;
 +V+2s+Pres+Ind:es # ;
@@ -124,9 +128,10 @@ LEXICON RegIer
 
 LEXICON RegIr
 +V+Inf:ir # ;
-+V+Pres+Part:issant # ;
-+V+Past+Part:i%{T%} # ;
-+V+Past+Part:ie # ;
++V:iss PresPart ;
+!+V+Part+Pres:issant # ;
++V+Part+Past+Masc+Obl+Sg:i%{T%} # ;
++V+Part+Past+Fem+Sg:ie # ;
 
 +V+1s+Pres+Ind:is # ;
 +V+2s+Pres+Ind:is # ;
@@ -183,8 +188,9 @@ LEXICON RegIr
 
 LEXICON RegRe
 +V+Inf:re # ;
-+V+Pres+Part:ant # ;
-+V+Past+Part:u # ;
++V: PresPart ;
+! +V+Part+Pres:ant # ;
++V+Part+Past:u # ;
 
 +V+1s+Pres+Ind:0 # ;
 +V+2s+Pres+Ind:s # ;
@@ -243,13 +249,48 @@ LEXICON RegRe
 +V+1p+Pres+Imp:ons # ;
 +V+2p+Pres+Imp:ez # ;
 
+LEXICON PastPart
++Part+Past:é%{T%} PartEndings ;
+
+LEXICON PresPart
++Part+Pres+Masc+Nom+Sg:anz # ;
++Part+Pres+Masc+Obl+Sg:ant # ;
++Part+Pres+Masc+Nom+Pl:ant # ;
++Part+Pres+Masc+Obl+Pl:anz # ;
+
++Part+Pres+Fem+Nom+Sg:ant # ;
++Part+Pres+Fem+Nom+Sg:anz # ;
++Part+Pres+Fem+Obl+Sg:ant # ;
++Part+Pres+Fem+Nom+Pl:anz # ;
++Part+Pres+Fem+Obl+Pl:anz # ;
+
++Part+Pres+Neut:ant # ;
++Part+Pres+Neut:ant # ;
+
+LEXICON PartEndings
++Masc+Nom+Sg:s # ;
++Masc+Obl+Sg:0 # ;
++Masc+Nom+Pl:0 # ;
++Masc+Obl+Pl:s # ;
+
++Fem+Nom+Sg:e # ;
++Fem+Obl+Sg:e # ;
++Fem+Nom+Pl:es # ;
++Fem+Obl+Pl:es # ;
+
+LEXICON SPartEndings
++Masc:0 # ;
+
++Fem+Nom+Sg:e # ;
++Fem+Obl+Sg:e # ;
++Fem+Nom+Pl:es # ;
++Fem+Obl+Pl:es # ;
 
 LEXICON Avoir
 +V+Inf:aveir # ;
-+V+Pres+Part:aiant # ;
-+V+Past+Part+Gram/Early:eüt # ;
-+V+Past+Part+Gram/Early:oüt # ;
-
++V:ai PresPart ;
++V+Part+Past+Gram/Early:eüt # ;
++V+Part+Past+Gram/Early:oüt # ;
 
 +V+1s+Pres+Ind:ai # ;
 +V+2s+Pres+Ind:as # ;
@@ -347,8 +388,8 @@ LEXICON Avoir
 
 LEXICON Estre
 +V+Inf:estre # ;
-+V+Pres+Part:estant # ;
-+V+Past+Part:esté%{T%} # ;
++V:est PresPart ;
++V:est PastPart ;
 
 +V+1s+Pres+Ind:sui # ;
 +V+2s+Pres+Ind:es # ;
@@ -459,14 +500,12 @@ LEXICON Faire
 +V+Inf:faire # ;
 +V+Inf:feire # ;
 +V+Inf:fere # ;
-+V+Pres+Part:faisent # ;
-+V+Pres+Part:feisent # ;
-+V+Pres+Part:fesent # ;
-+V+Past+Part+Masc+Sg:fait # ;
-+V+Past+Part+Masc+Sg:feit # ;
-+V+Past+Part+Masc+Sg:fet # ;
-+V+Past+Part+Fem+Sg:faite # ;
-+V+Past+Part+Fem+Pl:faites # ;
++V+Part+Pres:faisent # ;
++V+Part+Pres:feisent # ;
++V+Part+Pres:fesent # ;
++V+Part+Past:fait PartEndings ;
++V+Part+Past:feit PartEndings ;
++V+Part+Past:fet PartEndings ;
 
 +V+1s+Pres+Ind:faz # ;
 +V+1s+Pres+Ind:fai # ;
@@ -547,8 +586,9 @@ LEXICON Faire
 
 LEXICON Dire
 +V+Inf:dire # ;
-+V+Pres+Part:disant # ;
-+V+Past+Part:dit # ;
++V:dis PresPart ;
++V+Part+Past:dit PartEndings ;
++V+Part+Past:dict PartEndings ;
 
 +V+1s+Pres+Ind:di # ;
 +V+2s+Pres+Ind:dis # ;
@@ -615,9 +655,9 @@ LEXICON Dire
 
 LEXICON Devoir
 +V+Inf:deveir # ;
-+V+Pres+Part:devant # ;
-+V+Past+Part:deü # ;
-+V+Past+Part:deubz # ;
++V:dev PresPart ;
++V+Part+Past:deü # ;
++V+Part+Past:deubz # ;
 
 +V+1s+Pres+Ind:dei # ;
 +V+2s+Pres+Ind:deis # ;
@@ -689,9 +729,8 @@ LEXICON Devoir
 
 LEXICON Xenir
 +V+Inf:enir # ;
-+V+Pres+Part:enant # ; ! Verify
-+V+Past+Part:enu # ;
-+V+Past+Part:enuz # ;
++V:en PresPart ;
++V+Part+Past:enu PartEndings ;
 
 +V+1s+Pres+Ind:ien # ;
 +V+1s+Pres+Ind:ieng # ;
@@ -797,8 +836,8 @@ LEXICON Xenir
 
 LEXICON Aler
 +V+Inf:al%>er # ;
-+V+Pres+Part:al%>ant # ; ! Verify
-+V+Past+Part:al%>é%{T%} # ;
++V:al%> PresPart ;
++V:al%> PastPart ;
 
 +V+1s+Pres+Ind:vois # ;
 +V+1s+Pres+Ind:vai # ;
@@ -873,11 +912,11 @@ LEXICON Veoir
 +V+Inf:veoir # ;
 +V+Inf:vedeir # ;
 +V+Inf:voir # ;
-+V+Pres+Part:venant # ;
-+V+Pres+Part:veant # ;
-+V+Pres+Part:veiant # ;
-+V+Past+Part:veü # ;
-+V+Past+Part:vis # ;
++V:ven PresPart ;
++V:ve PresPart ;
++V:vei PresPart ;
++V+Part+Past:veü # ;
++V+Part+Past:vis PartEndings ;
 
 +V+1s+Pres+Ind:vei # ;
 +V+2s+Pres+Ind:veiz # ;
@@ -945,17 +984,16 @@ LEXICON Veoir
 
 LEXICON Voloir
 +V+Inf:voloir # ;
-+V+Pres+Part:volant # ;
-+V+Pres+Part:veillant # ;
-+V+Pres+Part:vueillant # ;
-+V+Past+Part:volu # ;
++V:vol PresPart ;
++V:veill PresPart ;
++V:vueill PresPart ;
++V+Part+Past:volu PartEndings ;
 
 +V+1s+Pres+Ind:veil # ;
 +V+1s+Pres+Ind:voel # ;
 +V+1s+Pres+Ind:vueil # ;
 +V+1s+Pres+Ind:vuel # ;
 +V+2s+Pres+Ind:vuels # ;
-! +V+2s+Pres+Ind:vueus # ; <EUS RULE
 +V+2s+Pres+Ind:vues # ;
 +V+2s+Pres+Ind:vuex # ;
 +V+3s+Pres+Ind:vuelt # ;
@@ -1065,11 +1103,11 @@ LEXICON Voloir
 
 LEXICON Prendre
 +V+Inf:prendre # ;
-+V+Pres+Part:prenant # ;
-+V+Past+Part+Masc:pris # ;
-+V+Past+Part+Masc:prins # ;
-+V+Past+Part+Fem:prise # ; ! FIXME give all past participles Masc/Fem continuations
-+V+Past+Part+Fem:prinse # ;
++V:pren PresPart ;
++V+Part+Past:pri%{T%} PartEndings ;
++V+Part+Past:prin%{T%} PartEndings ;
++V+Part+Past:pris SPartEndings ;
++V+Part+Past:prins SPartEndings ;
 
 +V+1s+Pres+Ind:preign # ;
 +V+1s+Pres+Ind:pren # ;
@@ -1153,9 +1191,9 @@ LEXICON Savoir
 +V+Inf:sçavoir # ;
 +V+Inf:assaveir # ; ! à savoir, enclitic form
 +V+Inf:asaveir # ; ! à savoir, enclitic form
-+V+Pres+Part:savant # ;
-+V+Pres+Part:sachant # ;
-+V+Past+Part:seü # ;
++V:sav PresPart ;
++V:sach PresPart ;
++V+Part+Past:seü # ;
 
 +V+1s+Pres+Ind:sai # ;
 +V+1s+Pres+Ind:sçai # ;
@@ -1249,9 +1287,10 @@ LEXICON Pooir
 +V+Inf:pooir # ;
 +V+Inf:po%{D%}eir # ;
 +V+Inf:po%{D%}ier # ;
-+V+Pres+Part:poänt # ;
-+V+Pres+Part:puissant # ;
-+V+Past+Part:peü%{T%} # ;
++V+Part+Pres:poänt # ;
++V:puiss PresPart ;
++V+Part+Pres:puissant PartEndings ;
++V+Part+Past:peü%{T%} # ;
 
 +V+1s+Pres+Ind:puis # ;
 +V+2s+Pres+Ind:puez # ;
@@ -1337,8 +1376,8 @@ LEXICON Pooir
 
 LEXICON Doner
 +V+Inf:don%>er # ;
-+V+Pres+Part:don%>ant # ;
-+V+Past+Part:don%>é%{T%} # ;
++V:don%> PresPart ;
++V:don%> PastPart ;
 
 +V+1s+Pres+Ind:doing # ;
 +V+1s+Pres+Ind:doins # ;
@@ -1431,11 +1470,10 @@ LEXICON Metre
 +V+Inf:metre # ;
 +V+Inf:mettre # ;
 +V+Inf:mectre # ;
-+V+Pres+Part:metant # ;
-+V+Pres+Part:mettant # ;
-+V+Pres+Part:mectant # ;
-+V+Past+Part+Masc:mis # ;
-+V+Past+Part+Masc:mise # ;
++V:met PresPart ;
++V:mett PresPart ;
++V:mect PresPart ;
++V+Part+Past:mis SPartEndings ;
 
 +V+1s+Pres+Ind:met # ;
 +V+1s+Pres+Ind:mect # ;
@@ -1551,8 +1589,8 @@ LEXICON Metre
 LEXICON Oïr
 +V+Inf:oïr # ;
 +V+Inf:odir # ;
-+V+Pres+Part:oiant # ;
-+V+Past+Part:oï # ;
++V:oi PresPart ;
++V+Part+Past:oï # ;
 
 +V+1s+Pres+Ind:oi # ;
 +V+2s+Pres+Ind:oz # ;
@@ -1628,9 +1666,10 @@ LEXICON Oïr
 
 LEXICON Lire
 +V+Inf:lire # ;
-+V+Pres+Part:lisant # ;
-+V+Past+Part:leü # ;
-+V+Past+Part:li%{T%} # ;
++V:lis PresPart ;
+!+V+Part+Pres:lisant # ;
++V+Part+Past:leü # ;
++V+Part+Past:li%{T%} # ;
 
 +V+1s+Pres+Ind:li # ;
 +V+2s+Pres+Ind:lis # ;

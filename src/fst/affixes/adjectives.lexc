@@ -59,41 +59,6 @@ LEXICON Adj4
 +Adj+Neut+Nom+Sg:z # ;
 +Adj+Neut+Obl+Sg:z # ;
 
-LEXICON Part
-+Part+Past+Masc+Nom+Sg+Early:ez # ;
-+Part+Past+Masc+Obl+Sg+Early:ét # ;
-+Part+Past+Masc+Nom+Pl+Early:ét # ;
-+Part+Past+Masc+Obl+Pl+Early:ez # ;
-
-+Part+Past+Fem+Nom+Sg+Early:ede # ;
-+Part+Past+Fem+Obl+Sg+Early:ede # ;
-+Part+Past+Fem+Nom+Pl+Early:edes # ;
-+Part+Past+Fem+Obl+Pl+Early:edes # ;
-
-+Part+Past+Masc+Nom+Sg:ez # ;
-+Part+Past+Masc+Obl+Sg:é%{T%} # ;
-+Part+Past+Masc+Nom+Pl:é%{T%} # ;
-+Part+Past+Masc+Obl+Pl:ez # ;
-
-+Part+Past+Fem+Nom+Sg+Late:ee # ;
-+Part+Past+Fem+Obl+Sg+Late:ee # ;
-+Part+Past+Fem+Nom+Pl+Late:ees # ;
-+Part+Past+Fem+Obl+Pl+Late:ees # ;
-
-+Part+Pres+Masc+Nom+Sg+Early:anz # ;
-+Part+Pres+Masc+Obl+Sg+Early:ant # ;
-+Part+Pres+Masc+Nom+Pl+Early:ant # ;
-+Part+Pres+Masc+Obl+Pl+Early:anz # ;
-
-+Part+Pres+Fem+Nom+Sg+Early:ant # ;
-+Part+Pres+Fem+Nom+Sg+Early:anz # ;
-+Part+Pres+Fem+Obl+Sg+Early:ant # ;
-+Part+Pres+Fem+Nom+Pl+Early:anz # ;
-+Part+Pres+Fem+Obl+Pl+Early:anz # ;
-
-+Part+Pres+Neut+Nom+Sg+Early:ant # ;
-+Part+Pres+Neut+Obl+Sg+Early:ant # ;
-
 
 LEXICON MascIndec
 +Adj+Masc+Nom+Sg:0 # ;
@@ -182,8 +147,6 @@ LEXICON Tot
 
 
 !!€gt-norm: adjectives
-!!€ chantanz:      chant+Part+Pres+Fem+Nom+Sg+Early
-!!€ chantant:      chant+Part+Pres+Fem+Nom+Sg+Early
 !!€ bones:          bon+Adj+Fem+Nom+Pl
 !!€ bonnes:          bon+Adj+Fem+Nom+Pl
 !!€ bones:          bon+Adj+Fem+Obl+Pl

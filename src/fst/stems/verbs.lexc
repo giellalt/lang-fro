@@ -23,8 +23,12 @@ lire: Lire          "to read" ;
 
 amender:amend RegEr "to improve, to make amends" ;
 amer:am RegEr       "to love" ;
-apeler:apel RegEr   "to call" ;
+    amer:aim RegEr  "to love" ;
+    amer:aimm RegEr "to love" ;
+apeler:apel%> RegEr   "to call" ; ! Irregular?
+    apeler:appel%> RegEr "to call" ;
 chanter:chant RegEr "to sing" ;
+confesser:confess RegEr "to confess" ;
 curer:cur RegEr     "to be concerned about, to treat" ;
 demander:demand RegEr "to ask, to demand" ; ! Verify
 disner:disn RegEr   "to dine" ;
@@ -33,14 +37,23 @@ durer:dur RegEr     "to last" ;
 entrer:entr RegEr   "to enter" ;
 gaver:gab   RegEr   "to joke" ;
 garder:gard RegEr   "to guard" ;
+jurer:jur RegEr     "to swear" ;
 laver:lav   RegEr   "to wash" ;
+livrer:livr RegEr   "to deliver, to hand over" ;
+nomer:nom   RegEr   "to name" ;
+    nomer:nomm RegEr "to name" ;
+ordonner:ordonn RegEr "to order, to ordain" ;
+    ordonner:orden RegEr "to order, to ordain" ;
 parler:parl RegEr   "to talk, to speak" ; ! Verify
-    parler+V+3s+Pres+Ind:parole # ; 
+    parler+V+3s+Pres+Ind:parole # ;
+passer:pass RegEr   "to pass, to surpass" ;
+penser:pens RegEr   "to think, to ponder" ;
 plorer:plot RegEr   "to weep" ;
 porter:port RegEr   "carry, bring, wear" ; ! Verify
 presenter:présent RegEr "to present" ; ! Verify
 sonner:son RegEr    "to ring" ;
 torner:torn RegEr   "to turn" ;
+trouver:trouv RegEr "to find" ; ! Trover = Irregular
 tuer:tu RegEr       "to kill" ;
 
 aidier:aid RegIer   "to help" ;
@@ -85,5 +98,5 @@ respondre:respond RegRe "to reply" ;
 rompre:romp RegRe   "to break" ;
 veintre:veint RegRe "to conquer" ;
 
-!! Add: doloir, rire, sentir
+!! Add: doloir, rire, sentir, trover
 !! conduire, criembre, tordre, traire, boivre

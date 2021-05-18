@@ -107,6 +107,3 @@ ledit+Adj+Masc+Pl:lesdiz # "the aforementioned (le+dit)" ; ! Verify
 
 jouvencel+Adj+Masc:jouvencel # "young" ; ! Verify
 pucele+Adj+Fem:pucel%>e # "virgin" ;
-
-LEXICON Participles
-chant Part ;
