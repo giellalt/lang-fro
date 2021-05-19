@@ -20,6 +20,7 @@ doner: Doner        "to give" ;
 metre: Metre        "to place" ;
 oïr: Oïr            "to hear" ;
 lire: Lire          "to read" ;
+plaire: Plaire      "to please" ;
 
 amender:amend RegEr "to improve, to make amends" ;
 amer:am RegEr       "to love" ;

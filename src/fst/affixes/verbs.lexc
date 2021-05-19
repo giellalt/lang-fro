@@ -5,8 +5,6 @@ LEXICON RegEr
 +V+Inf:er # ;
 +V: PresPart ;
 +V: PastPart ;
-!+V+Part+Pres:ant # ;
-!+V+Part+Past:é%{T%} # ;
 
 +V+1s+Pres+Ind:0 # ;
 +V+2s+Pres+Ind:es # ;
@@ -15,27 +13,9 @@ LEXICON RegEr
 +V+2p+Pres+Ind:ez # ;
 +V+3p+Pres+Ind:ent # ;
 
-+V+1s+SPast+Ind:ai # ;
-+V+2s+SPast+Ind:as # ;
-+V+3s+SPast+Ind:a%{T%} # ;
-+V+1p+SPast+Ind:ames # ;
-+V+2p+SPast+Ind:astes # ;
-+V+3p+SPast+Ind:erent # ;
-
-+V+1s+Ipfv+Ind:eie # ;
-+V+2s+Ipfv+Ind:eies # ;
-+V+3s+Ipfv+Ind:eit # ;
-+V+1p+Ipfv+Ind:iiens # ;
-+V+2p+Ipfv+Ind:iiez # ;
-+V+3p+Ipfv+Ind:eient # ;
-
-+V+1s+Fut+Ind:erai # ;
-+V+2s+Fut+Ind:eras # ;
-+V+3s+Fut+Ind:era%{T%} # ;
-+V+1p+Fut+Ind:erons # ;
-+V+2p+Fut+Ind:erez # ;
-+V+2p+Fut+Ind:ereiz # ;
-+V+3p+Fut+Ind:eront # ;
+PerfWkA ;
+IpfvInd ;
+:er FutInd ;
 
 +V+1s+Pres+Sbjv:0 # ;
 +V+2s+Pres+Sbjv:s # ;
@@ -44,22 +24,8 @@ LEXICON RegEr
 +V+2p+Pres+Sbjv:ez # ;
 +V+3p+Pres+Sbjv:ent # ;
 
-+V+1s+Ipfv+Sbjv:asse # ;
-+V+2s+Ipfv+Sbjv:asses # ;
-+V+3s+Ipfv+Sbjv:ast # ;
-+V+1p+Ipfv+Sbjv:issons # ;
-+V+1p+Ipfv+Sbjv:issiens # ;
-+V+2p+Ipfv+Sbjv:issez # ;
-+V+2p+Ipfv+Sbjv:issiez # ;
-+V+2p+Ipfv+Sbjv:isseiz # ;
-+V+3p+Ipfv+Sbjv:assent # ;
-
-+V+1s+Pres+Cond:ereie # ;
-+V+2s+Pres+Cond:ereis # ;
-+V+3s+Pres+Cond:ereit # ;
-+V+1p+Pres+Cond:eriiens # ;
-+V+2p+Pres+Cond:eriiez # ;
-+V+3p+Pres+Cond:ereient # ;
+IpfvSubjWkA ;
+:er Conditional ;
 
 +V+2s+Pres+Imp:e # ;
 +V+1p+Pres+Imp:ons # ;
@@ -69,8 +35,6 @@ LEXICON RegIer
 +V+Inf:ier # ;
 +V: PresPart ;
 +V: PastPart ;
-!+V+Part+Pres:ant # ;
-!+V+Part+Past:é%{T%} # ;
 
 +V+1s+Pres+Ind:0 # ;
 +V+2s+Pres+Ind:es # ;
@@ -79,27 +43,12 @@ LEXICON RegIer
 +V+2p+Pres+Ind:iez # ;
 +V+3p+Pres+Ind:ent # ;
 
-+V+1s+SPast+Ind:ai # ;
-+V+2s+SPast+Ind:as # ;
-+V+3s+SPast+Ind:a%{T%} # ;
-+V+1p+SPast+Ind:ames # ;
-+V+2p+SPast+Ind:astes # ;
+PerfWkA ;
 +V+3p+SPast+Ind:ierent # ;
 
-+V+1s+Ipfv+Ind:eie # ;
-+V+2s+Ipfv+Ind:eies # ;
-+V+3s+Ipfv+Ind:eit # ;
-+V+1p+Ipfv+Ind:iiens # ;
-+V+2p+Ipfv+Ind:iiez # ;
-+V+3p+Ipfv+Ind:eient # ;
-
-+V+1s+Fut+Ind:ierai # ;
-+V+2s+Fut+Ind:ieras # ;
-+V+3s+Fut+Ind:iera%{T%} # ;
-+V+1p+Fut+Ind:ierons # ;
-+V+2p+Fut+Ind:ierez # ;
-+V+2p+Fut+Ind:iereiz # ;
-+V+3p+Fut+Ind:ieront # ;
+IpfvInd ;
+:ier FutInd ;
+PresSubj ;
 
 +V+1s+Pres+Sbjv:0 # ;
 +V+2s+Pres+Sbjv:s # ;
@@ -108,19 +57,8 @@ LEXICON RegIer
 +V+2p+Pres+Sbjv:iez # ;
 +V+3p+Pres+Sbjv:ent # ;
 
-+V+1s+Ipfv+Sbjv:asse # ;
-+V+2s+Ipfv+Sbjv:asses # ;
-+V+3s+Ipfv+Sbjv:ast # ;
-+V+1p+Ipfv+Sbjv:issons # ;
-+V+2p+Ipfv+Sbjv:issez # ;
-+V+3p+Ipfv+Sbjv:assent # ;
-
-+V+1s+Pres+Cond:iereie # ;
-+V+2s+Pres+Cond:iereies # ;
-+V+3s+Pres+Cond:iereit # ;
-+V+1p+Pres+Cond:ieriiens # ;
-+V+2p+Pres+Cond:ieriiez # ;
-+V+3p+Pres+Cond:iereient # ;
+IpfvSubjWkA ;
+:ier Conditional ;
 
 +V+2s+Pres+Imp:e # ;
 +V+1p+Pres+Imp:ons # ;
@@ -139,47 +77,12 @@ LEXICON RegIr
 +V+2p+Pres+Ind:issez # ;
 +V+3p+Pres+Ind:issent # ;
 
-+V+1s+SPast+Ind:i # ;
-+V+2s+SPast+Ind:is # ;
-+V+3s+SPast+Ind:i%{T%} # ;
-+V+1p+SPast+Ind:imes # ;
-+V+2p+SPast+Ind:istes # ;
-+V+3p+SPast+Ind:irent # ;
-
-+V+1s+Ipfv+Ind:isseie # ;
-+V+2s+Ipfv+Ind:isseies # ;
-+V+3s+Ipfv+Ind:isseit # ;
-+V+1p+Ipfv+Ind:issiiens # ;
-+V+2p+Ipfv+Ind:issiiez # ;
-+V+3p+Ipfv+Ind:isseient # ;
-
-+V+1s+Fut+Ind:irai # ;
-+V+2s+Fut+Ind:iras # ;
-+V+3s+Fut+Ind:ira%{T%} # ;
-+V+1p+Fut+Ind:irons # ;
-+V+2p+Fut+Ind:irez # ;
-+V+3p+Fut+Ind:iront # ;
-
-+V+1s+Pres+Sbjv:isse # ;
-+V+2s+Pres+Sbjv:isses # ;
-+V+3s+Pres+Sbjv:isse # ;
-+V+1p+Pres+Sbjv:issons # ;
-+V+2p+Pres+Sbjv:issez # ;
-+V+3p+Pres+Sbjv:issent # ;
-
-+V+1s+Ipfv+Sbjv:isse # ;
-+V+2s+Ipfv+Sbjv:isses # ;
-+V+3s+Ipfv+Sbjv:ist # ;
-+V+1p+Ipfv+Sbjv:issons # ;
-+V+2p+Ipfv+Sbjv:issez # ;
-+V+3p+Ipfv+Sbjv:issent # ;
-
-+V+1s+Pres+Cond:ireie # ;
-+V+2s+Pres+Cond:ireis # ;
-+V+3s+Pres+Cond:ireit # ;
-+V+1p+Pres+Cond:iriiens # ;
-+V+2p+Pres+Cond:iriiez # ;
-+V+3p+Pres+Cond:ireient # ;
+PerfWkI ;
+:iss IpfvInd ;
+:ir FutInd ;
+:iss PresSubj ;
+IpfvSubjWkI ;
+:ir Conditional ;
 
 +V+2s+Pres+Imp:isse # ;
 +V+1p+Pres+Imp:issons # ;
@@ -188,65 +91,16 @@ LEXICON RegIr
 LEXICON RegRe
 +V+Inf:re # ;
 +V: PresPart ;
-! +V+Part+Pres:ant # ;
 +V+Part+Past:u # ;
 
-+V+1s+Pres+Ind:0 # ;
-+V+2s+Pres+Ind:s # ;
-+V+3s+Pres+Ind:t # ;
-+V+1p+Pres+Ind:ons # ;
-+V+2p+Pres+Ind:ez # ;
-+V+3p+Pres+Ind:ent # ;
-
-+V+1s+SPast+Ind:ui # ;
-+V+2s+SPast+Ind:us # ;
-+V+3s+SPast+Ind:u%{T%} # ;
-+V+1p+SPast+Ind:umes # ;
-+V+2p+SPast+Ind:ustes # ;
-+V+3p+SPast+Ind:urent # ;
-
-+V+1s+Ipfv+Ind:eie # ;
-+V+2s+Ipfv+Ind:eies # ;
-+V+3s+Ipfv+Ind:eit # ;
-+V+1p+Ipfv+Ind:iiens # ;
-+V+2p+Ipfv+Ind:iiez # ;
-+V+3p+Ipfv+Ind:eient # ;
-
-+V+1s+Fut+Ind:rai # ;
-+V+2s+Fut+Ind:ras # ;
-+V+3s+Fut+Ind:ra%{T%} # ;
-+V+1p+Fut+Ind:rons # ;
-+V+2p+Fut+Ind:rez # ;
-+V+2p+Fut+Ind+Gram/Late:roiz # ;
-+V+3p+Fut+Ind:ront # ;
-
-+V+1s+Pres+Sbjv:e # ;
-+V+2s+Pres+Sbjv:es # ;
-+V+3s+Pres+Sbjv:et # ;
-+V+1p+Pres+Sbjv:ons # ;
-+V+2p+Pres+Sbjv:ez # ;
-+V+3p+Pres+Sbjv:ent # ;
-
-+V+1s+Ipfv+Sbjv:usse # ;
-+V+2s+Ipfv+Sbjv:usses # ;
-+V+3s+Ipfv+Sbjv:ust # ;
-+V+1p+Ipfv+Sbjv:ussons # ;
-+V+1p+Ipfv+Sbjv+Grma/Late:ussiens # ;
-+V+2p+Ipfv+Sbjv:ussez # ;
-+V+2p+Ipfv+Sbjv+Gram/Late:ussoiz # ;
-+V+2p+Ipfv+Sbjv+Gram/Late:ussiez # ;
-+V+3p+Ipfv+Sbjv:ussent # ;
-
-+V+1s+Pres+Cond+Gram:reie # ;
-+V+2s+Pres+Cond:reies # ;
-+V+3s+Pres+Cond:reit # ;
-+V+1p+Pres+Cond:riiens # ;
-+V+2p+Pres+Cond:riiez # ;
-+V+3p+Pres+Cond+Gram:reient # ;
-
-+V+2s+Pres+Imp:0 # ;
-+V+1p+Pres+Imp:ons # ;
-+V+2p+Pres+Imp:ez # ;
+PresInd ;
+PerfWkU ;
+IpfvInd ;
+:r FutInd ;
+PresSubj ;
+IpfvSubjWkU ;
+:r Conditional ;
+Imperative ;
 
 LEXICON PastPart
 +Part+Past:é%{T%} PartEndings ;
@@ -285,6 +139,149 @@ LEXICON SPartEndings
 +Fem+Nom+Pl:es # ;
 +Fem+Obl+Pl:es # ;
 
+LEXICON PresInd
++V+1s+Pres+Ind:0 # ;
++V+2s+Pres+Ind:s # ;
++V+3s+Pres+Ind:%{T%} # ;
++V+1p+Pres+Ind:ons # ;
++V+2p+Pres+Ind:ez # ;
++V+3p+Pres+Ind:ent # ;
+
+LEXICON PresSubj
++V+1s+Pres+Sbjv:e # ;
++V+2s+Pres+Sbjv:es # ;
++V+3s+Pres+Sbjv:et # ;
++V+1p+Pres+Sbjv:ons # ;
++V+2p+Pres+Sbjv:ez # ;
++V+3p+Pres+Sbjv:ent # ;
+
+LEXICON Imperative
++V+2s+Pres+Imp:0 # ;
++V+1p+Pres+Imp:ons # ;
++V+2p+Pres+Imp:ez # ;
+
+LEXICON IpfvInd
++V+1s+Ipfv+Ind:eie # ;
++V+2s+Ipfv+Ind:eies # ;
++V+3s+Ipfv+Ind:eit # ;
++V+1p+Ipfv+Ind:iiens # ;
++V+2p+Ipfv+Ind:iiez # ;
++V+3p+Ipfv+Ind:eient # ;
+
+LEXICON FutInd
++V+1s+Fut+Ind:ai # ;
++V+2s+Fut+Ind:as # ;
++V+3s+Fut+Ind:a%{T%} # ;
++V+1p+Fut+Ind:ons # ;
++V+2p+Fut+Ind:ez # ;
++V+2p+Fut+Ind:oiz # ;
++V+3p+Fut+Ind:ont # ;
+
+LEXICON Conditional
++V+1s+Pres+Cond:eie # ;
++V+2s+Pres+Cond:eis # ;
++V+3s+Pres+Cond:eit # ;
++V+1p+Pres+Cond:iiens # ;
++V+2p+Pres+Cond:iiez # ;
++V+3p+Pres+Cond:eient # ;
+
+LEXICON PerfWkA
++V+1s+SPast+Ind:ai # ;
++V+2s+SPast+Ind:as # ;
++V+3s+SPast+Ind:a%{T%} # ;
++V+1p+SPast+Ind:ames # ;
++V+2p+SPast+Ind:astes # ;
++V+3p+SPast+Ind:erent # ;
+
+LEXICON PerfWkI
++V+1s+SPast+Ind:i # ;
++V+2s+SPast+Ind:is # ;
++V+3s+SPast+Ind:i%{T%} # ;
++V+1p+SPast+Ind:imes # ;
++V+2p+SPast+Ind:istes # ;
++V+3p+SPast+Ind:irent # ;
+
+LEXICON PerfWkU
++V+1s+SPast+Ind:ui # ;
++V+2s+SPast+Ind:us # ;
++V+3s+SPast+Ind:u%{T%} # ;
++V+1p+SPast+Ind:umes # ;
++V+2p+SPast+Ind:ustes # ;
++V+3p+SPast+Ind:urent # ;
+
+LEXICON PerfStUS
++V+1s+SPast+Ind:i # ;
++V+3s+SPast+Ind:t # ;
++V+3p+SPast+Ind:rent # ;
+
+LEXICON PerfStUU
++V+2s+SPast+Ind:üs # ;
++V+1p+SPast+Ind:ümes # ;
++V+2p+SPast+Ind:üstes # ;
+
+LEXICON PerfStS
++V+1s+SPast+Ind:s # ;
++V+2s+SPast+Ind:sis # ;
++V+3s+SPast+Ind:st # ;
++V+1p+SPast+Ind:simes # ;
++V+2p+SPast+Ind:sistes # ;
++V+3p+SPast+Ind:strent # ;
+
+LEXICON IpfvSubjWkA
++V+1s+Ipfv+Sbjv:asse # ;
++V+2s+Ipfv+Sbjv:asses # ;
++V+3s+Ipfv+Sbjv:ast # ;
++V+1p+Ipfv+Sbjv:issons # ;
++V+1p+Ipfv+Sbjv:issiens # ;
++V+2p+Ipfv+Sbjv:issez # ;
++V+2p+Ipfv+Sbjv:issiez # ;
++V+2p+Ipfv+Sbjv:isseiz # ;
++V+3p+Ipfv+Sbjv:assent # ;
+
+LEXICON IpfvSubjWkI
++V+1s+Ipfv+Sbjv:isse # ;
++V+2s+Ipfv+Sbjv:isses # ;
++V+3s+Ipfv+Sbjv:ist # ;
++V+1p+Ipfv+Sbjv:issons # ;
++V+1p+Ipfv+Sbjv:issiens # ;
++V+2p+Ipfv+Sbjv:issez # ;
++V+2p+Ipfv+Sbjv:issiez # ;
++V+2p+Ipfv+Sbjv:issoiz # ;
++V+3p+Ipfv+Sbjv:issent # ;
+
+LEXICON IpfvSubjWkU
++V+1s+Ipfv+Sbjv:usse # ;
++V+2s+Ipfv+Sbjv:usses # ;
++V+3s+Ipfv+Sbjv:ust # ;
++V+1p+Ipfv+Sbjv:ussons # ;
++V+1p+Ipfv+Sbjv:ussiens # ;
++V+2p+Ipfv+Sbjv:ussez # ;
++V+2p+Ipfv+Sbjv:ussoiz # ;
++V+2p+Ipfv+Sbjv:ussiez # ;
++V+3p+Ipfv+Sbjv:ussent # ;
+
+LEXICON IpfvSubjStU
++V+1s+Ipfv+Sbjv:üsse # ;
++V+2s+Ipfv+Sbjv:üsses # ;
++V+3s+Ipfv+Sbjv:üst # ;
++V+1p+Ipfv+Sbjv:üssons # ;
++V+1p+Ipfv+Sbjv:üssiens # ;
++V+2p+Ipfv+Sbjv:üssez # ;
++V+2p+Ipfv+Sbjv:üssiez # ;
++V+2p+Ipfv+Sbjv:üssoiz # ;
++V+3p+Ipfv+Sbjv:üssent # ;
+
+LEXICON IpfvSubjStS
++V+1s+Ipfv+Sbjv:sisse # ;
++V+2s+Ipfv+Sbjv:sisses # ;
++V+3s+Ipfv+Sbjv:sist # ;
++V+1p+Ipfv+Sbjv:sissons # ;
++V+1p+Ipfv+Sbjv:sissiens # ;
++V+2p+Ipfv+Sbjv:sissez # ;
++V+2p+Ipfv+Sbjv:sissiez # ;
++V+2p+Ipfv+Sbjv:sissoiz # ;
++V+3p+Ipfv+Sbjv:sissent # ;
+
 LEXICON Avoir
 +V+Inf:aveir # ;
 +V:ai PresPart ;
@@ -313,28 +310,9 @@ LEXICON Avoir
 +V+3p+SPast+Ind+Gram/Early:eürent # ;
 +V+3p+SPast+Ind:orent # ;
 
-+V+1s+Ipfv+Ind:aveie # ;
-+V+2s+Ipfv+Ind:aveis # ;
-+V+3s+Ipfv+Ind:aveit # ;
-+V+1p+Ipfv+Ind:aviiens # ;
-+V+1p+Ipfv+Ind:aviions # ;
-+V+2p+Ipfv+Ind+Gram:aviiez # ;
-+V+3p+Ipfv+Ind:aveient # ;
-
-+V+1s+Fut+Ind+Gram/Early:avrai # ;
-+V+1s+Fut+Ind+Gram/Late:arai # ;
-+V+2s+Fut+Ind+Gram/Early:avras # ;
-+V+2s+Fut+Ind+Gram/Late:aras # ;
-+V+3s+Fut+Ind+Gram/Early:avra%{T%} # ;
-+V+3s+Fut+Ind+Gram/Late:ara%{T%} # ;
-+V+1p+Fut+Ind+Gram/Early:avrons # ;
-+V+1p+Fut+Ind+Gram/Late:arons # ;
-+V+2p+Fut+Ind+Gram/Early:avreiz # ;
-+V+2p+Fut+Ind+Gram/Early:avrez # ;
-+V+2p+Fut+Ind+Gram/Late:areiz # ;
-+V+2p+Fut+Ind+Gram/Late:arez # ;
-+V+3p+Fut+Ind+Gram/Early:avront # ;
-+V+3p+Fut+Ind+Gram/Late:aront # ;
+:av IpfvInd ;
+:avr FutInd ;
+:ar FutInd ;
 
 +V+1s+Pres+Sbjv:aie # ;
 +V+2s+Pres+Sbjv:aies # ;
@@ -345,40 +323,10 @@ LEXICON Avoir
 +V+2p+Pres+Sbjv:aiiez # ;
 +V+3p+Pres+Sbjv:aient # ;
 
-+V+1s+Ipfv+Sbjv+Gram/Early:eüsse # ;
-+V+1s+Ipfv+Sbjv+Gram/Late:oüsse # ;
-+V+2s+Ipfv+Sbjv+Gram/Early:eüsses # ;
-+V+2s+Ipfv+Sbjv+Gram/Late:oüsses # ;
-+V+3s+Ipfv+Sbjv+Gram/Early:eüst # ;
-+V+3s+Ipfv+Sbjv+Gram/Late:oüst # ;
-+V+1p+Ipfv+Sbjv+Gram/Early:eüssons # ;
-+V+1p+Ipfv+Sbjv+Gram/Early:eüssiens # ;
-+V+1p+Ipfv+Sbjv+Gram/Late:oüssons # ;
-+V+1p+Ipfv+Sbjv+Gram/Late:oüssiens # ;
-+V+2p+Ipfv+Sbjv+Gram/Early:eüsseiz # ;
-+V+2p+Ipfv+Sbjv+Gram/Early:eüssez # ;
-+V+2p+Ipfv+Sbjv+Gram/Early:eüssiez # ;
-+V+2p+Ipfv+Sbjv+Gram/Late:oüsseiz # ;
-+V+2p+Ipfv+Sbjv+Gram/Late:oüssez # ;
-+V+2p+Ipfv+Sbjv+Gram/Late:oüssiez # ;
-+V+3p+Ipfv+Sbjv+Gram/Early:eüssent # ;
-+V+3p+Ipfv+Sbjv+Gram/Early:oüssent # ;
-
-+V+1s+Pres+Cond+Gram/Early:avreie # ;
-+V+1s+Pres+Cond+Gram/Late:areie # ;
-+V+2s+Pres+Cond+Gram/Early:avreies # ;
-+V+2s+Pres+Cond+Gram/Late:areies # ;
-+V+3s+Pres+Cond+Gram/Early:avreit # ;
-+V+3s+Pres+Cond+Gram/Late:areit # ;
-+V+3s+Pres+Cond+Gram/Late:areit # ;
-+V+1p+Pres+Cond+Gram/Early:avriiens # ;
-+V+1p+Pres+Cond+Gram/Early:avrions # ;
-+V+1p+Pres+Cond+Gram/Late:ariiens # ;
-+V+1p+Pres+Cond+Gram/Late:arions # ;
-+V+2p+Pres+Cond+Gram/Early:avriiez # ;
-+V+2p+Pres+Cond+Gram/Late:ariiez # ;
-+V+3p+Pres+Cond+Gram/Early:avreient # ;
-+V+3p+Pres+Cond+Gram/Late:areient # ;
+:e IpfvSubjStU ;
+:o IpfvSubjStU ;
+:avr Conditional ;
+:ar Conditional ;
 
 +V+2s+Pres+Imp:aies # ;
 +V+1p+Pres+Imp:aiiens # ;
@@ -400,59 +348,36 @@ LEXICON Estre
 +V+3p+Pres+Ind:sont # ;
 +V+3p+Pres+Ind:sunt # ;
 
-+V+1s+SPast+Ind:fui # ;
-+V+2s+SPast+Ind:fus # ;
-+V+3s+SPast+Ind:fu%{T%} # ;
+:f PerfWkU ;
 +V+3s+SPast+Ind:fud # ;
-+V+1p+SPast+Ind:fumes # ;
-+V+2p+SPast+Ind:fustes # ;
-+V+3p+SPast+Ind:furent # ;
+:est IpfvInd ;
 
 +V+1s+Ipfv+Ind+Gram/Early:ere # ;
 +V+1s+Ipfv+Ind+Gram/Early:iere # ;
-+V+1s+Ipfv+Ind+Gram/Late:esteie # ;
 +V+2s+Ipfv+Ind+Gram/Early:eres # ;
 +V+2s+Ipfv+Ind+Gram/Early:ieres # ;
-+V+2s+Ipfv+Ind+Gram/Late:esteies # ;
 +V+3s+Ipfv+Ind+Gram/Early:eret # ;
 +V+3s+Ipfv+Ind+Gram/Early:ieret # ;
 +V+3s+Ipfv+Ind+Gram/Early:ert # ;
 +V+3s+Ipfv+Ind+Gram/Early:iert # ;
-+V+3s+Ipfv+Ind+Gram/Late:esteit # ;
 +V+1p+Ipfv+Ind+Gram/Early:eriiens # ;
 +V+1p+Ipfv+Ind+Gram/Early:erions # ;
-+V+1p+Ipfv+Ind+Gram/Late:estiiens # ;
-+V+1p+Ipfv+Ind+Gram/Late:estions # ;
 +V+2p+Ipfv+Ind+Gram/Early:eriiez # ;
-+V+2p+Ipfv+Ind+Gram/Late:estiiez # ;
 +V+3p+Ipfv+Ind+Gram/Early:erent # ;
 +V+3p+Ipfv+Ind+Gram/Early:ierent # ;
-+V+3p+Ipfv+Ind+Gram/Late:esteient # ;
 
+:ser FutInd ;
+:estr FutInd ;
 +V+1s+Fut+Ind+Gram/Early:er # ;
 +V+1s+Fut+Ind+Gram/Early:ier # ;
-+V+1s+Fut+Ind+Gram/Late:serai # ;
-+V+1s+Fut+Ind+Gram/Late:estrai # ;
 +V+2s+Fut+Ind+Gram/Early:ers # ;
 +V+2s+Fut+Ind+Gram/Early:iers # ;
-+V+2s+Fut+Ind+Gram/Late:seras # ;
-+V+2s+Fut+Ind+Gram/Late:estras # ;
 +V+3s+Fut+Ind+Gram/Early:ert # ;
 +V+3s+Fut+Ind+Gram/Early:iert # ;
-+V+3s+Fut+Ind+Gram/Late:sera%{T%} # ;
-+V+3s+Fut+Ind+Gram/Late:estra%{T%} # ;
 +V+1p+Fut+Ind+Gram/Early:ermes # ;
 +V+1p+Fut+Ind+Gram/Early:iermes # ;
-+V+1p+Fut+Ind+Gram/Late:serons # ;
-+V+1p+Fut+Ind+Gram/Late:estrons # ;
-+V+2p+Fut+Ind:serez # ;
-+V+2p+Fut+Ind:sereiz # ;
-+V+2p+Fut+Ind:estreiz # ;
-+V+2p+Fut+Ind:estrez # ;
 +V+3p+Fut+Ind+Gram/Early:erent # ;
 +V+3p+Fut+Ind+Gram/Early:ierent # ;
-+V+3p+Fut+Ind+Gram/Late:seront # ;
-+V+3p+Fut+Ind+Gram/Late:estront # ;
 
 +V+1s+Pres+Sbjv:seie # ;
 +V+2s+Pres+Sbjv:seies # ;
@@ -460,40 +385,17 @@ LEXICON Estre
 +V+1p+Pres+Sbjv:seiiens # ;
 +V+1p+Pres+Sbjv:seions # ;
 +V+2p+Pres+Sbjv:seiiez # ;
-+V+2p+Pres+Sbjv:soiiez # ;
 +V+3p+Pres+Sbjv:seient # ;
 
-+V+1s+Ipfv+Sbjv:fusse # ;
-+V+2s+Ipfv+Sbjv:fusses # ;
-+V+3s+Ipfv+Sbjv:fust # ;
+:f IpfvSubjWkU ;
 +V+3s+Ipfv+Sbjv:feust # ;
-+V+1p+Ipfv+Sbjv:fussons # ;
-+V+1p+Ipfv+Sbjv:fussiens # ;
-+V+2p+Ipfv+Sbjv:fusseiz # ;
-+V+2p+Ipfv+Sbjv:fussez # ;
-+V+2p+Ipfv+Sbjv:fussiez # ;
-+V+3p+Ipfv+Sbjv:fussent # ;
 
-+V+1s+Pres+Cond+Gram/Early:sereie # ;
-+V+1s+Pres+Cond+Gram/Late:estreie # ;
-+V+2s+Pres+Cond+Gram/Early:sereies # ;
-+V+2s+Pres+Cond+Gram/Late:estreies # ;
-+V+3s+Pres+Cond+Gram/Early:sereit # ;
-+V+3s+Pres+Cond+Gram/Late:estreit # ;
-+V+1p+Pres+Cond+Gram/Early:seriiens # ;
-+V+1p+Pres+Cond+Gram/Early:serions # ;
-+V+1p+Pres+Cond+Gram/Late:estriiens # ;
-+V+1p+Pres+Cond+Gram/Late:estrions # ;
-+V+2p+Pres+Cond+Gram/Early:seriiez # ;
-+V+2p+Pres+Cond+Gram/Late:estriiez # ;
-+V+3p+Pres+Cond+Gram/Early:sereient # ;
-+V+3p+Pres+Cond+Gram/Late:estreient # ;
+:ser Conditional ;
+:estr Conditional ;
 
 +V+2s+Pres+Imp:seies # ;
 +V+1p+Pres+Imp:seiiens # ;
-+V+1p+Pres+Imp:seions # ;
 +V+2p+Pres+Imp:seiiez # ;
-
 
 LEXICON Faire
 +V+Inf:faire # ;
@@ -520,40 +422,19 @@ LEXICON Faire
 +V+3p+Pres+Ind:font # ;
 +V+3p+Pres+Ind:funt # ;
 
+:fe PerfStS ;
+:fi PerfStS ;
 +V+1s+SPast+Ind:fi # ;
 +V+1s+SPast+Ind:fe # ;
-+V+1s+SPast+Ind:fis # ;
-+V+1s+SPast+Ind:fes # ;
-+V+1s+SPast+Ind:fesis # ;
-+V+2s+SPast+Ind:fisis # ;
-+V+3s+SPast+Ind:fist # ;
-+V+3s+SPast+Ind:fest # ;
 +V+3s+SPast+Ind:fesist # ;
-+V+1p+SPast+Ind:fisimes # ;
-+V+1p+SPast+Ind:fesimes # ;
-+V+2p+SPast+Ind:fisistes # ;
-+V+2p+SPast+Ind:fesistes # ;
 +V+3p+SPast+Ind:fisent # ;
 +V+3p+SPast+Ind:fesent # ;
 +V+3p+SPast+Ind:firent # ;
 
-+V+1s+Ipfv+Ind:faiseie # ;
-+V+2s+Ipfv+Ind:faiseies # ;
-+V+3s+Ipfv+Ind:faiseit # ;
-+V+1p+Ipfv+Ind+Gram/Early:faisiiens # ;
-+V+1p+Ipfv+Ind+Gram/Late:faisons # ;
-+V+2p+Ipfv+Ind+Gram/Early:faisiiez # ;
-+V+2p+Ipfv+Ind+Gram/Late:faissez # ;
+:fais IpfvInd ;
 +V+3p+Ipfv+Ind+Gram/Early:faisent # ;
-+V+3p+Ipfv+Ind:faiseient # ;
 
-+V+1s+Fut+Ind:ferai # ;
-+V+2s+Fut+Ind:feras # ;
-+V+3s+Fut+Ind:fera%{T%} # ;
-+V+1p+Fut+Ind:ferons # ;
-+V+2p+Fut+Ind:ferez # ;
-+V+3p+Fut+Ind:ferent # ;
-+V+3p+Fut+Ind:feront # ;
+:fer FutInd ;
 
 +V+1s+Pres+Sbjv:face # ;
 +V+2s+Pres+Sbjv:faces # ;
@@ -564,17 +445,12 @@ LEXICON Faire
 +V+2p+Pres+Sbjv:faciez # ;
 +V+3p+Pres+Sbjv:facent # ;
 
-+V+1s+Ipfv+Sbjv:fesisse # ;
-+V+2s+Ipfv+Sbjv:fesisses # ;
-+V+3s+Ipfv+Sbjv:fesisst # ;
-+V+1p+Ipfv+Sbjv:fesissons # ;
-+V+2p+Ipfv+Sbjv:fesissez # ;
-+V+3p+Ipfv+Sbjv:fesissent # ;
+:fe IpfvSubjStS ;
+:fer Conditional ;
 
 +V+1s+Pres+Cond:ferais # ;
 +V+2s+Pres+Cond:ferais # ;
 +V+3s+Pres+Cond:ferait # ;
-+V+3s+Pres+Cond:feroit # ;
 +V+1p+Pres+Cond:ferions # ;
 +V+2p+Pres+Cond:feriez # ;
 +V+3p+Pres+Cond:feraient # ;
@@ -598,55 +474,20 @@ LEXICON Dire
 +V+2p+Pres+Ind:dites # ;
 +V+3p+Pres+Ind:dient # ;
 
+:di PerfStS ;
 +V+1s+SPast+Ind:di # ;
-+V+2s+SPast+Ind:disis # ;
-+V+3s+SPast+Ind:dist # ;
-+V+1p+SPast+Ind:disimes # ;
-+V+2p+SPast+Ind:distes # ;
 +V+3p+SPast+Ind:disent # ;
 
-+V+1s+Ipfv+Ind:diseie # ;
-+V+2s+Ipfv+Ind:diseies # ;
-+V+3s+Ipfv+Ind:diseit # ;
-+V+1p+Ipfv+Ind+Gram/Early:disiiens # ;
-+V+1p+Ipfv+Ind+Gram/Late:disons # ;
-+V+2p+Ipfv+Ind+Gram/Early:disiiez # ;
-+V+2p+Ipfv+Ind+Gram/Late:dissez # ;
-+V+3p+Ipfv+Ind+Gram/Early:disent # ;
-+V+3p+Ipfv+Ind:diseient # ;
+:dis IpfvInd ;
+:dir FutInd ;
+:di PresSubj ;
 
-+V+1s+Fut+Ind:dirai # ;
-+V+2s+Fut+Ind:diras # ;
-+V+3s+Fut+Ind:dira%{T%} # ;
-+V+1p+Fut+Ind:dirons # ;
-+V+2p+Fut+Ind:direz # ;
-+V+3p+Fut+Ind:dirent # ;
-+V+3p+Fut+Ind:diront # ;
-
-+V+1s+Pres+Sbjv:die # ;
-+V+2s+Pres+Sbjv:dies # ;
-+V+3s+Pres+Sbjv:diet # ;
 +V+3s+Pres+Sbjv:diest # ; ! plural?
 +V+1p+Pres+Sbjv:diiens # ;
-+V+1p+Pres+Sbjv:dions # ;
-+V+2p+Pres+Sbjv:diiez # ;
 +V+2p+Pres+Sbjv:disiez # ;
-+V+3p+Pres+Sbjv:dient # ;
 
-+V+1s+Ipfv+Sbjv:desisse # ;
-+V+2s+Ipfv+Sbjv:desisses # ;
-+V+3s+Ipfv+Sbjv:desisst # ;
-+V+1p+Ipfv+Sbjv:desissons # ;
-+V+2p+Ipfv+Sbjv:desissez # ;
-+V+3p+Ipfv+Sbjv:desissent # ;
-
-+V+1s+Pres+Cond:dirais # ;
-+V+2s+Pres+Cond:dirais # ;
-+V+3s+Pres+Cond:dirait # ;
-+V+3s+Pres+Cond:diroit # ;
-+V+1p+Pres+Cond:dirions # ;
-+V+2p+Pres+Cond:diriez # ;
-+V+3p+Pres+Cond:diraient # ;
+:des IpfvSubjWkI ;
+:dir Cond ;
 
 +V+2s+Pres+Imp:di # ;
 +V+1p+Pres+Imp:disons # ;
@@ -665,62 +506,21 @@ LEXICON Devoir
 +V+2p+Pres+Ind:devez # ;
 +V+3p+Pres+Ind:devent # ;
 
-+V+1s+SPast+Ind:dui # ;
-+V+2s+SPast+Ind:deüs # ;
-+V+3s+SPast+Ind:deü%{T%} # ;
+:d PerfStUS ;
+:de PerfStUU ;
 +V+3s+SPast+Ind:dü%{T%} # ;
-+V+1p+SPast+Ind:deümes # ;
-+V+2p+SPast+Ind:deüstes # ;
-+V+3p+SPast+Ind:durent # ;
 
-! Mostly guesses
-+V+1s+Ipfv+Ind:deveie # ;
-+V+2s+Ipfv+Ind:deveies # ;
-+V+3s+Ipfv+Ind:deveit # ;
-+V+1p+Ipfv+Ind:deviiens # ;
-+V+1p+Ipfv+Ind:deviions # ;
-+V+2p+Ipfv+Ind:deviiez # ;
-+V+3p+Ipfv+Ind:deveient # ;
+:dev IpfvInd ; ! Verify
+:devr FutInd ;
++V+1p+Fut+Ind:devrames # ; ! Verify
 
-+V+1s+Fut+Ind:devrai # ;
-+V+2s+Fut+Ind:devras # ;
-+V+3s+Fut+Ind:devra%{T%} # ;
-+V+1p+Fut+Ind:devrames # ;
-+V+2p+Fut+Ind:devrez # ;
-+V+2p+Fut+Ind:devreiz # ;
-+V+3p+Fut+Ind:devront # ;
-
-+V+1s+Pres+Sbjv:deie # ;
-+V+1s+Pres+Sbjv:deive # ;
-+V+2s+Pres+Sbjv:deies # ;
-+V+2s+Pres+Sbjv:deives # ;
-+V+3s+Pres+Sbjv:deiet # ;
-+V+3s+Pres+Sbjv:deivet # ;
-+V+1p+Pres+Sbjv:deiiens # ;
+:dei PresSubj ;
+:deiv PresSubj ;
 +V+1p+Pres+Sbjv:devons # ;
-+V+2p+Pres+Sbjv:deiiez # ;
 +V+2p+Pres+Sbjv:devez # ;
-+V+3p+Pres+Sbjv:deient # ;
-+V+3p+Pres+Sbjv:deivent # ;
 
-! Verify
-+V+1s+Ipfv+Sbjv:deüsse # ;
-+V+2s+Ipfv+Sbjv:deüsse # ;
-+V+3s+Ipfv+Sbjv:deüsst # ;
-+V+3s+Ipfv+Sbjv:deüst # ;
-+V+1p+Ipfv+Sbjv:deüssiiens # ;
-+V+2p+Ipfv+Sbjv:deüssez # ;
-+V+2p+Ipfv+Sbjv:deüssiez # ;
-+V+2p+Ipfv+Sbjv:deüsseiz # ;
-+V+3p+Ipfv+Sbjv:deüssent # ;
-
-! Verify
-+V+1s+Pres+Cond:devreie # ;
-+V+2s+Pres+Cond:devreis # ;
-+V+3s+Pres+Cond:devreit # ;
-+V+1p+Pres+Cond:devriiens # ;
-+V+2p+Pres+Cond:devriiez # ;
-+V+3p+Pres+Cond:devreient # ;
+:de IpfvSubjStU ;
+:devr Conditional ;
 
 ! +V+2s+Pres+Imp:? # ; ! Unknown
 +V+1p+Pres+Imp:devons # ; ! Verify
@@ -731,28 +531,13 @@ LEXICON Xenir
 +V:en PresPart ;
 +V+Part+Past:enu PartEndings ;
 
-+V+1s+Pres+Ind:ien # ;
-+V+1s+Pres+Ind:ieng # ;
-+V+1s+Pres+Ind:iegn # ;
-+V+1s+Pres+Ind:iengn # ;
-+V+1s+Pres+Ind:ieign # ;
-+V+2s+Pres+Ind:iens # ;
-+V+2s+Pres+Ind:iengs # ;
-+V+2s+Pres+Ind:iegns # ;
-+V+2s+Pres+Ind:iengns # ;
-+V+2s+Pres+Ind:ieigns # ;
-+V+3s+Pres+Ind:ient # ;
-+V+3s+Pres+Ind:iengt # ;
-+V+3s+Pres+Ind:iegnt # ;
-+V+3s+Pres+Ind:iengnt # ;
-+V+3s+Pres+Ind:ieignt # ;
+:ien PresInd ;
+:ieng PresInd ;
+:iegn PresInd ;
+:iengn PresInd ;
+:ieign PresInd ;
 +V+1p+Pres+Ind:enons # ;
 +V+2p+Pres+Ind:enez # ;
-+V+3p+Pres+Ind:ienent # ;
-+V+3p+Pres+Ind:iengent # ;
-+V+3p+Pres+Ind:iegnent # ;
-+V+3p+Pres+Ind:iengnent # ;
-+V+3p+Pres+Ind:ieignent # ;
 
 +V+1s+SPast+Ind:in # ;
 +V+2s+SPast+Ind:enis # ;
@@ -762,72 +547,21 @@ LEXICON Xenir
 +V+3p+SPast+Ind:indrent # ;
 +V+3p+SPast+Ind:inrent # ;
 
-+V+1s+Ipfv+Ind:eneie # ;
-+V+2s+Ipfv+Ind:eneies # ;
-+V+3s+Ipfv+Ind:eneit # ;
-+V+1p+Ipfv+Ind:eniiens # ; ! Guess
-+V+2p+Ipfv+Ind:eniiez # ; ! Guess
-+V+3p+Ipfv+Ind:enent # ; ! Guess
+:en IpfvInd ; ! Verify
+:endr FutInd ;
 
-+V+1s+Fut+Ind:endrai # ; 
-+V+2s+Fut+Ind:endras # ;
-+V+3s+Fut+Ind:endrat # ;
-+V+1p+Fut+Ind:endrons # ;
-+V+2p+Fut+Ind:endrez # ;
-+V+2p+Fut+Ind:endreiz # ;
-+V+3p+Fut+Ind:endront # ;
+:ien PresSubj ;
+:ieng PresSubj ;
+:iegn PresSubj ;
+:iengn PresSubj ;
+:ieign PresSubj ;
+:eng PresSubj ;
++V+3p+Pres+Sbjv:egnent # ; ! Verify
 
-+V+1s+Pres+Sbjv:iegne # ;
-+V+1s+Pres+Sbjv:ieigne # ;
-+V+1s+Pres+Sbjv:ienge # ;
-+V+1s+Pres+Sbjv:iengne # ;
-+V+1s+Pres+Sbjv:egne # ;
-+V+2s+Pres+Sbjv:iegnes # ;
-+V+2s+Pres+Sbjv:ieignes # ;
-+V+2s+Pres+Sbjv:ienges # ;
-+V+2s+Pres+Sbjv:iengnes # ;
-+V+2s+Pres+Sbjv:egnes # ;
-+V+3s+Pres+Sbjv:iegnet # ;
-+V+3s+Pres+Sbjv:ieignet # ;
-+V+3s+Pres+Sbjv:ienget # ;
-+V+3s+Pres+Sbjv:iengnet # ;
-+V+3s+Pres+Sbjv:egnet # ;
-+V+1p+Pres+Sbjv:iegniens # ;
-+V+1p+Pres+Sbjv:iengiens # ;
-+V+1p+Pres+Sbjv:ieigniens # ;
-+V+1p+Pres+Sbjv:iengniens # ;
-+V+1p+Pres+Sbjv:engiens # ;
-+V+1p+Pres+Sbjv:iegnions # ;
-+V+1p+Pres+Sbjv:iengions # ;
-+V+1p+Pres+Sbjv:ieignions # ;
-+V+1p+Pres+Sbjv:iengnions # ;
-+V+1p+Pres+Sbjv:engions # ;
-+V+2p+Pres+Sbjv:iegniez # ;
-+V+2p+Pres+Sbjv:iengiez # ;
-+V+2p+Pres+Sbjv:ieigniez # ;
-+V+2p+Pres+Sbjv:iengniez # ;
-+V+2p+Pres+Sbjv:engiez # ;
-+V+3p+Pres+Sbjv:ent # ;
-+V+3p+Pres+Sbjv:iegnent # ;
-+V+3p+Pres+Sbjv:ieignent # ;
-+V+3p+Pres+Sbjv:iengent # ;
-+V+3p+Pres+Sbjv:iengnent # ;
-+V+3p+Pres+Sbjv:egnent # ;
-
-+V+1s+Ipfv+Sbjv:enisse # ;
-+V+2s+Ipfv+Sbjv:enisses # ;
-+V+3s+Ipfv+Sbjv:enisst # ;
-+V+1p+Ipfv+Sbjv:enissons # ;
-+V+1p+Ipfv+Sbjv:enissiens # ;
+:en IpfvSubjWkI ;
 +V+2p+Ipfv+Sbjv:enistes # ;
-+V+3p+Ipfv+Sbjv:enissent # ;
 
-+V+1s+Pres+Cond:endroie # ;
-+V+2s+Pres+Cond:endroies # ;
-+V+3s+Pres+Cond:endroit # ;
-+V+1p+Pres+Cond:endrions # ;
-+V+2p+Pres+Cond:endriez # ;
-+V+3p+Pres+Cond:endrient # ;
+:endr Conditional ;
 
 +V+2s+Pres+Imp:ien # ;
 +V+1p+Pres+Imp:enons # ;
@@ -849,58 +583,14 @@ LEXICON Aler
 +V+2p+Pres+Ind:alez # ;
 +V+3p+Pres+Ind:vont # ;
 
-+V+1s+SPast+Ind:al%>ai # ;
-+V+2s+SPast+Ind:al%>as # ;
-+V+3s+SPast+Ind:al%>a%{T%} # ;
-+V+1p+SPast+Ind:al%>ames # ;
-+V+2p+SPast+Ind:al%>astes # ;
-+V+3p+SPast+Ind:al%>erent # ;
-
-+V+1s+Ipfv+Ind:al%>eie # ;
-+V+2s+Ipfv+Ind:al%>eies # ;
-+V+3s+Ipfv+Ind:al%>eit # ;
-+V+1p+Ipfv+Ind:al%>iiens # ;
-+V+2p+Ipfv+Ind:al%>iiez # ;
-+V+3p+Ipfv+Ind:al%>eient # ;
-
-+V+1s+Fut+Ind:irai # ;
-+V+2s+Fut+Ind:iras # ;
-+V+3s+Fut+Ind:ira%{T%} # ;
-+V+1p+Fut+Ind:irons # ;
-+V+2p+Fut+Ind:irez # ;
-+V+2p+Fut+Ind:ireiz # ;
-+V+3p+Fut+Ind:iront # ;
-
-+V+1s+Pres+Sbjv:voise # ;
-+V+1s+Pres+Sbjv:aille # ;
-+V+2s+Pres+Sbjv:voises # ;
-+V+2s+Pres+Sbjv:ailles # ;
-+V+3s+Pres+Sbjv:voiset # ;
+:al%> PerfWkA ;
+:al%> IpfvInd ;
+:ir FutInd ;
+:vois PresSubj ;
+:aill PresSubj ;
 +V+3s+Pres+Sbjv:voist # ;
-+V+3s+Pres+Sbjv:aillet # ;
-+V+1p+Pres+Sbjv:voisons # ;
-+V+1p+Pres+Sbjv:aillons # ;
-+V+2p+Pres+Sbjv:voisez # ;
-+V+2p+Pres+Sbjv:ailliez # ;
-+V+3p+Pres+Sbjv:voisent # ;
-+V+3p+Pres+Sbjv:aillent # ;
-
-+V+1s+Ipfv+Sbjv:al%>asse # ;
-+V+2s+Ipfv+Sbjv:al%>asses # ;
-+V+3s+Ipfv+Sbjv:al%>ast # ;
-+V+1p+Ipfv+Sbjv:al%>issons # ;
-+V+1p+Ipfv+Sbjv:al%>issiens # ;
-+V+2p+Ipfv+Sbjv:al%>issez # ;
-+V+2p+Ipfv+Sbjv:al%>issiez # ;
-+V+2p+Ipfv+Sbjv:al%>isseiz # ;
-+V+3p+Ipfv+Sbjv:al%>assent # ;
-
-+V+1s+Pres+Cond:ireie # ;
-+V+2s+Pres+Cond:ireis # ;
-+V+3s+Pres+Cond:ireit # ;
-+V+1p+Pres+Cond:iriiens # ;
-+V+2p+Pres+Cond:iriiez # ;
-+V+3p+Pres+Cond:ireient # ;
+:al%> IpfvSubjWkA ;
+:ir Conditional ;
 
 +V+2s+Pres+Imp:va # ;
 +V+2s+Pres+Imp:vas # ;
@@ -918,7 +608,7 @@ LEXICON Veoir
 +V+Part+Past:vis PartEndings ;
 
 +V+1s+Pres+Ind:vei # ;
-+V+2s+Pres+Ind:veiz # ;
++V+2s+Pres+Ind:veis # ;
 +V+3s+Pres+Ind:veit # ;
 +V+1p+Pres+Ind:veons # ;
 +V+2p+Pres+Ind:veez # ;
@@ -938,13 +628,7 @@ LEXICON Veoir
 +V+2p+Ipfv+Ind:veeiz # ; ! Verify
 +V+3p+Ipfv+Ind:veeient # ; ! Verify
 
-+V+1s+Fut+Ind:verrai # ;
-+V+2s+Fut+Ind:verras # ;
-+V+3s+Fut+Ind:verra%{T%} # ;
-+V+1p+Fut+Ind:verrons # ;
-+V+2p+Fut+Ind:verrez # ;
-+V+2p+Fut+Ind:verreiz # ;
-+V+3p+Fut+Ind:verrront # ;
+:ver%> FutInd ;
 
 +V+1s+Pres+Sbjv:veie # ;
 +V+2s+Pres+Sbjv:veies # ;
@@ -966,15 +650,7 @@ LEXICON Veoir
 +V+2p+Ipfv+Sbjv:veïsseiz # ;
 +V+3p+Ipfv+Sbjv:veïssent # ;
 
-! Verify
-+V+1s+Pres+Cond:verreie # ;
-+V+2s+Pres+Cond:verreis # ;
-+V+3s+Pres+Cond:verreit # ;
-+V+1p+Pres+Cond+Gram/Early:verriiens # ;
-+V+1p+Pres+Cond+Gram/Late:verriions # ;
-+V+2p+Pres+Cond+Gram/Early:verriiez # ;
-+V+2p+Pres+Cond+Gram/Late:verriiez # ;
-+V+3p+Pres+Cond:verreient # ;
+:ver%> Conditional ;
 
 +V+2s+Pres+Imp:voi # ;
 +V+1p+Pres+Imp:veons # ;
@@ -1022,34 +698,10 @@ LEXICON Voloir
 +V+3p+SPast+Ind:voldrent # ;
 +V+3p+SPast+Ind:voudrent # ;
 
-! Verify vol forms
-+V+1s+Ipfv+Ind:voleie # ;
-+V+1s+Ipfv+Ind:vouleie # ;
-+V+2s+Ipfv+Ind:voleies # ;
-+V+2s+Ipfv+Ind:vouleies # ;
-+V+3s+Ipfv+Ind:voleit # ;
-+V+3s+Ipfv+Ind:vouleit # ;
-+V+1p+Ipfv+Ind:voliiens # ;
-+V+1p+Ipfv+Ind:vouliiens # ;
-+V+2p+Ipfv+Ind:voliiez # ;
-+V+2p+Ipfv+Ind:vouliiez # ;
-+V+3p+Ipfv+Ind:voleient # ;
-+V+3p+Ipfv+Ind:vouleient # ;
-
-+V+1s+Fut+Ind:voldrai # ;
-+V+1s+Fut+Ind:voudrai # ;
-+V+2s+Fut+Ind:voldras # ;
-+V+2s+Fut+Ind:voudras # ;
-+V+3s+Fut+Ind:voldrat # ;
-+V+3s+Fut+Ind:voudrat # ;
-+V+1p+Fut+Ind:voldrons # ;
-+V+1p+Fut+Ind:voudrons # ;
-+V+2p+Fut+Ind:voldrez # ;
-+V+2p+Fut+Ind:voudrez # ;
-+V+2p+Fut+Ind:voldreiz # ;
-+V+2p+Fut+Ind:voudreiz # ;
-+V+3p+Fut+Ind:voldront # ;
-+V+3p+Fut+Ind:voudront # ;
+:vol IpfvInd ; ! Verify
+:voul IpfvInd ;
+:voldr FutInd ;
+:voudr FutInd ;
 
 ! Alternate forms for 1p and 2p?
 +V+1s+Pres+Sbjv:vueille # ;
@@ -1069,29 +721,10 @@ LEXICON Voloir
 +V+3p+Pres+Sbjv:veillent # ;
 +V+3p+Pres+Sbjv:vuellent # ;
 
-+V+1s+Ipfv+Sbjv:volisse # ;
-+V+1s+Ipfv+Sbjv:volsisse # ;
-+V+1s+Ipfv+Sbjv:vousisse # ;
-+V+2s+Ipfv+Sbjv:volisses # ;
-+V+2s+Ipfv+Sbjv:volsisses # ;
-+V+2s+Ipfv+Sbjv:vousisses # ;
-+V+3s+Ipfv+Sbjv:volisst # ; ! Check
-+V+3s+Ipfv+Sbjv:volsisst # ;
-+V+3s+Ipfv+Sbjv:vousisst # ;
-+V+1p+Ipfv+Sbjv:volissons # ;
-+V+1p+Ipfv+Sbjv:vouissons # ;
-+V+1p+Ipfv+Sbjv:volissiens # ;
-+V+1p+Ipfv+Sbjv:vouissiens # ;
-+V+2p+Ipfv+Sbjv:volissez # ;
-+V+2p+Ipfv+Sbjv:vouissez # ;
-+V+2p+Ipfv+Sbjv:volissiez # ;
-+V+2p+Ipfv+Sbjv:vouissiez # ;
-+V+2p+Ipfv+Sbjv:volisseiz # ;
-+V+2p+Ipfv+Sbjv:vouisseiz # ;
-+V+3p+Ipfv+Sbjv:volassent # ;
-+V+3p+Ipfv+Sbjv:vouassent # ;
-
-! Conditional unknown
+:vol IpfvSubjWkI ;
+:vols IpfvSubjWkI ;
+:vous IpfvSubjWkI ;
+:voudr Conditional ; ! Verify
 
 +V+2s+Pres+Imp:vueilles # ;
 +V+2s+Pres+Imp:veilles # ;
@@ -1114,77 +747,29 @@ LEXICON Prendre
 +V+Part+Past:pris SPartEndings ;
 +V+Part+Past:prins SPartEndings ;
 
+:pren PresInd ;
 +V+1s+Pres+Ind:preign # ;
-+V+1s+Pres+Ind:pren # ;
-+V+2s+Pres+Ind:prenz # ;
-+V+3s+Pres+Ind:prent # ;
-+V+1p+Pres+Ind:prenons # ;
-+V+2p+Pres+Ind:prenez # ;
-+V+3p+Pres+Ind:prenent # ;
 
-+V+1s+SPast+Ind:pris # ;
-+V+2s+SPast+Ind:presis # ;
-+V+3s+SPast+Ind:prist # ;
-+V+3s+SPast+Ind:prest # ;
+:pri PerfStS ;
+:pre PerfStS ;
 +V+3s+SPast+Ind:print # ;
-+V+1p+SPast+Ind:presimes # ;
-+V+2p+SPast+Ind:presistes # ;
-+V+3p+SPast+Ind:pristrent # ;
 
-+V+1s+Ipfv+Ind:preneie # ;
-+V+2s+Ipfv+Ind:preneies # ;
-+V+3s+Ipfv+Ind:preneit # ;
-+V+1p+Ipfv+Ind:preniiens # ;
-+V+2p+Ipfv+Ind:preniiez # ;
-+V+3p+Ipfv+Ind:preneient # ;
-
-+V+1s+Fut+Ind:prendrai # ;
-+V+2s+Fut+Ind:prendras # ;
-+V+3s+Fut+Ind:prendrat # ;
-+V+1p+Fut+Ind:prendrons # ;
-+V+2p+Fut+Ind:prendrez # ;
-+V+2p+Fut+Ind:prendreiz # ;
-+V+3p+Fut+Ind:prendront # ;
-
-+V+1s+Pres+Sbjv:preigne # ;
+:pren%> IpfvInd ;
+:prendr FutInd ;
+:preigne PresSubj ;
+:pren%> PresSubj ; ! Verify
 +V+1s+Pres+Sbjv:prenge # ;
-+V+1s+Pres+Sbjv:prenne # ;
 +V+1s+Pres+Sbjv:praigne # ;
-+V+2s+Pres+Sbjv:preignes # ;
-+V+3s+Pres+Sbjv:preignet # ;
 +V+3s+Pres+Sbjv:preingne # ;
 +V+3s+Pres+Sbjv:prengne # ;
 +V+3s+Pres+Sbjv:prende # ;
 +V+3s+Pres+Sbjv:prangne # ;
-+V+1p+Pres+Sbjv:prenons # ;
-+V+1p+Pres+Sbjv:preigniens # ;
-+V+1p+Pres+Sbjv:preignions # ;
-+V+2p+Pres+Sbjv:prenez # ;
-+V+2p+Pres+Sbjv:preigniez # ;
 +V+3p+Pres+Sbjv:pregnent # ;
-+V+3p+Pres+Sbjv:preignent # ;
 
-! Verify
-+V+1s+Ipfv+Sbjv:presisse # ;
-+V+2s+Ipfv+Sbjv:presisses # ;
-+V+3s+Ipfv+Sbjv:presist # ;
-+V+1p+Ipfv+Sbjv:presissons # ;
-+V+1p+Ipfv+Sbjv:presissiens # ;
-+V+2p+Ipfv+Sbjv:presissez # ;
-+V+2p+Ipfv+Sbjv:presissiez # ;
-+V+2p+Ipfv+Sbjv:presisseiz # ;
-+V+3p+Ipfv+Sbjv:presissent # ;
-
-+V+1s+Pres+Cond:prendreie # ;
-+V+2s+Pres+Cond:prendreis # ;
-+V+3s+Pres+Cond:prendreit # ;
+:pre IpfvSubjStS ;
+:prendr FutInd ;
 +V+3s+Pres+Cond:prandreit # ;
 +V+3s+Pres+Cond:prendereit # ;
-+V+1p+Pres+Cond+Gram/Early:prendriiens # ;
-+V+1p+Pres+Cond+Gram/Late:prendriions # ;
-+V+2p+Pres+Cond+Gram/Early:prendriiez # ;
-+V+2p+Pres+Cond+Gram/Late:prendriiez # ;
-+V+3p+Pres+Cond:prendreient # ;
 
 +V+2s+Pres+Imp:pren # ;
 +V+1p+Pres+Imp:prenons # ;
@@ -1201,8 +786,10 @@ LEXICON Savoir
 +V+Part+Past:seü # ;
 
 +V+1s+Pres+Ind:sai # ;
++V+1s+Pres+Ind:sais # ;
 +V+1s+Pres+Ind:sçai # ;
 +V+2s+Pres+Ind:ses # ;
++V+2s+Pres+Ind:sais # ;
 +V+2s+Pres+Ind:sçes # ;
 +V+3s+Pres+Ind:se%{T%} # ;
 +V+3s+Pres+Ind:sçe%{T%} # ;
@@ -1214,73 +801,24 @@ LEXICON Savoir
 +V+3p+Pres+Ind:sçevent # ;
 +V+3p+Pres+Ind:sçavent # ;
 
-+V+1s+SPast+Ind:soi # ;
-+V+1s+SPast+Ind:sui # ;
-+V+2s+SPast+Ind:seüs # ;
+:so PerfStUS ;
+:su PerfStUS ;
+:se PerfStUU ;
 +V+2s+SPast+Ind:sçeüs # ;
-+V+3s+SPast+Ind:sot # ;
-+V+3s+SPast+Ind:sut # ;
-+V+1p+SPast+Ind:seümes # ;
-+V+2p+SPast+Ind:seüstes # ;
-+V+3p+SPast+Ind:sorent # ;
-+V+3p+SPast+Ind:surent # ;
-
-+V+1s+Ipfv+Ind:saveie # ;
-+V+2s+Ipfv+Ind:saveies # ;
-+V+3s+Ipfv+Ind:saveit # ;
-+V+1p+Ipfv+Ind:saviiens # ;
-+V+2p+Ipfv+Ind:saviiez # ;
-+V+3p+Ipfv+Ind:saveient # ;
-
-+V+1s+Fut+Ind:savrai # ;
-+V+1s+Fut+Ind:sarai # ;
-+V+2s+Fut+Ind:savras # ;
-+V+2s+Fut+Ind:saras # ;
-+V+3s+Fut+Ind:savra%{T%} # ;
-+V+3s+Fut+Ind:sara%{T%} # ;
-+V+1p+Fut+Ind:savrons # ;
-+V+1p+Fut+Ind:sarons # ;
-+V+2p+Fut+Ind:savrez # ;
-+V+2p+Fut+Ind:sarez # ;
-+V+2p+Fut+Ind:savreiz # ;
-+V+2p+Fut+Ind:sareiz # ;
-+V+3p+Fut+Ind:savront # ;
-+V+3p+Fut+Ind:saront # ;
-
-+V+1s+Pres+Sbjv:sache # ;
-+V+2s+Pres+Sbjv:saches # ;
+:sav IpfvInd ;
+:savr FutInd ;
+:sar FutInd ;
+:saur FutInd ;
+:sach PresSubj ;
 +V+3s+Pres+Sbjv:sacet # ;
-+V+1p+Pres+Sbjv:sachiens # ;
-+V+2p+Pres+Sbjv:sachiez # ;
-+V+3p+Pres+Sbjv:sachent # ;
 
-+V+1s+Ipfv+Sbjv:seüsse # ;
-+V+1s+Ipfv+Sbjv:sçeüsse # ;
-+V+2s+Ipfv+Sbjv:seüsses # ;
-+V+2s+Ipfv+Sbjv:sçeüsses # ;
+:se IpfvSubjStU ;
+:sçe IpfvSubjStU ;
 +V+3s+Ipfv+Sbjv:seüsst # ;
 +V+3s+Ipfv+Sbjv:sçeüsst # ;
-+V+1p+Ipfv+Sbjv:seüssions # ;
-+V+1p+Ipfv+Sbjv:sçeüssions # ;
-+V+1p+Ipfv+Sbjv:seüssiens # ;
-+V+1p+Ipfv+Sbjv:sçeüssiens # ;
-+V+2p+Ipfv+Sbjv:seüssez # ;
-+V+2p+Ipfv+Sbjv:sçeüssez # ;
-+V+2p+Ipfv+Sbjv:seüssiez # ;
-+V+2p+Ipfv+Sbjv:sçeüssiez # ;
-+V+2p+Ipfv+Sbjv:seüsseiz # ;
-+V+2p+Ipfv+Sbjv:sçeüsseiz # ;
-+V+3p+Ipfv+Sbjv:seüssent # ;
-+V+3p+Ipfv+Sbjv:sçeüssent # ;
-
-+V+1s+Pres+Cond:saureie # ;
-+V+2s+Pres+Cond:saureis # ;
-+V+3s+Pres+Cond:saureit # ;
+:saur Conditional ;
 +V+3s+Pres+Cond:savereit # ;
 +V+3s+Pres+Cond:sareit # ;
-+V+1p+Pres+Cond+Gram/Early:sauriens # ;
-+V+1p+Pres+Cond+Gram/Late:saurions # ;
-+V+2p+Pres+Cond:sauriez # ;
 +V+3p+Pres+Cond:saurreient # ;
 
 +V+2s+Pres+Imp:saches # ;
@@ -1304,75 +842,27 @@ LEXICON Pooir
 +V+2p+Pres+Ind:pöez # ;
 +V+3p+Pres+Ind:pueent # ;
 
-+V+1s+SPast+Ind:poi # ;
-+V+2s+SPast+Ind:peüs # ;
-+V+3s+SPast+Ind:peü%{T%} # ;
-+V+3s+SPast+Ind:pue%{T%} # ;
-+V+3s+SPast+Ind:pot # ; ! "po" is an adverb meaning "a little"
-+V+1p+SPast+Ind:peümes # ;
-+V+2p+SPast+Ind:peüstes # ;
-+V+3p+SPast+Ind:purent # ;
-+V+3p+SPast+Ind:porent # ;
+:po PerfStUS ;
+:pu PerfStUS ; ! Verify
+:pe PerfStUU ;
 
-! Verify
-+V+1s+Ipfv+Ind:poeie # ;
-+V+2s+Ipfv+Ind:poeies # ;
-+V+3s+Ipfv+Ind:poeit # ;
+:po IpfvInd ; ! Verify
 +V+3s+Ipfv+Ind:pöeit # ;
-+V+1p+Ipfv+Ind:poiiens # ;
-+V+2p+Ipfv+Ind:poiiez # ;
-+V+3p+Ipfv+Ind:poeient # ;
+:porr FutInd ;
+:pourr FutInd ;
+:puiss PresSubj ;
 
-+V+1s+Fut+Ind:porrai # ;
-+V+1s+Fut+Ind:pourrai # ;
-+V+2s+Fut+Ind:porras # ;
-+V+2s+Fut+Ind:pourras # ;
-+V+3s+Fut+Ind:porra%{T%} # ;
-+V+3s+Fut+Ind:pourra%{T%} # ;
-+V+1p+Fut+Ind:porrons # ;
-+V+1p+Fut+Ind:pourrons # ;
-+V+2p+Fut+Ind:porrez # ;
-+V+2p+Fut+Ind:pourrez # ;
-+V+2p+Fut+Ind:porreiz # ;
-+V+2p+Fut+Ind:pourreiz # ;
-+V+3p+Fut+Ind:porront # ;
-+V+3p+Fut+Ind:pourront # ;
-
-+V+1s+Pres+Sbjv:puisse # ;
-+V+2s+Pres+Sbjv:puisses # ;
-+V+3s+Pres+Sbjv:puisse # ;
-+V+3s+Pres+Sbjv:puisst # ;
-+V+1p+Pres+Sbjv:puissiens # ;
-+V+2p+Pres+Sbjv:puissiez # ;
-+V+3p+Pres+Sbjv:puissent # ;
-
-+V+1s+Ipfv+Sbjv:peüsse # ;
+:peu IpfvSubjStU ;
 +V+1s+Ipfv+Sbjv:peüsce # ;
-+V+2s+Ipfv+Sbjv:peüsses # ;
-+V+3s+Ipfv+Sbjv:peüsst # ;
 +V+3s+Ipfv+Sbjv:peüst # ;
 +V+3s+Ipfv+Sbjv:poïst # ;
-+V+1p+Ipfv+Sbjv:peüssons # ;
-+V+1p+Ipfv+Sbjv:peüssiens # ;
-+V+2p+Ipfv+Sbjv:peüssez # ;
-+V+2p+Ipfv+Sbjv:peüssiez # ;
-+V+2p+Ipfv+Sbjv:peüsseiz # ;
-+V+3p+Ipfv+Sbjv:peüssent # ;
 
-+V+1s+Pres+Cond:porreie # ;
-+V+1s+Pres+Cond:pourreie # ;
+:porr Conditional ;
+:pourr Conditional ;
 +V+2s+Pres+Cond:porreis # ;
 +V+2s+Pres+Cond:pourreis # ;
-+V+3s+Pres+Cond:porreit # ;
 +V+3s+Pres+Cond:poreit # ;
-+V+3s+Pres+Cond:pourreit # ;
-+V+1p+Pres+Cond:porriiens # ;
-+V+1p+Pres+Cond:pourriiens # ;
-+V+2p+Pres+Cond:porriiez # ;
-+V+2p+Pres+Cond:pourriiez # ;
 +V+2p+Pres+Cond:pourriés # ;
-+V+3p+Pres+Cond:porreient # ;
-+V+3p+Pres+Cond:pourreient # ;
 
 ! +V+2s+Pres+Imp:e # ; Unknown
 ! +V+1p+Pres+Imp:ons # ; Unknown
@@ -1391,42 +881,11 @@ LEXICON Doner
 +V+2p+Pres+Ind:don%>ez # ;
 +V+3p+Pres+Ind:don%>ent # ;
 
-+V+1s+SPast+Ind:don%>ai # ;
-+V+2s+SPast+Ind:don%>as # ;
-+V+3s+SPast+Ind:don%>a%{T%} # ;
-+V+1p+SPast+Ind:don%>ames # ;
-+V+2p+SPast+Ind:don%>astes # ;
-+V+3p+SPast+Ind:don%>erent # ;
-
-! Verify
-+V+1s+Ipfv+Ind:don%>eie # ;
-+V+2s+Ipfv+Ind:don%>eies # ;
-+V+3s+Ipfv+Ind:don%>eit # ;
-+V+1p+Ipfv+Ind:don%>iiens # ;
-+V+2p+Ipfv+Ind:don%>iiez # ;
-+V+3p+Ipfv+Ind:don%>eient # ;
-
-+V+1s+Fut+Ind:don%>rai # ;
-+V+1s+Fut+Ind:dorrai # ;
-+V+1s+Fut+Ind:darai # ;
-+V+2s+Fut+Ind:don%>ras # ;
-+V+2s+Fut+Ind:dorras # ;
-+V+2s+Fut+Ind:daras # ;
-+V+3s+Fut+Ind:don%>ra%{T%} # ;
-+V+3s+Fut+Ind:dorra%{T%} # ;
-+V+3s+Fut+Ind:dara%{T%} # ;
-+V+1p+Fut+Ind:donrons # ;
-+V+1p+Fut+Ind:dorrons # ;
-+V+1p+Fut+Ind:darons # ;
-+V+2p+Fut+Ind:donrez # ;
-+V+2p+Fut+Ind:dorrez # ;
-+V+2p+Fut+Ind:darez # ;
-+V+2p+Fut+Ind:donreiz # ;
-+V+2p+Fut+Ind:dorreiz # ;
-+V+2p+Fut+Ind:dareiz # ;
-+V+3p+Fut+Ind:donront # ;
-+V+3p+Fut+Ind:dorront # ;
-+V+3p+Fut+Ind:daront # ;
+:don%> PerfWkA ;
+:don%> IpfvInd ; ! Verify
+:don%>r FutInd ;
+:dorr FutInd ;
+:dar FutInd ;
 
 +V+1s+Pres+Sbjv:doigne # ;
 +V+1s+Pres+Sbjv:doinse # ;
@@ -1449,22 +908,8 @@ LEXICON Doner
 +V+3p+Pres+Sbjv:doinsent # ;
 +V+3p+Pres+Sbjv:dongent # ; ! Verify
 
-+V+1s+Ipfv+Sbjv:don%>asse # ;
-+V+2s+Ipfv+Sbjv:don%>asses # ;
-+V+3s+Ipfv+Sbjv:don%>ast # ;
-+V+1p+Ipfv+Sbjv:don%>issons # ;
-+V+1p+Ipfv+Sbjv:don%>issiens # ;
-+V+2p+Ipfv+Sbjv:don%>issez # ;
-+V+2p+Ipfv+Sbjv:don%>issiez # ;
-+V+2p+Ipfv+Sbjv:don%>isseiz # ;
-+V+3p+Ipfv+Sbjv:don%>assent # ;
-
-+V+1s+Pres+Cond:don%>ereie # ;
-+V+2s+Pres+Cond:don%>ereis # ;
-+V+3s+Pres+Cond:don%>ereit # ;
-+V+1p+Pres+Cond:don%>eriiens # ;
-+V+2p+Pres+Cond:don%>eriiez # ;
-+V+3p+Pres+Cond:don%>ereient # ;
+:don%> IpfvSubjWkA ;
+:don%>er Conditional ;
 
 +V+2s+Pres+Imp:don%>e # ;
 +V+1p+Pres+Imp:don%>ons # ;
@@ -1492,103 +937,26 @@ LEXICON Metre
 +V+3p+Pres+Ind:metent # ;
 +V+3p+Pres+Ind:mectent # ;
 
-+V+1s+SPast+Ind:mis # ;
-+V+2s+SPast+Ind:mesis # ;
-+V+3s+SPast+Ind:mis%{T%} # ;
-+V+1p+SPast+Ind:mesimes # ;
-+V+2p+SPast+Ind:mesistes # ;
-+V+3p+SPast+Ind:mistrent # ;
+:mi PerfStS ;
+:me PerfStS ;
+:met IpfvInd ;
+:mect IpfvInd ;
+:meter FutInd ;
+:metr FutInd ;
+:mettr FutInd ;
+:met PresSubj ; ! Verify
+:mect PresSubj ; ! Verify
 
-+V+1s+Ipfv+Ind:meteie # ;
-+V+1s+Ipfv+Ind:mecteie # ;
-+V+2s+Ipfv+Ind:meteies # ;
-+V+2s+Ipfv+Ind:mecteies # ;
-+V+3s+Ipfv+Ind:meteit # ;
-+V+3s+Ipfv+Ind:mecteit # ;
-+V+1p+Ipfv+Ind:metiiens # ;
-+V+1p+Ipfv+Ind:mectiiens # ;
-+V+2p+Ipfv+Ind:metiiez # ;
-+V+2p+Ipfv+Ind:mectiiez # ;
-+V+3p+Ipfv+Ind:meteient # ;
-+V+3p+Ipfv+Ind:mecteient # ;
-
-+V+1s+Fut+Ind:meterai # ;
-+V+1s+Fut+Ind:metrai # ;
-+V+1s+Fut+Ind:mettrai # ;
-+V+2s+Fut+Ind:metras # ;
-+V+2s+Fut+Ind:mettras # ;
-+V+3s+Fut+Ind:metra%{T%} # ;
-+V+3s+Fut+Ind:mettra%{T%} # ;
-+V+1p+Fut+Ind:metrons # ;
-+V+1p+Fut+Ind:mettrons # ;
-+V+1p+Fut+Ind:mectrons # ;
-+V+2p+Fut+Ind:metrez # ;
-+V+2p+Fut+Ind:mettrez # ;
-+V+2p+Fut+Ind:mectrez # ;
-+V+2p+Fut+Ind:metreiz # ;
-+V+2p+Fut+Ind:mettreiz # ;
-+V+3p+Fut+Ind:metront # ;
-+V+3p+Fut+Ind:mettront # ;
-+V+3p+Fut+Ind:mectront # ;
-
-+V+1s+Pres+Sbjv:mete # ;
-+V+1s+Pres+Sbjv:mecte # ;
-+V+2s+Pres+Sbjv:metes # ;
-+V+2s+Pres+Sbjv:mectes # ;
-+V+3s+Pres+Sbjv:mete%{T%} # ;
-+V+3s+Pres+Sbjv:mecte%{T%} # ;
-+V+1p+Pres+Sbjv:metons # ; ! Verify
-+V+1p+Pres+Sbjv:mectons # ; ! Verify
-+V+2p+Pres+Sbjv:metez # ; ! Verify
-+V+2p+Pres+Sbjv:mectez # ; ! Verify
-+V+3p+Pres+Sbjv:metent # ;
-+V+3p+Pres+Sbjv:mectent # ;
-
-! Verify 1p and 2p
-+V+1s+Ipfv+Sbjv:meisse # ;
-+V+2s+Ipfv+Sbjv:meisses # ;
-+V+3s+Ipfv+Sbjv:meisst # ;
-+V+1p+Ipfv+Sbjv:meissons # ;
-+V+1p+Ipfv+Sbjv:meissiens # ;
-+V+2p+Ipfv+Sbjv:meissez # ;
-+V+2p+Ipfv+Sbjv:meissiez # ;
-+V+2p+Ipfv+Sbjv:meisseiz # ;
-+V+3p+Ipfv+Sbjv:meissent # ;
+:meis IpfvSubjStS ; ! Verify
 +V+3p+Ipfv+Sbjv:mesissent # ;
 
-+V+1s+Pres+Cond:metereie # ;
-+V+1s+Pres+Cond:metreie # ;
-+V+1s+Pres+Cond:mettreie # ;
-+V+1s+Pres+Cond:mectreie # ;
-+V+2s+Pres+Cond:metereis # ;
-+V+2s+Pres+Cond:metreis # ;
-+V+2s+Pres+Cond:mettreis # ;
-+V+2s+Pres+Cond:mectreis # ;
-+V+3s+Pres+Cond:metereit # ;
-+V+3s+Pres+Cond:metreit # ;
-+V+3s+Pres+Cond:mettreit # ;
-+V+3s+Pres+Cond:mectreit # ;
-+V+1p+Pres+Cond:meteriiens # ;
-+V+1p+Pres+Cond:metriiens # ;
-+V+1p+Pres+Cond:mettriiens # ;
-+V+1p+Pres+Cond:mectriiens # ;
-+V+2p+Pres+Cond:meteriiez # ;
-+V+2p+Pres+Cond:metriiez # ;
-+V+2p+Pres+Cond:mettriiez # ;
-+V+2p+Pres+Cond:mectriiez # ;
-+V+3p+Pres+Cond:metereient # ;
-+V+3p+Pres+Cond:metreient # ;
-+V+3p+Pres+Cond:mettreient # ;
-+V+3p+Pres+Cond:mectreient # ;
-
-+V+2s+Pres+Imp:met # ;
-+V+2s+Pres+Imp:mect # ;
-+V+1p+Pres+Imp:metons # ;
-+V+1p+Pres+Imp:mettons # ;
-+V+1p+Pres+Imp:mectons # ;
-+V+2p+Pres+Imp:metez # ;
-+V+2p+Pres+Imp:mettez # ;
-+V+2p+Pres+Imp:mectez # ;
+:meter Conditional ;
+:metr Conditional ;
+:mettr Conditional ;
+:mectr Conditional ;
+:met Imperative ;
+:mect Imperative ;
+:mett Imperative ;
 
 LEXICON Oïr
 +V+Inf:oïr # ;
@@ -1614,35 +982,11 @@ LEXICON Oïr
 +V+2p+SPast+Ind:oïstes # ;
 +V+3p+SPast+Ind:oïrent # ;
 
-! Verify all
-+V+1s+Ipfv+Ind:oueie # ;
-+V+2s+Ipfv+Ind:oueies # ;
-+V+3s+Ipfv+Ind:oueit # ;
-+V+1p+Ipfv+Ind:ouiiens # ;
-+V+2p+Ipfv+Ind:ouiiez # ;
-+V+3p+Ipfv+Ind:oueient # ;
-
-+V+1s+Fut+Ind:orrai # ;
-+V+1s+Fut+Ind:orai # ;
-+V+2s+Fut+Ind:orras # ;
-+V+2s+Fut+Ind:oras # ;
-+V+3s+Fut+Ind:orra%{T%} # ;
-+V+3s+Fut+Ind:ora%{T%} # ;
-+V+1p+Fut+Ind:orrons # ;
-+V+1p+Fut+Ind:orons # ;
-+V+2p+Fut+Ind:orrez # ;
-+V+2p+Fut+Ind:orez # ;
-+V+2p+Fut+Ind:orreiz # ;
-+V+2p+Fut+Ind:oreiz # ;
-+V+3p+Fut+Ind:orront # ;
-+V+3p+Fut+Ind:oront # ;
-
-+V+1s+Pres+Sbjv:oie # ;
-+V+2s+Pres+Sbjv:oies # ;
-+V+3s+Pres+Sbjv:oit # ;
+:ou IpfvInd ; ! Verify
+:or%> FutInd ;
+:oi PresSubj ;
 +V+1p+Pres+Sbjv:oiiens # ;
 +V+2p+Pres+Sbjv:oiiez # ;
-+V+3p+Pres+Sbjv:oient # ;
 
 +V+1s+Ipfv+Sbjv:oïsse # ;
 +V+2s+Ipfv+Sbjv:oïsses # ;
@@ -1655,12 +999,6 @@ LEXICON Oïr
 +V+3p+Ipfv+Sbjv:oïssent # ;
 
 ! Conditionals unknown
-!+V+1s+Pres+Cond:ereie # ;
-!+V+2s+Pres+Cond:ereis # ;
-!+V+3s+Pres+Cond:ereit # ;
-!+V+1p+Pres+Cond:eriiens # ;
-!+V+2p+Pres+Cond:eriiez # ;
-!+V+3p+Pres+Cond:ereient # ;
 
 +V+2s+Pres+Imp:o # ;
 +V+2s+Pres+Imp:oz # ;
@@ -1682,72 +1020,56 @@ LEXICON Lire
 +V+2p+Pres+Ind:lisiez # ;
 +V+3p+Pres+Ind:lisent # ;
 
-+V+1s+SPast+Ind:lui # ;
-+V+1s+SPast+Ind:lis # ;
-+V+2s+SPast+Ind:leüs # ;
-+V+2s+SPast+Ind:lesis # ;
-+V+3s+SPast+Ind:lut # ;
-+V+3s+SPast+Ind:list # ;
-+V+1p+SPast+Ind:leümes # ;
-+V+1p+SPast+Ind:lesimes # ;
-+V+2p+SPast+Ind:leüstes # ;
-+V+2p+SPast+Ind:lesistes # ;
-+V+3p+SPast+Ind:lurent # ;
-+V+3p+SPast+Ind:lestrent # ;
+:li PerfStS ; ! Two perfects?
+:le PerfStS ;
+:lu PerfStUS ;
+:le PerfStUU ;
+:lis IpfvInd ;
+:lir FutInd ;
+:lis PresSubj ;
+:le IpfvSubjStS ;
+:le IpfvSubjStU ;
+:lir Conditional ; ! Verify
+:lis Imperative ;
 
-+V+1s+Ipfv+Ind:liseie # ;
-+V+2s+Ipfv+Ind:liseies # ;
-+V+3s+Ipfv+Ind:liseit # ;
-+V+1p+Ipfv+Ind:lisiiens # ;
-+V+1p+Ipfv+Ind:lisons # ;
-+V+2p+Ipfv+Ind:lisiiez # ;
-+V+3p+Ipfv+Ind:liseient # ;
+LEXICON Plaire
++V+Inf:plaire # ;
++V+Inf:plaisir # ;
++V:plais PresPart ; ! Separate entry as adjective?
++V+Part+Past:pleü ;
 
-+V+1s+Fut+Ind:lirai # ;
-+V+2s+Fut+Ind:liras # ;
-+V+3s+Fut+Ind:lira%{T%} # ;
-+V+1p+Fut+Ind:lirons # ;
-+V+2p+Fut+Ind:lirez # ;
-+V+2p+Fut+Ind:lireiz # ;
-+V+3p+Fut+Ind:liront # ;
+:plais PresInd ;
+:pleis PresInd ;
+:ples PresInd ;
++V+1s+Pres+Ind:plaz # ;
++V+2s+Pres+Ind:plais # ;
++V+2s+Pres+Ind:pleis # ;
++V+2s+Pres+Ind:ples # ;
++V+2p+Pres+Ind:plaisiez # ;
++V+2p+Pres+Ind:pleisiez # ;
++V+2p+Pres+Ind:plesiez # ;
 
-+V+1s+Pres+Sbjv:lise # ;
-+V+2s+Pres+Sbjv:lises # ;
-+V+3s+Pres+Sbjv:list # ;
-+V+1p+Pres+Sbjv:lisiens # ;
-+V+2p+Pres+Sbjv:lisiez # ;
-+V+3p+Pres+Sbjv:lisent # ;
+:plo PerfStUS ;
+:ple PerfStUU ;
 
-+V+1s+Ipfv+Sbjv:leüsse # ;
-+V+1s+Ipfv+Sbjv:lesisse # ;
-+V+2s+Ipfv+Sbjv:leüsses # ;
-+V+2s+Ipfv+Sbjv:lesisses # ;
-+V+3s+Ipfv+Sbjv:leüst # ;
-+V+3s+Ipfv+Sbjv:lesist # ;
-+V+1p+Ipfv+Sbjv:leüssons # ;
-+V+1p+Ipfv+Sbjv:lesissons # ;
-+V+1p+Ipfv+Sbjv:leüssiens # ;
-+V+1p+Ipfv+Sbjv:lesissiens # ;
-+V+2p+Ipfv+Sbjv:leüssez # ;
-+V+2p+Ipfv+Sbjv:lesissez # ;
-+V+2p+Ipfv+Sbjv:leüssiez # ;
-+V+2p+Ipfv+Sbjv:lesissiez # ;
-+V+2p+Ipfv+Sbjv:leüsseiz # ;
-+V+2p+Ipfv+Sbjv:lesisseiz # ;
-+V+3p+Ipfv+Sbjv:leüssent # ;
-+V+3p+Ipfv+Sbjv:lesissent # ;
+:plais IpfvInd ;
+:pleis IpfvInd ;
+:ples IpfvInd ;
+:plair FutInd ;
+:pleir FutInd ;
+:pler FutInd ;
+:plac PresSubj ;
+:plais PresSubj ;
++V+1p+Pres+Sbjv:plaçons # ;
 
-! Verify
-+V+1s+Pres+Cond:lireie # ;
-+V+2s+Pres+Cond:lireis # ;
-+V+3s+Pres+Cond:lireit # ;
-+V+1p+Pres+Cond:liriiens # ;
-+V+2p+Pres+Cond:liriiez # ;
-+V+3p+Pres+Cond:lireient # ;
+:ple IpfvSubjStU ;
+:plair Conditional ;
+:pleir Conditional ;
+:pler Conditional ;
 
-+V+2s+Pres+Imp:lis # ;
-+V+1p+Pres+Imp:lisons # ; ! Verify
-+V+2p+Pres+Imp:lisez # ; ! Verify
+:plais Imperative ;
+:pleis Imperative ;
+:ples Imperative ;
 
 !!€gt-norm: -er_verbs
 !!€ durer:      durer+V+Inf

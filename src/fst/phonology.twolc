@@ -162,3 +162,6 @@ s:è => i _ m e ;
 
 "l can be doubled"
 0:l => l: _ %> ;
+
+"r can be doubled"
+0:r => r: _ %> ;
