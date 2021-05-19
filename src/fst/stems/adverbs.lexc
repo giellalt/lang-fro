@@ -6,6 +6,10 @@ mie Pas "not" ;
     mie:mies Pas "not" ; ! Verify
 nenil Pas "no" ;
 nïent:nïen%{T%} Pas "nothing" ;
+onque Pas "never" ;
+    onque:onques Pas "never" ;
+    onque:oncque Pas "never" ;
+    onque:oncques Pas "never" ;
 pas Pas "not/no" ;
 point Pas "(reinforcer of negation)" ; ! Separate lexicon for particles?
 
@@ -48,28 +52,34 @@ fors BaseAdv "outside" ;
 gaire OptionalS ;
 hier:%{H%}ier BaseAdv "yesterday" ;
 hui BaseAdv "today" ;
-iluec BaseAdv "there" ;
+iluec:il%>uec BaseAdv "there, at that time/place" ;
+    iluec:il%>ec BaseAdv "there, at that time/place" ;
 item BaseAdv "also, the same" ;
 ja BaseAdv "formerly, already, now, soon, ever" ;
 là BaseAdv "there" ;
 loing BaseAdv ;
 loinz BaseAdv ;
 lors BaseAdv "at this moment, thus" ;
+lou BaseAdv "there (là + où)" ; ! Move to enclitics file?
+    lou:lau BaseAdv "there (là + où) " ;
+maintenant BaseAdv "immediately, at once" ;
 mais BaseAdv "more, anymore, ever, again" ;
 mar BaseAdv "in an evil hour, unfortunately" ;
     mar:mare BaseAdv "in an evil hour, unfortunately" ;
 matin BaseAdv "early" ;
 meïsme OptionalS ;
 mieux BaseAdv "better" ;
-    mieux:mieulx "better" ;
+    mieux:mieulx BaseAdv "better" ;
 molt BaseAdv "much" ;
 oan BaseAdv "this year" ;
 oïl BaseAdv "yes" ;
-onques BaseAdv "ever" ;
+onque OptionalS "ever" ;
 ore BaseAdv "now" ;
 ou InterrAdv "where" ;
     ou:où InterrAdv "where" ;
     ou:u InterrAdv "where" ;
+outre BaseAdv "beyond" ; ! Verify. Autre?
+    outre:oultre BaseAdv "beyond" ;
 plus BaseAdv "more" ;
 porquoi InterrAdv "why" ;
     porquoi:por#quoi InterrAdv "why" ;

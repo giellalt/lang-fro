@@ -61,6 +61,7 @@ avoir, estre ! Irregular verbs
 %{D%} ! Silent d
 %{S%} ! Optional s
 %{H%} ! Optional h
+%{I%} ! i/y
 
 @U.class.F1@
 @U.class.F2@

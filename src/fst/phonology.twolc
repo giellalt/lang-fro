@@ -129,8 +129,11 @@ i:y => Vow _ ;
 "e can be expressed as o before i/y"
 e:o => _ i: ;
 
+"e can be expressed as o in the -ens suffix"
+e:o => i: _ n: s: ;
+
 "ii can be shortened to i before an e or e:o" 
-i:0 => i: _ e: ;
+i:0 => _ i: e: ;
 
 "archiphoneme I can be expressed as i"
 %{I%}:i => _ ;

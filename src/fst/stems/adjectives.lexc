@@ -5,10 +5,14 @@ bon Adj1 "good" ;
 chier Adj1 "dear, expensive, clean" ;
     chier:cher Adj1 "dear, expensive, clean" ;
 cour%{T%} Adj1 "short (not long), of little importance" ;
+dur Adj1 "hard, difficult, clean" ;
 franc Adj1 "noble, free" ;
     franc+Adj+Masc+Nom+Sg:frans # ; ! Verify
     franc+Adj+Masc+Obl+Pl:frans # ; ! Verify
     franc:franch Adj1 "noble, free" ; ! Only for feminine forms?
+grant:grant%> Adj1 "great" ; ! Adj3?
+    grant+Adj+Masc+Nom+Sg:grans # "great" ;
+    grant:grand Adj1 "great" ;
 haut Adj1 "exalted, high, clean" ; ! Check for other definitions
 maint Adj1 "many" ; ! Indefinite?
 mal Adj1 "evil, disaster, illness" ;
@@ -18,6 +22,7 @@ petit:petit%> Adj1 "small, little" ;
 present:présen%{T%} Adj1 ;
 sain Adj1 "healthy, uninjured" ;
 saint:sain%{T%} Adj1 "holy" ;
+seul Adj1 "alone, single, only" ;
 souvent Adj1 "many, frequent" ;
     souvent:sovent Adj1 "many, frequent" ;
 tort:tor%{T%} Adj1 "wrong, twisted, crooked" ;
@@ -49,9 +54,6 @@ egal Adj3 "equal" ;
 fol Adj3 "foolish" ;
 fort:fort%> Adj3 "strong" ;
 gentil Adj3 "noble" ;
-grant:grant%> Adj3 "great" ;
-    grant+Adj+Masc+Nom+Sg:grans # "great" ;
-    grant:grand Adj3 "great" ;
 grief Adj3 "grievous" ;
 infernal Adj3 "infernal" ;
 leial Adj3 "loyal" ;
@@ -65,7 +67,7 @@ quel Adj3 "which" ;
 reial Adj3 "royal" ;
 soëf Adj3 "sweet" ;
 sotil Adj3 "ingenious" ;
-tel Adj3 "such" ;
+tel:tel%> Adj3 "such" ;
 trenchant:trenchant%> Adj3 "sharp" ;
 vaillant:vaillant%> Adj3 "valliant" ;
 vil Adj3 "vile" ;

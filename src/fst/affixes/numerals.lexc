@@ -44,9 +44,9 @@ LEXICON Vint
 
 LEXICON Cent
 +Num+Card+Masc+Nom+Pl:cent # ;
-+Num+Card+Masc+Obl+Pl:cenz # ;
-+Num+Card+Fem+Nom+Pl:cenz # ;
-+Num+Card+Fem+Obl+Pl:cenz # ;
++Num+Card+Masc+Obl+Pl:cen%{T%}s # ;
++Num+Card+Fem+Nom+Pl:cen%{T%}s # ;
++Num+Card+Fem+Obl+Pl:cen%{T%}s # ;
 
 LEXICON Premier
 +Num+Ord+Masc+Sg:premier # ;

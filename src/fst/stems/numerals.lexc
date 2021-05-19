@@ -81,7 +81,7 @@ uitante Cardinal "eighty" ;
 nonante Cardinal "ninety" ;
     nonante+Num+Roman:xc # ;
     nonante+Num+Roman:XC # ;
-cent Cent "one hundred" ;
+cent: Cent "one hundred" ;
     cent+Num+Roman:c # ;
 mil Cardinal "one thousand" ;
     mil:milie Cardinal "one thousand" ;

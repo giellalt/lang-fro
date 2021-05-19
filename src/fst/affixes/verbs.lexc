@@ -129,7 +129,6 @@ LEXICON RegIer
 LEXICON RegIr
 +V+Inf:ir # ;
 +V:iss PresPart ;
-!+V+Part+Pres:issant # ;
 +V+Part+Past+Masc+Obl+Sg:i%{T%} # ;
 +V+Part+Past+Fem+Sg:ie # ;
 
@@ -1023,13 +1022,19 @@ LEXICON Voloir
 +V+3p+SPast+Ind:voldrent # ;
 +V+3p+SPast+Ind:voudrent # ;
 
-! Verify all
+! Verify vol forms
 +V+1s+Ipfv+Ind:voleie # ;
++V+1s+Ipfv+Ind:vouleie # ;
 +V+2s+Ipfv+Ind:voleies # ;
++V+2s+Ipfv+Ind:vouleies # ;
 +V+3s+Ipfv+Ind:voleit # ;
++V+3s+Ipfv+Ind:vouleit # ;
 +V+1p+Ipfv+Ind:voliiens # ;
++V+1p+Ipfv+Ind:vouliiens # ;
 +V+2p+Ipfv+Ind:voliiez # ;
++V+2p+Ipfv+Ind:vouliiez # ;
 +V+3p+Ipfv+Ind:voleient # ;
++V+3p+Ipfv+Ind:vouleient # ;
 
 +V+1s+Fut+Ind:voldrai # ;
 +V+1s+Fut+Ind:voudrai # ;
@@ -1246,7 +1251,6 @@ LEXICON Savoir
 +V+2s+Pres+Sbjv:saches # ;
 +V+3s+Pres+Sbjv:sacet # ;
 +V+1p+Pres+Sbjv:sachiens # ;
-+V+1p+Pres+Sbjv:sachions # ;
 +V+2p+Pres+Sbjv:sachiez # ;
 +V+3p+Pres+Sbjv:sachent # ;
 

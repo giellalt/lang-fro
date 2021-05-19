@@ -95,6 +95,7 @@ defendre:defend RegRe "to defend" ;
 entendre:enten%{D%} RegRe "to listen" ;
 naistre:naist RegRe "to be born" ;
 perdre:perd RegRe   "to lose" ;
+rendre:rend RegRe   "to give, to give up, to return" ;
 respondre:respond RegRe "to reply" ;
 rompre:romp RegRe   "to break" ;
 veintre:veint RegRe "to conquer" ;

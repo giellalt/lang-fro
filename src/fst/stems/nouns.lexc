@@ -81,6 +81,8 @@ présence FC1 "presence (in a location), present moment" ;
 pucele:pucel%>e FC1 "maiden, virgin, young girl" ;
 reïne FC1 "queen" ;
 rose FC1 "rose" ;
+somme FC1 "sum, total, summet, burden, sleep" ; ! Different stems?
+    somme:some FC1 "sum, total, summet, burden, sleep" ;
 teste FC1 "head" ;
 verte FC1 "country, land, greenery" ;
 vie FC1 "life" ;
@@ -232,6 +234,8 @@ noble MC1a "person belonging of nobility, palm of the hand" ; ! separate the ent
 pain MC1a "bread, food" ;
 procureur MC1a "representative, one who procures something" ;
 rei MC1a "king" ;
+royaume:reiaume MC1a "kingdom" ;
+    royaume:reiaulme MC1a "kingdom" ;
 ost:ost%> MC1a "army" ;
 chevalier MC1a "knight" ;
 lieu MC1a "place" ;
@@ -252,6 +256,8 @@ pueple MC1a "people" ;
     pueple:pople MC1a "people" ;
     pueple:peuple MC1a "people" ;
 or MC1a "gold" ; ! Check class
+sanc MC1a "blood" ;
+    sanc:sang MC1a "blood" ;
 sens MC1a "senses" ; ! Also a form of sentir
 serment MC1a "oath" ;
     serment:serement MC1a "oath" ;
