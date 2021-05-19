@@ -672,6 +672,7 @@ LEXICON Voloir
 +V+2s+Pres+Ind:vues # ;
 +V+2s+Pres+Ind:vuex # ;
 +V+3s+Pres+Ind:vuelt # ;
++V+3s+Pres+Ind:veult # ;
 +V+3s+Pres+Ind:vueut # ;
 +V+3s+Pres+Ind:vuet # ;
 +V+3s+Pres+Ind:veut # ;
@@ -1070,6 +1071,36 @@ LEXICON Plaire
 :plais Imperative ;
 :pleis Imperative ;
 :ples Imperative ;
+
+LEXICON Vivre
++V+Inf:vivre # ;
+:viv PresPart ;
++V+Part+Past:vescu PartEndings ;
+
++V+1s+Pres+Ind:vif # ;
++V+2s+Pres+Ind:vis # ;
++V+3s+Pres+Ind:vit # ;
++V+1p+Pres+Ind:vivons # ;
++V+2p+Pres+Ind:vivez # ;
++V+3p+Pres+Ind:vivent # ;
+
+:vesqu PerfWkI ;
+:viv IpfvInd ;
+:vivr FutInd ;
+
++V+1s+Pres+Sbjv:vive # ;
++V+2s+Pres+Sbjv:vives # ;
++V+3s+Pres+Sbjv:vivet # ; ! Verify
++V+1p+Pres+Sbjv:vivons # ;
++V+2p+Pres+Sbjv:vivez # ;
++V+3p+Pres+Sbjv:vivent # ;
+
+:vesqu IpfvSubjWkI ;
+:vivr Conditional ; ! Verify
+
++V+2s+Pres+Imp:vif # ;
++V+1p+Pres+Imp:vivons # ; ! Verify
++V+2p+Pres+Imp:vivez # ; ! Verify
 
 !!€gt-norm: -er_verbs
 !!€ durer:      durer+V+Inf

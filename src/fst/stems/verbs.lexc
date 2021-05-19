@@ -21,6 +21,7 @@ metre: Metre        "to place" ;
 oïr: Oïr            "to hear" ;
 lire: Lire          "to read" ;
 plaire: Plaire      "to please" ;
+vivre: Vivre        "to live" ;
 
 amender:amend RegEr "to improve, to make amends" ;
 amer:am RegEr       "to love" ;
@@ -87,6 +88,7 @@ odir:od RegIr       "to hear" ; ! Irregular
 ofrir:ofr RegIr     "to offer" ;
 oir:o RegIr         "to hear" ; ! Irregular
 partir:part RegIr   "to leave, to divide" ; ! CHECK
+sentir:sen%{T%} RegIr "to feel" ; ! CHECK
 servir:serv RegIr   "to serve" ;
 
 corre:cor RegRe     "to run" ;
@@ -101,5 +103,5 @@ respondre:respond RegRe "to reply" ;
 rompre:romp RegRe   "to break" ;
 veintre:veint RegRe "to conquer" ;
 
-!! Add: doloir, rire, sentir, trover
+!! Add: doloir, rire, trover
 !! conduire, criembre, tordre, traire, boivre
