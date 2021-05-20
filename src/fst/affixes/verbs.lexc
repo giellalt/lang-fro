@@ -150,7 +150,7 @@ LEXICON PresInd
 LEXICON PresSubj
 +V+1s+Pres+Sbjv:e # ;
 +V+2s+Pres+Sbjv:es # ;
-+V+3s+Pres+Sbjv:et # ;
++V+3s+Pres+Sbjv:e%{T%} # ;
 +V+1p+Pres+Sbjv:ons # ;
 +V+2p+Pres+Sbjv:ez # ;
 +V+3p+Pres+Sbjv:ent # ;
@@ -757,15 +757,9 @@ LEXICON Prendre
 
 :pren%> IpfvInd ;
 :prendr FutInd ;
-:preigne PresSubj ;
+:pre%{N%} PresSubj ;
 :pren%> PresSubj ; ! Verify
-+V+1s+Pres+Sbjv:prenge # ;
-+V+1s+Pres+Sbjv:praigne # ;
-+V+3s+Pres+Sbjv:preingne # ;
-+V+3s+Pres+Sbjv:prengne # ;
 +V+3s+Pres+Sbjv:prende # ;
-+V+3s+Pres+Sbjv:prangne # ;
-+V+3p+Pres+Sbjv:pregnent # ;
 
 :pre IpfvSubjStS ;
 :prendr FutInd ;

@@ -24,6 +24,8 @@ Alphabet
 %{I%}:i
 %{I%}:y
 
+%{N%}:n
+
  %>:0 ;
 
  
@@ -33,6 +35,7 @@ Sets
  Vow = a e i o u y æ 
        á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ;
  Cns = b c d f g h j k l m n p q r s t v w x z ;
+ Nas = n m ;
  
 Rules
 
@@ -165,3 +168,36 @@ s:è => i _ m e ;
 
 "r can be doubled"
 0:r => r: _ %> ;
+
+"us can be written as x"
+u:0 => _ s:x ;
+
+"us can be written as x"
+s:x => u: _ ;
+
+! Palatal nasal
+"a palatal nasal can be expressed as ngn, ign, ng, in, (ni?)"
+%{N%}:n <=> _ ;
+
+"a palatal nasal can be expressed as ngn (1)"
+0:g => _ %{N%}:n \0: ;
+
+"a palatal nasal can be expressed as ngn (2)"
+0:n => _ 0:g %{N%}:n \0: ;
+
+"a palatal nasal can be expressed as ign, in"
+0:i => \i: _ (0:n) (0:g) %{N%}:n \0: ;
+
+"a palatal nasal can be expressed as ng"
+0:g => %{N%}:n _ ; ! Nothing before the palatal nasal
+
+
+!"a palatal nasal can be expressed as ni"
+!0:i => %{N%}:n _ ;
+
+"e can become a before a nasal (ensemble => ansemble)"
+e:a => _ (:i) Nas ;
+
+"ai can become ei before a nasal (saint => seint)"
+a:e => _ :i Nas ;
+
