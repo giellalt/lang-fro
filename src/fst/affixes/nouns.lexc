@@ -73,14 +73,12 @@ LEXICON PropFem
 +Prop+N+Fem:0 # ;
 
 LEXICON Dieu
-+N+Masc+Obl+Sg:Deo # ;
-+N+Masc+Obl+Sg:Deu # ;
-+N+Masc+Obl+Sg:Diu # ;
-+N+Masc+Obl+Sg:Dieu # ;
-+N+Masc+Nom+Sg:Dex # ;
-+N+Masc+Nom+Sg:Diex # ; ! Verify form
-+N+Masc+Nom+Sg:Deux # ; ! Verify form
-+N+Masc+Nom+Sg:Deus # ;
++N+Masc+Obl+Sg:deo # ;
++N+Masc+Obl+Sg:deu # ;
++N+Masc+Obl+Sg:diu # ;
++N+Masc+Obl+Sg:dieu # ;
++N+Masc+Obl+Sg:dius # ; ! Verify form
++N+Masc+Nom+Sg:diex # ; ! Verify form
 +N+Masc+Nom+Sg:deus # ;
 
 
@@ -90,6 +88,7 @@ LEXICON Seignor ! Verify Plurals, add Nom Pl
 +N+Masc+Obl+Sg:seignor # ;
 +N+Masc+Obl+Sg:segnor # ;
 +N+Masc+Obl+Sg:segnur # ;
++N+Masc+Obl+Sg:signor # ;
 +N+Masc+Obl+Sg:seignur # ;
 +N+Masc+Obl+Sg:seigneur # ;
 +N+Masc+Obl+Pl:segnors # ;
@@ -99,7 +98,6 @@ LEXICON Seignor ! Verify Plurals, add Nom Pl
 
 LEXICON Fil
 +N+Masc+Nom+Sg:fils # ;
-+N+Masc+Nom+Sg:filz # ;
 +N+Masc+Nom+Sg:fiz # ;
 +N+Masc+Nom+Sg:fix # ;
 +N+Masc+Obl+Sg:fil # ;
@@ -108,7 +106,6 @@ LEXICON Fil
 +N+Masc+Obl+Sg:fil # ;
 +N+Masc+Nom+Pl:fil # ;
 +N+Masc+Obl+Pl:fils # ;
-+N+Masc+Obl+Pl:filz # ;
 +N+Masc+Obl+Pl:fiz # ;
 
 
@@ -149,9 +146,7 @@ LEXICON Gent ! verify
 
 LEXICON Pied
 +N+Masc+Obl+Sg:pied # ;
-+N+Masc+Obl+Sg:piet # ; ! verify
-+N+Masc+Obl+Sg:pié # ;
-+N+Masc+Obl+Pl:piez # ;
++N+Masc+Obl+Sg:pié%{T%} # ;
 +N+Masc+Obl+Pl:pies # ;
 
 LEXICON Monseigneur ! Verify forms

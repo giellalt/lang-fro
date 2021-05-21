@@ -36,6 +36,7 @@ Sets
        á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ;
  Cns = b c d f g h j k l m n p q r s t v w x z ;
  Nas = n m ;
+ Labial = p, b, f, v, m ;
  
 Rules
 
@@ -111,6 +112,12 @@ g:0 <=> n:n _ s:z ;
 
 "n can be doubled"
 0:n => n:n _ %>:0 ;
+
+"m can be doubled"
+0:m => m:m _ %>:0 ;
+
+"nasal dissimilation" ! FIXME Not working
+m:n => _ Labial ;
 
 !! Silent t and d
 "unaspirated t can be kept"
@@ -196,8 +203,18 @@ s:x => u: _ ;
 !0:i => %{N%}:n _ ;
 
 "e can become a before a nasal (ensemble => ansemble)"
-e:a => _ (:i) Nas ;
+e:a => \c: _ (:i) Nas ;
 
 "ai can become ei before a nasal (saint => seint)"
 a:e => _ :i Nas ;
+
+! qu variations
+"u can be omitted after q"
+u:0 => q:q _ ;
+
+"u is always omitted after q:k"
+u:0 <=> q:k _ ;
+
+"q can be expressed as k"
+q:k => _ ;
 

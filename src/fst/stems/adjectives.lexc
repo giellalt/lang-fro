@@ -6,6 +6,7 @@ chier Adj1 "dear, expensive, clean" ;
     chier:cher Adj1 "dear, expensive, clean" ;
 cour%{T%} Adj1 "short (not long), of little importance" ;
 dur Adj1 "hard, difficult, clean" ;
+fort:fort%> Adj1 "strong" ; ! Adj3?
 franc Adj1 "noble, free" ;
     franc+Adj+Masc+Nom+Sg:frans # ; ! Verify
     franc+Adj+Masc+Obl+Pl:frans # ; ! Verify
@@ -17,14 +18,17 @@ haut Adj1 "exalted, high, clean" ; ! Check for other definitions
 maint Adj1 "many" ; ! Indefinite?
 mal Adj1 "evil, disaster, illness" ;
 mort:mor%{T%} Adj1 "dead" ;
+naturel Adj1 "natural" ; ! Adj3?
 petit:petit%> Adj1 "small, little" ;
     petit+Adj+Masc+Obl+Pl:petis # ;
 present:présen%{T%} Adj1 ;
+quel Adj "which" ; ! Adj3?
 sain Adj1 "healthy, uninjured" ;
 saint:sain%{T%} Adj1 "holy" ;
 seul Adj1 "alone, single, only" ;
 souvent Adj1 "many, frequent" ;
     souvent:sovent Adj1 "many, frequent" ;
+tel:tel Adj1 "such" ; ! Adj3?
 tort:tor%{T%} Adj1 "wrong, twisted, crooked" ;
 vert:ver%{T%} Adj1 "green" ;
 voir Adj1 "true" ;
@@ -52,22 +56,18 @@ cruël Adj3 "cruel" ;
 diligent:diligent%> Adj3 "diligent" ;
 egal Adj3 "equal" ;
 fol Adj3 "foolish" ;
-fort:fort%> Adj3 "strong" ;
 gentil Adj3 "noble" ;
 grief Adj3 "grievous" ;
 infernal Adj3 "infernal" ;
 leial Adj3 "loyal" ;
 luisant:luisant%> Adj3 "bright" ;
 morel Adj3 "mortal" ;
-naturel Adj3 "natural" ;
 pacient:pacient%> Adj3 "patient" ;
 prudent:prudent%> Adj3 "prudent" ;
 puissant:puissant%> Adj3 "powerful" ;
-quel Adj3 "which" ;
 reial Adj3 "royal" ;
 soëf Adj3 "sweet" ;
 sotil Adj3 "ingenious" ;
-tel:tel%> Adj3 "such" ;
 trenchant:trenchant%> Adj3 "sharp" ;
 vaillant:vaillant%> Adj3 "valliant" ;
 vil Adj3 "vile" ;
@@ -92,6 +92,12 @@ plusor IndefAdj "several, many" ;
     plusor:plusieur IndefAdj ;
     plusor:pluisieur IndefAdj ;
 quelque IndefAdj "some (thing), approximately, around" ;
+meïsme IndefAdj "self, same, even, also" ; ! Verify all
+    meïsme:meïsmes IndefAdj "self, same, even, also" ;
+    meïsme:mismes IndefAdj "self, same, even, also" ;
+    meïsme:mesmes IndefAdj "self, same, even, also" ;
+    meïsme:memes IndefAdj "self, same, even, also" ;
+    meïsme:meme IndefAdj "self, same, even, also" ;
 
 mieux: Mieux "better" ;
 mout: Mout "many, much, very" ;

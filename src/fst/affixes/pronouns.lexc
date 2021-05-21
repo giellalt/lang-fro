@@ -5,6 +5,7 @@ LEXICON 1Sg
 +Pro+Prs+1s+Nom+Stress+Err/Obsc:ja # ;
 +Pro+Prs+1s+Nom+Stress+Err/Obsc:ge # ;
 +Pro+Prs+1s+Nom+Stress+Err/Obsc:jeo # ;
++Pro+Prs+1s+Nom+Stress+Err/Obsc:iu # ; ! Verify. Looks right from corpus but very odd
 +Pro+Prs+1s+Nom+Unstress+Gram/Early:jo # ;
 +Pro+Prs+1s+Nom+Unstress+Gram/Late:je # ;
 +Pro+Prs+1s+Nom+Unstress+Err/Obsc:ja # ;
@@ -289,7 +290,6 @@ LEXICON DemNeuter
 
 LEXICON Relative
 +Pro+Relative+Gram/Person+Nom:qui # ;
-+Pro+Relative+Gram/Person+Nom:ki # ;
 +Pro+Relative+Gram/Person+Obl+Dir+Unstress:que # ;
 +Pro+Relative+Gram/Person+Obl+Dir+Unstress:qe # ;
 +Pro+Relative+Gram/Person+Obl+Dir+Stress:quoi # ;
@@ -297,7 +297,6 @@ LEXICON Relative
 +Pro+Relative+Gram/Person+Obl+Dir+Stress:coi # ;
 +Pro+Relative+Gram/Person+Obl+Indir:cui # ;
 +Pro+Relative+Gram/Thing+Nom:qui # ;
-+Pro+Relative+Gram/Thing+Nom:ki # ;
 +Pro+Relative+Gram/Thing+Obl+Dir+Unstress:que # ;
 +Pro+Relative+Gram/Thing+Obl+Dir+Stress:quoi # ;
 +Pro+Relative+Gram/Thing+Obl+Dir+Stress:cui # ;
@@ -309,19 +308,19 @@ LEXICON Relative
 +Pro+Relative+Gram/Place:ou # ;
 +Pro+Relative+Gram/Place:où # ;
 +Pro+Relative+Gram/Place:u # ;
++Pro+Relative:dont # "of which" ;
++Pro+Relative:dunt # "of which" ;
 
 LEXICON Interrogative
 +Pro+Interr+Gram/Person+Nom:qui # ;
-+Pro+Interr+Gram/Person+Nom:ki # ;
-+Pro+Interr+Gram/Person+Nom+Gram/Liason:k # ;
++Pro+Interr+Gram/Person+Nom+Gram/Liason:q # ;
 +Pro+Interr+Gram/Person+Nom:chi # ;
 +Pro+Interr+Gram/Person+Obl+Dir+Stress:quoi # ;
 +Pro+Interr+Gram/Person+Obl+Dir+Stress:cui # ;
 +Pro+Interr+Gram/Person+Obl+Dir+Stress:coi # ;
 +Pro+Interr+Gram/Person+Obl+Indir:cui # ;
 +Pro+Interr+Gram/Thing+Nom:qui # ;
-+Pro+Interr+Gram/Thing+Nom:ki # ;
-+Pro+Interr+Gram/Thing+Nom+Gram/Liason:k # ;
++Pro+Interr+Gram/Thing+Nom+Gram/Liason:q # ;
 +Pro+Interr+Gram/Thing+Nom:chi # ;
 +Pro+Interr+Gram/Thing+Obl+Dir+Unstress:que # ;
 +Pro+Interr+Gram/Thing+Obl+Dir+Stress:quoi # ;

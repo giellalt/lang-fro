@@ -170,6 +170,7 @@ chemin MC1a "road, path, highway" ;
 chief MC1a "head, chief" ;
     chief:chef MC1a "head, chief" ;
 chien MC1a "dog" ;
+combat MC1a "fight, combat" ;
 congié:congié%{T%} MC1a "leave, permission" ;
 conseil MC1a "opinion, advice, decision" ;
 cuer MC1a "heart" ;
@@ -202,6 +203,15 @@ francais NIndecM "frenchman" ;
     francais+N+Masc+Obl+Pl:frans # "frenchman, crusader" ;
 haut MC1a "height" ;
 Henri+Prop:Henri MC1a "Henry" ;
+hom:hom%>e MC1a "man" ;
+    hom:om%>e MC1a "man" ;
+    hom:hom%> MC1a "man" ;
+    hom:om%> MC1a "man" ;
+    hum:hum%>e MC1a "man" ;
+    hom+N+Masc+Nom+Sg:hom # "man" ; ! Verify
+    hom+N+Masc+Nom+Sg:home # "man" ; ! Verify
+    hom+N+Masc+Nom+Sg:homme # "man" ; ! Verify
+    hom+N+Masc+Nom+Sg:on # "man" ; ! Verify
 hostel:%{H%}ostel MC1a "hotel" ; ! Verify
 item MC1a "individual, article of an account" ;
 Jehan+Prop:Jehan MC1a "Jehan" ;
@@ -218,6 +228,7 @@ leu MC1a "place (literal or figurative)" ; ! Other possible meanings of word for
 lez MC1a "side, flank" ;
 lit:li%{T%} MC1a "bed" ;
 los MC1a "praise, glory, reputation" ;
+mari:mar%{I%} MC1a "husband" ;
 matin MC1a "morning" ;
 mestier MC1a "job, occupation" ;
     mestier:métier MC1a "job, occupation" ;
@@ -436,24 +447,3 @@ Trinité:trinité%{T%} PropFem "the Trinity" ;
 Tristran PropMasc "Tristran" ;
     Tristran:Tristan PropMasc "Tristran" ;
 Valence PropFem "region of Valence (Valencia?)" ; ! Verify gender
-
-
-hom+N+Masc+Nom+Sg:hom # "man" ;
-hom+N+Masc+Nom+Sg:homs # "man" ;
-hom+N+Masc+Nom+Sg:home # "man" ;
-hom+N+Masc+Nom+Sg:homes # "man" ;
-hom+N+Masc+Nom+Sg:homme # "man" ;
-hom+N+Masc+Nom+Sg:hommes # "man" ;
-hom+N+Masc+Nom+Sg:om # "man" ;
-hom+N+Masc+Nom+Sg:on # "man" ;
-hom+N+Masc+Obl+Sg:home # "man" ;
-hom+N+Masc+Obl+Sg:homme # "man" ;
-hom+N+Masc+Obl+Sg:ome # "man" ;
-hom+N+Masc+Nom+Pl:hume # "man" ;
-hom+N+Masc+Nom+Pl:home # "man" ;
-hom+N+Masc+Nom+Pl:homme # "man" ;
-hom+N+Masc+Obl+Pl:humes # "man" ;
-hom+N+Masc+Obl+Pl:homes # "man" ;
-hom+N+Masc+Obl+Pl:hommes # "man" ;
-
-! vim: set ft=xfst-lexc:
