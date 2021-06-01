@@ -291,6 +291,7 @@ LEXICON Avoir
 +V+1s+Pres+Ind:ai # ;
 +V+2s+Pres+Ind:as # ;
 +V+3s+Pres+Ind:a%{T%} # ;
++V+3s+Pres+Ind:ad # ;
 +V+1p+Pres+Ind:avons # ;
 +V+2p+Pres+Ind:avez # ;
 +V+3p+Pres+Ind:ont # ;

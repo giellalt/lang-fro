@@ -366,8 +366,12 @@ LEXICON IndefPro
 !!€ ton:        tu+Pro+Poss+2s+Masc+Obl+Sg+Unstress
 !!€ tun:        tu+Pro+Poss+2s+Masc+Obl+Sg+Unstress
 !!€ suens:      son+Pro+Poss+3s+Masc+Obl+Pl+Stress
+!!€ soens:      son+Pro+Poss+3s+Masc+Obl+Pl+Stress
+!!€ seuns:      son+Pro+Poss+3s+Masc+Obl+Pl+Stress
 !!€ suans:      son+Pro+Poss+3s+Masc+Obl+Pl+Stress
 !!€ suens:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
+!!€ soens:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
+!!€ seuns:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
 !!€ suans:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
 !!€ icestui:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress
 !!€ icestuy:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress

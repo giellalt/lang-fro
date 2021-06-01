@@ -6,21 +6,19 @@ chier Adj1 "dear, expensive, clean" ;
     chier:cher Adj1 "dear, expensive, clean" ;
 cour%{T%} Adj1 "short (not long), of little importance" ;
 dur Adj1 "hard, difficult, clean" ;
-fort:fort%> Adj1 "strong" ; ! Adj3?
+fort:for%{T%} Adj1 "strong" ; ! Adj3?
 franc Adj1 "noble, free" ;
     franc+Adj+Masc+Nom+Sg:frans # ; ! Verify
     franc+Adj+Masc+Obl+Pl:frans # ; ! Verify
     franc:franch Adj1 "noble, free" ; ! Only for feminine forms?
-grant:grant%> Adj1 "great" ; ! Adj3?
-    grant+Adj+Masc+Nom+Sg:grans # "great" ;
+grant:gran%{T%} Adj1 "great" ; ! Adj3?
     grant:grand Adj1 "great" ;
 haut Adj1 "exalted, high, clean" ; ! Check for other definitions
 maint Adj1 "many" ; ! Indefinite?
 mal Adj1 "evil, disaster, illness" ;
 mort:mor%{T%} Adj1 "dead" ;
 naturel Adj1 "natural" ; ! Adj3?
-petit:petit%> Adj1 "small, little" ;
-    petit+Adj+Masc+Obl+Pl:petis # ;
+petit:peti%{T%} Adj1 "small, little" ;
 present:présen%{T%} Adj1 ;
 quel Adj "which" ; ! Adj3?
 sain Adj1 "healthy, uninjured" ;

@@ -1,10 +1,10 @@
 LEXICON Conjunctions
 car Coord "for" ;
     car:kar Coord "for" ; ! Verify
+    car:quer Coord "for" ;
 ce SubPart ;
 com SubPart ;
-com: Comme "as" ;
-cum: Cum "in order that" ;
+com: Comme "as, in order that" ; ! separate roots (com/cum)?
 ainçois SubPart ;
 ainsi SubPart ;
 ainz Coord ;

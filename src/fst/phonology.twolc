@@ -40,16 +40,6 @@ Sets
  
 Rules
 
-!! t+s and st+s become z
-"s becomes z after a t"
-s:z <=> t: %>: _ ;
-
-"t disappears before an s becoming a z"
-t:0 <=> _ %>: s: ;
-
-"s disappears before a ts that becomes a z"
-s:0 <=> _ t:0 %>: s:z ;
-
 !! {T}+s and s{T}+s become z
 "{T} becomes 0 before an s"
 %{T%}:0 <=> _ s: ;
@@ -59,13 +49,6 @@ s:z => %{T%}: _ ;
 
 "s disappears before a {T}s that becomes a z"
 s:0 <=> _ %{T%}:0 s:z ;
-
-!! ds becomes z
-"s becomes z after a d"
-s:z <=> d: %>: _ ;
-
-"d disappears before an s becoming a z"
-d:0 <=> _ %>: s:z ;
 
 !! p, f, c, b, and v disappear before inflectional -s
 !! FIXME: change to labials + c
@@ -84,7 +67,7 @@ b:0 <=> _ %>: s: ;
 "v disappears before inflectional -s"
 v:0 <=> _ %>: s: ;
 
-!! nasal alterations
+!! NASAL ALTERATIONS
 
 "after a vowel, m+s becomes ns"
 m:n <=> Vow _ s:s ;
@@ -92,23 +75,25 @@ m:n <=> Vow _ s:s ;
 "rm+s becomes rs"
 m:0 <=> r:r _ s:s ;
 
-"rn+s becomes rz"
-s:z <=> r:r n:0 _ ;
+! rn+s becomes rz
+"s becomes z after rn"
+s:z => r:r n:0 _ ;
 
-"rn+s becomes rz"
-n:0 <=> r:r _ s:z ;
+"n is removed between r_z"
+n:0 => r:r _ s:z ;
 
-"n'+s (gn+s) becomes nz"
-s:z <=> g:0 n:n _ ;
+! n'+s (gn+s) becomes nz
+"s becomes z after palatal nasal"
+s:z => %{N%}:n _ ;
 
-"n'+s (gn+s) becomes nz"
-g:0 <=> _ n:n s:z ;
+!"n'+s (gn+s) becomes nz"
+!g:0 <=> _ n:n s:z ;
 
-"n'+s (ng+s) becomes nz"
-s:z <=> n:n g:0 _ ;
+!"n'+s (ng+s) becomes nz"
+!s:z <=> n:n g:0 _ ;
 
-"n'+s (ng+s) becomes nz"
-g:0 <=> n:n _ s:z ;
+!"n'+s (ng+s) becomes nz"
+!g:0 <=> n:n _ s:z ;
 
 "n can be doubled"
 0:n => n:n _ %>:0 ;
@@ -123,13 +108,13 @@ m:n => _ Labial ;
 "unaspirated t can be kept"
 %{T%}:t => _ ;
 
-"unaspirated t can be dropped"
+"unaspirated t can be dropped except before e"
 %{T%}:0 => _ ;
 
 "unaspirated d can be kept"
 %{D%}:d => _ ;
 
-"unaspirated t can be dropped"
+"unaspirated d can be dropped except before e"
 %{D%}:0 => _ ;
 
 !! Palatalized vowels
@@ -219,15 +204,15 @@ u:0 <=> q:k _ ;
 q:k => _ ;
 
 ! Variations of ö
-!"ue can be written as eu"
-!u:0 => _ e:e 0:u ;
+"ue can be written as eu"
+u:0 => _ e:e 0:u ;
 
-!"ue can be written as eu"
-!0:u => u:0 e:e _ ;
+"ue can be written as eu"
+0:u => u:0 e:e _ ;
 
-!"ue can be written as oe"
-!u:o => _ e:e ;
+"ue can be written as oe"
+u:o => _ e:e ;
 
-!"oe can be written as ue"
-!o:u => _ e:e ;
+"oe can be written as ue"
+o:u => _ e:e ;
 
