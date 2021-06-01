@@ -30,7 +30,7 @@ aussi BaseAdv "also, likewise" ;
     aussi:ausi BaseAdv "also, likewise" ;
     aussi:assi BaseAdv "also, likewise" ;
 aval BaseAdv "to the valley, down" ;
-avant BaseAdv "forward" ;
+avant BaseAdv "forward" ; ! davant = alternate form?
 bien BaseAdv "well, many, much, really" ;
     bien:ben BaseAdv "well, many, much, really" ;
 buer BaseAdv "in a favorable hour, fortunately" ;
@@ -44,6 +44,7 @@ comment InterrAdv "how" ;
 court BaseAdv "quickly" ;
 doresanavant BaseAdv "from now on" ;
 encore OptionalS ;
+    encore:encor OptionalS ;
 ensemble BaseAdv "together" ;
 environ BaseAdv "about, around" ; ! + "de" = adverbial preposition
 enz BaseAdv "inside" ;

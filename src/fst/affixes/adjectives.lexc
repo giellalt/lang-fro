@@ -121,29 +121,29 @@ LEXICON Nul
 +Adj+Fem+Obl+Pl:nul%>es # ;
 
 LEXICON Tot
-+Adj+Masc+Nom+Sg:toz # ;
-+Adj+Masc+Obl+Sg:tot # ;
-+Adj+Masc+Obl+Sg:tut # ;
-+Adj+Masc+Obl+Sg:tout # ;
-+Adj+Masc+Nom+Pl:tuit # ;
-+Adj+Masc+Obl+Pl:toz # ;
-+Adj+Masc+Obl+Pl:tuz # ;
-+Adj+Masc+Obl+Pl:tous # ;
-+Adj+Fem+Nom+Sg:tote # ;
-+Adj+Fem+Nom+Sg:toute # ;
-+Adj+Fem+Nom+Sg:tute # ;
-+Adj+Fem+Obl+Sg:tote # ;
-+Adj+Fem+Obl+Sg:toute # ;
-+Adj+Fem+Nom+Pl:totes # ;
-+Adj+Fem+Nom+Pl:toutes # ;
-+Adj+Fem+Nom+Pl:tutes # ;
-+Adj+Fem+Obl+Pl:totes # ;
-+Adj+Fem+Obl+Pl:toutes # ;
-+Adj+Neut+Nom+Sg:tot # ;
-+Adj+Neut+Obl+Sg:tot # ;
-+Adj+Masc+Obl+Sg+Emph:trestout # ;
-+Adj+Masc+Obl+Sg+Emph:trestut # ;
-+Adj+Fem+Nom+Sg+Emph:trestute # ;
++Masc+Nom+Sg:toz # ;
++Masc+Obl+Sg:tot # ;
++Masc+Obl+Sg:tut # ;
++Masc+Obl+Sg:tout # ;
++Masc+Nom+Pl:tuit # ;
++Masc+Obl+Pl:toz # ;
++Masc+Obl+Pl:tuz # ;
++Masc+Obl+Pl:tous # ;
++Fem+Nom+Sg:tote # ;
++Fem+Nom+Sg:toute # ;
++Fem+Nom+Sg:tute # ;
++Fem+Obl+Sg:tote # ;
++Fem+Obl+Sg:toute # ;
++Fem+Nom+Pl:totes # ;
++Fem+Nom+Pl:toutes # ;
++Fem+Nom+Pl:tutes # ;
++Fem+Obl+Pl:totes # ;
++Fem+Obl+Pl:toutes # ;
++Neut+Nom+Sg:tot # ;
++Neut+Obl+Sg:tot # ;
++Masc+Obl+Sg+Emph:trestout # ;
++Masc+Obl+Sg+Emph:trestut # ;
++Fem+Nom+Sg+Emph:trestute # ;
 
 
 !!€gt-norm: adjectives

@@ -11,8 +11,10 @@ j (->) i ,, # Old spelling convention
 s (->) z || _ .#. ,, # word-final s can be written as z
 l (->) u || a _ s .#. ,, # i.e. mals -> maus
 l (->) u || e _ s .#. ,, # i.e. els -> eus
-c (->) s || _ (i | e) ,,
-s (->) c || _ (i | e) ,,
+c (->) s || _ e ,,
+c (->) s || _ i ,,
+s (->) c || _ e ,,
+s (->) c || _ i ,,
 ç (->) c ;
 
 # Explanation:

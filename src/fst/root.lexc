@@ -17,7 +17,7 @@ Multichar_Symbols
 !! Verb Features
 +V ! Verb
 +1s, +1p, +2s, +2p, +3s, +3p ! Person. s=singular, p=plural
-+Pres, +SPast, +Past, +Fut ! Tense: present, simple past, past, future
++Pres, +Perf, +Past, +Fut ! Tense: present, perfect/preterite, past, future
 +Ipfv, +Part, +Inf ! Aspect: Imperfective, participle, infinitive
 +Ind, +Sbjv, +Cond, +Imp ! Moods: Indicative, subjunctive, conditional, imperative
 avoir, estre ! Irregular verbs

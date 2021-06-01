@@ -44,7 +44,7 @@ LEXICON RegIer
 +V+3p+Pres+Ind:ent # ;
 
 PerfWkA ;
-+V+3p+SPast+Ind:ierent # ;
++V+3p+Perf+Ind:ierent # ;
 
 IpfvInd ;
 :ier FutInd ;
@@ -186,46 +186,46 @@ LEXICON Conditional
 +V+3p+Pres+Cond:eient # ;
 
 LEXICON PerfWkA
-+V+1s+SPast+Ind:ai # ;
-+V+2s+SPast+Ind:as # ;
-+V+3s+SPast+Ind:a%{T%} # ;
-+V+1p+SPast+Ind:ames # ;
-+V+2p+SPast+Ind:astes # ;
-+V+3p+SPast+Ind:erent # ;
++V+1s+Perf+Ind:ai # ;
++V+2s+Perf+Ind:as # ;
++V+3s+Perf+Ind:a%{T%} # ;
++V+1p+Perf+Ind:ames # ;
++V+2p+Perf+Ind:astes # ;
++V+3p+Perf+Ind:erent # ;
 
 LEXICON PerfWkI
-+V+1s+SPast+Ind:i # ;
-+V+2s+SPast+Ind:is # ;
-+V+3s+SPast+Ind:i%{T%} # ;
-+V+1p+SPast+Ind:imes # ;
-+V+2p+SPast+Ind:istes # ;
-+V+3p+SPast+Ind:irent # ;
++V+1s+Perf+Ind:i # ;
++V+2s+Perf+Ind:is # ;
++V+3s+Perf+Ind:i%{T%} # ;
++V+1p+Perf+Ind:imes # ;
++V+2p+Perf+Ind:istes # ;
++V+3p+Perf+Ind:irent # ;
 
 LEXICON PerfWkU
-+V+1s+SPast+Ind:ui # ;
-+V+2s+SPast+Ind:us # ;
-+V+3s+SPast+Ind:u%{T%} # ;
-+V+1p+SPast+Ind:umes # ;
-+V+2p+SPast+Ind:ustes # ;
-+V+3p+SPast+Ind:urent # ;
++V+1s+Perf+Ind:ui # ;
++V+2s+Perf+Ind:us # ;
++V+3s+Perf+Ind:u%{T%} # ;
++V+1p+Perf+Ind:umes # ;
++V+2p+Perf+Ind:ustes # ;
++V+3p+Perf+Ind:urent # ;
 
 LEXICON PerfStUS
-+V+1s+SPast+Ind:i # ;
-+V+3s+SPast+Ind:t # ;
-+V+3p+SPast+Ind:rent # ;
++V+1s+Perf+Ind:i # ;
++V+3s+Perf+Ind:t # ;
++V+3p+Perf+Ind:rent # ;
 
 LEXICON PerfStUU
-+V+2s+SPast+Ind:üs # ;
-+V+1p+SPast+Ind:ümes # ;
-+V+2p+SPast+Ind:üstes # ;
++V+2s+Perf+Ind:üs # ;
++V+1p+Perf+Ind:ümes # ;
++V+2p+Perf+Ind:üstes # ;
 
 LEXICON PerfStS
-+V+1s+SPast+Ind:s # ;
-+V+2s+SPast+Ind:sis # ;
-+V+3s+SPast+Ind:st # ;
-+V+1p+SPast+Ind:simes # ;
-+V+2p+SPast+Ind:sistes # ;
-+V+3p+SPast+Ind:strent # ;
++V+1s+Perf+Ind:s # ;
++V+2s+Perf+Ind:sis # ;
++V+3s+Perf+Ind:st # ;
++V+1p+Perf+Ind:simes # ;
++V+2p+Perf+Ind:sistes # ;
++V+3p+Perf+Ind:strent # ;
 
 LEXICON IpfvSubjWkA
 +V+1s+Ipfv+Sbjv:asse # ;
@@ -296,19 +296,19 @@ LEXICON Avoir
 +V+3p+Pres+Ind:ont # ;
 +V+3p+Pres+Ind:unt # ;
 
-+V+1s+SPast+Ind+Gram/Early:eüi # ;
-+V+1s+SPast+Ind:oi # ;
-+V+2s+SPast+Ind+Gram/Early:eüs # ;
-+V+2s+SPast+Ind+Gram/Late:oüs # ;
-+V+3s+SPast+Ind+Gram/Early:eü # ;
-+V+3s+SPast+Ind:ot # ;
-+V+3s+SPast+Ind+Gram/Late:out # ;
-+V+1p+SPast+Ind+Gram/Early:eümes # ;
-+V+1p+SPast+Ind+Gram/Late:oümes # ;
-+V+2p+SPast+Ind+Gram/Early:eütes # ;
-+V+2p+SPast+Ind+Gram/Late:oütes # ;
-+V+3p+SPast+Ind+Gram/Early:eürent # ;
-+V+3p+SPast+Ind:orent # ;
++V+1s+Perf+Ind+Gram/Early:eüi # ;
++V+1s+Perf+Ind:oi # ;
++V+2s+Perf+Ind+Gram/Early:eüs # ;
++V+2s+Perf+Ind+Gram/Late:oüs # ;
++V+3s+Perf+Ind+Gram/Early:eü # ;
++V+3s+Perf+Ind:ot # ;
++V+3s+Perf+Ind+Gram/Late:out # ;
++V+1p+Perf+Ind+Gram/Early:eümes # ;
++V+1p+Perf+Ind+Gram/Late:oümes # ;
++V+2p+Perf+Ind+Gram/Early:eütes # ;
++V+2p+Perf+Ind+Gram/Late:oütes # ;
++V+3p+Perf+Ind+Gram/Early:eürent # ;
++V+3p+Perf+Ind:orent # ;
 
 :av IpfvInd ;
 :avr FutInd ;
@@ -349,7 +349,7 @@ LEXICON Estre
 +V+3p+Pres+Ind:sunt # ;
 
 :f PerfWkU ;
-+V+3s+SPast+Ind:fud # ;
++V+3s+Perf+Ind:fud # ;
 :est IpfvInd ;
 
 +V+1s+Ipfv+Ind+Gram/Early:ere # ;
@@ -407,6 +407,7 @@ LEXICON Faire
 +V+Part+Past:fait PartEndings ;
 +V+Part+Past:feit PartEndings ;
 +V+Part+Past:fet PartEndings ;
++V+Part+Past:faict PartEndings ;
 
 +V+1s+Pres+Ind:faz # ;
 +V+1s+Pres+Ind:fai # ;
@@ -424,12 +425,12 @@ LEXICON Faire
 
 :fe PerfStS ;
 :fi PerfStS ;
-+V+1s+SPast+Ind:fi # ;
-+V+1s+SPast+Ind:fe # ;
-+V+3s+SPast+Ind:fesist # ;
-+V+3p+SPast+Ind:fisent # ;
-+V+3p+SPast+Ind:fesent # ;
-+V+3p+SPast+Ind:firent # ;
++V+1s+Perf+Ind:fi # ;
++V+1s+Perf+Ind:fe # ;
++V+3s+Perf+Ind:fesist # ;
++V+3p+Perf+Ind:fisent # ;
++V+3p+Perf+Ind:fesent # ;
++V+3p+Perf+Ind:firent # ;
 
 :fais IpfvInd ;
 +V+3p+Ipfv+Ind+Gram/Early:faisent # ;
@@ -475,8 +476,8 @@ LEXICON Dire
 +V+3p+Pres+Ind:dient # ;
 
 :di PerfStS ;
-+V+1s+SPast+Ind:di # ;
-+V+3p+SPast+Ind:disent # ;
++V+1s+Perf+Ind:di # ;
++V+3p+Perf+Ind:disent # ;
 
 :dis IpfvInd ;
 :dir FutInd ;
@@ -508,7 +509,7 @@ LEXICON Devoir
 
 :d PerfStUS ;
 :de PerfStUU ;
-+V+3s+SPast+Ind:dü%{T%} # ;
++V+3s+Perf+Ind:dü%{T%} # ;
 
 :dev IpfvInd ; ! Verify
 :devr FutInd ;
@@ -539,13 +540,13 @@ LEXICON Xenir
 +V+1p+Pres+Ind:enons # ;
 +V+2p+Pres+Ind:enez # ;
 
-+V+1s+SPast+Ind:in # ;
-+V+2s+SPast+Ind:enis # ;
-+V+3s+SPast+Ind:int # ;
-+V+1p+SPast+Ind:enimes # ;
-+V+2p+SPast+Ind:enistes # ;
-+V+3p+SPast+Ind:indrent # ;
-+V+3p+SPast+Ind:inrent # ;
++V+1s+Perf+Ind:in # ;
++V+2s+Perf+Ind:enis # ;
++V+3s+Perf+Ind:int # ;
++V+1p+Perf+Ind:enimes # ;
++V+2p+Perf+Ind:enistes # ;
++V+3p+Perf+Ind:indrent # ;
++V+3p+Perf+Ind:inrent # ;
 
 :en IpfvInd ; ! Verify
 :endr FutInd ;
@@ -614,12 +615,12 @@ LEXICON Veoir
 +V+2p+Pres+Ind:veez # ;
 +V+3p+Pres+Ind:veient # ;
 
-+V+1s+SPast+Ind:vi # ;
-+V+2s+SPast+Ind:veïs # ;
-+V+3s+SPast+Ind:vit # ;
-+V+1p+SPast+Ind:veïmes # ;
-+V+2p+SPast+Ind:veïstes # ;
-+V+3p+SPast+Ind:virent # ;
++V+1s+Perf+Ind:vi # ;
++V+2s+Perf+Ind:veïs # ;
++V+3s+Perf+Ind:vit # ;
++V+1p+Perf+Ind:veïmes # ;
++V+2p+Perf+Ind:veïstes # ;
++V+3p+Perf+Ind:virent # ;
 
 +V+1s+Ipfv+Ind:veie # ;
 +V+2s+Ipfv+Ind:veies # ;
@@ -686,18 +687,18 @@ LEXICON Voloir
 +V+3p+Pres+Ind:volent # ;
 
 ! Confusing notation. Check for missing forms: voli, volsi, vousi
-+V+1s+SPast+Ind:veil # ;
-+V+1s+SPast+Ind:vol # ;
-+V+1s+SPast+Ind:vos # ; ! Verify
-+V+2s+SPast+Ind:volis # ;
-+V+2s+SPast+Ind:vols # ; ! Verify
-+V+2s+SPast+Ind:vous # ; ! Verify
-+V+3s+SPast+Ind:volt # ;
-+V+3s+SPast+Ind:vout # ;
-+V+1p+SPast+Ind:volimes # ;
-+V+2p+SPast+Ind:volistes # ;
-+V+3p+SPast+Ind:voldrent # ;
-+V+3p+SPast+Ind:voudrent # ;
++V+1s+Perf+Ind:veil # ;
++V+1s+Perf+Ind:vol # ;
++V+1s+Perf+Ind:vos # ; ! Verify
++V+2s+Perf+Ind:volis # ;
++V+2s+Perf+Ind:vols # ; ! Verify
++V+2s+Perf+Ind:vous # ; ! Verify
++V+3s+Perf+Ind:volt # ;
++V+3s+Perf+Ind:vout # ;
++V+1p+Perf+Ind:volimes # ;
++V+2p+Perf+Ind:volistes # ;
++V+3p+Perf+Ind:voldrent # ;
++V+3p+Perf+Ind:voudrent # ;
 
 :vol IpfvInd ; ! Verify
 :voul IpfvInd ;
@@ -753,7 +754,7 @@ LEXICON Prendre
 
 :pri PerfStS ;
 :pre PerfStS ;
-+V+3s+SPast+Ind:print # ;
++V+3s+Perf+Ind:print # ;
 
 :pren%> IpfvInd ;
 :prendr FutInd ;
@@ -799,7 +800,7 @@ LEXICON Savoir
 :so PerfStUS ;
 :su PerfStUS ;
 :se PerfStUU ;
-+V+2s+SPast+Ind:sçeüs # ;
++V+2s+Perf+Ind:sçeüs # ;
 :sav IpfvInd ;
 :savr FutInd ;
 :sar FutInd ;
@@ -970,12 +971,12 @@ LEXICON Oïr
 +V+3p+Pres+Ind:oent # ;
 +V+3p+Pres+Ind:oient # ;
 
-+V+1s+SPast+Ind:oï # ;
-+V+2s+SPast+Ind:oïs # ;
-+V+3s+SPast+Ind:oï%{T%} # ;
-+V+1p+SPast+Ind:oïmes # ;
-+V+2p+SPast+Ind:oïstes # ;
-+V+3p+SPast+Ind:oïrent # ;
++V+1s+Perf+Ind:oï # ;
++V+2s+Perf+Ind:oïs # ;
++V+3s+Perf+Ind:oï%{T%} # ;
++V+1p+Perf+Ind:oïmes # ;
++V+2p+Perf+Ind:oïstes # ;
++V+3p+Perf+Ind:oïrent # ;
 
 :ou IpfvInd ; ! Verify
 :or%> FutInd ;
@@ -1099,7 +1100,7 @@ LEXICON Vivre
 !!€gt-norm: -er_verbs
 !!€ durer:      durer+V+Inf
 !!€ dur:        durer+V+1s+Pres+Ind
-!!€ durat:       durer+V+3s+SPast+Ind
-!!€ dura:       durer+V+3s+SPast+Ind
+!!€ durat:       durer+V+3s+Perf+Ind
+!!€ dura:       durer+V+3s+Perf+Ind
 !!€ durerons:   durer+V+1p+Fut+Ind
 !!€ dure:    durer+V+2s+Pres+Imp

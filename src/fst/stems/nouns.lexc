@@ -56,6 +56,8 @@ fame FC1 "wife, woman" ;
 feste FC1 "feast, holiday, celebration, religious solemnity" ;
 fille FC1 "girl, daughter" ;
 force FC1 "strength, force" ;
+gloire FC1 "glory" ;
+    gloire:glore FC1 "glory" ;
 grace FC1 "grace, favor, pardon" ;
 guerre FC1 "war, trouble" ;
     guerre:guere FC1 "war, trouble" ;
@@ -173,9 +175,9 @@ chien MC1a "dog" ;
 combat MC1a "fight, combat" ;
 congié:congié%{T%} MC1a "leave, permission" ;
 conseil MC1a "opinion, advice, decision" ;
+covent MC1a "promise, agreement" ;
 cuer MC1a "heart" ;
     cuer:quer MC1a "heart" ;
-    cuer:coer MC1a "heart" ;
     cuer:cor MC1a "heart" ;
 curé MC1a "priest" ;
 défens MC1a "defense, resistance" ;
@@ -249,6 +251,7 @@ royaume:reiaume MC1a "kingdom" ;
     royaume:reiaulme MC1a "kingdom" ;
 ost:ost%> MC1a "army" ;
 chevalier MC1a "knight" ;
+lai MC1a "lay (poem)" ; ! Verify
 lieu MC1a "place" ;
 lion MC1a "lion" ;
 mal MC1a "evil, harm, misfortune, illness" ;
@@ -365,6 +368,7 @@ nom: Nom "name" ;
 gent:gen Gent "race, people" ;
 pied: Pied "foot" ;
 monseigneur: Monseigneur "my lord (honorific)" ;
+tot+N: Tot "all" ;
 
 
 !! Indeclinable Nouns
@@ -393,6 +397,8 @@ sains NIndecM "bells" ;
 tens NIndecM "time, times, weather" ;
     tens:tans NIndecM "time, times, weather" ;
     tens:temps NIndecM "time, times, weather" ;
+vertjus NIndecM "juice from unripe grapes" ;
+    vertjus:verjus NIndecM "juice from unripe grapes" ;
 vers NIndecM "verse, song" ;
 voiz NIndecF "voice" ;
 
@@ -408,6 +414,7 @@ Bougars PropMasc "Bougars de Valence" ;
 Bretaingne PropFem "Brittany" ;
     Bretaingne:Bretaigne PropFem "Brittany" ;
 Chartres PropMasc "Chartres" ; ! Verify gender
+Cligés PropMasc "Cligès" ;
 Crathor PropMasc "Crathor" ; ! Verify gender
 Crist PropMasc "Christ" ;
     Crist:Christ PropMasc "Christ" ;

@@ -26,6 +26,7 @@ quel Adj "which" ; ! Adj3?
 sain Adj1 "healthy, uninjured" ;
 saint:sain%{T%} Adj1 "holy" ;
 seul Adj1 "alone, single, only" ;
+    seul:sol Adj1 "alone, single, only" ;
 souvent Adj1 "many, frequent" ;
     souvent:sovent Adj1 "many, frequent" ;
 tel:tel Adj1 "such" ; ! Adj3?
@@ -103,7 +104,7 @@ mieux: Mieux "better" ;
 mout: Mout "many, much, very" ;
 nouveau: Nouveau "new" ;
 nul: Nul "no, not any" ;
-tot: Tot "all, every, completely" ;
+tot+Adj: Tot "all, every, completely" ;
 
 lequel+Adj: RelInterr ;
 

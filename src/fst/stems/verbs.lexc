@@ -11,6 +11,7 @@ venir:v Xenir       "to come, to go" ;
 tenir:t Xenir       "to keep, to hold" ;
 convenir:conv Xenir   "to gather, to be necessary" ;
     convenir:cov Xenir "to gather, to be necessary" ;
+    convenir:couv Xenir "to gather, to be necessary" ;
 voloir: Voloir      "to want, to desire" ;
 prendre: Prendre    "to take, to take hold of, to seize" ;
 savoir: Savoir      "to know" ;

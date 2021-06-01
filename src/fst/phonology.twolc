@@ -137,7 +137,7 @@ m:n => _ Labial ;
 i:y => Vow _ ;
 
 "e can be expressed as o before i/y"
-e:o => _ i: ;
+e:o => _ %{I%}: ;
 
 "e can be expressed as o in the -ens suffix"
 e:o => i: _ n: s: ;
@@ -153,10 +153,10 @@ i:0 => _ i: e: ;
 
 !! Ordinals
 "s can become è in the ordinal suffix"
-s:è => i _ m e ;
+s:è => i _ m:m e:e ;
 
 "e can be inserted before s in the ordinal suffix"
-0:e => i _ s:s m e ;
+0:e => i _ s:s m:m e:e ;
 
 "optional s can be deleted"
 %{S%}:0 => _ ;
@@ -217,4 +217,17 @@ u:0 <=> q:k _ ;
 
 "q can be expressed as k"
 q:k => _ ;
+
+! Variations of ö
+!"ue can be written as eu"
+!u:0 => _ e:e 0:u ;
+
+!"ue can be written as eu"
+!0:u => u:0 e:e _ ;
+
+!"ue can be written as oe"
+!u:o => _ e:e ;
+
+!"oe can be written as ue"
+!o:u => _ e:e ;
 
