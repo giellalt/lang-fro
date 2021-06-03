@@ -36,6 +36,7 @@ LIST Num = Num ;
 LIST Conj = Conj ;
 LIST CC = Coord ;
 LIST CS = Subord ;
+LIST MWC = MultiWordConj ;
 LIST Interj = Interj ;
 LIST Abbr = Abbr ;
 LIST Prep = Prep ;
@@ -77,6 +78,10 @@ LIST Imp = Imp ;
 LIST Ipfv = Ipfv
 LIST Sbjv = Sbjv ;
 LIST Cond = Cond ;
+LIST Stress = Stress ;
+LIST Unstress = Unstress ;
+LIST Dir = Dir ;
+LIST Indir = Indir ;
 #LIST Sup = Sup ;
 #LIST Cmpnd = Cmpnd ;
 LIST CLB = CLB ;
@@ -85,6 +90,7 @@ LIST LEFT = LEFT ;
 LIST RIGHT = RIGHT ;
 LIST Guess = Guess ;
 LIST De = "de" ;
+LIST Que = "que" ;
 LIST Obsc = "Err/Obsc" ;
 
 
@@ -147,16 +153,16 @@ SET NOUNFORM = N + GENDERCASENUMBER ;
 
 LIST COPULA = "estre" ;
 
-LIST AVEIR = "aveir" ;
+LIST AVOIR = "avoir" ;
 
-SET AUX = COPULA OR AVEIR ;
+SET AUX = COPULA OR AVOIR ;
 
 SET PRESPART = (Part Pres) ;
 SET PASTPART = (Part Past) ;
 LIST TENSE = Pres Perf Ipfv Past Fut ;
 LIST PAST = Perf Ipfv Past ;
 LIST MOOD = Ind Sbjv Imp Cond ; 
-LIST PERS = 1Sg 2Sg 3Sg 1Pl 2Pl 3Pl ;
+SET PERSON = 1Sg OR 2Sg OR 3Sg OR 1Pl OR 2Pl OR 3Pl ;
 LIST NONFINITE = Part Inf ;
 #LIST Ind = Prs Prt ;
 
@@ -250,10 +256,13 @@ SECTION
 REMOVE Guess ; # If any other reading is possible.
 REMOVE Obsc ; # If any other reading is possible.
 
+# Priority
+# ------------------------
+
+REMOVE Pro + Refl IF (1 Pro + Refl) ;
 
 # Adjective disambiguation
 # ------------------------
-
 
 REMOVE Adj + $$GENDERCASENUMBER IF ( NOT 1 N + $$GENDERCASENUMBER) ;
 
@@ -261,22 +270,21 @@ REMOVE Adj + $$GENDERCASENUMBER IF ( NOT 1 N + $$GENDERCASENUMBER) ;
 # Verb disambiguation
 # ------------------------
 
-#REMOVE ( V + $$PERS ) IF ( NOT -1 Pro + Prs + $$PERS ) ;
-REMOVE V + 1Sg IF ( NOT -1 Pro + Prs + 1Sg ) ;
-REMOVE V + 2Sg IF ( NOT -1 Pro + Prs + 2Sg ) ;
-REMOVE V + 1Pl IF ( NOT -1 Pro + Prs + 1Pl ) ;
-REMOVE V + 2Pl IF ( NOT -1 Pro + Prs + 2Pl ) ;
-
+SELECT V + $$PERSON IF (-1 Pro + Prs + $$PERSON ) ;
 REMOVE V IF (NOT 0 NONFINITE) (-1 V) ;
 
 SELECT V + 3Sg IF (-1 N + NomSg) ;
+SELECT V + 3Sg IF (-1 Pro + Refl + 3Sg) ;
+SELECT V + 3Pl IF (-1 Pro + Refl + 3Pl) ;
 
 # Pronoun disambiguation
 # ------------------------
 
-REMOVE Pro + Poss IF ( NOT 1 N OR Adj OR Num ) ;
-SELECT Pro + Poss + $$GENDERCASENUMBER IF (1 N + $$GENDERCASENUMBER OR Adj + $$GENDERCASENUMBER) ;
-SELECT Pro + Refl IF (1C V) ;
+SELECT Pro + Poss + $$GENDERCASENUMBER + Unstress IF (1 N + $$GENDERCASENUMBER OR Adj + $$GENDERCASENUMBER OR Num) ;
+SELECT Pro + Poss + Stress IF (-1 Art) ; # Check
+
+SELECT Pro + Refl + $$PERSON IF (1 V + $$PERSON) ;
+SELECT Pro + Prs + $$PERSON + Stress IF (1 V + $$PERSON) ;
 SELECT Pro + Adv IF (1C V) ;
 
 # Article disambiguation
@@ -287,14 +295,41 @@ SELECT Art + $$GENDERCASENUMBER IF (1 N + $$GENDERCASENUMBER OR Adj + $$GENDERCA
 # Noun disambiguation
 # ------------------------
 
-REMOVE N IF (-1 N) ;
 SELECT N + $$GENDERCASENUMBER IF (-1 Art + $$GENDERCASENUMBER) ;
-SELECT N IF (-1C Prep) ;
-#SELECT N IF (-1C Art) (-2C Prep) ;
+SELECT N + $$GENDERCASENUMBER IF (-2 Art + $$GENDERCASENUMBER) (-1 Adj + $$GENDERCASENUMBER) ;
 SELECT N + Obl IF (-1C Prep) ;
+SELECT N + Obl IF (-1 Pro + Poss) ;
 SELECT N + MascNomSg IF (1 V + 3Sg ) ;
+SELECT N + Obl IF (-1 S-BOUNDARY) (1 V) ;
 
 # Adjectve disambiguation
 # ------------------------
 
-#SELECT Adj + $$GENDERCASENUMBER IF (1* N + $$GENDERCASENUMBER) ;
+SELECT Adj + Obl IF (-1 S-BOUNDARY) (1 COPULA) ;
+SELECT Adj + Obl IF (-2 Prep) (-1 Art) (1 N) ;
+SELECT Adj + $$GENDERCASENUMBER IF (1* N + $$GENDERCASENUMBER) ;
+
+# Conjunction disambiguation
+# ------------------------
+
+SELECT MWC IF (1 MWC OR Que) ;
+SELECT CC IF (-1 CLB) ;
+SELECT CS IF (0 Que) (-1 MWC) ;
+SELECT Que + CS IF (NOT -1 CLB) ;
+
+
+SECTION
+# Things that have to go after the first things
+
+REMOVE N IF (-1 N) ;
+SELECT V + Part IF (-1 AUX) ;
+SELECT Pro + Obl + Stress IF (-1 Prep) ;
+SELECT Pro + Dir IF (-1 Prep) ;
+SELECT N + Fem + Obl IF (-1 V) (-2 N + Nom OR Pro + Nom) ; # Check
+
+SECTION
+# If you still have options....
+
+SELECT Prep ;
+SELECT Adj + MascFem ; # Avoid neuter if possible
+
