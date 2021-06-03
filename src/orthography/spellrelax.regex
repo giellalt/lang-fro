@@ -11,10 +11,11 @@ j (->) i ,, # Old spelling convention
 s (->) z || _ .#. ,, # word-final s can be written as z
 l (->) u || a _ s .#. ,, # i.e. mals -> maus
 l (->) u || e _ s .#. ,, # i.e. els -> eus
-c (->) s || _ e ,,
-c (->) s || _ i ,,
-s (->) c || _ e ,,
-s (->) c || _ i ,,
+#c (->) s || _ e ,, # Proper rules, but causing too many problems with cg3 for now
+#c (->) s || _ i ,,
+#s (->) c || _ e ,,
+#s (->) c || _ i ,,
+e (->) o || _ i ,,
 ç (->) c ;
 
 # Explanation:
