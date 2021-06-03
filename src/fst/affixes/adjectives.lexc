@@ -75,6 +75,94 @@ LEXICON IndefAdj
 +Adj+Indef:s # ; ! FIXME: research Indefinite Adjectives
 +Adj+Indef:0 # ; ! FIXME: research Indefinite Adjectives
 
+LEXICON FV
++Adj+Masc+Nom+Sg:f%>s # ;
++Adj+Masc+Obl+Sg:f # ;
++Adj+Masc+Nom+Pl:f # ;
++Adj+Masc+Obl+Pl:f%>s # ;
+
++Adj+Fem+Nom+Sg:ve # ;
++Adj+Fem+Obl+Sg:ve # ;
++Adj+Fem+Nom+Pl:ves # ;
++Adj+Fem+Obl+Pl:ves # ;
+
+LEXICON CChe
++Adj+Masc+Nom+Sg:c%>s # ;
++Adj+Masc+Obl+Sg:c # ;
++Adj+Masc+Nom+Pl:c # ;
++Adj+Masc+Obl+Pl:c%>s # ;
+
++Adj+Fem+Nom+Sg:che # ;
++Adj+Fem+Obl+Sg:che # ;
++Adj+Fem+Nom+Pl:ches # ;
++Adj+Fem+Obl+Pl:ches # ;
+
+LEXICON TDe
++Adj+Masc+Nom+Sg:%{T%}s # ;
++Adj+Masc+Obl+Sg:t # ;
++Adj+Masc+Nom+Pl:t # ;
++Adj+Masc+Obl+Pl:%{T%}s # ;
+
++Adj+Fem+Nom+Sg:de # ;
++Adj+Fem+Obl+Sg:de # ;
++Adj+Fem+Nom+Pl:des # ;
++Adj+Fem+Obl+Pl:des # ;
+
+LEXICON CGe
++Adj+Masc+Nom+Sg:c%>s # ;
++Adj+Masc+Obl+Sg:c # ;
++Adj+Masc+Nom+Pl:c # ;
++Adj+Masc+Obl+Pl:c%>s # ;
+
++Adj+Fem+Nom+Sg:ge # ;
++Adj+Fem+Obl+Sg:ge # ;
++Adj+Fem+Nom+Pl:ges # ;
++Adj+Fem+Obl+Pl:ges # ;
+
+LEXICON IsSche
++Adj+Masc+Nom+Sg:is # ;
++Adj+Masc+Obl+Sg:is # ;
++Adj+Masc+Nom+Pl:is # ;
++Adj+Masc+Obl+Pl:is # ;
+
++Adj+Fem+Nom+Sg:sche # ;
++Adj+Fem+Obl+Sg:sche # ;
++Adj+Fem+Nom+Pl:sches # ;
++Adj+Fem+Obl+Pl:sches # ;
+
+LEXICON ZCe
++Adj+Masc+Nom+Sg:z # ;
++Adj+Masc+Obl+Sg:z # ;
++Adj+Masc+Nom+Pl:z # ;
++Adj+Masc+Obl+Pl:z # ;
+
++Adj+Fem+Nom+Sg:ce # ;
++Adj+Fem+Obl+Sg:ce # ;
++Adj+Fem+Nom+Pl:ces # ;
++Adj+Fem+Obl+Pl:ces # ;
+
+LEXICON CQue
++Adj+Masc+Nom+Sg:cs # ;
++Adj+Masc+Obl+Sg:c # ;
++Adj+Masc+Nom+Pl:c # ;
++Adj+Masc+Obl+Pl:cs # ;
+
++Adj+Fem+Nom+Sg:que # ;
++Adj+Fem+Obl+Sg:que # ;
++Adj+Fem+Nom+Pl:ques # ;
++Adj+Fem+Obl+Pl:ques # ;
+
+LEXICON IlIlle
++Adj+Masc+Nom+Sg:ils # ;
++Adj+Masc+Obl+Sg:il # ;
++Adj+Masc+Nom+Pl:il # ;
++Adj+Masc+Obl+Pl:ils # ;
+
++Adj+Fem+Nom+Sg:ille # ;
++Adj+Fem+Obl+Sg:ille # ;
++Adj+Fem+Nom+Pl:illes # ;
++Adj+Fem+Obl+Pl:illes # ;
+
 
 LEXICON Mieux
 +Adj+Masc+Nom+Sg:mieudre # ;
@@ -145,6 +233,16 @@ LEXICON Tot
 +Masc+Obl+Sg+Emph:trestut # ;
 +Fem+Nom+Sg+Emph:trestute # ;
 
+
++Adj+Masc+Sg:ledit # ; ! Verify
++Adj+Masc+Sg:ledict # ; ! Verify
++Adj+Masc+Pl:lesdiz # ; ! Verify
++Adj+Fem+Sg:ladite # ; ! Verify
++Adj+Fem+Sg:ladicte # ; ! Verify
++Prep+Adj+Masc+Sg:dudit # ; ! Verify
++Prep+Adj+Masc+Sg:dudict # ; ! Verify
++Prep+Adj+Masc+Sg:audit # ; ! Verify
++Prep+Adj+Masc+Sg:oudit # ; ! Verify
 
 !!€gt-norm: adjectives
 !!€ bones:          bon+Adj+Fem+Nom+Pl

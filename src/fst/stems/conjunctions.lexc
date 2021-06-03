@@ -27,8 +27,9 @@ par SubPart ;
 plus SubPart ;
 por SubPart ;
 puis SubPart ;
-quant Subord "when, if, since" ;
-    quant:cant "when, if, since" ;
+quant Subord "when, if, since" ; ! Quantifier form?
+    quant:cant Subord "when, if, since" ;
+    quant:quand Subord "when, if, since" ;
 que: Que ;
 se:s Se "if not" ;
 si:s Si "and, so, since, yet, but" ;

@@ -122,7 +122,7 @@ m:n => _ Labial ;
 i:y => Vow _ ;
 
 "e can be expressed as o before i/y"
-e:o => _ %{I%}: ;
+e:o => _ i: ;
 
 "e can be expressed as o in the -ens suffix"
 e:o => i: _ n: s: ;

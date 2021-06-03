@@ -1,85 +1,107 @@
 LEXICON Adjectives
+aigre Adj2 "acid" ;
+aspre Adj2 "rough" ;
 aucun Adj1 "some, none?" ; ! Verify definition
+autre Adj2 "other, another" ;
+    autre:altre Adj2 "other, another" ;
+    autre:aultre Adj2 "other, another" ;
+avenant Adj3 "attractive" ;
 bel Adj1 "dear, beloved, handsome" ;
+    bel+Adj+Masc+Nom+Sg:beau # ;
+    bel+Adj+Masc+Obl+Pl:beaux # ; ! Other forms?
+blanc:blan CChe "white" ;
 bon Adj1 "good" ;
+brief FV "short" ;
+celestial Adj3 "celestial" ;
+charnel Adj3 "carnal" ;
+chauf:chau FVe "bald" ;
+    chauf+Adj+Masc+Obl+Sg:chauve # ;
+chenut:chenu TDe "white, old, aged, white-haired" ;
 chier Adj1 "dear, expensive, clean" ;
     chier:cher Adj1 "dear, expensive, clean" ;
+coral Adj3 "cordial" ;
+corant Adj3 "swift" ;
+corteis MascIndec "corteous" ;
 cour%{T%} Adj1 "short (not long), of little importance" ;
+cruël Adj3 "cruel" ;
+destre Adj2 "right" ;
+diligent:diligent%> Adj3 "diligent" ;
+douz MascIndec "sweet" ;
 dur Adj1 "hard, difficult, clean" ;
+droit MascIndec "direct, right, proper" ;
+egal Adj3 "equal" ;
+faus MascIndec "false" ;
+ferm:ferm%> Adj1 "firm, stable" ;
+    ferm+Adj+Masc+Obl+Sg:ferme # ;
+fol Adj3 "foolish" ;
 fort:for%{T%} Adj1 "strong" ; ! Adj3?
 franc Adj1 "noble, free" ;
     franc+Adj+Masc+Nom+Sg:frans # ; ! Verify
     franc+Adj+Masc+Obl+Pl:frans # ; ! Verify
     franc:franch Adj1 "noble, free" ; ! Only for feminine forms?
+franceis MascIndec "French" ;
+freis:fre IsSche "fresh" ; ! Verify
+gentil Adj3 "noble" ;
 grant:gran%{T%} Adj1 "great" ; ! Adj3?
     grant:grand Adj1 "great" ;
+grec:gre CQue "greek" ;
+grief Adj3 "grievous" ;
+gros MascIndec "large" ;
 haut Adj1 "exalted, high, clean" ; ! Check for other definitions
+infernal Adj3 "infernal" ;
+jouvencel+Adj+Masc:jouvencel # "young" ; ! Verify
+larc:lar CGe "large" ;
+    larc:large Adj2 "large" ;
+las:las%> MascIndec "tired, exhausted" ;
+ledit: Ledit "the aforemonetioned" ;
+leial Adj3 "loyal" ;
+lequel+Adj: RelInterr ;
+luisant:luisan%{T%} Adj3 "bright" ;
 maint Adj1 "many" ; ! Indefinite?
 mal Adj1 "evil, disaster, illness" ;
+mieux: Mieux "better" ;
+morel Adj3 "mortal" ;
 mort:mor%{T%} Adj1 "dead" ;
+mout: Mout "many, much, very" ;
 naturel Adj1 "natural" ; ! Adj3?
+noble Adj2 "noble, belonging to nobility" ;
+nouveau: Nouveau "new" ;
+nul: Nul "no, not any" ;
+pacient:pacien%{T%} Adj3 "patient" ;
 petit:peti%{T%} Adj1 "small, little" ;
+ploros MascIndec "tearful" ;
+povre Adj2 "poor" ;
+precios MascIndec "precious" ;
 present:présen%{T%} Adj1 ;
+prudent:pruden%{T%} Adj3 "prudent" ;
+pucele+Adj+Fem:pucel%>e # "virgin" ;
+puissant:puissan%{T%} Adj3 "powerful" ;
 quel Adj "which" ; ! Adj3?
+reial Adj3 "royal" ;
+sage Adj2 "wise" ;
+    sage:saige Adj2 "wise" ;
 sain Adj1 "healthy, uninjured" ;
 saint:sain%{T%} Adj1 "holy" ;
+senestre Adj2 "left" ;
 seul Adj1 "alone, single, only" ;
     seul:sol Adj1 "alone, single, only" ;
+soëf Adj3 "sweet" ;
+sotil Adj3 "ingenious" ;
 souvent Adj1 "many, frequent" ;
     souvent:sovent Adj1 "many, frequent" ;
 tel:tel Adj1 "such" ; ! Adj3?
+tendre Adj2 "tender" ;
+tierz:tier ZCe "third" ;
 tort:tor%{T%} Adj1 "wrong, twisted, crooked" ;
-vert:ver%{T%} Adj1 "green" ;
-voir Adj1 "true" ;
-
-aigre Adj2 "acid" ;
-aspre Adj2 "rough" ;
-autre Adj2 "other, another" ;
-    autre:altre Adj2 "other, another" ;
-    autre:aultre Adj2 "other, another" ;
-destre Adj2 "right" ;
-noble Adj2 "noble, belonging to nobility" ;
-povre Adj2 "poor" ;
-sage Adj2 "wise" ;
-    sage:saige Adj2 "wise" ;
-senestre Adj2 "left" ;
-tendre Adj2 "tendre" ;
-
-avenant Adj3 "attractive" ;
-brief Adj3 "short" ;
-celestial Adj3 "celestial" ;
-charnel Adj3 "carnal" ;
-coral Adj3 "cordial" ;
-corant Adj3 "swift" ;
-cruël Adj3 "cruel" ;
-diligent:diligent%> Adj3 "diligent" ;
-egal Adj3 "equal" ;
-fol Adj3 "foolish" ;
-gentil Adj3 "noble" ;
-grief Adj3 "grievous" ;
-infernal Adj3 "infernal" ;
-leial Adj3 "loyal" ;
-luisant:luisant%> Adj3 "bright" ;
-morel Adj3 "mortal" ;
-pacient:pacient%> Adj3 "patient" ;
-prudent:prudent%> Adj3 "prudent" ;
-puissant:puissant%> Adj3 "powerful" ;
-reial Adj3 "royal" ;
-soëf Adj3 "sweet" ;
-sotil Adj3 "ingenious" ;
+tot+Adj: Tot "all, every, completely" ;
 trenchant:trenchant%> Adj3 "sharp" ;
 vaillant:vaillant%> Adj3 "valliant" ;
+vermeil:verme IlIlle "bright red, of wine" ;
+vert:ver%{T%} Adj1 "green" ;
+vif:vi FV "alive" ;
 vil Adj3 "vile" ;
+voir Adj1 "true" ;
 
-corteis MascIndec "corteous" ;
-douz MascIndec "sweet" ;
-droit MascIndec "direct, right, proper" ;
-faus MascIndec "false" ;
-franceis MascIndec "French" ;
-gros MascIndec "large" ;
-ploros MascIndec "tearful" ;
-precios MascIndec "precious" ;
-tierz MascIndec "third" ;
 
 chascun IndefAdj "each one, everyone" ;
     chascun:chacun IndefAdj "each one, everyone" ;
@@ -98,23 +120,3 @@ meïsme IndefAdj "self, same, even, also" ; ! Verify all
     meïsme:memes IndefAdj "self, same, even, also" ;
     meïsme:meme IndefAdj "self, same, even, also" ;
 
-mieux: Mieux "better" ;
-mout: Mout "many, much, very" ;
-nouveau: Nouveau "new" ;
-nul: Nul "no, not any" ;
-tot+Adj: Tot "all, every, completely" ;
-
-lequel+Adj: RelInterr ;
-
-ledit+Adj+Masc+Sg:ledit # "the aforementioned (le+dit)" ; ! Verify
-ledit+Adj+Masc+Sg:ledict # "the aforementioned (le+dit)" ; ! Verify
-ledit+Adj+Fem+Sg:ladite # "the aforementioned (la+dite)" ; ! Verify
-ledit+Adj+Fem+Sg:ladicte # "the aforementioned (la+dite)" ; ! Verify
-ledit+Prep+Adj+Masc+Sg:dudit # "of the aformenetioned (du+dit)" ; ! Verify
-ledit+Prep+Adj+Masc+Sg:dudict # "of the aformenetioned (du+dit)" ; ! Verify
-ledit+Prep+Adj+Masc+Sg:audit # "to the aforementioned (au+dit)" ; ! Verify
-ledit+Prep+Adj+Masc+Sg:oudit # "with the aforementioned (ou+dit)" ; ! Verify
-ledit+Adj+Masc+Pl:lesdiz # "the aforementioned (le+dit)" ; ! Verify
-
-jouvencel+Adj+Masc:jouvencel # "young" ; ! Verify
-pucele+Adj+Fem:pucel%>e # "virgin" ;

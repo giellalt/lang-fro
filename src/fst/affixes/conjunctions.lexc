@@ -39,7 +39,7 @@ LEXICON Comme
 +Conj+Subord:com%> # ;
 +Conj+Subord:cum # ;
 +Conj+Subord:con # ;
-+Conj+Subord:come # ;
++Conj+Subord:com%>e # ;
 +Conj+Subord:conme # ;
 
 ! vim: set ft=xfst-lexc:

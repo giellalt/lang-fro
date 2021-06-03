@@ -19,3 +19,11 @@ LEXICON DerAdv
 LEXICON InterrAdv
 +Adv+Interr:0 # ;
 
+LEXICON CommeAdv
++Adv:com%> # ;
++Adv:cum # ;
++Adv:con # ;
++Adv:com%>e # ;
++Adv:conme # ;
++Adv:cume # ;
+

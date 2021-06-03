@@ -1,46 +1,182 @@
 !! Nouns
 !  -----
-!! Nouns in the Old French language are things.
 
 LEXICON Nouns
-serour FC3 ;
-
-asn MC1b ;
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------A---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 abaesse FC1 "abbess" ;
 abaïe FC1 "abbey" ;
+abét MC3 "abbot" ;
+    abét+N+Masc+Nom+Sg:abes # "abbot" ;
+acheison FC2 "motive, reason" ;
+acier MC1a "steel" ;
+acor MC1a "tail/flap of cloak or mantle" ;
+aé MC1a "age" ;
+Alemaigne PropFem "Germany" ;
+Alixandre+Prop:Alixandr MC2 "Alexander" ;
+amant MC1a "beloved, friend" ;
 ame FC1 "soul, somebody" ;
     ame:anme FC1 "soul, somebody" ;
     ame:alme FC1 "soul, somebody" ;
     ame:arme FC1 "soul, somebody" ;
     ame:aneme FC1 "soul, somebody" ; ! Best guess for aneme. If not, it's enemy.
 amende FC1 "amend, reparation, punishment" ;
+ami MC1a "friend (male)" ;
 amie FC1 "friend (female), Miss (in 'bele amie')" ;
+amor FC2 "love" ;
+    amor:amour FC2 "love" ;
+    amor:amur FC2 "love" ;
+an MC1a "year" ;
+    !an+N+Masc+Obl+Pl:anz # "year" ; ! Same for nom sg?
+ancessor MC3 "ancestor" ;
+    ancessor+N+Masc+Nom+Sg:ancestre # "ancestor" ;
+anel MC1a "ring" ;
+ange MC1a "angel" ; ! Also feminine? (all)
+    ange:angel MC1a "angel" ;
+    ange:angle MC1a "angel" ;
+    ange:angele MC1a "angel" ;
+Angleterre PropFem "England" ; ! Verify gender
+    Angleterre:Engleterre PropFem "England" ;
 ante FC1 "aunt, foster mother" ; ! separate meaning in Latin?
+antif MC1a "ancient man" ;
+arcevesque MC1a "archbishop" ;
+argent:argen%{T%} NIndecM "money, riches, silver" ; ! Verify gender
+    argent:argens NIndecM "silver" ;
 arme FC1 "weapon" ;
+asn MC1b ;
 aumosne FC1 "good deed" ;
+Aucassin+Prop:Aucassin MC1a "Aucassin, hero of 'Aucassin and Nicolette'" ;
+    Aucassin+Prop:Aucasin MC1a "Aucassin, hero of 'Aucassin and Nicolette'" ;
+autre MC1a "the other __" ; ! Verify
+    autre:altre MC1a "the other __" ; ! Verify
 autre FC1 "the other __" ;
     autre:altre FC1 "the other __" ;
 aventure FC1 "adventure, event, chance" ;
+aversier MC1a "adversary, the devil" ;
+    aversier:adversier MC1a "adversary, the devil" ;
+avesprer MC1a "nightfall, dusk" ;
+avoir MC1a "possessions, wealth" ;
+Aymes+Prop:Aymon MC3 "Aymes" ;
+    Aymes+Prop+N+Masc+Nom+Sg:Aymes # "Aymes" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------B---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+baceler MC1a "young man, knight" ;
+    baceler:bacheler MC1a "young man, knight" ; ! Irregular NS "bacheler"?
+    baceler:bachelier MC1a "young man, knight" ;
 bare FC1 "barrier" ;
+baron MC3 "lord, husband" ;
+    baron+N+Masc+Nom+Sg:ber # "lord, husband" ;
 bataille FC1 "battle" ;
-beste FC1 "animal, beast" ; ! Adjectival form?
 beauté FC1 "beauty" ;
     beauté:beaulté FC1 "beauty" ;
     beauté:biauté FC1 "beauty" ;
+Beneeit PropMasc "Saint Benedict" ;
+Berinus PropMasc "Berinus" ;
+Bretaingne PropFem "Brittany" ;
+    Bretaingne:Bretaigne PropFem "Brittany" ;
+bers NIndecM "cradle, crib" ;
+beste FC1 "animal, beast" ; ! Adjectival form?
+bien MC1a "good, goodness" ;
+bofu MC1a "silk, material stitched with gold thread" ;
+bois NIndecM "woods" ;
 bouche FC1 "mouth" ;
+Bougars PropMasc "Bougars de Valence" ;
+Bourgongne PropMasc "Bourgogne" ;
+    Bourgongne:Bourgogne PropMasc "Bourgogne" ;
+brant:bran%{T%} MC1a "sword" ;
+bricon MC3 "rogue, fool" ;
+    bricon+N+Masc+Nom+Sg:bris # "rogue, fool" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------C---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+cas MC1a "case, occurrance, military action, fall, cause" ; ! Verify
 cause FC1 "cause, case" ;
     bouche:buche FC1 "mouth" ;
 chambre FC1 "room" ;
     chambre:canbre FC1 "room" ;
+chapitre:chapitr MC2 "chapter" ;
+char NIndecF "flesh, meat" ;
+    char:chair NIndecF "flesh, meat" ;
+    char:charn NIndecF "flesh, meat" ;
+Charles+Prop:Charlon MC3 "Charles" ;
+    Charles+Prop:Carlon MC3 "Charles" ;
+    Charles+Prop+N+Masc+Nom+Sg:Charles # "Charles" ;
+    Charles+Prop+N+Masc+Nom+Sg:Carles # "Charles" ;
+Chartres PropMasc "Chartres" ; ! Verify gender
+chastel MC1a "castle" ;
+    chastel:castel MC1a "castle" ;
+chastellet NIndecM "fortress, prison judgement seat" ;
+    chastellet:chastelet NIndecM ;
+    chastellet:chastelet NIndecM ;
+    chastellet:châtelet NIndecM ;
+chat MC1a "cat" ;
+chemin MC1a "road, path, highway" ;
+cheval: Cheval "horse" ;
+chevalier MC1a "knight" ;
+chief MC1a "head, chief" ;
+    chief:chef MC1a "head, chief" ;
+chien MC1a "dog" ;
 chose FC1 "thing, affair, creature" ;
     chose:cose FC1 ;
     chose:kose FC1 ;
+ciel: Ciel "heaven" ;
+cité:cité%{T%} FC2 "city" ;
+clamor FC2 "clamour" ;
+Cligés PropMasc "Cligès" ;
+color FC2 "color" ;
+combat MC1a "fight, combat" ;
 compaignie FC1 "company, group" ;
     compaignie:compagnie FC1 "company, group" ;
+compaignon MC3 "companion" ;
+    compaignon+N+Masc+Nom+Sg:compaing # "companion" ;
+compere:comper MC2 "friend, crony" ;
+congié:congié%{T%} MC1a "leave, permission" ;
+conseil MC1a "opinion, advice, decision" ;
+conte MC3 "count" ;
+    conte+N+Masc+Nom+Sg:cuens # "count" ;
+    conte:comte MC3 "count" ;
+cors NIndecM "body" ;
+    cors:corps NIndecM "body" ;
+cort FC2 "court" ;
+    cort:court FC2 "court" ;
+covent MC1a "promise, agreement" ;
+Crathor PropMasc "Crathor" ; ! Verify gender
+Crist PropMasc "Christ" ;
+    Crist:Christ PropMasc "Christ" ;
+cuer MC1a "heart" ;
+    cuer:quer MC1a "heart" ;
+    cuer:cor MC1a "heart" ;
+curé MC1a "priest" ;
 cure FC1 "concern, care, attention" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------D---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 dame FC1 "lady" ;
+David PropMasc "David" ;
+défens MC1a "defense, resistance" ;
+    défens:déffens MC1a "defense, resistance" ;
+    défens:déffense MC1a "defense, resistance" ;
+    défens:défense MC1a "defense, resistance" ;
 demande FC1 "claim, demand, wish, legal action, accusation" ;
+Dieu: Dieu "god" ;
+dol: Dol "suffering, pain, lamentation" ;
+dolor FC2 "sorrow" ;
+duc MC1a "duke" ;
+    duc+N+Masc+Nom+Sg:dux # "duke" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------E---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 eaue FC1 "water" ;
     eaue:eau FC2 "water" ;
     eaue+N+Fem+Nom+Pl:eaux # "water" ;
@@ -49,153 +185,46 @@ eaue FC1 "water" ;
     eaue:yau FC2 "water" ;
 eglise FC1 "church" ;
     eglise:iglise FC1 "church" ;
-espee FC1 "sword" ;
-fame FC1 "wife, woman" ;
-    fame:femme FC1 "wife, woman" ;
-    fame:feme FC1 "wife, woman" ;
-feste FC1 "feast, holiday, celebration, religious solemnity" ;
-fille FC1 "girl, daughter" ;
-force FC1 "strength, force" ;
-gloire FC1 "glory" ;
-    gloire:glore FC1 "glory" ;
-grace FC1 "grace, favor, pardon" ;
-guerre FC1 "war, trouble" ;
-    guerre:guere FC1 "war, trouble" ;
-heure FC1 "hour" ;
-honte FC1 "shame, dishonor" ;
-ire FC1 "wrath, grief, distress" ;
-joie FC1 "joy" ;
-justice FC1 "justice, virtue, divine righteousness" ;
-letre FC1 "letter" ;
-    letre:lettre FC1 "letter" ;
-manière FC1 "manner, way, intention" ;
-mere FC1 "mother" ;
-miséricorde FC1 "pity, mercy, compassion" ;
-nature FC1 "nature, divine essense, characteristics" ;
-novele:nouvel%>e FC1 "news" ;
-parole:parol%>e FC1 "word, speech" ;
-partie FC1 "part, section, sharing" ; ! Verify definition
-personne FC1 "person, character" ;
-pierre FC1 "stone, prison" ;
-    pierre:piere FC1 "stone, prison" ;
-place FC1 "place, city, land, location, urban center" ;
-présence FC1 "presence (in a location), present moment" ;
-pucele:pucel%>e FC1 "maiden, virgin, young girl" ;
-reïne FC1 "queen" ;
-rose FC1 "rose" ;
-somme FC1 "sum, total, summet, burden, sleep" ; ! Different stems?
-    somme:some FC1 "sum, total, summet, burden, sleep" ;
-teste FC1 "head" ;
-verte FC1 "country, land, greenery" ;
-vie FC1 "life" ;
-vile:vil%>e FC1 "town, villa, farm" ;
-
-acheison FC2 "motive, reason" ;
-amor FC2 "love" ;
-    amor:amour FC2 "love" ;
-    amor:amur FC2 "love" ;
-cité:cité%{T%} FC2 "city" ;
-clamor FC2 "clamour" ;
-color FC2 "color" ;
-cort FC2 "court" ;
-    cort:court FC2 "court" ;
-dolor FC2 "sorrow" ;
-fei FC2 "faith" ;
-    !fei+N+Fem+Nom+Pl:feiz # "faith" ;
-    !fei+N+Fem+Obl+Pl:feiz # "faith" ;
-fin FC2 "end" ;
-flor FC2 "flower" ;
-forest FC2 "forest" ;
-gent FC2 "people" ;
-honor FC2 "honor" ;
-onor FC2 "honor" ;
-lei FC2 "law" ;
-main FC2 "hand" ;
-maison FC2 "house" ;
-mer FC2 "sea" ;
-merci:merci%{T%} FC2 "mercy" ;
-mort FC2 "death" ;
-nef FC2 "ship" ;
-nuit FC2 "night" ;
-paor FC2 "fear" ;
-part FC2 "part, portion" ;
-pechie:pechié%{T%} FC2 "sin" ;
-pitié:pitié%{T%} FC2 "pity, piety" ;
-prison FC2 "prison" ;
-raison FC2 "speech" ;
-    raison:raisun FC2 "speech" ;
-rien FC2 "thing, person" ;
-saison FC2 "season" ;
-terre FC2 "earth" ;
-    terre:tere FC2 "earth" ;
-tor FC2 "tower" ;
-    tor:torn FC2 "tower" ;
-traïson FC2 "treason" ;
-valor FC2 "worth" ;
-verité:verité%{T%} FC2 "truth" ;
-    !verité+N+Fem+Nom+Sg:veritez # "truth" ;
-vertu:vertu%{T%} FC2 "force, virtue" ;
-volenté:volenté%{T%} FC2 "will" ;
-    volenté:voulenté%{T%} FC2 "will" ;
-
-acier MC1a "steel" ;
-acor MC1a "tail/flap of cloak or mantle" ;
-aé MC1a "age" ;
-amant MC1a "beloved, friend" ;
-ami MC1a "friend (male)" ;
-an MC1a "year" ;
-    !an+N+Masc+Obl+Pl:anz # "year" ; ! Same for nom sg?
-anel MC1a "ring" ;
-ange MC1a "angel" ; ! Also feminine? (all)
-    ange:angel MC1a "angel" ;
-    ange:angle MC1a "angel" ;
-    ange:angele MC1a "angel" ;
-antif MC1a "ancient man" ;
-arcevesque MC1a "archbishop" ;
-aucassin+Prop:Aucassin MC1a "Aucassin, hero of 'Aucassin and Nicolette'" ;
-    aucassin+Prop:Aucasin MC1a "Aucassin, hero of 'Aucassin and Nicolette'" ;
-aversier MC1a "adversary, the devil" ;
-    aversier:adversier MC1a "adversary, the devil" ;
-avesprer MC1a "nightfall, dusk" ;
-avoir MC1a "possessions, wealth" ;
-baceler MC1a "young man, knight" ;
-    baceler:bacheler MC1a "young man, knight" ; ! Irregular NS "bacheler"?
-    baceler:bachelier MC1a "young man, knight" ;
-bien MC1a "good, goodness" ;
-bofu MC1a "silk, material stitched with gold thread" ;
-brant:bran%{T%} MC1a "sword" ;
-cas MC1a "case, occurrance, military action, fall, cause" ; ! Verify
-chastel MC1a "castle" ;
-    chastel:castel MC1a "castle" ;
-chat MC1a "cat" ;
-chemin MC1a "road, path, highway" ;
-chief MC1a "head, chief" ;
-    chief:chef MC1a "head, chief" ;
-chien MC1a "dog" ;
-combat MC1a "fight, combat" ;
-congié:congié%{T%} MC1a "leave, permission" ;
-conseil MC1a "opinion, advice, decision" ;
-covent MC1a "promise, agreement" ;
-cuer MC1a "heart" ;
-    cuer:quer MC1a "heart" ;
-    cuer:cor MC1a "heart" ;
-curé MC1a "priest" ;
-défens MC1a "defense, resistance" ;
-    défens:déffens MC1a "defense, resistance" ;
-    défens:déffense MC1a "defense, resistance" ;
-    défens:défense MC1a "defense, resistance" ;
-duc MC1a "duke" ;
-    duc+N+Masc+Nom+Sg:dux # "duke" ;
+empereor MC3 "emperor" ;
+    empereor:empereur MC3 "emperor" ;
+    empereor+N+Masc+Nom+Sg:emperere # "emperor" ;
+    empereor+N+Masc+Nom+Sg:empereres # "emperor" ;
+enfant:enfan%{T%} MC3 "child, youth" ;
+    enfant+N+Masc+Nom+Sg:enfes # "child, youth" ;
+    enfant+N+Masc+Nom+Sg+Err/Obsc:enfants # "child, youth" ;
+    enfant+N+Masc+Obl+Pl+Err/Obsc:enfants # "child, youth" ;
+Erec PropMasc "Eric" ;
+eschipre:eschipr MC2 "sailor" ;
 escu:escu%{T%} MC1a "shield" ;
+Espaigne PropFem "Spain" ;
+espee FC1 "sword" ;
 estat:esta%{T%} MC1a "state of being, permanence, social standing, estate" ; ! Verify definition
 evangile:évangile MC1a "gospel, the Gospels, good news" ;
     evangile:evangille MC1a "gospel, the Gospels, good news" ;
     evangile:euvangile MC1a "gospel, the Gospels, good news" ;
     evangile:euvangille MC1a "gospel, the Gospels, good news" ;
 evesque MC1a "bishop" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------F---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 fait:fai%{T%} MC1a "fact, deed, manner of doing" ; ! Verify
+fame FC1 "wife, woman" ;
+    fame:femme FC1 "wife, woman" ;
+    fame:feme FC1 "wife, woman" ;
+fei FC2 "faith" ;
+feis NIndecF  "time" ;
+feste FC1 "feast, holiday, celebration, religious solemnity" ;
 feu MC1a "fire" ;
     feu+N+Masc+Obl+Pl:feux # "fire" ; ! Also nom sg?
+fil: Fil "son" ;
+fille FC1 "girl, daughter" ;
+fin FC2 "end" ;
+Flandres PropFem "Flanders" ; ! Verify gender
+flor FC2 "flower" ;
+force FC1 "strength, force" ;
+forest FC2 "forest" ;
 franc MC1a "franc (currency)" ; ! Franc also = pigsty?
     franc+N+Masc+Nom+Sg:frans # "franc (currency)" ;
     franc+N+Masc+Obl+Pl:frans # "franc (currency)" ;
@@ -203,8 +232,40 @@ francais NIndecM "frenchman" ;
     francais:franc MC1a "frenchman, crusader" ;
     francais+N+Masc+Nom+Sg:frans # "frenchman, crusader" ;
     francais+N+Masc+Obl+Pl:frans # "frenchman, crusader" ;
+France PropFem "France" ;
+frere:frer MC2 "brother" ;
+    frere:frier MC2 "brother" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------G---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+garçon MC3 "boy, servant" ;
+    garçon+N+Masc+Nom+Sg:garz # "boy, servant" ;
+genre:genr MC2 "son-in-law" ;
+!gent FC2 "people" ;
+gent:gen Gent "race, people" ;
+Gieffroy PropMasc  "Jeffrey" ;
+gloire FC1 "glory" ;
+    gloire:glore FC1 "glory" ;
+gloton MC3 "glutton, wretch" ;
+    gloton+N+Masc+Nom+Sg:glot # "glutton, wretch" ;
+grace FC1 "grace, favor, pardon" ;
+Guenes+Prop:Guenelon MC3 "Ganelon" ;
+    Guenes+Prop+N+Masc+Nom+Sg:Guenes # "Ganelon" ;
+guerre FC1 "war, trouble" ;
+    guerre:guere FC1 "war, trouble" ;
+Gui+Prop:Guion MC3 "Guy" ;
+    gui+Prop+N+Masc+Nom+Sg:Gui # "Guy" ;
+    gui+Prop+N+Masc+Nom+Sg:Guis # "Guy" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------H---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 haut MC1a "height" ;
 Henri+Prop:Henri MC1a "Henry" ;
+heure FC1 "hour" ;
 hom:hom%>e MC1a "man" ;
     hom:om%>e MC1a "man" ;
     hom:hom%> MC1a "man" ;
@@ -214,9 +275,31 @@ hom:hom%>e MC1a "man" ;
     hom+N+Masc+Nom+Sg:home # "man" ; ! Verify
     hom+N+Masc+Nom+Sg:homme # "man" ; ! Verify
     hom+N+Masc+Nom+Sg:on # "man" ; ! Verify
+honor:%{H%}onor FC2 "honor" ;
+honte FC1 "shame, dishonor" ;
 hostel:%{H%}ostel MC1a "hotel" ; ! Verify
+Hugues+Prop:Hugon MC3 "Hugh" ;
+    Hugues+Prop+N+Masc+Nom+Sg:Hugues # "Hugh" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------I---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ire FC1 "wrath, grief, distress" ;
+Israél PropMasc "Israel" ;
 item MC1a "individual, article of an account" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------J---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 Jehan+Prop:Jehan MC1a "Jehan" ;
+Jehannin PropMasc "Jehannin" ;
+Jhesu PropMasc "Jesus" ;
+    Jhesu:Jhesus PropMasc "Jesus" ;
+    Jhesu:Jesu PropMasc "Jesus" ;
+    Jhesu:Jesus PropMasc "Jesus" ;
+joie FC1 "joy" ;
 Johan+Prop:Johan MC1a "John" ;
 jor MC1a "day" ;
     jor+N+Masc+Obl+Pl:iours # "day" ;
@@ -224,233 +307,241 @@ jor MC1a "day" ;
     jor:jour MC1a "day" ;
     jor:jur MC1a "day" ;
 jouvencel MC1a "young man" ;
+Jouvencel PropMasc "Jouvencel (title? name?)" ;
 jugement MC1a "judgement" ;
+justice FC1 "justice, virtue, divine righteousness" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------L---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+lai MC1a "lay (poem)" ; ! Verify
+larron MC3 "thief" ;
+    larron+N+Masc+Nom+Sg:lerre # "thief" ;
+Lazares+Prop:Lazaron MC3 "Lazarus" ;
+    Lazares+Prop+N+Masc+Nom+Sg:Lazares # "Lazarus" ;
+lei FC2 "law" ;
+letre FC1 "letter" ;
+    letre:lettre FC1 "letter" ;
 leu MC1a "place (literal or figurative)" ; ! Other possible meanings of word form?
     leu:lieu MC1a "place (literal or figurative)" ;
 lez MC1a "side, flank" ;
-lit:li%{T%} MC1a "bed" ;
+lieu MC1a "place" ;
+lion MC1a "lion" ;
+lit MC1a "bed" ;
+    lit+N+Masc+Nom+Sg:liz # ;
+    lit+N+Masc+Obl+Pl:liz # ;
+livre:livr MC2 "book" ;
 los MC1a "praise, glory, reputation" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------M---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+main FC2 "hand" ;
+maison FC2 "house" ;
+maistre:maistr MC2 "master" ;
+mal MC1a "evil, harm, misfortune, illness" ;
+    mal+N+Masc+Nom+Sg:max # "evil, harm, misfortune, illness" ; ! alternate form
+    mal+N+Masc+Nom+Sg:maus # "evil, harm, misfortune, illness" ; ! alternate form
+    mal+N+Masc+Obl+Pl:maus # "evil, harm, misfortune, illness" ; ! alternate form
+manière FC1 "manner, way, intention" ;
 mari:mar%{I%} MC1a "husband" ;
+Marie PropFem "Mary" ;
+Martin PropMasc "Martin" ;
 matin MC1a "morning" ;
+mer FC2 "sea" ;
+merci:merci%{T%} FC2 "mercy" ;
+mere FC1 "mother" ;
 mestier MC1a "job, occupation" ;
     mestier:métier MC1a "job, occupation" ;
+Michiel PropMasc "Michael" ;
+    Michiel:Michel PropMasc "Michael" ;
+miséricorde FC1 "pity, mercy, compassion" ;
+mois NIndecM "month" ;
 monde MC1a "world" ;
     monde:monte MC1a "world" ;
     monde+Err/Obsc:mont MC1a "world" ; ! mont is usually a form of "mountain"
     monde:mond MC1a "world" ;
     monde+N+Masc+Nom+Sg:mons # "world" ;
-mot MC1a "word" ;
-mur MC1a "wall" ;
-nïant:nïan%{T%} MC1a "nothing" ;
-    nïant:néan%{T%} MC1a "nothing" ;
-noble MC1a "person belonging of nobility, palm of the hand" ; ! separate the entries?
-pain MC1a "bread, food" ;
-procureur MC1a "representative, one who procures something" ;
-rei MC1a "king" ;
-royaume:reiaume MC1a "kingdom" ;
-    royaume:reiaulme MC1a "kingdom" ;
-ost:ost%> MC1a "army" ;
-chevalier MC1a "knight" ;
-lai MC1a "lay (poem)" ; ! Verify
-lieu MC1a "place" ;
-lion MC1a "lion" ;
-mal MC1a "evil, harm, misfortune, illness" ;
-    mal+N+Masc+Nom+Sg:max # "evil, harm, misfortune, illness" ; ! alternate form
-    mal+N+Masc+Nom+Sg:maus # "evil, harm, misfortune, illness" ; ! alternate form
-    mal+N+Masc+Obl+Pl:maus # "evil, harm, misfortune, illness" ; ! alternate form
+Mons PropMasc "region of Mons" ;
+monseigneur: Monseigneur "my lord (honorific)" ;
 mont:mon%{T%} MC1a "mountain" ;
     mont+N+Masc+Nom+Sg:mons # ;
+mort FC2 "death" ;
+mot MC1a "word" ;
+mur MC1a "wall" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------N---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+nature FC1 "nature, divine essense, characteristics" ;
+necessité FC1 "necessity" ; ! Verify
+nef FC2 "ship" ;
+nevo:nevo%{T%} MC3 "nephew" ;
+    nevo+N+Masc+Nom+Sg:niés # "nephew" ;
+nïant:nïan%{T%} MC1a "nothing" ;
+    nïant:néan%{T%} MC1a "nothing" ;
+Nicolas PropMasc "Nicholas" ;
+noble MC1a "person belonging of nobility, palm of the hand" ; ! separate the entries?
+Noël PropFem "Christmas" ;
+    Noël PropMasc "Christmas" ;
+nom: Nom "name" ;
+nombre:nombr MC2 "number" ;
+novele:nouvel%>e FC1 "news" ;
+nuit FC2 "night" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------O---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ome MC3 ;
+or MC1a "gold" ; ! Check class
+Orléans PropFem "Orleans region" ; ! Verify gender
+ost:os%{T%} MC1a "army" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------P---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 paien MC1a "infidel" ;
+pain MC1a "bread, food" ;
+pais NIndecM "country" ;
+    pais:païs NIndecM "country" ;
+palais NIndecM "palace" ;
+paor FC2 "fear" ;
+parastre:parastr MC2 "stepfather" ;
+Paris PropMasc "Paris" ; ! Verify gender
+parole:parol%>e FC1 "word, speech" ;
+part FC2 "part, portion" ;
+partie FC1 "part, section, sharing" ; ! Verify definition
 pasnage MC1a "payment to a lord for using land, right to graze" ;
+pastor MC3 "shepherd" ;
+    pastor+N+Masc+Nom+Sg:pastre # "shepherd" ;
+pechie:pechié%{T%} FC2 "sin" ;
+Pedre+Prop:Pedr MC2 ;
 pelerin MC1a "pilgrim" ;
+pere:per MC2 "father" ;
+personne FC1 "person, character" ;
+pied: Pied "foot" ;
+pierre FC1 "stone, prison" ;
+    pierre:piere FC1 "stone, prison" ;
+Pierre+Prop:Perron MC3 "Peter" ;
+    Pierre+Prop+N+Masc+Nom+Sg:Pierre # "Peter" ;
+    Pierre+Prop+N+Masc+Nom+Sg:Pierres # "Peter" ;
+pitié:pitié%{T%} FC2 "pity, piety" ;
+place FC1 "place, city, land, location, urban center" ;
+Pollinicés PropMasc "Pollinicés" ;
+porc:porc%> MC1a "pig, pork" ;
+port:por%{T%} MC1a "door" ;
+porte FC1 "door" ;
+possibilité FC1 "possibility" ; ! Verify
+présence FC1 "presence (in a location), present moment" ;
 present MC1a "current moment" ;
 prevost MC1a "state officer, tax collector, administrator (official title)" ;
 prince MC1a "prince" ;
+prison FC2 "prison" ;
+procureur MC1a "representative, one who procures something" ;
+provoire:provei%{D%}re MC3 "priest" ;
+    provoire+N+Masc+Nom+Sg:prestre # "priest" ;
+psalme NIndecN  ;
+    psalme:psalmus NIndecN ;
+    psalme:PSALMUS NIndecN ;
+pucele:pucel%>e FC1 "maiden, virgin, young girl" ;
 pueple MC1a "people" ;
     pueple:pople MC1a "people" ;
     pueple:peuple MC1a "people" ;
-or MC1a "gold" ; ! Check class
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------R---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+raison FC2 "speech" ;
+    raison:raisun FC2 "speech" ;
+rei MC1a "king" ;
+reïne FC1 "queen" ;
+rien FC2 "thing, person" ;
+Robert PropMasc "Robert" ;
+Rome PropFem "Rome" ;
+    Rome:Romme PropFem "Rome" ;
+rose FC1 "rose" ;
+royaume:reiaume MC1a "kingdom" ;
+    royaume:reiaulme MC1a "kingdom" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------S---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+sains NIndecM "bells" ;
+saison FC2 "season" ;
 sanc MC1a "blood" ;
     sanc:sang MC1a "blood" ;
+Saül PropMasc "Saul" ;
+seignor: Seignor "lord" ;
 sens MC1a "senses" ; ! Also a form of sentir
 serment MC1a "oath" ;
     serment:serement MC1a "oath" ;
+serour FC3 ;
 siecle MC1a "earthly life, world" ;
     siecle:secle MC1a "earthly life, world" ;
     siecle:seule MC1a "earthly life, world" ;
+somme FC1 "sum, total, summet, burden, sleep" ; ! Different stems?
+    somme:some FC1 "sum, total, summet, burden, sleep" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------T---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+tens NIndecM "time, times, weather" ;
+    tens:tans NIndecM "time, times, weather" ;
+    tens:temps NIndecM "time, times, weather" ;
+terre FC2 "earth" ;
+    terre:tere FC2 "earth" ;
+teste FC1 "head" ;
+Thebes PropMasc "Thebes" ;
+Thideüs PropMasc "Thideus" ;
+Thomas PropMasc "Thomas" ;
+tor FC2 "tower" ;
+    tor:torn FC2 "tower" ;
 tort:tor%{T%} MC1a "wrong" ;
+tot+N: Tot "all" ;
+traïson FC2 "treason" ;
+traïtor MC3 "traitor" ;
+    traïtor+N+Masc+Nom+Sg:traïtre # "traitor" ;
+Trinité:trinité%{T%} PropFem "the Trinity" ;
+    Trinité:triniteit PropFem "the Trinity" ;
+Tristran PropMasc "Tristran" ;
+    Tristran:Tristan PropMasc "Tristran" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------V---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Valence PropFem "region of Valence (Valencia?)" ; ! Verify gender
+valor FC2 "worth" ;
+verité:verité%{T%} FC2 "truth" ;
+vers NIndecM "verse, song" ;
 vert:ver%{T%} MC1a "green (color)" ;
+verte FC1 "country, land, greenery" ;
+vertjus NIndecM "juice from unripe grapes" ;
+    vertjus:verjus NIndecM "juice from unripe grapes" ;
+vertu:vertu%{T%} FC2 "force, virtue" ;
+vespre:vespr MC2 "evening" ;
+vie FC1 "life" ;
+vile:vil%>e FC1 "town, villa, farm" ;
+voie FC1 "way, path" ;
 voir MC1a "truth" ;
+voiz NIndecF "voice" ;
+volenté:volenté%{T%} FC2 "will" ;
+    volenté:voulenté%{T%} FC2 "will" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------W---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 Willame:Willame MC1a "William" ;
     Willame:Williame MC1a "William" ;
     Willame:Guillame MC1a "William" ;
     Willame:Guillaume MC1a "William" ;
     Willame:Willaume MC1a "William" ;
-
-chapitre:chapitr MC2 "chapter" ;
-compere:comper MC2 "friend, crony" ;
-eschipre:eschipr MC2 "sailor" ;
-frere:frer MC2 "brother" ;
-    frere:frier MC2 "brother" ;
-genre:genr MC2 "son-in-law" ;
-livre:livr MC2 "book" ;
-maistre:maistr MC2 "master" ;
-nombre:nombr MC2 "number" ;
-parastre:parastr MC2 "stepfather" ;
-Pedre+Prop:Pedr MC2 ;
-pere:per MC2 "father" ;
-Alixandre+Prop:Alixandr MC2 "Alexander" ;
-vespre:vespr MC2 "evening" ;
-
-ome MC3 ;
-abét MC3 "abbot" ;
-    abét+N+Masc+Nom+Sg:abes # "abbot" ;
-Aymes+Prop:Aymon MC3 "Aymes" ;
-    Aymes+Prop+N+Masc+Nom+Sg:Aymes # "Aymes" ;
-ancessor MC3 "ancestor" ;
-    ancessor+N+Masc+Nom+Sg:ancestre # "ancestor" ;
-baron MC3 "lord, husband" ;
-    baron+N+Masc+Nom+Sg:ber # "lord, husband" ;
-bricon MC3 "rogue, fool" ;
-    bricon+N+Masc+Nom+Sg:bris # "rogue, fool" ;
-Charles+Prop:Charlon MC3 "Charles" ;
-    Charles+Prop:Carlon MC3 "Charles" ;
-    Charles+Prop+N+Masc+Nom+Sg:Charles # "Charles" ;
-    Charles+Prop+N+Masc+Nom+Sg:Carles # "Charles" ;
-compaignon MC3 "companion" ;
-    compaignon+N+Masc+Nom+Sg:compaing # "companion" ;
-conte MC3 "count" ;
-    conte+N+Masc+Nom+Sg:cuens # "count" ;
-    conte:comte MC3 "count" ;
-empereor MC3 "emperor" ;
-    empereor:empereur MC3 "emperor" ;
-    empereor+N+Masc+Nom+Sg:emperere # "emperor" ;
-    empereor+N+Masc+Nom+Sg:empereres # "emperor" ;
-enfant:enfan%{T%} MC3 "child, youth" ;
-    enfant+N+Masc+Nom+Sg:enfes # "child, youth" ;
-    enfant+N+Masc+Nom+Sg+Err/Obsc:enfants # "child, youth" ;
-    enfant+N+Masc+Obl+Pl+Err/Obsc:enfants # "child, youth" ;
-garçon MC3 "boy, servant" ;
-    garçon+N+Masc+Nom+Sg:garz # "boy, servant" ;
-gloton MC3 "glutton, wretch" ;
-    gloton+N+Masc+Nom+Sg:glot # "glutton, wretch" ;
-Guenes+Prop:Guenelon MC3 "Ganelon" ;
-    Guenes+Prop+N+Masc+Nom+Sg:Guenes # "Ganelon" ;
-gui+Prop:Guion MC3 "Guy" ;
-    gui+Prop+N+Masc+Nom+Sg:Gui # "Guy" ;
-    gui+Prop+N+Masc+Nom+Sg:Guis # "Guy" ;
-Hugues+Prop:Hugon MC3 "Hugh" ;
-    Hugues+Prop+N+Masc+Nom+Sg:Hugues # "Hugh" ;
-larron MC3 "thief" ;
-    larron+N+Masc+Nom+Sg:lerre # "thief" ;
-Lazares+Prop:Lazaron MC3 "Lazarus" ;
-    Lazares+Prop+N+Masc+Nom+Sg:Lazares # "Lazarus" ;
-nevo:nevo%{T%} MC3 "nephew" ;
-    nevo+N+Masc+Nom+Sg:niés # "nephew" ;
-pastor MC3 "shepherd" ;
-    pastor+N+Masc+Nom+Sg:pastre # "shepherd" ;
-Pierre+Prop:Perron MC3 "Peter" ;
-    Pierre+Prop+N+Masc+Nom+Sg:Pierre # "Peter" ;
-    Pierre+Prop+N+Masc+Nom+Sg:Pierres # "Peter" ;
-provoire:provei%{D%}re MC3 "priest" ;
-    provoire+N+Masc+Nom+Sg:prestre # "priest" ;
-traïtor MC3 "traitor" ;
-    traïtor+N+Masc+Nom+Sg:traïtre # "traitor" ;
-
-
-Dieu: Dieu "god" ;
-seignor: Seignor "lord" ;
-fil: Fil "son" ;
-dol: Dol "suffering, pain, lamentation" ;
-cheval: Cheval "horse" ;
-ciel: Ciel "heaven" ;
-nom: Nom "name" ;
-gent:gen Gent "race, people" ;
-pied: Pied "foot" ;
-monseigneur: Monseigneur "my lord (honorific)" ;
-tot+N: Tot "all" ;
-
-
-!! Indeclinable Nouns
-argent:argen%{T%} NIndecM "money, riches, silver" ; ! Verify gender
-    argent:argens NIndecM "silver" ;
-bers NIndecM "cradle, crib" ;
-bois NIndecM "woods" ;
-char NIndecF "flesh, meat" ;
-    char:chair NIndecF "flesh, meat" ;
-    char:charn NIndecF "flesh, meat" ;
-chastellet NIndecM "fortress, prison judgement seat" ;
-    chastellet:chastelet NIndecM ;
-    chastellet:chastelet NIndecM ;
-    chastellet:châtelet NIndecM ;
-cors NIndecM "body" ;
-    cors:corps NIndecM "body" ;
-feis NIndecF  "time" ;
-mois NIndecM "month" ;
-psalme NIndecN  ;
-    psalme:psalmus NIndecN ;
-    psalme:PSALMUS NIndecN ;
-pais NIndecM "country" ;
-    pais:païs NIndecM "country" ;
-palais NIndecM "palace" ;
-sains NIndecM "bells" ;
-tens NIndecM "time, times, weather" ;
-    tens:tans NIndecM "time, times, weather" ;
-    tens:temps NIndecM "time, times, weather" ;
-vertjus NIndecM "juice from unripe grapes" ;
-    vertjus:verjus NIndecM "juice from unripe grapes" ;
-vers NIndecM "verse, song" ;
-voiz NIndecF "voice" ;
-
-!! Indeclinable Proper Nouns
-Alemaigne PropFem "Germany" ;
-Angleterre PropFem "England" ; ! Verify gender
-    Angleterre:Engleterre PropFem "England" ;
-Beneeit PropMasc "Saint Benedict" ;
-Berinus PropMasc "Berinus" ;
-Bourgongne PropMasc "Bourgogne" ;
-    Bourgongne:Bourgogne PropMasc "Bourgogne" ;
-Bougars PropMasc "Bougars de Valence" ;
-Bretaingne PropFem "Brittany" ;
-    Bretaingne:Bretaigne PropFem "Brittany" ;
-Chartres PropMasc "Chartres" ; ! Verify gender
-Cligés PropMasc "Cligès" ;
-Crathor PropMasc "Crathor" ; ! Verify gender
-Crist PropMasc "Christ" ;
-    Crist:Christ PropMasc "Christ" ;
-David PropMasc "David" ;
-Erec PropMasc "Eric" ;
-Espaigne PropFem "Spain" ;
-Flandres PropFem "Flanders" ; ! Verify gender
-France PropFem "France" ;
-Gieffroy PropMasc  "Jeffrey" ;
-Israél PropMasc "Israel" ;
-Jehannin PropMasc "Jehannin" ;
-Jhesu PropMasc "Jesus" ;
-    Jhesu:Jhesus PropMasc "Jesus" ;
-    Jhesu:Jesu PropMasc "Jesus" ;
-    Jhesu:Jesus PropMasc "Jesus" ;
-Jouvencel PropMasc "Jouvencel (title? name?)" ;
-Marie PropFem "Mary" ;
-Martin PropMasc "Martin" ;
-Michiel PropMasc "Michael" ;
-    Michiel:Michel PropMasc "Michael" ;
-Mons PropMasc "region of Mons" ;
-Nicolas PropMasc "Nicholas" ;
-Noël PropFem "Christmas" ;
-    Noël PropMasc "Christmas" ;
-Orléans PropFem "Orleans region" ; ! Verify gender
-Paris PropMasc "Paris" ; ! Verify gender
-Pollinicés PropMasc "Pollinicés" ;
-Robert PropMasc "Robert" ;
-Rome PropFem "Rome" ;
-    Rome:Romme PropFem "Rome" ;
-Saül PropMasc "Saul" ;
-Thebes PropMasc "Thebes" ;
-Thideüs PropMasc "Thideus" ;
-Thomas PropMasc "Thomas" ;
-Trinité:trinité%{T%} PropFem "the Trinity" ;
-    Trinité:triniteit PropFem "the Trinity" ;
-Tristran PropMasc "Tristran" ;
-    Tristran:Tristan PropMasc "Tristran" ;
-Valence PropFem "region of Valence (Valencia?)" ; ! Verify gender

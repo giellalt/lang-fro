@@ -74,6 +74,7 @@ por Prep "for" ;
     por:pour Prep "for" ;
 sans:sans Prep "without" ;
     sans:sanz Prep "without" ;
+    sans:san Prep "without" ; ! Verify - Multi word conjunction as well?
 selon Prep "along, in conformity with, according to" ;
     selon:selonc Prep "along, in conformity with, according to" ;
 sur:sur Prep "on, over, to, above" ;
