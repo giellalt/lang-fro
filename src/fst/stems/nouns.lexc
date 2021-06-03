@@ -167,6 +167,7 @@ défens MC1a "defense, resistance" ;
     défens:déffense MC1a "defense, resistance" ;
     défens:défense MC1a "defense, resistance" ;
 demande FC1 "claim, demand, wish, legal action, accusation" ;
+demourant NIndecM "one who remains" ;
 Dieu: Dieu "god" ;
 dol: Dol "suffering, pain, lamentation" ;
 dolor FC2 "sorrow" ;
@@ -223,6 +224,7 @@ fille FC1 "girl, daughter" ;
 fin FC2 "end" ;
 Flandres PropFem "Flanders" ; ! Verify gender
 flor FC2 "flower" ;
+folie:fol%>ie FC1 "folly, madness" ;
 force FC1 "strength, force" ;
 forest FC2 "forest" ;
 franc MC1a "franc (currency)" ; ! Franc also = pigsty?
@@ -251,6 +253,7 @@ gloire FC1 "glory" ;
 gloton MC3 "glutton, wretch" ;
     gloton+N+Masc+Nom+Sg:glot # "glutton, wretch" ;
 grace FC1 "grace, favor, pardon" ;
+gré MC1a "desire" ; ! Verify gender/class
 Guenes+Prop:Guenelon MC3 "Ganelon" ;
     Guenes+Prop+N+Masc+Nom+Sg:Guenes # "Ganelon" ;
 guerre FC1 "war, trouble" ;
@@ -327,6 +330,7 @@ leu MC1a "place (literal or figurative)" ; ! Other possible meanings of word for
     leu:lieu MC1a "place (literal or figurative)" ;
 lez MC1a "side, flank" ;
 lieu MC1a "place" ;
+lieutenant MC1a "second in command, lieutenant" ;
 lion MC1a "lion" ;
 lit MC1a "bed" ;
     lit+N+Masc+Nom+Sg:liz # ;
@@ -452,6 +456,12 @@ pucele:pucel%>e FC1 "maiden, virgin, young girl" ;
 pueple MC1a "people" ;
     pueple:pople MC1a "people" ;
     pueple:peuple MC1a "people" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------Q---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+question FC2 "question, debate, quarrel" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------R---------------------------------------!

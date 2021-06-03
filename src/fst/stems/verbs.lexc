@@ -12,6 +12,8 @@ tenir:t Xenir       "to keep, to hold" ;
 convenir:conv Xenir   "to gather, to be necessary" ;
     convenir:cov Xenir "to gather, to be necessary" ;
     convenir:couv Xenir "to gather, to be necessary" ;
+advenir:adv Xenir "to arrive, to occur, to come to pass, to reach, to touch" ;
+    advenir:av Xenir "to arrive, to occur, to come to pass, to reach, to touch" ;
 voloir: Voloir      "to want, to desire" ;
 prendre: Prendre    "to take, to take hold of, to seize" ;
 savoir: Savoir      "to know" ;
@@ -34,6 +36,8 @@ chanter:chant RegEr "to sing" ;
 confesser:confess RegEr "to confess" ;
 curer:cur RegEr     "to be concerned about, to treat" ;
 demander:demand RegEr "to ask, to demand" ; ! Verify
+demourer:demour RegEr "to stay, to remain" ;
+    demourer:demeur RegEr "to stay, to remain" ;
 disner:disn RegEr   "to dine" ;
 doner:don RegEr     "to give" ;
 durer:dur RegEr     "to last" ;

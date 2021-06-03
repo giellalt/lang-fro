@@ -85,6 +85,8 @@ ou InterrAdv "where" ;
     ou:u InterrAdv "where" ;
 outre BaseAdv "beyond" ; ! Verify. Autre?
     outre:oultre BaseAdv "beyond" ;
+peu BaseAdv "small amount, weakly" ;
+    peu:pou BaseAdv "small amount, weakly" ; ! Other definititions?
 plus BaseAdv "more" ;
 porquoi InterrAdv "why" ;
     porquoi:por#quoi InterrAdv "why" ;
