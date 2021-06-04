@@ -23,8 +23,11 @@ Alphabet
 
 %{I%}:i
 %{I%}:y
-
+m
 %{N%}:n
+
+%{G%}:0
+%{G%}:e
 
  %>:0 ;
 
@@ -121,6 +124,9 @@ m:n => _ Labial ;
 "i can be expressed as y after vowels"
 i:y => Vow _ ;
 
+"i can be expressed as j after i " ! Mostly after Roman numerals
+i:j => i: _ ;
+
 "e can be expressed as o before i/y"
 e:o => _ i: ;
 
@@ -215,4 +221,14 @@ u:o => _ e:e ;
 
 "oe can be written as ue"
 o:u => _ e:e ;
+
+"c pronounced [s] becomes ç before o/a"
+c:ç <=> _ %> :o|:a ;
+
+"Soft g is written as g unless before o/a"
+%{G%}:0 <=> _ \:o|:a ; 
+
+"Soft g is written as ge before o/a"
+%{G%}:e <=> _ :o|:a ;
+
 

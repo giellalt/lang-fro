@@ -163,6 +163,12 @@ LEXICON IlIlle
 +Adj+Fem+Nom+Pl:illes # ;
 +Adj+Fem+Obl+Pl:illes # ;
 
+LEXICON MascAdjForm
++Adj+Masc+Nom+Sg: # ;
++Adj+Masc+Obl+Sg: # ;
++Adj+Masc+Nom+Pl: # ;
++Adj+Masc+Obl+Pl: # ;
+
 
 LEXICON Mieux
 +Adj+Masc+Nom+Sg:mieudre # ;
@@ -243,6 +249,7 @@ LEXICON Tot
 +Prep+Adj+Masc+Sg:dudict # ; ! Verify
 +Prep+Adj+Masc+Sg:audit # ; ! Verify
 +Prep+Adj+Masc+Sg:oudit # ; ! Verify
++Adj+Pro+Poss+Masc+Obl+Sg:sondit # ;
 
 !!€gt-norm: adjectives
 !!€ bones:          bon+Adj+Fem+Nom+Pl

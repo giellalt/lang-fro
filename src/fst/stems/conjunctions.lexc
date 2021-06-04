@@ -10,6 +10,7 @@ ainsi SubPart ;
 ainz Coord ;
 ainz SubPart ;
 bien SubPart ;
+combien SubPart "although, marker of less intense outcome" ;
 des SubPart ;
 devant SubPart ;
 donc Coord "therefore" ;

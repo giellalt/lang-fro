@@ -7,7 +7,7 @@ autre Adj2 "other, another" ;
     autre:aultre Adj2 "other, another" ;
 avenant Adj3 "attractive" ;
 bel Adj1 "dear, beloved, handsome" ;
-    bel+Adj+Masc+Nom+Sg:beau # ;
+    bel+Adj+Masc+Nom+Sg:beau # ; ! Other forms?
     bel+Adj+Masc+Obl+Pl:beaux # ; ! Other forms?
 blanc:blan CChe "white" ;
 bon Adj1 "good" ;
@@ -19,6 +19,7 @@ chauf:chau FVe "bald" ;
 chenut:chenu TDe "white, old, aged, white-haired" ;
 chier Adj1 "dear, expensive, clean" ;
     chier:cher Adj1 "dear, expensive, clean" ;
+contraire Adj2 "contrary" ;
 coral Adj3 "cordial" ;
 corant Adj3 "swift" ;
 corteis MascIndec "corteous" ;
@@ -26,7 +27,8 @@ cour%{T%} Adj1 "short (not long), of little importance" ;
 cruël Adj3 "cruel" ;
 destre Adj2 "right" ;
 diligent:diligent%> Adj3 "diligent" ;
-douz:dou ZCe "sweet" ;
+douz:dou ZCe "pleasing to the senses" ;
+    douz:doux MascAdjForm "pleasing to the senses" ;
 dur Adj1 "hard, difficult, clean" ;
 droit MascIndec "direct, right, proper" ;
 egal Adj3 "equal" ;

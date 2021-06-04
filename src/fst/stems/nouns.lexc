@@ -130,6 +130,8 @@ ciel: Ciel "heaven" ;
 cité:cité%{T%} FC2 "city" ;
 clamor FC2 "clamour" ;
 Cligés PropMasc "Cligès" ;
+col MC1a "neck" ;
+    col:cou MC1a "neck" ;
 color FC2 "color" ;
 combat MC1a "fight, combat" ;
 compaignie FC1 "company, group" ;
@@ -142,10 +144,17 @@ conseil MC1a "opinion, advice, decision" ;
 conte MC3 "count" ;
     conte+N+Masc+Nom+Sg:cuens # "count" ;
     conte:comte MC3 "count" ;
+contraire MC1a "the contrary (one/thing)" ;
+corage MC1a "the heart (seat of consciousness, emotion, and reason)" ;
+    corage:courage MC1a "the heart (seat of consciousness, emotion, and reason)" ;
+    corage:couraige MC1a "the heart (seat of consciousness, emotion, and reason)" ;
+    corage:coraige MC1a "the heart (seat of consciousness, emotion, and reason)" ;
 cors NIndecM "body" ;
     cors:corps NIndecM "body" ;
 cort FC2 "court" ;
     cort:court FC2 "court" ;
+coustume FC1 "custom, manner, habit" ;
+    coustume:costume FC1 "custom, manner, habit" ;
 covent MC1a "promise, agreement" ;
 Crathor PropMasc "Crathor" ; ! Verify gender
 Crist PropMasc "Christ" ;
@@ -168,6 +177,7 @@ défens MC1a "defense, resistance" ;
     défens:défense MC1a "defense, resistance" ;
 demande FC1 "claim, demand, wish, legal action, accusation" ;
 demourant NIndecM "one who remains" ;
+denier MC1a "small coin, monetary amount" ;
 Dieu: Dieu "god" ;
 dol: Dol "suffering, pain, lamentation" ;
 dolor FC2 "sorrow" ;
@@ -278,7 +288,8 @@ hom:hom%>e MC1a "man" ;
     hom+N+Masc+Nom+Sg:home # "man" ; ! Verify
     hom+N+Masc+Nom+Sg:homme # "man" ; ! Verify
     hom+N+Masc+Nom+Sg:on # "man" ; ! Verify
-honor:%{H%}onor FC2 "honor" ;
+honor:%{H%}on%>or FC2 "honor" ;
+    honor:%{H%}on%>eur FC2 "honor" ;
 honte FC1 "shame, dishonor" ;
 hostel:%{H%}ostel MC1a "hotel" ; ! Verify
 Hugues+Prop:Hugon MC3 "Hugh" ;
@@ -319,6 +330,7 @@ justice FC1 "justice, virtue, divine righteousness" ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 lai MC1a "lay (poem)" ; ! Verify
+lance FC1 "lance (weapon)" ;
 larron MC3 "thief" ;
     larron+N+Masc+Nom+Sg:lerre # "thief" ;
 Lazares+Prop:Lazaron MC3 "Lazarus" ;
@@ -413,6 +425,7 @@ paien MC1a "infidel" ;
 pain MC1a "bread, food" ;
 pais NIndecM "country" ;
     pais:païs NIndecM "country" ;
+paix NIndecF "peace" ;
 palais NIndecM "palace" ;
 paor FC2 "fear" ;
 parastre:parastr MC2 "stepfather" ;
@@ -506,6 +519,7 @@ somme FC1 "sum, total, summet, burden, sleep" ; ! Different stems?
 tens NIndecM "time, times, weather" ;
     tens:tans NIndecM "time, times, weather" ;
     tens:temps NIndecM "time, times, weather" ;
+terme MC1a "term, appointed time, limit" ;
 terre FC2 "earth" ;
     terre:tere FC2 "earth" ;
 teste FC1 "head" ;

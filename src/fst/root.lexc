@@ -63,6 +63,7 @@ avoir, estre ! Irregular verbs
 %{H%} ! Optional h
 %{I%} ! i/y
 %{N%} ! Palatalized nasal
+%{G%} ! Soft g
 
 @U.class.F1@
 @U.class.F2@

@@ -24,6 +24,7 @@ metre: Metre        "to place" ;
 oïr: Oïr            "to hear" ;
 lire: Lire          "to read" ;
 plaire: Plaire      "to please" ;
+querre: Querre     "to seek" ;
 vivre: Vivre        "to live" ;
 
 amender:amend RegEr "to improve, to make amends" ;
@@ -45,6 +46,7 @@ entrer:entr RegEr   "to enter" ;
 gaver:gab   RegEr   "to joke" ;
 garder:gard RegEr   "to guard" ;
 jurer:jur RegEr     "to swear" ;
+lancer:lanc%> RegEr   "to launch" ;
 laver:lav   RegEr   "to wash" ;
 livrer:livr RegEr   "to deliver, to hand over" ;
 nier:nï RegEr       "to deny" ; ! RegIer?
@@ -59,6 +61,7 @@ penser:pens RegEr   "to think, to ponder" ;
 plorer:plot RegEr   "to weep" ;
 porter:port RegEr   "carry, bring, wear" ; ! Verify
 presenter:présent RegEr "to present" ; ! Verify
+sembler:sembl RegEr "to seem, to resemble" ; ! Check for other meanings
 sonner:son RegEr    "to ring" ;
 torner:torn RegEr   "to turn" ;
 trouver:trouv RegEr "to find" ; ! Trover = Irregular
@@ -73,7 +76,7 @@ deignier:deign RegIer "to deign" ;
 deraisnier:deraisn RegIer "to argue" ;
 jugier:jug RegIer "to judge" ;
 laissier:laiss RegIer "to leave, to let" ;
-mangier:mang RegIer "to eat" ;
+mangier:mang%{G%} RegIer "to eat" ;
 noncier:nonc RegIer "to announce" ;
 otroier:otro RegIer "to grant" ;
 preisier:preis RegIer "to value" ;
@@ -105,6 +108,7 @@ naistre:naist RegRe "to be born" ;
 perdre:perd RegRe   "to lose" ;
 rendre:rend RegRe   "to give, to give up, to return" ;
 respondre:respond RegRe "to reply" ;
+    respondre+V+Part+Past:respondi PartEndings ;
 rompre:romp RegRe   "to break" ;
 veintre:veint RegRe "to conquer" ;
 

@@ -132,7 +132,11 @@ LEXICON PartEndings
 +Fem+Obl+Pl:es # ;
 
 LEXICON SPartEndings
-+Masc:0 # ;
++Masc+Nom+Sg:0 # ;
++Masc+Obl+Sg:0 # ;
++Masc+Nom+Pl:0 # ;
++Masc+Obl+Pl:0 # ;
+
 
 +Fem+Nom+Sg:e # ;
 +Fem+Obl+Sg:e # ;
@@ -1097,6 +1101,40 @@ LEXICON Vivre
 +V+2s+Pres+Imp:vif # ;
 +V+1p+Pres+Imp:vivons # ; ! Verify
 +V+2p+Pres+Imp:vivez # ; ! Verify
+
+LEXICON Querre
++V+Inf:querre # ;
++V:querr PresPart ;
++V+Part+Past:quis SPartEndings ;
+
++V+1s+Pres+Ind:quier # ;
++V+2s+Pres+Ind:quiers # ;
++V+3s+Pres+Ind:quiert # ;
++V+1p+Pres+Ind:querons # ;
++V+2p+Pres+Ind:querez # ;
++V+3p+Pres+Ind:quierent # ;
+
+:qu PerfStS ;
+:querr IpfvInd ;
+:querr FutInd ;
+
++V+1s+Pres+Sbjv:quiere # ;
++V+1s+Pres+Sbjv:quierge # ;
++V+2s+Pres+Sbjv:quieres # ;
++V+2s+Pres+Sbjv:quierges # ;
++V+3s+Pres+Sbjv:quiert # ;
++V+1p+Pres+Sbjv:querons # ;
++V+2p+Pres+Sbjv:querez # ;
++V+3p+Pres+Sbjv:quierent # ;
++V+3p+Pres+Sbjv:quiergent # ;
+
+:querr IpfvSubjStS ;
+:querr Conditional ; ! Verify
+
++V+2s+Pres+Imp:quier # ;
++V+1p+Pres+Imp:querons # ; ! Verify
++V+2p+Pres+Imp:querez # ; ! Verify
+
 
 !!€gt-norm: -er_verbs
 !!€ durer:      durer+V+Inf
