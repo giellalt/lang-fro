@@ -1,14 +1,3 @@
-# ========================== #
-# Faroese dependency grammar #
-# ========================== #
-
-# This file is deprecated.
-
-# For Faroese dep analysis, use
-
-# $GTHOME/gt/smi/src/smi-dep.rle
-
-
 
 # ========== #
 # Delimiters #
@@ -24,169 +13,231 @@ DELIMITERS = "<.>" "<!>" "<?>" "<¶>";
 # ============= #
 
 
-LIST BOS = (>>>) (<s>); 
-LIST EOS = (<<<) (</s>); # vislcg and CG-2 together.
-
-
 # ========
    SETS
 # ========
 
+LIST BOS = (>>>) (<s>); 
+LIST EOS = (<<<) (</s>); # vislcg and CG-2 together.
+
 LIST N = N ;
 LIST V = V ;
-LIST A = A ;
+LIST Adj = Adj ;
+SET A = Adj ;
+LIST Art = Art ;
 LIST Prop = Prop ;
 LIST Adv = Adv ;
 LIST Num = Num ;
-LIST CC = CC ;
-LIST CS = CS ;
+LIST Conj = Conj ;
+LIST CC = Coord ;
+LIST CS = Subord ;
+LIST MWC = MultiWordConj ;
 LIST Interj = Interj ;
 LIST Abbr = Abbr ;
-LIST ACR = ACR ;
-LIST Pr = Pr ;
-LIST Pron = Pron ;
-LIST Pers = Pers ;
-LIST Dem = Dem ;
+LIST Prep = Prep ;
+SET Pr = Prep ;
+LIST Pro = Pro ;
+SET Pron = Pro ;
+LIST Prs = Prs ;
+LIST Interr = Interr ;
 LIST Det = Det ;
 LIST Refl = Refl ;
-LIST Recipr = Recipr ;
+#LIST Recipr = Recipr ;
 LIST Poss = Poss ;
-LIST Interr = Interr ;
-LIST IM = IM ;
+#LIST IM = IM ;
+LIST Neg = Neg ;
 
 LIST Nom = Nom ;
-LIST Acc = Acc ;
-LIST Gen = Gen ;
-LIST Dat = Dat ;
-LIST Msc = Msc ;
+LIST Obl = Obl ;
+LIST Masc = Masc ;
 LIST Fem = Fem ;
-LIST Neu = Neu ;
+LIST Neut = Neut ;
 LIST Sg = Sg ;
 LIST Pl = Pl ;
 LIST Def = Def ;
 LIST Indef = Indef ;
-LIST Cmp = Cmp ;
-LIST Superl = Superl ;
-LIST Prs = Prs ;
-LIST Prt = Prt ;
-LIST 1Sg = 1Sg ;
-LIST 2Sg = 2Sg ;
-LIST 3Sg = 3Sg ;
+#LIST Cmp = Cmp ;
+#LIST Superl = Superl ;
+LIST Pers = Pers ;
+LIST 1Sg = 1s ;
+LIST 2Sg = 2s ;
+LIST 3Sg = 3s ;
+LIST 1Pl = 1p ;
+LIST 2Pl = 2p ;
+LIST 3Pl = 3p ;
 LIST Inf = Inf ;
-LIST PrfPrc = PrfPrc ;
-LIST PrsPrc = PrsPrc ;
+LIST Part = Part ;
+LIST Perf = Perf ;
+LIST Pres = Pres ;
+LIST Fut = Fut ;
+LIST Ind = Ind ;
 LIST Imp = Imp ;
-LIST Sbj = Sbj ;
-LIST Sup = Sup ;
-LIST Cmpnd = Cmpnd ;
+LIST Ipfv = Ipfv ;
+LIST Sbjv = Sbjv ;
+LIST Cond = Cond ;
+LIST Stress = Stress ;
+LIST Unstress = Unstress ;
+LIST Dir = Dir ;
+LIST Indir = Indir ;
+#LIST Sup = Sup ;
+#LIST Cmpnd = Cmpnd ;
 LIST CLB = CLB ;
 LIST PUNCT = PUNCT ;
 LIST LEFT = LEFT ;
 LIST RIGHT = RIGHT ;
-
-LIST V* = V* ;
- 
-SET WORD = N | V | A | Pr | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
-
-
-LIST TAG = N V A Adv CC CS Interj Pr Pron Pers Det Refl Recipr Poss Nom Acc Gen
-Dat Msc Fem Neu Sg Pl Def Indef Cmp Sup Prs Prt 1Sg 2Sg 3Sg Inf PrfPrc
-PrsPrc Sup Imp CLB PUNCT LEFT RIGHT ;
+LIST Guess = Guess ;
+LIST De = "de" ;
+LIST Que = "que" ;
+LIST Obsc = "Err/Obsc" ;
 
 
-LIST NAGD = Nom Acc Gen Dat ;
-LIST GENDER = Msc Fem Neu ;
+LIST TAG = N V Art Adv Conj Coord Subord Interj MultiWordConj Prep Pro Prop Prs Det Interr
+Relative Poss Nom Obl Dat Masc Fem Neut Dir Indir Sg Pl Def Indef Cmp Sup Prs Prt 1s 2s 3s 1p 2p 3p Inf
+Perf Part Pres Past Fut Sup Imp Sbjv Ipfv Cond Stress Unstress Near Far Num Ord Card Roman Emph
+CLB PUNCT LEFT RIGHT Guess ;
+
+
+LIST CASE = Nom Obl ;
+LIST GENDER = Masc Fem Neut ;
 LIST NUMBER = Sg Pl ;
-LIST POS = N V A Adv Pr Pron ;
+SET GENDERCASENUMBER = (Masc Nom Sg) OR (Masc Obl Sg) OR (Masc Nom Pl) OR (Masc Obl Pl) OR (Fem Nom Sg) OR (Fem Obl Sg) OR (Fem Nom Pl) OR (Fem Obl Pl) OR (Neut Nom Sg) OR (Neut Obl Sg) OR (Neut Nom Pl) OR (Neut Obl Pl) ;
+
 
 # Sets
 # ====
 
+SET WORD = N | V | Art | Adj | Pro | Prep | Adv | Conj | Num | ("\?") ;
+LIST POS = N V Adj Adv Prep Pron Art ;
+
+
 # Noun sets
 
 
-SET NounMscFem = (N Msc) OR (N Fem) ;
-SET NounMscNeu = (N Msc) OR (N Neu) ;
-SET NounFemNeu = (N Fem) OR (N Neu) ;
+SET NounMascFem = (N Masc) OR (N Fem) ;
+SET NounMascNeut = (N Masc) OR (N Neut) ;
+SET NounFemNeut = (N Fem) OR (N Neut) ;
 
-# Nominal sets
+SET MascFem = Masc OR Fem ;
+SET MascNeut = Masc OR Neut ;
+SET FemNeut = Fem OR Neut ;
+
+SET MascNomSg = (Masc Nom Sg) ;
+SET MascOblSg = (Masc Obl Sg) ;
+SET MascNomPl = (Masc Nom Pl) ;
+SET MascOblPl = (Masc Obl Pl) ;
+SET FemNomSg = (Fem Nom Sg) ;
+SET FemOblSg = (Fem Obl Sg) ;
+SET FemNomPl = (Fem Nom Pl) ;
+SET FemOblPl = (Fem Obl Pl) ;
+SET NomSg = (Nom Sg) ;
+SET OblSg = (Obl Sg) ;
+SET NomPl = (Nom Pl) ;
+SET OblPl = (Obl Pl) ;
 
 LIST NOMINALHEAD = N Num Pron ;
 
-LIST PRENAGR = Det Dem A ;
+
+# Adjective sets
+
+#LIST REALADJ = A OR A* ;
 
 
+# Nominal sets
+
+# LIST NOMINALHEAD = N Num Pers Refl Recipr "Pron Interr" "Pron Indef" ;
+
+SET NOUNFORM = N + GENDERCASENUMBER ;
+
+# Verb sets
+
+LIST COPULA = "estre" ;
+
+LIST AVOIR = "avoir" ;
+
+SET AUX = COPULA OR AVOIR ;
+
+SET PRESPART = (Part Pres) ;
+SET PASTPART = (Part Past) ;
+LIST TENSE = Pres Perf Ipfv Past Fut ;
+LIST PAST = Perf Ipfv Past ;
+LIST MOOD = Ind Sbjv Imp Cond ; 
+SET PERSON = 1Sg OR 2Sg OR 3Sg OR 1Pl OR 2Pl OR 3Pl ;
+LIST NONFINITE = Part Inf ;
+LIST FINITE = Inf Sbjv Imp Cond ;
+SET VINFIN = NONFINITE ;
+SET VFIN = FINITE ;
+SET NONVFIN = VINFIN ; # sme compatibility
+
+#LIST Ind = Prs Prt ;
+
+LIST NONTHIRDV = 1s 2s 1p 2p ;
+
+
+# Noun-Verb sets
+
+LIST THIRDSG = Sg 3s ;
+LIST THIRDPL = Sg 3p ;
+LIST THIRD = Sg 3s Pl 3p ;
+
+# Pronoun and Article sets
+
+LIST REL = Relative ;
+SET RELINTERR = (Relative Interr) ;
+LIST DEM = Dem ;
+SET INDEFADJPRO = (Adj Indef) ; # FIXME
+SET PROADV = (Pro Adv) ;
+
+# Number sets
+
+# Preposition sets
+
+SET NOT-DE = Prep - De ;
+
+# Boundary sets
+
+SET S-BOUNDARY = CS | Interr | (";") | BOS | EOS ;
+SET S-BOUNDARY2 = CS | Interr | (";") | BOS | EOS | (@CVP) ;
 
 # Complementary set
 
 # Case sets
 
-SET NOTDAT = Nom | Gen | Acc ;
-SET NOTACC = Nom | Gen | Dat ;
-SET NOTACCDAT = Nom | Gen ;
-SET OBL = Acc | Dat | Gen ;
+
+# Anything but the following case...
+SET NONOM = WORD - Nom ;
+SET NOOBL = WORD - Obl ;
+SET NOCASE = WORD - Nom - Obl ;
+
 
 #SET NO
 
-SET PRE-N =  A | Det | Dem | (N Gen) | Num ; # Det???
+SET PRE-N =  Adj | Det | Num | Conj | Art ;
 
-LIST COMMA = "," ; 
 
-SET MARK =  COMMA | ("\") | ("\;") ; #"
+LIST COMMA = (",") ;
+SET MARK =  COMMA | ("\") | ("\;") ; #
 SET WORDMARK = WORD | MARK ;
 
+LIST PUNCT-LEFT = (PUNCT LEFT) ;
+LIST PUNCT-RIGHT = (PUNCT RIGHT) ;
+SET PRE-APP   = COMMA OR PUNCT-LEFT ;
 
 
+SET WORDMARK = WORD | MARK ;
 
 SET NPNH = WORDMARK - PRE-N ;
 SET NPNHA = WORDMARK - PRE-N - Adv ;
 SET NOT-ADV = WORDMARK - Adv ;
+#SET LEX-ADV = Adv - (A*) ;
 SET NOT-A = WORDMARK - A ;
-
-
-
-
-# Verb sets
-
-LIST COPULA = "vera" "verða" ;
-
-LIST AUX = "kunna" "skula" "vera" "verða" "hava" ;
-
-LIST VFIN = Prs Prt Imp Sbj ;
-LIST Ind = Prs Prt ;
-
-LIST NONTHIRDV = 1Sg 2Sg 1Pl 2Pl ;
-
-LIST VINFIN = Inf Sup PrfPrs PrsPrc ;
-
-LIST MODV = "kunna" "skula" ;
-
-LIST DATV = "smakka" ;
-
-SET NONVFIN = VINFIN ; # sme compatibility
-
-
-
-
-
-
-
 SET NOT-CC = WORDMARK - CC ;
-SET NOUNADJ = N | A ;
-
-SET NP-MEMBER = PRE-N | N | Pron ;
-
-LIST TIME = "sunnudagur" ;
+SET NOUNADJ = N | Adj ;
 
 
+SET NP-MEMBER = PRE-N | N | Pro ;
 
 # Semantic sets
-
-
-LIST ABSTRACT = "ráð" "byráð" ;
-
-LIST SPEECHACT = "mæla" "siga" ;
-
+LIST SPEECHACT = "dire" ;
 
 
 # Syntax tags
@@ -396,17 +447,17 @@ SETPARENT:r1adjcomma @>N TO (*3 Pr OR V OR S-BOUNDARY2 BARRIER NOT-A LINK -1 COM
 
 SETPARENT:r2 @CVP TO (-1 NOMINALHEAD);
 
-SETPARENT:r3 ("sjálvur") TO (-1 ("seg"));
+#SETPARENT:r3 ("sjálvur") TO (-1 ("seg"));
 
-SETPARENT:r4 ("sum" @CVP) TO (-1 N OR V);
-SETPARENT:r5 ("sum" @CVP) TO (*-1 N OR V BARRIER WORD);
+#SETPARENT:r4 ("sum" @CVP) TO (-1 N OR V);
+#SETPARENT:r5 ("sum" @CVP) TO (*-1 N OR V BARRIER WORD);
 
-SETPARENT (A $$NAGD) TO (-1 CC)(-2 (A $$NAGD));  # Look at the cc structure !!
+SETPARENT (Adj $$CASE) TO (-1 CC)(-2 (Adj $$CASE));  # Look at the cc structure !!
 
 SETPARENT:CCNP (@CNP)(-1 N) TO (*1 N BARRIER NPNH);
 	## Per og Kari
 
-SETPARENT:CCA (@CNP)(-1 $$POS + $$NAGD) TO (1 $$POS + $$NAGD);
+SETPARENT:CCA (@CNP)(-1 $$POS + $$CASE) TO (1 $$POS + $$CASE);
 	## oydin og ber.
 
 SETPARENT @N< TO (*-1 N OR Pron BARRIER NPNH);
@@ -448,7 +499,7 @@ SETPARENT @ADVL> TO (*1 <aux> BARRIER <mv>);
 
 SETPARENT @<ADVL TO (-1* @rc-VAUX BARRIER CS);
 
-SETPARENT @<ADVL TO (-1* V* BARRIER CS);
+#SETPARENT @<ADVL TO (-1* V* BARRIER CS); ####FIXME: What is V*?
 SETPARENT @<ADVL TO (1 Num LINK -2 Num);
 	## 11 av 12.
 
@@ -485,10 +536,10 @@ SETPARENT:r20 @-FAUXV TO (*-1 @+FAUXV LINK *1 @CVP);
 ### VPs
 
 SETPARENT:r7 VINFIN TO (*-1 AUX BARRIER CS);
-SETPARENT:r8 Sup TO (*-1 VFIN BARRIER CS);
+#SETPARENT:r8 Sup TO (*-1 VFIN BARRIER CS); ###FIXME: What's Sup?
 SETPARENT:r8b Inf TO (*-1 VFIN BARRIER CS);
-SETPARENT:r8c PrsPrc TO (*-1 VFIN BARRIER CS);
-SETPARENT:r8d PrfPrc TO (*-1 VFIN BARRIER CS);
+SETPARENT:r8c PRESPART TO (*-1 VFIN BARRIER CS);
+SETPARENT:r8d PASTPART TO (*-1 VFIN BARRIER CS);
 
 ### CS
 

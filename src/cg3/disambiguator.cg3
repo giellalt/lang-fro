@@ -1,3 +1,10 @@
+# This is an example Constraint Grammar rules file.
+
+# There is no built-in manual yet. Resources:
+# http://visl.sdu.dk/cg3.html
+# http://groups.google.com/group/constraint-grammar
+# http://kevindonnelly.org.uk/2010/05/constraint-grammar-tutorial/
+
 
 
 # ===================== #
@@ -75,7 +82,7 @@ LIST Pres = Pres ;
 LIST Fut = Fut ;
 LIST Ind = Ind ;
 LIST Imp = Imp ;
-LIST Ipfv = Ipfv
+LIST Ipfv = Ipfv ;
 LIST Sbjv = Sbjv ;
 LIST Cond = Cond ;
 LIST Stress = Stress ;
@@ -297,6 +304,7 @@ SELECT Art + $$GENDERCASENUMBER IF (1 N + $$GENDERCASENUMBER OR Adj + $$GENDERCA
 
 SELECT N + $$GENDERCASENUMBER IF (-1 Art + $$GENDERCASENUMBER) ;
 SELECT N + $$GENDERCASENUMBER IF (-2 Art + $$GENDERCASENUMBER) (-1 Adj + $$GENDERCASENUMBER) ;
+SELECT N + $$GENDERCASENUMBER IF (-1 Adj + $$GENDERCASENUMBER) ;
 SELECT N + Obl IF (-1C Prep) ;
 SELECT N + Obl IF (-1 Pro + Poss) ;
 SELECT N + MascNomSg IF (1 V + 3Sg ) ;
@@ -325,11 +333,17 @@ REMOVE N IF (-1 N) ;
 SELECT V + Part IF (-1 AUX) ;
 SELECT Pro + Obl + Stress IF (-1 Prep) ;
 SELECT Pro + Dir IF (-1 Prep) ;
-SELECT N + Fem + Obl IF (-1 V) (-2 N + Nom OR Pro + Nom) ; # Check
+SELECT N + Fem + Obl IF (-1 V) (-2 N + Nom OR Pro + Nom OR Adj + Nom) ; # Check
+SELECT Adj + Fem + Obl IF (-1 V) (-2 N + Nom OR Pro + Nom OR Adj + Nom) ;
+SELECT Adj + $$GENDERCASENUMBER IF (1* N + $$GENDERCASENUMBER) ;
+SELECT N + $$GENDERCASENUMBER IF (-1 Art + $$GENDERCASENUMBER) ;
+SELECT N + $$GENDERCASENUMBER IF (-2 Art + $$GENDERCASENUMBER) (-1 Adj + $$GENDERCASENUMBER) ;
+SELECT N + $$GENDERCASENUMBER IF (-1 Adj + $$GENDERCASENUMBER) ;
+SELECT V + Sbjv IF (-1 Que) ;
+SELECT V + Sbjv IF (-1 Nom) (-2 Que) ;
 
 SECTION
 # If you still have options....
 
 SELECT Prep ;
 SELECT Adj + MascFem ; # Avoid neuter if possible
-
