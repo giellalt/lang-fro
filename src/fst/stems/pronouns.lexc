@@ -25,6 +25,9 @@ ce: DemNeuter ;
 quoi: Interrogative ;
 que: Relative ;
 lequel+Pro: RelInterr ;
+autrui+Pro+Indef+Obl+Sg:autrui # ;
+    autrui+Pro+Indef+Obl+Sg:altrui # ;
+    autrui+Pro+Indef+Obl+Sg:aultrui # ;
 chascun IndefPro "each one, everyone" ;
     chascun:chacun IndefPro "each one, everyone" ;
     chascun:chascune IndefPro "each one, everyone" ; ! Feminine forms?

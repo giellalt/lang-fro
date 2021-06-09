@@ -22,6 +22,8 @@ pooir: Pooir        "to be able, can" ;
 doner: Doner        "to give" ;
 metre: Metre        "to place" ;
 oïr: Oïr            "to hear" ;
+escrire: Escrire    "to write" ;
+falloir: Falloir    "to be necessary" ;
 lire: Lire          "to read" ;
 plaire: Plaire      "to please" ;
 querre: Querre     "to seek" ;
@@ -45,15 +47,19 @@ durer:dur RegEr     "to last" ;
 entrer:entr RegEr   "to enter" ;
 gaver:gab   RegEr   "to joke" ;
 garder:gard RegEr   "to guard" ;
+habiter:habi%{T%} RegEr "to inhabit, to live, to touch, to reach" ;
 jurer:jur RegEr     "to swear" ;
 lancer:lanc%> RegEr   "to launch" ;
 laver:lav   RegEr   "to wash" ;
 livrer:livr RegEr   "to deliver, to hand over" ;
+mener:men RegEr     "to lead, to conduct" ;
 nier:nï RegEr       "to deny" ; ! RegIer?
 nomer:nom   RegEr   "to name" ;
     nomer:nomm RegEr "to name" ;
 ordonner:ordonn RegEr "to order, to ordain" ;
     ordonner:orden RegEr "to order, to ordain" ;
+paier:paï RegEr "to pay" ; ! RegIer? Irregular?
+    paier:pai RegEr "to pay" ;
 parler:parl RegEr   "to talk, to speak" ; ! Verify
     parler+V+3s+Pres+Ind:parole # ;
 passer:pass RegEr   "to pass, to surpass" ;
@@ -74,6 +80,7 @@ comencier:comenc RegIer "to begin" ;
 conseillier:conseill RegIer "to advise" ;
 deignier:deign RegIer "to deign" ;
 deraisnier:deraisn RegIer "to argue" ;
+escrier:escr RegIer "to cry out" ; ! Actually regular?
 jugier:jug RegIer "to judge" ;
 laissier:laiss RegIer "to leave, to let" ;
 mangier:mang%{G%} RegIer "to eat" ;

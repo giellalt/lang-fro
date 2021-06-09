@@ -182,11 +182,12 @@ LEXICON Mieux
 +Adj+Neut+Nom+Sg:mieuz # ;
 +Adj+Neut+Obl+Sg:mieuz # ;
 
-LEXICON Mout
+LEXICON Mout ! Just adv form?
 +Adj:mout # ;
 +Adj:molt # ;
 +Adj:mult # ;
 +Adj:moult # ;
++Adj:mut # ;
 
 LEXICON Nouveau
 +Adj+Masc+Nom+Sg:nouveaux # ;
@@ -239,17 +240,19 @@ LEXICON Tot
 +Masc+Obl+Sg+Emph:trestut # ;
 +Fem+Nom+Sg+Emph:trestute # ;
 
-
-+Adj+Masc+Sg:ledit # ; ! Verify
-+Adj+Masc+Sg:ledict # ; ! Verify
-+Adj+Masc+Pl:lesdiz # ; ! Verify
-+Adj+Fem+Sg:ladite # ; ! Verify
-+Adj+Fem+Sg:ladicte # ; ! Verify
-+Prep+Adj+Masc+Sg:dudit # ; ! Verify
-+Prep+Adj+Masc+Sg:dudict # ; ! Verify
-+Prep+Adj+Masc+Sg:audit # ; ! Verify
-+Prep+Adj+Masc+Sg:oudit # ; ! Verify
+LEXICON Ledit ! This entire thing is a mess. Good luck.
++Adj+Masc+Sg:ledit # ; 
++Adj+Masc+Sg:ledict # ; 
++Adj+Masc+Pl:lesdiz # ; 
++Adj+Fem+Sg:ladite # ; 
++Adj+Fem+Sg:ladicte # ; 
++Prep+Adj+Masc+Sg:dudit # ; 
++Prep+Adj+Masc+Sg:dudict # ; 
++Prep+Adj+Masc+Sg:audit # ; 
++Prep+Adj+Masc+Sg:oudit # ; 
 +Adj+Pro+Poss+Masc+Obl+Sg:sondit # ;
++Adj+Dem+Masc+Sg:cedit # ;
++Prep+Adj+Masc+Pl:desdiz # ;
 
 !!€gt-norm: adjectives
 !!€ bones:          bon+Adj+Fem+Nom+Pl

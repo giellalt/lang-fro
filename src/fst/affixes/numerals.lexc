@@ -4,6 +4,10 @@ LEXICON Cardinal
 LEXICON Ordinal
 +Num+Ord:%{S%} # ;
 
+LEXICON RomanDeriv
++Card: # ;
++Ord:%>e # ;
+
 LEXICON Un
 +Num+Card+Masc+Nom+Sg:uns # ;
 +Num+Card+Masc+Nom+Sg:ungs # ;
@@ -53,8 +57,8 @@ LEXICON Premier
 +Num+Ord+Masc+Sg:premerain # ;
 +Num+Ord+Masc+Sg:prim # ;
 +Num+Ord+Masc+Pl:prims # ;
-+Num+Ord+Fem+Sg:première # ;
-+Num+Ord+Fem+Sg:premeraine # ;
++Num+Ord+Fem+Sg:première DerAdv ;
++Num+Ord+Fem+Sg:premeraine DerAdv ;
 +Num+Ord+Fem+Sg:prime # ;
 +Num+Ord+Fem+Pl:primes # ;
 

@@ -129,7 +129,12 @@ chose FC1 "thing, affair, creature" ;
 ciel: Ciel "heaven" ;
 cité:cité%{T%} FC2 "city" ;
 clamor FC2 "clamour" ;
+clerc:clerc%> MC1a "clerk, religious cleric" ;
+clergié MC1a "clergy" ;
 Cligés PropMasc "Cligès" ;
+clochier MC1a "belltower" ;
+cloistre MC1a "cloister" ;
+clop:clop MC1a "lame person, cripple" ;
 col MC1a "neck" ;
     col:cou MC1a "neck" ;
 color FC2 "color" ;
@@ -181,6 +186,7 @@ denier MC1a "small coin, monetary amount" ;
 Dieu: Dieu "god" ;
 dol: Dol "suffering, pain, lamentation" ;
 dolor FC2 "sorrow" ;
+droit:dreit MC1a "right, direction" ; ! Verify
 duc MC1a "duke" ;
     duc+N+Masc+Nom+Sg:dux # "duke" ;
 
@@ -206,9 +212,12 @@ enfant:enfan%{T%} MC3 "child, youth" ;
     enfant+N+Masc+Obl+Pl+Err/Obsc:enfants # "child, youth" ;
 Erec PropMasc "Eric" ;
 eschipre:eschipr MC2 "sailor" ;
+escripture FC1 "scripture, writing" ;
+    escripture:escriture FC1 "scripture, writing" ;
 escu:escu%{T%} MC1a "shield" ;
 Espaigne PropFem "Spain" ;
 espee FC1 "sword" ;
+esperance:espérance FC1 "hope, confident expectation, religious virtue of hope" ;
 estat:esta%{T%} MC1a "state of being, permanence, social standing, estate" ; ! Verify definition
 evangile:évangile MC1a "gospel, the Gospels, good news" ;
     evangile:evangille MC1a "gospel, the Gospels, good news" ;
@@ -276,6 +285,7 @@ Gui+Prop:Guion MC3 "Guy" ;
 !-------------------------------------H---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+habitant:habitan%{T%} MC1a "habitant" ; ! Separate adj form?
 haut MC1a "height" ;
 Henri+Prop:Henri MC1a "Henry" ;
 heure FC1 "hour" ;
@@ -412,6 +422,8 @@ nuit FC2 "night" ;
 !-------------------------------------O---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+office:office FC1 "office, function, role, position" ;
+    office:office MC1a "office, function, role, position" ;
 ome MC3 ;
 or MC1a "gold" ; ! Check class
 Orléans PropFem "Orleans region" ; ! Verify gender
@@ -438,6 +450,8 @@ pastor MC3 "shepherd" ;
     pastor+N+Masc+Nom+Sg:pastre # "shepherd" ;
 pechie:pechié%{T%} FC2 "sin" ;
 Pedre+Prop:Pedr MC2 ;
+peine FC1 "punishment, suffering (religious)" ;
+    peine:paine FC1 "punishment, suffering (religious)" ;
 pelerin MC1a "pilgrim" ;
 pere:per MC2 "father" ;
 personne FC1 "person, character" ;
@@ -449,6 +463,7 @@ Pierre+Prop:Perron MC3 "Peter" ;
     Pierre+Prop+N+Masc+Nom+Sg:Pierres # "Peter" ;
 pitié:pitié%{T%} FC2 "pity, piety" ;
 place FC1 "place, city, land, location, urban center" ;
+plaie FC1 "injury, danger" ; ! Also female sex organs?
 Pollinicés PropMasc "Pollinicés" ;
 porc:porc%> MC1a "pig, pork" ;
 port:por%{T%} MC1a "door" ;
@@ -469,6 +484,7 @@ pucele:pucel%>e FC1 "maiden, virgin, young girl" ;
 pueple MC1a "people" ;
     pueple:pople MC1a "people" ;
     pueple:peuple MC1a "people" ;
+puissance FC1 "power, ability" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------Q---------------------------------------!
@@ -484,6 +500,8 @@ raison FC2 "speech" ;
     raison:raisun FC2 "speech" ;
 rei MC1a "king" ;
 reïne FC1 "queen" ;
+regne MC1a "kingdom, reign" ;
+requeste FC1 "request, solicitation, challenge to combat" ;
 rien FC2 "thing, person" ;
 Robert PropMasc "Robert" ;
 Rome PropFem "Rome" ;

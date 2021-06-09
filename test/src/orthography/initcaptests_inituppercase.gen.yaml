@@ -20,6 +20,4 @@ Tests:
 # This test sample should be replaced with real strings from
 # the language in question:
   Optional Initial Upper:
-    oslo: [oslo, Oslo]
-    hAre: [hAre, HAre]
-    teST: [teST, TeST]
+    je: [je, JE, Je, jE]

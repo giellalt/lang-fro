@@ -106,16 +106,16 @@ LEXICON PastPart
 +Part+Past:é%{T%} PartEndings ;
 
 LEXICON PresPart
-+Part+Pres+Masc+Nom+Sg:anz # ;
++Part+Pres+Masc+Nom+Sg:an%{T%}s # ;
 +Part+Pres+Masc+Obl+Sg:ant # ;
 +Part+Pres+Masc+Nom+Pl:ant # ;
-+Part+Pres+Masc+Obl+Pl:anz # ;
++Part+Pres+Masc+Obl+Pl:an%{T%}s # ;
 
 +Part+Pres+Fem+Nom+Sg:ant # ;
-+Part+Pres+Fem+Nom+Sg:anz # ;
++Part+Pres+Fem+Nom+Sg:an%{T%}s # ;
 +Part+Pres+Fem+Obl+Sg:ant # ;
-+Part+Pres+Fem+Nom+Pl:anz # ;
-+Part+Pres+Fem+Obl+Pl:anz # ;
++Part+Pres+Fem+Nom+Pl:an%{T%}s # ;
++Part+Pres+Fem+Obl+Pl:an%{T%}s # ;
 
 +Part+Pres+Neut:ant # ;
 +Part+Pres+Neut:ant # ;
@@ -223,13 +223,23 @@ LEXICON PerfStUU
 +V+1p+Perf+Ind:ümes # ;
 +V+2p+Perf+Ind:üstes # ;
 
-LEXICON PerfStS
+LEXICON PerfStSBasic
 +V+1s+Perf+Ind:s # ;
 +V+2s+Perf+Ind:sis # ;
 +V+3s+Perf+Ind:st # ;
 +V+1p+Perf+Ind:simes # ;
 +V+2p+Perf+Ind:sistes # ;
 +V+3p+Perf+Ind:strent # ;
+
+LEXICON PerfStSS
++V+1s+Perf+Ind:s # ;
++V+3s+Perf+Ind:st # ;
++V+3p+Perf+Ind:strent # ;
+
+LEXICON PerfStSU
++V+2s+Perf+Ind:sis # ;
++V+1p+Perf+Ind:simes # ;
++V+2p+Perf+Ind:sistes # ;
 
 LEXICON IpfvSubjWkA
 +V+1s+Ipfv+Sbjv:asse # ;
@@ -343,11 +353,11 @@ LEXICON Estre
 +V:est PresPart ;
 +V:est PastPart ;
 
-+V+1s+Pres+Ind:sui # ;
++V+1s+Pres+Ind:sui%{S%} # ;
 +V+2s+Pres+Ind:es # ;
 +V+2s+Pres+Ind:ies # ;
 +V+3s+Pres+Ind:est # ;
-+V+1p+Pres+Ind:somes # ;
++V+1p+Pres+Ind:som%>es # ;
 +V+1p+Pres+Ind:esmes # ;
 +V+2p+Pres+Ind:estes # ;
 +V+3p+Pres+Ind:sont # ;
@@ -483,6 +493,7 @@ LEXICON Dire
 :di PerfStS ;
 +V+1s+Perf+Ind:di # ;
 +V+3p+Perf+Ind:disent # ;
++V+3p+Perf+Ind:dirent # ;
 
 :dis IpfvInd ;
 :dir FutInd ;
@@ -852,6 +863,7 @@ LEXICON Pooir
 :porr FutInd ;
 :pourr FutInd ;
 :puiss PresSubj ;
++V+3s+Pres+Sbjv:puist # ; ! Verify
 
 :peu IpfvSubjStU ;
 +V+1s+Ipfv+Sbjv:peüsce # ;
@@ -1114,7 +1126,8 @@ LEXICON Querre
 +V+2p+Pres+Ind:querez # ;
 +V+3p+Pres+Ind:quierent # ;
 
-:qu PerfStS ;
+:qui PerfStSS ;
+:que PerfStSU ;
 :querr IpfvInd ;
 :querr FutInd ;
 
@@ -1134,6 +1147,44 @@ LEXICON Querre
 +V+2s+Pres+Imp:quier # ;
 +V+1p+Pres+Imp:querons # ; ! Verify
 +V+2p+Pres+Imp:querez # ; ! Verify
+
+LEXICON Escrire ! Verify all forms
++V+Inf:escrire # ;
++V+Inf:escrivre # ;
++V:escriv PresPart ;
++V+Part+Past:escrit PartEndings ;
++V+Part+Past:escript PartEndings ;
+
++V+1s+Pres+Ind:escrif # ;
++V+2s+Pres+Ind:escris # ;
++V+3s+Pres+Ind:escrit # ;
++V+1p+Pres+Ind:escrivons # ;
++V+2p+Pres+Ind:escrivez # ;
++V+3p+Pres+Ind:escrivent # ;
+
+:escri PerfStS ;
+:escriv IpfvInd ;
+:escrir FutInd ;
+:escrivr FutInd ;
+
+:escriv PresSubj ;
+:escri IpfvSubjStS ;
+:escrir Conditional ; ! Verify
+:escrivr Conditional ; ! Verify
+
++V+2s+Pres+Imp:escrif # ;
++V+1p+Pres+Imp:escrivons # ; ! Verify
++V+2p+Pres+Imp:escrivez # ; ! Verify
+
+LEXICON Falloir ! Present forms are used here. Still figuring out faillir vs falloir
++V+3s+Pres+Ind:faut # ;
++V+3s+Pres+Ind:fault # ;
++V+3s+Ipfv+Ind:fallait # ;
++V+3s+Perf+Ind:fallut # ;
++V+3s+Fut+Ind:faudra # ;
++V+3s+Part+Past:fallu # ;
++V+3s+Pres+Sbjv:faille # ;
++V+3s+Pres+Cond:faudrait # ;
 
 
 !!€gt-norm: -er_verbs

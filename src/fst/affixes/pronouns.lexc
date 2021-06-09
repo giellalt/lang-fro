@@ -85,6 +85,10 @@ LEXICON 3SgFem
 
 LEXICON 3SgNeut
 +Pro+Prs+3s+Neut+Nom+Stress:il # ;
++Pro+Prs+3s+Neut+Nom+Stress:on # ;
++Pro+Prs+3s+Neut+Nom+Stress:om # ;
++Pro+Prs+3s+Neut+Nom+Stress:un # ;
++Pro+Prs+3s+Neut+Nom+Stress:um # ;
 +Pro+Prs+3s+Neut+Nom+Unstress:il # ;
 +Pro+Prs+3s+Neut+Obl+Unstress:le # ; ! Also ly?
 +Pro+Prs+3s+Neut+Obl+Unstress+Gram/Liason:l # ;
@@ -108,10 +112,15 @@ LEXICON 3SgPoss
 +Pro+Poss+3s+Fem+Nom+Pl+Unstress:es # ;
 +Pro+Poss+3s+Fem+Obl+Pl+Unstress:es # ;
 
+! Verify sien forms
 +Pro+Poss+3s+Masc+Nom+Sg+Stress:uens # ;
++Pro+Poss+3s+Masc+Nom+Sg+Stress:iens # ;
 +Pro+Poss+3s+Masc+Obl+Sg+Stress:uen # ;
++Pro+Poss+3s+Masc+Obl+Sg+Stress:ien # ;
 +Pro+Poss+3s+Masc+Nom+Pl+Stress:uen # ;
++Pro+Poss+3s+Masc+Nom+Pl+Stress:ien # ;
 +Pro+Poss+3s+Masc+Obl+Pl+Stress:uens # ;
++Pro+Poss+3s+Masc+Obl+Pl+Stress:iens # ;
 +Pro+Poss+3s+Fem+Nom+Sg+Stress:oe # ;
 +Pro+Poss+3s+Fem+Obl+Sg+Stress:oe # ;
 +Pro+Poss+3s+Fem+Nom+Pl+Stress:oes # ;
@@ -368,10 +377,16 @@ LEXICON IndefPro
 !!€ suens:      son+Pro+Poss+3s+Masc+Obl+Pl+Stress
 !!€ soens:      son+Pro+Poss+3s+Masc+Obl+Pl+Stress
 !!€ seuns:      son+Pro+Poss+3s+Masc+Obl+Pl+Stress
+!!€ siens:      son+Pro+Poss+3s+Masc+Obl+Pl+Stress
+!!€ sions:      son+Pro+Poss+3s+Masc+Obl+Pl+Stress
+!!€ sians:      son+Pro+Poss+3s+Masc+Obl+Pl+Stress
 !!€ suans:      son+Pro+Poss+3s+Masc+Obl+Pl+Stress
 !!€ suens:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
 !!€ soens:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
 !!€ seuns:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
 !!€ suans:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
+!!€ siens:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
+!!€ sions:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
+!!€ sians:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
 !!€ icestui:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress
 !!€ icestuy:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress

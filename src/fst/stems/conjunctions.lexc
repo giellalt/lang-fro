@@ -2,6 +2,7 @@ LEXICON Conjunctions
 car Coord "for" ;
     car:kar Coord "for" ; ! Verify
     car:quer Coord "for" ;
+    car:quar Coord "for" ;
 ce SubPart ;
 com SubPart ;
 com: Comme "as, in order that" ; ! separate roots (com/cum)?
@@ -14,6 +15,7 @@ combien SubPart "although, marker of less intense outcome" ;
 des SubPart ;
 devant SubPart ;
 donc Coord "therefore" ;
+    donc:dunc Coord "therefore" ;
 et: Et "and" ;
 jusque:jusque%{S%} Subord "until, to, up to, down to, as far as" ;
 lues SubPart ;
