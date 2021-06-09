@@ -38,6 +38,7 @@ LEXICON SubPart
 LEXICON Comme
 +Conj+Subord:com%> # ;
 +Conj+Subord:cum # ;
++Conj+Subord:cume # ;
 +Conj+Subord:con # ;
 +Conj+Subord:com%>e # ;
 +Conj+Subord:conme # ;

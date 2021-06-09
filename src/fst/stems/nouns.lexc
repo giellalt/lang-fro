@@ -167,6 +167,7 @@ Crist PropMasc "Christ" ;
 cuer MC1a "heart" ;
     cuer:quer MC1a "heart" ;
     cuer:cor MC1a "heart" ;
+    cuer:cueur MC1a "heart" ;
 curé MC1a "priest" ;
 cure FC1 "concern, care, attention" ;
 

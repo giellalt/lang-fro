@@ -1,3 +1,14 @@
+LEXICON PrepPrefix
+ci+Pro+Dem+Neut#:ci- CiStem ;
+ci+Pro+Dem+Neut#:cy- CiStem ;
+0 Prepositions ;
+
+LEXICON CiStem
+devant+Prep:devant # ;
+après+Prep:après # ;
+desous+Prep:desus # ;
+desous+Prep:dessus # ;
+
 LEXICON Prepositions
 a Prep "to" ;
     a:à Prep "to" ;

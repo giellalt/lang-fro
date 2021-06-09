@@ -438,8 +438,8 @@ LEXICON Faire
 +V+3p+Pres+Ind:font # ;
 +V+3p+Pres+Ind:funt # ;
 
-:fe PerfStS ;
-:fi PerfStS ;
+:fe PerfStSBasic ;
+:fi PerfStSBasic ;
 +V+1s+Perf+Ind:fi # ;
 +V+1s+Perf+Ind:fe # ;
 +V+3s+Perf+Ind:fesist # ;
@@ -490,7 +490,7 @@ LEXICON Dire
 +V+2p+Pres+Ind:dites # ;
 +V+3p+Pres+Ind:dient # ;
 
-:di PerfStS ;
+:di PerfStSBasic ;
 +V+1s+Perf+Ind:di # ;
 +V+3p+Perf+Ind:disent # ;
 +V+3p+Perf+Ind:dirent # ;
@@ -768,8 +768,8 @@ LEXICON Prendre
 :pren PresInd ;
 +V+1s+Pres+Ind:preign # ;
 
-:pri PerfStS ;
-:pre PerfStS ;
+:pri PerfStSBasic ;
+:pre PerfStSBasic ;
 +V+3s+Perf+Ind:print # ;
 
 :pren%> IpfvInd ;
@@ -950,8 +950,8 @@ LEXICON Metre
 +V+3p+Pres+Ind:metent # ;
 +V+3p+Pres+Ind:mectent # ;
 
-:mi PerfStS ;
-:me PerfStS ;
+:mi PerfStSBasic ;
+:me PerfStSBasic ;
 :met IpfvInd ;
 :mect IpfvInd ;
 :meter FutInd ;
@@ -1033,8 +1033,8 @@ LEXICON Lire
 +V+2p+Pres+Ind:lisiez # ;
 +V+3p+Pres+Ind:lisent # ;
 
-:li PerfStS ; ! Two perfects?
-:le PerfStS ;
+:li PerfStSBasic ; ! Two perfects?
+:le PerfStSBasic ;
 :lu PerfStUS ;
 :le PerfStUU ;
 :lis IpfvInd ;
@@ -1162,7 +1162,7 @@ LEXICON Escrire ! Verify all forms
 +V+2p+Pres+Ind:escrivez # ;
 +V+3p+Pres+Ind:escrivent # ;
 
-:escri PerfStS ;
+:escri PerfStSBasic ;
 :escriv IpfvInd ;
 :escrir FutInd ;
 :escrivr FutInd ;

@@ -15,6 +15,7 @@ LEXICON OptionalS
 
 LEXICON DerAdv
 +Adv:ment # ;
+0 # ;
 
 LEXICON InterrAdv
 +Adv+Interr:0 # ;

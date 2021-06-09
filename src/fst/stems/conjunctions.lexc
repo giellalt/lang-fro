@@ -1,8 +1,9 @@
 LEXICON Conjunctions
-car Coord "for" ;
+car:car Coord "for" ;
     car:kar Coord "for" ; ! Verify
     car:quer Coord "for" ;
     car:quar Coord "for" ;
+    car:Car Coord "for" ;
 ce SubPart ;
 com SubPart ;
 com: Comme "as, in order that" ; ! separate roots (com/cum)?

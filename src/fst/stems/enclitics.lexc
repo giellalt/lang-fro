@@ -28,7 +28,7 @@ LEXICON Enclitics
 :jos Jo_Les ;
 :tul Tu_Le ;
 :tum Tu_Me ;
-luin Lui_En ;
+:luin Lui_En ;
 :nel Ne_Le ;
 :nul Ne_Le ;
 :nou Ne_Le ;
@@ -58,338 +58,338 @@ luin Lui_En ;
 :ses Se_Les ;
 
 LEXICON A_Le
-a+Prep#l+Art+Def+Masc+Obl+Sg: # ;
-a+Prep#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-a+Prep#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+a+Prep#le+Art+Def+Masc+Obl+Sg: # ;
+a+Prep#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+a+Prep#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-a+Prep#l+Art+Def+Masc+Obl+Sg: # ;
-a+Prep#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-a+Prep#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+a+Prep#le+Art+Def+Masc+Obl+Sg: # ;
+a+Prep#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+a+Prep#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
 LEXICON A_Les
-a+Prep#l+Art+Def+Masc+Obl+Pl: # ;
-a+Prep#l+Art+Def+Fem+Nom+Pl: # ;
-a+Prep#l+Art+Def+Fem+Obl+Pl: # ;
+a+Prep#le+Art+Def+Masc+Obl+Pl: # ;
+a+Prep#le+Art+Def+Fem+Nom+Pl: # ;
+a+Prep#le+Art+Def+Fem+Obl+Pl: # ;
 
 LEXICON De_Le
-de+Prep#l+Art+Def+Masc+Obl+Sg: # ;
-de+Prep#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-de+Prep#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+de+Prep#le+Art+Def+Masc+Obl+Sg: # ;
+de+Prep#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+de+Prep#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
 LEXICON De_Les
-de+Prep#l+Art+Def+Masc+Obl+Pl: # ;
-de+Prep#l+Art+Def+Fem+Nom+Pl: # ;
-de+Prep#l+Art+Def+Fem+Obl+Pl: # ;
+de+Prep#le+Art+Def+Masc+Obl+Pl: # ;
+de+Prep#le+Art+Def+Fem+Nom+Pl: # ;
+de+Prep#le+Art+Def+Fem+Obl+Pl: # ;
 
 LEXICON En_Le
-en+Prep#l+Art+Def+Masc+Obl+Sg: # ;
-en+Prep#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-en+Prep#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+en+Prep#le+Art+Def+Masc+Obl+Sg: # ;
+en+Prep#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+en+Prep#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-en+Pro+Adv#l+Art+Def+Masc+Obl+Sg: # ;
-en+Pro+Adv#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-en+Pro+Adv#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+en+Pro+Adv#le+Art+Def+Masc+Obl+Sg: # ;
+en+Pro+Adv#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+en+Pro+Adv#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
 LEXICON En_Les
-en+Prep#l+Art+Def+Masc+Obl+Pl: # ;
-en+Prep#l+Art+Def+Fem+Nom+Pl: # ;
-en+Prep#l+Art+Def+Fem+Obl+Pl: # ;
+en+Prep#le+Art+Def+Masc+Obl+Pl: # ;
+en+Prep#le+Art+Def+Fem+Nom+Pl: # ;
+en+Prep#le+Art+Def+Fem+Obl+Pl: # ;
 
-en+Pro+Adv#l+Art+Def+Masc+Obl+Pl: # ;
-en+Pro+Adv#l+Art+Def+Fem+Nom+Pl: # ;
-en+Pro+Adv#l+Art+Def+Fem+Obl+Pl: # ;
+en+Pro+Adv#le+Art+Def+Masc+Obl+Pl: # ;
+en+Pro+Adv#le+Art+Def+Fem+Nom+Pl: # ;
+en+Pro+Adv#le+Art+Def+Fem+Obl+Pl: # ;
 
 LEXICON Ja_Le
-+Pro+Prs+1s+Nom+Stress+Err/Obsc#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Prs+1s+Nom+Stress+Err/Obsc#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Prs+1s+Nom+Stress+Err/Obsc#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+je+Pro+Prs+1s+Nom+Stress+Err/Obsc#le+Art+Def+Masc+Obl+Sg: # ;
+je+Pro+Prs+1s+Nom+Stress+Err/Obsc#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+je+Pro+Prs+1s+Nom+Stress+Err/Obsc#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
 LEXICON Ja_Me
-+Pro+Prs+1s+Nom+Stress+Err/Obsc#+Pro+Prs+1s+Obl+Unstress: # ;
+je+Pro+Prs+1s+Nom+Stress+Err/Obsc#je+Pro+Prs+1s+Obl+Unstress: # ;
 
 LEXICON Je_Le
-+Pro+Prs+1s+Nom+Stress+Gram/Late#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Prs+1s+Nom+Stress+Gram/Late#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Prs+1s+Nom+Stress+Gram/Late#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+je+Pro+Prs+1s+Nom+Stress+Gram/Late#le+Art+Def+Masc+Obl+Sg: # ;
+je+Pro+Prs+1s+Nom+Stress+Gram/Late#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+je+Pro+Prs+1s+Nom+Stress+Gram/Late#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
 LEXICON Je_Les
-+Pro+Prs+1s+Nom+Stress+Gram/Late#l+Art+Def+Fem+Nom+Pl: # ;
-+Pro+Prs+1s+Nom+Stress+Gram/Late#l+Art+Def+Fem+Obl+Pl: # ;
-+Pro+Prs+1s+Nom+Stress+Gram/Late#l+Art+Def+Masc+Obl+Pl: # ;
+je+Pro+Prs+1s+Nom+Stress+Gram/Late#le+Art+Def+Fem+Nom+Pl: # ;
+je+Pro+Prs+1s+Nom+Stress+Gram/Late#le+Art+Def+Fem+Obl+Pl: # ;
+je+Pro+Prs+1s+Nom+Stress+Gram/Late#le+Art+Def+Masc+Obl+Pl: # ;
 
 LEXICON Je_Me
-+Pro+Prs+1s+Nom+Stress+Gram/Late#+Pro+Prs+1s+Obl+Unstress: # ;
+je+Pro+Prs+1s+Nom+Stress+Gram/Late#je+Pro+Prs+1s+Obl+Unstress: # ;
 
 LEXICON Jo_Le
-+Pro+Prs+1s+Nom+Stress+Gram/Early#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Prs+1s+Nom+Stress+Gram/Early#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Prs+1s+Nom+Stress+Gram/Early#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+je+Pro+Prs+1s+Nom+Stress+Gram/Early#le+Art+Def+Masc+Obl+Sg: # ;
+je+Pro+Prs+1s+Nom+Stress+Gram/Early#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+je+Pro+Prs+1s+Nom+Stress+Gram/Early#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
 LEXICON Jo_Les
-+Pro+Prs+1s+Nom+Stress+Gram/Early#l+Art+Def+Fem+Nom+Pl: # ;
-+Pro+Prs+1s+Nom+Stress+Gram/Early#l+Art+Def+Fem+Obl+Pl: # ;
-+Pro+Prs+1s+Nom+Stress+Gram/Early#l+Art+Def+Masc+Obl+Pl: # ;
+je+Pro+Prs+1s+Nom+Stress+Gram/Early#le+Art+Def+Fem+Nom+Pl: # ;
+je+Pro+Prs+1s+Nom+Stress+Gram/Early#le+Art+Def+Fem+Obl+Pl: # ;
+je+Pro+Prs+1s+Nom+Stress+Gram/Early#le+Art+Def+Masc+Obl+Pl: # ;
 
 LEXICON Tu_Le
-+Pro+Prs+2s+Nom+Stress#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Prs+2s+Nom+Stress#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Prs+2s+Nom+Stress#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+tu+Pro+Prs+2s+Nom+Stress#le+Art+Def+Masc+Obl+Sg: # ;
+tu+Pro+Prs+2s+Nom+Stress#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+tu+Pro+Prs+2s+Nom+Stress#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-+Pro+Prs+2s+Nom+Unstress#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Prs+2s+Nom+Unstress#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Prs+2s+Nom+Unstress#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+tu+Pro+Prs+2s+Nom+Unstress#le+Art+Def+Masc+Obl+Sg: # ;
+tu+Pro+Prs+2s+Nom+Unstress#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+tu+Pro+Prs+2s+Nom+Unstress#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
 LEXICON Tu_Me
-+Pro+Prs+2s+Nom+Stress#+Pro+Prs+1s+Obl+Unstress: # ;
-+Pro+Prs+2s+Nom+Unstress#+Pro+Prs+1s+Obl+Unstress: # ;
+tu+Pro+Prs+2s+Nom+Stress#je+Pro+Prs+1s+Obl+Unstress: # ;
+tu+Pro+Prs+2s+Nom+Unstress#je+Pro+Prs+1s+Obl+Unstress: # ;
 
 LEXICON Lui_En
-+Pro+Prs+3s+Masc+Obl+Stress#en+Prep: # ;
-+Pro+Prs+3s+Masc+Obl+Stress#en+Pro+Adv: # ;
+il+Pro+Prs+3s+Masc+Obl+Stress#en+Prep: # ;
+il+Pro+Prs+3s+Masc+Obl+Stress#en+Pro+Adv: # ;
 
 LEXICON Ne_Le
-n+Conj+Coord#l+Art+Def+Masc+Obl+Sg: # ;
-n+Conj+Coord#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-n+Conj+Coord#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+ne+Conj+Coord#le+Art+Def+Masc+Obl+Sg: # ;
+ne+Conj+Coord#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+ne+Conj+Coord#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-n+Adv+Neg+Unstress#l+Art+Def+Masc+Obl+Sg: # ;
-n+Adv+Neg+Unstress#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-n+Adv+Neg+Unstress#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+ne+Adv+Neg+Unstress#le+Art+Def+Masc+Obl+Sg: # ;
+ne+Adv+Neg+Unstress#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+ne+Adv+Neg+Unstress#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
 LEXICON Ne_Les
-n+Conj+Coord#l+Art+Def+Fem+Nom+Pl: # ;
-n+Conj+Coord#l+Art+Def+Fem+Obl+Pl: # ;
-n+Conj+Coord#l+Art+Def+Masc+Obl+Pl: # ;
-n+Adv+Neg+Unstress#l+Art+Def+Fem+Nom+Pl: # ;
-n+Adv+Neg+Unstress#l+Art+Def+Fem+Obl+Pl: # ;
-n+Adv+Neg+Unstress#l+Art+Def+Masc+Obl+Pl: # ;
+ne+Conj+Coord#le+Art+Def+Fem+Nom+Pl: # ;
+ne+Conj+Coord#le+Art+Def+Fem+Obl+Pl: # ;
+ne+Conj+Coord#le+Art+Def+Masc+Obl+Pl: # ;
+ne+Adv+Neg+Unstress#le+Art+Def+Fem+Nom+Pl: # ;
+ne+Adv+Neg+Unstress#le+Art+Def+Fem+Obl+Pl: # ;
+ne+Adv+Neg+Unstress#le+Art+Def+Masc+Obl+Pl: # ;
 
 LEXICON Ne_Me
-n+Conj+Coord#+Pro+Prs+1s+Obl+Unstress: # ;
-n+Adv+Neg+Unstress#+Pro+Prs+1s+Obl+Unstress: # ;
+ne+Conj+Coord#je+Pro+Prs+1s+Obl+Unstress: # ;
+ne+Adv+Neg+Unstress#je+Pro+Prs+1s+Obl+Unstress: # ;
 
 LEXICON Ne_Te
-n+Conj+Coord#t+Pro+Prs+2s+Obl+Unstress: # ;
-n+Adv+Neg+Unstress#t+Pro+Prs+2s+Obl+Unstress: # ;
+ne+Conj+Coord#tu+Pro+Prs+2s+Obl+Unstress: # ;
+ne+Adv+Neg+Unstress#tu+Pro+Prs+2s+Obl+Unstress: # ;
 
 LEXICON Ne_Se
-n+Conj+Coord#s+Pro+Prs+3s+Refl+Unstress: # ;
-n+Adv+Neg+Unstress#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
-n+Conj+Coord#s+Conj+Subord: # ;
-n+Adv+Neg+Unstress#s+Conj+Subord: # ;
-n+Conj+Coord#s+Pro+Prs+3p+Refl+Unstress: # ;
-n+Adv+Neg+Unstress#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+ne+Conj+Coord#se+Pro+Prs+3s+Refl+Unstress: # ;
+ne+Adv+Neg+Unstress#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+ne+Conj+Coord#se+Conj+Subord: # ;
+ne+Adv+Neg+Unstress#se+Conj+Subord: # ;
+ne+Conj+Coord#se+Pro+Prs+3p+Refl+Unstress: # ;
+ne+Adv+Neg+Unstress#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
 
 LEXICON Qui_Le
-+Pro+Relative+Gram/Person+Nom#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Relative+Gram/Person+Nom#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Relative+Gram/Person+Nom#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+que+Pro+Relative+Gram/Person+Nom#le+Art+Def+Masc+Obl+Sg: # ;
+que+Pro+Relative+Gram/Person+Nom#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+que+Pro+Relative+Gram/Person+Nom#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-+Pro+Relative+Gram/Thing+Nom#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Relative+Gram/Thing+Nom#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Relative+Gram/Thing+Nom#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+que+Pro+Relative+Gram/Thing+Nom#le+Art+Def+Masc+Obl+Sg: # ;
+que+Pro+Relative+Gram/Thing+Nom#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+que+Pro+Relative+Gram/Thing+Nom#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-+Pro+Interr+Gram/Person+Nom#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Interr+Gram/Person+Nom#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Interr+Gram/Person+Nom#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+quoi+Pro+Interr+Gram/Person+Nom#le+Art+Def+Masc+Obl+Sg: # ;
+quoi+Pro+Interr+Gram/Person+Nom#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+quoi+Pro+Interr+Gram/Person+Nom#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-+Pro+Interr+Gram/Thing+Nom#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Interr+Gram/Thing+Nom#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Interr+Gram/Thing+Nom#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+quoi+Pro+Interr+Gram/Thing+Nom#le+Art+Def+Masc+Obl+Sg: # ;
+quoi+Pro+Interr+Gram/Thing+Nom#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+quoi+Pro+Interr+Gram/Thing+Nom#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-LEXICON Qui_Les
-+Pro+Relative+Gram/Person+Nom#l+Art+Def+Fem+Nom+Pl: # ;
-+Pro+Relative+Gram/Thing+Nom#l+Art+Def+Fem+Nom+Pl: # ;
-+Pro+Interr+Gram/Person+Nom#l+Art+Def+Fem+Nom+Pl: # ;
-+Pro+Interr+Gram/Thing+Nom#l+Art+Def+Fem+Nom+Pl: # ;
+LEXICON Qui_Les ! Check these forms
+que+Pro+Relative+Gram/Person+Nom#le+Art+Def+Fem+Nom+Pl: # ;
+que+Pro+Relative+Gram/Thing+Nom#le+Art+Def+Fem+Nom+Pl: # ;
+quoi+Pro+Interr+Gram/Person+Nom#le+Art+Def+Fem+Nom+Pl: # ;
+quoi+Pro+Interr+Gram/Thing+Nom#le+Art+Def+Fem+Nom+Pl: # ;
 
-+Pro+Relative+Gram/Person+Nom#l+Art+Def+Fem+Obl+Pl: # ;
-+Pro+Relative+Gram/Thing+Nom#l+Art+Def+Fem+Obl+Pl: # ;
-+Pro+Interr+Gram/Person+Nom#l+Art+Def+Fem+Obl+Pl: # ;
-+Pro+Interr+Gram/Thing+Nom#l+Art+Def+Fem+Obl+Pl: # ;
+que+Pro+Relative+Gram/Person+Nom#le+Art+Def+Fem+Obl+Pl: # ;
+que+Pro+Relative+Gram/Thing+Nom#le+Art+Def+Fem+Obl+Pl: # ;
+quoi+Pro+Interr+Gram/Person+Nom#le+Art+Def+Fem+Obl+Pl: # ;
+quoi+Pro+Interr+Gram/Thing+Nom#le+Art+Def+Fem+Obl+Pl: # ;
 
-+Pro+Relative+Gram/Person+Nom#l+Art+Def+Masc+Obl+Pl: # ;
-+Pro+Relative+Gram/Thing+Nom#l+Art+Def+Masc+Obl+Pl: # ;
-+Pro+Interr+Gram/Person+Nom#l+Art+Def+Masc+Obl+Pl: # ;
-+Pro+Interr+Gram/Thing+Nom#l+Art+Def+Masc+Obl+Pl: # ;
+que+Pro+Relative+Gram/Person+Nom#le+Art+Def+Masc+Obl+Pl: # ;
+que+Pro+Relative+Gram/Thing+Nom#le+Art+Def+Masc+Obl+Pl: # ;
+quoi+Pro+Interr+Gram/Person+Nom#le+Art+Def+Masc+Obl+Pl: # ;
+quoi+Pro+Interr+Gram/Thing+Nom#le+Art+Def+Masc+Obl+Pl: # ;
 
 LEXICON Qui_Me
-+Pro+Relative+Gram/Person+Nom#+Pro+Prs+1s+Obl+Unstress: # ;
-+Pro+Relative+Gram/Thing+Nom#+Pro+Prs+1s+Obl+Unstress: # ;
-+Pro+Interr+Gram/Person+Nom#+Pro+Prs+1s+Obl+Unstress: # ;
-+Pro+Interr+Gram/Thing+Nom#+Pro+Prs+1s+Obl+Unstress: # ;
+que+Pro+Relative+Gram/Person+Nom#je+Pro+Prs+1s+Obl+Unstress: # ;
+que+Pro+Relative+Gram/Thing+Nom#je+Pro+Prs+1s+Obl+Unstress: # ;
+quoi+Pro+Interr+Gram/Person+Nom#je+Pro+Prs+1s+Obl+Unstress: # ;
+quoi+Pro+Interr+Gram/Thing+Nom#je+Pro+Prs+1s+Obl+Unstress: # ;
 
 LEXICON Qui_Se
-+Pro+Relative+Gram/Person+Nom#s+Conj+Subord: # ;
-+Pro+Relative+Gram/Thing+Nom#s+Conj+Subord: # ;
-+Pro+Interr+Gram/Person+Nom#s+Conj+Subord: # ;
-+Pro+Interr+Gram/Thing+Nom#s+Conj+Subord: # ;
+que+Pro+Relative+Gram/Person+Nom#se+Conj+Subord: # ;
+que+Pro+Relative+Gram/Thing+Nom#se+Conj+Subord: # ;
+quoi+Pro+Interr+Gram/Person+Nom#se+Conj+Subord: # ;
+quoi+Pro+Interr+Gram/Thing+Nom#se+Conj+Subord: # ;
 
-+Pro+Relative+Gram/Person+Nom#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
-+Pro+Relative+Gram/Thing+Nom#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
-+Pro+Interr+Gram/Person+Nom#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
-+Pro+Interr+Gram/Thing+Nom#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+que+Pro+Relative+Gram/Person+Nom#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+que+Pro+Relative+Gram/Thing+Nom#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+quoi+Pro+Interr+Gram/Person+Nom#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+quoi+Pro+Interr+Gram/Thing+Nom#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
 
-+Pro+Relative+Gram/Person+Nom#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
-+Pro+Relative+Gram/Thing+Nom#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
-+Pro+Interr+Gram/Person+Nom#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
-+Pro+Interr+Gram/Thing+Nom#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+que+Pro+Relative+Gram/Person+Nom#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+que+Pro+Relative+Gram/Thing+Nom#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+quoi+Pro+Interr+Gram/Person+Nom#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+quoi+Pro+Interr+Gram/Thing+Nom#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
 
 LEXICON Qui_En
-+Pro+Relative+Gram/Person+Nom#en+Prep: # ;
-+Pro+Relative+Gram/Thing+Nom#en+Prep: # ;
-+Pro+Interr+Gram/Person+Nom#en+Prep: # ;
-+Pro+Interr+Gram/Thing+Nom#en+Prep: # ;
+que+Pro+Relative+Gram/Person+Nom#en+Prep: # ;
+que+Pro+Relative+Gram/Thing+Nom#en+Prep: # ;
+quoi+Pro+Interr+Gram/Person+Nom#en+Prep: # ;
+quoi+Pro+Interr+Gram/Thing+Nom#en+Prep: # ;
 
-+Pro+Relative+Gram/Person+Nom#en+Pro+Adv: # ;
-+Pro+Relative+Gram/Thing+Nom#en+Pro+Adv: # ;
-+Pro+Interr+Gram/Person+Nom#en+Pro+Adv: # ;
-+Pro+Interr+Gram/Thing+Nom#en+Pro+Adv: # ;
+que+Pro+Relative+Gram/Person+Nom#en+Pro+Adv: # ;
+que+Pro+Relative+Gram/Thing+Nom#en+Pro+Adv: # ;
+quoi+Pro+Interr+Gram/Person+Nom#en+Pro+Adv: # ;
+quoi+Pro+Interr+Gram/Thing+Nom#en+Pro+Adv: # ;
 
 LEXICON Que_Le
-+Pro+Relative+Gram/Person+Obl+Dir+Unstress#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Relative+Gram/Person+Obl+Dir+Unstress#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Relative+Gram/Person+Obl+Dir+Unstress#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+que+Pro+Relative+Gram/Person+Obl+Dir+Unstress#le+Art+Def+Masc+Obl+Sg: # ;
+que+Pro+Relative+Gram/Person+Obl+Dir+Unstress#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+que+Pro+Relative+Gram/Person+Obl+Dir+Unstress#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-+Pro+Relative+Gram/Thing+Obl+Dir+Unstress#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Relative+Gram/Thing+Obl+Dir+Unstress#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Relative+Gram/Thing+Obl+Dir+Unstress#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+que+Pro+Relative+Gram/Thing+Obl+Dir+Unstress#le+Art+Def+Masc+Obl+Sg: # ;
+que+Pro+Relative+Gram/Thing+Obl+Dir+Unstress#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+que+Pro+Relative+Gram/Thing+Obl+Dir+Unstress#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-+Pro+Relative+Neut+Nom#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Relative+Neut+Nom#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Relative+Neut+Nom#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+que+Pro+Relative+Neut+Nom#le+Art+Def+Masc+Obl+Sg: # ;
+que+Pro+Relative+Neut+Nom#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+que+Pro+Relative+Neut+Nom#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-+Pro+Relative+Neut+Obl+Dir+Unstress#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Relative+Neut+Obl+Dir+Unstress#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Relative+Neut+Obl+Dir+Unstress#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+que+Pro+Relative+Neut+Obl+Dir+Unstress#le+Art+Def+Masc+Obl+Sg: # ;
+que+Pro+Relative+Neut+Obl+Dir+Unstress#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+que+Pro+Relative+Neut+Obl+Dir+Unstress#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-+Pro+Interr+Gram/Thing+Obl+Dir+Unstress#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Interr+Gram/Thing+Obl+Dir+Unstress#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Interr+Gram/Thing+Obl+Dir+Unstress#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+quoi+Pro+Interr+Gram/Thing+Obl+Dir+Unstress#le+Art+Def+Masc+Obl+Sg: # ;
+quoi+Pro+Interr+Gram/Thing+Obl+Dir+Unstress#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+quoi+Pro+Interr+Gram/Thing+Obl+Dir+Unstress#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-+Pro+Interr+Neut+Nom#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Interr+Neut+Nom#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Interr+Neut+Nom#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+quoi+Pro+Interr+Neut+Nom#le+Art+Def+Masc+Obl+Sg: # ;
+quoi+Pro+Interr+Neut+Nom#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+quoi+Pro+Interr+Neut+Nom#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-+Pro+Interr+Neut+Obl+Dir+Unstress#l+Art+Def+Masc+Obl+Sg: # ;
-+Pro+Interr+Neut+Obl+Dir+Unstress#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-+Pro+Interr+Neut+Obl+Dir+Unstress#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+quoi+Pro+Interr+Neut+Obl+Dir+Unstress#le+Art+Def+Masc+Obl+Sg: # ;
+quoi+Pro+Interr+Neut+Obl+Dir+Unstress#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+quoi+Pro+Interr+Neut+Obl+Dir+Unstress#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
 
 LEXICON Que_Se
-+Pro+Relative+Gram/Person+Obl+Dir+Unstress#s+Conj+Subord: # ;
-+Pro+Relative+Gram/Thing+Obl+Dir+Unstress#s+Conj+Subord: # ;
-+Pro+Relative+Neut+Nom#s+Conj+Subord: # ;
-+Pro+Relative+Neut+Obl+Dir+Unstress#s+Conj+Subord: # ;
-+Pro+Interr+Gram/Thing+Obl+Dir+Unstress#s+Conj+Subord: # ;
-+Pro+Interr+Neut+Nom#s+Conj+Subord: # ;
-+Pro+Interr+Neut+Obl+Dir+Unstress#s+Conj+Subord: # ;
+que+Pro+Relative+Gram/Person+Obl+Dir+Unstress#se+Conj+Subord: # ;
+que+Pro+Relative+Gram/Thing+Obl+Dir+Unstress#se+Conj+Subord: # ;
+que+Pro+Relative+Neut+Nom#se+Conj+Subord: # ;
+que+Pro+Relative+Neut+Obl+Dir+Unstress#se+Conj+Subord: # ;
+quoi+Pro+Interr+Gram/Thing+Obl+Dir+Unstress#se+Conj+Subord: # ;
+quoi+Pro+Interr+Neut+Nom#se+Conj+Subord: # ;
+quoi+Pro+Interr+Neut+Obl+Dir+Unstress#se+Conj+Subord: # ;
 
-+Pro+Relative+Gram/Person+Obl+Dir+Unstress#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
-+Pro+Relative+Gram/Thing+Obl+Dir+Unstress#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
-+Pro+Relative+Neut+Nom#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
-+Pro+Relative+Neut+Obl+Dir+Unstress#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
-+Pro+Interr+Gram/Thing+Obl+Dir+Unstress#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
-+Pro+Interr+Neut+Nom#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
-+Pro+Interr+Neut+Obl+Dir+Unstress#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+que+Pro+Relative+Gram/Person+Obl+Dir+Unstress#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+que+Pro+Relative+Gram/Thing+Obl+Dir+Unstress#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+que+Pro+Relative+Neut+Nom#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+que+Pro+Relative+Neut+Obl+Dir+Unstress#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+quoi+Pro+Interr+Gram/Thing+Obl+Dir+Unstress#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+quoi+Pro+Interr+Neut+Nom#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+quoi+Pro+Interr+Neut+Obl+Dir+Unstress#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
 
-+Pro+Relative+Gram/Person+Obl+Dir+Unstress#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
-+Pro+Relative+Gram/Thing+Obl+Dir+Unstress#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
-+Pro+Relative+Neut+Nom#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
-+Pro+Relative+Neut+Obl+Dir+Unstress#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
-+Pro+Interr+Gram/Thing+Obl+Dir+Unstress#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
-+Pro+Interr+Neut+Nom#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
-+Pro+Interr+Neut+Obl+Dir+Unstress#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+que+Pro+Relative+Gram/Person+Obl+Dir+Unstress#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+que+Pro+Relative+Gram/Thing+Obl+Dir+Unstress#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+que+Pro+Relative+Neut+Nom#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+que+Pro+Relative+Neut+Obl+Dir+Unstress#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+quoi+Pro+Interr+Gram/Thing+Obl+Dir+Unstress#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+quoi+Pro+Interr+Neut+Nom#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+quoi+Pro+Interr+Neut+Obl+Dir+Unstress#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
 
 LEXICON Si_Le
-s+Conj+Coord#l+Art+Def+Masc+Obl+Sg: # ;
-s+Conj+Coord#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-s+Conj+Coord#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+si+Conj+Coord#le+Art+Def+Masc+Obl+Sg: # ;
+si+Conj+Coord#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+si+Conj+Coord#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-s+Pro+Poss+3s+Masc+Nom+Pl+Unstress#l+Art+Def+Masc+Obl+Sg: # ;
-s+Pro+Poss+3s+Masc+Nom+Pl+Unstress#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-s+Pro+Poss+3s+Masc+Nom+Pl+Unstress#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+si+Pro+Poss+3s+Masc+Nom+Pl+Unstress#le+Art+Def+Masc+Obl+Sg: # ;
+si+Pro+Poss+3s+Masc+Nom+Pl+Unstress#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+si+Pro+Poss+3s+Masc+Nom+Pl+Unstress#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-si+Adv#l+Art+Def+Masc+Obl+Sg: # ;
-si+Adv#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-si+Adv#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+si+Adv#le+Art+Def+Masc+Obl+Sg: # ;
+si+Adv#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+si+Adv#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-si+Conj+MultiWordConj+Subord#l+Art+Def+Masc+Obl+Sg: # ;
-si+Conj+MultiWordConj+Subord#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-si+Conj+MultiWordConj+Subord#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+si+Conj+MultiWordConj+Subord#le+Art+Def+Masc+Obl+Sg: # ;
+si+Conj+MultiWordConj+Subord#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+si+Conj+MultiWordConj+Subord#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
 
 LEXICON Si_Les
-s+Conj+Coord#l+Art+Def+Fem+Nom+Pl: # ;
-s+Pro+Poss+3s+Masc+Nom+Pl+Unstress#l+Art+Def+Fem+Nom+Pl: # ;
-si+Adv#l+Art+Def+Fem+Nom+Pl: # ;
-si+Conj+MultiWordConj+Subord#l+Art+Def+Fem+Nom+Pl: # ;
+si+Conj+Coord#le+Art+Def+Fem+Nom+Pl: # ;
+si+Pro+Poss+3s+Masc+Nom+Pl+Unstress#le+Art+Def+Fem+Nom+Pl: # ;
+si+Adv#le+Art+Def+Fem+Nom+Pl: # ;
+si+Conj+MultiWordConj+Subord#le+Art+Def+Fem+Nom+Pl: # ;
 
-s+Conj+Coord#l+Art+Def+Fem+Obl+Pl: # ;
-s+Pro+Poss+3s+Masc+Nom+Pl+Unstress#l+Art+Def+Fem+Obl+Pl: # ;
-si+Adv#l+Art+Def+Fem+Obl+Pl: # ;
-si+Conj+MultiWordConj+Subord#l+Art+Def+Fem+Obl+Pl: # ;
+si+Conj+Coord#le+Art+Def+Fem+Obl+Pl: # ;
+si+Pro+Poss+3s+Masc+Nom+Pl+Unstress#le+Art+Def+Fem+Obl+Pl: # ;
+si+Adv#le+Art+Def+Fem+Obl+Pl: # ;
+si+Conj+MultiWordConj+Subord#le+Art+Def+Fem+Obl+Pl: # ;
 
-s+Conj+Coord#l+Art+Def+Masc+Obl+Pl: # ;
-s+Pro+Poss+3s+Masc+Nom+Pl+Unstress#l+Art+Def+Masc+Obl+Pl: # ;
-si+Adv#l+Art+Def+Masc+Obl+Pl: # ;
-si+Conj+MultiWordConj+Subord#l+Art+Def+Masc+Obl+Pl: # ;
+si+Conj+Coord#le+Art+Def+Masc+Obl+Pl: # ;
+si+Pro+Poss+3s+Masc+Nom+Pl+Unstress#le+Art+Def+Masc+Obl+Pl: # ;
+si+Adv#le+Art+Def+Masc+Obl+Pl: # ;
+si+Conj+MultiWordConj+Subord#le+Art+Def+Masc+Obl+Pl: # ;
 
 LEXICON Si_Me
-s+Conj+Coord#+Pro+Prs+1s+Obl+Unstress: # ;
-s+Pro+Poss+3s+Masc+Nom+Pl+Unstress#+Pro+Prs+1s+Obl+Unstress: # ;
-si+Adv#+Pro+Prs+1s+Obl+Unstress: # ;
-si+Conj+MultiWordConj+Subord#+Pro+Prs+1s+Obl+Unstress: # ;
+si+Conj+Coord#je+Pro+Prs+1s+Obl+Unstress: # ;
+si+Pro+Poss+3s+Masc+Nom+Pl+Unstress#je+Pro+Prs+1s+Obl+Unstress: # ;
+si+Adv#je+Pro+Prs+1s+Obl+Unstress: # ;
+si+Conj+MultiWordConj+Subord#je+Pro+Prs+1s+Obl+Unstress: # ;
 
 LEXICON Si_Se
-s+Conj+Coord#s+Conj+Subord: # ;
-s+Pro+Poss+3s+Masc+Nom+Pl+Unstress#s+Conj+Subord: # ;
-si+Adv#s+Conj+Subord: # ;
-si+Conj+MultiWordConj+Subord#s+Conj+Subord: # ;
+si+Conj+Coord#se+Conj+Subord: # ;
+si+Pro+Poss+3s+Masc+Nom+Pl+Unstress#se+Conj+Subord: # ;
+si+Adv#se+Conj+Subord: # ;
+si+Conj+MultiWordConj+Subord#se+Conj+Subord: # ;
 
-s+Conj+Coord#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
-s+Pro+Poss+3s+Masc+Nom+Pl+Unstress#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
-si+Adv#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
-si+Conj+MultiWordConj+Subord#s+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+si+Conj+Coord#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+si+Pro+Poss+3s+Masc+Nom+Pl+Unstress#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+si+Adv#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
+si+Conj+MultiWordConj+Subord#se+Pro+Prs+3s+Refl+Obl+Unstress: # ;
 
-s+Conj+Coord#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
-s+Pro+Poss+3s+Masc+Nom+Pl+Unstress#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
-si+Adv#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
-si+Conj+MultiWordConj+Subord#s+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+si+Conj+Coord#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+si+Pro+Poss+3s+Masc+Nom+Pl+Unstress#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+si+Adv#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
+si+Conj+MultiWordConj+Subord#se+Pro+Prs+3p+Refl+Obl+Unstress: # ;
 
 LEXICON Si_En
-s+Conj+Coord#en+Prep: # ;
-s+Pro+Poss+3s+Masc+Nom+Pl+Unstress#en+Prep: # ;
+si+Conj+Coord#en+Prep: # ;
+si+Pro+Poss+3s+Masc+Nom+Pl+Unstress#en+Prep: # ;
 si+Adv#en+Prep: # ;
 si+Conj+MultiWordConj+Subord#en+Prep: # ;
 
-s+Conj+Coord#en+Pro+Adv: # ;
-s+Pro+Poss+3s+Masc+Nom+Pl+Unstress#en+Pro+Adv: # ;
+si+Conj+Coord#en+Pro+Adv: # ;
+si+Pro+Poss+3s+Masc+Nom+Pl+Unstress#en+Pro+Adv: # ;
 si+Adv#en+Pro+Adv: # ;
 si+Conj+MultiWordConj+Subord#en+Pro+Adv: # ;
 
 LEXICON Se_Le
-s+Conj+Subord#l+Art+Def+Masc+Obl+Sg: # ;
-s+Conj+Subord#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-s+Conj+Subord#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+se+Conj+Subord#le+Art+Def+Masc+Obl+Sg: # ;
+se+Conj+Subord#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+se+Conj+Subord#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-s+Pro+Prs+3s+Refl+Obl+Unstress#l+Art+Def+Masc+Obl+Sg: # ;
-s+Pro+Prs+3s+Refl+Obl+Unstress#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-s+Pro+Prs+3s+Refl+Obl+Unstress#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+se+Pro+Prs+3s+Refl+Obl+Unstress#le+Art+Def+Masc+Obl+Sg: # ;
+se+Pro+Prs+3s+Refl+Obl+Unstress#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+se+Pro+Prs+3s+Refl+Obl+Unstress#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
-s+Pro+Prs+3p+Refl+Obl+Unstress#l+Art+Def+Masc+Obl+Sg: # ;
-s+Pro+Prs+3p+Refl+Obl+Unstress#+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
-s+Pro+Prs+3p+Refl+Obl+Unstress#+Pro+Prs+3s+Neut+Obl+Unstress: # ;
+se+Pro+Prs+3p+Refl+Obl+Unstress#le+Art+Def+Masc+Obl+Sg: # ;
+se+Pro+Prs+3p+Refl+Obl+Unstress#il+Pro+Prs+3s+Masc+Obl+Dir+Unstress: # ;
+se+Pro+Prs+3p+Refl+Obl+Unstress#il+Pro+Prs+3s+Neut+Obl+Unstress: # ;
 
 LEXICON Se_Les
-s+Conj+Subord#l+Art+Def+Fem+Nom+Pl: # ;
-s+Pro+Prs+3s+Refl+Obl+Unstress#l+Art+Def+Fem+Nom+Pl: # ;
-s+Pro+Prs+3p+Refl+Obl+Unstress#l+Art+Def+Fem+Nom+Pl: # ;
+se+Conj+Subord#le+Art+Def+Fem+Nom+Pl: # ;
+se+Pro+Prs+3s+Refl+Obl+Unstress#le+Art+Def+Fem+Nom+Pl: # ;
+se+Pro+Prs+3p+Refl+Obl+Unstress#le+Art+Def+Fem+Nom+Pl: # ;
 
-s+Conj+Subord#l+Art+Def+Fem+Obl+Pl: # ;
-s+Pro+Prs+3s+Refl+Obl+Unstress#l+Art+Def+Fem+Obl+Pl: # ;
-s+Pro+Prs+3p+Refl+Obl+Unstress#l+Art+Def+Fem+Obl+Pl: # ;
+se+Conj+Subord#le+Art+Def+Fem+Obl+Pl: # ;
+se+Pro+Prs+3s+Refl+Obl+Unstress#le+Art+Def+Fem+Obl+Pl: # ;
+se+Pro+Prs+3p+Refl+Obl+Unstress#le+Art+Def+Fem+Obl+Pl: # ;
 
-s+Conj+Subord#l+Art+Def+Masc+Obl+Pl: # ;
-s+Pro+Prs+3s+Refl+Obl+Unstress#l+Art+Def+Masc+Obl+Pl: # ;
-s+Pro+Prs+3p+Refl+Obl+Unstress#l+Art+Def+Masc+Obl+Pl: # ;
+se+Conj+Subord#le+Art+Def+Masc+Obl+Pl: # ;
+se+Pro+Prs+3s+Refl+Obl+Unstress#le+Art+Def+Masc+Obl+Pl: # ;
+se+Pro+Prs+3p+Refl+Obl+Unstress#le+Art+Def+Masc+Obl+Pl: # ;
