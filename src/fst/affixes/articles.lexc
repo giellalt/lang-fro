@@ -18,9 +18,28 @@ LEXICON Indefinite
 +Art+Indef+Masc+Nom+Pl:g # ;
 +Art+Indef+Masc+Obl+Pl:s # ;
 +Art+Indef+Masc+Obl+Pl:gs # ;
-+Art+Indef+Fem+Nom+Sg:e # ;
-+Art+Indef+Fem+Nom+Sg:ne # ;
-+Art+Indef+Fem+Obl+Sg:e # ;
-+Art+Indef+Fem+Obl+Sg:ne # ;
-+Art+Indef+Fem+Nom+Pl:es # ;
-+Art+Indef+Fem+Obl+Pl:es # ;
++Art+Indef+Fem+Nom+Sg:%>e # ;
++Art+Indef+Fem+Obl+Sg:%>e # ;
++Art+Indef+Fem+Nom+Pl:%>es # ;
++Art+Indef+Fem+Obl+Pl:%>es # ;
+
+! vim: set ft=xfst-lexc:
+
+!!€gt-norm: Articles
+!!€ le:     le+Art+Def+Masc+Obl+Sg
+!!€ lo:     le+Art+Def+Masc+Obl+Sg
+!!€ les:    le+Art+Def+Masc+Obl+Pl
+!!€ les:    le+Art+Def+Fem+Nom+Pl
+!!€ les:    le+Art+Def+Fem+Obl+Pl
+!!€ li:     le+Art+Def+Masc+Nom+Sg
+!!€ ly:     le+Art+Def+Masc+Nom+Sg
+!!€ li:     le+Art+Def+Masc+Nom+Pl
+!!€ ly:     le+Art+Def+Masc+Nom+Pl
+!!€ une:    un+Art+Indef+Fem+Nom+Sg
+!!€ une:    un+Art+Indef+Fem+Obl+Sg
+!!€ unne:   un+Art+Indef+Fem+Nom+Sg
+!!€ unne:   un+Art+Indef+Fem+Obl+Sg
+!!€ un:    un+Art+Indef+Masc+Obl+Sg
+!!€ ung:    un+Art+Indef+Masc+Obl+Sg
+!!€ un:    un+Art+Indef+Masc+Nom+Pl
+!!€ ung:    un+Art+Indef+Masc+Nom+Pl

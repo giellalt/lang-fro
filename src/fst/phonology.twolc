@@ -37,7 +37,7 @@ Sets
 
  Vow = a e i o u y æ 
        á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ;
- Cns = b c d f g h j k l m n p q r s t v w x z ;
+ Cns = b c ç d f g h j k l m n p q r s t v w x z ;
  Nas = n m ;
  Labial = p, b, f, v, m ;
  
@@ -121,8 +121,8 @@ m:n => _ Labial ;
 %{D%}:0 => _ ;
 
 !! Palatalized vowels
-"i can be expressed as y after vowels"
-i:y => Vow _ ;
+!"i can be expressed as y after vowels" FIXME: Convince me that this one is worth the trouble.
+!i:y => Vow _ ;
 
 "i can be expressed as j after i " ! Mostly after Roman numerals
 i:j => i: _ ;
@@ -217,16 +217,16 @@ q:k => _ ;
 
 ! Variations of ö
 "ue can be written as eu"
-u:0 => _ e:e 0:u ;
+u:0 => \%>: _ e:e 0:u ;
 
 "ue can be written as eu"
-0:u => u:0 e:e _ ;
+0:u => \%>: u:0 e:e _ ;
 
 "ue can be written as oe"
-u:o => _ e:e ;
+u:o => \%>: _ e:e ;
 
 "oe can be written as ue"
-o:u => _ e:e ;
+o:u => \%>: _ e:e ;
 
 "c pronounced [s] becomes ç before o/a"
 c:ç <=> _ %> :o|:a ;
@@ -237,4 +237,49 @@ c:ç <=> _ %> :o|:a ;
 "Soft g is written as ge before o/a"
 %{G%}:e <=> _ :o|:a ;
 
+!!! SPELLING RULES !!!!
+! These were originally in spellrelax.regex, but were moved here to make
+! the lexc tests more comprehensive.
+
+"á can be written as a"
+á:a => _ ;
+
+"Á can be written as A"
+Á:A => _ ;
+
+"à can be written as a"
+à:a => _ ;
+
+"À can be written as A"
+À:A => _ ;
+
+"é can be written as e"
+é:e => _ ;
+
+"É can be written as E"
+É:E => _ ;
+
+"è can be written as e"
+è:e => _ ;
+
+"È can be written as E"
+È:E => _ ;
+
+"ï can be written as i"
+ï:i => _ ;
+
+"ü can be written as u"
+ü:u => _ ;
+
+"l can become u between a and s"
+l:u => :a _ s: ;
+
+"l can become u between ae and s"
+l:u => :e _ s: ;
+
+"e can become o before i"
+e:o => _ i: ;
+
+"i can become y word-finally"
+i:y => _ # ;
 

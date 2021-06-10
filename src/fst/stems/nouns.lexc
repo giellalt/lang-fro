@@ -240,7 +240,7 @@ feste FC1 "feast, holiday, celebration, religious solemnity" ;
 feu MC1a "fire" ;
     feu+N+Masc+Obl+Pl:feux # "fire" ; ! Also nom sg?
 fil: Fil "son" ;
-fille FC1 "girl, daughter" ;
+fille:fil%>e FC1 "girl, daughter" ;
 fin FC2 "end" ;
 Flandres PropFem "Flanders" ; ! Verify gender
 flor FC2 "flower" ;

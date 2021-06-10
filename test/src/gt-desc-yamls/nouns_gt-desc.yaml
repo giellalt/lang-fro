@@ -8,11 +8,6 @@ Config:
     App: lookup
 
 Tests:
-  Noun - fill - ok : # -m animate noun
-    fille+N+Fem+Nom+Sg: fille # this is a comment
-    fille+N+Fem+Obl+Sg: fille #
-    fille+N+Fem+Nom+Pl: filles #
-    fille+N+Fem+Obl+Pl: filles #
 
   Noun - serour - ok : #
     serour+N+Fem+Nom+Sg: serour #

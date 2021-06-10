@@ -62,4 +62,17 @@ LEXICON Premier
 +Num+Ord+Fem+Sg:prime # ;
 +Num+Ord+Fem+Pl:primes # ;
 
+! vim: set ft=xfst-lexc:
+
+!!€gt-norm: Numerals
+!!€ prins:      premier+Num+Ord+Masc+Pl
+!!€ primes:     premier+Num+Ord+Fem+Pl
+!!€ quatre:     quatre+Num+Card
+!!€ katre:      quatre+Num+Card
+!!€ qatre:      quatre+Num+Card
+!!€ vi:         sis+Num+Roman+Card
+!!€ vj:         sis+Num+Roman+Card
+!!€ vy:         sis+Num+Roman+Card
+!!€ dui:        dous+Num+Card+Masc+Nom+Pl
+!!€ duy:        dous+Num+Card+Masc+Nom+Pl
 

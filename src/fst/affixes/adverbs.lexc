@@ -4,7 +4,7 @@ LEXICON Negation
 +Adv+Neg+Unstress:en # ;
 
 LEXICON Pas
-+Neg: # ;
++Adv+Neg: # ;
 
 LEXICON BaseAdv
 +Adv:0 # ;
@@ -27,4 +27,27 @@ LEXICON CommeAdv
 +Adv:com%>e # ;
 +Adv:conme # ;
 +Adv:cume # ;
+
+
+! vim: set ft=xfst-lexc:
+
+!!€gt-norm: Adverbs
+!!€ non:    ne+Adv+Neg+Stress
+!!€ jamais: jamais+Adv+Neg
+!!€ ainc:   ainc+Adv
+!!€ einc:   ainc+Adv
+!!€ amont:  amont+Adv
+!!€ apres:  apres+Adv
+!!€ après:  apres+Adv
+!!€ aprés:  apres+Adv
+!!€ apries: apres+Adv
+!!€ encore: encore+Adv
+!!€ encores: encore+Adv
+!!€ encor: encore+Adv
+!!€ encors: encore+Adv
+!!€ ancore: encore+Adv
+!!€ ancores: encore+Adv
+!!€ ancor: encore+Adv
+!!€ ancors: encore+Adv
+
 

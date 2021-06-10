@@ -1,6 +1,5 @@
 LEXICON Et
 +Conj+Coord:é%{T%} # ;
-+Conj+Coord:ET # ;
 
 LEXICON Ou
 +Conj+Coord:0 # ;
@@ -48,3 +47,14 @@ LEXICON Comme
 !!€gt-norm: Conjunctions
 !!€ s:    se+Conj+Subord+Gram/Liason
 !!€ si:    si+Conj+MultiWordConj+Subord
+!!€ sy:    si+Conj+MultiWordConj+Subord
+!!€ é:      et+Conj+Coord
+!!€ e:      et+Conj+Coord
+!!€ et:     et+Conj+Coord
+!!€ ét:     et+Conj+Coord
+!!€ donc:   donc+Conj+Coord
+!!€ dunc:   donc+Conj+Coord
+!!€ or:     or+Conj+Subord
+!!€ ore:    or+Conj+Subord
+!!€ tantost: tantost+Conj+MultiWordConj+Subord
+

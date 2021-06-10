@@ -25,7 +25,7 @@ mieuz SubPart ;
 moins SubPart ;
 ne:n Ne "nor" ;
 or Subord "now" ;
-ore Subord "now" ;
+    or:ore Subord "now" ;
 ou:o Ou "or" ;
 par SubPart ;
 plus SubPart ;

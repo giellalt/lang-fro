@@ -147,10 +147,10 @@ LEXICON CQue
 +Adj+Masc+Nom+Pl:c # ;
 +Adj+Masc+Obl+Pl:cs # ;
 
-+Adj+Fem+Nom+Sg:que # ;
-+Adj+Fem+Obl+Sg:que # ;
-+Adj+Fem+Nom+Pl:ques # ;
-+Adj+Fem+Obl+Pl:ques # ;
++Adj+Fem+Nom+Sg:q%>ue # ;
++Adj+Fem+Obl+Sg:q%>ue # ;
++Adj+Fem+Nom+Pl:q%>ues # ;
++Adj+Fem+Obl+Pl:q%>ues # ;
 
 LEXICON IlIlle
 +Adj+Masc+Nom+Sg:ils # ;
@@ -254,18 +254,58 @@ LEXICON Ledit ! This entire thing is a mess. Good luck.
 +Adj+Dem+Masc+Sg:cedit # ;
 +Prep+Adj+Masc+Pl:desdiz # ;
 
-!!€gt-norm: adjectives
+! vim: set ft=xfst-lexc:
+! Note: "grekue" forms will never appear, but show that rules are working correctly
+
+!!€gt-norm: Adjectives
 !!€ bones:          bon+Adj+Fem+Nom+Pl
-!!€ bonnes:          bon+Adj+Fem+Nom+Pl
+!!€ bonnes:         bon+Adj+Fem+Nom+Pl
 !!€ bones:          bon+Adj+Fem+Obl+Pl
-!!€ bonnes:          bon+Adj+Fem+Obl+Pl
+!!€ bonnes:         bon+Adj+Fem+Obl+Pl
 !!€ mieudre:        mieux+Adj+Masc+Nom+Sg
 !!€ mieudre:        mieux+Adj+Fem+Nom+Sg
-!!€ forz:          fort+Adj+Masc+Nom+Sg
-!!€ forz:          fort+Adj+Masc+Obl+Pl
-!!€ fors:          fort+Adj+Masc+Nom+Sg
-!!€ fors:          fort+Adj+Masc+Obl+Pl
-!!€ fortes:          fort+Adj+Fem+Nom+Pl
-!!€ fortes:          fort+Adj+Fem+Obl+Pl
+!!€ forz:           fort+Adj+Masc+Nom+Sg
+!!€ forz:           fort+Adj+Masc+Obl+Pl
+!!€ fors:           fort+Adj+Masc+Nom+Sg
+!!€ fors:           fort+Adj+Masc+Obl+Pl
+!!€ fortes:         fort+Adj+Fem+Nom+Pl
+!!€ fortes:         fort+Adj+Fem+Obl+Pl
 !!€ fores:          fort+Adj+Fem+Nom+Pl
 !!€ fores:          fort+Adj+Fem+Obl+Pl
+!!€ brief:          brief+Adj+Masc+Obl+Sg
+!!€ brief:          brief+Adj+Masc+Nom+Pl
+!!€ bries:          brief+Adj+Masc+Nom+Sg
+!!€ bries:          brief+Adj+Masc+Obl+Pl
+!!€ brieve:         brief+Adj+Fem+Nom+Sg
+!!€ brieve:         brief+Adj+Fem+Obl+Sg
+!!€ brieves:        brief+Adj+Fem+Nom+Pl
+!!€ brieves:        brief+Adj+Fem+Obl+Pl
+!!€ corteis:        corteis+Adj+Masc+Nom+Sg
+!!€ corteis:        corteis+Adj+Masc+Obl+Sg
+!!€ corteis:        corteis+Adj+Masc+Nom+Pl
+!!€ corteis:        corteis+Adj+Masc+Obl+Pl
+!!€ cortois:        corteis+Adj+Masc+Nom+Sg
+!!€ cortois:        corteis+Adj+Masc+Obl+Sg
+!!€ cortois:        corteis+Adj+Masc+Nom+Pl
+!!€ cortois:        corteis+Adj+Masc+Obl+Pl
+!!€ corteise:       corteis+Adj+Fem+Nom+Sg
+!!€ corteise:       corteis+Adj+Fem+Obl+Sg
+!!€ corteises:      corteis+Adj+Fem+Nom+Pl
+!!€ corteises:      corteis+Adj+Fem+Obl+Pl
+!!€ cortoise:       corteis+Adj+Fem+Nom+Sg
+!!€ cortoise:       corteis+Adj+Fem+Obl+Sg
+!!€ cortoises:      corteis+Adj+Fem+Nom+Pl
+!!€ cortoises:      corteis+Adj+Fem+Obl+Pl
+!!€ grec:           grec+Adj+Masc+Obl+Sg
+!!€ grec:           grec+Adj+Masc+Nom+Pl
+!!€ grecs:           grec+Adj+Masc+Nom+Sg
+!!€ grecs:           grec+Adj+Masc+Obl+Pl
+!!€ greque:         grec+Adj+Fem+Nom+Sg
+!!€ greque:         grec+Adj+Fem+Obl+Sg
+!!€ greques:        grec+Adj+Fem+Nom+Pl
+!!€ greques:        grec+Adj+Fem+Obl+Pl
+!!€ grekue:         grec+Adj+Fem+Nom+Sg
+!!€ grekue:         grec+Adj+Fem+Obl+Sg
+!!€ grekues:        grec+Adj+Fem+Nom+Pl
+!!€ grekues:        grec+Adj+Fem+Obl+Pl
+

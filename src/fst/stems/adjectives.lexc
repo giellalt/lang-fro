@@ -11,7 +11,7 @@ bel Adj1 "dear, beloved, handsome" ;
     bel+Adj+Masc+Obl+Pl:beaux # ; ! Other forms?
 blanc:blan CChe "white" ;
 bon Adj1 "good" ;
-brief FV "short" ;
+brief:brie FV "short" ;
 celestial Adj3 "celestial" ;
 charnel Adj3 "carnal" ;
 chauf:chau FVe "bald" ;

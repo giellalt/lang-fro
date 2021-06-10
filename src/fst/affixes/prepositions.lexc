@@ -1,2 +1,14 @@
 LEXICON Prep
 +Prep:0 # ;
+
+
+! vim: set ft=xfst-lexc:
+
+!!€gt-norm: Numerals
+!!€ ci-devant:  ci+Pro+Dem+Neut#devant+Prep
+!!€ cy-devant:  ci+Pro+Dem+Neut#devant+Prep
+!!€ por:        por+Prep
+!!€ pur:        por+Prep
+!!€ pour:       por+Prep
+!!€ vers:       vers+Prep
+

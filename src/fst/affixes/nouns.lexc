@@ -14,7 +14,9 @@ LEXICON FC2
 +N+Fem+Obl+Sg:0 # ;
 +N+Fem+Nom+Pl:s # ;
 +N+Fem+Obl+Pl:s # ;
++N: Agent ;
 
+LEXICON Agent
 +Agent+Masc+Nom+Sg:%>iers # ;
 +Agent+Masc+Obl+Sg:%>ier # ;
 +Agent+Masc+Nom+Pl:%>ier # ;
@@ -68,7 +70,7 @@ LEXICON NIndecF
 +N+Fem+Obl+Pl:0 # ;
 
 LEXICON Deriv
-+N: FC2 ;
++N: Agent ;
 
 LEXICON PropMasc
 +Prop+N+Masc:0 # ;
@@ -166,7 +168,56 @@ LEXICON Monseigneur ! Verify forms
 ! vim: set ft=xfst-lexc:
 
 !!€gt-norm: nouns
-!!€ fille:    fille+N+Fem+Nom+Sg
-!!€ fille:    fille+N+Fem+Obl+Sg
-!!€ filles:    fille+N+Fem+Nom+Pl
-!!€ filles:    fille+N+Fem+Obl+Pl
+!!€ fille:      fille+N+Fem+Nom+Sg
+!!€ file:       fille+N+Fem+Nom+Sg
+!!€ fille:      fille+N+Fem+Obl+Sg
+!!€ file:       fille+N+Fem+Obl+Sg
+!!€ filles:     fille+N+Fem+Nom+Pl
+!!€ files:      fille+N+Fem+Nom+Pl
+!!€ filles:     fille+N+Fem+Obl+Pl
+!!€ files:      fille+N+Fem+Obl+Pl
+!!€ Alemaigne:  Alemaigne+N+Prop+Fem
+!!€ Alamaigne:  Alemaigne+N+Prop+Fem
+!!€ Gieffroy:   Gieffroy+N+Prop+Masc
+!!€ lei:        lei+N+Fem+Nom+Sg
+!!€ lei:        lei+N+Fem+Obl+Sg
+!!€ ley:        lei+N+Fem+Nom+Sg
+!!€ ley:        lei+N+Fem+Obl+Sg
+!!€ leis:       lei+N+Fem+Nom+Pl
+!!€ leis:       lei+N+Fem+Obl+Pl
+!!€ loi:        lei+N+Fem+Nom+Sg
+!!€ loi:        lei+N+Fem+Obl+Sg
+!!€ loy:        lei+N+Fem+Nom+Sg
+!!€ loy:        lei+N+Fem+Obl+Sg
+!!€ lois:       lei+N+Fem+Nom+Pl
+!!€ lois:       lei+N+Fem+Obl+Pl
+!!€ termes:     terme+N+Masc+Nom+Sg
+!!€ terme:      terme+N+Masc+Obl+Sg
+!!€ terme:      terme+N+Masc+Nom+Pl
+!!€ termes:     terme+N+Masc+Obl+Pl
+!!€ vespre:     vespre+N+Masc+Nom+Sg
+!!€ vespre:     vespre+N+Masc+Obl+Sg
+!!€ vespre:     vespre+N+Masc+Nom+Pl
+!!€ vespres:    vespre+N+Masc+Obl+Pl
+!!€ ancestre:   ancessor+N+Masc+Nom+Sg
+!!€ ancessor:   ancessor+N+Masc+Obl+Sg
+!!€ ancessor:   ancessor+N+Masc+Nom+Pl
+!!€ ancessors:  ancessor+N+Masc+Obl+Pl
+!!€ bers:       bers+N+Masc+Nom+Sg
+!!€ bers:       bers+N+Masc+Obl+Sg
+!!€ bers:       bers+N+Masc+Nom+Pl
+!!€ bers:       bers+N+Masc+Obl+Pl
+!!€ cortiers:    cort+N+Agent+Masc+Nom+Sg
+!!€ cortiers:    cort+N+Agent+Masc+Obl+Pl
+!!€ courtiers:    cort+N+Agent+Masc+Nom+Sg
+!!€ courtiers:    cort+N+Agent+Masc+Obl+Pl
+!!€ cortière:    cort+N+Agent+Fem+Nom+Sg
+!!€ cortière:    cort+N+Agent+Fem+Obl+Sg
+!!€ cortiere:    cort+N+Agent+Fem+Nom+Sg
+!!€ cortiere:    cort+N+Agent+Fem+Obl+Sg
+!!€ courtière:    cort+N+Agent+Fem+Nom+Sg
+!!€ courtière:    cort+N+Agent+Fem+Obl+Sg
+!!€ courtiere:    cort+N+Agent+Fem+Nom+Sg
+!!€ courtiere:    cort+N+Agent+Fem+Obl+Sg
+
+
