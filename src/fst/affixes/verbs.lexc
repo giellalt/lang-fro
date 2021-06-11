@@ -421,10 +421,11 @@ LEXICON Faire
 +V+Part+Pres:fesent # ;
 +V+Part+Past:fait PartEndings ;
 +V+Part+Past:feit PartEndings ;
-+V+Part+Past:fet PartEndings ;
++V+Part+Past:fe%{T%} PartEndings ;
 +V+Part+Past:faict PartEndings ;
 
 +V+1s+Pres+Ind:faz # ;
++V+1s+Pres+Ind:fez # ;
 +V+1s+Pres+Ind:fai # ;
 +V+1s+Pres+Ind:faiz # ;
 +V+1s+Pres+Ind:fei # ;
@@ -621,7 +622,7 @@ LEXICON Veoir
 +V:ven PresPart ;
 +V:ve PresPart ;
 +V:vei PresPart ;
-+V+Part+Past:veü # ;
++V+Part+Past:veü PartEndings ;
 +V+Part+Past:vis PartEndings ;
 
 +V+1s+Pres+Ind:vei # ;
@@ -841,6 +842,8 @@ LEXICON Pooir
 +V+Inf:pooir # ;
 +V+Inf:po%{D%}eir # ;
 +V+Inf:po%{D%}ier # ;
++V+Inf:povoir # ;
++V+Inf:pouvoir # ;
 +V+Part+Pres:poänt # ;
 +V:puiss PresPart ;
 +V+Part+Pres:puissant PartEndings ;
@@ -853,12 +856,14 @@ LEXICON Pooir
 +V+2p+Pres+Ind:poez # ;
 +V+2p+Pres+Ind:pöez # ;
 +V+3p+Pres+Ind:pueent # ;
++V+3p+Pres+Ind:pevent # ;
 
 :po PerfStUS ;
 :pu PerfStUS ; ! Verify
 :pe PerfStUU ;
 
 :po IpfvInd ; ! Verify
+:pov IpfvInd ; ! Verify
 +V+3s+Ipfv+Ind:pöeit # ;
 :porr FutInd ;
 :pourr FutInd ;
@@ -1083,6 +1088,41 @@ LEXICON Plaire
 :plais Imperative ;
 :pleis Imperative ;
 :ples Imperative ;
+
+LEXICON Valoir
++V+Inf:valoir # ;
+:vail%> PresPart ;
++V+Part+Past:valu PartEndings ;
+
++V+1s+Pres+Ind:vail # ;
++V+1s+Pres+Ind:val # ;
++V+2s+Pres+Ind:vals # ;
++V+3s+Pres+Ind:valt # ;
++V+3s+Pres+Ind:vault # ;
++V+1p+Pres+Ind:val%>ons # ;
++V+1p+Pres+Ind:vaillons # ;
++V+2p+Pres+Ind:val%>ez # ;
++V+2p+Pres+Ind:vailliez # ;
++V+3p+Pres+Ind:val%>ent # ;
++V+3p+Pres+Ind:vaillent # ;
+
+:val PerfWkU ;
+:val PerfStSBasic
+:val%> IpfvInd ;
+:valdr FutInd ;
+
++V+1s+Pres+Sbjv:vaille # ;
++V+2s+Pres+Sbjv:vailles # ;
++V+3s+Pres+Sbjv:vaille # ; ! Verify
++V+1p+Pres+Sbjv:vailliens # ;
++V+2p+Pres+Sbjv:vailliez # ;
++V+3p+Pres+Sbjv:vaillent # ;
+
+:val IpfvSubjWkU ;
+:val IpfvSubjStS
+:valdr Conditional ; ! Verify
+
+! No imperative forms (verify)
 
 LEXICON Vivre
 +V+Inf:vivre # ;

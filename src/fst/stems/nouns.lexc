@@ -80,6 +80,10 @@ Berinus PropMasc "Berinus" ;
 Bretaingne PropFem "Brittany" ;
     Bretaingne:Bretaigne PropFem "Brittany" ;
 bers NIndecM "cradle, crib" ;
+besoing:besoi%{N%} MC1a "need" ;
+    besoing:besoi%{N%}e MC1a "need" ;
+    besoing:besoin MC1a "need" ;
+    besoing:besoi%{N%}ge FC1 "need" ; ! Verify
 beste FC1 "animal, beast" ; ! Adjectival form?
 bien MC1a "good, goodness" ;
 bofu MC1a "silk, material stitched with gold thread" ;
@@ -139,6 +143,7 @@ col MC1a "neck" ;
     col:cou MC1a "neck" ;
 color FC2 "color" ;
 combat MC1a "fight, combat" ;
+commandement MC1a "order, commandment" ;
 compaignie FC1 "company, group" ;
     compaignie:compagnie FC1 "company, group" ;
 compaignon MC3 "companion" ;
@@ -158,6 +163,7 @@ cors NIndecM "body" ;
     cors:corps NIndecM "body" ;
 cort FC2 "court" ;
     cort:court FC2 "court" ;
+costé MC1a "side, part" ;
 coustume FC1 "custom, manner, habit" ;
     coustume:costume FC1 "custom, manner, habit" ;
 covent MC1a "promise, agreement" ;
@@ -207,6 +213,7 @@ empereor MC3 "emperor" ;
     empereor:empereur MC3 "emperor" ;
     empereor+N+Masc+Nom+Sg:emperere # "emperor" ;
     empereor+N+Masc+Nom+Sg:empereres # "emperor" ;
+enemi:en%>emi MC1a "enemie" ;
 enfant:enfan%{T%} MC3 "child, youth" ;
     enfant+N+Masc+Nom+Sg:enfes # "child, youth" ;
     enfant+N+Masc+Nom+Sg+Err/Obsc:enfants # "child, youth" ;
@@ -231,6 +238,7 @@ evesque MC1a "bishop" ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 fait:fai%{T%} MC1a "fact, deed, manner of doing" ; ! Verify
+    fait:fe%{T%} MC1a "fact, deed, manner of doing" ; ! Verify
 fame FC1 "wife, woman" ;
     fame:femme FC1 "wife, woman" ;
     fame:feme FC1 "wife, woman" ;
@@ -376,6 +384,8 @@ manière FC1 "manner, way, intention" ;
 mari:mar%{I%} MC1a "husband" ;
 Marie PropFem "Mary" ;
 Martin PropMasc "Martin" ;
+merveille FC1 "marvel, wonder" ;
+    merveille:merveille MC1a "marvel, wonder" ;
 matin MC1a "morning" ;
 mer FC2 "sea" ;
 merci:merci%{T%} FC2 "mercy" ;
@@ -456,6 +466,7 @@ peine FC1 "punishment, suffering (religious)" ;
 pelerin MC1a "pilgrim" ;
 pere:per MC2 "father" ;
 personne FC1 "person, character" ;
+piece FC1 "piece, part" ;
 pied: Pied "foot" ;
 pierre FC1 "stone, prison" ;
     pierre:piere FC1 "stone, prison" ;
@@ -525,6 +536,7 @@ sens MC1a "senses" ; ! Also a form of sentir
 serment MC1a "oath" ;
     serment:serement MC1a "oath" ;
 serour FC3 ;
+service MC1a "submission, service, obligation to serve" ;
 siecle MC1a "earthly life, world" ;
     siecle:secle MC1a "earthly life, world" ;
     siecle:seule MC1a "earthly life, world" ;
@@ -578,6 +590,7 @@ voir MC1a "truth" ;
 voiz NIndecF "voice" ;
 volenté:volenté%{T%} FC2 "will" ;
     volenté:voulenté%{T%} FC2 "will" ;
+vue FC1 "sight, vision" ; ! Veue also, or just as a past participle of veoir?
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------W---------------------------------------!

@@ -59,6 +59,7 @@ las:las%> MascIndec "tired, exhausted" ;
 ledit: Ledit "the aforemonetioned" ;
 leial Adj3 "loyal" ;
 lequel+Adj: RelInterr ;
+lonc: Lonc "long" ;
 luisant:luisan%{T%} Adj3 "bright" ;
 maint Adj1 "many" ; ! Indefinite?
 mal Adj1 "evil, disaster, illness" ;
@@ -107,6 +108,7 @@ vert:ver%{T%} Adj1 "green" ;
 vif:vi FV "alive" ;
 vil Adj3 "vile" ;
 voir Adj1 "true" ;
+vrai Adj1 "true" ; ! Noun form?
 
 
 chascun IndefAdj "each one, everyone" ;

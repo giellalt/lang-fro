@@ -23,8 +23,9 @@ Alphabet
 
 %{I%}:i
 %{I%}:y
-m
+
 %{N%}:n
+!%{N%}:0
 
 %{G%}:0
 %{G%}:e
@@ -40,6 +41,8 @@ Sets
  Cns = b c ç d f g h j k l m n p q r s t v w x z ;
  Nas = n m ;
  Labial = p, b, f, v, m ;
+ HardVow = a o u ;
+ SoftVow = e i ;
  
 Rules
 
@@ -180,11 +183,21 @@ u:0 => _ s:x ;
 s:x => u: _ ;
 
 ! Palatal nasal
-"a palatal nasal can be expressed as ngn, ign, ng, in, (ni?)"
+! The palatal nasal can be expressed as ng, gn, or ngn. (Add "in" and "ni" later)
+!"the first n can be kept (ngn, ng)"
+!%{N%}:n => _ g:g n: ;
+
+!"the first n can be deleted (gn)"
+!%{N%}:0 => _ g:g n:n ;
+
+!"the second n can be deleted (ng)"
+!n:0 => %{N%}:n g:g _ ;
+
+"palatal nasal always has an n"
 %{N%}:n <=> _ ;
 
 "a palatal nasal can be expressed as ngn (1)"
-0:g => _ %{N%}:n \0: ;
+0:g => (0:n) _ %{N%}:n \0: ;
 
 "a palatal nasal can be expressed as ngn (2)"
 0:n => _ 0:g %{N%}:n \0: ;
@@ -231,11 +244,11 @@ o:u => \%>: _ e:e ;
 "c pronounced [s] becomes ç before o/a"
 c:ç <=> _ %> :o|:a ;
 
-"Soft g is written as g unless before o/a"
-%{G%}:0 <=> _ \:o|:a ; 
+"Soft g is written as g unless before soft vowels"
+%{G%}:0 <=> _ SoftVow ; 
 
-"Soft g is written as ge before o/a"
-%{G%}:e <=> _ :o|:a ;
+"Soft g is written as ge before hard vowels"
+%{G%}:e <=> _ HardVow ;
 
 !!! SPELLING RULES !!!!
 ! These were originally in spellrelax.regex, but were moved here to make

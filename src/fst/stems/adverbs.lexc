@@ -83,6 +83,7 @@ meïsme OptionalS "self, same, even, also" ;
     meïsme:mismes BaseAdv "self, same, even, also" ;
     meïsme:mesme OptionalS "self, same, even, also" ;
     meïsme:meme OptionalS "self, same, even, also" ;
+merveille BaseAdv "marvellously, wonderfully, greatly" ;
 mieux BaseAdv "better" ;
     mieux:mieulx BaseAdv "better" ;
 mout BaseAdv "many, much, very" ;
@@ -101,6 +102,7 @@ outre BaseAdv "beyond" ; ! Verify. Autre?
     outre:oultre BaseAdv "beyond" ;
 peu BaseAdv "small amount, weakly" ;
     peu:pou BaseAdv "small amount, weakly" ; ! Other definititions?
+piece BaseAdv "('grant piece') for a long while" ;
 plus BaseAdv "more" ;
 porquoi InterrAdv "why" ;
     porquoi:por#quoi InterrAdv "why" ;

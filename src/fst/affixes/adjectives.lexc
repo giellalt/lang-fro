@@ -170,6 +170,21 @@ LEXICON MascAdjForm
 +Adj+Masc+Obl+Pl: # ;
 
 
+LEXICON Lonc
++Adj+Masc+Nom+Sg:lonc%>s # "long" ;
++Adj+Masc+Obl+Sg:lonc # "long" ;
++Adj+Masc+Obl+Sg:long # "long" ;
++Adj+Masc+Nom+Pl:long # "long" ;
++Adj+Masc+Nom+Pl:lonc # "long" ;
++Adj+Masc+Obl+Pl:lonc%>s # "long" ;
+
++Adj+Fem+Nom+Sg:longue # "long" ;
++Adj+Fem+Obl+Sg:longue # "long" ;
++Adj+Fem+Nom+Pl:longues # "long" ;
++Adj+Fem+Obl+Pl:longues # "long" ;
+
++Adv:longuement # ;
+
 LEXICON Mieux
 +Adj+Masc+Nom+Sg:mieudre # ;
 +Adj+Masc+Obl+Sg:meillor # ;

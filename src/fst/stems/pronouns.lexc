@@ -21,6 +21,7 @@ leur 3PlPoss "their" ;
 icel:i Demonstrative ;
 cel: Demonstrative ;
 ice:i DemNeuter ;
+ice:y DemNeuter ;
 ce: DemNeuter ;
 quoi: Interrogative ;
 que: Relative ;

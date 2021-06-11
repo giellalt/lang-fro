@@ -57,16 +57,35 @@ LEXICON Premier
 +Num+Ord+Masc+Sg:premerain # ;
 +Num+Ord+Masc+Sg:prim # ;
 +Num+Ord+Masc+Pl:prims # ;
++Num+Ord+Masc+Pl:premiers # ; ! Verify
++Num+Ord+Masc+Pl:premerains # ; ! Verify
 +Num+Ord+Fem+Sg:première DerAdv ;
 +Num+Ord+Fem+Sg:premeraine DerAdv ;
 +Num+Ord+Fem+Sg:prime # ;
 +Num+Ord+Fem+Pl:primes # ;
++Num+Ord+Fem+Pl:premières # ; ! Verify
++Num+Ord+Fem+Pl:premeraines # ; ! Verify
+
 
 ! vim: set ft=xfst-lexc:
 
 !!€gt-norm: Numerals
 !!€ prins:      premier+Num+Ord+Masc+Pl
+!!€ premiers:   premier+Num+Ord+Masc+Pl
+!!€ pramiers:   premier+Num+Ord+Masc+Pl
+!!€ premerains: premier+Num+Ord+Masc+Pl
+!!€ premereins: premier+Num+Ord+Masc+Pl
+!!€ pramerains: premier+Num+Ord+Masc+Pl
+!!€ pramereins: premier+Num+Ord+Masc+Pl
 !!€ primes:     premier+Num+Ord+Fem+Pl
+!!€ premières:  premier+Num+Ord+Fem+Pl
+!!€ pramières:  premier+Num+Ord+Fem+Pl
+!!€ premieres:  premier+Num+Ord+Fem+Pl
+!!€ pramieres:  premier+Num+Ord+Fem+Pl
+!!€ premeraines: premier+Num+Ord+Fem+Pl
+!!€ premereines: premier+Num+Ord+Fem+Pl
+!!€ prameraines: premier+Num+Ord+Fem+Pl
+!!€ pramereines: premier+Num+Ord+Fem+Pl
 !!€ quatre:     quatre+Num+Card
 !!€ katre:      quatre+Num+Card
 !!€ qatre:      quatre+Num+Card

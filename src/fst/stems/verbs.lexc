@@ -27,6 +27,7 @@ falloir: Falloir    "to be necessary" ;
 lire: Lire          "to read" ;
 plaire: Plaire      "to please" ;
 querre: Querre     "to seek" ;
+valoir: Valoir      "to be worth" ;
 vivre: Vivre        "to live" ;
 
 amender:amend RegEr "to improve, to make amends" ;
@@ -36,6 +37,7 @@ amer:am RegEr       "to love" ;
 apeler:apel%> RegEr   "to call" ; ! Irregular?
     apeler:appel%> RegEr "to call" ;
 chanter:chant RegEr "to sing" ;
+comander:com%>and RegEr "to command, to order" ; ! Check for irregulars
 confesser:confess RegEr "to confess" ;
 curer:cur RegEr     "to be concerned about, to treat" ;
 demander:demand RegEr "to ask, to demand" ; ! Verify
@@ -51,7 +53,10 @@ habiter:habi%{T%} RegEr "to inhabit, to live, to touch, to reach" ;
 jurer:jur RegEr     "to swear" ;
 lancer:lanc%> RegEr   "to launch" ;
 laver:lav   RegEr   "to wash" ;
+lever:lev   RegEr   "to lift, to rise" ; ! Check for irregulars
 livrer:livr RegEr   "to deliver, to hand over" ;
+mander:mand RegEr   "to order, to announce, to summon, to send" ;
+merveiller:merveill RegEr "to marvel, to wonder, to be astonished" ;
 mener:men RegEr     "to lead, to conduct" ;
 nier:nï RegEr       "to deny" ; ! RegIer?
 nomer:nom   RegEr   "to name" ;
