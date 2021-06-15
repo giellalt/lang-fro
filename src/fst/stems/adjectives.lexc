@@ -65,7 +65,7 @@ larc:lar CGe "large" ;
 las:las%> MascIndec "tired, exhausted" ;
 ledit: Ledit "the aforemonetioned" ;
 leial Adj3 "loyal" ;
-lequel+Adj: RelInterr ;
+lequel Adj1 "which" ;
 lonc: Lonc "long" ;
 luisant:luisan%{T%} Adj3 "bright" ;
 maint Adj1 "many" ; ! Indefinite?
@@ -91,7 +91,7 @@ propre Adj2 "own, belonging to __" ;
 prudent:pruden%{T%} Adj3 "prudent" ;
 pucele+Adj+Fem:pucel%>e # "virgin" ;
 puissant:puissan%{T%} Adj3 "powerful" ;
-quel Adj "which" ; ! Adj3?
+quel Adj1 "which" ; ! Adj3?
 reial Adj3 "royal" ;
 requis Adj1 "remarkable, worthy of interest" ;
 riche Adj2 "powerful, rich" ;

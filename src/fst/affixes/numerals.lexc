@@ -59,12 +59,14 @@ LEXICON Premier
 +Num+Ord+Masc+Pl:prims # ;
 +Num+Ord+Masc+Pl:premiers # ; ! Verify
 +Num+Ord+Masc+Pl:premerains # ; ! Verify
-+Num+Ord+Fem+Sg:première DerAdv ;
-+Num+Ord+Fem+Sg:premeraine DerAdv ;
++Num+Ord+Fem+Sg:première # ;
++Num+Ord+Fem+Sg:premeraine # ;
 +Num+Ord+Fem+Sg:prime # ;
 +Num+Ord+Fem+Pl:primes # ;
 +Num+Ord+Fem+Pl:premières # ; ! Verify
 +Num+Ord+Fem+Pl:premeraines # ; ! Verify
+:première DerAdv ;
+:premeraine DerAdv ;
 
 
 ! vim: set ft=xfst-lexc:

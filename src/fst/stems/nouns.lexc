@@ -362,6 +362,7 @@ Jhesu PropMasc "Jesus" ;
     Jhesu:Jesus PropMasc "Jesus" ;
     Jhesu:Jhesucrist PropMasc "Jesus Christ" ;
 joie FC1 "joy" ;
+    joie:joye FC1 "joy" ;
 Johan+Prop:Johan MC1a "John" ;
 jor MC1a "day" ;
     jor+N+Masc+Obl+Pl:iours # "day" ;
@@ -421,7 +422,7 @@ Mercredi PropMasc "Wednesday" ;
 merveille FC1 "marvel, wonder" ;
     merveille:merveille MC1a "marvel, wonder" ;
 mer FC2 "sea" ;
-merci:merci%{T%} FC2 "mercy" ;
+merci:merc%{I%}%{T%} FC2 "mercy" ;
 mere FC1 "mother" ;
 mestier MC1a "job, occupation" ;
     mestier:métier MC1a "job, occupation" ;
@@ -429,7 +430,7 @@ mesure FC1 "evaluation, measure, status, layout" ; ! Verify definition
 Michiel PropMasc "Michael" ;
     Michiel:Michel PropMasc "Michael" ;
 miséricorde FC1 "pity, mercy, compassion" ;
-mois NIndecM "month" ;
+mois:mo%{I%}s NIndecM "month" ;
 monde MC1a "world" ;
     monde:monte MC1a "world" ;
     monde+Err/Obsc:mont MC1a "world" ; ! mont is usually a form of "mountain"
@@ -481,8 +482,8 @@ ost:os%{T%} MC1a "army" ;
 
 paien MC1a "infidel" ;
 pain MC1a "bread, food" ;
-pais NIndecM "country" ;
-    pais:païs NIndecM "country" ;
+pais:païs NIndecM "country" ;
+    pais:pays NIndecM "country" ;
 paix NIndecF "peace" ;
 palais NIndecM "palace" ;
 paor FC2 "fear" ;
@@ -552,9 +553,10 @@ question FC2 "question, debate, quarrel" ;
 
 raison FC2 "speech" ;
     raison:raisun FC2 "speech" ;
-rei MC1a "king" ;
+rei:re%{I%} MC1a "king" ;
+    !rei:re%{I%} MC1 "king" ;
 reïne FC1 "queen" ;
-    reïne:royne FC1 "queen" ;
+    reïne:roïne FC1 "queen" ;
 regne MC1a "kingdom, reign" ;
 renart:renar%{T%} MC1a "fox" ;
 Renart:Renar%{T%} PropMasc "the Fox" ;
@@ -570,8 +572,8 @@ Robert PropMasc "Robert" ;
 Rome PropFem "Rome" ;
     Rome:Romme PropFem "Rome" ;
 rose FC1 "rose" ;
-royaume:reiaume MC1a "kingdom" ;
-    royaume:reiaulme MC1a "kingdom" ;
+royaume:re%{I%}aume MC1a "kingdom" ;
+    royaume:re%{I%}aulme MC1a "kingdom" ;
 rue FC1 "road, path" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

@@ -551,7 +551,7 @@ LEXICON Xenir
 +V:en PresPart ;
 +V+Part+Past:enu PartEndings ;
 
-:ien PresInd ;
+:ien%> PresInd ;
 :ieng PresInd ;
 :iegn PresInd ;
 :iengn PresInd ;
@@ -571,7 +571,7 @@ LEXICON Xenir
 :en IpfvInd ; ! Verify
 :endr FutInd ;
 
-:ien PresSubj ;
+:ien%> PresSubj ;
 :ieng PresSubj ;
 :iegn PresSubj ;
 :iengn PresSubj ;

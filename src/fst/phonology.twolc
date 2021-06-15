@@ -124,7 +124,7 @@ m:n => _ Labial ;
 %{D%}:0 => _ ;
 
 !! Palatalized vowels
-!"i can be expressed as y after vowels" FIXME: Convince me that this one is worth the trouble.
+!"i can be expressed as y after vowels" !FIXME: Convince me that this one is worth the trouble.
 !i:y => Vow _ ;
 
 "i can be expressed as j after i " ! Mostly after Roman numerals
@@ -137,12 +137,18 @@ i:j => v: _ ;
 i:j => x: _ ;
 
 "e can be expressed as o before i/y"
-e:o => _ i: ;
+e:o => _ :i ;
+
+"e can be expressed as o before i/y"
+e:o => _ :y ;
+
+"e can be expressed as o before ï"
+e:0 => _ ï:ï ;
 
 "e can be expressed as o in the -ens suffix"
 e:o => i: _ n: s: ;
 
-"ii can be shortened to i before an e or e:o" ! unless ">" between them - ordinals
+"ii can be shortened to i before an e or e:o unless '>' between them - ordinals"
 i:0 => _ i: e: ;
 
 "archiphoneme I can be expressed as i"

@@ -73,10 +73,10 @@ LEXICON Deriv
 +N: Agent ;
 
 LEXICON PropMasc
-+Prop: NIndecM # ;
++Prop: NIndecM ;
 
 LEXICON PropFem
-+Prop: NIndecF # ;
++Prop: NIndecF ;
 
 LEXICON Dieu
 +N+Masc+Obl+Sg:deo # ;
@@ -176,9 +176,18 @@ LEXICON Monseigneur ! Verify forms
 !!€ files:      fille+N+Fem+Nom+Pl
 !!€ filles:     fille+N+Fem+Obl+Pl
 !!€ files:      fille+N+Fem+Obl+Pl
-!!€ Alemaigne:  Alemaigne+N+Prop+Fem
-!!€ Alamaigne:  Alemaigne+N+Prop+Fem
-!!€ Gieffroy:   Gieffroy+N+Prop+Masc
+!!€ Alemaigne:  Alemaigne+N+Prop+Fem+Nom+Sg
+!!€ Alemaigne:  Alemaigne+N+Prop+Fem+Obl+Sg
+!!€ Alemaigne:  Alemaigne+N+Prop+Fem+Nom+Pl
+!!€ Alemaigne:  Alemaigne+N+Prop+Fem+Obl+Pl
+!!€ Alamaigne:  Alemaigne+N+Prop+Fem+Nom+Sg
+!!€ Alamaigne:  Alemaigne+N+Prop+Fem+Obl+Sg
+!!€ Alamaigne:  Alemaigne+N+Prop+Fem+Nom+Pl
+!!€ Alamaigne:  Alemaigne+N+Prop+Fem+Obl+Pl
+!!€ Gieffroy:   Gieffroy+N+Prop+Masc+Nom+Sg
+!!€ Gieffroy:   Gieffroy+N+Prop+Masc+Obl+Sg
+!!€ Gieffroy:   Gieffroy+N+Prop+Masc+Nom+Pl
+!!€ Gieffroy:   Gieffroy+N+Prop+Masc+Obl+Pl
 !!€ lei:        lei+N+Fem+Nom+Sg
 !!€ lei:        lei+N+Fem+Obl+Sg
 !!€ ley:        lei+N+Fem+Nom+Sg

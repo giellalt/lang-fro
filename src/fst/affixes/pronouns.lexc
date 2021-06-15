@@ -344,12 +344,28 @@ LEXICON Interrogative
 +Pro+Interr+Neut+Obl+Dir+Stress:quoi # ;
 +Pro+Interr+Neut+Obl+Dir+Stress:coi # ;
 
-LEXICON RelInterr
-+Relative+Interr+Masc+Sg:lequel # ;
-+Relative+Interr+Masc+Pl:lesquels # ;
-+Relative+Interr+Masc+Pl:lesqueulx # ;
-+Relative+Interr+Fem+Sg:laquel%>e # ;
-+Relative+Interr+Fem+Pl:lesquel%>es # ;
+LEXICON Quel ! Rework this
++Relative+Masc+Sg:quel # ;
++Relative+Masc+Pl:quels # ;
++Relative+Fem+Sg:quel%>e # ;
++Relative+Fem+Pl:quel%>es # ;
++Interr+Masc+Sg:quel # ;
++Interr+Masc+Pl:quels # ;
++Interr+Fem+Sg:quel%>e # ;
++Interr+Fem+Pl:quel%>es # ;
+
+LEXICON Lequel ! Rework this
++Relative+Masc+Sg:lequel # ;
++Relative+Masc+Pl:lesquels # ;
++Relative+Masc+Pl:lesqueulx # ;
++Relative+Masc+Pl:lesquelx # ;
++Relative+Fem+Sg:laquel%>e # ;
++Relative+Fem+Pl:lesquel%>es # ;
++Interr+Masc+Sg:lequel # ;
++Interr+Masc+Pl:lesquels # ;
++Interr+Masc+Pl:lesqueulx # ;
++Interr+Fem+Sg:laquel%>e # ;
++Interr+Fem+Pl:lesquel%>es # ;
 
 LEXICON IndefPro
 +Pro+Adj+Indef+Nom+Sg:s # ;
@@ -396,3 +412,5 @@ LEXICON IndefPro
 !!€ sians:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
 !!€ icestui:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress
 !!€ icestuy:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress
+!!€ ycestui:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress
+!!€ ycestuy:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress
