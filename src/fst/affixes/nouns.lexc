@@ -73,10 +73,10 @@ LEXICON Deriv
 +N: Agent ;
 
 LEXICON PropMasc
-+Prop+N+Masc:0 # ;
++Prop: NIndecM # ;
 
 LEXICON PropFem
-+Prop+N+Fem:0 # ;
++Prop: NIndecF # ;
 
 LEXICON Dieu
 +N+Masc+Obl+Sg:deo # ;

@@ -103,6 +103,7 @@ LEXICON 3SgPoss
 +Pro+Poss+3s+Masc+Nom+Sg+Unstress:is # ;
 +Pro+Poss+3s+Masc+Obl+Sg+Unstress:on # ;
 +Pro+Poss+3s+Masc+Obl+Sg+Unstress:un # ;
++Pro+Poss+3s+Masc+Obl+Sg+Unstress:en # ;
 +Pro+Poss+3s+Masc+Nom+Pl+Unstress:i # ;
 +Pro+Poss+3s+Masc+Obl+Pl+Unstress:es # ;
 +Pro+Poss+3s+Fem+Nom+Sg+Unstress:a # ;
@@ -204,6 +205,7 @@ LEXICON 3PlMasc
 +Pro+Prs+3p+Masc+Nom+Unstress+Err/Obsc:i # ;
 +Pro+Prs+3p+Masc+Nom+Unstress+Err/Obsc:ilh # ;
 +Pro+Prs+3p+Masc+Obl+Dir+Stress:els # ;
++Pro+Prs+3p+Masc+Obl+Dir+Stress:euls # ;
 +Pro+Prs+3p+Masc+Obl+Dir+Stress:eulx # ; ! Verify
 +Pro+Prs+3p+Masc+Obl+Dir+Unstress:les # ;
 +Pro+Prs+3p+Masc+Obl+Indir+Stress:lor # ;
@@ -368,6 +370,7 @@ LEXICON IndefPro
 !!€ nox:       nous+Pro+Prs+1p+Nom+Stress+Gram/Early
 !!€ els:       ils+Pro+Prs+3p+Masc+Obl+Dir+Stress
 !!€ eus:       ils+Pro+Prs+3p+Masc+Obl+Dir+Stress
+!!€ euls:       ils+Pro+Prs+3p+Masc+Obl+Dir+Stress
 !!€ eulx:       ils+Pro+Prs+3p+Masc+Obl+Dir+Stress
 !!€ soi:        se+Pro+Prs+3p+Refl+Obl+Stress
 !!€ soy:        se+Pro+Prs+3p+Refl+Obl+Stress

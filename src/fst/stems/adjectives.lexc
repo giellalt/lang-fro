@@ -1,5 +1,7 @@
 LEXICON Adjectives
 aigre Adj2 "acid" ;
+ancien Adj1 "old, ancient" ;
+    ancien:ancïenur MascAdjForm ;
 aspre Adj2 "rough" ;
 aucun Adj1 "some, none?" ; ! Verify definition
 autre Adj2 "other, another" ;
@@ -8,11 +10,14 @@ autre Adj2 "other, another" ;
 avenant Adj3 "attractive" ;
 bel Adj1 "dear, beloved, handsome" ;
     bel+Adj+Masc+Nom+Sg:beau # ; ! Other forms?
+    bel+Adj+Masc+Nom+Sg:beu # ; ! Verify
     bel+Adj+Masc+Obl+Pl:beaux # ; ! Other forms?
 blanc:blan CChe "white" ;
 bon Adj1 "good" ;
+breton Adj1 "from Brittany" ;
 brief:brie FV "short" ;
 celestial Adj3 "celestial" ;
+certain Adj1 "certain, sure, one among others" ;
 charnel Adj3 "carnal" ;
 chauf:chau FVe "bald" ;
     chauf+Adj+Masc+Obl+Sg:chauve # ;
@@ -36,6 +41,7 @@ egal Adj3 "equal" ;
 faus MascIndec "false" ;
 ferm:ferm%> Adj1 "firm, stable" ;
     ferm+Adj+Masc+Obl+Sg:ferme # ;
+fier Adj1 "fierce, haughty" ;
 fol Adj3 "foolish" ;
 fort:for%{T%} Adj1 "strong" ; ! Adj3?
 franc Adj1 "noble, free" ;
@@ -50,7 +56,8 @@ grant:gran%{T%} Adj1 "great" ; ! Adj3?
 grec:gre CQue "greek" ;
 grief Adj3 "grievous" ;
 gros MascIndec "large" ;
-haut Adj1 "exalted, high, clean" ; ! Check for other definitions
+haut Adj1 "exalted, high" ;
+    haut:hault Adj1 "exalted, high" ;
 infernal Adj3 "infernal" ;
 jouvencel+Adj+Masc:jouvencel # "young" ; ! Verify
 larc:lar CGe "large" ;
@@ -66,6 +73,8 @@ mal Adj1 "evil, disaster, illness" ;
 mieux: Mieux "better" ;
 morel Adj3 "mortal" ;
 mort:mor%{T%} Adj1 "dead" ;
+mortel Adj1 "mortal, fatal, deadly" ; ! Noun form?
+    mortel:mortal Adj1 "mortal, fatal, deadly" ;
 mout: Mout "many, much, very" ;
 naturel Adj1 "natural" ; ! Adj3?
 noble Adj2 "noble, belonging to nobility" ;
@@ -78,17 +87,20 @@ ploros MascIndec "tearful" ;
 povre Adj2 "poor" ;
 precios MascIndec "precious" ;
 present:présen%{T%} Adj1 ;
+propre Adj2 "own, belonging to __" ;
 prudent:pruden%{T%} Adj3 "prudent" ;
 pucele+Adj+Fem:pucel%>e # "virgin" ;
 puissant:puissan%{T%} Adj3 "powerful" ;
 quel Adj "which" ; ! Adj3?
 reial Adj3 "royal" ;
+requis Adj1 "remarkable, worthy of interest" ;
 riche Adj2 "powerful, rich" ;
     riche:rice Adj2 "powerful, rich" ;
 sage Adj2 "wise" ;
     sage:saige Adj2 "wise" ;
 sain Adj1 "healthy, uninjured" ;
 saint:sain%{T%} Adj1 "holy" ;
+sec:se CChe "dry" ;
 senestre Adj2 "left" ;
 seul Adj1 "alone, single, only" ;
     seul:sol Adj1 "alone, single, only" ;
@@ -101,8 +113,8 @@ tendre Adj2 "tender" ;
 tierz:tier ZCe "third" ;
 tort:tor%{T%} Adj1 "wrong, twisted, crooked" ;
 tot+Adj: Tot "all, every, completely" ;
-trenchant:trenchant%> Adj3 "sharp" ;
-vaillant:vaillant%> Adj3 "valliant" ;
+trenchant:trenchan%{T%} Adj3 "sharp" ;
+vaillant:vail%>an%{T%} Adj3 "valliant" ;
 vermeil:verme IlIlle "bright red, of wine" ;
 vert:ver%{T%} Adj1 "green" ;
 vif:vi FV "alive" ;

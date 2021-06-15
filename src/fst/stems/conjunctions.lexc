@@ -17,6 +17,7 @@ des SubPart ;
 devant SubPart ;
 donc Coord "therefore" ;
     donc:dunc Coord "therefore" ;
+    donc:donques Coord "therefore" ;
 et: Et "and" ;
 jusque:jusque%{S%} Subord "until, to, up to, down to, as far as" ;
 lues SubPart ;

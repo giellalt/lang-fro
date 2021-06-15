@@ -1,128 +1,245 @@
 !! Verbs
 
 LEXICON Verbs
-avoir: Avoir        "to have" ;
-estre: Estre        "to be" ;
-faire: Faire        "to make, to do, to say" ;
-dire: Dire          "to say" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------A---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+accoutumer:accoutum RegEr "to accustom" ;
+    accoutumer:acoustum RegEr "to accustom" ;
+    accoutumer:acoustum RegEr "to accustom" ;
+advenir:adv Xenir "to arrive, to occur, to come to pass, to reach, to touch" ;
+    advenir:av Xenir "to arrive, to occur, to come to pass, to reach, to touch" ;
+aidier:aid RegIer   "to help" ;
 aler: Aler          "to go" ;
-veoir: Veoir        "to see" ;
-venir:v Xenir       "to come, to go" ;
-tenir:t Xenir       "to keep, to hold" ;
+amender:amend RegEr "to improve, to make amends" ;
+amer:am RegEr       "to love" ;
+    amer:aim%> RegEr  "to love" ;
+apeler:apel%> RegEr   "to call" ; ! Irregular?
+    apeler:appel%> RegEr "to call" ;
+appoiier:appoi RegIer "to lean" ; ! Verify stem
+araisnier:araisn RegIer "to address" ;
+aviser:avis RegEr   "to advise" ;
+avoir: Avoir        "to have" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------B---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+boivre: Boivre      "to drink" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------C---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+chanter:chant RegEr "to sing" ;
+choisir:chois RegIr "to choose" ;
+coillir:coill RegIr "to gather" ;
+comander:com%>and RegEr "to command, to order" ; ! Check for irregulars
+comencier:comenc RegIer "to begin" ;
+confesser:confess RegEr "to confess" ;
+conseillier:conseill RegIer "to advise" ;
 convenir:conv Xenir   "to gather, to be necessary" ;
     convenir:cov Xenir "to gather, to be necessary" ;
     convenir:couv Xenir "to gather, to be necessary" ;
-advenir:adv Xenir "to arrive, to occur, to come to pass, to reach, to touch" ;
-    advenir:av Xenir "to arrive, to occur, to come to pass, to reach, to touch" ;
-voloir: Voloir      "to want, to desire" ;
-prendre: Prendre    "to take, to take hold of, to seize" ;
-savoir: Savoir      "to know" ;
-devoir: Devoir      "should, ought to, need to, must" ;
-pooir: Pooir        "to be able, can" ;
-doner: Doner        "to give" ;
-metre: Metre        "to place" ;
-oïr: Oïr            "to hear" ;
-escrire: Escrire    "to write" ;
-falloir: Falloir    "to be necessary" ;
-lire: Lire          "to read" ;
-plaire: Plaire      "to please" ;
-querre: Querre     "to seek" ;
-valoir: Valoir      "to be worth" ;
-vivre: Vivre        "to live" ;
-
-amender:amend RegEr "to improve, to make amends" ;
-amer:am RegEr       "to love" ;
-    amer:aim RegEr  "to love" ;
-    amer:aimm RegEr "to love" ;
-apeler:apel%> RegEr   "to call" ; ! Irregular?
-    apeler:appel%> RegEr "to call" ;
-chanter:chant RegEr "to sing" ;
-comander:com%>and RegEr "to command, to order" ; ! Check for irregulars
-confesser:confess RegEr "to confess" ;
+corre:cor RegRe     "to run" ;
+cosdre:cosd RegRe   "to sew" ;
+coutumer:coutum RegEr   "to get used to" ;
+    coutumer:coustum RegEr   "to get used to" ;
+covrir:covr RegIr   "to cover" ;
+cuidier:cuid RegIer "to think, to believe" ;
+    cuidier+V+1s+Pres+Ind:cuit # ;
 curer:cur RegEr     "to be concerned about, to treat" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------D---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+defendre:defend RegRe "to defend" ;
+    defendre:deffend RegRe "to defend" ;
+deignier:deign RegIer "to deign" ;
 demander:demand RegEr "to ask, to demand" ; ! Verify
 demourer:demour RegEr "to stay, to remain" ;
     demourer:demeur RegEr "to stay, to remain" ;
+deraisnier:deraisn RegIer "to argue" ;
+devoir: Devoir      "should, ought to, need to, must" ;
+dire: Dire          "to say" ;
 disner:disn RegEr   "to dine" ;
 doner:don RegEr     "to give" ;
+dormir:dorm RegIr   "to sleep" ;
 durer:dur RegEr     "to last" ;
+doner: Doner        "to give" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------E---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+emplir:empl RegIr   "to fill" ;
+entendre:enten%{D%} RegRe "to listen" ;
 entrer:entr RegEr   "to enter" ;
+escrier:escr RegIer "to cry out" ; ! Actually regular?
+escrire: Escrire    "to write" ;
+estovoir: Estovoir  "to be necessary" ;
+estre: Estre        "to be" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------F---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+faillir:faill RegIr "to fail" ;
+faire: Faire        "to make, to do, to say" ;
+falloir: Falloir    "to be necessary" ;
+fenir:fen RegIr     "to end" ;
+ferir: Ferir        "to strike" ;
+florir:flor RegIr   "to bloom" ;
+former:form RegEr   "to create" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------G---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 gaver:gab   RegEr   "to joke" ;
 garder:gard RegEr   "to guard" ;
+garir:gar RegIr     "to save, to heal" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------H---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 habiter:habi%{T%} RegEr "to inhabit, to live, to touch, to reach" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------I---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------J---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+jugier:jug RegIer "to judge" ;
 jurer:jur RegEr     "to swear" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------L---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+laissier:laiss RegIer "to leave, to let" ;
 lancer:lanc%> RegEr   "to launch" ;
 laver:lav   RegEr   "to wash" ;
 lever:lev   RegEr   "to lift, to rise" ; ! Check for irregulars
+lire: Lire          "to read" ;
 livrer:livr RegEr   "to deliver, to hand over" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------M---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 mander:mand RegEr   "to order, to announce, to summon, to send" ;
-merveiller:merveill RegEr "to marvel, to wonder, to be astonished" ;
+mangier:mang%{G%} RegIer "to eat" ;
 mener:men RegEr     "to lead, to conduct" ;
+merveiller:merveill RegEr "to marvel, to wonder, to be astonished" ;
+mesurer:mesur RegEr "to measure" ;
+metre: Metre        "to place" ;
+morir: Morir        "to die" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------N---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+naistre:naist RegRe "to be born" ;
 nier:nï RegEr       "to deny" ; ! RegIer?
 nomer:nom   RegEr   "to name" ;
     nomer:nomm RegEr "to name" ;
+noncier:nonc RegIer "to announce" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------O---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ocire:oci RegRe       "to kill" ;
+    ocire:occi RegRe  "to kill" ; ! Check for irregular forms
+ofrir:ofr RegIr     "to offer" ;
+oïr: Oïr            "to hear" ;
+    oïr:od RegIr    "to hear" ; ! Check. Just the irregular form?
 ordonner:ordonn RegEr "to order, to ordain" ;
     ordonner:orden RegEr "to order, to ordain" ;
+otroier:otro RegIer "to grant" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------P---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 paier:paï RegEr "to pay" ; ! RegIer? Irregular?
     paier:pai RegEr "to pay" ;
 parler:parl RegEr   "to talk, to speak" ; ! Verify
     parler+V+3s+Pres+Ind:parole # ;
+partir:par%{T%} RegIr   "to leave, to divide" ; ! CHECK
 passer:pass RegEr   "to pass, to surpass" ;
 penser:pens RegEr   "to think, to ponder" ;
+perdre:perd RegRe   "to lose" ;
+    perdre+V+3s+Pres+Ind:pert # ; ! Also 1s?
+plaire: Plaire      "to please" ;
 plorer:plot RegEr   "to weep" ;
+pooir: Pooir        "to be able, can" ;
 porter:port RegEr   "carry, bring, wear" ; ! Verify
-presenter:présent RegEr "to present" ; ! Verify
-sembler:sembl RegEr "to seem, to resemble" ; ! Check for other meanings
-sonner:son RegEr    "to ring" ;
-torner:torn RegEr   "to turn" ;
-trouver:trouv RegEr "to find" ; ! Trover = Irregular
-tuer:tu RegEr       "to kill" ;
-
-aidier:aid RegIer   "to help" ;
-appoiier:appoi RegIer "to lean" ; ! Verify stem
-araisnier:araisn RegIer "to address" ;
-comencier:comenc RegIer "to begin" ;
-conseillier:conseill RegIer "to advise" ;
-deignier:deign RegIer "to deign" ;
-deraisnier:deraisn RegIer "to argue" ;
-escrier:escr RegIer "to cry out" ; ! Actually regular?
-jugier:jug RegIer "to judge" ;
-laissier:laiss RegIer "to leave, to let" ;
-mangier:mang%{G%} RegIer "to eat" ;
-noncier:nonc RegIer "to announce" ;
-otroier:otro RegIer "to grant" ;
 preisier:preis RegIer "to value" ;
-sachier:sach RegIer "to pull" ;
+prendre: Prendre    "to take, to take hold of, to seize" ;
+presenter:présent RegEr "to present" ; ! Verify
 
-choisir:chois RegIr "to choose" ;
-coillir:coill RegIr "to gather" ;
-covrir:covr RegIr   "to cover" ;
-fenir:fen RegIr     "to end" ;
-dormir:dorm RegIr   "to sleep" ;
-emplir:empl RegIr   "to fill" ;
-faillir:faill RegIr "to fail" ;
-ferir:fer RegIr     "to strike" ; ! Irregular PP- FIXME
-florir:flor RegIr   "to bloom" ;
-garir:gar RegIr     "to save, to heal" ;
-odir:od RegIr       "to hear" ; ! Irregular
-ofrir:ofr RegIr     "to offer" ;
-oir:o RegIr         "to hear" ; ! Irregular
-partir:part RegIr   "to leave, to divide" ; ! CHECK
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------Q---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+querre: Querre     "to seek" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------R---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+receivre: Receivre  "to receive" ;
+rendre:rend RegRe   "to give, to give up, to return" ;
+requerre:re Querre  "to look for, to ask, to question" ;
+respondre:respond RegRe "to reply, to respond" ;
+    respondre:repond RegRe "to reply, to respond" ;
+    respondre+V+Part+Past:respondi PartEndings ;
+    respondre+V+3s+Pres+Sbjv:respont # ; ! Verify
+rompre:romp RegRe   "to break" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------S---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+sachier:sach RegIer "to pull" ;
+savoir: Savoir      "to know" ;
+sembler:sembl RegEr "to seem, to resemble" ; ! Check for other meanings
 sentir:sen%{T%} RegIr "to feel" ; ! CHECK
 servir:serv RegIr   "to serve" ;
+sonner:son RegEr    "to ring" ;
 
-corre:cor RegRe     "to run" ;
-cosdre:cosd RegRe   "to sew" ;
-defendre:defend RegRe "to defend" ;
-    defendre:deffend RegRe "to defend" ;
-entendre:enten%{D%} RegRe "to listen" ;
-naistre:naist RegRe "to be born" ;
-perdre:perd RegRe   "to lose" ;
-rendre:rend RegRe   "to give, to give up, to return" ;
-respondre:respond RegRe "to reply" ;
-    respondre+V+Part+Past:respondi PartEndings ;
-rompre:romp RegRe   "to break" ;
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------T---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+tenir:t Xenir       "to keep, to hold" ;
+torner:torn RegEr   "to turn" ;
+traire: Traire      "pull, draw, bring, suffer, tear out, withdraw" ;
+trouver:trouv RegEr "to find" ;
+    trouver:trov RegEr "to find" ; ! FIXME: Trover = Irregular
+tuer:tu RegEr       "to kill" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------V---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+valoir: Valoir      "to be worth" ;
 veintre:veint RegRe "to conquer" ;
+venir:v Xenir       "to come, to go" ;
+venter:vent RegEr   "to blow (wind)" ;
+veoir: Veoir        "to see" ;
+vivre: Vivre        "to live" ;
+voloir: Voloir      "to want, to desire" ;
+
 
 !! Add: doloir, rire, trover
-!! conduire, criembre, tordre, traire, boivre
+!! conduire, criembre, tordre, boivre

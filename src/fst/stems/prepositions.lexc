@@ -78,6 +78,7 @@ od Prep "with" ;
     od:o Prep "with" ;
 par Prep "through, by, by reason of" ;
     par:per Prep "through, by, by reason of" ;
+parmi Prep "through" ;
 près Prep "near" ;
 près#de Prep "near to" ;
 post Prep "after" ;
@@ -85,8 +86,9 @@ por Prep "for" ;
     por:pur Prep "for" ;
     por:pour Prep "for" ;
 sans:sans Prep "without" ;
-    sans:sanz Prep "without" ;
     sans:san Prep "without" ; ! Verify - Multi word conjunction as well?
+    sans:sen Prep "without" ;
+    sans:sens Prep "without" ;
 selon Prep "along, in conformity with, according to" ;
     selon:selonc Prep "along, in conformity with, according to" ;
 sur:sur Prep "on, over, to, above" ;

@@ -308,6 +308,7 @@ LEXICON Avoir
 +V+3s+Pres+Ind:ad # ;
 +V+1p+Pres+Ind:avons # ;
 +V+2p+Pres+Ind:avez # ;
++V+2p+Pres+Ind:avés # ;
 +V+3p+Pres+Ind:ont # ;
 +V+3p+Pres+Ind:unt # ;
 
@@ -416,6 +417,7 @@ LEXICON Faire
 +V+Inf:faire # ;
 +V+Inf:feire # ;
 +V+Inf:fere # ;
++V+Inf:fer # ; ! Verify
 +V+Part+Pres:faisent # ;
 +V+Part+Pres:feisent # ;
 +V+Part+Pres:fesent # ;
@@ -560,6 +562,7 @@ LEXICON Xenir
 +V+1s+Perf+Ind:in # ;
 +V+2s+Perf+Ind:enis # ;
 +V+3s+Perf+Ind:int # ;
++V+3s+Perf+Ind:ent # ; ! Verify
 +V+1p+Perf+Ind:enimes # ;
 +V+2p+Perf+Ind:enistes # ;
 +V+3p+Perf+Ind:indrent # ;
@@ -1107,7 +1110,7 @@ LEXICON Valoir
 +V+3p+Pres+Ind:vaillent # ;
 
 :val PerfWkU ;
-:val PerfStSBasic
+:val PerfStSBasic ;
 :val%> IpfvInd ;
 :valdr FutInd ;
 
@@ -1119,7 +1122,7 @@ LEXICON Valoir
 +V+3p+Pres+Sbjv:vaillent # ;
 
 :val IpfvSubjWkU ;
-:val IpfvSubjStS
+:val IpfvSubjStS ;
 :valdr Conditional ; ! Verify
 
 ! No imperative forms (verify)
@@ -1216,6 +1219,189 @@ LEXICON Escrire ! Verify all forms
 +V+1p+Pres+Imp:escrivons # ; ! Verify
 +V+2p+Pres+Imp:escrivez # ; ! Verify
 
+LEXICON Traire
++V+Inf:tra%{H%}ire # ;
++V+Inf:treire # ;
++V+Inf:trere # ;
++V:trai PresPart ;
++V:trei PresPart ;
++V:tre PresPart ;
++V+Part+Past:trait PartEndings ;
++V+Part+Past:treit PartEndings ;
++V+Part+Past:tret PartEndings ;
+
+:trai PresInd ;
+:trei PresInd ;
+:tre PresInd ;
++V+2p+Pres+Ind:traiiez # ;
++V+2p+Pres+Ind:treiiez # ;
++V+2p+Pres+Ind:treiez # ;
++V+2p+Pres+Ind:traites # ;
++V+2p+Pres+Ind:treites # ;
++V+2p+Pres+Ind:tretes # ;
+
+:trai PerfStSBasic ;
+:trei PerfStSBasic ;
+:tre PerfStSBasic ;
+:trai IpfvInd ; ! Verify
+:trei IpfvInd ; ! Verify
+:tre IpfvInd ; ! Verify
+:trair FutInd ;
+:treir FutInd ;
+:trer FutInd ;
+
++V+1s+Pres+Sbjv:traie # ;
++V+1s+Pres+Sbjv:treie # ;
++V+2s+Pres+Sbjv:traies # ;
++V+2s+Pres+Sbjv:treies # ;
++V+3s+Pres+Sbjv:trait # ; ! Verify
++V+3s+Pres+Sbjv:treit # ; ! Verify
++V+1p+Pres+Sbjv:traiiens # ;
++V+1p+Pres+Sbjv:treiiens # ;
++V+2p+Pres+Sbjv:traiiez # ;
++V+2p+Pres+Sbjv:treiiez # ;
++V+3p+Pres+Sbjv:traient # ;
++V+3p+Pres+Sbjv:treient # ;
+
+:trai IpfvSubjStS ;
+:trei IpfvSubjStS ;
+:tre IpfvSubjStS ;
+:trair Conditional ; ! Verify
+:treir Conditional ; ! Verify
+:trer Conditional ; ! Verify
+
++V+2s+Pres+Imp:trai # ;
++V+2s+Pres+Imp:trei # ;
++V+1p+Pres+Imp:traions # ; ! Verify
++V+1p+Pres+Imp:treions # ; ! Verify
++V+2p+Pres+Imp:traiez # ; ! Verify
++V+2p+Pres+Imp:treiez # ; ! Verify
+
+LEXICON Morir
++V+Inf:morir # ;
++V+Inf:mourir # ;
++V:mor PresPart ;
++V+Part+Past:mort PartEndings ;
+
++V+1s+Pres+Ind:muir # ;
++V+2s+Pres+Ind:muers # ;
++V+3s+Pres+Ind:muert # ;
++V+1p+Pres+Ind:morons # ;
++V+2p+Pres+Ind:morez # ;
++V+3p+Pres+Ind:muerent # ;
+
+:mor PerfWkU ;
+:mor PerfWkI ;
+:mor IpfvInd ; ! Verify
+:mor%> FutInd ;
+
+:muir PresSubj ;
+:muer PresSubj ;
+:muerg PresSubj ;
++V+1p+Pres+Sbjv:muiriens # ;
++V+2p+Pres+Sbjv:muiriez # ;
+
+:mor IpfvSubjWkU ; ! Check for irregular
+:mor IpfvSubjWkI ;
+:mor%> Conditional ; ! Verify
+
++V+2s+Pres+Imp:muir # ;
++V+1p+Pres+Imp:morons # ;
++V+2p+Pres+Imp:morez # ;
+
+LEXICON Receivre
++V+Inf:receivre # ;
++V+Inf:recevoir # ;
++V:recev PresPart ;
++V+Part+Past:receü%{T%} PartEndings ;
+
++V+1s+Pres+Ind:reçoif # ;
++V+1s+Pres+Ind:reçoi # ;
++V+2s+Pres+Ind:reçois # ;
++V+3s+Pres+Ind:reçoit # ;
++V+1p+Pres+Ind:recevons # ;
++V+2p+Pres+Ind:recevez # ;
++V+3p+Pres+Ind:reçoivent # ;
+
+:reçu PerfStSS ;
+:rece PerfStSU ;
+:recev IpfvInd ; ! Verify
+:recevr FutInd ;
+
++V+1s+Pres+Sbjv:reçoive # ;
++V+2s+Pres+Sbjv:reçoives # ;
++V+3s+Pres+Sbjv:reçoive # ;
++V+1p+Pres+Sbjv:recevons # ;
++V+2p+Pres+Sbjv:recevez # ;
++V+3p+Pres+Sbjv:reçoivent # ;
+
+:rece IpfvSubjStU ; ! WkU?
+:recevr Conditional ; ! Verify
+
++V+2s+Pres+Imp:reçoif # ;
++V+1p+Pres+Imp:recevons # ;
++V+2p+Pres+Imp:recevez # ;
+
+LEXICON Ferir
++V+Inf:ferir # ;
++V:fer PresPart ;
++V+Part+Past:feru%{T%} PartEndings ;
+
++V+1s+Pres+Ind:fier # ;
++V+2s+Pres+Ind:fiers # ;
++V+3s+Pres+Ind:fiert # ;
++V+1p+Pres+Ind:ferons # ;
++V+2p+Pres+Ind:derez # ;
++V+3p+Pres+Ind:fierent # ;
+
+:fer PerfWkI ;
+:fer IpfvInd ; ! Verify
+:ferr FutInd ;
+
++V+1s+Pres+Sbjv:fiere # ;
++V+1s+Pres+Sbjv:fierge # ;
++V+2s+Pres+Sbjv:fieres # ;
++V+2s+Pres+Sbjv:fierges # ;
++V+3s+Pres+Sbjv:fiere # ;
++V+3s+Pres+Sbjv:fierge # ;
++V+1p+Pres+Sbjv:feriens # ;
++V+2p+Pres+Sbjv:feriez # ;
++V+3p+Pres+Sbjv:fierent # ;
++V+3p+Pres+Sbjv:fiergent # ;
+
+:fer IpfvSubjWkI ;
+:ferr Conditional ; ! Verify
+
++V+2s+Pres+Imp:fier # ;
++V+1p+Pres+Imp:ferons # ; ! Verify
++V+2p+Pres+Imp:ferez # ;
+
+LEXICON Boivre
++V+Inf:boivre # ;
++V+Inf:boire # ;
++V:bev PresPart ;
++V+Part+Past:beü PartEndings ;
+
++V+1s+Pres+Ind:boif # ;
++V+2s+Pres+Ind:bois # ;
++V+3s+Pres+Ind:boit # ;
++V+1p+Pres+Ind:bevons # ;
++V+2p+Pres+Ind:bevez # ;
++V+3p+Pres+Ind:boivent # ;
+
+:bu PerfStUS ;
+:be PerfStUU ;
+:bev IpfvInd ;
+:bevr FutInd ;
+
+:boiv PresSubj ;
+:be IpfvSubjStU ;
+:bevr Conditional ;
+
++V+2s+Pres+Imp:boif # ;
++V+1p+Pres+Imp:bevons # ;
++V+2p+Pres+Imp:bevez # ;
+
 LEXICON Falloir ! Present forms are used here. Still figuring out faillir vs falloir
 +V+3s+Pres+Ind:faut # ;
 +V+3s+Pres+Ind:fault # ;
@@ -1225,6 +1411,16 @@ LEXICON Falloir ! Present forms are used here. Still figuring out faillir vs fal
 +V+3s+Part+Past:fallu # ;
 +V+3s+Pres+Sbjv:faille # ;
 +V+3s+Pres+Cond:faudrait # ;
+
+LEXICON Estovoir ! Check for more forms. Usually followed by infinitive
++V+3s+Pres+Ind:estuet # ;
++V+3s+Pres+Sbjv:estuisse # ;
++V+3s+Pres+Sbjv:estuist # ;
++V+3s+Pres+Sbjv:estuece # ;
++V+3s+Perf+Ind:estut # ;
++V+3s+Ipfv+Ind:estovoit # ;
++V+3s+Fut+Ind:estovra # ;
++V+3s+Part+Past:esteü # ;
 
 
 !!€gt-norm: -er_verbs
