@@ -99,6 +99,7 @@ LIST Guess = Guess ;
 LIST De = "de" ;
 LIST Que = "que" ;
 LIST Obsc = "Err/Obsc" ;
+LIST Emph = Emph ;
 
 
 LIST TAG = N V Art Adv Conj Coord Subord Interj MultiWordConj Prep Pro Prop Prs Det Interr
@@ -210,6 +211,7 @@ SET S-BOUNDARY2 = CS | Interr | (";") | BOS | EOS | (@CVP) ;
 SET NONOM = WORD - Nom ;
 SET NOOBL = WORD - Obl ;
 SET NOCASE = WORD - Nom - Obl ;
+SET NOTNOUN = WORD - N ;
 
 
 #SET NO
@@ -237,7 +239,7 @@ SET NOUNADJ = N | Adj ;
 
 SET NP-MEMBER = PRE-N | N | Pro ;
 
-# LIST TIME = "sunnudagur" ;
+LIST TIME = "an" "mois" "heure" ;
 
 # Semantic sets
 
@@ -268,11 +270,11 @@ REMOVE Obsc ; # If any other reading is possible.
 
 REMOVE Pro + Refl IF (1 Pro + Refl) ;
 
-# Adjective disambiguation
+# Adverb disambiguation
 # ------------------------
 
-REMOVE Adj + $$GENDERCASENUMBER IF ( NOT 1 N + $$GENDERCASENUMBER) ;
-
+SELECT Adv + Emph IF (-1 N + $$GENDERCASENUMBER) (1 Adj + $$GENDERCASENUMBER) ;
+SELECT Adv + Emph IF (-1 Adj + $$GENDERCASENUMBER) (1 N + $$GENDERCASENUMBER) ;
 
 # Verb disambiguation
 # ------------------------
@@ -284,6 +286,7 @@ SELECT V + 3Sg IF (-1 N + NomSg) ;
 SELECT V + 3Sg IF (-1 Pro + Refl + 3Sg) ;
 SELECT V + 3Pl IF (-1 Pro + Refl + 3Pl) ;
 
+
 # Pronoun disambiguation
 # ------------------------
 
@@ -294,14 +297,19 @@ SELECT Pro + Refl + $$PERSON IF (1 V + $$PERSON) ;
 SELECT Pro + Prs + $$PERSON + Stress IF (1 V + $$PERSON) ;
 SELECT Pro + Adv IF (1C V) ;
 
-# Article disambiguation
+# Article/Participle disambiguation
 # ------------------------
 
 SELECT Art + $$GENDERCASENUMBER IF (1 N + $$GENDERCASENUMBER OR Adj + $$GENDERCASENUMBER) ;
 
+SELECT AUX IF (1 PASTPART) ;
+SELECT PASTPART IF (-1 AUX) ;
+SELECT Sg IF (-1 AUX + 3Sg) (0 PASTPART) ;
+
 # Noun disambiguation
 # ------------------------
 
+REMOVE N IF (-1 Adj + $$GENDERCASENUMBER) (-2 N + $$GENDERCASENUMBER) ;
 SELECT N + $$GENDERCASENUMBER IF (-1 Art + $$GENDERCASENUMBER) ;
 SELECT N + $$GENDERCASENUMBER IF (-2 Art + $$GENDERCASENUMBER) (-1 Adj + $$GENDERCASENUMBER) ;
 SELECT N + $$GENDERCASENUMBER IF (-1 Adj + $$GENDERCASENUMBER) ;
@@ -315,7 +323,10 @@ SELECT N + Obl IF (-1 S-BOUNDARY) (1 V) ;
 
 SELECT Adj + Obl IF (-1 S-BOUNDARY) (1 COPULA) ;
 SELECT Adj + Obl IF (-2 Prep) (-1 Art) (1 N) ;
-SELECT Adj + $$GENDERCASENUMBER IF (1* N + $$GENDERCASENUMBER) ;
+SELECT Adj + $$GENDERCASENUMBER IF (1 N + $$GENDERCASENUMBER) ;
+SELECT Adj + $$GENDERCASENUMBER IF (-1 N + $$GENDERCASENUMBER) ;
+SELECT Adj + $$GENDERCASENUMBER IF (-2 N + $$GENDERCASENUMBER) (-1 Adv) ;
+
 
 # Conjunction disambiguation
 # ------------------------
@@ -325,6 +336,11 @@ SELECT CC IF (-1 CLB) ;
 SELECT CS IF (0 Que) (-1 MWC) ;
 SELECT Que + CS IF (NOT -1 CLB) ;
 
+# Numeral disambiguation
+# ------------------------
+
+SELECT Num IF (1 TIME + Pl) ;
+SELECT N + Pl IF (-1 Num) (0 TIME) ;
 
 SECTION
 # Things that have to go after the first things
@@ -341,9 +357,11 @@ SELECT N + $$GENDERCASENUMBER IF (-2 Art + $$GENDERCASENUMBER) (-1 Adj + $$GENDE
 SELECT N + $$GENDERCASENUMBER IF (-1 Adj + $$GENDERCASENUMBER) ;
 SELECT V + Sbjv IF (-1 Que) ;
 SELECT V + Sbjv IF (-1 Nom) (-2 Que) ;
+SELECT Adv + Emph IF (1 Adj) ;
 
 SECTION
 # If you still have options....
 
 SELECT Prep ;
 SELECT Adj + MascFem ; # Avoid neuter if possible
+SELECT Prop + Sg ; # Proper nouns are usually singular
