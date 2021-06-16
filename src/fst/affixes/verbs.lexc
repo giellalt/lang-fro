@@ -424,6 +424,7 @@ LEXICON Faire
 +V+Part+Past:fait PartEndings ;
 +V+Part+Past:feit PartEndings ;
 +V+Part+Past:fe%{T%} PartEndings ;
++V+Part+Past:fi%{T%} PartEndings ;
 +V+Part+Past:faict PartEndings ;
 
 +V+1s+Pres+Ind:faz # ;
@@ -445,7 +446,7 @@ LEXICON Faire
 :fi PerfStSBasic ;
 +V+1s+Perf+Ind:fi # ;
 +V+1s+Perf+Ind:fe # ;
-+V+3s+Perf+Ind:fesist # ;
++V+3s+Perf+Ind:fit # ; ! Also Ipfv Sbjv?
 +V+3p+Perf+Ind:fisent # ;
 +V+3p+Perf+Ind:fesent # ;
 +V+3p+Perf+Ind:firent # ;
@@ -1401,6 +1402,39 @@ LEXICON Boivre
 +V+2s+Pres+Imp:boif # ;
 +V+1p+Pres+Imp:bevons # ;
 +V+2p+Pres+Imp:bevez # ;
+
+LEXICON Croire
++V+Inf:cro%{I%}re # ;
++V+Inf:creidre # ;
++V:cro%{I%} PresPart ;
++V+Part+Past:creü%{T%} PartEndings ;
+
++V+1s+Pres+Ind:cro%{I%} # ;
++V+2s+Pres+Ind:cro%{I%}s # ;
++V+3s+Pres+Ind:cro%{I%}t # ;
++V+1p+Pres+Ind:creons # ;
++V+1p+Pres+Ind:cro%{I%}ns # ;
++V+2p+Pres+Ind:creez # ;
++V+2p+Pres+Ind:cro%{I%}ez # ;
++V+3p+Pres+Ind:cro%{I%}ent # ;
+
+:cru PerfStUS ;
+:cre PerfStUU ;
+:cro%{I%} IpfvInd ;
+:crer FutInd ;
+:croir FutInd ;
+
+:croiss PresSubj ;
+:cro%{I%} PresSubj ;
+:cre IpfvSubjStU ;
+:croir Conditional ;
+
++V+2s+Pres+Imp:croi%{I%} # ;
++V+1p+Pres+Imp:cro%{I%}ons # ;
++V+1p+Pres+Imp:creons # ;
++V+2p+Pres+Imp:cro%{I%}ez # ;
++V+2p+Pres+Imp:creez # ;
+
 
 LEXICON Falloir ! Present forms are used here. Still figuring out faillir vs falloir
 +V+3s+Pres+Ind:faut # ;

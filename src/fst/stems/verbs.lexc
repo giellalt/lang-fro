@@ -48,6 +48,7 @@ cosdre:cosd RegRe   "to sew" ;
 coutumer:coutum RegEr   "to get used to" ;
     coutumer:coustum RegEr   "to get used to" ;
 covrir:covr RegIr   "to cover" ;
+croire: Croire      "to believe" ;
 cuidier:cuid RegIer "to think, to believe" ;
     cuidier+V+1s+Pres+Ind:cuit # ;
 curer:cur RegEr     "to be concerned about, to treat" ;

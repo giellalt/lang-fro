@@ -68,6 +68,7 @@ leial Adj3 "loyal" ;
 lequel Adj1 "which" ;
 lonc: Lonc "long" ;
 luisant:luisan%{T%} Adj3 "bright" ;
+magne Adj1 "powerful, magnificent" ; ! Verify
 maint Adj1 "many" ; ! Indefinite?
 mal Adj1 "evil, disaster, illness" ;
 mieux: Mieux "better" ;

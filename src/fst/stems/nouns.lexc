@@ -15,6 +15,11 @@ acheison FC2 "motive, reason" ;
 acier MC1a "steel" ;
 acor MC1a "tail/flap of cloak or mantle" ;
 Adam PropMasc "Adam" ;
+age MC1a "age" ;
+    age:âge MC1a "age" ;
+    age:aage MC1a "age" ; ! Also FC1?
+    age:eage MC1a "age" ;
+    age:aige MC1a "age" ;
 aé MC1a "age" ;
 Alemaigne PropFem "Germany" ;
 Alixandre+Prop:Alixandr MC2 "Alexander" ;
@@ -322,7 +327,9 @@ habitant:habitan%{T%} MC1a "habitant" ; ! Separate adj form?
 haut MC1a "height" ;
     haut:hault MC1a "height" ;
 Henri+Prop:Henri MC1a "Henry" ;
-heure FC1 "hour" ;
+heritage:%{H%}eritage MC1a "inheritance, heritage" ; ! Also FC1?
+heure:%{H%}eure FC1 "hour" ;
+    heure:ure FC1 "hour" ;
 hom:hom%>e MC1a "man" ;
     hom:om%>e MC1a "man" ;
     hom:hom%> MC1a "man" ;
@@ -472,6 +479,8 @@ nuit FC2 "night" ;
 office:office FC1 "office, function, role, position" ;
     office:office MC1a "office, function, role, position" ;
 ome MC3 ;
+oppinion FC2 "opinion, way of thinking" ;
+    oppinion:opinion FC2 "opinion, way of thinking" ;
 or MC1a "gold" ; ! Check class
 Orléans PropFem "Orleans region" ; ! Verify gender
 ost:os%{T%} MC1a "army" ;
@@ -498,6 +507,7 @@ Pasques PropMasc "Passover, Easter" ;
     Pasques PropFem "Passover, Easter" ;
 pastor MC3 "shepherd" ;
     pastor+N+Masc+Nom+Sg:pastre # "shepherd" ;
+pasturage MC1a "battlefield, right to graze" ;
 Paul PropMasc "Paul" ;
     Paul+Prop:Pol MC1a "Paul" ;
 pechie:pechié%{T%} FC2 "sin" ;
@@ -519,6 +529,7 @@ pitié:pitié%{T%} FC2 "pity, piety" ;
 place FC1 "place, city, land, location, urban center" ;
 plaie FC1 "injury, danger" ; ! Also female sex organs?
 Pollinicés PropMasc "Pollinicés" ;
+pont:pon%{T%} MC1a "bridge" ; ! Also a form of poindre?
 porc:porc%> MC1a "pig, pork" ;
 port:por%{T%} MC1a "door" ;
 porte FC1 "door" ;
@@ -631,6 +642,14 @@ Trinité:trinité%{T%} PropFem "the Trinity" ;
     Trinité:triniteit PropFem "the Trinity" ;
 Tristran PropMasc "Tristran" ;
     Tristran:Tristan PropMasc "Tristran" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!-------------------------------------U---------------------------------------!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+us NIndecM "habit, usage" ;
+usage MC1a "usage, act of using something, employment of other, behavior, customs, habits" ;
+ustil MC1a "tool" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------V---------------------------------------!

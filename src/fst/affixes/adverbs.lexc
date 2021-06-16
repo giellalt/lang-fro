@@ -1,5 +1,6 @@
 LEXICON Negation
 +Adv+Neg+Stress:on # ;
++Adv+Neg+Stress:un # ;
 +Adv+Neg+Unstress:e # ;
 +Adv+Neg+Unstress:en # ;
 
@@ -8,6 +9,9 @@ LEXICON Pas
 
 LEXICON BaseAdv
 +Adv:0 # ;
+
+LEXICON EmphAdv
++Adv+Emph:0 # ;
 
 LEXICON OptionalS
 +Adv:0 # ;
@@ -32,6 +36,7 @@ LEXICON CommeAdv
 
 !!€gt-norm: Adverbs
 !!€ non:    ne+Adv+Neg+Stress
+!!€ nun:    ne+Adv+Neg+Stress
 !!€ jamais: jamais+Adv+Neg
 !!€ ainc:   ainc+Adv
 !!€ einc:   ainc+Adv
