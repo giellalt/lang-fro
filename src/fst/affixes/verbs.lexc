@@ -156,7 +156,9 @@ LEXICON PresSubj
 +V+2s+Pres+Sbjv:es # ;
 +V+3s+Pres+Sbjv:e%{T%} # ;
 +V+1p+Pres+Sbjv:ons # ;
++V+1p+Pres+Sbjv:iens # ;
 +V+2p+Pres+Sbjv:ez # ;
++V+2p+Pres+Sbjv:iez # ;
 +V+3p+Pres+Sbjv:ent # ;
 
 LEXICON Imperative
@@ -1102,6 +1104,7 @@ LEXICON Valoir
 +V+1s+Pres+Ind:val # ;
 +V+2s+Pres+Ind:vals # ;
 +V+3s+Pres+Ind:valt # ;
++V+3s+Pres+Ind:vaut # ;
 +V+3s+Pres+Ind:vault # ;
 +V+1p+Pres+Ind:val%>ons # ;
 +V+1p+Pres+Ind:vaillons # ;
@@ -1435,6 +1438,36 @@ LEXICON Croire
 +V+2p+Pres+Imp:cro%{I%}ez # ;
 +V+2p+Pres+Imp:creez # ;
 
+LEXICON Gesir
++V+Inf:gesir # ;
++V+Inf:gisir # ;
++V:ges PresPart ;
++V:gis PresPart ;
++V+Part+Past:geü PartEndings ;
+
++V+1s+Pres+Ind:gis # ;
++V+2s+Pres+Ind:gis # ;
++V+3s+Pres+Ind:gist # ;
++V+1p+Pres+Ind:gisons # ;
++V+2p+Pres+Ind:gisiez # ;
++V+3p+Pres+Ind:gisent # ;
+
+:ju PerfStUS ;
+:ge PerfStUU ;
+:ges IpfvInd ;
+:gis IpfvInd ;
+:gerr FutInd ;
+:girr FutInd ;
+
+:gis PresSubj ;
+:ge IpfvSubjStU ;
+IpfvSubjWkA ;
+:gerr Conditional ; ! Verify
+:girr Conditional ; ! Verify
+
++V+2s+Pres+Imp:gis # ;
++V+1p+Pres+Imp:gisons # ;
++V+2p+Pres+Imp:gisiez # ;
 
 LEXICON Falloir ! Present forms are used here. Still figuring out faillir vs falloir
 +V+3s+Pres+Ind:faut # ;

@@ -169,6 +169,11 @@ LEXICON MascAdjForm
 +Adj+Masc+Nom+Pl: # ;
 +Adj+Masc+Obl+Pl: # ;
 
+LEXICON FemAdjForm
++Adj+Fem+Nom+Sg: # ;
++Adj+Fem+Obl+Sg: # ;
++Adj+Fem+Nom+Pl: # ;
++Adj+Fem+Obl+Pl: # ;
 
 LEXICON Lonc
 +Adj+Masc+Nom+Sg:lonc%>s # "long" ;
@@ -211,6 +216,12 @@ LEXICON Nouveau
 +Adj+Masc+Nom+Pl:nouveau # ;
 +Adj+Masc+Nom+Pl+Gram/Liason:nouvel # ;
 +Adj+Masc+Obl+Pl:nouveaux # ;
+
+
++Adj+Fem+Nom+Sg:novel%>e # ;
++Adj+Fem+Obl+Sg:novel%>e # ;
++Adj+Fem+Nom+Pl:novel%>es # ;
++Adj+Fem+Obl+Pl:novel%>es # ;
 
 +Adj+Fem+Nom+Sg:nouvel%>e # ;
 +Adj+Fem+Obl+Sg:nouvel%>e # ;

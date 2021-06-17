@@ -8,6 +8,7 @@ autre Adj2 "other, another" ;
     autre:altre Adj2 "other, another" ;
     autre:aultre Adj2 "other, another" ;
 avenant Adj3 "attractive" ;
+bas Adj1 "low, base, lowly" ;
 bel Adj1 "dear, beloved, handsome" ;
     bel+Adj+Masc+Nom+Sg:beau # ; ! Other forms?
     bel+Adj+Masc+Nom+Sg:beu # ; ! Verify
@@ -60,17 +61,23 @@ haut Adj1 "exalted, high" ;
     haut:hault Adj1 "exalted, high" ;
 infernal Adj3 "infernal" ;
 jouvencel+Adj+Masc:jouvencel # "young" ; ! Verify
+lai Adj1 "not of the clergy, uneducated, secular" ;
+laid Adj1 "ugly, unsightly" ;
+    laid:lait Adj1 "ugle, unsightly" ;
 larc:lar CGe "large" ;
     larc:large Adj2 "large" ;
 las:las%> MascIndec "tired, exhausted" ;
 ledit: Ledit "the aforemonetioned" ;
 leial Adj3 "loyal" ;
 lequel Adj1 "which" ;
+lié Adj1 "happy" ;
 lonc: Lonc "long" ;
 luisant:luisan%{T%} Adj3 "bright" ;
 magne Adj1 "powerful, magnificent" ; ! Verify
 maint Adj1 "many" ; ! Indefinite?
 mal Adj1 "evil, disaster, illness" ;
+mauvais Adj1 "bad, evil, malicious, annoying" ;
+mi Adj1 "middle, half" ;
 mieux: Mieux "better" ;
 morel Adj3 "mortal" ;
 mort:mor%{T%} Adj1 "dead" ;
@@ -83,6 +90,7 @@ nouveau: Nouveau "new" ;
 nul: Nul "no, not any" ;
 pacient:pacien%{T%} Adj3 "patient" ;
 petit:peti%{T%} Adj1 "small, little" ;
+pis+Adj+Neut:pis # "worse, worst" ;
 plain Adj1 "full" ;
 ploros MascIndec "tearful" ;
 povre Adj2 "poor" ;
@@ -118,6 +126,7 @@ trenchant:trenchan%{T%} Adj3 "sharp" ;
 vaillant:vail%>an%{T%} Adj3 "valliant" ;
 vermeil:verme IlIlle "bright red, of wine" ;
 vert:ver%{T%} Adj1 "green" ;
+vierge FemAdjForm "virgin" ;
 vif:vi FV "alive" ;
 vil Adj3 "vile" ;
 voir Adj1 "true" ;

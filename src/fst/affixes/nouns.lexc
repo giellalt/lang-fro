@@ -157,13 +157,14 @@ LEXICON Pied
 +N+Masc+Obl+Pl:pies # ;
 
 LEXICON Monseigneur ! Verify forms
-+N+Fem+Nom+Sg:messire # ;
-+N+Fem+Obl+Sg:monseigneur # ;
-+N+Fem+Obl+Sg:monsegnor # ;
-+N+Fem+Obl+Sg:monseignor # ;
-+N+Fem+Obl+Sg:monsieur # ;
-+N+Fem+Nom+Pl:monseigneur # ;
-+N+Fem+Obl+Pl:messeigneurs # ;
++N+Masc+Nom+Sg:messire # ;
++N+Masc+Obl+Sg:monseigneur # ;
++N+Masc+Obl+Sg:monsegnor # ;
++N+Masc+Obl+Sg:monseignor # ;
++N+Masc+Obl+Sg:monsr # ; ! Check form
++N+Masc+Obl+Sg:monsieur # ;
++N+Masc+Nom+Pl:monseigneur # ;
++N+Masc+Obl+Pl:messeigneurs # ;
 
 ! vim: set ft=xfst-lexc:
 

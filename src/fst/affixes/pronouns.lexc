@@ -354,18 +354,29 @@ LEXICON Quel ! Rework this
 +Interr+Fem+Sg:quel%>e # ;
 +Interr+Fem+Pl:quel%>es # ;
 
-LEXICON Lequel ! Rework this
+LEXICON Lequel ! Rework this. Separate into multi-word forms?
 +Relative+Masc+Sg:lequel # ;
++Relative+Masc+Sg:duquel # ;
++Relative+Masc+Sg:auquel # ;
 +Relative+Masc+Pl:lesquels # ;
++Relative+Masc+Pl:desquels # ;
++Relative+Masc+Pl:auxquels # ;
 +Relative+Masc+Pl:lesqueulx # ;
 +Relative+Masc+Pl:lesquelx # ;
 +Relative+Fem+Sg:laquel%>e # ;
 +Relative+Fem+Pl:lesquel%>es # ;
++Relative+Fem+Pl:desquel%>es # ;
 +Interr+Masc+Sg:lequel # ;
++Interr+Masc+Sg:duquel # ;
++Interr+Masc+Sg:auquel # ;
 +Interr+Masc+Pl:lesquels # ;
++Interr+Masc+Pl:desquels # ;
++Interr+Masc+Pl:auxquels # ;
 +Interr+Masc+Pl:lesqueulx # ;
 +Interr+Fem+Sg:laquel%>e # ;
 +Interr+Fem+Pl:lesquel%>es # ;
++Interr+Fem+Pl:desquel%>es # ;
+
 
 LEXICON IndefPro
 +Pro+Adj+Indef+Nom+Sg:s # ;

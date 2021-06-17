@@ -50,6 +50,7 @@ ante FC1 "aunt, foster mother" ; ! separate meaning in Latin?
 antif MC1a "ancient man" ;
 aoust NIndecM "August (month)" ;
     aoust:août NIndecM "August (month)" ;
+arbre MC1a "tree, tree trunk, wood from a tree" ; ! Also FC1?
 arcevesque MC1a "archbishop" ;
 argent:argen%{T%} NIndecM "money, riches, silver" ; ! Verify gender
     argent:argens NIndecM "silver" ;
@@ -70,6 +71,8 @@ aversier MC1a "adversary, the devil" ;
 avesprer MC1a "nightfall, dusk" ;
 avis NIndecM "opinion" ;
 avoir MC1a "possessions, wealth" ;
+avril NIndecM "April" ;
+    avril:april NIndecM "April" ;
 Aymes+Prop:Aymon MC3 "Aymes" ;
     Aymes+Prop+N+Masc+Nom+Sg:Aymes # "Aymes" ;
 
@@ -105,6 +108,7 @@ Bougars PropMasc "Bougars de Valence" ;
 Bourgongne PropMasc "Bourgogne" ;
     Bourgongne:Bourgogne PropMasc "Bourgogne" ;
 brant:bran%{T%} MC1a "sword" ;
+bras NIndecM "arm" ;
 breton MC1a "inhabitant of Brittany" ;
 bricon MC3 "rogue, fool" ;
     bricon+N+Masc+Nom+Sg:bris # "rogue, fool" ;
@@ -164,6 +168,7 @@ compaignie FC1 "company, group" ;
 compaignon MC3 "companion" ;
     compaignon+N+Masc+Nom+Sg:compaing # "companion" ;
 compere:comper MC2 "friend, crony" ;
+confession FC2 "confession, recognition, proclamation" ;
 congié:congié%{T%} MC1a "leave, permission" ;
 conseil MC1a "opinion, advice, decision" ;
 conte MC3 "count" ;
@@ -202,16 +207,20 @@ cure FC1 "concern, care, attention" ;
 
 dame FC1 "lady" ;
 David PropMasc "David" ;
+décembre NIndecM "December" ;
 défens MC1a "defense, resistance" ;
     défens:déffens MC1a "defense, resistance" ;
     défens:déffense MC1a "defense, resistance" ;
     défens:défense MC1a "defense, resistance" ;
+demain MC1a "tomorrow" ;
 demande FC1 "claim, demand, wish, legal action, accusation" ;
 demourant NIndecM "one who remains" ;
 denier MC1a "small coin, monetary amount" ;
 Dieu: Dieu "god" ;
+dimenche NIndecM "Sunday" ;
 dol: Dol "suffering, pain, lamentation" ;
 dolor FC2 "sorrow" ;
+drap:drap%> MC1a "cover, cloth, clothing" ;
 droit:dreit MC1a "right, direction" ; ! Verify
 duc MC1a "duke" ;
     duc+N+Masc+Nom+Sg:dux # "duke" ;
@@ -247,6 +256,7 @@ Espaigne PropFem "Spain" ;
 espee FC1 "sword" ;
 esperance:espérance FC1 "hope, confident expectation, religious virtue of hope" ;
 estat:esta%{T%} MC1a "state of being, permanence, social standing, estate" ; ! Verify definition
+esté FC1 "summer" ;
 evangile:évangile MC1a "gospel, the Gospels, good news" ;
     evangile:evangille MC1a "gospel, the Gospels, good news" ;
     evangile:euvangile MC1a "gospel, the Gospels, good news" ;
@@ -269,6 +279,7 @@ fer MC1a "iron" ;
 feste FC1 "feast, holiday, celebration, religious solemnity" ;
 feu MC1a "fire" ;
     feu+N+Masc+Obl+Pl:feux # "fire" ; ! Also nom sg?
+février NIndecM "February" ;
 fil: Fil "son" ;
 fille:fil%>e FC1 "girl, daughter" ;
 fin FC2 "end" ;
@@ -294,6 +305,7 @@ frere:frer MC2 "brother" ;
     frere:frier MC2 "brother" ;
 fresne FC1 "ash tree" ;
 Fresne PropFem "Fresne, heroine of a lay by Marie de France" ;
+fruit:frui%{T%} MC1a "fruit" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------G---------------------------------------!
@@ -330,6 +342,7 @@ Henri+Prop:Henri MC1a "Henry" ;
 heritage:%{H%}eritage MC1a "inheritance, heritage" ; ! Also FC1?
 heure:%{H%}eure FC1 "hour" ;
     heure:ure FC1 "hour" ;
+hiver:%{H%}%{I%}ver NIndecM "winter" ; ! MC1a?
 hom:hom%>e MC1a "man" ;
     hom:om%>e MC1a "man" ;
     hom:hom%> MC1a "man" ;
@@ -359,10 +372,13 @@ item MC1a "individual, article of an account" ;
 !-------------------------------------J---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+janvier NIndecM "January" ;
+    janvier:jannuer NIndecM "January" ;
 Jehan+Prop:Jehan MC1a "Jehan" ;
 Jehannin PropMasc "Jehannin" ;
 Jerusalem PropMasc "Jerusalem" ; ! Verify gender
     Jerusalem:Jherusalem PropMasc "Jerusalem" ; ! Verify gender
+jeudi NIndecM "Thursday" ;
 Jhesu PropMasc "Jesus" ;
     Jhesu:Jhesus PropMasc "Jesus" ;
     Jhesu:Jesu PropMasc "Jesus" ;
@@ -379,6 +395,11 @@ jor MC1a "day" ;
 jouvencel MC1a "young man" ;
 Jouvencel PropMasc "Jouvencel (title? name?)" ;
 jugement MC1a "judgement" ;
+juillet NIndecM "July" ;
+    juillet:jul%>et NIndecM "July" ;
+juin NIndecM "June" ;
+    juin:jun NIndecM "June" ;
+    juin:juing NIndecM "June" ; ! FIXME: Palatal Nasal
 justice FC1 "justice, virtue, divine righteousness" ;
     justice:justise FC1 "justice, virtue, divine righteousness" ;
 
@@ -387,6 +408,8 @@ justice FC1 "justice, virtue, divine righteousness" ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 lai MC1a "lay (poem)" ; ! Verify
+lait NIndecM "milk" ; ! MC1a?
+    lait:let NIndecM "milk" ;
 lance FC1 "lance (weapon)" ;
 larron MC3 "thief" ;
     larron+N+Masc+Nom+Sg:lerre # "thief" ;
@@ -406,11 +429,13 @@ lit MC1a "bed" ;
     lit+N+Masc+Obl+Pl:liz # ;
 livre:livr MC2 "book" ;
 los MC1a "praise, glory, reputation" ;
+lundi NIndecM "Monday" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------M---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+mai NIndecM "May (month)" ;
 main FC2 "hand" ;
 maison FC2 "house" ;
 maistre:maistr MC2 "master" ;
@@ -420,24 +445,35 @@ mal MC1a "evil, harm, misfortune, illness" ;
     mal+N+Masc+Obl+Pl:maus # "evil, harm, misfortune, illness" ; ! alternate form
 maladie FC1 "disease, sickness, deterioration of health" ;
 manière FC1 "manner, way, intention" ;
+mardi NIndecM "Tuesday" ;
+    mardi:maredi NIndecM "Tuesday" ;
 mari:mar%{I%} MC1a "husband" ;
 mariage MC1a "marriage" ;
 Marie PropFem "Mary" ;
+mars NIndecM "March" ;
+    mars:march NIndecM "March" ;
+Mars PropMasc "Mars (planet), Mars (Roman god of war)" ;
 Martin PropMasc "Martin" ;
 matin MC1a "morning" ;
-Mercredi PropMasc "Wednesday" ;
+mengier MC1a "meal" ;
+mercredi NIndecM "Wednesday" ;
 merveille FC1 "marvel, wonder" ;
     merveille:merveille MC1a "marvel, wonder" ;
 mer FC2 "sea" ;
+    mer:mar FC2 "sea" ;
 merci:merc%{I%}%{T%} FC2 "mercy" ;
 mere FC1 "mother" ;
+message MC1a "messenger, message" ;
+    message:mesage MC1a "messenger, message" ;
 mestier MC1a "job, occupation" ;
     mestier:métier MC1a "job, occupation" ;
 mesure FC1 "evaluation, measure, status, layout" ; ! Verify definition
+mi NIndecM "middle, midst" ; ! MC1a?
 Michiel PropMasc "Michael" ;
     Michiel:Michel PropMasc "Michael" ;
 miséricorde FC1 "pity, mercy, compassion" ;
 mois:mo%{I%}s NIndecM "month" ;
+moitié FC1 "middle, half" ; ! NIndecF?
 monde MC1a "world" ;
     monde:monte MC1a "world" ;
     monde+Err/Obsc:mont MC1a "world" ; ! mont is usually a form of "mountain"
@@ -469,13 +505,17 @@ Noël PropFem "Christmas" ;
     Noël PropMasc "Christmas" ;
 nom: Nom "name" ;
 nombre:nombr MC2 "number" ;
-novele:nouvel%>e FC1 "news" ;
+novele:novel%>e FC1 "news" ;
+    novele:nouvel%>e FC1 "news" ;
+novembre NIndecM "November" ;
 nuit FC2 "night" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------O---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+octobre NIndecM "October" ;
+    octobre:ottobre NIndecM "October" ;
 office:office FC1 "office, function, role, position" ;
     office:office MC1a "office, function, role, position" ;
 ome MC3 ;
@@ -495,7 +535,10 @@ pais:païs NIndecM "country" ;
     pais:pays NIndecM "country" ;
 paix NIndecF "peace" ;
 palais NIndecM "palace" ;
-paor FC2 "fear" ;
+paor FC2 "fear" ; ! esp. "avoir paor"
+    paor:paour FC2 "fear" ; ! esp. "avoir paor"
+    paor:peur FC2 "fear" ; ! esp. "avoir paor"
+pape MC1a "pope" ;
 parastre:parastr MC2 "stepfather" ;
 Paris PropMasc "Paris" ; ! Verify gender
 parlement MC1a "act of speaking, deliberation, debate, parliament" ;
@@ -525,6 +568,7 @@ pierre FC1 "stone, prison" ;
 Pierre+Prop:Perron MC3 "Peter" ;
     Pierre+Prop+N+Masc+Nom+Sg:Pierre # "Peter" ;
     Pierre+Prop+N+Masc+Nom+Sg:Pierres # "Peter" ;
+pis NIndecM "chest (seat of the heart)" ;
 pitié:pitié%{T%} FC2 "pity, piety" ;
 place FC1 "place, city, land, location, urban center" ;
 plaie FC1 "injury, danger" ; ! Also female sex organs?
@@ -593,6 +637,9 @@ rue FC1 "road, path" ;
 
 sains NIndecM "bells" ;
 saison FC2 "season" ;
+semaine:semain%>e FC1 "week" ;
+    semaine:septmain%>e FC1 "week" ;
+samedi:sem%>edi NIndecM "Saturday" ;
 Samuel PropMasc "Samuel" ; 
 sanc MC1a "blood" ;
     sanc:sang MC1a "blood" ;
@@ -610,6 +657,7 @@ serment MC1a "oath" ;
 serour FC3 ;
 service MC1a "submission, service, obligation to serve" ;
     service:servise MC1a "submission, service, obligation to serve" ;
+signe MC1a "sign" ;
 siecle MC1a "earthly life, world" ;
     siecle:secle MC1a "earthly life, world" ;
     siecle:seule MC1a "earthly life, world" ;
@@ -627,12 +675,14 @@ tens NIndecM "time, times, weather" ;
 terme MC1a "term, appointed time, limit" ;
 terre FC2 "earth" ;
     terre:tere FC2 "earth" ;
+testament MC1a "will (bequeathing), alliance between God and man" ;
 teste FC1 "head" ;
 Thebes PropMasc "Thebes" ;
 Thideüs PropMasc "Thideus" ;
 Thomas PropMasc "Thomas" ;
 tor FC2 "tower" ;
     tor:torn FC2 "tower" ;
+    tor:tour FC2 "tower" ; ! Other definitions?
 tort:tor%{T%} MC1a "wrong" ;
 tot+N: Tot "all" ;
 traïson FC2 "treason" ;
@@ -657,7 +707,9 @@ ustil MC1a "tool" ;
 
 Valence PropFem "region of Valence (Valencia?)" ; ! Verify gender
 valor FC2 "worth" ;
+vendredi NIndecM "Friday" ;
 vent MC1a "wind" ;
+ventre MC1a "stomach, belly, interior" ;
 verdier MC1a "officer in charge of forest estate, gardener" ;
 verité:verité%{T%} FC2 "truth" ;
 vers NIndecM "verse, song" ;
@@ -668,6 +720,8 @@ vertjus NIndecM "juice from unripe grapes" ;
 vertu:vertu%{T%} FC2 "force, virtue" ;
 vespre:vespr MC2 "evening" ;
 vie FC1 "life" ;
+vierge FC1 "virgin" ;
+Vierge PropFem "the Virgin (Mary)" ;
 vile:vil%>e FC1 "town, villa, farm" ;
 voie FC1 "way, path" ;
 voir MC1a "truth" ;

@@ -29,10 +29,12 @@ apres BaseAdv "after" ;
 arrier OptionalS "behind, backwards" ;
     arrier:arriere OptionalS "behind, backwards" ;
 assez BaseAdv "enough" ;
+    assez:assés BaseAdv "enough" ;
 atant BaseAdv "thereupon, at that moment" ;
 aussi BaseAdv "also, likewise" ;
     aussi:ausi BaseAdv "also, likewise" ;
     aussi:assi BaseAdv "also, likewise" ;
+    aussi:alsi BaseAdv "also, likewise" ;
 aval BaseAdv "to the valley, down" ;
 avant BaseAdv "forward" ; ! davant = alternate form?
 bien BaseAdv "well, many, much, really" ;
@@ -52,6 +54,7 @@ combien InterrAdv "how much" ;
 comment:com%>ent InterrAdv "how" ;
 court BaseAdv "quickly" ;
 dehors BaseAdv "outside" ;
+demain BaseAdv "tomorrow" ;
 donc BaseAdv "therefore, so" ;
     donc:dunc BaseAdv "therefore, so" ;
     donc:donques BaseAdv "therefore, so" ;
@@ -60,6 +63,7 @@ droit:dreit BaseAdv "right, directly" ;
 encore OptionalS ;
     encore:encor OptionalS ;
 ensemble BaseAdv "together" ;
+ensement BaseAdv "likewise, in this way, as well as, just like" ;
 environ BaseAdv "about, around" ; ! + "de" = adverbial preposition
 enz BaseAdv "inside" ;
 espoir BaseAdv "perhaps, hopefully" ;
@@ -115,6 +119,7 @@ outre BaseAdv "beyond" ; ! Verify. Autre?
 peu BaseAdv "small amount, weakly" ;
     peu:pou BaseAdv "small amount, weakly" ; ! Other definititions?
 piece BaseAdv "('grant piece') for a long while" ;
+pis BaseAdv "worse, the worst" ;
 plus BaseAdv "more" ;
 porquoi InterrAdv "why" ;
     porquoi:por#quoi InterrAdv "why" ;

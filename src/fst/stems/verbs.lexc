@@ -63,6 +63,7 @@ deignier:deign RegIer "to deign" ;
 demander:demand RegEr "to ask, to demand" ; ! Verify
 demourer:demour RegEr "to stay, to remain" ;
     demourer:demeur RegEr "to stay, to remain" ;
+departir:depar%{T%} RegIr "to split, to devide, to separate, to share, to distribute" ;
 deraisnier:deraisn RegIer "to argue" ;
 devoir: Devoir      "should, ought to, need to, must" ;
 dire: Dire          "to say" ;
@@ -103,6 +104,7 @@ former:form RegEr   "to create" ;
 gaver:gab   RegEr   "to joke" ;
 garder:gard RegEr   "to guard" ;
 garir:gar RegIr     "to save, to heal" ;
+gesir: Gesir        "to lie down" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------H---------------------------------------!
@@ -129,6 +131,7 @@ laissier:laiss RegIer "to leave, to let" ;
 lancer:lanc%> RegEr   "to launch" ;
 laver:lav   RegEr   "to wash" ;
 lever:lev   RegEr   "to lift, to rise" ; ! Check for irregulars
+lier:lïe    RegEr   "tied, fastened" ;
 lire: Lire          "to read" ;
 livrer:livr RegEr   "to deliver, to hand over" ;
 
@@ -137,9 +140,13 @@ livrer:livr RegEr   "to deliver, to hand over" ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 mander:mand RegEr   "to order, to announce, to summon, to send" ;
-mangier:mang%{G%} RegIer "to eat" ;
+mangier:meng%{G%} RegIer "to eat" ;
+    mangier+V+Inf:menger # ;
+    mangier:menger FutInd ;
+    mangier:mengi PastPart ;
 mener:men RegEr     "to lead, to conduct" ;
 merveiller:merveill RegEr "to marvel, to wonder, to be astonished" ;
+mesdire:mes Dire    "to slander" ;
 mesurer:mesur RegEr "to measure" ;
 metre: Metre        "to place" ;
 morir: Morir        "to die" ;
@@ -165,6 +172,7 @@ oïr: Oïr            "to hear" ;
     oïr:od RegIr    "to hear" ; ! Check. Just the irregular form?
 ordonner:ordonn RegEr "to order, to ordain" ;
     ordonner:orden RegEr "to order, to ordain" ;
+oster:ost RegEr     "to get out of, to free from, to take away, to remove" ;
 otroier:otro RegIer "to grant" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -199,6 +207,7 @@ querre: Querre     "to seek" ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 receivre: Receivre  "to receive" ;
+regarder:regard RegEr "to look at, to regard, to watch" ;
 rendre:rend RegRe   "to give, to give up, to return" ;
 requerre:re Querre  "to look for, to ask, to question" ;
 respondre:respond RegRe "to reply, to respond" ;
@@ -242,5 +251,5 @@ vivre: Vivre        "to live" ;
 voloir: Voloir      "to want, to desire" ;
 
 
-!! Add: doloir, rire, trover
+!! Add: doloir, rire, trover, asseoir
 !! conduire, criembre, tordre, boivre

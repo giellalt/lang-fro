@@ -250,11 +250,11 @@ o:u => \%>: _ e:e ;
 "c pronounced [s] becomes ç before o/a"
 c:ç <=> _ %> :o|:a ;
 
-"Soft g is written as g unless before soft vowels"
-%{G%}:0 <=> _ SoftVow ; 
+"Soft g is written as g  before soft vowels"
+%{G%}:0 <=> _ :SoftVow ; 
 
 "Soft g is written as ge before hard vowels"
-%{G%}:e <=> _ HardVow ;
+%{G%}:e <=> _ :HardVow ;
 
 !!! SPELLING RULES !!!!
 ! These were originally in spellrelax.regex, but were moved here to make
