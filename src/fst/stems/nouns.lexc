@@ -104,6 +104,7 @@ beste FC1 "animal, beast" ; ! Adjectival form?
 bien MC1a "good, goodness" ;
 bofu MC1a "silk, material stitched with gold thread" ;
 bois NIndecM "woods" ;
+bonté FC1 "that which is good, goodness, kindness" ;
 bouche FC1 "mouth" ;
 Bougars PropMasc "Bougars de Valence" ;
 Bourgongne PropMasc "Bourgogne" ;
@@ -217,6 +218,8 @@ demain MC1a "tomorrow" ;
 demande FC1 "claim, demand, wish, legal action, accusation" ;
 demourant NIndecM "one who remains" ;
 denier MC1a "small coin, monetary amount" ;
+désir MC1a "desire, wish, asperation, envy, desired thing" ;
+    désir:désire MC1a "desire, wish, asperation, envy, desired thing" ;
 Dieu: Dieu "god" ;
 dimenche NIndecM "Sunday" ;
 dol: Dol "suffering, pain, lamentation" ;
@@ -290,6 +293,7 @@ feste FC1 "feast, holiday, celebration, religious solemnity" ;
 feu MC1a "fire" ;
     feu+N+Masc+Obl+Pl:feux # "fire" ; ! Also nom sg?
 février NIndecM "February" ;
+fiance FC1 "confidence, trust, that which can be relied on" ;
 fil: Fil "son" ;
 fille:fil%>e FC1 "girl, daughter" ;
 fin FC2 "end" ;
@@ -311,6 +315,7 @@ francais NIndecM "frenchman" ;
     francais+N+Masc+Nom+Sg:frans # "frenchman, crusader" ;
     francais+N+Masc+Obl+Pl:frans # "frenchman, crusader" ;
 France PropFem "France" ;
+franchise FC1 "freedom, rights, priveleges, nobility, righteousness" ;
 frere:frer MC2 "brother" ;
     frere:frier MC2 "brother" ;
 fresne FC1 "ash tree" ;
@@ -352,6 +357,7 @@ Henri+Prop:Henri MC1a "Henry" ;
 heritage:%{H%}eritage MC1a "inheritance, heritage" ; ! Also FC1?
 heure:%{H%}eure FC1 "hour" ;
     heure:ure FC1 "hour" ;
+    heure:ore FC1 "hour" ;
 hiver:%{H%}%{I%}ver NIndecM "winter" ; ! MC1a?
 hom:hom%>e MC1a "man" ;
     hom:om%>e MC1a "man" ;
@@ -433,6 +439,8 @@ leu MC1a "place (literal or figurative)" ; ! Other possible meanings of word for
 lez MC1a "side, flank" ;
 lieu MC1a "place" ;
 lieutenant MC1a "second in command, lieutenant" ;
+lignage MC1a "lineage, blood relation, family tie" ; ! FIXME: Palatal nasal
+    lignage:linage MC1a "lineage, blood relation, family tie" ;
 lion MC1a "lion" ;
 lit MC1a "bed" ;
     lit+N+Masc+Nom+Sg:liz # ;
@@ -524,7 +532,7 @@ nombre:nombr MC2 "number" ;
 novele:novel%>e FC1 "news" ;
     novele:nouvel%>e FC1 "news" ;
 novembre NIndecM "November" ;
-nuit FC2 "night" ;
+nuit:nu%{I%}%{T%} FC2 "night" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------O---------------------------------------!
@@ -668,6 +676,8 @@ sec NIndecM "dryness, lack of humidity" ; ! Verify
 seignor: Seignor "lord" ;
 sen MC1a "judgement, discernment, way of being, direction" ;
 sens MC1a "senses" ; ! Also a form of sentir
+sentence FC1 "judgement, decision" ;
+    sentence:sentense FC1 "judgement, decision" ;
 septembre NIndecM "September" ;
     septembre:setembre NIndecM "September" ;
 sergent:sergen%{T%} MC1a "servant" ;
@@ -710,6 +720,7 @@ tot+N: Tot "all" ;
 traïson FC2 "treason" ;
 traïtor MC3 "traitor" ;
     traïtor+N+Masc+Nom+Sg:traïtre # "traitor" ;
+trésor MC1a "wealth, costly posessions, treasure" ;
 Trinité:trinité%{T%} PropFem "the Trinity" ;
     Trinité:triniteit PropFem "the Trinity" ;
 Tristran PropMasc "Tristran" ;
@@ -751,6 +762,7 @@ voir MC1a "truth" ;
 voiz NIndecF "voice" ;
 volenté:volenté%{T%} FC2 "will" ;
     volenté:voulenté%{T%} FC2 "will" ;
+voult:voul%{T%} MC1a "face, image, symbolic object" ; ! Other forms?
 vue FC1 "sight, vision" ; ! Veue also, or just as a past participle of veoir?
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

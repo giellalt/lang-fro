@@ -1,0 +1,18 @@
+LEXICON Interjections
+ah:a%{H%} Intj "Ah (joy, pain)! / Yes (reinforcing)!" ;
+ahai:%{H%}ahai Intj "Help!" ;
+aïe Intj "Ouch!" ;
+    aïe:ai Intj "Ouch!" ;
+aimi Intj "Poor me!" ;
+amen Intj "Amen! / Truly!" ;
+ha Intj "Ah!" ;
+has Intj "Alas!" ;
+hay Intj "Onwards! / Ouch!" ;
+hé Intj "Hey! / Alas! (Warning, attracting attention" ;
+helas Intj "Alas!" ;
+las Intj "Alas!" ;
+lasse Intj "Woe is me! / Weary one! / Unfortunate one!" ;
+
+
+LEXICON Intj
++Intj: # ;

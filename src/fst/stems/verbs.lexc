@@ -29,6 +29,7 @@ avoir: Avoir        "to have" ;
 !-------------------------------------B---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+beneïstre: Beneïstre        "to bless" ;
 boivre: Boivre      "to drink" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -67,6 +68,8 @@ demourer:demour RegEr "to stay, to remain" ;
     demourer:demeur RegEr "to stay, to remain" ;
 departir:depar%{T%} RegIr "to split, to devide, to separate, to share, to distribute" ;
 deraisnier:deraisn RegIer "to argue" ;
+désirer:désir RegEr "to desire the presence of someone/something, to mourn a death" ;
+devenir:dev Xenir   "to become, to start to be _" ;
 devoir: Devoir      "should, ought to, need to, must" ;
 dire: Dire          "to say" ;
 disner:disn RegEr   "to dine" ;
@@ -100,6 +103,7 @@ faire: Faire        "to make, to do, to say" ;
 falloir: Falloir    "to be necessary" ;
 fenir:fen RegIr     "to end" ;
 ferir: Ferir        "to strike" ;
+fiancer:fianc RegEr "to commit, to promise" ;
 florir:flor RegIr   "to bloom" ;
 former:form RegEr   "to create" ;
 
@@ -135,6 +139,7 @@ jurer:jur RegEr     "to swear" ;
 
 laissier:laiss RegIer "to leave, to let" ;
 lancer:lanc%> RegEr   "to launch" ;
+lasser:lass RegEr   "to make tired, to become tired" ;
 laver:lav   RegEr   "to wash" ;
 lever:lev   RegEr   "to lift, to rise" ; ! Check for irregulars
 lier:lïe    RegEr   "tied, fastened" ;
@@ -169,6 +174,7 @@ nier:nï RegEr       "to deny" ; ! RegIer?
 nomer:nom   RegEr   "to name" ;
     nomer:nomm RegEr "to name" ;
 noncier:nonc RegIer "to announce" ;
+nuire:nu%{I%} RegRe     "to harm" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------O---------------------------------------!

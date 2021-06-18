@@ -12,7 +12,9 @@ bas Adj1 "low, base, lowly" ;
 bel Adj1 "dear, beloved, handsome" ;
     bel+Adj+Masc+Nom+Sg:beau # ; ! Other forms?
     bel+Adj+Masc+Nom+Sg:beu # ; ! Verify
+    bel+Adj+Masc+Nom+Sg:biaus # ; ! Other forms?
     bel+Adj+Masc+Obl+Pl:beaux # ; ! Other forms?
+    bel+Adj+Masc+Obl+Pl:biau # ; ! Verify
 blanc:blan CChe "white" ;
 bon Adj1 "good" ;
 breton Adj1 "from Brittany" ;
@@ -69,6 +71,7 @@ larc:lar CGe "large" ;
     larc:large Adj2 "large" ;
 las:las%> MascIndec "tired, exhausted" ;
 ledit: Ledit "the aforemonetioned" ;
+legier Adj1 "swift, agile, light" ;
 leial Adj3 "loyal" ;
 lequel Adj1 "which" ;
 lié Adj1 "happy" ;

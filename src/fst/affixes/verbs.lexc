@@ -449,7 +449,8 @@ LEXICON Faire
 :fi PerfStSBasic ;
 +V+1s+Perf+Ind:fi # ;
 +V+1s+Perf+Ind:fe # ;
-+V+3s+Perf+Ind:fit # ; ! Also Ipfv Sbjv?
++V+3s+Perf+Ind:fit # ;
++V+3s+Perf+Ind:feïst # ;
 +V+3p+Perf+Ind:fise%>nt # ; ! Not fisant
 +V+3p+Perf+Ind:fese%>nt # ; ! Not fesant
 +V+3p+Perf+Ind:fire%>nt # ; ! Not firant
@@ -470,6 +471,8 @@ LEXICON Faire
 
 :fe IpfvSubjStS ;
 :fer Conditional ;
++V+3s+Ipfv+Sbjv:feïst # ; ! Verify
++V+3s+Ipfv+Sbjv:fit # ; ! Verify
 
 +V+1s+Pres+Cond:ferais # ;
 +V+2s+Pres+Cond:ferais # ;
@@ -684,6 +687,7 @@ LEXICON Veoir
 
 LEXICON Voloir
 +V+Inf:voloir # ;
++V+Inf:vouloir # ;
 +V:vol PresPart ;
 +V:veill PresPart ;
 +V:vueill PresPart ;
@@ -718,6 +722,7 @@ LEXICON Voloir
 +V+2s+Perf+Ind:vols # ; ! Verify
 +V+2s+Perf+Ind:vous # ; ! Verify
 +V+3s+Perf+Ind:volt # ;
++V+3s+Perf+Ind:voult # ;
 +V+3s+Perf+Ind:vout # ;
 +V+1p+Perf+Ind:volimes # ;
 +V+2p+Perf+Ind:volistes # ;
@@ -1070,6 +1075,7 @@ LEXICON Plaire
 +V+2s+Pres+Ind:plais # ;
 +V+2s+Pres+Ind:pleis # ;
 +V+2s+Pres+Ind:ples # ;
++V+3s+Pres+Ind:plait # ;
 +V+2p+Pres+Ind:plaisiez # ;
 +V+2p+Pres+Ind:pleisiez # ;
 +V+2p+Pres+Ind:plesiez # ;
@@ -1468,6 +1474,49 @@ LEXICON Gesir
 +V+2s+Pres+Imp:gis # ;
 +V+1p+Pres+Imp:gisons # ;
 +V+2p+Pres+Imp:gisiez # ;
+
+LEXICON Beneïstre
++V+Inf:beneïstre # ;
++V+Inf:benir # ;
+! PresPart unknown
++V+Part+Past:beneei%{T%} PartEndings ;
++V+Part+Past:beneï%{T%} PartEndings ;
+
++V+1s+Pres+Ind:benei # ;
++V+1s+Pres+Ind:beneïs # ;
++V+2s+Pres+Ind:beneïs # ;
++V+3s+Pres+Ind:beneït # ;
++V+3s+Pres+Ind:beneïst # ;
++V+1p+Pres+Ind:beneïssons # ;
++V+2p+Pres+Ind:beneïssiez # ;
++V+3p+Pres+Ind:beneïsse%>nt # ;
+
+:bene PerfWkI ;
+:benesqu PerfWkI ;
+:beniss IpfvInd ;
+:beneïr FutInd ;
+:beneïstr FutInd ;
+
+:beneï PresSubj ;
+:beneïss PresSubj ;
+
++V+1s+Ipfv+Sbjv:beneïsse # ;
++V+2s+Ipfv+Sbjv:beneïsses # ;
++V+3s+Ipfv+Sbjv:beneïst # ;
++V+1p+Ipfv+Sbjv:beneïssiens # ;
++V+1p+Ipfv+Sbjv:beneïssons # ;
++V+2p+Ipfv+Sbjv:beneïssiez # ;
++V+2p+Ipfv+Sbjv:beneïsseiz # ;
++V+2p+Ipfv+Sbjv:beneïsse%>nt # ;
+
+
+:beneïr Conditional ; ! Verify
+:beneïss Conditional ; ! Verify
+
++V+2s+Pres+Imp:beneï # ;
++V+2s+Pres+Imp:beneïs # ;
++V+1p+Pres+Imp:beneïssons # ;
++V+2p+Pres+Imp:beneïssiez # ;
 
 LEXICON Falloir ! Present forms are used here. Still figuring out faillir vs falloir
 +V+3s+Pres+Ind:faut # ;

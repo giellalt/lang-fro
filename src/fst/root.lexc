@@ -55,6 +55,8 @@ avoir, estre ! Irregular verbs
 +Ord, +Card ! Ordinal, Cardinal
 +Roman ! Roman numeral
 
+!! Interjection Features
++Intj ! Interjection
 
 !! Archiphonemes
 %{T%} ! Silent t
@@ -85,3 +87,4 @@ Conjunctions ;
 Adjectives ;
 PrepPrefix ;
 Numerals ;
+Interjections ;
