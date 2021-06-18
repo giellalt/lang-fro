@@ -11,7 +11,7 @@ LEXICON RegEr
 +V+3s+Pres+Ind:et # ;
 +V+1p+Pres+Ind:ons # ;
 +V+2p+Pres+Ind:ez # ;
-+V+3p+Pres+Ind:ent # ;
++V+3p+Pres+Ind:e%>nt # ; ! Not ant
 
 PerfWkA ;
 IpfvInd ;
@@ -22,7 +22,7 @@ IpfvInd ;
 +V+3s+Pres+Sbjv:t # ;
 +V+1p+Pres+Sbjv:ons # ;
 +V+2p+Pres+Sbjv:ez # ;
-+V+3p+Pres+Sbjv:ent # ;
++V+3p+Pres+Sbjv:e%>nt # ; ! Not ant
 
 IpfvSubjWkA ;
 :er Conditional ;
@@ -41,10 +41,10 @@ LEXICON RegIer
 +V+3s+Pres+Ind:e # ;
 +V+1p+Pres+Ind:ons # ;
 +V+2p+Pres+Ind:iez # ;
-+V+3p+Pres+Ind:ent # ;
++V+3p+Pres+Ind:e%>nt # ; ! Not ant
 
 PerfWkA ;
-+V+3p+Perf+Ind:ierent # ;
++V+3p+Perf+Ind:iere%>nt # ; ! Not ant
 
 IpfvInd ;
 :ier FutInd ;
@@ -55,7 +55,7 @@ PresSubj ;
 +V+3s+Pres+Sbjv:t # ;
 +V+1p+Pres+Sbjv:ons # ;
 +V+2p+Pres+Sbjv:iez # ;
-+V+3p+Pres+Sbjv:ent # ;
++V+3p+Pres+Sbjv:e%>nt # ; ! Not ant
 
 IpfvSubjWkA ;
 :ier Conditional ;
@@ -75,7 +75,7 @@ LEXICON RegIr
 +V+3s+Pres+Ind:ist # ;
 +V+1p+Pres+Ind:issons # ;
 +V+2p+Pres+Ind:issez # ;
-+V+3p+Pres+Ind:issent # ;
++V+3p+Pres+Ind:isse%>nt # ; ! Not issant
 
 PerfWkI ;
 :iss IpfvInd ;
@@ -149,7 +149,7 @@ LEXICON PresInd
 +V+3s+Pres+Ind:%{T%} # ;
 +V+1p+Pres+Ind:ons # ;
 +V+2p+Pres+Ind:ez # ;
-+V+3p+Pres+Ind:ent # ;
++V+3p+Pres+Ind:e%>nt # ; ! Not ant
 
 LEXICON PresSubj
 +V+1s+Pres+Sbjv:e # ;
@@ -159,7 +159,7 @@ LEXICON PresSubj
 +V+1p+Pres+Sbjv:iens # ;
 +V+2p+Pres+Sbjv:ez # ;
 +V+2p+Pres+Sbjv:iez # ;
-+V+3p+Pres+Sbjv:ent # ;
++V+3p+Pres+Sbjv:e%>nt # ; ! Not ant
 
 LEXICON Imperative
 +V+2s+Pres+Imp:0 # ;
@@ -172,7 +172,7 @@ LEXICON IpfvInd
 +V+3s+Ipfv+Ind:eit # ;
 +V+1p+Ipfv+Ind:iiens # ;
 +V+2p+Ipfv+Ind:iiez # ;
-+V+3p+Ipfv+Ind:eient # ;
++V+3p+Ipfv+Ind:eie%>nt # ; ! Not eiant
 
 LEXICON FutInd
 +V+1s+Fut+Ind:ai # ;
@@ -189,7 +189,7 @@ LEXICON Conditional
 +V+3s+Pres+Cond:eit # ;
 +V+1p+Pres+Cond:iiens # ;
 +V+2p+Pres+Cond:iiez # ;
-+V+3p+Pres+Cond:eient # ;
++V+3p+Pres+Cond:eie%>nt # ; ! Not eiant
 
 LEXICON PerfWkA
 +V+1s+Perf+Ind:ai # ;
@@ -197,7 +197,7 @@ LEXICON PerfWkA
 +V+3s+Perf+Ind:a%{T%} # ;
 +V+1p+Perf+Ind:ames # ;
 +V+2p+Perf+Ind:astes # ;
-+V+3p+Perf+Ind:erent # ;
++V+3p+Perf+Ind:ere%>nt # ; ! Not erant
 
 LEXICON PerfWkI
 +V+1s+Perf+Ind:i # ;
@@ -205,7 +205,7 @@ LEXICON PerfWkI
 +V+3s+Perf+Ind:i%{T%} # ;
 +V+1p+Perf+Ind:imes # ;
 +V+2p+Perf+Ind:istes # ;
-+V+3p+Perf+Ind:irent # ;
++V+3p+Perf+Ind:ire%>nt # ; ! Not irant
 
 LEXICON PerfWkU
 +V+1s+Perf+Ind:ui # ;
@@ -213,12 +213,12 @@ LEXICON PerfWkU
 +V+3s+Perf+Ind:u%{T%} # ;
 +V+1p+Perf+Ind:umes # ;
 +V+2p+Perf+Ind:ustes # ;
-+V+3p+Perf+Ind:urent # ;
++V+3p+Perf+Ind:ure%>nt # ; ! Not urant
 
 LEXICON PerfStUS
 +V+1s+Perf+Ind:i # ;
 +V+3s+Perf+Ind:t # ;
-+V+3p+Perf+Ind:rent # ;
++V+3p+Perf+Ind:re%>nt # ; ! Not rant
 
 LEXICON PerfStUU
 +V+2s+Perf+Ind:üs # ;
@@ -231,12 +231,12 @@ LEXICON PerfStSBasic
 +V+3s+Perf+Ind:st # ;
 +V+1p+Perf+Ind:simes # ;
 +V+2p+Perf+Ind:sistes # ;
-+V+3p+Perf+Ind:strent # ;
++V+3p+Perf+Ind:stre%>nt # ; ! Not strant
 
 LEXICON PerfStSS
 +V+1s+Perf+Ind:s # ;
 +V+3s+Perf+Ind:st # ;
-+V+3p+Perf+Ind:strent # ;
++V+3p+Perf+Ind:stre%>nt # ; ! Not strant
 
 LEXICON PerfStSU
 +V+2s+Perf+Ind:sis # ;
@@ -252,7 +252,7 @@ LEXICON IpfvSubjWkA
 +V+2p+Ipfv+Sbjv:issez # ;
 +V+2p+Ipfv+Sbjv:issiez # ;
 +V+2p+Ipfv+Sbjv:isseiz # ;
-+V+3p+Ipfv+Sbjv:assent # ;
++V+3p+Ipfv+Sbjv:asse%>nt # ; ! Not assant
 
 LEXICON IpfvSubjWkI
 +V+1s+Ipfv+Sbjv:isse # ;
@@ -263,7 +263,7 @@ LEXICON IpfvSubjWkI
 +V+2p+Ipfv+Sbjv:issez # ;
 +V+2p+Ipfv+Sbjv:issiez # ;
 +V+2p+Ipfv+Sbjv:issoiz # ;
-+V+3p+Ipfv+Sbjv:issent # ;
++V+3p+Ipfv+Sbjv:isse%>nt # ; ! Not issant
 
 LEXICON IpfvSubjWkU
 +V+1s+Ipfv+Sbjv:usse # ;
@@ -274,7 +274,7 @@ LEXICON IpfvSubjWkU
 +V+2p+Ipfv+Sbjv:ussez # ;
 +V+2p+Ipfv+Sbjv:ussoiz # ;
 +V+2p+Ipfv+Sbjv:ussiez # ;
-+V+3p+Ipfv+Sbjv:ussent # ;
++V+3p+Ipfv+Sbjv:usse%>nt # ; ! Not ussant
 
 LEXICON IpfvSubjStU
 +V+1s+Ipfv+Sbjv:üsse # ;
@@ -285,7 +285,7 @@ LEXICON IpfvSubjStU
 +V+2p+Ipfv+Sbjv:üssez # ;
 +V+2p+Ipfv+Sbjv:üssiez # ;
 +V+2p+Ipfv+Sbjv:üssoiz # ;
-+V+3p+Ipfv+Sbjv:üssent # ;
++V+3p+Ipfv+Sbjv:üsse%>nt # ; ! Not üssant
 
 LEXICON IpfvSubjStS
 +V+1s+Ipfv+Sbjv:sisse # ;
@@ -296,7 +296,7 @@ LEXICON IpfvSubjStS
 +V+2p+Ipfv+Sbjv:sissez # ;
 +V+2p+Ipfv+Sbjv:sissiez # ;
 +V+2p+Ipfv+Sbjv:sissoiz # ;
-+V+3p+Ipfv+Sbjv:sissent # ;
++V+3p+Ipfv+Sbjv:sisse%>nt # ; ! Not sissant
 
 LEXICON Avoir
 +V+Inf:aveir # ;
@@ -325,8 +325,8 @@ LEXICON Avoir
 +V+1p+Perf+Ind+Gram/Late:oümes # ;
 +V+2p+Perf+Ind+Gram/Early:eütes # ;
 +V+2p+Perf+Ind+Gram/Late:oütes # ;
-+V+3p+Perf+Ind+Gram/Early:eürent # ;
-+V+3p+Perf+Ind:orent # ;
++V+3p+Perf+Ind+Gram/Early:eüre%>nt # ; ! Not eürant
++V+3p+Perf+Ind:ore%>nt # ; ! Not orant
 
 :av IpfvInd ;
 :avr FutInd ;
@@ -339,7 +339,7 @@ LEXICON Avoir
 +V+1p+Pres+Sbjv:aiiens # ;
 +V+1p+Pres+Sbjv:aions # ;
 +V+2p+Pres+Sbjv:aiiez # ;
-+V+3p+Pres+Sbjv:aient # ;
++V+3p+Pres+Sbjv:aie%>nt # ; ! Not aiant
 
 :e IpfvSubjStU ;
 :o IpfvSubjStU ;
@@ -369,6 +369,7 @@ LEXICON Estre
 :f PerfWkU ;
 +V+3s+Perf+Ind:fud # ;
 :est IpfvInd ;
++V+3s+Ipfv+Ind:astoit # ;
 
 +V+1s+Ipfv+Ind+Gram/Early:ere # ;
 +V+1s+Ipfv+Ind+Gram/Early:iere # ;
@@ -381,8 +382,8 @@ LEXICON Estre
 +V+1p+Ipfv+Ind+Gram/Early:eriiens # ;
 +V+1p+Ipfv+Ind+Gram/Early:erions # ;
 +V+2p+Ipfv+Ind+Gram/Early:eriiez # ;
-+V+3p+Ipfv+Ind+Gram/Early:erent # ;
-+V+3p+Ipfv+Ind+Gram/Early:ierent # ;
++V+3p+Ipfv+Ind+Gram/Early:ere%>nt # ; ! Not erant
++V+3p+Ipfv+Ind+Gram/Early:iere%>nt # ; ! Not ierant
 
 :ser FutInd ;
 :estr FutInd ;
@@ -394,8 +395,8 @@ LEXICON Estre
 +V+3s+Fut+Ind+Gram/Early:iert # ;
 +V+1p+Fut+Ind+Gram/Early:ermes # ;
 +V+1p+Fut+Ind+Gram/Early:iermes # ;
-+V+3p+Fut+Ind+Gram/Early:erent # ;
-+V+3p+Fut+Ind+Gram/Early:ierent # ;
++V+3p+Fut+Ind+Gram/Early:ere%>nt # ; ! Not erant
++V+3p+Fut+Ind+Gram/Early:iere%>nt # ; ! Not ierant
 
 +V+1s+Pres+Sbjv:seie # ;
 +V+2s+Pres+Sbjv:seies # ;
@@ -403,7 +404,7 @@ LEXICON Estre
 +V+1p+Pres+Sbjv:seiiens # ;
 +V+1p+Pres+Sbjv:seions # ;
 +V+2p+Pres+Sbjv:seiiez # ;
-+V+3p+Pres+Sbjv:seient # ;
++V+3p+Pres+Sbjv:seie%>nt # ; ! Not seiant
 
 :f IpfvSubjWkU ;
 +V+3s+Ipfv+Sbjv:feust # ;
@@ -420,9 +421,9 @@ LEXICON Faire
 +V+Inf:feire # ;
 +V+Inf:fere # ;
 +V+Inf:fer # ; ! Verify
-+V+Part+Pres:faisent # ;
-+V+Part+Pres:feisent # ;
-+V+Part+Pres:fesent # ;
++V+Part+Pres:faise%>nt # ; ! Not faisant
++V+Part+Pres:feise%>nt # ; ! Not feisant
++V+Part+Pres:fese%>nt # ; ! Not fesant
 +V+Part+Past:fait PartEndings ;
 +V+Part+Past:feit PartEndings ;
 +V+Part+Past:fe%{T%} PartEndings ;
@@ -449,12 +450,12 @@ LEXICON Faire
 +V+1s+Perf+Ind:fi # ;
 +V+1s+Perf+Ind:fe # ;
 +V+3s+Perf+Ind:fit # ; ! Also Ipfv Sbjv?
-+V+3p+Perf+Ind:fisent # ;
-+V+3p+Perf+Ind:fesent # ;
-+V+3p+Perf+Ind:firent # ;
++V+3p+Perf+Ind:fise%>nt # ; ! Not fisant
++V+3p+Perf+Ind:fese%>nt # ; ! Not fesant
++V+3p+Perf+Ind:fire%>nt # ; ! Not firant
 
 :fais IpfvInd ;
-+V+3p+Ipfv+Ind+Gram/Early:faisent # ;
++V+3p+Ipfv+Ind+Gram/Early:faise%>nt # ; ! Not faisant
 
 :fer FutInd ;
 
@@ -465,7 +466,7 @@ LEXICON Faire
 +V+1p+Pres+Sbjv:faciens # ;
 +V+1p+Pres+Sbjv:façons # ;
 +V+2p+Pres+Sbjv:faciez # ;
-+V+3p+Pres+Sbjv:facent # ;
++V+3p+Pres+Sbjv:face%>nt # ; ! Not facant
 
 :fe IpfvSubjStS ;
 :fer Conditional ;
@@ -475,7 +476,7 @@ LEXICON Faire
 +V+3s+Pres+Cond:ferait # ;
 +V+1p+Pres+Cond:ferions # ;
 +V+2p+Pres+Cond:feriez # ;
-+V+3p+Pres+Cond:feraient # ;
++V+3p+Pres+Cond:feraie%>nt # ; ! Not feraiant
 
 +V+2s+Pres+Imp:fai # ;
 +V+1p+Pres+Imp:faisons # ;
@@ -494,12 +495,12 @@ LEXICON Dire
 +V+1p+Pres+Ind:dions # ;
 +V+1p+Pres+Ind:disons # ;
 +V+2p+Pres+Ind:dites # ;
-+V+3p+Pres+Ind:dient # ;
++V+3p+Pres+Ind:die%>nt # ;
 
 :di PerfStSBasic ;
 +V+1s+Perf+Ind:di # ;
-+V+3p+Perf+Ind:disent # ;
-+V+3p+Perf+Ind:dirent # ;
++V+3p+Perf+Ind:dise%>nt # ;
++V+3p+Perf+Ind:dire%>nt # ;
 
 :dis IpfvInd ;
 :dir FutInd ;
@@ -527,7 +528,7 @@ LEXICON Devoir
 +V+3s+Pres+Ind:deit # ;
 +V+1p+Pres+Ind:devons # ;
 +V+2p+Pres+Ind:devez # ;
-+V+3p+Pres+Ind:devent # ;
++V+3p+Pres+Ind:deve%>nt # ;
 
 :d PerfStUS ;
 :de PerfStUU ;
@@ -565,11 +566,11 @@ LEXICON Xenir
 +V+1s+Perf+Ind:in # ;
 +V+2s+Perf+Ind:enis # ;
 +V+3s+Perf+Ind:int # ;
-+V+3s+Perf+Ind:ent # ; ! Verify
++V+3s+Perf+Ind:e%>nt # ;
 +V+1p+Perf+Ind:enimes # ;
 +V+2p+Perf+Ind:enistes # ;
-+V+3p+Perf+Ind:indrent # ;
-+V+3p+Perf+Ind:inrent # ;
++V+3p+Perf+Ind:indre%>nt # ;
++V+3p+Perf+Ind:inre%>nt # ;
 
 :en IpfvInd ; ! Verify
 :endr FutInd ;
@@ -580,7 +581,7 @@ LEXICON Xenir
 :iengn PresSubj ;
 :ieign PresSubj ;
 :eng PresSubj ;
-+V+3p+Pres+Sbjv:egnent # ; ! Verify
++V+3p+Pres+Sbjv:egne%>nt # ; ! Verify
 
 :en IpfvSubjWkI ;
 +V+2p+Ipfv+Sbjv:enistes # ;
@@ -636,21 +637,21 @@ LEXICON Veoir
 +V+3s+Pres+Ind:veit # ;
 +V+1p+Pres+Ind:veons # ;
 +V+2p+Pres+Ind:veez # ;
-+V+3p+Pres+Ind:veient # ;
++V+3p+Pres+Ind:veie%>nt # ;
 
 +V+1s+Perf+Ind:vi # ;
 +V+2s+Perf+Ind:veïs # ;
 +V+3s+Perf+Ind:vit # ;
 +V+1p+Perf+Ind:veïmes # ;
 +V+2p+Perf+Ind:veïstes # ;
-+V+3p+Perf+Ind:virent # ;
++V+3p+Perf+Ind:vire%>nt # ;
 
 +V+1s+Ipfv+Ind:veie # ;
 +V+2s+Ipfv+Ind:veies # ;
 +V+3s+Ipfv+Ind:veit # ;
 +V+1p+Ipfv+Ind:veiiens # ; ! Verify
 +V+2p+Ipfv+Ind:veeiz # ; ! Verify
-+V+3p+Ipfv+Ind:veeient # ; ! Verify
++V+3p+Ipfv+Ind:veeie%>nt # ; ! Verify
 
 :ver%> FutInd ;
 
@@ -662,7 +663,7 @@ LEXICON Veoir
 +V+1p+Pres+Sbjv:veiions # ;
 +V+2p+Pres+Sbjv:veez # ;
 +V+2p+Pres+Sbjv:veiiez # ;
-+V+3p+Pres+Sbjv:voient # ;
++V+3p+Pres+Sbjv:voie%>nt # ;
 
 +V+1s+Ipfv+Sbjv:veïsse # ;
 +V+2s+Ipfv+Sbjv:veïsses # ;
@@ -672,7 +673,7 @@ LEXICON Veoir
 +V+2p+Ipfv+Sbjv:veïssez # ;
 +V+2p+Ipfv+Sbjv:veïssiez # ;
 +V+2p+Ipfv+Sbjv:veïsseiz # ;
-+V+3p+Ipfv+Sbjv:veïssent # ;
++V+3p+Ipfv+Sbjv:veïsse%>nt # ;
 
 :ver%> Conditional ;
 
@@ -706,8 +707,8 @@ LEXICON Voloir
 +V+3s+Pres+Ind:vialt # ;
 +V+1p+Pres+Ind:volons # ;
 +V+2p+Pres+Ind:volez # ;
-+V+3p+Pres+Ind:vuelent # ;
-+V+3p+Pres+Ind:volent # ;
++V+3p+Pres+Ind:vuele%>nt # ;
++V+3p+Pres+Ind:vole%>nt # ;
 
 ! Confusing notation. Check for missing forms: voli, volsi, vousi
 +V+1s+Perf+Ind:veil # ;
@@ -720,8 +721,8 @@ LEXICON Voloir
 +V+3s+Perf+Ind:vout # ;
 +V+1p+Perf+Ind:volimes # ;
 +V+2p+Perf+Ind:volistes # ;
-+V+3p+Perf+Ind:voldrent # ;
-+V+3p+Perf+Ind:voudrent # ;
++V+3p+Perf+Ind:voldre%>nt # ;
++V+3p+Perf+Ind:voudre%>nt # ;
 
 :vol IpfvInd ; ! Verify
 :voul IpfvInd ;
@@ -742,9 +743,9 @@ LEXICON Voloir
 +V+1p+Pres+Sbjv:veillions # ;
 +V+2p+Pres+Sbjv:veilliez # ;
 +V+2p+Pres+Sbjv:vueilliez # ;
-+V+3p+Pres+Sbjv:vueillent # ;
-+V+3p+Pres+Sbjv:veillent # ;
-+V+3p+Pres+Sbjv:vuellent # ;
++V+3p+Pres+Sbjv:vueille%>nt # ;
++V+3p+Pres+Sbjv:veille%>nt # ;
++V+3p+Pres+Sbjv:vuelle%>nt # ;
 
 :vol IpfvSubjWkI ;
 :vols IpfvSubjWkI ;
@@ -816,9 +817,9 @@ LEXICON Savoir
 +V+1p+Pres+Ind:sçavons # ;
 +V+2p+Pres+Ind:savez # ;
 +V+2p+Pres+Ind:sçavez # ;
-+V+3p+Pres+Ind:sevent # ;
-+V+3p+Pres+Ind:sçevent # ;
-+V+3p+Pres+Ind:sçavent # ;
++V+3p+Pres+Ind:seve%>nt # ;
++V+3p+Pres+Ind:sçeve%>nt # ;
++V+3p+Pres+Ind:sçave%>nt # ;
 
 :so PerfStUS ;
 :su PerfStUS ;
@@ -838,7 +839,7 @@ LEXICON Savoir
 :saur Conditional ;
 +V+3s+Pres+Cond:savereit # ;
 +V+3s+Pres+Cond:sareit # ;
-+V+3p+Pres+Cond:saurreient # ;
++V+3p+Pres+Cond:saurreie%>nt # ;
 
 +V+2s+Pres+Imp:saches # ;
 +V+1p+Pres+Imp:sachiens # ;
@@ -861,8 +862,8 @@ LEXICON Pooir
 +V+1p+Pres+Ind:poons # ;
 +V+2p+Pres+Ind:poez # ;
 +V+2p+Pres+Ind:pöez # ;
-+V+3p+Pres+Ind:pueent # ;
-+V+3p+Pres+Ind:pevent # ;
++V+3p+Pres+Ind:puee%>nt # ;
++V+3p+Pres+Ind:peve%>nt # ;
 
 :po PerfStUS ;
 :pu PerfStUS ; ! Verify
@@ -903,7 +904,7 @@ LEXICON Doner
 +V+3s+Pres+Ind:don%>e # ;
 +V+1p+Pres+Ind:don%>ons # ;
 +V+2p+Pres+Ind:don%>ez # ;
-+V+3p+Pres+Ind:don%>ent # ;
++V+3p+Pres+Ind:don%>e%>nt # ;
 
 :don%> PerfWkA ;
 :don%> IpfvInd ; ! Verify
@@ -928,9 +929,9 @@ LEXICON Doner
 +V+2p+Pres+Sbjv:donez # ;
 +V+2p+Pres+Sbjv:doigniez # ;
 +V+2p+Pres+Sbjv:doinsiez # ;
-+V+3p+Pres+Sbjv:doignent # ;
-+V+3p+Pres+Sbjv:doinsent # ;
-+V+3p+Pres+Sbjv:dongent # ; ! Verify
++V+3p+Pres+Sbjv:doigne%>nt # ;
++V+3p+Pres+Sbjv:doinse%>nt # ;
++V+3p+Pres+Sbjv:donge%>nt # ; ! Verify
 
 :don%> IpfvSubjWkA ;
 :don%>er Conditional ;
@@ -958,8 +959,8 @@ LEXICON Metre
 +V+1p+Pres+Ind:mectons # ;
 +V+2p+Pres+Ind:metez # ;
 +V+2p+Pres+Ind:mectez # ;
-+V+3p+Pres+Ind:metent # ;
-+V+3p+Pres+Ind:mectent # ;
++V+3p+Pres+Ind:mete%>nt # ;
++V+3p+Pres+Ind:mecte%>nt # ;
 
 :mi PerfStSBasic ;
 :me PerfStSBasic ;
@@ -972,7 +973,7 @@ LEXICON Metre
 :mect PresSubj ; ! Verify
 
 :meis IpfvSubjStS ; ! Verify
-+V+3p+Ipfv+Sbjv:mesissent # ;
++V+3p+Ipfv+Sbjv:mesisse%>nt # ;
 
 :meter Conditional ;
 :metr Conditional ;
@@ -996,15 +997,15 @@ LEXICON Oïr
 +V+1p+Pres+Ind:oions # ;
 +V+2p+Pres+Ind:oez # ;
 +V+2p+Pres+Ind:oiez # ;
-+V+3p+Pres+Ind:oent # ;
-+V+3p+Pres+Ind:oient # ;
++V+3p+Pres+Ind:oe%>nt # ;
++V+3p+Pres+Ind:oie%>nt # ;
 
 +V+1s+Perf+Ind:oï # ;
 +V+2s+Perf+Ind:oïs # ;
 +V+3s+Perf+Ind:oï%{T%} # ;
 +V+1p+Perf+Ind:oïmes # ;
 +V+2p+Perf+Ind:oïstes # ;
-+V+3p+Perf+Ind:oïrent # ;
++V+3p+Perf+Ind:oïre%>nt # ;
 
 :ou IpfvInd ; ! Verify
 :or%> FutInd ;
@@ -1020,7 +1021,7 @@ LEXICON Oïr
 +V+2p+Ipfv+Sbjv:oïssez # ;
 +V+2p+Ipfv+Sbjv:oïssiez # ;
 +V+2p+Ipfv+Sbjv:oïsseiz # ;
-+V+3p+Ipfv+Sbjv:oïssent # ;
++V+3p+Ipfv+Sbjv:oïsse%>nt # ;
 
 ! Conditionals unknown
 
@@ -1042,7 +1043,7 @@ LEXICON Lire
 +V+3s+Pres+Ind:lit # ;
 +V+1p+Pres+Ind:lisons # ;
 +V+2p+Pres+Ind:lisiez # ;
-+V+3p+Pres+Ind:lisent # ;
++V+3p+Pres+Ind:lise%>nt # ;
 
 :li PerfStSBasic ; ! Two perfects?
 :le PerfStSBasic ;
@@ -1110,8 +1111,8 @@ LEXICON Valoir
 +V+1p+Pres+Ind:vaillons # ;
 +V+2p+Pres+Ind:val%>ez # ;
 +V+2p+Pres+Ind:vailliez # ;
-+V+3p+Pres+Ind:val%>ent # ;
-+V+3p+Pres+Ind:vaillent # ;
++V+3p+Pres+Ind:val%>e%>nt # ;
++V+3p+Pres+Ind:vaille%>nt # ;
 
 :val PerfWkU ;
 :val PerfStSBasic ;
@@ -1123,7 +1124,7 @@ LEXICON Valoir
 +V+3s+Pres+Sbjv:vaille # ; ! Verify
 +V+1p+Pres+Sbjv:vailliens # ;
 +V+2p+Pres+Sbjv:vailliez # ;
-+V+3p+Pres+Sbjv:vaillent # ;
++V+3p+Pres+Sbjv:vaille%>nt # ;
 
 :val IpfvSubjWkU ;
 :val IpfvSubjStS ;
@@ -1141,7 +1142,7 @@ LEXICON Vivre
 +V+3s+Pres+Ind:vit # ;
 +V+1p+Pres+Ind:vivons # ;
 +V+2p+Pres+Ind:vivez # ;
-+V+3p+Pres+Ind:vivent # ;
++V+3p+Pres+Ind:vive%>nt # ;
 
 :vesqu PerfWkI ;
 :viv IpfvInd ;
@@ -1152,7 +1153,7 @@ LEXICON Vivre
 +V+3s+Pres+Sbjv:vivet # ; ! Verify
 +V+1p+Pres+Sbjv:vivons # ;
 +V+2p+Pres+Sbjv:vivez # ;
-+V+3p+Pres+Sbjv:vivent # ;
++V+3p+Pres+Sbjv:vive%>nt # ;
 
 :vesqu IpfvSubjWkI ;
 :vivr Conditional ; ! Verify
@@ -1171,7 +1172,7 @@ LEXICON Querre
 +V+3s+Pres+Ind:quiert # ;
 +V+1p+Pres+Ind:querons # ;
 +V+2p+Pres+Ind:querez # ;
-+V+3p+Pres+Ind:quierent # ;
++V+3p+Pres+Ind:quiere%>nt # ;
 
 :qui PerfStSS ;
 :que PerfStSU ;
@@ -1185,8 +1186,8 @@ LEXICON Querre
 +V+3s+Pres+Sbjv:quiert # ;
 +V+1p+Pres+Sbjv:querons # ;
 +V+2p+Pres+Sbjv:querez # ;
-+V+3p+Pres+Sbjv:quierent # ;
-+V+3p+Pres+Sbjv:quiergent # ;
++V+3p+Pres+Sbjv:quiere%>nt # ;
++V+3p+Pres+Sbjv:quierge%>nt # ;
 
 :querr IpfvSubjStS ;
 :querr Conditional ; ! Verify
@@ -1207,7 +1208,7 @@ LEXICON Escrire ! Verify all forms
 +V+3s+Pres+Ind:escrit # ;
 +V+1p+Pres+Ind:escrivons # ;
 +V+2p+Pres+Ind:escrivez # ;
-+V+3p+Pres+Ind:escrivent # ;
++V+3p+Pres+Ind:escrive%>nt # ;
 
 :escri PerfStSBasic ;
 :escriv IpfvInd ;
@@ -1264,8 +1265,8 @@ LEXICON Traire
 +V+1p+Pres+Sbjv:treiiens # ;
 +V+2p+Pres+Sbjv:traiiez # ;
 +V+2p+Pres+Sbjv:treiiez # ;
-+V+3p+Pres+Sbjv:traient # ;
-+V+3p+Pres+Sbjv:treient # ;
++V+3p+Pres+Sbjv:traie%>nt # ;
++V+3p+Pres+Sbjv:treie%>nt # ;
 
 :trai IpfvSubjStS ;
 :trei IpfvSubjStS ;
@@ -1292,7 +1293,7 @@ LEXICON Morir
 +V+3s+Pres+Ind:muert # ;
 +V+1p+Pres+Ind:morons # ;
 +V+2p+Pres+Ind:morez # ;
-+V+3p+Pres+Ind:muerent # ;
++V+3p+Pres+Ind:muere%>nt # ;
 
 :mor PerfWkU ;
 :mor PerfWkI ;
@@ -1325,7 +1326,7 @@ LEXICON Receivre
 +V+3s+Pres+Ind:reçoit # ;
 +V+1p+Pres+Ind:recevons # ;
 +V+2p+Pres+Ind:recevez # ;
-+V+3p+Pres+Ind:reçoivent # ;
++V+3p+Pres+Ind:reçoive%>nt # ;
 
 :reçu PerfStSS ;
 :rece PerfStSU ;
@@ -1337,7 +1338,7 @@ LEXICON Receivre
 +V+3s+Pres+Sbjv:reçoive # ;
 +V+1p+Pres+Sbjv:recevons # ;
 +V+2p+Pres+Sbjv:recevez # ;
-+V+3p+Pres+Sbjv:reçoivent # ;
++V+3p+Pres+Sbjv:reçoive%>nt # ;
 
 :rece IpfvSubjStU ; ! WkU?
 :recevr Conditional ; ! Verify
@@ -1356,7 +1357,7 @@ LEXICON Ferir
 +V+3s+Pres+Ind:fiert # ;
 +V+1p+Pres+Ind:ferons # ;
 +V+2p+Pres+Ind:derez # ;
-+V+3p+Pres+Ind:fierent # ;
++V+3p+Pres+Ind:fiere%>nt # ;
 
 :fer PerfWkI ;
 :fer IpfvInd ; ! Verify
@@ -1370,8 +1371,8 @@ LEXICON Ferir
 +V+3s+Pres+Sbjv:fierge # ;
 +V+1p+Pres+Sbjv:feriens # ;
 +V+2p+Pres+Sbjv:feriez # ;
-+V+3p+Pres+Sbjv:fierent # ;
-+V+3p+Pres+Sbjv:fiergent # ;
++V+3p+Pres+Sbjv:fiere%>nt # ;
++V+3p+Pres+Sbjv:fierge%>nt # ;
 
 :fer IpfvSubjWkI ;
 :ferr Conditional ; ! Verify
@@ -1391,7 +1392,7 @@ LEXICON Boivre
 +V+3s+Pres+Ind:boit # ;
 +V+1p+Pres+Ind:bevons # ;
 +V+2p+Pres+Ind:bevez # ;
-+V+3p+Pres+Ind:boivent # ;
++V+3p+Pres+Ind:boive%>nt # ;
 
 :bu PerfStUS ;
 :be PerfStUU ;
@@ -1419,7 +1420,7 @@ LEXICON Croire
 +V+1p+Pres+Ind:cro%{I%}ns # ;
 +V+2p+Pres+Ind:creez # ;
 +V+2p+Pres+Ind:cro%{I%}ez # ;
-+V+3p+Pres+Ind:cro%{I%}ent # ;
++V+3p+Pres+Ind:cro%{I%}e%>nt # ;
 
 :cru PerfStUS ;
 :cre PerfStUU ;
@@ -1450,7 +1451,7 @@ LEXICON Gesir
 +V+3s+Pres+Ind:gist # ;
 +V+1p+Pres+Ind:gisons # ;
 +V+2p+Pres+Ind:gisiez # ;
-+V+3p+Pres+Ind:gisent # ;
++V+3p+Pres+Ind:gise%>nt # ;
 
 :ju PerfStUS ;
 :ge PerfStUU ;
@@ -1461,7 +1462,6 @@ LEXICON Gesir
 
 :gis PresSubj ;
 :ge IpfvSubjStU ;
-IpfvSubjWkA ;
 :gerr Conditional ; ! Verify
 :girr Conditional ; ! Verify
 

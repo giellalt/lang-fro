@@ -272,7 +272,8 @@ LEXICON Ledit ! This entire thing is a mess. Good luck.
 +Adj+Masc+Pl:lesdiz # ; 
 +Adj+Fem+Sg:ladite # ; 
 +Adj+Fem+Sg:laditte # ; 
-+Adj+Fem+Sg:ladicte # ; 
++Adj+Fem+Sg:ladicte # ;
++Adj+Fem+Pl:lesdictes # ; 
 +Prep+Adj+Masc+Sg:dudit # ; 
 +Prep+Adj+Masc+Sg:dudict # ; 
 +Prep+Adj+Masc+Sg:audit # ; 

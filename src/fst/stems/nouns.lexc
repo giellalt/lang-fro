@@ -66,6 +66,7 @@ autre MC1a "the other __" ; ! Verify
 autre FC1 "the other __" ;
     autre:altre FC1 "the other __" ;
 aventure FC1 "adventure, event, chance" ;
+    aventure:adventure FC1 "adventure, event, chance" ;
 aversier MC1a "adversary, the devil" ;
     aversier:adversier MC1a "adversary, the devil" ;
 avesprer MC1a "nightfall, dusk" ;
@@ -220,6 +221,9 @@ Dieu: Dieu "god" ;
 dimenche NIndecM "Sunday" ;
 dol: Dol "suffering, pain, lamentation" ;
 dolor FC2 "sorrow" ;
+dos NIndecM "back, spine, rear side, part of weapon" ;
+doute FC1 "doubt, uncertainty, fear, worry" ; ! Check class
+    doute:doubte FC1 "doubt, uncertainty, fear, worry" ; ! Check class
 drap:drap%> MC1a "cover, cloth, clothing" ;
 droit:dreit MC1a "right, direction" ; ! Verify
 duc MC1a "duke" ;
@@ -241,12 +245,15 @@ empereor MC3 "emperor" ;
     empereor:empereur MC3 "emperor" ;
     empereor+N+Masc+Nom+Sg:emperere # "emperor" ;
     empereor+N+Masc+Nom+Sg:empereres # "emperor" ;
+endroit:endroi%{T%} MC1a "place, location, moment, point of view" ;
 Eneas PropMasc "Aeneas" ;
 enemi:en%>emi MC1a "enemie" ;
 enfant:enfan%{T%} MC3 "child, youth" ;
     enfant+N+Masc+Nom+Sg:enfes # "child, youth" ;
     enfant+N+Masc+Nom+Sg+Err/Obsc:enfants # "child, youth" ;
     enfant+N+Masc+Obl+Pl+Err/Obsc:enfants # "child, youth" ;
+enfer MC1a "Hell, resting place for the dead, place of torment of the damned" ;
+    enfer:enffer MC1a "Hell, resting place for the dead, place of torment of the damned" ;
 Erec PropMasc "Eric" ;
 eschipre:eschipr MC2 "sailor" ;
 escripture FC1 "scripture, writing" ;
@@ -255,6 +262,9 @@ escu:escu%{T%} MC1a "shield" ;
 Espaigne PropFem "Spain" ;
 espee FC1 "sword" ;
 esperance:espérance FC1 "hope, confident expectation, religious virtue of hope" ;
+espouse FC1 "spouse (female), wife" ;
+espous NIndecM "spouse (male), husband" ;
+    espous:espoux NIndecM "spouse (male), husband" ;
 estat:esta%{T%} MC1a "state of being, permanence, social standing, estate" ; ! Verify definition
 esté FC1 "summer" ;
 evangile:évangile MC1a "gospel, the Gospels, good news" ;
@@ -429,7 +439,9 @@ lit MC1a "bed" ;
     lit+N+Masc+Obl+Pl:liz # ;
 livre:livr MC2 "book" ;
 los MC1a "praise, glory, reputation" ;
+lumière FC1 "light" ;
 lundi NIndecM "Monday" ;
+lune FC1 "the moon, aka the first of the 7 planets thought to orbit the Earth" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------M---------------------------------------!
@@ -455,6 +467,7 @@ mars NIndecM "March" ;
 Mars PropMasc "Mars (planet), Mars (Roman god of war)" ;
 Martin PropMasc "Martin" ;
 matin MC1a "morning" ;
+memoire FC1 "memory, mental faculty" ; ! Also MC1a?
 mengier MC1a "meal" ;
 mercredi NIndecM "Wednesday" ;
 merveille FC1 "marvel, wonder" ;
@@ -465,12 +478,14 @@ merci:merc%{I%}%{T%} FC2 "mercy" ;
 mere FC1 "mother" ;
 message MC1a "messenger, message" ;
     message:mesage MC1a "messenger, message" ;
+messe FC1 "Mass (religious)" ;
 mestier MC1a "job, occupation" ;
     mestier:métier MC1a "job, occupation" ;
 mesure FC1 "evaluation, measure, status, layout" ; ! Verify definition
 mi NIndecM "middle, midst" ; ! MC1a?
 Michiel PropMasc "Michael" ;
     Michiel:Michel PropMasc "Michael" ;
+miracle MC1 "miracle" ; ! Also FC1?
 miséricorde FC1 "pity, mercy, compassion" ;
 mois:mo%{I%}s NIndecM "month" ;
 moitié FC1 "middle, half" ; ! NIndecF?
@@ -483,6 +498,7 @@ Mons PropMasc "region of Mons" ;
 monseigneur: Monseigneur "my lord (honorific)" ;
 mont:mon%{T%} MC1a "mountain" ;
     mont+N+Masc+Nom+Sg:mons # ;
+montaigne FC1 "mountain" ; ! FIXME: palatal nasal
 mort FC2 "death" ;
 mot MC1a "word" ;
 mur MC1a "wall" ;
@@ -613,6 +629,7 @@ rei:re%{I%} MC1a "king" ;
 reïne FC1 "queen" ;
     reïne:roïne FC1 "queen" ;
 regne MC1a "kingdom, reign" ;
+Remondin PropMasc "Remondin (Raymond?)" ;
 renart:renar%{T%} MC1a "fox" ;
 Renart:Renar%{T%} PropMasc "the Fox" ;
 requeste FC1 "request, solicitation, challenge to combat" ;
@@ -623,6 +640,7 @@ Reson PropFem "Resson" ;
 Richard+Prop:Richar%{D%} MC1a "Richard" ;
     Richard:Richar%{T%} MC1a "Richard" ;
 rien FC2 "thing, person" ;
+riviere FC1 "river, stream, shore" ;
 Robert PropMasc "Robert" ;
 Rome PropFem "Rome" ;
     Rome:Romme PropFem "Rome" ;
@@ -636,7 +654,9 @@ rue FC1 "road, path" ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 sains NIndecM "bells" ;
+saisine FC1 "taking, act of seizing, possession" ;
 saison FC2 "season" ;
+science FC1 "knowledge, intelligence, reason" ;
 semaine:semain%>e FC1 "week" ;
     semaine:septmain%>e FC1 "week" ;
 samedi:sem%>edi NIndecM "Saturday" ;
@@ -669,6 +689,8 @@ somme FC1 "sum, total, summit, burden, sleep" ; ! Different stems?
 !-------------------------------------T---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+talent:talen%{T%} MC1a "sense, consciousness, mind, desire, will" ;
+temple MC1a "temple, public building for worship, body (figuratively)" ;
 tens NIndecM "time, times, weather" ;
     tens:tans NIndecM "time, times, weather" ;
     tens:temps NIndecM "time, times, weather" ;
@@ -707,6 +729,7 @@ ustil MC1a "tool" ;
 
 Valence PropFem "region of Valence (Valencia?)" ; ! Verify gender
 valor FC2 "worth" ;
+varlet:varle%{T%} MC1a "young man, boy, servant" ;
 vendredi NIndecM "Friday" ;
 vent MC1a "wind" ;
 ventre MC1a "stomach, belly, interior" ;

@@ -28,13 +28,14 @@ apres BaseAdv "after" ;
     apres:apries BaseAdv "after" ;
 arrier OptionalS "behind, backwards" ;
     arrier:arriere OptionalS "behind, backwards" ;
-assez BaseAdv "enough" ;
-    assez:assés BaseAdv "enough" ;
+assez:assés BaseAdv "enough" ;
+    assez:asés BaseAdv "enough" ;
 atant BaseAdv "thereupon, at that moment" ;
 aussi BaseAdv "also, likewise" ;
     aussi:ausi BaseAdv "also, likewise" ;
     aussi:assi BaseAdv "also, likewise" ;
     aussi:alsi BaseAdv "also, likewise" ;
+autant BaseAdv "as much, in the same way, at will" ;
 aval BaseAdv "to the valley, down" ;
 avant BaseAdv "forward" ; ! davant = alternate form?
 bien BaseAdv "well, many, much, really" ;
