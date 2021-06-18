@@ -269,6 +269,8 @@ REMOVE Obsc ; # If any other reading is possible.
 # ------------------------
 
 REMOVE Pro + Refl IF (1 Pro + Refl) ;
+SELECT Adj + Obl IF (1 COPULA) ;
+
 
 # Adverb disambiguation
 # ------------------------
@@ -326,7 +328,6 @@ SELECT Adj + Obl IF (-2 Prep) (-1 Art) (1 N) ;
 SELECT Adj + $$GENDERCASENUMBER IF (1 N + $$GENDERCASENUMBER) ;
 SELECT Adj + $$GENDERCASENUMBER IF (-1 N + $$GENDERCASENUMBER) ;
 SELECT Adj + $$GENDERCASENUMBER IF (-2 N + $$GENDERCASENUMBER) (-1 Adv) ;
-
 
 # Conjunction disambiguation
 # ------------------------
