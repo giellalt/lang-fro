@@ -1,17 +1,14 @@
 LEXICON 1Sg
-+Pro+Prs+1s+Nom+Stress+Gram/Liason:j # ;
-+Pro+Prs+1s+Nom+Stress+Gram/Early:jo # ;
-+Pro+Prs+1s+Nom+Stress+Gram/Late:je # ;
-+Pro+Prs+1s+Nom+Stress+Err/Obsc:ja # ;
-+Pro+Prs+1s+Nom+Stress+Err/Obsc:ge # ;
-+Pro+Prs+1s+Nom+Stress+Err/Obsc:jeo # ;
++Pro+Prs+1s+Nom+Gram/Liason:j # ;
++Pro+Prs+1s+Nom+Gram/Early:jo # ;
++Pro+Prs+1s+Nom+Gram/Late:je # ;
++Pro+Prs+1s+Nom+Err/Obsc:ja # ;
++Pro+Prs+1s+Nom+Err/Obsc:ge # ;
++Pro+Prs+1s+Nom+Err/Obsc:jeo # ;
 +Pro+Prs+1s+Nom+Stress+Err/Obsc:iu # ; ! Verify. Looks right from corpus but very odd
-+Pro+Prs+1s+Nom+Unstress+Gram/Early:jo # ;
-+Pro+Prs+1s+Nom+Unstress+Gram/Late:je # ;
-+Pro+Prs+1s+Nom+Unstress+Err/Obsc:ja # ;
 +Pro+Prs+1s+Obl+Stress:mei # ;
 +Pro+Prs+1s+Obl+Unstress:me # ;
-+Pro+Prs+1s+Obl+Unstress+Gram/Liason:m # ;
++Pro+Prs+1s+Obl+Gram/Liason:m # ;
 
 +Pro+Poss+1s+Masc+Nom+Sg+Unstress:mes # ;
 +Pro+Poss+1s+Masc+Nom+Sg+Unstress:mis # ;
@@ -36,11 +33,10 @@ LEXICON 1Sg
 +Pro+Poss+1s+Fem+Obl+Pl+Stress:moies # ;
 
 LEXICON 2Sg
-+Pro+Prs+2s+Nom+Stress:u # ;
-+Pro+Prs+2s+Nom+Unstress:u # ;
++Pro+Prs+2s+Nom+:u # ;
 +Pro+Prs+2s+Obl+Stress:ei # ;
 +Pro+Prs+2s+Obl+Unstress:e # ;
-+Pro+Prs+2s+Obl+Unstress+Gram/Liason:0 # ;
++Pro+Prs+2s+Obl+Gram/Liason:0 # ;
 
 +Pro+Poss+2s+Masc+Nom+Sg+Unstress:es # ;
 +Pro+Poss+2s+Masc+Nom+Sg+Unstress:is # ;
@@ -65,38 +61,32 @@ LEXICON 2Sg
 +Pro+Poss+2s+Fem+Obl+Pl+Stress:oes # ;
 
 LEXICON 3SgMasc
-+Pro+Prs+3s+Masc+Nom+Stress:il # ;
-+Pro+Prs+3s+Masc+Nom+Stress+Err/Obsc:ilh # ;
-+Pro+Prs+3s+Masc+Nom+Unstress:il # ;
-+Pro+Prs+3s+Masc+Nom+Untress+Err/Obsc:ilh # ;
++Pro+Prs+3s+Masc+Nom:il # ;
++Pro+Prs+3s+Masc+Nom+Err/Obsc:ilh # ;
 +Pro+Prs+3s+Masc+Obl+Dir+Unstress:le # ; ! Also ly?
 +Pro+Prs+3s+Masc+Obl+Indir+Unstress:l%{I%} # ;
 +Pro+Prs+3s+Masc+Obl+Stress:lui # ;
 
 LEXICON 3SgFem
-+Pro+Prs+3s+Fem+Nom+Stress:ele # ;
-+Pro+Prs+3s+Fem+Nom+Stress:elle # ;
-+Pro+Prs+3s+Fem+Nom+Unstress:ele # ;
-+Pro+Prs+3s+Fem+Nom+Unstress:elle # ;
++Pro+Prs+3s+Fem+Nom+:el%>e # ;
 +Pro+Prs+3s+Fem+Obl+Dir+Unstress:la # ;
 +Pro+Prs+3s+Fem+Obl+Dir+Unstress+Gram/Liason:l # ;
 +Pro+Prs+3s+Fem+Obl+Indir+Unstress:l%{I%} # ;
 +Pro+Prs+3s+Fem+Obl+Stress:l%{I%} # ;
 
 LEXICON 3SgNeut
-+Pro+Prs+3s+Neut+Nom+Stress:il # ;
-+Pro+Prs+3s+Neut+Nom+Stress:on # ;
-+Pro+Prs+3s+Neut+Nom+Stress:om # ;
-+Pro+Prs+3s+Neut+Nom+Stress:un # ;
-+Pro+Prs+3s+Neut+Nom+Stress:um # ;
-+Pro+Prs+3s+Neut+Nom+Unstress:il # ;
-+Pro+Prs+3s+Neut+Obl+Unstress:le # ; ! Also ly?
-+Pro+Prs+3s+Neut+Obl+Unstress+Gram/Liason:l # ;
++Pro+Prs+3s+Neut+Nom:il # ;
++Pro+Prs+3s+Neut+Nom:on # ;
++Pro+Prs+3s+Neut+Nom:om # ;
++Pro+Prs+3s+Neut+Nom:un # ;
++Pro+Prs+3s+Neut+Nom:um # ;
++Pro+Prs+3s+Neut+Obl:le # ; ! Also ly?
++Pro+Prs+3s+Neut+Obl+Gram/Liason:l # ;
 
 LEXICON 3SgRefl
 +Pro+Prs+3s+Refl+Obl+Stress:ei # ;
 +Pro+Prs+3s+Refl+Obl+Unstress:e # ;
-+Pro+Prs+3s+Refl+Obl+Unstress+Gram/Liason:0 # ;
++Pro+Prs+3s+Refl+Obl+Gram/Liason:0 # ;
 
 LEXICON 3SgPoss
 +Pro+Poss+3s+Masc+Nom+Sg+Unstress:es # ;
@@ -128,15 +118,11 @@ LEXICON 3SgPoss
 +Pro+Poss+3s+Fem+Obl+Pl+Stress:oes # ;
 
 LEXICON 1Pl
-+Pro+Prs+1p+Nom+Stress+Gram/Early:s # ;
-+Pro+Prs+1p+Nom+Unstress+Gram/Early:s # ;
-+Pro+Prs+1p+Obl+Stress+Gram/Early:s # ;
-+Pro+Prs+1p+Obl+Unstress+Gram/Early:s # ;
++Pro+Prs+1p+Nom+Gram/Early:s # ;
++Pro+Prs+1p+Obl+Gram/Early:s # ;
 
-+Pro+Prs+1p+Nom+Stress+Gram/Early:us # ;
-+Pro+Prs+1p+Nom+Unstress+Gram/Early:us # ;
-+Pro+Prs+1p+Obl+Stress+Gram/Early:us # ;
-+Pro+Prs+1p+Obl+Unstress+Gram/Early:us # ;
++Pro+Prs+1p+Nom+Gram/Early:us # ;
++Pro+Prs+1p+Obl+Gram/Early:us # ;
 
 +Pro+Poss+1p+Masc+Nom+Sg+Unstress:stre # ; ! Alternate form of nostre = no?
 +Pro+Poss+1p+Masc+Obl+Sg+Unstress:stre # ;
@@ -160,19 +146,12 @@ LEXICON 1Pl
 +Pro+Poss+1p+Fem+Obl+Pl+Stress:z # ;
 
 LEXICON 2Pl
-+Pro+Prs+2p+Nom+Stress:vos # ;
-+Pro+Prs+2p+Nom+Stress:vus # ;
-+Pro+Prs+2p+Nom+Unstress:vos # ;
-+Pro+Prs+2p+Nom+Unstress:vus # ;
-+Pro+Prs+2p+Obl+Stress:vos # ;
-+Pro+Prs+2p+Obl+Stress:vus # ;
-+Pro+Prs+2p+Obl+Unstress:vos # ;
-+Pro+Prs+2p+Obl+Unstress:vus # ;
-
-+Pro+Prs+2p+Nom+Stress:vous # ;
-+Pro+Prs+2p+Nom+Unstress:vous # ;
-+Pro+Prs+2p+Obl+Stress:vous # ;
-+Pro+Prs+2p+Obl+Unstress:vous # ;
++Pro+Prs+2p+Nom:vos # ;
++Pro+Prs+2p+Nom:vus # ;
++Pro+Prs+2p+Obl:vos # ;
++Pro+Prs+2p+Obl:vus # ;
++Pro+Prs+2p+Nom:vous # ;
++Pro+Prs+2p+Obl:vous # ;
 
 +Pro+Poss+2p+Masc+Nom+Sg+Unstress:vostre # ;
 +Pro+Poss+2p+Masc+Obl+Sg+Unstress:vostre # ;
@@ -196,37 +175,27 @@ LEXICON 2Pl
 +Pro+Poss+2p+Fem+Obl+Pl+Stress:voz # ;
 
 LEXICON 3PlMasc
-+Pro+Prs+3p+Masc+Nom+Stress:il # ;
-+Pro+Prs+3p+Masc+Nom+Stress:ils # ;
-+Pro+Prs+3p+Masc+Nom+Stress:ilz # ;
-+Pro+Prs+3p+Masc+Nom+Stress+Err/Obsc:i # ;
-+Pro+Prs+3p+Masc+Nom+Stress+Err/Obsc:ilh # ;
-+Pro+Prs+3p+Masc+Nom+Unstress:il # ;
-+Pro+Prs+3p+Masc+Nom+Unstress+Err/Obsc:i # ;
-+Pro+Prs+3p+Masc+Nom+Unstress+Err/Obsc:ilh # ;
++Pro+Prs+3p+Masc+Nom:il # ;
++Pro+Prs+3p+Masc+Nom:ils # ;
++Pro+Prs+3p+Masc+Nom+Err/Obsc:i # ;
++Pro+Prs+3p+Masc+Nom+Err/Obsc:ilh # ;
 +Pro+Prs+3p+Masc+Obl+Dir+Stress:els # ;
 +Pro+Prs+3p+Masc+Obl+Dir+Stress:euls # ;
 +Pro+Prs+3p+Masc+Obl+Dir+Stress:eulx # ; ! Verify
 +Pro+Prs+3p+Masc+Obl+Dir+Unstress:les # ;
-+Pro+Prs+3p+Masc+Obl+Indir+Stress:lor # ;
-+Pro+Prs+3p+Masc+Obl+Indir+Stress:lur # ;
-+Pro+Prs+3p+Masc+Obl+Indir+Unstress:lor # ;
++Pro+Prs+3p+Masc+Obl+Indir:lor # ;
++Pro+Prs+3p+Masc+Obl+Indir:lur # ;
 
 LEXICON 3PlFem
-+Pro+Prs+3p+Fem+Nom+Stress:eles # ;
-+Pro+Prs+3p+Fem+Nom+Stress:elles # ;
-+Pro+Prs+3p+Fem+Nom+Unstress:eles # ;
-+Pro+Prs+3p+Fem+Nom+Unstress:elles # ;
-+Pro+Prs+3p+Fem+Obl+Dir+Stress:eles # ;
-+Pro+Prs+3p+Fem+Obl+Dir+Stress:elles # ;
++Pro+Prs+3p+Fem+Nom:el%>es # ;
++Pro+Prs+3p+Fem+Obl+Dir+Stress:el%>es # ;
 +Pro+Prs+3p+Fem+Obl+Dir+Unstress:les # ;
-+Pro+Prs+3p+Fem+Obl+Indir+Stress:lor # ;
-+Pro+Prs+3p+Fem+Obl+Indir+Unstress:lor # ;
++Pro+Prs+3p+Fem+Obl+Indir:lor # ;
 
 LEXICON 3PlRefl
 +Pro+Prs+3p+Refl+Obl+Stress:oi # ;
 +Pro+Prs+3p+Refl+Obl+Unstress:e # ;
-+Pro+Prs+3p+Refl+Obl+Unstress:0 # ;
++Pro+Prs+3p+Refl+Obl+Gram/Liason:0 # ;
 
 LEXICON 3PlPoss
 +Pro+Poss+3p+Nom+Sg+Unstress:0 # ;
@@ -391,12 +360,12 @@ LEXICON IndefPro
 !!€ mey:        je+Pro+Prs+1s+Obl+Stress
 !!€ moi:        je+Pro+Prs+1s+Obl+Stress
 !!€ moy:        je+Pro+Prs+1s+Obl+Stress
-!!€ nos:        nous+Pro+Prs+1p+Nom+Stress+Gram/Early
-!!€ nous:       nous+Pro+Prs+1p+Nom+Stress+Gram/Early
-!!€ noux:       nous+Pro+Prs+1p+Nom+Stress+Gram/Early
-!!€ nox:       nous+Pro+Prs+1p+Nom+Stress+Gram/Early
-!!€ els:       ils+Pro+Prs+3p+Masc+Obl+Dir+Stress
-!!€ eus:       ils+Pro+Prs+3p+Masc+Obl+Dir+Stress
+!!€ nos:        nous+Pro+Prs+1p+Nom+Gram/Early
+!!€ nous:       nous+Pro+Prs+1p+Nom+Gram/Early
+!!€ noux:       nous+Pro+Prs+1p+Nom+Gram/Early
+!!€ nox:        nous+Pro+Prs+1p+Nom+Gram/Early
+!!€ els:        ils+Pro+Prs+3p+Masc+Obl+Dir+Stress
+!!€ eus:        ils+Pro+Prs+3p+Masc+Obl+Dir+Stress
 !!€ euls:       ils+Pro+Prs+3p+Masc+Obl+Dir+Stress
 !!€ eulx:       ils+Pro+Prs+3p+Masc+Obl+Dir+Stress
 !!€ soi:        se+Pro+Prs+3p+Refl+Obl+Stress

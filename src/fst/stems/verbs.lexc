@@ -229,6 +229,7 @@ respondre:respond RegRe "to reply, to respond" ;
     respondre:repond RegRe "to reply, to respond" ;
     respondre+V+Part+Past:respondi PartEndings ;
     respondre+V+3s+Pres+Sbjv:respont # ; ! Verify
+revenir:rev Xenir   "to return" ;
 rompre:romp RegRe   "to break" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

@@ -283,6 +283,7 @@ evesque MC1a "bishop" ;
 
 fait:fai%{T%} MC1a "fact, deed, manner of doing" ; ! Verify
     fait:fe%{T%} MC1a "fact, deed, manner of doing" ; ! Verify
+    fait:fei%{T%} MC1a "fact, deed, manner of doing" ; ! Verify
 fame FC1 "wife, woman" ;
     fame:femme FC1 "wife, woman" ;
     fame:feme FC1 "wife, woman" ;
@@ -358,6 +359,8 @@ heritage:%{H%}eritage MC1a "inheritance, heritage" ; ! Also FC1?
 heure:%{H%}eure FC1 "hour" ;
     heure:ure FC1 "hour" ;
     heure:ore FC1 "hour" ;
+histoire:%{H%}%{I%}stoire FC1 "history, story, tale" ;
+    histoire:estoire FC1 "history, story, tale" ;
 hiver:%{H%}%{I%}ver NIndecM "winter" ; ! MC1a?
 hom:hom%>e MC1a "man" ;
     hom:om%>e MC1a "man" ;
@@ -547,7 +550,8 @@ oppinion FC2 "opinion, way of thinking" ;
     oppinion:opinion FC2 "opinion, way of thinking" ;
 or MC1a "gold" ; ! Check class
 Orléans PropFem "Orleans region" ; ! Verify gender
-ost:os%{T%} MC1a "army" ;
+ost:%{H%}os%{T%} MC1a "army" ;
+    ost:%{H%}os%{T%} FC2 "army" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------P---------------------------------------!
