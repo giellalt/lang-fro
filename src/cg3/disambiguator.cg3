@@ -52,6 +52,7 @@ LIST Prs = Prs ;
 LIST Interr = Interr ;
 LIST Det = Det ;
 LIST Refl = Refl ;
+LIST Dem = Dem ;
 #LIST Recipr = Recipr ;
 LIST Poss = Poss ;
 #LIST IM = IM ;
@@ -239,10 +240,10 @@ SET NOUNADJ = N | Adj ;
 
 SET NP-MEMBER = PRE-N | N | Pro ;
 
-LIST TIME = "an" "mois" "heure" ;
-
 # Semantic sets
 
+LIST TIME = "an" "mois" "heure" ;
+LIST QUANTITY = "tant" "beaucoup" "autant" "assez" ;
 
 #LIST ABSTRACT = "ráð" "byráð" ;
 
@@ -277,6 +278,8 @@ SELECT Adj + Obl IF (1 COPULA) ;
 
 SELECT Adv + Emph IF (-1 N + $$GENDERCASENUMBER) (1 Adj + $$GENDERCASENUMBER) ;
 SELECT Adv + Emph IF (-1 Adj + $$GENDERCASENUMBER) (1 N + $$GENDERCASENUMBER) ;
+SELECT Adv + Neg + Unstress IF (1 V) ;
+SELECT Adv + QUANTITY IF (1 De) ;
 
 # Verb disambiguation
 # ------------------------
@@ -288,7 +291,6 @@ SELECT V + 3Sg IF (-1 N + NomSg) ;
 SELECT V + 3Sg IF (-1 Pro + Refl + 3Sg) ;
 SELECT V + 3Pl IF (-1 Pro + Refl + 3Pl) ;
 
-
 # Pronoun disambiguation
 # ------------------------
 
@@ -298,6 +300,9 @@ SELECT Pro + Poss + Stress IF (-1 Art) ; # Check
 SELECT Pro + Refl + $$PERSON IF (1 V + $$PERSON) ;
 SELECT Pro + Prs + $$PERSON + Stress IF (1 V + $$PERSON) ;
 SELECT Pro + Adv IF (1C V) ;
+SELECT Pro + Dem + $$GENDERCASENUMBER IF (1 N + $$GENDERCASENUMBER OR Adj + $$GENDERCASENUMBER) ;
+SELECT Pro + Unstress IF (1 V) ;
+SELECT Pro + Adv IF (1 AVOIR) ;
 
 # Article/Participle disambiguation
 # ------------------------
