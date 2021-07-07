@@ -11,6 +11,7 @@ ainçois SubPart ;
 ainsi SubPart ;
 ainz Coord ;
 ainz SubPart ;
+avant SubPart "before" ; ! Verify
 bien SubPart ;
 combien SubPart "although, marker of less intense outcome" ;
 des SubPart ;

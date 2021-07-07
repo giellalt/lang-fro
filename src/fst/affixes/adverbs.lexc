@@ -3,6 +3,7 @@ LEXICON Negation
 +Adv+Neg+Stress:un # ;
 +Adv+Neg+Unstress:e # ;
 +Adv+Neg+Unstress:en # ;
++Adv+Neg+Unstress+Gram/Liason: # ;
 
 LEXICON Pas
 +Adv+Neg: # ;

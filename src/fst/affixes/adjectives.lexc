@@ -228,18 +228,18 @@ LEXICON Nouveau
 +Adj+Fem+Nom+Pl:nouvel%>es # ;
 +Adj+Fem+Obl+Pl:nouvel%>es # ;
 
-LEXICON Nul
-+Adj+Masc+Nom+Sg:nus # ;
-+Adj+Masc+Nom+Sg:nuls # ;
-+Adj+Masc+Obl+Sg:nul # ;
-+Adj+Masc+Nom+Pl:nul # ;
-+Adj+Masc+Obl+Pl:nus # ;
-+Adj+Masc+Obl+Pl:nuls # ;
+LEXICON NulAdj
++Adj+Indef+Neg+Masc+Nom+Sg:nus # ;
++Adj+Indef+Neg+Masc+Nom+Sg:nuls # ;
++Adj+Indef+Neg+Masc+Obl+Sg:nul # ;
++Adj+Indef+Neg+Masc+Nom+Pl:nul # ;
++Adj+Indef+Neg+Masc+Obl+Pl:nus # ;
++Adj+Indef+Neg+Masc+Obl+Pl:nuls # ;
 
-+Adj+Fem+Nom+Sg:nul%>e # ;
-+Adj+Fem+Obl+Sg:nul%>e # ;
-+Adj+Fem+Nom+Pl:nul%>es # ;
-+Adj+Fem+Obl+Pl:nul%>es # ;
++Adj+Indef+Neg+Fem+Nom+Sg:nul%>e # ;
++Adj+Indef+Neg+Fem+Obl+Sg:nul%>e # ;
++Adj+Indef+Neg+Fem+Nom+Pl:nul%>es # ;
++Adj+Indef+Neg+Fem+Obl+Pl:nul%>es # ;
 
 LEXICON Tot
 +Masc+Nom+Sg:toz # ;

@@ -43,4 +43,5 @@ plusor IndefPro "several, many" ;
 maint IndefPro "many" ;
     maint:mainte IndefPro "many" ;
 nïent:nïen%{T%} IndefPro "nothing" ;
+nul: NulPro "nothing" ;
 

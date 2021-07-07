@@ -17,7 +17,7 @@
 # ========== #
 
 
-DELIMITERS = "<.>" "<!>" "<?>" "<¶>";
+DELIMITERS = "<.>" "<!>" "<?>" "<¶>" "<>" ;
 
 
 
@@ -50,6 +50,7 @@ LIST Prep = Prep ;
 LIST Pro = Pro ;
 LIST Prs = Prs ;
 LIST Interr = Interr ;
+LIST Rel = Relative ;
 LIST Det = Det ;
 LIST Refl = Refl ;
 LIST Dem = Dem ;
@@ -80,6 +81,7 @@ LIST Inf = Inf ;
 LIST Part = Part ;
 LIST Perf = Perf ;
 LIST Pres = Pres ;
+LIST Past = Past ;
 LIST Fut = Fut ;
 LIST Ind = Ind ;
 LIST Imp = Imp ;
@@ -99,6 +101,7 @@ LIST RIGHT = RIGHT ;
 LIST Guess = Guess ;
 LIST De = "de" ;
 LIST Que = "que" ;
+LIST PronAdvI = "i" ;
 LIST Obsc = "Err/Obsc" ;
 LIST Emph = Emph ;
 
@@ -113,7 +116,7 @@ LIST CASE = Nom Obl ;
 LIST GENDER = Masc Fem Neut ;
 LIST NUMBER = Sg Pl ;
 SET GENDERCASENUMBER = (Masc Nom Sg) OR (Masc Obl Sg) OR (Masc Nom Pl) OR (Masc Obl Pl) OR (Fem Nom Sg) OR (Fem Obl Sg) OR (Fem Nom Pl) OR (Fem Obl Pl) OR (Neut Nom Sg) OR (Neut Obl Sg) OR (Neut Nom Pl) OR (Neut Obl Pl) ;
-
+SET CASENUMBER = (Nom Sg) OR (Nom Pl) OR (Obl Sg) OR (Obl Pl) ;
 
 # Sets
 # ====
@@ -168,7 +171,7 @@ SET AUX = COPULA OR AVOIR ;
 
 SET PRESPART = (Part Pres) ;
 SET PASTPART = (Part Past) ;
-LIST TENSE = Pres Perf Ipfv Past Fut ;
+SET TENSE = Pres OR Perf OR Ipfv OR Past OR Fut ;
 LIST PAST = Perf Ipfv Past ;
 LIST MOOD = Ind Sbjv Imp Cond ; 
 SET PERSON = 1Sg OR 2Sg OR 3Sg OR 1Pl OR 2Pl OR 3Pl ;
@@ -176,7 +179,10 @@ LIST NONFINITE = Part Inf ;
 #LIST Ind = Prs Prt ;
 
 LIST NONTHIRDV = 1s 2s 1p 2p ;
+LIST VERBSG = 1s 2s 3s ;
+LIST VERBPL = 1p 2p 3p ;
 
+SET SECOND = 2Sg OR 2Pl ;
 
 # Noun-Verb sets
 
@@ -244,6 +250,8 @@ SET NP-MEMBER = PRE-N | N | Pro ;
 
 LIST TIME = "an" "mois" "heure" ;
 LIST QUANTITY = "tant" "beaucoup" "autant" "assez" ;
+LIST TITLE = "seignor" "dame" "garçon" "fil" "fille" "Dieu" ; # Add more
+LIST SIGHT = "veoir" "querre" "regarder" "trouver" ;
 
 #LIST ABSTRACT = "ráð" "byráð" ;
 
@@ -271,7 +279,10 @@ REMOVE Obsc ; # If any other reading is possible.
 
 REMOVE Pro + Refl IF (1 Pro + Refl) ;
 SELECT Adj + Obl IF (1 COPULA) ;
-
+SELECT AVOIR IF (-1 Pro + Adv) ;
+REMOVE MWC IF (-1 S-BOUNDARY) (NOT 1* Que) ;
+SELECT Conj IF (-1 S-BOUNDARY) ;
+SELECT Prep IF (1 Pro + Dem + Neut) (2 Que) ;
 
 # Adverb disambiguation
 # ------------------------
@@ -280,6 +291,9 @@ SELECT Adv + Emph IF (-1 N + $$GENDERCASENUMBER) (1 Adj + $$GENDERCASENUMBER) ;
 SELECT Adv + Emph IF (-1 Adj + $$GENDERCASENUMBER) (1 N + $$GENDERCASENUMBER) ;
 SELECT Adv + Neg + Unstress IF (1 V) ;
 SELECT Adv + QUANTITY IF (1 De) ;
+SELECT Adv IF (1 Adj) ;
+SELECT Adv + Neg IF (-1 Adv + Neg) ;
+SELECT Adv + Neg IF (1 V) ;
 
 # Verb disambiguation
 # ------------------------
@@ -290,6 +304,10 @@ REMOVE V IF (NOT 0 NONFINITE) (-1 V) ;
 SELECT V + 3Sg IF (-1 N + NomSg) ;
 SELECT V + 3Sg IF (-1 Pro + Refl + 3Sg) ;
 SELECT V + 3Pl IF (-1 Pro + Refl + 3Pl) ;
+SELECT V + SECOND + Imp IF (-1 TITLE) (NOT -2* Pro + Prs + Nom) ;
+SELECT V + SECOND + Imp IF (-2 TITLE) (-1 Neg) (NOT -3* Pro + Prs + Nom) ;
+
+SELECT V + Part + Past + $$GENDERCASENUMBER IF (-1 AUX) (-2 $$GENDERCASENUMBER) ;
 
 # Pronoun disambiguation
 # ------------------------
@@ -299,10 +317,16 @@ SELECT Pro + Poss + Stress IF (-1 Art) ; # Check
 
 SELECT Pro + Refl + $$PERSON IF (1 V + $$PERSON) ;
 SELECT Pro + Prs + $$PERSON + Stress IF (1 V + $$PERSON) ;
+SELECT Pro + Prs + $$PERSON + Nom IF (1 V + $$PERSON) ;
 SELECT Pro + Adv IF (1C V) ;
 SELECT Pro + Dem + $$GENDERCASENUMBER IF (1 N + $$GENDERCASENUMBER OR Adj + $$GENDERCASENUMBER) ;
-SELECT Pro + Unstress IF (1 V) ;
+SELECT Pro + Dem + $$GENDERCASENUMBER IF (-1 De) (-2 Adj + $$GENDERCASENUMBER) ;
+SELECT Pro + Dem + Obl IF (-1 V) (-2* Nom) ;
+SELECT Unstress IF (0 Pro + Prs OR Pro + Poss) (1 V) ;
 SELECT Pro + Adv IF (1 AVOIR) ;
+SELECT Pro + Indef + Neg IF (-1* Adv + Neg) ;
+SELECT Pro + Indef + Neg + Obl IF (-1 V) ;
+SELECT Pro + Rel IF (-1 Pro + Dem) ;
 
 # Article/Participle disambiguation
 # ------------------------
@@ -320,19 +344,26 @@ REMOVE N IF (-1 Adj + $$GENDERCASENUMBER) (-2 N + $$GENDERCASENUMBER) ;
 SELECT N + $$GENDERCASENUMBER IF (-1 Art + $$GENDERCASENUMBER) ;
 SELECT N + $$GENDERCASENUMBER IF (-2 Art + $$GENDERCASENUMBER) (-1 Adj + $$GENDERCASENUMBER) ;
 SELECT N + $$GENDERCASENUMBER IF (-1 Adj + $$GENDERCASENUMBER) ;
+SELECT N + $$GENDERCASENUMBER IF (-1 Pro + $$GENDERCASENUMBER) ;
 SELECT N + Obl IF (-1C Prep) ;
 SELECT N + Obl IF (-1 Pro + Poss) ;
+SELECT N + Obl IF (-1 Num) ;
 SELECT N + MascNomSg IF (1 V + 3Sg ) ;
-SELECT N + Obl IF (-1 S-BOUNDARY) (1 V) ;
+SELECT N + Obl IF (-1 S-BOUNDARY) (1 V) (1* Nom) ;
+SELECT N IF (-1 Pro + Dem) ;
 
 # Adjectve disambiguation
 # ------------------------
 
 SELECT Adj + Obl IF (-1 S-BOUNDARY) (1 COPULA) ;
 SELECT Adj + Obl IF (-2 Prep) (-1 Art) (1 N) ;
+SELECT Adj + Obl IF (-1 Prep) (1 N) ;
 SELECT Adj + $$GENDERCASENUMBER IF (1 N + $$GENDERCASENUMBER) ;
 SELECT Adj + $$GENDERCASENUMBER IF (-1 N + $$GENDERCASENUMBER) ;
 SELECT Adj + $$GENDERCASENUMBER IF (-2 N + $$GENDERCASENUMBER) (-1 Adv) ;
+SELECT Adj IF (-1 Adv) ;
+SELECT Adj + $$GENDERCASENUMBER IF (-1* Pro + Indef + $$GENDERCASENUMBER) ;
+SELECT Adj + NomSg IF (-1* Pro + 1Sg OR Pro + 2Sg) ;
 
 # Conjunction disambiguation
 # ------------------------
@@ -341,6 +372,7 @@ SELECT MWC IF (1 MWC OR Que) ;
 SELECT CC IF (-1 CLB) ;
 SELECT CS IF (0 Que) (-1 MWC) ;
 SELECT Que + CS IF (NOT -1 CLB) ;
+SELECT CS IF (-1 CLB) ;
 
 # Numeral disambiguation
 # ------------------------
@@ -357,17 +389,29 @@ SELECT Pro + Obl + Stress IF (-1 Prep) ;
 SELECT Pro + Dir IF (-1 Prep) ;
 SELECT N + Fem + Obl IF (-1 V) (-2 N + Nom OR Pro + Nom OR Adj + Nom) ; # Check
 SELECT Adj + Fem + Obl IF (-1 V) (-2 N + Nom OR Pro + Nom OR Adj + Nom) ;
-SELECT Adj + $$GENDERCASENUMBER IF (1* N + $$GENDERCASENUMBER) ;
+SELECT Adj + $$GENDERCASENUMBER IF (1 N + $$GENDERCASENUMBER) ;
 SELECT N + $$GENDERCASENUMBER IF (-1 Art + $$GENDERCASENUMBER) ;
 SELECT N + $$GENDERCASENUMBER IF (-2 Art + $$GENDERCASENUMBER) (-1 Adj + $$GENDERCASENUMBER) ;
 SELECT N + $$GENDERCASENUMBER IF (-1 Adj + $$GENDERCASENUMBER) ;
 SELECT V + Sbjv IF (-1 Que) ;
 SELECT V + Sbjv IF (-1 Nom) (-2 Que) ;
 SELECT Adv + Emph IF (1 Adj) ;
+SELECT Pro + Prs + Obl IF (-1 De) ;
+SELECT V + 2Pl IF (1* TITLE ) ;
+SELECT V + 2Pl IF (1* TITLE ) ;
+SELECT V + VERBSG IF (-1* N + Nom + Sg) ;
+SELECT V + VERBPL IF (-1* N + Nom + Pl) ;
+SELECT V + VERBSG IF (1* N + Nom + Sg) ;
+SELECT V + VERBPL IF (1* N + Nom + Pl) ;
+SELECT V + $$TENSE IF (-1* V + $$TENSE) ;
+SELECT V + Ipfv IF (-1* V + Ipfv) ;
+SELECT N IF (-1 SIGHT) ;
+SELECT V + Ipfv IF (-1 S-BOUNDARY) ;
 
 SECTION
 # If you still have options....
 
 SELECT Prep ;
-SELECT Adj + MascFem ; # Avoid neuter if possible
-SELECT Prop + Sg ; # Proper nouns are usually singular
+SELECT MascFem IF (0 Adj) ; # Avoid neuter if possible
+SELECT Sg IF (0 Prop) ; # Proper nouns are usually singular
+SELECT Obl IF (0 TITLE) ; # (Dame, Seignor, etc) 

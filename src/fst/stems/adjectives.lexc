@@ -28,6 +28,7 @@ chenut:chenu TDe "white, old, aged, white-haired" ;
 chier Adj1 "dear, expensive, clean" ;
     chier:cher Adj1 "dear, expensive, clean" ;
 cler Adj1 "clear, unblemished" ;
+content Adj2 "satisfied, pleased, content, happy" ;
 contraire Adj2 "contrary" ;
 coral Adj3 "cordial" ;
 corant Adj3 "swift" ;
@@ -91,7 +92,7 @@ mout: Mout "many, much, very" ;
 naturel Adj1 "natural" ; ! Adj3?
 noble Adj2 "noble, belonging to nobility" ;
 nouveau: Nouveau "new" ;
-nul: Nul "no, not any" ;
+nul: NulAdj "no, not any" ;
 pacient:pacien%{T%} Adj3 "patient" ;
 petit:peti%{T%} Adj1 "small, little" ;
 pis+Adj+Neut:pis # "worse, worst" ;
@@ -154,4 +155,3 @@ meïsme IndefAdj "self, same, even, also" ; ! Verify all
     meïsme:mesmes IndefAdj "self, same, even, also" ;
     meïsme:memes IndefAdj "self, same, even, also" ;
     meïsme:meme IndefAdj "self, same, even, also" ;
-

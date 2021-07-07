@@ -484,6 +484,7 @@ LEXICON Faire
 +V+2s+Pres+Imp:fai # ;
 +V+1p+Pres+Imp:faisons # ;
 +V+2p+Pres+Imp:faisez # ;
++V+2p+Pres+Imp:faitez # ;
 
 LEXICON Dire
 +V+Inf:dire # ;
@@ -1183,6 +1184,7 @@ LEXICON Querre
 :qui PerfStSS ;
 :que PerfStSU ;
 :querr IpfvInd ;
+:quer IpfvInd ;
 :querr FutInd ;
 
 +V+1s+Pres+Sbjv:quiere # ;
@@ -1196,7 +1198,9 @@ LEXICON Querre
 +V+3p+Pres+Sbjv:quierge%>nt # ;
 
 :querr IpfvSubjStS ;
+:quer IpfvSubjStS ;
 :querr Conditional ; ! Verify
+:quer Conditional ; ! Verify
 
 +V+2s+Pres+Imp:quier # ;
 +V+1p+Pres+Imp:querons # ; ! Verify

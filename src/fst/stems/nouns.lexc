@@ -445,9 +445,9 @@ lieutenant MC1a "second in command, lieutenant" ;
 lignage MC1a "lineage, blood relation, family tie" ; ! FIXME: Palatal nasal
     lignage:linage MC1a "lineage, blood relation, family tie" ;
 lion MC1a "lion" ;
-lit MC1a "bed" ;
-    lit+N+Masc+Nom+Sg:liz # ;
-    lit+N+Masc+Obl+Pl:liz # ;
+lit:li%{T%} MC1a "bed" ;
+    lit+N+Masc+Nom+Sg:litz # ;
+    lit+N+Masc+Obl+Pl:litz # ;
 livre:livr MC2 "book" ;
 los MC1a "praise, glory, reputation" ;
 lumière FC1 "light" ;

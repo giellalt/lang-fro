@@ -124,11 +124,13 @@ LEXICON Dol ! All of these are valid forms, but check tags and plurals
 
 LEXICON Cheval ! All of these are valid forms, but check tags and plurals
 +N+Masc+Nom+Sg:chevals # ;
++N+Masc+Nom+Sg:chevalx # ;
 +N+Masc+Nom+Sg:chevaulx # ;
 +N+Masc+Obl+Sg:cheval # ;
 +N+Masc+Obl+Sg:ceval # ;
 +N+Masc+Nom+Pl:cheval # ;
 +N+Masc+Obl+Pl:chevals # ; ! uncertain
++N+Masc+Obl+Pl:chevalx # ;
 +N+Masc+Obl+Pl:chevaulx # ;
 
 LEXICON Ciel ! Verify

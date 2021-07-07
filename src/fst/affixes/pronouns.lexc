@@ -5,7 +5,7 @@ LEXICON 1Sg
 +Pro+Prs+1s+Nom+Err/Obsc:ja # ;
 +Pro+Prs+1s+Nom+Err/Obsc:ge # ;
 +Pro+Prs+1s+Nom+Err/Obsc:jeo # ;
-+Pro+Prs+1s+Nom+Stress+Err/Obsc:iu # ; ! Verify. Looks right from corpus but very odd
++Pro+Prs+1s+Obl+Stress+Err/Obsc:iu # ; ! Verify. Looks right from corpus but very odd
 +Pro+Prs+1s+Obl+Stress:mei # ;
 +Pro+Prs+1s+Obl+Unstress:me # ;
 +Pro+Prs+1s+Obl+Gram/Liason:m # ;
@@ -224,6 +224,7 @@ LEXICON Demonstrative
 +Pro+Dem+Far+Masc+Nom+Pl:cil # ;
 +Pro+Dem+Far+Masc+Nom+Pl:c%{I%} # ;
 +Pro+Dem+Far+Masc+Obl+Pl:cels # ;
++Pro+Dem+Far+Masc+Obl+Pl:ceuls # ;
 +Pro+Dem+Far+Masc+Obl+Pl:ceulx # ;
 +Pro+Dem+Far+Masc+Obl+Pl:ces # ;
 +Pro+Dem+Far+Masc+Obl+Pl:ceos # ; ! Verify
@@ -352,6 +353,19 @@ LEXICON IndefPro
 +Pro+Adj+Indef+Obl+Sg:0 # ;
 +Pro+Adj+Indef+Nom+Pl:0 # ;
 +Pro+Adj+Indef+Obl+Pl:s # ;
+
+LEXICON NulPro
++Pro+Indef+Neg+Masc+Nom+Sg:nus # ;
++Pro+Indef+Neg+Masc+Nom+Sg:nuls # ;
++Pro+Indef+Neg+Masc+Obl+Sg:nul # ;
++Pro+Indef+Neg+Masc+Nom+Pl:nul # ;
++Pro+Indef+Neg+Masc+Obl+Pl:nus # ;
++Pro+Indef+Neg+Masc+Obl+Pl:nuls # ;
+
++Pro+Indef+Neg+Fem+Nom+Sg:nul%>e # ;
++Pro+Indef+Neg+Fem+Obl+Sg:nul%>e # ;
++Pro+Indef+Neg+Fem+Nom+Pl:nul%>es # ;
++Pro+Indef+Neg+Fem+Obl+Pl:nul%>es # ;
 
 !!€gt-norm: Pro+Prs
 !!€ mi:         je+Pro+Poss+1s+Masc+Nom+Pl+Unstress
