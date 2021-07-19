@@ -16,11 +16,11 @@ LEXICON FC2
 +N+Fem+Obl+Pl:s # ;
 +N: Agent ;
 
-LEXICON Agent
+LEXICON Agent ! Review and verify
 +Agent+Masc+Nom+Sg:%>iers # ;
-+Agent+Masc+Obl+Sg:%>ier # ;
++Agent+Masc+Obl+Sg:eor # ;
 +Agent+Masc+Nom+Pl:%>ier # ;
-+Agent+Masc+Obl+Pl:%>iers # ;
++Agent+Masc+Obl+Pl:eors # ;
 +Agent+Fem+Nom+Sg:%>ière # ;
 +Agent+Fem+Obl+Sg:%>ière # ;
 +Agent+Fem+Nom+Pl:%>ières # ;
@@ -28,10 +28,10 @@ LEXICON Agent
 
 
 LEXICON FC3
-+N+Fem+Nom+Sg:0 # ;
-+N+Fem+Obl+Sg:0 # ;
-+N+Fem+Nom+Pl:s # ;
-+N+Fem+Obl+Pl:s # ;
++N+Fem+Nom+Sg:e # ;
++N+Fem+Obl+Sg:ain # ;
++N+Fem+Nom+Pl:ains # ;
++N+Fem+Obl+Pl:ains # ;
 
 LEXICON MC1a
 +N+Masc+Nom+Sg:s # ;
@@ -219,17 +219,19 @@ LEXICON Monseigneur ! Verify forms
 !!€ bers:       bers+N+Masc+Obl+Sg
 !!€ bers:       bers+N+Masc+Nom+Pl
 !!€ bers:       bers+N+Masc+Obl+Pl
-!!€ cortiers:    cort+N+Agent+Masc+Nom+Sg
-!!€ cortiers:    cort+N+Agent+Masc+Obl+Pl
-!!€ courtiers:    cort+N+Agent+Masc+Nom+Sg
-!!€ courtiers:    cort+N+Agent+Masc+Obl+Pl
-!!€ cortière:    cort+N+Agent+Fem+Nom+Sg
-!!€ cortière:    cort+N+Agent+Fem+Obl+Sg
-!!€ cortiere:    cort+N+Agent+Fem+Nom+Sg
-!!€ cortiere:    cort+N+Agent+Fem+Obl+Sg
-!!€ courtière:    cort+N+Agent+Fem+Nom+Sg
-!!€ courtière:    cort+N+Agent+Fem+Obl+Sg
-!!€ courtiere:    cort+N+Agent+Fem+Nom+Sg
-!!€ courtiere:    cort+N+Agent+Fem+Obl+Sg
+!!€ cortiers:   cort+N+Agent+Masc+Nom+Sg
+!!€ corteor:    cort+N+Agent+Masc+Obl+Sg
+!!€ courteor:   cort+N+Agent+Masc+Obl+Sg
+!!€ courtiers:  cort+N+Agent+Masc+Nom+Sg
+!!€ corteors:   cort+N+Agent+Masc+Obl+Pl
+!!€ courteors:  cort+N+Agent+Masc+Obl+Pl
+!!€ cortière:   cort+N+Agent+Fem+Nom+Sg
+!!€ cortière:   cort+N+Agent+Fem+Obl+Sg
+!!€ cortiere:   cort+N+Agent+Fem+Nom+Sg
+!!€ cortiere:   cort+N+Agent+Fem+Obl+Sg
+!!€ courtière:  cort+N+Agent+Fem+Nom+Sg
+!!€ courtière:  cort+N+Agent+Fem+Obl+Sg
+!!€ courtiere:  cort+N+Agent+Fem+Nom+Sg
+!!€ courtiere:  cort+N+Agent+Fem+Obl+Sg
 
 

@@ -9,9 +9,9 @@ Config:
 
 Tests:
 
-  Noun - serour - ok : #
-    serour+N+Fem+Nom+Sg: serour #
-    serour+N+Fem+Obl+Sg: serour #
-    serour+N+Fem+Nom+Pl: serours #
-    serour+N+Fem+Obl+Pl: serours #
+  Noun - Espaigne - ok : #
+    Espaigne+N+Prop+Fem+Nom+Sg: Espaigne #
+    Espaigne+N+Prop+Fem+Obl+Sg: Espaigne #
+    Espaigne+N+Prop+Fem+Nom+Pl: Espaigne #
+    Espaigne+N+Prop+Fem+Obl+Pl: Espaigne #
 

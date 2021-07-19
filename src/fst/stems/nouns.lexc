@@ -21,7 +21,9 @@ age MC1a "age" ;
     age:eage MC1a "age" ;
     age:aige MC1a "age" ;
 aé MC1a "age" ;
+Aix PropMasc "Aix" ;
 Alemaigne PropFem "Germany" ;
+Alexis NIndecM "Alexis" ;
 Alixandre+Prop:Alixandr MC2 "Alexander" ;
 amant MC1a "beloved, friend" ;
 ame FC1 "soul, somebody" ;
@@ -46,7 +48,7 @@ ange MC1a "angel" ; ! Also feminine? (all)
     ange:angele MC1a "angel" ;
 Angleterre PropFem "England" ; ! Verify gender
     Angleterre:Engleterre PropFem "England" ;
-ante FC1 "aunt, foster mother" ; ! separate meaning in Latin?
+ante:ant FC3 "aunt, foster mother" ; ! separate meaning in Latin?
 antif MC1a "ancient man" ;
 aoust NIndecM "August (month)" ;
     aoust:août NIndecM "August (month)" ;
@@ -58,6 +60,7 @@ arme FC1 "weapon" ;
 art MC1a "science, knowledge" ;
     art:art FC2 "science, knowledge" ;
 asn MC1b ;
+Aude+Prop:Aud FC3 "Aude" ;
 aumosne FC1 "good deed" ;
 Aucassin+Prop:Aucassin MC1a "Aucassin, hero of 'Aucassin and Nicolette'" ;
     Aucassin+Prop:Aucasin MC1a "Aucassin, hero of 'Aucassin and Nicolette'" ;
@@ -93,17 +96,17 @@ beauté FC1 "beauty" ;
     beauté:biauté FC1 "beauty" ;
 Beneeit PropMasc "Saint Benedict" ;
 Berinus PropMasc "Berinus" ;
-Bretaingne PropFem "Brittany" ;
-    Bretaingne:Bretaigne PropFem "Brittany" ;
 bers NIndecM "cradle, crib" ;
+Berte+Prop:Bert FC3 "Bertha" ;
 besoing:besoi%{N%} MC1a "need" ;
     besoing:besoi%{N%}e MC1a "need" ;
     besoing:besoin MC1a "need" ;
     besoing:besoi%{N%}ge FC1 "need" ; ! Verify
 beste FC1 "animal, beast" ; ! Adjectival form?
 bien MC1a "good, goodness" ;
+Blere+Prop:Bler FC3 "the cow Blere" ;
 bofu MC1a "silk, material stitched with gold thread" ;
-bois NIndecM "woods" ;
+bois NIndecM "wood, woods" ;
 bonté FC1 "that which is good, goodness, kindness" ;
 bouche FC1 "mouth" ;
 Bougars PropMasc "Bougars de Valence" ;
@@ -111,6 +114,8 @@ Bourgongne PropMasc "Bourgogne" ;
     Bourgongne:Bourgogne PropMasc "Bourgogne" ;
 brant:bran%{T%} MC1a "sword" ;
 bras NIndecM "arm" ;
+Bretaingne PropFem "Brittany" ;
+    Bretaingne:Bretaigne PropFem "Brittany" ;
 breton MC1a "inhabitant of Brittany" ;
 bricon MC3 "rogue, fool" ;
     bricon+N+Masc+Nom+Sg:bris # "rogue, fool" ;
@@ -196,6 +201,8 @@ creance FC1 "belief" ;
 creance FC1 "creation" ;
 Crist PropMasc "Christ" ;
     Crist:Christ PropMasc "Christ" ;
+crois NIndecF "cross" ;
+    crois:croix NIndecF "cross" ;
 cuer MC1a "heart" ;
     cuer:quer MC1a "heart" ;
     cuer:cor MC1a "heart" ;
@@ -274,7 +281,7 @@ evangile:évangile MC1a "gospel, the Gospels, good news" ;
     evangile:evangille MC1a "gospel, the Gospels, good news" ;
     evangile:euvangile MC1a "gospel, the Gospels, good news" ;
     evangile:euvangille MC1a "gospel, the Gospels, good news" ;
-Eve PropFem "Eve" ;
+Eve+Prop:Ev FC3 "Eve" ;
 evesque MC1a "bishop" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -472,7 +479,7 @@ mardi NIndecM "Tuesday" ;
     mardi:maredi NIndecM "Tuesday" ;
 mari:mar%{I%} MC1a "husband" ;
 mariage MC1a "marriage" ;
-Marie PropFem "Mary" ;
+Marie+Prop:Mari FC3 "Mary" ;
 mars NIndecM "March" ;
     mars:march NIndecM "March" ;
 Mars PropMasc "Mars (planet), Mars (Roman god of war)" ;
@@ -526,12 +533,14 @@ nevo:nevo%{T%} MC3 "nephew" ;
 nïant:nïan%{T%} MC1a "nothing" ;
     nïant:néan%{T%} MC1a "nothing" ;
 Nicolas PropMasc "Nicholas" ;
+niece:nieç FC3 "niece" ;
 noble MC1a "person belonging of nobility, palm of the hand" ; ! separate the entries?
 Noé PropMasc "Noah" ;
 Noël PropFem "Christmas" ;
     Noël PropMasc "Christmas" ;
 nom: Nom "name" ;
 nombre:nombr MC2 "number" ;
+none:non FC3 "nun" ;
 novele:novel%>e FC1 "news" ;
     novele:nouvel%>e FC1 "news" ;
 novembre NIndecM "November" ;
@@ -550,6 +559,7 @@ oppinion FC2 "opinion, way of thinking" ;
     oppinion:opinion FC2 "opinion, way of thinking" ;
 or MC1a "gold" ; ! Check class
 Orléans PropFem "Orleans region" ; ! Verify gender
+Orne+Prop:Orn FC3 "Orne (River)" ;
 ost:%{H%}os%{T%} MC1a "army" ;
     ost:%{H%}os%{T%} FC2 "army" ;
 
@@ -561,7 +571,8 @@ paien MC1a "infidel" ;
 pain MC1a "bread, food" ;
 pais:païs NIndecM "country" ;
     pais:pays NIndecM "country" ;
-paix NIndecF "peace" ;
+paix:pais NIndecF "peace" ;
+    paix:paix NIndecF "peace" ;
 palais NIndecM "palace" ;
 paor FC2 "fear" ; ! esp. "avoir paor"
     paor:paour FC2 "fear" ; ! esp. "avoir paor"
@@ -573,6 +584,7 @@ parlement MC1a "act of speaking, deliberation, debate, parliament" ;
 parole:parol%>e FC1 "word, speech" ;
 part FC2 "part, portion" ;
 partie FC1 "part, section, sharing" ; ! Verify definition
+pas NIndecM "step" ;
 pasnage MC1a "payment to a lord for using land, right to graze" ;
 Pasques PropMasc "Passover, Easter" ;
     Pasques PropFem "Passover, Easter" ;
@@ -596,6 +608,7 @@ pierre FC1 "stone, prison" ;
 Pierre+Prop:Perron MC3 "Peter" ;
     Pierre+Prop+N+Masc+Nom+Sg:Pierre # "Peter" ;
     Pierre+Prop+N+Masc+Nom+Sg:Pierres # "Peter" ;
+Pinte+Prop:Pint FC3 "the hen Pinte" ;
 pis NIndecM "chest (seat of the heart)" ;
 pitié:pitié%{T%} FC2 "pity, piety" ;
 place FC1 "place, city, land, location, urban center" ;
@@ -610,6 +623,7 @@ présence FC1 "presence (in a location), present moment" ;
 present MC1a "current moment" ;
 prevost MC1a "state officer, tax collector, administrator (official title)" ;
 prince MC1a "prince" ;
+pris NIndecM "price" ;
 prison FC2 "prison" ;
 procès MC1a "process, procedure" ;
 procureur MC1a "representative, one who procures something" ;
@@ -623,6 +637,7 @@ pueple MC1a "people" ;
     pueple:pople MC1a "people" ;
     pueple:peuple MC1a "people" ;
 puissance FC1 "power, ability" ;
+pute:put FC3 "harlot" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------Q---------------------------------------!
@@ -634,8 +649,9 @@ question FC2 "question, debate, quarrel" ;
 !-------------------------------------R---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-raison FC2 "speech" ;
-    raison:raisun FC2 "speech" ;
+raison FC2 "discourse, speech, reason, justification" ;
+    raison:reson FC2 "discourse, speech, reason, justification" ;
+    raison:raisun FC2 "discourse, speech, reason, justification" ;
 rei:re%{I%} MC1a "king" ;
     !rei:re%{I%} MC1 "king" ;
 reïne FC1 "queen" ;
@@ -645,10 +661,9 @@ Remondin PropMasc "Remondin (Raymond?)" ;
 renart:renar%{T%} MC1a "fox" ;
 Renart:Renar%{T%} PropMasc "the Fox" ;
 requeste FC1 "request, solicitation, challenge to combat" ;
-raison FC2 "discourse, reason, justification" ;
-    raison:reson FC2 "discourse, reason, justification" ;
 Reson PropFem "Resson" ;
     Reson:Resson PropFem "Resson" ;
+respons NIndecM "reply, response" ;
 Richard+Prop:Richar%{D%} MC1a "Richard" ;
     Richard:Richar%{T%} MC1a "Richard" ;
 rien FC2 "thing, person" ;
@@ -679,7 +694,7 @@ Saül PropMasc "Saul" ;
 sec NIndecM "dryness, lack of humidity" ; ! Verify
 seignor: Seignor "lord" ;
 sen MC1a "judgement, discernment, way of being, direction" ;
-sens MC1a "senses" ; ! Also a form of sentir
+sens NIndecM "sense, senses" ; ! Also a form of sentir
 sentence FC1 "judgement, decision" ;
     sentence:sentense FC1 "judgement, decision" ;
 septembre NIndecM "September" ;
@@ -688,7 +703,9 @@ sergent:sergen%{T%} MC1a "servant" ;
     sergent:serjan%{T%} MC1a "servant" ; ! sergens = Obl Sg?
 serment MC1a "oath" ;
     serment:serement MC1a "oath" ;
-serour FC3 ;
+seror FC1 "sister" ; ! Technically an FC3 noun, but continuation class can't currently handle it
+    seror:serour FC1 "sister" ;
+    seror+N+Fem+Nom+Sg:suer # "sister" ;
 service MC1a "submission, service, obligation to serve" ;
     service:servise MC1a "submission, service, obligation to serve" ;
 signe MC1a "sign" ;
@@ -696,6 +713,7 @@ siecle MC1a "earthly life, world" ;
     siecle:secle MC1a "earthly life, world" ;
     siecle:seule MC1a "earthly life, world" ;
 soir MC1a "evening" ; ! Verb form?
+solaz NIndecM "comfort" ;
 somme FC1 "sum, total, summit, burden, sleep" ; ! Different stems?
     somme:some FC1 "sum, total, summit, burden, sleep" ;
 
@@ -703,6 +721,7 @@ somme FC1 "sum, total, summit, burden, sleep" ; ! Different stems?
 !-------------------------------------T---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+taian:tai FC3 "grandmother, great-aunt" ;
 talent:talen%{T%} MC1a "sense, consciousness, mind, desire, will" ;
 temple MC1a "temple, public building for worship, body (figuratively)" ;
 tens NIndecM "time, times, weather" ;
@@ -734,6 +753,7 @@ Tristran PropMasc "Tristran" ;
 !-------------------------------------U---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+uis NIndecM "door" ;
 us NIndecM "habit, usage" ;
 usage MC1a "usage, act of using something, employment of other, behavior, customs, habits" ;
 ustil MC1a "tool" ;
@@ -763,7 +783,8 @@ Vierge PropFem "the Virgin (Mary)" ;
 vile:vil%>e FC1 "town, villa, farm" ;
 voie FC1 "way, path" ;
 voir MC1a "truth" ;
-voiz NIndecF "voice" ;
+voiz:vois NIndecF "voice" ;
+    voiz:voix NIndecF "voice" ;
 volenté:volenté%{T%} FC2 "will" ;
     volenté:voulenté%{T%} FC2 "will" ;
 voult:voul%{T%} MC1a "face, image, symbolic object" ; ! Other forms?
