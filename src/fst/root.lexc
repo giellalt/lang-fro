@@ -1,8 +1,7 @@
 Multichar_Symbols
 
 !! General features
-+Early, +Late ! Early=early 12th century. Late=late 12th century
-+Gram/Early, +Gram/Late ! Same as above. Testing Gram/ tags
++Gram/Early, +Gram/Late ! Early=early 12th century and before. Late=late 12th century and after
 +Err/Obsc ! Obscure forms
 +Gram/Liason ! Form only used for liason
 
@@ -20,7 +19,6 @@ Multichar_Symbols
 +Pres, +Perf, +Past, +Fut ! Tense: present, perfect/preterite, past, future
 +Ipfv, +Part, +Inf ! Aspect: Imperfective, participle, infinitive
 +Ind, +Sbjv, +Cond, +Imp ! Moods: Indicative, subjunctive, conditional, imperative
-avoir, estre ! Irregular verbs
 
 !! Article Features
 +Art ! Article

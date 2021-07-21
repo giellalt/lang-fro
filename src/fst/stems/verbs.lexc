@@ -6,11 +6,11 @@ LEXICON Verbs
 !-------------------------------------A---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-accoutumer:accoutum RegEr "to accustom" ;
-    accoutumer:acoustum RegEr "to accustom" ;
-    accoutumer:acoustum RegEr "to accustom" ;
-advenir:adv Xenir "to arrive, to occur, to come to pass, to reach, to touch" ;
-    advenir:av Xenir "to arrive, to occur, to come to pass, to reach, to touch" ;
+accoutumer:accoutum RegEr       "to accustom" ;
+    accoutumer:acoustum RegEr   "to accustom" ;
+    accoutumer:acoustum RegEr   "to accustom" ;
+advenir:adv Xenir               "to arrive, to occur, to come to pass, to reach, to touch" ;
+    advenir:av Xenir    "to arrive, to occur, to come to pass, to reach, to touch" ;
 aidier:aid RegIer   "to help" ;
 aler: Aler          "to go" ;
 amender:amend RegEr "to improve, to make amends" ;
@@ -29,8 +29,8 @@ avoir: Avoir        "to have" ;
 !-------------------------------------B---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-beneïstre: Beneïstre        "to bless" ;
-boivre: Boivre      "to drink" ;
+beneïstre: Beneïstre "to bless" ;
+boivre: Boivre       "to drink" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------C---------------------------------------!
@@ -111,7 +111,7 @@ former:form RegEr   "to create" ;
 !-------------------------------------G---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-gaver:gab   RegEr   "to joke" ;
+gaber:gab   RegEr   "to joke" ;
 garder:gard RegEr   "to guard" ;
 garir:gar RegIr     "to save, to heal" ;
 gesir: Gesir        "to lie down" ;
@@ -131,7 +131,7 @@ habiter:habi%{T%} RegEr "to inhabit, to live, to touch, to reach" ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 jugier:jug RegIer "to judge" ;
-jurer:jur RegEr     "to swear" ;
+jurer:jur RegEr   "to swear" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------L---------------------------------------!
@@ -152,9 +152,9 @@ livrer:livr RegEr   "to deliver, to hand over" ;
 
 mander:mand RegEr   "to order, to announce, to summon, to send" ;
 mangier:meng%{G%} RegIer "to eat" ;
-    mangier+V+Inf:menger # ;
-    mangier:menger FutInd ;
-    mangier:mengi PastPart ;
+    mangier+V+Inf:menger # "to eat" ;
+    mangier:menger FutInd "will eat" ;
+    mangier:mengi PastPart "has eaten" ;
 mener:men RegEr     "to lead, to conduct" ;
 merveiller:merveill RegEr "to marvel, to wonder, to be astonished" ;
 mesdire:mes Dire    "to slander" ;
@@ -172,16 +172,16 @@ morir: Morir        "to die" ;
 naistre:naist RegRe "to be born" ;
 nier:nï RegEr       "to deny" ; ! RegIer?
 nomer:nom   RegEr   "to name" ;
-    nomer:nomm RegEr "to name" ;
+    nomer:nomm RegEr"to name" ;
 noncier:nonc RegIer "to announce" ;
-nuire:nu%{I%} RegRe     "to harm" ;
+nuire:nu%{I%} RegRe "to harm" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------O---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-ocire:oci RegRe       "to kill" ;
-    ocire:occi RegRe  "to kill" ; ! Check for irregular forms
+ocire:oci RegRe     "to kill" ;
+    ocire:occi RegRe"to kill" ; ! Check for irregular forms
 ofrir:ofr RegIr     "to offer" ;
 oïr: Oïr            "to hear" ;
     oïr:od RegIr    "to hear" ; ! Check. Just the irregular form?
@@ -194,15 +194,15 @@ otroier:otro RegIer "to grant" ;
 !-------------------------------------P---------------------------------------!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-paier:paï RegEr "to pay" ; ! RegIer? Irregular?
+paier:paï RegEr     "to pay" ; ! RegIer? Irregular?
     paier:pai RegEr "to pay" ;
 parler:parl RegEr   "to talk, to speak" ; ! Verify
-    parler+V+3s+Pres+Ind:parole # ;
-partir:par%{T%} RegIr   "to leave, to divide" ; ! CHECK
+    parler+V+3s+Pres+Ind:parole # "one speaks" ;
+partir:par%{T%} RegIr"to leave, to divide" ; ! CHECK
 passer:pass RegEr   "to pass, to surpass" ;
 penser:pens RegEr   "to think, to ponder" ;
 perdre:perd RegRe   "to lose" ;
-    perdre+V+3s+Pres+Ind:pert # ; ! Also 1s?
+    perdre+V+3s+Pres+Ind:pert # "one loses" ; ! Also 1s?
 plaire: Plaire      "to please" ;
 plorer:plot RegEr   "to weep" ;
 pooir: Pooir        "to be able, can" ;
@@ -245,8 +245,8 @@ sonner:son RegEr    "to ring" ;
 souffrir:souffr RegEr "to support, to endure, to suffer" ; ! RegEr works for now, but make irregular class later
     souffrir:soffr RegEr "to support, to endure, to suffer" ;
     souffrir:seuffr RegEr "to support, to endure, to suffer" ;
-    souffrir+V+Inf:souffrir # ;
-    souffrir+V+Inf:soufrir # ;
+    souffrir+V+Inf:souffrir # "to support, to endure, to suffer" ;
+    souffrir+V+Inf:soufrir # "to support, to endure, to suffer" ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !-------------------------------------T---------------------------------------!
@@ -273,4 +273,4 @@ voloir: Voloir      "to want, to desire" ;
 
 
 !! Add: doloir, rire, trover, asseoir
-!! conduire, criembre, tordre, boivre
+!! conduire, criembre, tordre

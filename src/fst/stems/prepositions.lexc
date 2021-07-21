@@ -1,6 +1,5 @@
 LEXICON PrepPrefix
-ci+Pro+Dem+Neut#:ci- CiStem ;
-ci+Pro+Dem+Neut#:cy- CiStem ;
+ci+Pro+Dem+Neut#:c%{I%}- CiStem ;
 0 Prepositions ;
 
 LEXICON CiStem
@@ -14,14 +13,6 @@ a Prep "to" ;
     a:à Prep "to" ;
     a:ad Prep "to" ;
     a:á Prep "to" ;
-por Prep "for" ;
-    por:pur Prep "for" ;
-en Prep "in, into" ;
-    an Prep "in, into" ;
-    en+Prep+Err/Obsc:em "in, into" ;
-ensembl'od Prep "together with" ;
-    ensembl'od:ansembl'ot Prep "together with" ;
-    ensembl'od:ensemble#od Prep "together with" ;
 apres Prep "after" ;
     apres:aprés Prep "after" ;
     apres:après Prep "after" ;
@@ -63,7 +54,13 @@ devers Prep "in/from the direction of" ;
 empur Prep "for the sake of" ;
     empur:enpur Prep "for the sake of" ;
     empur:anpur Prep "for the sake of" ;
+en Prep "in, into" ;
+    an Prep "in, into" ;
+    en+Prep+Err/Obsc:em "in, into" ;
 encontre Prep "to, towards, against" ;
+ensembl'od Prep "together with" ;
+    ensembl'od:ansembl'ot Prep "together with" ;
+    ensembl'od:ensemble#od Prep "together with" ;
 entour Prep "around" ;
     entour:entor Prep "around" ;
 entre Prep "between, among, in the midst of" ;

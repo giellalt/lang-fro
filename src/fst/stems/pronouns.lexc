@@ -1,37 +1,49 @@
 LEXICON Pronouns
+! Personal, possessive, reflexive
 je: 1Sg "I" ;
-nous:no 1Pl "we" ;
 tu:t 2Sg "you(sing)" ;
-vous: 2Pl "you(pl)" ;
 il: 3SgMasc "he" ;
 elle: 3SgFem "she" ;
 il: 3SgNeut "it" ;
+son:s 3SgPoss "his/her/its" ;
 se:s 3SgRefl "itself" ;
+nous:no 1Pl "we" ;
+vous: 2Pl "you(pl)" ;
 ils: 3PlMasc "they(masc)" ;
 elles: 3PlFem "they(fem)" ;
-se:s 3PlRefl "themselves" ;
-i ProAdv "a+Pron" ;
-y ProAdv "a+Pron" ;
-en ProAdv "de+Pron" ;
-em ProAdv "de+Pron" ;
-son:s 3SgPoss "his/her/its" ;
 lor 3PlPoss "their" ;
-lur 3PlPoss "their" ;
-leur 3PlPoss "their" ;
-icel:%{I%} Demonstrative ;
-cel: Demonstrative ;
-ice:%{I%} DemNeuter ;
-ce: DemNeuter ;
-quoi: Interrogative ;
-que: Relative ;
-lequel+Pro: Lequel ;
-quel+Pro: Quel ;
+    lor:lur 3PlPoss "their" ;
+    lor:leur 3PlPoss "their" ;
+se:s 3PlRefl "themselves" ;
+
+! Pronominal adverbs
+i:%{I%} ProAdv "a+Pron" ;
+en:en ProAdv "de+Pron" ;
+    en:em ProAdv "de+Pron" ;
+
+! Demonstrative
+cel: Demonstrative "this" ;
+    cel:%{I%} Demonstrative "this" ;
+ce: DemNeuter "this" ;
+    ce:%{I%} DemNeuter "this" ;
+
+! Relative/interrogative
+quoi: Interrogative "what" ;
+que: Relative "that" ;
+lequel+Pro: Lequel "the aforementioned" ;
+quel+Pro: Quel "which" ;
+
+! Indefinite
 autrui+Pro+Indef+Obl+Sg:autrui # ;
     autrui+Pro+Indef+Obl+Sg:altrui # ;
     autrui+Pro+Indef+Obl+Sg:aultrui # ;
 chascun IndefPro "each one, everyone" ;
     chascun:chacun IndefPro "each one, everyone" ;
     chascun:chascune IndefPro "each one, everyone" ; ! Feminine forms?
+maint IndefPro "many" ;
+    maint:mainte IndefPro "many" ;
+nïent:nïen%{T%} IndefPro "nothing" ;
+nul: NulPro "nothing" ;
 personne IndefPro "someone, no one" ;
 plusor IndefPro "several, many" ;
     plusor:pluisor IndefPro ;
@@ -40,8 +52,3 @@ plusor IndefPro "several, many" ;
     plusor:pluiseur IndefPro ;
     plusor:plusieur IndefPro ;
     plusor:pluisieur IndefPro ;
-maint IndefPro "many" ;
-    maint:mainte IndefPro "many" ;
-nïent:nïen%{T%} IndefPro "nothing" ;
-nul: NulPro "nothing" ;
-

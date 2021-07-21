@@ -265,10 +265,10 @@ LEXICON DemNeuter
 +Pro+Dem+Neut+Nom+Sg+Unstress:c # ;
 +Pro+Dem+Neut+Obl+Sg+Unstress:c # ;
 
-+Pro+Dem+Far+Neut+Nom+Sg+Early:cel # ;
-+Pro+Dem+Far+Neut+Obl+Sg+Early:cel # ;
-+Pro+Dem+Near+Neut+Nom+Sg+Early:cest # ;
-+Pro+Dem+Near+Neut+Obl+Sg+Early:cest # ;
++Pro+Dem+Far+Neut+Nom+Sg+Gram/Early:cel # ;
++Pro+Dem+Far+Neut+Obl+Sg+Gram/Early:cel # ;
++Pro+Dem+Near+Neut+Nom+Sg+Gram/Early:cest # ;
++Pro+Dem+Near+Neut+Obl+Sg+Gram/Early:cest # ;
 
 LEXICON Relative
 +Pro+Relative+Gram/Person+Nom:qui # ;
@@ -386,6 +386,8 @@ LEXICON NulPro
 !!€ soy:        se+Pro+Prs+3p+Refl+Obl+Stress
 !!€ en:         en+Pro+Adv
 !!€ an:         en+Pro+Adv
+!!€ em:         en+Pro+Adv
+!!€ am:         en+Pro+Adv
 !!€ i:          i+Pro+Adv
 !!€ y:          i+Pro+Adv
 !!€ ton:        tu+Pro+Poss+2s+Masc+Obl+Sg+Unstress
@@ -404,7 +406,11 @@ LEXICON NulPro
 !!€ siens:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
 !!€ sions:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
 !!€ sians:      son+Pro+Poss+3s+Masc+Nom+Sg+Stress
-!!€ icestui:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress
-!!€ icestuy:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress
-!!€ ycestui:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress
-!!€ ycestuy:    icel+Pro+Dem+Near+Masc+Obl+Sg+Stress
+!!€ cestui:     cel+Pro+Dem+Near+Masc+Obl+Sg+Stress
+!!€ cestuy:     cel+Pro+Dem+Near+Masc+Obl+Sg+Stress
+!!€ cestui:     cel+Pro+Dem+Near+Masc+Obl+Sg+Stress
+!!€ cestuy:     cel+Pro+Dem+Near+Masc+Obl+Sg+Stress
+!!€ icestui:    cel+Pro+Dem+Near+Masc+Obl+Sg+Stress
+!!€ icestuy:    cel+Pro+Dem+Near+Masc+Obl+Sg+Stress
+!!€ ycestui:    cel+Pro+Dem+Near+Masc+Obl+Sg+Stress
+!!€ ycestuy:    cel+Pro+Dem+Near+Masc+Obl+Sg+Stress
