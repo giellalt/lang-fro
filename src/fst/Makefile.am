@@ -44,7 +44,8 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/prepositions.lexc	\
 			 affixes/prepositions.lexc \
 			 stems/numerals.lexc		\
-			 affixes/numerals.lexc
+			 affixes/numerals.lexc		\
+			 stems/interjections.lexc
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
 # that differ between the regular L1 and the L2 analysers below, in L1 and
