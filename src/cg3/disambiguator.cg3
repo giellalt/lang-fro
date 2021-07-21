@@ -248,10 +248,12 @@ SET NP-MEMBER = PRE-N | N | Pro ;
 
 # Semantic sets
 
+LIST SPEECHACT = "dire" ;
 LIST TIME = "an" "mois" "heure" ;
 LIST QUANTITY = "tant" "beaucoup" "autant" "assez" ;
 LIST TITLE = "seignor" "dame" "garçon" "fil" "fille" "Dieu" ; # Add more
 LIST SIGHT = "veoir" "querre" "regarder" "trouver" ;
+LIST COORDWORD = "et" "mais" "car" "ainz" "donc" ;
 
 #LIST ABSTRACT = "ráð" "byráð" ;
 
@@ -301,6 +303,7 @@ SELECT Adv + Neg IF (1 V) ;
 SELECT V + $$PERSON IF (-1 Pro + Prs + $$PERSON ) ;
 REMOVE V IF (NOT 0 NONFINITE) (-1 V) ;
 
+SELECT AUX IF (1* V + Part + Past) ;
 SELECT V + 3Sg IF (-1 N + NomSg) ;
 SELECT V + 3Sg IF (-1 Pro + Refl + 3Sg) ;
 SELECT V + 3Pl IF (-1 Pro + Refl + 3Pl) ;
@@ -308,6 +311,7 @@ SELECT V + SECOND + Imp IF (-1 TITLE) (NOT -2* Pro + Prs + Nom) ;
 SELECT V + SECOND + Imp IF (-2 TITLE) (-1 Neg) (NOT -3* Pro + Prs + Nom) ;
 
 SELECT V + Part + Past + $$GENDERCASENUMBER IF (-1 AUX) (-2 $$GENDERCASENUMBER) ;
+SELECT V + Part + Past + $$GENDERCASENUMBER IF (-1 N + $$GENDERCASENUMBER) (-2* AUX) ;
 
 # Pronoun disambiguation
 # ------------------------
@@ -327,6 +331,7 @@ SELECT Pro + Adv IF (1 AVOIR) ;
 SELECT Pro + Indef + Neg IF (-1* Adv + Neg) ;
 SELECT Pro + Indef + Neg + Obl IF (-1 V) ;
 SELECT Pro + Rel IF (-1 Pro + Dem) ;
+SELECT Pro + Prs + 1Sg IF (-1 V + 1Sg) ;
 
 # Article/Participle disambiguation
 # ------------------------
@@ -336,6 +341,7 @@ SELECT Art + $$GENDERCASENUMBER IF (1 N + $$GENDERCASENUMBER OR Adj + $$GENDERCA
 SELECT AUX IF (1 PASTPART) ;
 SELECT PASTPART IF (-1 AUX) ;
 SELECT Sg IF (-1 AUX + 3Sg) (0 PASTPART) ;
+SELECT Art + Fem + Obl IF (-1 De) (-2 Prep) ;
 
 # Noun disambiguation
 # ------------------------
@@ -407,11 +413,14 @@ SELECT V + $$TENSE IF (-1* V + $$TENSE) ;
 SELECT V + Ipfv IF (-1* V + Ipfv) ;
 SELECT N IF (-1 SIGHT) ;
 SELECT V + Ipfv IF (-1 S-BOUNDARY) ;
+SELECT Indef IF (0 Pro + 3Sg) (1 PronAdvI) (2 AVOIR) ; # Il y a
 
 SECTION
 # If you still have options....
 
 SELECT Prep ;
 SELECT MascFem IF (0 Adj) ; # Avoid neuter if possible
+SELECT MascFem IF (0 Pro + Prs) ; # Avoid neuter if possible
 SELECT Sg IF (0 Prop) ; # Proper nouns are usually singular
 SELECT Obl IF (0 TITLE) ; # (Dame, Seignor, etc) 
+SELECT CC IF (0 COORDWORD) ;

@@ -237,6 +237,11 @@ SET NP-MEMBER = PRE-N | N | Pron ;
 
 # Semantic sets
 LIST SPEECHACT = "dire" ;
+LIST TIME = "an" "mois" "heure" ;
+LIST QUANTITY = "tant" "beaucoup" "autant" "assez" ;
+LIST TITLE = "seignor" "dame" "garçon" "fil" "fille" "Dieu" ; # Add more
+LIST SIGHT = "veoir" "querre" "regarder" "trouver" ;
+LIST COORDWORD = "et" "mais" "car" "ainz" "donc" ;
 
 
 # Syntax tags
@@ -395,3 +400,8 @@ SETPARENT:r9 N + Obl + $$NUMBER TO (-2 (V) LINK (-1 Art + Obl + $$NUMBER)) ;
 SETPARENT:r10 A + Obl TO (1 COPULA) ;
 SETPARENT:r11 N + Nom TO (-2 COPULA) ;
 SETPARENT:r12 A + $$GENDERCASENUMBER TO (-2 (N + $$GENDERCASENUMBER) LINK -1 (Adv + Emph)) ;
+SETPARENT:r13 Adv + Neg TO (1 V) ;
+SETPARENT:r13 Adv + Neg TO (1 Pron + Adv) ;
+SETPARENT:r14 Pron + Dem + $$GENDERCASENUMBER TO (1 N + $$GENDERCASENUMBER) ;
+SETPARENT:r15 Pron + Prs + $$PERSON TO (1 V + $$PERSON) ;
+SETPARENT:r16 A + Obl TO (-2 (COPULA) LINK -1 (Adv + Emph)) ;
