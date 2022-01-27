@@ -606,7 +606,116 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-fro/blob/main/../src/cg3/functions.cg3)</small>
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-fro/blob/main/../src/cg3/functions.cg3)</small>=================================== !
+The Old French morphophonological/twolc rules file !
+=================================== !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{T}+s and s{T}+s become z
+
+
+
+p, f, c, b, and v disappear before inflectional -s
+FIXME: change to labials + c
+
+
+
+
+
+NASAL ALTERATIONS
+
+
+
+
+
+
+
+
+
+
+
+
+Silent t and d
+
+
+
+
+Palatalized vowels
+
+
+
+
+
+
+
+
+
+
+
+Ordinals
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-fro/blob/main/../src/fst/phonology.twolc)</small>
 General features
 
 Noun Features
@@ -632,106 +741,7 @@ Archiphonemes
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-fro/blob/main/../src/fst/root.lexc)</small>Noun inflection
-The Old French language nouns inflect in cases.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*nouns examples:*
-* *fille:* `fille+N+Fem+Nom+Sg`
-* *file:* `fille+N+Fem+Nom+Sg`
-* *fille:* `fille+N+Fem+Obl+Sg`
-* *file:* `fille+N+Fem+Obl+Sg`
-* *filles:* `fille+N+Fem+Nom+Pl`
-* *files:* `fille+N+Fem+Nom+Pl`
-* *filles:* `fille+N+Fem+Obl+Pl`
-* *files:* `fille+N+Fem+Obl+Pl`
-* *Alemaigne:* `Alemaigne+N+Prop+Fem+Nom+Sg`
-* *Alemaigne:* `Alemaigne+N+Prop+Fem+Obl+Sg`
-* *Alemaigne:* `Alemaigne+N+Prop+Fem+Nom+Pl`
-* *Alemaigne:* `Alemaigne+N+Prop+Fem+Obl+Pl`
-* *Alamaigne:* `Alemaigne+N+Prop+Fem+Nom+Sg`
-* *Alamaigne:* `Alemaigne+N+Prop+Fem+Obl+Sg`
-* *Alamaigne:* `Alemaigne+N+Prop+Fem+Nom+Pl`
-* *Alamaigne:* `Alemaigne+N+Prop+Fem+Obl+Pl`
-* *Gieffroy:* `Gieffroy+N+Prop+Masc+Nom+Sg`
-* *Gieffroy:* `Gieffroy+N+Prop+Masc+Obl+Sg`
-* *Gieffroy:* `Gieffroy+N+Prop+Masc+Nom+Pl`
-* *Gieffroy:* `Gieffroy+N+Prop+Masc+Obl+Pl`
-* *lei:* `lei+N+Fem+Nom+Sg`
-* *lei:* `lei+N+Fem+Obl+Sg`
-* *ley:* `lei+N+Fem+Nom+Sg`
-* *ley:* `lei+N+Fem+Obl+Sg`
-* *leis:* `lei+N+Fem+Nom+Pl`
-* *leis:* `lei+N+Fem+Obl+Pl`
-* *loi:* `lei+N+Fem+Nom+Sg`
-* *loi:* `lei+N+Fem+Obl+Sg`
-* *loy:* `lei+N+Fem+Nom+Sg`
-* *loy:* `lei+N+Fem+Obl+Sg`
-* *lois:* `lei+N+Fem+Nom+Pl`
-* *lois:* `lei+N+Fem+Obl+Pl`
-* *termes:* `terme+N+Masc+Nom+Sg`
-* *terme:* `terme+N+Masc+Obl+Sg`
-* *terme:* `terme+N+Masc+Nom+Pl`
-* *termes:* `terme+N+Masc+Obl+Pl`
-* *vespre:* `vespre+N+Masc+Nom+Sg`
-* *vespre:* `vespre+N+Masc+Obl+Sg`
-* *vespre:* `vespre+N+Masc+Nom+Pl`
-* *vespres:* `vespre+N+Masc+Obl+Pl`
-* *ancestre:* `ancessor+N+Masc+Nom+Sg`
-* *ancessor:* `ancessor+N+Masc+Obl+Sg`
-* *ancessor:* `ancessor+N+Masc+Nom+Pl`
-* *ancessors:* `ancessor+N+Masc+Obl+Pl`
-* *bers:* `bers+N+Masc+Nom+Sg`
-* *bers:* `bers+N+Masc+Obl+Sg`
-* *bers:* `bers+N+Masc+Nom+Pl`
-* *bers:* `bers+N+Masc+Obl+Pl`
-* *cortiers:* `cort+N+Agent+Masc+Nom+Sg`
-* *corteor:* `cort+N+Agent+Masc+Obl+Sg`
-* *courteor:* `cort+N+Agent+Masc+Obl+Sg`
-* *courtiers:* `cort+N+Agent+Masc+Nom+Sg`
-* *corteors:* `cort+N+Agent+Masc+Obl+Pl`
-* *courteors:* `cort+N+Agent+Masc+Obl+Pl`
-* *cortière:* `cort+N+Agent+Fem+Nom+Sg`
-* *cortière:* `cort+N+Agent+Fem+Obl+Sg`
-* *cortiere:* `cort+N+Agent+Fem+Nom+Sg`
-* *cortiere:* `cort+N+Agent+Fem+Obl+Sg`
-* *courtière:* `cort+N+Agent+Fem+Nom+Sg`
-* *courtière:* `cort+N+Agent+Fem+Obl+Sg`
-* *courtiere:* `cort+N+Agent+Fem+Nom+Sg`
-* *courtiere:* `cort+N+Agent+Fem+Obl+Sg`
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-fro/blob/main/../src/fst/affixes/nouns.lexc)</small>Verb Inflection
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-fro/blob/main/../src/fst/root.lexc)</small>Verb Inflection
 
 
 
@@ -1054,9 +1064,8 @@ The Old French language nouns inflect in cases.
 * *escrivanz:* `escrire+V+Part+Pres+Fem+Nom+Sg`
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-fro/blob/main/../src/fst/affixes/verbs.lexc)</small>=================================== !
-The Old French morphophonological/twolc rules file !
-=================================== !
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-fro/blob/main/../src/fst/affixes/verbs.lexc)</small>Noun inflection
+The Old French language nouns inflect in cases.
 
 
 
@@ -1073,18 +1082,14 @@ The Old French morphophonological/twolc rules file !
 
 
 
-{T}+s and s{T}+s become z
 
 
 
-p, f, c, b, and v disappear before inflectional -s
-FIXME: change to labials + c
 
 
 
 
 
-NASAL ALTERATIONS
 
 
 
@@ -1092,124 +1097,73 @@ NASAL ALTERATIONS
 
 
 
-
-
-
-
-
-Silent t and d
-
-
-
-
-Palatalized vowels
-
-
-
-
-
-
-
-
-
-
-
-Ordinals
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*nouns examples:*
+* *fille:* `fille+N+Fem+Nom+Sg`
+* *file:* `fille+N+Fem+Nom+Sg`
+* *fille:* `fille+N+Fem+Obl+Sg`
+* *file:* `fille+N+Fem+Obl+Sg`
+* *filles:* `fille+N+Fem+Nom+Pl`
+* *files:* `fille+N+Fem+Nom+Pl`
+* *filles:* `fille+N+Fem+Obl+Pl`
+* *files:* `fille+N+Fem+Obl+Pl`
+* *Alemaigne:* `Alemaigne+N+Prop+Fem+Nom+Sg`
+* *Alemaigne:* `Alemaigne+N+Prop+Fem+Obl+Sg`
+* *Alemaigne:* `Alemaigne+N+Prop+Fem+Nom+Pl`
+* *Alemaigne:* `Alemaigne+N+Prop+Fem+Obl+Pl`
+* *Alamaigne:* `Alemaigne+N+Prop+Fem+Nom+Sg`
+* *Alamaigne:* `Alemaigne+N+Prop+Fem+Obl+Sg`
+* *Alamaigne:* `Alemaigne+N+Prop+Fem+Nom+Pl`
+* *Alamaigne:* `Alemaigne+N+Prop+Fem+Obl+Pl`
+* *Gieffroy:* `Gieffroy+N+Prop+Masc+Nom+Sg`
+* *Gieffroy:* `Gieffroy+N+Prop+Masc+Obl+Sg`
+* *Gieffroy:* `Gieffroy+N+Prop+Masc+Nom+Pl`
+* *Gieffroy:* `Gieffroy+N+Prop+Masc+Obl+Pl`
+* *lei:* `lei+N+Fem+Nom+Sg`
+* *lei:* `lei+N+Fem+Obl+Sg`
+* *ley:* `lei+N+Fem+Nom+Sg`
+* *ley:* `lei+N+Fem+Obl+Sg`
+* *leis:* `lei+N+Fem+Nom+Pl`
+* *leis:* `lei+N+Fem+Obl+Pl`
+* *loi:* `lei+N+Fem+Nom+Sg`
+* *loi:* `lei+N+Fem+Obl+Sg`
+* *loy:* `lei+N+Fem+Nom+Sg`
+* *loy:* `lei+N+Fem+Obl+Sg`
+* *lois:* `lei+N+Fem+Nom+Pl`
+* *lois:* `lei+N+Fem+Obl+Pl`
+* *termes:* `terme+N+Masc+Nom+Sg`
+* *terme:* `terme+N+Masc+Obl+Sg`
+* *terme:* `terme+N+Masc+Nom+Pl`
+* *termes:* `terme+N+Masc+Obl+Pl`
+* *vespre:* `vespre+N+Masc+Nom+Sg`
+* *vespre:* `vespre+N+Masc+Obl+Sg`
+* *vespre:* `vespre+N+Masc+Nom+Pl`
+* *vespres:* `vespre+N+Masc+Obl+Pl`
+* *ancestre:* `ancessor+N+Masc+Nom+Sg`
+* *ancessor:* `ancessor+N+Masc+Obl+Sg`
+* *ancessor:* `ancessor+N+Masc+Nom+Pl`
+* *ancessors:* `ancessor+N+Masc+Obl+Pl`
+* *bers:* `bers+N+Masc+Nom+Sg`
+* *bers:* `bers+N+Masc+Obl+Sg`
+* *bers:* `bers+N+Masc+Nom+Pl`
+* *bers:* `bers+N+Masc+Obl+Pl`
+* *cortiers:* `cort+N+Agent+Masc+Nom+Sg`
+* *corteor:* `cort+N+Agent+Masc+Obl+Sg`
+* *courteor:* `cort+N+Agent+Masc+Obl+Sg`
+* *courtiers:* `cort+N+Agent+Masc+Nom+Sg`
+* *corteors:* `cort+N+Agent+Masc+Obl+Pl`
+* *courteors:* `cort+N+Agent+Masc+Obl+Pl`
+* *cortière:* `cort+N+Agent+Fem+Nom+Sg`
+* *cortière:* `cort+N+Agent+Fem+Obl+Sg`
+* *cortiere:* `cort+N+Agent+Fem+Nom+Sg`
+* *cortiere:* `cort+N+Agent+Fem+Obl+Sg`
+* *courtière:* `cort+N+Agent+Fem+Nom+Sg`
+* *courtière:* `cort+N+Agent+Fem+Obl+Sg`
+* *courtiere:* `cort+N+Agent+Fem+Nom+Sg`
+* *courtiere:* `cort+N+Agent+Fem+Obl+Sg`
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-fro/blob/main/../src/fst/phonology.twolc)</small>Nouns
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-fro/blob/main/../src/fst/stems/nouns.lexc)</small>Verbs
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-fro/blob/main/../src/fst/affixes/nouns.lexc)</small>Verbs
 
 
 
@@ -1255,7 +1209,53 @@ Ordinals
 Add: doloir, rire, trover, asseoir
 conduire, criembre, tordre
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-fro/blob/main/../src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-fro/blob/main/../src/fst/stems/verbs.lexc)</small>Nouns
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-fro/blob/main/../src/fst/stems/nouns.lexc)</small>
 
 
 We describe here how abbreviations are in Old French are read out, e.g.
