@@ -1,265 +1,5 @@
 Verb Inflection
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 *-er_verbs examples:*
 * *durer:* `durer+V+Inf`
 * *dur:* `durer+V+1s+Pres+Ind`
@@ -267,7 +7,6 @@ Verb Inflection
 * *dura:* `durer+V+3s+Perf+Ind`
 * *durerons:* `durer+V+1p+Fut+Ind`
 * *dure:* `durer+V+2s+Pres+Imp`
-
 
 *-ier_verbs examples:*
 * *aidier:* `aidier+V+Inf`
@@ -279,7 +18,6 @@ Verb Inflection
 * *aidierons:* `aidier+V+1p+Fut+Ind`
 * *aidieront:* `aidier+V+3p+Fut+Ind`
 * *aidasse:* `aidier+V+1s+Ipfv+Sbjv`
-
 
 *-ir_verbs examples:*
 * *choisir:* `choisir+V+Inf`
@@ -293,7 +31,6 @@ Verb Inflection
 * *choisiroie:* `choisir+V+1s+Pres+Cond`
 * *choisist:* `choisir+V+3s+Ipfv+Sbjv`
 * *choisist:* `choisir+V+3s+Pres+Ind`
-
 
 *-re_verbs examples:*
 * *perdre:* `perdre+V+Inf`
@@ -309,7 +46,6 @@ Verb Inflection
 * *perdu:* `perdre+V+3s+Perf+Ind`
 * *perdut:* `perdre+V+3s+Perf+Ind`
 
-
 *misc_verbs examples:*
 * *aveir:* `avoir+V+Inf`
 * *avoir:* `avoir+V+Inf`
@@ -321,4 +57,8 @@ Verb Inflection
 * *escrivanz:* `escrire+V+Part+Pres+Fem+Nom+Sg`
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-fro/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-fro/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+
