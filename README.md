@@ -2,7 +2,7 @@ The Old French morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-fro)](https://github.com/giellalt/lang-fro/issues)
-[![Build Status](https://github.com/giellalt/lang-fro/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-fro/actions)
+[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-fro/main/badge.svg)](https://github.com/giellalt/lang-fro/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-fro)](https://github.com/giellalt/lang-fro/blob/main/LICENSE)
 
 This repository contains finite state source files for the Old French language,
