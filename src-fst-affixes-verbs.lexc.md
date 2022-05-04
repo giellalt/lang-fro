@@ -1,6 +1,6 @@
 Verb Inflection
 
-*-er_verbs examples:*
+* -er_verbs examples:*
 * *durer:* `durer+V+Inf`
 * *dur:* `durer+V+1s+Pres+Ind`
 * *durat:* `durer+V+3s+Perf+Ind`
@@ -8,7 +8,7 @@ Verb Inflection
 * *durerons:* `durer+V+1p+Fut+Ind`
 * *dure:* `durer+V+2s+Pres+Imp`
 
-*-ier_verbs examples:*
+* -ier_verbs examples:*
 * *aidier:* `aidier+V+Inf`
 * *aidastes:* `aidier+V+2p+Perf+Ind`
 * *aidoit:* `aidier+V+3s+Ipfv+Ind`
@@ -19,7 +19,7 @@ Verb Inflection
 * *aidieront:* `aidier+V+3p+Fut+Ind`
 * *aidasse:* `aidier+V+1s+Ipfv+Sbjv`
 
-*-ir_verbs examples:*
+* -ir_verbs examples:*
 * *choisir:* `choisir+V+Inf`
 * *choisis:* `choisir+V+1s+Pres+Ind`
 * *choisis:* `choisir+V+2s+Pres+Ind`
@@ -32,7 +32,7 @@ Verb Inflection
 * *choisist:* `choisir+V+3s+Ipfv+Sbjv`
 * *choisist:* `choisir+V+3s+Pres+Ind`
 
-*-re_verbs examples:*
+* -re_verbs examples:*
 * *perdre:* `perdre+V+Inf`
 * *perds:* `perdre+V+2s+Pres+Ind`
 * *perdrons:* `perdre+V+1p+Fut+Ind`
@@ -46,7 +46,7 @@ Verb Inflection
 * *perdu:* `perdre+V+3s+Perf+Ind`
 * *perdut:* `perdre+V+3s+Perf+Ind`
 
-*misc_verbs examples:*
+* misc_verbs examples:*
 * *aveir:* `avoir+V+Inf`
 * *avoir:* `avoir+V+Inf`
 * *escrivant:* `escrire+V+Part+Pres+Masc+Obl+Sg`

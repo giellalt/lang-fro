@@ -1,7 +1,7 @@
 Noun inflection
 The Old French language nouns inflect in cases.
 
-*nouns examples:*
+* nouns examples:*
 * *fille:* `fille+N+Fem+Nom+Sg`
 * *file:* `fille+N+Fem+Nom+Sg`
 * *fille:* `fille+N+Fem+Obl+Sg`
