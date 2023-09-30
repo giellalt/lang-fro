@@ -2,7 +2,7 @@ The Old French morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-fro)](https://github.com/giellalt/lang-fro/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-fro/main/badge.svg)](https://github.com/giellalt/lang-fro/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-fro/main/badge.svg)](https://github.com/giellalt/lang-fro/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-fro)](https://github.com/giellalt/lang-fro/blob/main/LICENSE)
 [![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-fro?platform=desktop&channel=nightly)
 [![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-fro?platform=mbile&channel=nightly)
