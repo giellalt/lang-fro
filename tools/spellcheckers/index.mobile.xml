@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>fro</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Old French</title>
+    <title>Old French</title>
     <description>This is an fst-based speller for Old French. It is based
     on the normative subset of the morphological analyser for Old French.
     The source code can be found at:
