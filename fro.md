@@ -1,6 +1,10 @@
-# Old French description 
+# Old French language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-functions.cg3.md 
 
 
 
@@ -170,7 +174,14 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-fro/blob/main/src/cg3/functions.cg3)</small>Noun inflection
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-fro/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
+
+Noun inflection
 The Old French language nouns inflect in cases.
 
 * nouns examples:*
@@ -243,6 +254,8 @@ The Old French language nouns inflect in cases.
 
 ---
 
+# src-fst-morphology-affixes-verbs.lexc.md 
+
 Verb Inflection
 
 * -er_verbs examples:*
@@ -307,6 +320,8 @@ Verb Inflection
 
 ---
 
+# src-fst-morphology-phonology.twolc.md 
+
 =================================== !
 The Old French morphophonological/twolc rules file !
 =================================== !
@@ -329,6 +344,8 @@ Ordinals
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-fro/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
+
+# src-fst-morphology-root.lexc.md 
 
 
 General features
@@ -359,6 +376,8 @@ Archiphonemes
 
 ---
 
+# src-fst-morphology-stems-nouns.lexc.md 
+
 Nouns
 
 * * *
@@ -366,6 +385,8 @@ Nouns
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-fro/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-verbs.lexc.md 
 
 Verbs
 
@@ -377,6 +398,8 @@ conduire, criembre, tordre
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-fro/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -545,6 +568,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Old French are read out, e.g.
@@ -565,6 +590,8 @@ For example:
 
 ---
 
+# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+
 
 
 % komma% :,      Root ;
@@ -578,6 +605,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-fro/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
 # Tokeniser for fro
 
@@ -643,6 +672,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+
 # Grammar checker tokenisation for fro
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -706,6 +737,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -767,6 +800,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-fro/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-
