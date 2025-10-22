@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-fro)](https://github.com/giellalt/lang-fro/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-fro)](https://github.com/giellalt/lang-fro/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-fro?label=CI)](https://builds.giellalt.org/pipelines/lang-fro/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/oldf1239)
 
 This page documents the work on the **Old French language model**. 
 
