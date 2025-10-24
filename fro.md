@@ -4,7 +4,7 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-functions.cg3.md 
+## src-cg3-functions.cg3.md 
 
 
 
@@ -43,7 +43,7 @@ part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
 These were the set types.
 
-## HABITIVE MAPPING
+### HABITIVE MAPPING
 
 * **hab1** 
 
@@ -162,16 +162,16 @@ These were the set types.
 
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
-### sma object
+#### sma object
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 * **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
 
-## SUBJ MAPPING - leftovers
+### SUBJ MAPPING - leftovers
 
-## OBJ MAPPING - leftovers
+### OBJ MAPPING - leftovers
 
-## HNOUN MAPPING
+### HNOUN MAPPING
 
 * * *
 
@@ -179,7 +179,7 @@ These were the set types.
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
 Noun inflection
 The Old French language nouns inflect in cases.
@@ -254,7 +254,7 @@ The Old French language nouns inflect in cases.
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
 Verb Inflection
 
@@ -320,7 +320,7 @@ Verb Inflection
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
 =================================== !
 The Old French morphophonological/twolc rules file !
@@ -345,7 +345,7 @@ Ordinals
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
 General features
@@ -376,7 +376,7 @@ Archiphonemes
 
 ---
 
-# src-fst-morphology-stems-nouns.lexc.md 
+## src-fst-morphology-stems-nouns.lexc.md 
 
 Nouns
 
@@ -386,7 +386,7 @@ Nouns
 
 ---
 
-# src-fst-morphology-stems-verbs.lexc.md 
+## src-fst-morphology-stems-verbs.lexc.md 
 
 Verbs
 
@@ -399,7 +399,7 @@ conduire, criembre, tordre
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -568,7 +568,7 @@ retracted tongue root			_q
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -590,7 +590,7 @@ For example:
 
 ---
 
-# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+## src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
 
 
 
@@ -606,9 +606,9 @@ For example:
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for fro
+## Tokeniser for fro
 
 Usage:
 ```
@@ -653,7 +653,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -672,9 +672,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for fro
+## Grammar checker tokenisation for fro
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -737,9 +737,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:

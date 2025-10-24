@@ -1,0 +1,15 @@
+```geojson
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Old French",
+    "radius": 200,
+    "marker-color": "#ff4444",
+    "marker-size": "large"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [1.11, 48.8]
+  }
+}
+```
